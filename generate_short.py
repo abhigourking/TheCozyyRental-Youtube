@@ -1,10 +1,10 @@
 """
-End-to-end pipeline: pick a topic -> generate script (Gemini) -> voiceover
+End-to-end pipeline: pick a topic -> generate script (Groq) -> voiceover
 (Edge TTS) -> images (Pollinations.ai) -> assemble vertical video with
 captions (ffmpeg) -> upload to YouTube as a Short.
 
 Env vars required:
-    GEMINI_API_KEY      - from https://aistudio.google.com/apikey
+    GROQ_API_KEY        - from https://console.groq.com/keys
     YT_CLIENT_ID        - from credentials/client_secret.json
     YT_CLIENT_SECRET    - from credentials/client_secret.json
     YT_REFRESH_TOKEN    - produced once by local_auth.py
@@ -23,7 +23,6 @@ import asyncio
 from pathlib import Path
 
 import requests
-import google.generativeai as genai
 import edge_tts
 
 from google.oauth2.credentials import Credentials
@@ -35,9 +34,76 @@ TOPICS_FILE = ROOT / "topics.json"
 VOICE = "en-US-GuyNeural"
 VIDEO_SIZE = (1080, 1920)
 
+# Subreddits relevant to the channel niche - only pull "trending" candidates
+# from here, not open internet trends, to keep topics on-niche and reduce risk.
+TRENDING_SUBREDDITS = ["AirBnB", "travel", "vacationrentals", "digitalnomad"]
+
+# Basic safety net: skip any candidate whose title matches these. This is a
+# blunt keyword filter, not a substitute for judgement - combined with
+# Reddit's own NSFW flag and a curated subreddit list, and a safe static
+# fallback list if nothing clean is found.
+BLOCKED_KEYWORDS = [
+    "porn", "sex", "nsfw", "nude", "naked", "onlyfans", "escort",
+    "drug", "cocaine", "heroin", "meth", "weed", "marijuana",
+    "kill", "murder", "suicide", "self harm", "self-harm", "rape",
+    "assault", "shooting", "gun", "weapon", "bomb", "terroris",
+    "scam", "fraud", "steal", "stolen", "illegal", "trafficking",
+    "gambling", "casino", "bet ", "betting", "racist", "racism",
+    "nazi", "hate crime", "child", "minor", "underage",
+]
+
+
+def is_safe_topic(title):
+    lowered = title.lower()
+    return not any(bad in lowered for bad in BLOCKED_KEYWORDS)
+
+
+def get_trending_topic():
+    """Try to pull a safe, on-niche trending topic from Reddit's public JSON
+    API (no key required). Falls back to None if nothing suitable is found,
+    in which case the caller should fall back to the static topics.json list.
+    """
+    headers = {"User-Agent": "shorts-auto-pipeline/1.0"}
+    candidates = []
+    for sub in TRENDING_SUBREDDITS:
+        try:
+            r = requests.get(
+                f"https://www.reddit.com/r/{sub}/hot.json",
+                params={"limit": 15},
+                headers=headers,
+                timeout=15,
+            )
+            r.raise_for_status()
+            for post in r.json()["data"]["children"]:
+                d = post["data"]
+                title = d.get("title", "").strip()
+                if not title or len(title) < 15:
+                    continue
+                if d.get("over_18"):
+                    continue
+                if d.get("stickied"):
+                    continue
+                if not is_safe_topic(title):
+                    continue
+                candidates.append((d.get("ups", 0), title))
+        except Exception:
+            continue  # this subreddit failed, just skip it
+
+    if not candidates:
+        return None
+
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    return candidates[0][1]
+
 
 def pick_topic():
     data = json.loads(TOPICS_FILE.read_text())
+
+    if os.environ.get("USE_TRENDING", "true").lower() == "true":
+        trending = get_trending_topic()
+        if trending:
+            return trending, data["niche"]
+
     topics = data["topics"]
     idx = data.get("next_index", 0) % len(topics)
     topic = topics[idx]
@@ -47,9 +113,6 @@ def pick_topic():
 
 
 def generate_script(topic, niche):
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
-
     prompt = f"""You write scripts for YouTube Shorts in the niche: {niche}.
 Topic: {topic}
 
@@ -62,10 +125,24 @@ Return STRICT JSON with keys:
     - "visual_prompt": a short text-to-image prompt describing what should be shown
 
 Keep total narration under 130 words. First line must be a strong hook.
+Content must be strictly brand-safe and family-friendly: no adult content,
+violence, illegal activity, hate speech, drugs, gambling, or anything that
+could be flagged as unsafe for advertisers or YouTube's community guidelines.
 Output ONLY the JSON, no markdown fences."""
 
-    resp = model.generate_content(prompt)
-    text = resp.text.strip()
+    resp = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"},
+        json={
+            "model": "llama-3.3-70b-versatile",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.9,
+            "response_format": {"type": "json_object"},
+        },
+        timeout=60,
+    )
+    resp.raise_for_status()
+    text = resp.json()["choices"][0]["message"]["content"].strip()
     text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
     return json.loads(text)
 
@@ -175,6 +252,15 @@ def main():
     print("Topic:", topic)
 
     script = generate_script(topic, niche)
+
+    full_check_text = script["title"] + " " + script["description"] + " " + \
+        " ".join(b["line"] for b in script["beats"])
+    if not is_safe_topic(full_check_text):
+        raise SystemExit(
+            "Generated script failed the safety check - aborting without uploading. "
+            "Re-run to try a different topic."
+        )
+
     beats = script["beats"]
     full_text = " ".join(b["line"] for b in beats)
 

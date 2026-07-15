@@ -12,7 +12,7 @@ Generates a faceless YouTube Short daily (script -> voiceover -> images -> video
 
 Go to Settings -> Secrets and variables -> Actions -> New repository secret, and add:
 
-- `GEMINI_API_KEY`
+- `GROQ_API_KEY` (from https://console.groq.com/keys)
 - `YT_CLIENT_ID` (from client_secret.json)
 - `YT_CLIENT_SECRET` (from client_secret.json)
 - `YT_REFRESH_TOKEN` (printed by local_auth.py)
@@ -20,7 +20,7 @@ Go to Settings -> Secrets and variables -> Actions -> New repository secret, and
 ## Test locally before scheduling
 
 ```
-export GEMINI_API_KEY=...
+export GROQ_API_KEY=...
 export YT_CLIENT_ID=...
 export YT_CLIENT_SECRET=...
 export YT_REFRESH_TOKEN=...
