@@ -1,12 +1,9 @@
-name: Generate and Upload Shorts (2-3x/day)
+name: Generate and Upload Shorts (every 8 hours, 3x/day)
 
 on:
   schedule:
-    # Spread across the day (UTC) so it doesn't look like a bot firing on
-    # the same second daily - roughly US morning / afternoon / evening.
-    - cron: "0 14 * * *"    # ~10am ET / 7am PT
-    - cron: "0 19 * * *"    # ~3pm ET / 12pm PT
-    - cron: "30 23 * * *"   # ~7:30pm ET / 4:30pm PT
+    # Every 8 hours, evenly spaced: 00:00, 08:00, 16:00 UTC.
+    - cron: "0 0,8,16 * * *"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
 
 jobs:
@@ -36,6 +33,7 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           PRIVACY_STATUS: "private"   # change to "public" once you trust the output
           USE_TRENDING: "true"        # pull from Reddit trending (niche subs) with safety filtering; falls back to topics.json
+          MAX_ATTEMPTS: "1"           # no retry-with-new-topic - each retry re-downloads a full batch of images against a tight free-tier image API limit
         run: python generate_short.py
 
       - name: Commit updated topic pointer

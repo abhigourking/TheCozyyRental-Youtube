@@ -27,7 +27,6 @@ from concurrent.futures import ThreadPoolExecutor
 
 import requests
 import edge_tts
-from PIL import Image, ImageDraw
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -38,15 +37,13 @@ TOPICS_FILE = ROOT / "topics.json"
 VOICE = "en-US-GuyNeural"
 VIDEO_SIZE = (1080, 1920)
 
-# Curated for broad "fun/interesting trending" content - deliberately
-# excludes r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't
-# even fetch heavy news/tragedy/political content in the first place. This is
-# the primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
+# Curated for the DIY / city tours / nature niche - deliberately excludes
+# r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't even
+# fetch heavy news/tragedy/political content in the first place. This is the
+# primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
 TRENDING_SUBREDDITS = [
-    "todayilearned", "interestingasfuck", "Damnthatsinteresting",
-    "UpliftingNews", "technology", "science", "space", "gaming",
-    "movies", "nextfuckinglevel", "mildlyinteresting", "explainlikeimfive",
-    "Futurology", "gadgets",
+    "DIY", "crafts", "somethingimade", "nature", "wildlifephotography",
+    "travel", "backpacking", "hiking", "itookapicture", "NationalPark",
 ]
 
 # Basic safety net: skip any candidate whose title matches these. This is a
@@ -308,55 +305,6 @@ def make_ken_burns_clip(image_path, duration, out_path, zoom_in):
     ], check=True, capture_output=True)
 
 
-MASCOT_SIZE = 640
-ASSETS_DIR = ROOT / "assets"
-
-
-def ensure_mascot_assets():
-    """Builds (once, cached to disk) a simple reusable cartoon mascot face in
-    two states - mouth closed and mouth open - drawn programmatically so it's
-    perfectly consistent across every video (unlike asking an AI image
-    generator for "the same character" twice, which doesn't reliably work).
-    This is NOT true lip-sync/acting - it's a lightweight mouth-flap talking
-    effect, which is what's realistically achievable for free/automated.
-    """
-    ASSETS_DIR.mkdir(exist_ok=True)
-    closed_path = ASSETS_DIR / "mascot_closed.png"
-    open_path = ASSETS_DIR / "mascot_open.png"
-    if closed_path.exists() and open_path.exists():
-        return closed_path, open_path
-
-    def make(mouth_open):
-        s = MASCOT_SIZE
-        img = Image.new("RGBA", (s, s), (0, 0, 0, 0))
-        d = ImageDraw.Draw(img)
-        pad = int(s * 0.06)
-        d.ellipse([pad, pad, s - pad, s - pad],
-                  fill=(255, 200, 90, 255), outline=(40, 30, 20, 255), width=int(s * 0.015))
-        # eyes
-        eye_w, eye_h = s * 0.14, s * 0.18
-        for cx in (s * 0.34, s * 0.66):
-            d.ellipse([cx - eye_w / 2, s * 0.34, cx + eye_w / 2, s * 0.34 + eye_h],
-                      fill=(255, 255, 255, 255), outline=(30, 30, 30, 255), width=int(s * 0.01))
-            d.ellipse([cx - eye_w * 0.2, s * 0.34 + eye_h * 0.3, cx + eye_w * 0.2, s * 0.34 + eye_h * 0.75],
-                      fill=(25, 20, 15, 255))
-        # mouth
-        mx0, mx1 = s * 0.36, s * 0.64
-        if mouth_open:
-            d.ellipse([mx0, s * 0.62, mx1, s * 0.78],
-                      fill=(90, 30, 30, 255), outline=(30, 20, 15, 255), width=int(s * 0.012))
-        else:
-            d.line([mx0, s * 0.68, mx1, s * 0.68], fill=(30, 20, 15, 255), width=int(s * 0.018))
-        return img
-
-    make(False).save(closed_path)
-    make(True).save(open_path)
-    return closed_path, open_path
-
-
-MASCOT_FLAP_INTERVAL = 0.13
-
-
 def build_video(image_paths, durations, voice_path, srt_path, out_path):
     """image_paths/durations are the flattened, per-visual-cut lists (already
     expanded from beats -> individual quick shots by the caller)."""
@@ -379,43 +327,17 @@ def build_video(image_paths, durations, voice_path, srt_path, out_path):
             "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", str(FPS), str(silent_video)
         ], check=True, capture_output=True)
 
-        # Mascot mouth-flap: overlay the two PNGs directly (each looped as its
-        # own input) with time-based enable toggling, rather than pre-encoding
-        # a separate transparent video clip - an earlier version tried
-        # encoding the flap animation to a VP9/webm-with-alpha file first,
-        # but the alpha channel silently got flattened to fully opaque during
-        # that encode (a real bug, caught by rendering and inspecting actual
-        # frames), producing a solid black box instead of a transparent
-        # cutout. Overlaying the source PNGs directly avoids that lossy step
-        # entirely and was verified to render with correct transparency and
-        # genuine open/closed alternation.
-        closed_path, open_path = ensure_mascot_assets()
-        fi = MASCOT_FLAP_INTERVAL
-
         # Style is baked into the .ass file itself (see write_srt) instead of
         # passed via force_style on the command line - that CLI syntax turned
         # out to be fragile/inconsistent across ffmpeg versions (comma/colon
         # escaping breaks on some builds). A plain "subtitles=path" avoids
         # that entirely.
         srt_escaped = str(srt_path).replace("\\", "\\\\").replace(":", "\\:")
-
-        overlay_pos = "(main_w-overlay_w)/2:main_h-overlay_h-80"
-        filter_complex = (
-            f"[1:v]scale={MASCOT_SIZE}:{MASCOT_SIZE}[closed];"
-            f"[2:v]scale={MASCOT_SIZE}:{MASCOT_SIZE}[opened];"
-            f"[0:v][closed]overlay={overlay_pos}:enable='eq(mod(floor(t/{fi})\\,2)\\,0)'[tmp1];"
-            f"[tmp1][opened]overlay={overlay_pos}:enable='eq(mod(floor(t/{fi})\\,2)\\,1)'[tmp2];"
-            f"[tmp2]subtitles={srt_escaped}[vout]"
-        )
+        vf = f"subtitles={srt_escaped}"
 
         subprocess.run([
-            "ffmpeg", "-y",
-            "-i", str(silent_video),
-            "-loop", "1", "-i", str(closed_path),
-            "-loop", "1", "-i", str(open_path),
-            "-i", str(voice_path),
-            "-filter_complex", filter_complex,
-            "-map", "[vout]", "-map", "3:a",
+            "ffmpeg", "-y", "-i", str(silent_video), "-i", str(voice_path),
+            "-vf", vf,
             "-c:v", "libx264", "-c:a", "aac", "-shortest", str(out_path)
         ], check=True)
 

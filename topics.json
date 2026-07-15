@@ -1,16 +1,16 @@
 {
-  "niche": "general viral/trending content - interesting facts, tech, science, weird discoveries, pop culture (light and fun, not news/politics)",
+  "niche": "family-friendly content for kids and all ages - simple DIY/craft projects, fun city tours and travel spots, nature and wildlife wonders (light, fun, educational, not news/politics)",
   "topics": [
-    "A mind-blowing space fact most people don't know",
-    "A weird psychology trick that actually works",
-    "An AI breakthrough that sounds like sci-fi but is real",
-    "A strange animal ability that seems impossible",
-    "A historical fact that sounds fake but is 100% true",
-    "An everyday object with a surprising hidden origin story",
-    "A mystery of the ocean scientists still can't fully explain",
-    "A simple life hack that saves people hours every week",
-    "A fascinating fact about how the human brain tricks itself",
-    "A wild fact about the universe that puts everything in perspective"
+    "A simple DIY craft kids can make in 10 minutes with things at home",
+    "A hidden gem spot in a famous city most tourists miss",
+    "An amazing nature fact about a wild animal",
+    "A fun science experiment you can do in your kitchen",
+    "The most beautiful national park you've probably never heard of",
+    "A cool DIY recycling project that turns trash into something fun",
+    "An incredible fact about the world's tallest mountains",
+    "A fun walking tour idea for exploring a city like a local",
+    "A fascinating fact about how plants and trees actually work",
+    "A simple weekend DIY project for decorating your room"
   ],
-  "next_index": 2
+  "next_index": 0
 }
