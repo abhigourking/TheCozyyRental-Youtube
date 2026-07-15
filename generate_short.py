@@ -16,14 +16,18 @@ Optional:
 import os
 import json
 import re
+import random
+import time
 import subprocess
 import tempfile
 import shutil
 import asyncio
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 
 import requests
 import edge_tts
+from PIL import Image, ImageDraw
 
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -34,9 +38,16 @@ TOPICS_FILE = ROOT / "topics.json"
 VOICE = "en-US-GuyNeural"
 VIDEO_SIZE = (1080, 1920)
 
-# Subreddits relevant to the channel niche - only pull "trending" candidates
-# from here, not open internet trends, to keep topics on-niche and reduce risk.
-TRENDING_SUBREDDITS = ["AirBnB", "travel", "vacationrentals", "digitalnomad"]
+# Curated for broad "fun/interesting trending" content - deliberately
+# excludes r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't
+# even fetch heavy news/tragedy/political content in the first place. This is
+# the primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
+TRENDING_SUBREDDITS = [
+    "todayilearned", "interestingasfuck", "Damnthatsinteresting",
+    "UpliftingNews", "technology", "science", "space", "gaming",
+    "movies", "nextfuckinglevel", "mildlyinteresting", "explainlikeimfive",
+    "Futurology", "gadgets",
+]
 
 # Basic safety net: skip any candidate whose title matches these. This is a
 # blunt keyword filter, not a substitute for judgement - combined with
@@ -56,8 +67,26 @@ BLOCKED_KEYWORDS = [
     "nazi", "hate crime", "child abuse", "minor", "underage",
 ]
 
+# Second, broader filter specifically for trending-topic selection: skips
+# serious news / tragedy / politics even when it wouldn't otherwise trip the
+# hard safety blocklist above. Keeps the channel on "fun trending" content
+# rather than doom-scroll news, per the chosen content policy.
+SENSITIVE_KEYWORDS = [
+    "war", "invasion", "conflict", "military", "airstrike", "missile",
+    "casualties", "death toll", "dies", "died", "dead", "mourns", "funeral",
+    "earthquake", "tsunami", "hurricane", "wildfire", "flood", "disaster",
+    "outbreak", "pandemic", "epidemic", "crash", "explosion", "wildfire",
+    "protest", "riot", "strike", "layoffs", "recession", "indictment",
+    "lawsuit", "arrested", "scandal", "controversy", "election", "president",
+    "congress", "senate", "government shutdown", "impeach", "hostage",
+]
+
 _BLOCKED_PATTERN = re.compile(
     r"\b(" + "|".join(re.escape(w) for w in BLOCKED_KEYWORDS) + r")\b",
+    re.IGNORECASE,
+)
+_SENSITIVE_PATTERN = re.compile(
+    r"\b(" + "|".join(re.escape(w) for w in SENSITIVE_KEYWORDS) + r")\b",
     re.IGNORECASE,
 )
 
@@ -66,10 +95,33 @@ def is_safe_topic(title):
     return _BLOCKED_PATTERN.search(title) is None
 
 
+def find_blocked_match(text):
+    """Returns the matched keyword + surrounding snippet for diagnostics,
+    or None if nothing matched. Used to debug false positives without
+    needing to print/expose the entire generated script."""
+    m = _BLOCKED_PATTERN.search(text)
+    if not m:
+        return None
+    start = max(0, m.start() - 25)
+    end = min(len(text), m.end() + 25)
+    return m.group(0), text[start:end]
+
+
+def is_light_content(title):
+    """Extra filter used only for trending-topic selection: True if the
+    title avoids both the hard safety blocklist AND heavy news/politics."""
+    return is_safe_topic(title) and _SENSITIVE_PATTERN.search(title) is None
+
+
 def get_trending_topic():
-    """Try to pull a safe, on-niche trending topic from Reddit's public JSON
-    API (no key required). Falls back to None if nothing suitable is found,
-    in which case the caller should fall back to the static topics.json list.
+    """Pulls today's trending, lightweight/fun topics (no rental/property
+    focus) from Reddit's public JSON API (no key required) across a curated
+    set of "fun trending" subreddits - deliberately excludes news/politics
+    subs, and filters out anything sensitive/serious via is_light_content.
+    Picks randomly from the top 5 candidates by upvotes (not always the same
+    #1 post) so repeated runs in the same day don't all pick the same topic.
+    Returns None if nothing suitable is found, in which case the caller
+    should fall back to the static topics.json list.
     """
     headers = {"User-Agent": "shorts-auto-pipeline/1.0"}
     candidates = []
@@ -91,7 +143,7 @@ def get_trending_topic():
                     continue
                 if d.get("stickied"):
                     continue
-                if not is_safe_topic(title):
+                if not is_light_content(title):
                     continue
                 candidates.append((d.get("ups", 0), title))
         except Exception:
@@ -101,7 +153,8 @@ def get_trending_topic():
         return None
 
     candidates.sort(key=lambda x: x[0], reverse=True)
-    return candidates[0][1]
+    top5 = candidates[:5]
+    return random.choice(top5)[1]
 
 
 def pick_topic(force_static=False):
@@ -124,15 +177,36 @@ def generate_script(topic, niche):
     prompt = f"""You write scripts for YouTube Shorts in the niche: {niche}.
 Topic: {topic}
 
+This needs to be a full-length Short, roughly 55-70 seconds when read aloud
+at a normal pace - NOT a quick 8-10 second clip. Structure it like a proper
+piece of content people will actually watch to the end:
+1. A scroll-stopping hook in the first line (a bold claim, a question, or
+   "nobody tells you this" style opener)
+2. Build-up / context (1-2 lines)
+3. The main value: 4-7 concrete, specific tips/facts/steps - each its own
+   beat, each genuinely useful, not generic filler
+4. A strong closing line with a call to action (follow for more, comment
+   your experience, etc.)
+
+This should feel like a fast-paced, addictive, quick-cut viral Short (think
+TikTok/Reels editing style) - visuals should change every 1.5-2.5 seconds,
+NOT one slow static image per sentence. To achieve that, give each beat
+MULTIPLE quick visual shots instead of just one.
+
 Return STRICT JSON with keys:
 - "title": catchy YouTube title, under 90 chars
 - "description": 2-3 sentence description with a call to action
 - "hashtags": array of 5 relevant hashtags (no # symbol)
-- "beats": array of 4-6 objects, each with:
-    - "line": one sentence of narration (conversational, punchy, no filler)
-    - "visual_prompt": a short text-to-image prompt describing what should be shown
+- "beats": array of 9-14 objects (following the structure above), each with:
+    - "line": one sentence of narration (conversational, punchy, no filler,
+      roughly 12-20 words each)
+    - "visual_prompts": array of 2-3 short, specific text-to-image prompts,
+      each a DIFFERENT quick shot/angle/moment illustrating this line (not
+      near-duplicates of each other) - interesting, high-quality,
+      photorealistic, concrete scene/subject/composition, no vague prompts
 
-Keep total narration under 130 words. First line must be a strong hook.
+Target 160-220 words of total narration across all beats combined - this is
+important, do not undershoot it. First line must be a strong hook.
 Content must be strictly brand-safe and family-friendly: no adult content,
 violence, illegal activity, hate speech, drugs, gambling, or anything that
 could be flagged as unsafe for advertisers or YouTube's community guidelines.
@@ -155,17 +229,43 @@ Output ONLY the JSON, no markdown fences."""
     return json.loads(text)
 
 
-async def synthesize_voice(text, out_path):
-    communicate = edge_tts.Communicate(text, VOICE)
+async def synthesize_voice(text, out_path, rate="+18%"):
+    # Slightly faster than default speaking rate - matches the punchier,
+    # quick-cut editing style rather than a slow, deliberate voiceover.
+    communicate = edge_tts.Communicate(text, VOICE, rate=rate)
     await communicate.save(str(out_path))
 
 
-def download_image(prompt, out_path, width=1080, height=1920):
+def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
+    # Requesting above final 1080x1920 output resolution gives the zoompan
+    # (Ken Burns) effect in build_video room to zoom in without softening.
     url = f"https://image.pollinations.ai/prompt/{requests.utils.quote(prompt)}"
-    params = {"width": width, "height": height, "nologo": "true"}
-    r = requests.get(url, params=params, timeout=60)
-    r.raise_for_status()
-    out_path.write_bytes(r.content)
+    params = {"width": width, "height": height, "nologo": "true", "enhance": "true"}
+
+    last_detail = None
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, params=params, timeout=90)
+            if r.status_code == 429:
+                last_detail = f"HTTP 429: {r.text[:200]}"
+                wait = (2 ** attempt) * 3 + random.uniform(0, 2)
+                time.sleep(wait)
+                continue
+            if r.status_code >= 400:
+                last_detail = f"HTTP {r.status_code}: {r.text[:200]}"
+                time.sleep((2 ** attempt) + random.uniform(0, 1))
+                continue
+            r.raise_for_status()
+            out_path.write_bytes(r.content)
+            return
+        except requests.exceptions.RequestException as e:
+            last_detail = f"{type(e).__name__}: {e}"
+            time.sleep((2 ** attempt) + random.uniform(0, 1))
+
+    raise RuntimeError(
+        f"download_image failed after {max_retries} retries for prompt {prompt!r}. "
+        f"Last error: {last_detail}"
+    )
 
 
 def get_audio_duration(path):
@@ -177,38 +277,145 @@ def get_audio_duration(path):
     return float(out.stdout.strip())
 
 
-def build_video(beats, image_paths, voice_path, srt_path, out_path):
-    total_dur = get_audio_duration(voice_path)
-    per_image = total_dur / len(image_paths)
+FPS = 30
 
+
+def make_ken_burns_clip(image_path, duration, out_path, zoom_in):
+    """Turns a static image into a short video clip with a punchy zoom
+    (Ken Burns effect) instead of a hard static cut. Zoom speed is tuned for
+    short (~1.5-2.5s) quick-cut clips - fast enough to read as motion/energy
+    within a couple seconds rather than a barely-perceptible drift. Alternates
+    zoom-in/zoom-out across clips for variety.
+    """
+    frames = max(int(duration * FPS), 1)
+    # Zoom rate scales with duration so a short clip still visibly moves
+    # (zooms to ~1.15-1.25x over its lifetime) instead of looking static.
+    zoom_rate = min(0.25 / max(frames, 1), 0.006)
+    if zoom_in:
+        zoom_expr = f"min(zoom+{zoom_rate},1.3)"
+    else:
+        zoom_expr = f"if(eq(on,1),1.3,max(zoom-{zoom_rate},1.0))"
+
+    vf = (
+        f"scale=3000:-1,"
+        f"zoompan=z='{zoom_expr}':d={frames}:s={VIDEO_SIZE[0]}x{VIDEO_SIZE[1]}:fps={FPS},"
+        f"format=yuv420p"
+    )
+    subprocess.run([
+        "ffmpeg", "-y", "-loop", "1", "-i", str(image_path),
+        "-t", str(duration), "-vf", vf,
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", str(out_path)
+    ], check=True, capture_output=True)
+
+
+MASCOT_SIZE = 640
+ASSETS_DIR = ROOT / "assets"
+
+
+def ensure_mascot_assets():
+    """Builds (once, cached to disk) a simple reusable cartoon mascot face in
+    two states - mouth closed and mouth open - drawn programmatically so it's
+    perfectly consistent across every video (unlike asking an AI image
+    generator for "the same character" twice, which doesn't reliably work).
+    This is NOT true lip-sync/acting - it's a lightweight mouth-flap talking
+    effect, which is what's realistically achievable for free/automated.
+    """
+    ASSETS_DIR.mkdir(exist_ok=True)
+    closed_path = ASSETS_DIR / "mascot_closed.png"
+    open_path = ASSETS_DIR / "mascot_open.png"
+    if closed_path.exists() and open_path.exists():
+        return closed_path, open_path
+
+    def make(mouth_open):
+        s = MASCOT_SIZE
+        img = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        pad = int(s * 0.06)
+        d.ellipse([pad, pad, s - pad, s - pad],
+                  fill=(255, 200, 90, 255), outline=(40, 30, 20, 255), width=int(s * 0.015))
+        # eyes
+        eye_w, eye_h = s * 0.14, s * 0.18
+        for cx in (s * 0.34, s * 0.66):
+            d.ellipse([cx - eye_w / 2, s * 0.34, cx + eye_w / 2, s * 0.34 + eye_h],
+                      fill=(255, 255, 255, 255), outline=(30, 30, 30, 255), width=int(s * 0.01))
+            d.ellipse([cx - eye_w * 0.2, s * 0.34 + eye_h * 0.3, cx + eye_w * 0.2, s * 0.34 + eye_h * 0.75],
+                      fill=(25, 20, 15, 255))
+        # mouth
+        mx0, mx1 = s * 0.36, s * 0.64
+        if mouth_open:
+            d.ellipse([mx0, s * 0.62, mx1, s * 0.78],
+                      fill=(90, 30, 30, 255), outline=(30, 20, 15, 255), width=int(s * 0.012))
+        else:
+            d.line([mx0, s * 0.68, mx1, s * 0.68], fill=(30, 20, 15, 255), width=int(s * 0.018))
+        return img
+
+    make(False).save(closed_path)
+    make(True).save(open_path)
+    return closed_path, open_path
+
+
+MASCOT_FLAP_INTERVAL = 0.13
+
+
+def build_video(image_paths, durations, voice_path, srt_path, out_path):
+    """image_paths/durations are the flattened, per-visual-cut lists (already
+    expanded from beats -> individual quick shots by the caller)."""
     with tempfile.TemporaryDirectory() as td:
-        concat_file = Path(td) / "concat.txt"
-        lines = []
-        for img in image_paths:
-            lines.append(f"file '{img}'")
-            lines.append(f"duration {per_image}")
-        lines.append(f"file '{image_paths[-1]}'")
-        concat_file.write_text("\n".join(lines))
+        td = Path(td)
+        clip_paths = []
+        for i, (img, dur) in enumerate(zip(image_paths, durations)):
+            clip_path = td / f"clip_{i}.mp4"
+            make_ken_burns_clip(img, dur, clip_path, zoom_in=(i % 2 == 0))
+            clip_paths.append(clip_path)
 
-        silent_video = Path(td) / "silent.mp4"
+        concat_file = td / "concat.txt"
+        concat_file.write_text(
+            "\n".join(f"file '{c}'" for c in clip_paths)
+        )
+
+        silent_video = td / "silent.mp4"
         subprocess.run([
             "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
-            "-vf", f"scale={VIDEO_SIZE[0]}:{VIDEO_SIZE[1]}:force_original_aspect_ratio=increase,"
-                   f"crop={VIDEO_SIZE[0]}:{VIDEO_SIZE[1]}",
-            "-r", "30", "-pix_fmt", "yuv420p", str(silent_video)
-        ], check=True)
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", str(FPS), str(silent_video)
+        ], check=True, capture_output=True)
 
-        # Style is baked into the .ass file itself (see write_ass) instead of
+        # Mascot mouth-flap: overlay the two PNGs directly (each looped as its
+        # own input) with time-based enable toggling, rather than pre-encoding
+        # a separate transparent video clip - an earlier version tried
+        # encoding the flap animation to a VP9/webm-with-alpha file first,
+        # but the alpha channel silently got flattened to fully opaque during
+        # that encode (a real bug, caught by rendering and inspecting actual
+        # frames), producing a solid black box instead of a transparent
+        # cutout. Overlaying the source PNGs directly avoids that lossy step
+        # entirely and was verified to render with correct transparency and
+        # genuine open/closed alternation.
+        closed_path, open_path = ensure_mascot_assets()
+        fi = MASCOT_FLAP_INTERVAL
+
+        # Style is baked into the .ass file itself (see write_srt) instead of
         # passed via force_style on the command line - that CLI syntax turned
         # out to be fragile/inconsistent across ffmpeg versions (comma/colon
         # escaping breaks on some builds). A plain "subtitles=path" avoids
         # that entirely.
         srt_escaped = str(srt_path).replace("\\", "\\\\").replace(":", "\\:")
-        vf = f"subtitles={srt_escaped}"
+
+        overlay_pos = "(main_w-overlay_w)/2:main_h-overlay_h-80"
+        filter_complex = (
+            f"[1:v]scale={MASCOT_SIZE}:{MASCOT_SIZE}[closed];"
+            f"[2:v]scale={MASCOT_SIZE}:{MASCOT_SIZE}[opened];"
+            f"[0:v][closed]overlay={overlay_pos}:enable='eq(mod(floor(t/{fi})\\,2)\\,0)'[tmp1];"
+            f"[tmp1][opened]overlay={overlay_pos}:enable='eq(mod(floor(t/{fi})\\,2)\\,1)'[tmp2];"
+            f"[tmp2]subtitles={srt_escaped}[vout]"
+        )
 
         subprocess.run([
-            "ffmpeg", "-y", "-i", str(silent_video), "-i", str(voice_path),
-            "-vf", vf,
+            "ffmpeg", "-y",
+            "-i", str(silent_video),
+            "-loop", "1", "-i", str(closed_path),
+            "-loop", "1", "-i", str(open_path),
+            "-i", str(voice_path),
+            "-filter_complex", filter_complex,
+            "-map", "[vout]", "-map", "3:a",
             "-c:v", "libx264", "-c:a", "aac", "-shortest", str(out_path)
         ], check=True)
 
@@ -288,40 +495,94 @@ def run_once(topic, niche):
     voice -> images -> video -> upload. Raises on any failure; caller decides
     whether to retry with a different topic."""
     work = Path(tempfile.mkdtemp())
-    print("Topic:", topic)
+    print("Topic:", topic, flush=True)
 
+    print("Generating script (Groq)...", flush=True)
     script = generate_script(topic, niche)
+    print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
 
     full_check_text = script["title"] + " " + script["description"] + " " + \
         " ".join(b["line"] for b in script["beats"])
     if not is_safe_topic(full_check_text):
+        match = find_blocked_match(full_check_text)
+        print(f"Safety check matched: {match[0]!r} in context: ...{match[1]}...", flush=True)
         raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
 
     beats = script["beats"]
     full_text = " ".join(b["line"] for b in beats)
 
+    print("Synthesizing voiceover (Edge TTS)...", flush=True)
     voice_path = work / "voice.mp3"
     asyncio.run(synthesize_voice(full_text, voice_path))
 
-    image_paths = []
-    for i, beat in enumerate(beats):
-        img_path = work / f"img_{i}.jpg"
-        download_image(beat["visual_prompt"], img_path)
-        image_paths.append(img_path)
-
     total_dur = get_audio_duration(voice_path)
-    per_beat = total_dur / len(beats)
-    durations = [per_beat] * len(beats)
-    srt_path = work / "captions.ass"
-    write_srt(beats, durations, srt_path)
+    print(f"Voiceover ready: {total_dur:.1f}s", flush=True)
 
+    # Proportional pacing: a beat with more words gets more screen time,
+    # instead of every beat getting an equal slice regardless of length.
+    word_counts = [max(len(b["line"].split()), 1) for b in beats]
+    total_words = sum(word_counts)
+    beat_durations = [total_dur * (wc / total_words) for wc in word_counts]
+
+    srt_path = work / "captions.ass"
+    write_srt(beats, beat_durations, srt_path)
+
+    # Fast quick-cut editing: each beat gets 2-3 distinct visual shots
+    # (downloaded images) instead of one static image for its whole duration.
+    shots = []  # list of (prompt, shot_duration)
+    for beat, beat_dur in zip(beats, beat_durations):
+        prompts = beat.get("visual_prompts") or [beat.get("visual_prompt", beat["line"])]
+        prompts = prompts[:3] or [beat["line"]]
+        shot_dur = beat_dur / len(prompts)
+        for p in prompts:
+            shots.append((p, shot_dur))
+
+    # Sequential, not parallel: Pollinations' free tier enforces a hard
+    # "max 1 queued request per IP" limit (confirmed via its actual 429
+    # response body) - any concurrency at all trips it immediately. A small
+    # pacing delay between requests avoids hammering it back-to-back.
+    print(f"Fetching {len(shots)} images (sequential, ~1s apart - this is the slow part)...", flush=True)
+    shot_image_paths = []
+    for i, (prompt, _) in enumerate(shots):
+        img_path = work / f"img_{i}.jpg"
+        print(f"  image {i+1}/{len(shots)}: {prompt[:60]!r}...", flush=True)
+        download_image(prompt, img_path)
+        shot_image_paths.append(img_path)
+        time.sleep(0.6)
+    print("All images fetched.", flush=True)
+
+    # Cocomelon-style pacing: cap how long any single shot can hold the
+    # screen. If a shot is longer than MAX_CUT_DURATION, split it into
+    # several quick sub-cuts reusing the same image (each still gets its own
+    # zoom-in/out pass, so it reads as a real cut, not a freeze) rather than
+    # fetching even more images.
+    MAX_CUT_DURATION = 0.8
+    image_paths, durations = [], []
+    for img_path, shot_dur in zip(shot_image_paths, [d for _, d in shots]):
+        n_splits = max(1, round(shot_dur / MAX_CUT_DURATION))
+        sub_dur = shot_dur / n_splits
+        for _ in range(n_splits):
+            image_paths.append(img_path)
+            durations.append(sub_dur)
+
+    print(f"Assembling video: {len(image_paths)} quick cuts, {sum(durations):.1f}s total "
+          f"(ffmpeg encoding - this takes a bit)...", flush=True)
     out_video = work / "short.mp4"
-    build_video(beats, image_paths, voice_path, srt_path, out_video)
+    build_video(image_paths, durations, voice_path, srt_path, out_video)
+    print("Video assembled.", flush=True)
 
     final_path = ROOT / "output"
     final_path.mkdir(exist_ok=True)
     shutil.copy(out_video, final_path / "latest_short.mp4")
 
+    # Set SKIP_UPLOAD=true to render and save locally without touching
+    # YouTube at all - useful while you're still dialing in quality/pacing
+    # and don't want every test run to actually publish anything.
+    if os.environ.get("SKIP_UPLOAD", "false").lower() == "true":
+        print(f"SKIP_UPLOAD is set - not uploading. Saved to {final_path / 'latest_short.mp4'}", flush=True)
+        return
+
+    print("Uploading to YouTube...", flush=True)
     upload_to_youtube(
         out_video,
         title=script["title"],

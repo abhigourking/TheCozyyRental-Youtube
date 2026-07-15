@@ -17,7 +17,22 @@ Go to Settings -> Secrets and variables -> Actions -> New repository secret, and
 - `YT_CLIENT_SECRET` (from client_secret.json)
 - `YT_REFRESH_TOKEN` (printed by local_auth.py)
 
-## Test locally before scheduling
+## Preview locally without uploading (recommended while dialing in quality)
+
+Only needs the Groq key - no YouTube credentials required at all:
+
+```
+export GROQ_API_KEY=...
+export SKIP_UPLOAD=true
+python generate_short.py
+```
+
+This runs the full pipeline (script, voice, images, mascot, video) and saves the
+result to `output/latest_short.mp4` for you to review, without touching YouTube.
+Repeat as many times as you want to tune pacing/style before ever uploading -
+each run picks a new topic and overwrites `latest_short.mp4`.
+
+## Test the real upload once you're happy with the output
 
 ```
 export GROQ_API_KEY=...

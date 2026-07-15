@@ -1,16 +1,16 @@
 {
-  "niche": "short-term rental / travel & home tips",
+  "niche": "general viral/trending content - interesting facts, tech, science, weird discoveries, pop culture (light and fun, not news/politics)",
   "topics": [
-    "3 red flags to spot in an Airbnb listing before you book",
-    "How to make any rental feel like a 5-star hotel in 10 minutes",
-    "The one photo trick that gets your listing more bookings",
-    "Hidden fees hosts don't tell you about",
-    "How to negotiate a better rate on a long stay",
-    "What top-rated hosts do differently",
-    "The best time of year to book a vacation rental for cheap",
-    "Amenities that actually matter vs ones that don't",
-    "How to tell if a listing's reviews are fake",
-    "Packing hacks for a week-long rental stay"
+    "A mind-blowing space fact most people don't know",
+    "A weird psychology trick that actually works",
+    "An AI breakthrough that sounds like sci-fi but is real",
+    "A strange animal ability that seems impossible",
+    "A historical fact that sounds fake but is 100% true",
+    "An everyday object with a surprising hidden origin story",
+    "A mystery of the ocean scientists still can't fully explain",
+    "A simple life hack that saves people hours every week",
+    "A fascinating fact about how the human brain tricks itself",
+    "A wild fact about the universe that puts everything in perspective"
   ],
-  "next_index": 7
+  "next_index": 2
 }
