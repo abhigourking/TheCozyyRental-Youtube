@@ -41,21 +41,29 @@ TRENDING_SUBREDDITS = ["AirBnB", "travel", "vacationrentals", "digitalnomad"]
 # Basic safety net: skip any candidate whose title matches these. This is a
 # blunt keyword filter, not a substitute for judgement - combined with
 # Reddit's own NSFW flag and a curated subreddit list, and a safe static
-# fallback list if nothing clean is found.
+# fallback list if nothing clean is found. Matched as whole words only
+# (via \b boundaries) to avoid false positives like "skills" containing
+# "kill" or "therapist" containing "rape" (the "Scunthorpe problem").
 BLOCKED_KEYWORDS = [
     "porn", "sex", "nsfw", "nude", "naked", "onlyfans", "escort",
-    "drug", "cocaine", "heroin", "meth", "weed", "marijuana",
-    "kill", "murder", "suicide", "self harm", "self-harm", "rape",
-    "assault", "shooting", "gun", "weapon", "bomb", "terroris",
+    "drug", "drugs", "cocaine", "heroin", "meth", "weed", "marijuana",
+    "kill", "kills", "killed", "killing", "murder", "suicide",
+    "self harm", "self-harm", "rape", "raped",
+    "assault", "shooting", "shoot", "gun", "guns", "weapon", "weapons",
+    "bomb", "terrorist", "terrorism",
     "scam", "fraud", "steal", "stolen", "illegal", "trafficking",
-    "gambling", "casino", "bet ", "betting", "racist", "racism",
-    "nazi", "hate crime", "child", "minor", "underage",
+    "gambling", "casino", "bet", "betting", "racist", "racism",
+    "nazi", "hate crime", "child abuse", "minor", "underage",
 ]
+
+_BLOCKED_PATTERN = re.compile(
+    r"\b(" + "|".join(re.escape(w) for w in BLOCKED_KEYWORDS) + r")\b",
+    re.IGNORECASE,
+)
 
 
 def is_safe_topic(title):
-    lowered = title.lower()
-    return not any(bad in lowered for bad in BLOCKED_KEYWORDS)
+    return _BLOCKED_PATTERN.search(title) is None
 
 
 def get_trending_topic():
@@ -96,10 +104,10 @@ def get_trending_topic():
     return candidates[0][1]
 
 
-def pick_topic():
+def pick_topic(force_static=False):
     data = json.loads(TOPICS_FILE.read_text())
 
-    if os.environ.get("USE_TRENDING", "true").lower() == "true":
+    if not force_static and os.environ.get("USE_TRENDING", "true").lower() == "true":
         trending = get_trending_topic()
         if trending:
             return trending, data["niche"]
@@ -190,28 +198,53 @@ def build_video(beats, image_paths, voice_path, srt_path, out_path):
             "-r", "30", "-pix_fmt", "yuv420p", str(silent_video)
         ], check=True)
 
+        # Style is baked into the .ass file itself (see write_ass) instead of
+        # passed via force_style on the command line - that CLI syntax turned
+        # out to be fragile/inconsistent across ffmpeg versions (comma/colon
+        # escaping breaks on some builds). A plain "subtitles=path" avoids
+        # that entirely.
+        srt_escaped = str(srt_path).replace("\\", "\\\\").replace(":", "\\:")
+        vf = f"subtitles={srt_escaped}"
+
         subprocess.run([
             "ffmpeg", "-y", "-i", str(silent_video), "-i", str(voice_path),
-            "-vf", f"subtitles={srt_path}:force_style='FontSize=16,PrimaryColour=&HFFFFFF&,"
-                   f"OutlineColour=&H000000&,BorderStyle=3,Alignment=2,MarginV=120'",
+            "-vf", vf,
             "-c:v", "libx264", "-c:a", "aac", "-shortest", str(out_path)
         ], check=True)
 
 
 def write_srt(beats, durations, out_path):
+    """Writes an .ass subtitle file (despite the name, kept for compatibility
+    with callers) with the caption style baked into the file header - no
+    CLI-side force_style escaping needed."""
+
     def fmt(t):
         h = int(t // 3600); m = int((t % 3600) // 60); s = t % 60
-        return f"{h:02d}:{m:02d}:{s:06.3f}".replace(".", ",")
+        cs = int((t - int(t)) * 100)
+        return f"{h:d}:{m:02d}:{int(s):02d}.{cs:02d}"
 
-    lines = []
+    header = """[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,3,0,2,60,60,140,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+
+    lines = [header]
     t = 0.0
-    for i, (beat, dur) in enumerate(zip(beats, durations), start=1):
+    for beat, dur in zip(beats, durations):
         start, end = t, t + dur
-        lines.append(str(i))
-        lines.append(f"{fmt(start)} --> {fmt(end)}")
-        lines.append(beat["line"])
-        lines.append("")
+        text = beat["line"].replace("\n", " ").replace(",", "\\,")
+        lines.append(f"Dialogue: 0,{fmt(start)},{fmt(end)},Default,,0,0,0,,{text}")
         t = end
+
     out_path.write_text("\n".join(lines))
 
 
@@ -246,9 +279,15 @@ def upload_to_youtube(video_path, title, description, tags):
     return response.get("id")
 
 
-def main():
+class UnsafeTopicError(Exception):
+    pass
+
+
+def run_once(topic, niche):
+    """Runs the full pipeline for a single topic: script -> safety check ->
+    voice -> images -> video -> upload. Raises on any failure; caller decides
+    whether to retry with a different topic."""
     work = Path(tempfile.mkdtemp())
-    topic, niche = pick_topic()
     print("Topic:", topic)
 
     script = generate_script(topic, niche)
@@ -256,10 +295,7 @@ def main():
     full_check_text = script["title"] + " " + script["description"] + " " + \
         " ".join(b["line"] for b in script["beats"])
     if not is_safe_topic(full_check_text):
-        raise SystemExit(
-            "Generated script failed the safety check - aborting without uploading. "
-            "Re-run to try a different topic."
-        )
+        raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
 
     beats = script["beats"]
     full_text = " ".join(b["line"] for b in beats)
@@ -276,7 +312,7 @@ def main():
     total_dur = get_audio_duration(voice_path)
     per_beat = total_dur / len(beats)
     durations = [per_beat] * len(beats)
-    srt_path = work / "captions.srt"
+    srt_path = work / "captions.ass"
     write_srt(beats, durations, srt_path)
 
     out_video = work / "short.mp4"
@@ -291,6 +327,32 @@ def main():
         title=script["title"],
         description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in script["hashtags"]),
         tags=script["hashtags"],
+    )
+
+
+def main():
+    max_attempts = int(os.environ.get("MAX_ATTEMPTS", "3"))
+    last_error = None
+
+    for attempt in range(1, max_attempts + 1):
+        # First attempt uses trending (if enabled). Retries force the static
+        # topics.json rotation instead - trending would likely just return
+        # the same top candidate again and fail the same way.
+        force_static = attempt > 1
+        topic, niche = pick_topic(force_static=force_static)
+
+        try:
+            run_once(topic, niche)
+            print(f"Success on attempt {attempt}/{max_attempts}.")
+            return
+        except Exception as e:
+            last_error = e
+            print(f"Attempt {attempt}/{max_attempts} failed for topic {topic!r}: {e}")
+            if attempt < max_attempts:
+                print("Retrying with a different topic...")
+
+    raise SystemExit(
+        f"All {max_attempts} attempts failed. Last error: {last_error}"
     )
 
 
