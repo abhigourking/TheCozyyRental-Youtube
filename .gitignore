@@ -1,0 +1,9 @@
+credentials/
+*.env
+.env
+token.json
+token.pickle
+output/
+__pycache__/
+*.pyc
+.DS_Store

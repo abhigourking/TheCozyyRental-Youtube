@@ -1,0 +1,32 @@
+"""
+Run this ONCE, locally on your Mac (not in GitHub Actions), to authorize
+this app against your YouTube channel and produce a refresh token that
+GitHub Actions can use for unattended uploads.
+
+Usage:
+    python local_auth.py
+
+This will open a browser window, ask you to log into the Google account
+that owns the YouTube channel, and approve access. When it's done it
+prints a refresh token — copy that value into a GitHub Actions secret
+named YT_REFRESH_TOKEN.
+"""
+
+from google_auth_oauthlib.flow import InstalledAppFlow
+
+SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+CLIENT_SECRET_FILE = "credentials/client_secret.json"
+
+def main():
+    flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRET_FILE, SCOPES)
+    creds = flow.run_local_server(port=0)
+
+    print("\n--- SUCCESS ---")
+    print("Add this as a GitHub Actions secret named YT_REFRESH_TOKEN:\n")
+    print(creds.refresh_token)
+    print("\nAlso keep these for reference (already in client_secret.json):")
+    print("client_id:", creds.client_id)
+    print("client_secret:", creds.client_secret)
+
+if __name__ == "__main__":
+    main()

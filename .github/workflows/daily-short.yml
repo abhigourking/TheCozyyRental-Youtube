@@ -1,0 +1,39 @@
+name: Generate and Upload Daily Short
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 15:00 UTC daily - adjust to your preferred posting time
+  workflow_dispatch: {}     # lets you trigger it manually from the Actions tab
+
+jobs:
+  generate-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PRIVACY_STATUS: "private"   # change to "public" once you trust the output
+        run: python generate_short.py
+
+      - name: Commit updated topic pointer
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "actions@github.com"
+          git add topics.json
+          git commit -m "chore: advance topic pointer [skip ci]" || echo "nothing to commit"
+          git push
