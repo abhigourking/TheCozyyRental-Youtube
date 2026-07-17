@@ -31,7 +31,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          PRIVACY_STATUS: "private"   # change to "public" once you trust the output
+          PRIVACY_STATUS: "public"
           USE_TRENDING: "true"        # pull from Reddit trending (niche subs) with safety filtering; falls back to topics.json
           MAX_ATTEMPTS: "1"           # no retry-with-new-topic - each retry re-downloads a full batch of images against a tight free-tier image API limit
         run: python generate_short.py
