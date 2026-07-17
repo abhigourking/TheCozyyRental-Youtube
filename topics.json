@@ -1,16 +1,17 @@
 {
-  "niche": "family-friendly content for kids and all ages - simple DIY/craft projects, fun city tours and travel spots, nature and wildlife wonders (light, fun, educational, not news/politics)",
+  "niche": "engaging travel, food, and technology content for a general audience - stunning travel destinations and city tours, delicious food and street eats, cool gadgets and tech innovations (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
   "topics": [
-    "A simple DIY craft kids can make in 10 minutes with things at home",
-    "A hidden gem spot in a famous city most tourists miss",
-    "An amazing nature fact about a wild animal",
-    "A fun science experiment you can do in your kitchen",
-    "The most beautiful national park you've probably never heard of",
-    "A cool DIY recycling project that turns trash into something fun",
-    "An incredible fact about the world's tallest mountains",
-    "A fun walking tour idea for exploring a city like a local",
-    "A fascinating fact about how plants and trees actually work",
-    "A simple weekend DIY project for decorating your room"
+    "A stunning travel destination most people don't know about",
+    "A mouth-watering street food you have to try at least once",
+    "A cool new gadget or tech invention changing everyday life",
+    "The most beautiful walking tour route in a famous city",
+    "A surprising fact about a popular tourist attraction",
+    "An amazing regional dish and the story behind it",
+    "A futuristic piece of technology you'll want in your home",
+    "A hidden food market or street food alley worth visiting",
+    "A breathtaking natural landmark perfect for a bucket list trip",
+    "A simple gadget or tech hack that makes daily life easier"
   ],
-  "next_index": 0
+  "next_index": 0,
+  "next_language": "en"
 }

@@ -4,6 +4,7 @@ credentials/
 token.json
 token.pickle
 output/
+queue/
 __pycache__/
 *.pyc
 .DS_Store

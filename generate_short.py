@@ -1,7 +1,9 @@
 """
 End-to-end pipeline: pick a topic -> generate script (Groq) -> voiceover
-(Edge TTS) -> images (Pollinations.ai) -> assemble vertical video with
-captions (ffmpeg) -> upload to YouTube as a Short.
+(Edge TTS) -> visuals (real stock footage via Pexels, falling back to
+Pollinations.ai AI images with a Ken Burns zoom if no stock match is found)
+-> assemble vertical video with captions (ffmpeg) -> upload to YouTube as a
+Short.
 
 Env vars required:
     GROQ_API_KEY        - from https://console.groq.com/keys
@@ -10,6 +12,8 @@ Env vars required:
     YT_REFRESH_TOKEN    - produced once by local_auth.py
 
 Optional:
+    PEXELS_API_KEY      - from https://www.pexels.com/api/ (free). Without
+                           this, every shot falls back to AI images.
     PRIVACY_STATUS      - "private" (default, safe for testing), "unlisted", or "public"
 """
 
@@ -34,16 +38,26 @@ from googleapiclient.http import MediaFileUpload
 
 ROOT = Path(__file__).parent
 TOPICS_FILE = ROOT / "topics.json"
-VOICE = "en-US-GuyNeural"
+
+# Alternates every run (state persisted in topics.json). Each language needs
+# its own Edge TTS neural voice and its own subtitle font (see write_srt) -
+# Devanagari script needs a font that actually has those glyphs, Latin fonts
+# render it as blank boxes.
+VOICES = {
+    "en": "en-US-GuyNeural",
+    "hi": "hi-IN-MadhurNeural",
+}
 VIDEO_SIZE = (1080, 1920)
 
-# Curated for the DIY / city tours / nature niche - deliberately excludes
+# Curated for the travel / food / technology niche - visually rich subjects
+# that read well as fast photo/video slideshows. Deliberately excludes
 # r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't even
 # fetch heavy news/tragedy/political content in the first place. This is the
 # primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
 TRENDING_SUBREDDITS = [
-    "DIY", "crafts", "somethingimade", "nature", "wildlifephotography",
-    "travel", "backpacking", "hiking", "itookapicture", "NationalPark",
+    "travel", "backpacking", "itookapicture", "hiking",
+    "food", "recipes", "EatCheapAndHealthy",
+    "gadgets", "technology",
 ]
 
 # Basic safety net: skip any candidate whose title matches these. This is a
@@ -170,9 +184,34 @@ def pick_topic(force_static=False):
     return topic, data["niche"]
 
 
-def generate_script(topic, niche):
+def pick_language():
+    """Alternates en/hi every run, state persisted in topics.json so it
+    survives across separate GitHub Actions runs (each run is a fresh
+    checkout, only topics.json's committed state carries over)."""
+    data = json.loads(TOPICS_FILE.read_text())
+    lang = data.get("next_language", "en")
+    data["next_language"] = "hi" if lang == "en" else "en"
+    TOPICS_FILE.write_text(json.dumps(data, indent=2))
+    return lang
+
+
+def generate_script(topic, niche, language="en"):
+    if language == "hi":
+        language_instruction = """LANGUAGE: Write "title", "description", and every beat's "line" entirely
+in Hindi using Devanagari script (not Hinglish/romanized). Keep the tone
+natural and conversational, like a popular Hindi YouTube creator - not a
+stiff textbook translation. Hashtags may stay in English (common practice
+for reach). IMPORTANT EXCEPTION: "visual_prompts" must ALWAYS be written in
+English regardless of narration language, since they are search queries
+against an English-language stock footage database - Hindi search terms
+will return no results."""
+    else:
+        language_instruction = 'LANGUAGE: Write everything in English.'
+
     prompt = f"""You write scripts for YouTube Shorts in the niche: {niche}.
 Topic: {topic}
+
+{language_instruction}
 
 This needs to be a full-length Short, roughly 55-70 seconds when read aloud
 at a normal pace - NOT a quick 8-10 second clip. Structure it like a proper
@@ -197,10 +236,13 @@ Return STRICT JSON with keys:
 - "beats": array of 9-14 objects (following the structure above), each with:
     - "line": one sentence of narration (conversational, punchy, no filler,
       roughly 12-20 words each)
-    - "visual_prompts": array of 2-3 short, specific text-to-image prompts,
-      each a DIFFERENT quick shot/angle/moment illustrating this line (not
-      near-duplicates of each other) - interesting, high-quality,
-      photorealistic, concrete scene/subject/composition, no vague prompts
+    - "visual_prompts": array of 2-3 short stock-footage SEARCH PHRASES, in
+      English (2-5 words each, like you'd type into a stock video site -
+      e.g. "street food market night", "airplane window clouds", "smartphone
+      close up hands"), each a DIFFERENT quick shot/angle/moment illustrating
+      this line (not near-duplicates of each other). Keep these concrete and
+      common enough that real stock footage of them plausibly exists -
+      avoid overly specific or abstract phrasing
 
 Target 160-220 words of total narration across all beats combined - this is
 important, do not undershoot it. First line must be a strong hook.
@@ -226,10 +268,11 @@ Output ONLY the JSON, no markdown fences."""
     return json.loads(text)
 
 
-async def synthesize_voice(text, out_path, rate="+18%"):
+async def synthesize_voice(text, out_path, language="en", rate="+18%"):
     # Slightly faster than default speaking rate - matches the punchier,
     # quick-cut editing style rather than a slow, deliberate voiceover.
-    communicate = edge_tts.Communicate(text, VOICE, rate=rate)
+    voice = VOICES.get(language, VOICES["en"])
+    communicate = edge_tts.Communicate(text, voice, rate=rate)
     await communicate.save(str(out_path))
 
 
@@ -263,6 +306,56 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
         f"download_image failed after {max_retries} retries for prompt {prompt!r}. "
         f"Last error: {last_detail}"
     )
+
+
+def search_pexels_video(query):
+    """Searches Pexels' free video API for real stock footage matching the
+    query. Returns (video_file_url, source_duration_seconds) or None if no
+    key is configured, nothing matched, or the request failed - callers
+    should fall back to the AI image approach in that case."""
+    api_key = os.environ.get("PEXELS_API_KEY")
+    if not api_key:
+        return None
+    try:
+        r = requests.get(
+            "https://api.pexels.com/videos/search",
+            headers={"Authorization": api_key},
+            params={"query": query, "orientation": "portrait", "per_page": 3},
+            timeout=20,
+        )
+        if r.status_code != 200:
+            return None
+        videos = r.json().get("videos", [])
+        if not videos:
+            return None
+        video = random.choice(videos)
+        files = [f for f in video.get("video_files", []) if f.get("height", 0) >= 720]
+        if not files:
+            files = video.get("video_files", [])
+        if not files:
+            return None
+        files.sort(key=lambda f: f.get("height", 0))
+        chosen = files[len(files) // 2]  # middling quality/size, not the largest
+        return chosen["link"], video.get("duration", 10)
+    except requests.exceptions.RequestException:
+        return None
+
+
+def download_file(url, out_path, timeout=60):
+    r = requests.get(url, timeout=timeout, stream=True)
+    r.raise_for_status()
+    with open(out_path, "wb") as f:
+        for chunk in r.iter_content(chunk_size=1 << 16):
+            f.write(chunk)
+
+
+def trim_and_scale_clip(src_path, start, duration, out_path):
+    subprocess.run([
+        "ffmpeg", "-y", "-ss", str(max(start, 0)), "-i", str(src_path), "-t", str(duration),
+        "-vf", f"scale={VIDEO_SIZE[0]}:{VIDEO_SIZE[1]}:force_original_aspect_ratio=increase,"
+               f"crop={VIDEO_SIZE[0]}:{VIDEO_SIZE[1]}",
+        "-an", "-r", str(FPS), "-c:v", "libx264", "-pix_fmt", "yuv420p", str(out_path)
+    ], check=True, capture_output=True)
 
 
 def get_audio_duration(path):
@@ -305,17 +398,52 @@ def make_ken_burns_clip(image_path, duration, out_path, zoom_in):
     ], check=True, capture_output=True)
 
 
-def build_video(image_paths, durations, voice_path, srt_path, out_path):
-    """image_paths/durations are the flattened, per-visual-cut lists (already
-    expanded from beats -> individual quick shots by the caller)."""
+MAX_CUT_DURATION = 1.2  # cap on how long any single visual can hold the screen
+
+
+def prepare_shot_clips(prompt, shot_dur, work_dir, index):
+    """Returns a list of ready-made mp4 clips (already trimmed/scaled to the
+    target vertical size) covering shot_dur total. Tries real stock footage
+    from Pexels first (each sub-cut takes a different time-slice of the same
+    downloaded clip, so repeats show fresh motion rather than a frozen
+    frame); falls back to an AI-generated image with a Ken Burns zoom if no
+    stock match is available or Pexels isn't configured.
+    """
+    n_splits = max(1, round(shot_dur / MAX_CUT_DURATION))
+    sub_dur = shot_dur / n_splits
+
+    result = search_pexels_video(prompt)
+    if result:
+        video_url, src_duration = result
+        src_path = work_dir / f"src_{index}.mp4"
+        try:
+            download_file(video_url, src_path)
+            clips = []
+            for j in range(n_splits):
+                start = min(j * sub_dur, max(0, src_duration - sub_dur - 0.1))
+                out_path = work_dir / f"clip_{index}_{j}.mp4"
+                trim_and_scale_clip(src_path, start, sub_dur, out_path)
+                clips.append(out_path)
+            return clips, "stock"
+        except Exception:
+            pass  # fall through to the AI-image fallback below
+
+    img_path = work_dir / f"img_{index}.jpg"
+    download_image(prompt, img_path)
+    clips = []
+    for j in range(n_splits):
+        out_path = work_dir / f"clip_{index}_{j}.mp4"
+        make_ken_burns_clip(img_path, sub_dur, out_path, zoom_in=(j % 2 == 0))
+        clips.append(out_path)
+    return clips, "ai_image"
+
+
+def build_video(clip_paths, voice_path, srt_path, out_path):
+    """clip_paths are already-prepared mp4 clips (from prepare_shot_clips),
+    at their final target duration/resolution - just concatenate + caption +
+    mux audio."""
     with tempfile.TemporaryDirectory() as td:
         td = Path(td)
-        clip_paths = []
-        for i, (img, dur) in enumerate(zip(image_paths, durations)):
-            clip_path = td / f"clip_{i}.mp4"
-            make_ken_burns_clip(img, dur, clip_path, zoom_in=(i % 2 == 0))
-            clip_paths.append(clip_path)
-
         concat_file = td / "concat.txt"
         concat_file.write_text(
             "\n".join(f"file '{c}'" for c in clip_paths)
@@ -342,17 +470,24 @@ def build_video(image_paths, durations, voice_path, srt_path, out_path):
         ], check=True)
 
 
-def write_srt(beats, durations, out_path):
+def write_srt(beats, durations, out_path, language="en"):
     """Writes an .ass subtitle file (despite the name, kept for compatibility
     with callers) with the caption style baked into the file header - no
-    CLI-side force_style escaping needed."""
+    CLI-side force_style escaping needed.
+
+    Fontname must actually have glyphs for the script being rendered -
+    Devanagari (Hindi) needs a dedicated font or it renders as blank boxes.
+    The CI workflow installs both "Noto Sans" and "Noto Sans Devanagari" via
+    apt (fonts-noto-core / fonts-noto-devanagari) to match."""
 
     def fmt(t):
         h = int(t // 3600); m = int((t % 3600) // 60); s = t % 60
         cs = int((t - int(t)) * 100)
         return f"{h:d}:{m:02d}:{int(s):02d}.{cs:02d}"
 
-    header = """[Script Info]
+    font = "Noto Sans Devanagari" if language == "hi" else "Noto Sans"
+
+    header = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
 PlayResY: 1920
@@ -360,7 +495,7 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,3,0,2,60,60,140,1
+Style: Default,{font},64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,3,0,2,60,60,140,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -412,15 +547,16 @@ class UnsafeTopicError(Exception):
     pass
 
 
-def run_once(topic, niche):
+def run_once(topic, niche, language="en"):
     """Runs the full pipeline for a single topic: script -> safety check ->
     voice -> images -> video -> upload. Raises on any failure; caller decides
     whether to retry with a different topic."""
     work = Path(tempfile.mkdtemp())
     print("Topic:", topic, flush=True)
+    print("Language:", language, flush=True)
 
     print("Generating script (Groq)...", flush=True)
-    script = generate_script(topic, niche)
+    script = generate_script(topic, niche, language=language)
     print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
 
     full_check_text = script["title"] + " " + script["description"] + " " + \
@@ -435,7 +571,7 @@ def run_once(topic, niche):
 
     print("Synthesizing voiceover (Edge TTS)...", flush=True)
     voice_path = work / "voice.mp3"
-    asyncio.run(synthesize_voice(full_text, voice_path))
+    asyncio.run(synthesize_voice(full_text, voice_path, language=language))
 
     total_dur = get_audio_duration(voice_path)
     print(f"Voiceover ready: {total_dur:.1f}s", flush=True)
@@ -447,7 +583,7 @@ def run_once(topic, niche):
     beat_durations = [total_dur * (wc / total_words) for wc in word_counts]
 
     srt_path = work / "captions.ass"
-    write_srt(beats, beat_durations, srt_path)
+    write_srt(beats, beat_durations, srt_path, language=language)
 
     # Fast quick-cut editing: each beat gets 2-3 distinct visual shots
     # (downloaded images) instead of one static image for its whole duration.
@@ -459,38 +595,28 @@ def run_once(topic, niche):
         for p in prompts:
             shots.append((p, shot_dur))
 
-    # Sequential, not parallel: Pollinations' free tier enforces a hard
-    # "max 1 queued request per IP" limit (confirmed via its actual 429
-    # response body) - any concurrency at all trips it immediately. A small
-    # pacing delay between requests avoids hammering it back-to-back.
-    print(f"Fetching {len(shots)} images (sequential, ~1s apart - this is the slow part)...", flush=True)
-    shot_image_paths = []
-    for i, (prompt, _) in enumerate(shots):
-        img_path = work / f"img_{i}.jpg"
-        print(f"  image {i+1}/{len(shots)}: {prompt[:60]!r}...", flush=True)
-        download_image(prompt, img_path)
-        shot_image_paths.append(img_path)
-        time.sleep(0.6)
-    print("All images fetched.", flush=True)
+    # Sequential, not parallel: Pollinations' free tier (used only as the
+    # fallback when no stock footage matches) enforces a hard "max 1 queued
+    # request per IP" limit - any concurrency trips it immediately. Pexels'
+    # free tier is far more generous, but we keep this paced regardless.
+    print(f"Fetching {len(shots)} visuals (stock footage, falling back to AI images)...", flush=True)
+    all_clip_paths = []
+    stock_count = ai_count = 0
+    for i, (prompt, shot_dur) in enumerate(shots):
+        print(f"  shot {i+1}/{len(shots)}: {prompt[:60]!r}...", flush=True)
+        clips, source = prepare_shot_clips(prompt, shot_dur, work, i)
+        all_clip_paths.extend(clips)
+        if source == "stock":
+            stock_count += 1
+        else:
+            ai_count += 1
+        time.sleep(0.4)
+    print(f"All visuals ready ({stock_count} stock footage, {ai_count} AI image fallback).", flush=True)
 
-    # Cocomelon-style pacing: cap how long any single shot can hold the
-    # screen. If a shot is longer than MAX_CUT_DURATION, split it into
-    # several quick sub-cuts reusing the same image (each still gets its own
-    # zoom-in/out pass, so it reads as a real cut, not a freeze) rather than
-    # fetching even more images.
-    MAX_CUT_DURATION = 0.8
-    image_paths, durations = [], []
-    for img_path, shot_dur in zip(shot_image_paths, [d for _, d in shots]):
-        n_splits = max(1, round(shot_dur / MAX_CUT_DURATION))
-        sub_dur = shot_dur / n_splits
-        for _ in range(n_splits):
-            image_paths.append(img_path)
-            durations.append(sub_dur)
-
-    print(f"Assembling video: {len(image_paths)} quick cuts, {sum(durations):.1f}s total "
+    print(f"Assembling video: {len(all_clip_paths)} quick cuts, {total_dur:.1f}s total "
           f"(ffmpeg encoding - this takes a bit)...", flush=True)
     out_video = work / "short.mp4"
-    build_video(image_paths, durations, voice_path, srt_path, out_video)
+    build_video(all_clip_paths, voice_path, srt_path, out_video)
     print("Video assembled.", flush=True)
 
     final_path = ROOT / "output"
@@ -517,6 +643,10 @@ def main():
     max_attempts = int(os.environ.get("MAX_ATTEMPTS", "3"))
     last_error = None
 
+    # Picked once per invocation (not per attempt) and persisted in
+    # topics.json, so it alternates en/hi across separate scheduled runs.
+    language = pick_language()
+
     for attempt in range(1, max_attempts + 1):
         # First attempt uses trending (if enabled). Retries force the static
         # topics.json rotation instead - trending would likely just return
@@ -525,7 +655,7 @@ def main():
         topic, niche = pick_topic(force_static=force_static)
 
         try:
-            run_once(topic, niche)
+            run_once(topic, niche, language=language)
             print(f"Success on attempt {attempt}/{max_attempts}.")
             return
         except Exception as e:
