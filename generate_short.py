@@ -477,8 +477,8 @@ def write_srt(beats, durations, out_path, language="en"):
 
     Fontname must actually have glyphs for the script being rendered -
     Devanagari (Hindi) needs a dedicated font or it renders as blank boxes.
-    The CI workflow installs both "Noto Sans" and "Noto Sans Devanagari" via
-    apt (fonts-noto-core / fonts-noto-devanagari) to match."""
+    The CI workflow installs "fonts-noto-core" via apt, which bundles both
+    "Noto Sans" and "Noto Sans Devanagari"."""
 
     def fmt(t):
         h = int(t // 3600); m = int((t % 3600) // 60); s = t % 60

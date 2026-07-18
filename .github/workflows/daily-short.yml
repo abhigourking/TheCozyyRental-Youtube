@@ -17,10 +17,11 @@ jobs:
           python-version: "3.11"
 
       - name: Install ffmpeg + fonts
-        # fonts-noto-core covers Latin (English captions), fonts-noto-devanagari
-        # covers Hindi captions - without the latter, Hindi text renders as
-        # blank boxes since the default Ubuntu fonts have no Devanagari glyphs.
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-devanagari
+        # fonts-noto-core bundles Noto Sans Devanagari alongside Latin - no
+        # separate "fonts-noto-devanagari" package exists on Ubuntu. Without
+        # this, Hindi captions would render as blank boxes (default Ubuntu
+        # fonts have no Devanagari glyphs).
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-noto-core
 
       - name: Install Python deps
         run: pip install -r requirements.txt
