@@ -60,6 +60,30 @@ TRENDING_SUBREDDITS = [
     "gadgets", "technology",
 ]
 
+# Evergreen, proven high-reach hashtags for YouTube Shorts discovery - added
+# on top of Groq's 5 topic-specific hashtags rather than relying purely on
+# ones invented per-topic. Guarantees every upload has real "viral" tags,
+# not just niche-specific ones.
+UNIVERSAL_HASHTAGS = ["shorts", "youtubeshorts", "viral", "trending", "shortsfeed"]
+
+
+def build_hashtags(topic_hashtags):
+    """Merges the topic-specific hashtags with the evergreen universal ones,
+    de-duplicated case-insensitively and capped at 10 so it doesn't read as
+    tag spam. Always returns at least 5 (usually 8-10)."""
+    seen = set()
+    merged = []
+    for tag in list(topic_hashtags or []) + UNIVERSAL_HASHTAGS:
+        clean = tag.strip().lstrip("#")
+        if not clean:
+            continue
+        key = clean.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(clean)
+    return merged[:10]
+
 # Basic safety net: skip any candidate whose title matches these. This is a
 # blunt keyword filter, not a substitute for judgement - combined with
 # Reddit's own NSFW flag and a curated subreddit list, and a safe static
@@ -631,11 +655,12 @@ def run_once(topic, niche, language="en"):
         return
 
     print("Uploading to YouTube...", flush=True)
+    hashtags = build_hashtags(script["hashtags"])
     upload_to_youtube(
         out_video,
         title=script["title"],
-        description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in script["hashtags"]),
-        tags=script["hashtags"],
+        description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
+        tags=hashtags,
     )
 
 

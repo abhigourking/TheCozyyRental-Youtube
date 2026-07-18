@@ -17,7 +17,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from generate_short import VIDEO_SIZE, FPS, upload_to_youtube
+from generate_short import VIDEO_SIZE, FPS, upload_to_youtube, build_hashtags
 
 ROOT = Path(__file__).parent
 QUEUE_DIR = ROOT / "queue"
@@ -109,11 +109,12 @@ def main():
         return
 
     print("Uploading to YouTube...")
+    hashtags = build_hashtags(meta["hashtags"])
     upload_to_youtube(
         out_video,
         title=meta["title"],
-        description=meta["description"] + "\n\n" + " ".join(f"#{h}" for h in meta["hashtags"]),
-        tags=meta["hashtags"],
+        description=meta["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
+        tags=hashtags,
     )
 
 
