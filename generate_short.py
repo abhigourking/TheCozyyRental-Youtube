@@ -54,11 +54,13 @@ VIDEO_SIZE = (1080, 1920)
 # r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't even
 # fetch heavy news/tragedy/political content in the first place. This is the
 # primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
-TRENDING_SUBREDDITS = [
-    "travel", "backpacking", "itookapicture", "hiking",
-    "food", "recipes", "EatCheapAndHealthy",
-    "gadgets", "technology",
-]
+# Split by category (rather than one flat list) so performance data can bias
+# which category gets picked next - see compute_category_weights().
+CATEGORY_SUBREDDITS = {
+    "travel": ["travel", "backpacking", "itookapicture", "hiking"],
+    "food": ["food", "recipes", "EatCheapAndHealthy"],
+    "tech": ["gadgets", "technology"],
+}
 
 # Evergreen, proven high-reach hashtags for YouTube Shorts discovery - added
 # on top of Groq's 5 topic-specific hashtags rather than relying purely on
@@ -148,10 +150,10 @@ def is_light_content(title):
     return is_safe_topic(title) and _SENSITIVE_PATTERN.search(title) is None
 
 
-def get_trending_topic():
+def get_trending_topic(category):
     """Pulls today's trending, lightweight/fun topics (no rental/property
-    focus) from Reddit's public JSON API (no key required) across a curated
-    set of "fun trending" subreddits - deliberately excludes news/politics
+    focus) from Reddit's public JSON API (no key required) across the
+    subreddits for the given category - deliberately excludes news/politics
     subs, and filters out anything sensitive/serious via is_light_content.
     Picks randomly from the top 5 candidates by upvotes (not always the same
     #1 post) so repeated runs in the same day don't all pick the same topic.
@@ -160,7 +162,7 @@ def get_trending_topic():
     """
     headers = {"User-Agent": "shorts-auto-pipeline/1.0"}
     candidates = []
-    for sub in TRENDING_SUBREDDITS:
+    for sub in CATEGORY_SUBREDDITS.get(category, []):
         try:
             r = requests.get(
                 f"https://www.reddit.com/r/{sub}/hot.json",
@@ -192,20 +194,25 @@ def get_trending_topic():
     return random.choice(top5)[1]
 
 
-def pick_topic(force_static=False):
+def pick_topic(category=None, force_static=False):
+    if category is None:
+        category = random.choice(list(CATEGORY_SUBREDDITS.keys()))
     data = json.loads(TOPICS_FILE.read_text())
 
     if not force_static and os.environ.get("USE_TRENDING", "true").lower() == "true":
-        trending = get_trending_topic()
+        trending = get_trending_topic(category)
         if trending:
             return trending, data["niche"]
 
+    # Static fallback: topics are tagged with a category (see topics.json).
+    # Random rather than round-robin - the pool per category is small enough
+    # that strict rotation isn't worth the extra state to track.
     topics = data["topics"]
-    idx = data.get("next_index", 0) % len(topics)
-    topic = topics[idx]
-    data["next_index"] = (idx + 1) % len(topics)
-    TOPICS_FILE.write_text(json.dumps(data, indent=2))
-    return topic, data["niche"]
+    matching = [t for t in topics if t.get("category") == category]
+    if not matching:
+        matching = topics  # safety net if a category has no static entries
+    topic = random.choice(matching)
+    return topic["text"], data["niche"]
 
 
 def pick_language():
@@ -536,7 +543,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     out_path.write_text("\n".join(lines))
 
 
-def upload_to_youtube(video_path, title, description, tags):
+def get_youtube_client():
     creds = Credentials(
         None,
         refresh_token=os.environ["YT_REFRESH_TOKEN"],
@@ -544,7 +551,11 @@ def upload_to_youtube(video_path, title, description, tags):
         client_secret=os.environ["YT_CLIENT_SECRET"],
         token_uri="https://oauth2.googleapis.com/token",
     )
-    youtube = build("youtube", "v3", credentials=creds)
+    return build("youtube", "v3", credentials=creds)
+
+
+def upload_to_youtube(video_path, title, description, tags):
+    youtube = get_youtube_client()
 
     body = {
         "snippet": {
@@ -567,17 +578,114 @@ def upload_to_youtube(video_path, title, description, tags):
     return response.get("id")
 
 
+PERFORMANCE_FILE = ROOT / "performance_log.json"
+MIN_MATURITY_HOURS = 20   # give a video time to accumulate real views/likes
+                          # before it counts toward steering future topics
+MIN_SAMPLES_PER_CATEGORY = 3  # below this, treat the category as unproven
+                               # and keep exploring it rather than trusting
+                               # a tiny/noisy sample
+
+
+def load_performance_log():
+    if PERFORMANCE_FILE.exists():
+        return json.loads(PERFORMANCE_FILE.read_text())
+    return {"videos": []}
+
+
+def record_performance_entry(video_id, category, language, topic):
+    """Called right after a successful upload so we can look up its real
+    view/like counts later and use them to bias future topic selection."""
+    if not video_id:
+        return
+    data = load_performance_log()
+    data["videos"].append({
+        "video_id": video_id,
+        "category": category,
+        "language": language,
+        "topic": topic,
+        "posted_at": time.time(),
+    })
+    PERFORMANCE_FILE.write_text(json.dumps(data, indent=2))
+
+
+def compute_category_weights():
+    """Fetches current view/like counts (cheap - 1 quota unit per 50 videos,
+    nothing like the 1600-unit cost of an upload) for past videos old enough
+    to have accumulated real stats, and turns them into a weighted-random
+    distribution favoring categories that have historically performed
+    better. Categories with too few mature samples get a neutral weight
+    instead of zero, so we keep exploring them rather than writing them off
+    on noise. Fails open (equal weights) on any error - this is an
+    optimization, never something that should block a run."""
+    categories = list(CATEGORY_SUBREDDITS.keys())
+    equal_weights = {c: 1.0 for c in categories}
+
+    try:
+        data = load_performance_log()
+        now = time.time()
+        mature = [
+            v for v in data["videos"]
+            if now - v.get("posted_at", 0) >= MIN_MATURITY_HOURS * 3600
+        ]
+        if not mature:
+            return equal_weights
+
+        youtube = get_youtube_client()
+        stats_by_id = {}
+        ids = [v["video_id"] for v in mature]
+        for i in range(0, len(ids), 50):
+            batch = ids[i:i + 50]
+            resp = youtube.videos().list(part="statistics", id=",".join(batch)).execute()
+            for item in resp.get("items", []):
+                stats_by_id[item["id"]] = item.get("statistics", {})
+
+        scores_by_category = {c: [] for c in categories}
+        for v in mature:
+            stats = stats_by_id.get(v["video_id"])
+            if not stats:
+                continue
+            views = int(stats.get("viewCount", 0))
+            likes = int(stats.get("likeCount", 0))
+            # Likes weighted heavier than raw views - a like is a much
+            # stronger engagement signal than a passive view/impression.
+            score = views + likes * 10
+            cat = v.get("category")
+            if cat in scores_by_category:
+                scores_by_category[cat].append(score)
+
+        all_scores = [s for lst in scores_by_category.values() for s in lst]
+        overall_avg = (sum(all_scores) / len(all_scores)) if all_scores else 1.0
+
+        weights = {}
+        for c in categories:
+            lst = scores_by_category[c]
+            if len(lst) >= MIN_SAMPLES_PER_CATEGORY:
+                weights[c] = max(sum(lst) / len(lst), 1.0)
+            else:
+                weights[c] = overall_avg  # not enough data yet - keep exploring
+        return weights
+    except Exception as e:
+        print(f"compute_category_weights failed, falling back to equal weights: {e}", flush=True)
+        return equal_weights
+
+
+def pick_category(weights):
+    categories = list(weights.keys())
+    return random.choices(categories, weights=[weights[c] for c in categories], k=1)[0]
+
+
 class UnsafeTopicError(Exception):
     pass
 
 
-def run_once(topic, niche, language="en"):
+def run_once(topic, niche, language="en", category=None):
     """Runs the full pipeline for a single topic: script -> safety check ->
     voice -> images -> video -> upload. Raises on any failure; caller decides
     whether to retry with a different topic."""
     work = Path(tempfile.mkdtemp())
     print("Topic:", topic, flush=True)
     print("Language:", language, flush=True)
+    print("Category:", category, flush=True)
 
     print("Generating script (Groq)...", flush=True)
     script = generate_script(topic, niche, language=language)
@@ -656,12 +764,13 @@ def run_once(topic, niche, language="en"):
 
     print("Uploading to YouTube...", flush=True)
     hashtags = build_hashtags(script["hashtags"])
-    upload_to_youtube(
+    video_id = upload_to_youtube(
         out_video,
         title=script["title"],
         description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
         tags=hashtags,
     )
+    record_performance_entry(video_id, category, language, topic)
 
 
 def main():
@@ -672,15 +781,24 @@ def main():
     # topics.json, so it alternates en/hi across separate scheduled runs.
     language = pick_language()
 
+    # Weighted by how travel/food/tech videos have actually performed so
+    # far (views + likes on videos old enough to have real stats) - see
+    # compute_category_weights(). Categories with too little data yet get a
+    # neutral weight so we keep exploring instead of over-committing early.
+    weights = compute_category_weights()
+    category = pick_category(weights)
+    print(f"Category weights: { {k: round(v, 1) for k, v in weights.items()} }", flush=True)
+    print(f"Chosen category: {category}", flush=True)
+
     for attempt in range(1, max_attempts + 1):
         # First attempt uses trending (if enabled). Retries force the static
         # topics.json rotation instead - trending would likely just return
         # the same top candidate again and fail the same way.
         force_static = attempt > 1
-        topic, niche = pick_topic(force_static=force_static)
+        topic, niche = pick_topic(category, force_static=force_static)
 
         try:
-            run_once(topic, niche, language=language)
+            run_once(topic, niche, language=language, category=category)
             print(f"Success on attempt {attempt}/{max_attempts}.")
             return
         except Exception as e:

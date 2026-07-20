@@ -40,10 +40,11 @@ jobs:
           MAX_ATTEMPTS: "1"           # no retry-with-new-topic - each retry re-downloads a full batch of images against a tight free-tier image API limit
         run: python generate_short.py
 
-      - name: Commit updated topic pointer
+      - name: Commit updated state
         run: |
           git config user.name "shorts-bot"
           git config user.email "actions@github.com"
           git add topics.json
-          git commit -m "chore: advance topic pointer [skip ci]" || echo "nothing to commit"
+          [ -f performance_log.json ] && git add performance_log.json
+          git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
           git push
