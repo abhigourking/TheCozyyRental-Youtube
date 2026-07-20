@@ -1,16 +1,46 @@
 {
   "niche": "engaging travel, food, and technology content for a general audience - stunning travel destinations and city tours, delicious food and street eats, cool gadgets and tech innovations (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
   "topics": [
-    {"category": "travel", "text": "A stunning travel destination most people don't know about"},
-    {"category": "food", "text": "A mouth-watering street food you have to try at least once"},
-    {"category": "tech", "text": "A cool new gadget or tech invention changing everyday life"},
-    {"category": "travel", "text": "The most beautiful walking tour route in a famous city"},
-    {"category": "travel", "text": "A surprising fact about a popular tourist attraction"},
-    {"category": "food", "text": "An amazing regional dish and the story behind it"},
-    {"category": "tech", "text": "A futuristic piece of technology you'll want in your home"},
-    {"category": "food", "text": "A hidden food market or street food alley worth visiting"},
-    {"category": "travel", "text": "A breathtaking natural landmark perfect for a bucket list trip"},
-    {"category": "tech", "text": "A simple gadget or tech hack that makes daily life easier"}
+    {
+      "category": "travel",
+      "text": "A stunning travel destination most people don't know about"
+    },
+    {
+      "category": "food",
+      "text": "A mouth-watering street food you have to try at least once"
+    },
+    {
+      "category": "tech",
+      "text": "A cool new gadget or tech invention changing everyday life"
+    },
+    {
+      "category": "travel",
+      "text": "The most beautiful walking tour route in a famous city"
+    },
+    {
+      "category": "travel",
+      "text": "A surprising fact about a popular tourist attraction"
+    },
+    {
+      "category": "food",
+      "text": "An amazing regional dish and the story behind it"
+    },
+    {
+      "category": "tech",
+      "text": "A futuristic piece of technology you'll want in your home"
+    },
+    {
+      "category": "food",
+      "text": "A hidden food market or street food alley worth visiting"
+    },
+    {
+      "category": "travel",
+      "text": "A breathtaking natural landmark perfect for a bucket list trip"
+    },
+    {
+      "category": "tech",
+      "text": "A simple gadget or tech hack that makes daily life easier"
+    }
   ],
-  "next_language": "en"
+  "next_language": "hi"
 }
