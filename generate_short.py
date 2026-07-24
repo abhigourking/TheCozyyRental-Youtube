@@ -431,14 +431,70 @@ def make_ken_burns_clip(image_path, duration, out_path, zoom_in):
 
 MAX_CUT_DURATION = 1.2  # cap on how long any single visual can hold the screen
 
+# Absolute last-resort AI image prompts if the shot's own prompt fails even
+# after download_image()'s internal retries - simple, generic, and much
+# more likely to succeed than a specific/unusual prompt during a rough
+# patch on the image API's end.
+GENERIC_FALLBACK_PROMPTS = [
+    "scenic nature landscape",
+    "modern city skyline",
+    "cozy lifestyle background",
+    "colorful abstract background",
+]
 
-def prepare_shot_clips(prompt, shot_dur, work_dir, index):
+
+def make_solid_color_clip(duration, out_path, color="0x1a1a2e"):
+    """Absolute last resort if literally nothing else works for a shot (no
+    stock match, no AI image even with a generic fallback prompt, and no
+    earlier clip in this video to reuse) - a plain background keeps the
+    pipeline from crashing entirely over one shot."""
+    subprocess.run([
+        "ffmpeg", "-y", "-f", "lavfi",
+        "-i", f"color=c={color}:s={VIDEO_SIZE[0]}x{VIDEO_SIZE[1]}:d={duration}:r={FPS}",
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", str(out_path)
+    ], check=True, capture_output=True)
+
+
+def duplicate_clip_to_duration(src_path, target_duration, out_path):
+    """Re-uses a previously successful clip from earlier in this same video
+    to fill a shot slot whose own visual fetch failed entirely. This keeps
+    total video length in sync with the (fixed-length) voiceover instead of
+    leaving a gap - losing a fraction of a second of visual variety on one
+    shot out of 20-30 is unnoticeable; a truncated voiceover or a crashed
+    run is not."""
+    probe = subprocess.run(
+        ["ffprobe", "-v", "quiet", "-show_entries", "format=duration",
+         "-of", "csv=p=0", str(src_path)],
+        capture_output=True, text=True, check=True,
+    )
+    src_dur = float(probe.stdout.strip())
+    if src_dur >= target_duration:
+        subprocess.run([
+            "ffmpeg", "-y", "-i", str(src_path), "-t", str(target_duration),
+            "-c", "copy", str(out_path)
+        ], check=True, capture_output=True)
+    else:
+        loops = int(target_duration // src_dur) + 1
+        subprocess.run([
+            "ffmpeg", "-y", "-stream_loop", str(loops), "-i", str(src_path),
+            "-t", str(target_duration), "-c", "copy", str(out_path)
+        ], check=True, capture_output=True)
+
+
+def prepare_shot_clips(prompt, shot_dur, work_dir, index, fallback_clip=None):
     """Returns a list of ready-made mp4 clips (already trimmed/scaled to the
     target vertical size) covering shot_dur total. Tries real stock footage
     from Pexels first (each sub-cut takes a different time-slice of the same
     downloaded clip, so repeats show fresh motion rather than a frozen
     frame); falls back to an AI-generated image with a Ken Burns zoom if no
     stock match is available or Pexels isn't configured.
+
+    If the AI image fails even after its own internal retries (e.g. the
+    image API is having a rough patch), this never raises - it cascades
+    through a generic fallback prompt, then reusing the last successful
+    clip from this video, then a plain color background as an absolute
+    last resort. One flaky image request should never crash an entire
+    video/upload slot when MAX_ATTEMPTS=1 makes that expensive to redo.
     """
     n_splits = max(1, round(shot_dur / MAX_CUT_DURATION))
     sub_dur = shot_dur / n_splits
@@ -460,7 +516,28 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index):
             pass  # fall through to the AI-image fallback below
 
     img_path = work_dir / f"img_{index}.jpg"
-    download_image(prompt, img_path)
+    try:
+        download_image(prompt, img_path)
+    except Exception as e:
+        print(f"    AI image failed for {prompt!r}: {e}", flush=True)
+        fallback_prompt = random.choice(GENERIC_FALLBACK_PROMPTS)
+        print(f"    Retrying with generic fallback prompt: {fallback_prompt!r}", flush=True)
+        try:
+            download_image(fallback_prompt, img_path)
+        except Exception as e2:
+            print(f"    Generic fallback also failed: {e2}", flush=True)
+            clips = []
+            for j in range(n_splits):
+                out_path = work_dir / f"clip_{index}_{j}.mp4"
+                if fallback_clip is not None:
+                    duplicate_clip_to_duration(fallback_clip, sub_dur, out_path)
+                else:
+                    make_solid_color_clip(sub_dur, out_path)
+                clips.append(out_path)
+            source = "reused" if fallback_clip is not None else "placeholder"
+            print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
+            return clips, source
+
     clips = []
     for j in range(n_splits):
         out_path = work_dir / f"clip_{index}_{j}.mp4"
@@ -733,17 +810,24 @@ def run_once(topic, niche, language="en", category=None):
     # free tier is far more generous, but we keep this paced regardless.
     print(f"Fetching {len(shots)} visuals (stock footage, falling back to AI images)...", flush=True)
     all_clip_paths = []
-    stock_count = ai_count = 0
+    stock_count = ai_count = degraded_count = 0
+    last_successful_clip = None
     for i, (prompt, shot_dur) in enumerate(shots):
         print(f"  shot {i+1}/{len(shots)}: {prompt[:60]!r}...", flush=True)
-        clips, source = prepare_shot_clips(prompt, shot_dur, work, i)
+        clips, source = prepare_shot_clips(prompt, shot_dur, work, i, fallback_clip=last_successful_clip)
         all_clip_paths.extend(clips)
         if source == "stock":
             stock_count += 1
-        else:
+            last_successful_clip = clips[-1]
+        elif source == "ai_image":
             ai_count += 1
+            last_successful_clip = clips[-1]
+        else:
+            degraded_count += 1  # "reused" or "placeholder" - don't update
+                                  # last_successful_clip, it's already a fallback
         time.sleep(0.4)
-    print(f"All visuals ready ({stock_count} stock footage, {ai_count} AI image fallback).", flush=True)
+    print(f"All visuals ready ({stock_count} stock footage, {ai_count} AI image, "
+          f"{degraded_count} degraded fallback).", flush=True)
 
     print(f"Assembling video: {len(all_clip_paths)} quick cuts, {total_dur:.1f}s total "
           f"(ffmpeg encoding - this takes a bit)...", flush=True)
