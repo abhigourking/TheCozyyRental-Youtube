@@ -8,3 +8,7 @@ queue/
 __pycache__/
 *.pyc
 .DS_Store
+pipeline_runs.log
+launchd_stdout.log
+launchd_stderr.log
+.last_run_timestamp

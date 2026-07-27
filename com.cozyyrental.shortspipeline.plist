@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cozyyrental.shortspipeline</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/viral/Desktop/KingsInnovations/My Apps/TheCozyyRental-Youtube/run_pipeline.sh</string>
+    </array>
+
+    <!-- Every 4 hours, local time: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00.
+         If the Mac is asleep at one of these times, launchd generally runs
+         the job as soon as it wakes; if it's fully shut down through one,
+         run_pipeline.sh's own skip-detection catches that case instead. -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Hour</key><integer>0</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>4</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>8</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>16</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>0</integer></dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/viral/Desktop/KingsInnovations/My Apps/TheCozyyRental-Youtube/launchd_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/viral/Desktop/KingsInnovations/My Apps/TheCozyyRental-Youtube/launchd_stderr.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
