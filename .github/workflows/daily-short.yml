@@ -1,9 +1,14 @@
 name: Generate and Upload Shorts (every 4 hours, 6x/day)
 
+# Scheduled trigger paused - a Claude scheduled task is running the pipeline
+# instead (same 4-hour cadence) until July 31, so we don't double-post and
+# blow through the YouTube API's daily quota. Manual trigger still works via
+# workflow_dispatch. To resume this as the scheduler, uncomment the
+# `schedule:` block below and disable/delete the Claude scheduled task.
 on:
-  schedule:
-    # Every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC.
-    - cron: "0 */4 * * *"
+  # schedule:
+  #   # Every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC.
+  #   - cron: "0 */4 * * *"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
 
 jobs:
