@@ -62,6 +62,36 @@ CATEGORY_SUBREDDITS = {
     "tech": ["gadgets", "technology"],
 }
 
+# Rotated through (round-robin, state persisted in topics.json) to keep
+# travel/food content fresh and globally varied instead of a fixed, generic
+# topic pool - a broad, safe, widely-recognizable spread across continents.
+COUNTRIES = [
+    "Japan", "Italy", "France", "Thailand", "Mexico", "India", "Vietnam",
+    "Greece", "Turkey", "Spain", "Indonesia", "Peru", "Morocco",
+    "South Korea", "Brazil", "Portugal", "Egypt", "Philippines",
+    "Argentina", "Iceland",
+]
+
+# {country} gets filled in with the current pick_country() result. Several
+# per category so the same country doesn't produce the same phrasing twice
+# in a row as it cycles back around.
+TRAVEL_FOOD_TOPIC_TEMPLATES = {
+    "travel": [
+        "A viral travel spot in {country} that's all over social media right now",
+        "A hidden gem destination in {country} most tourists don't know about",
+        "The most breathtaking place to visit in {country}",
+        "A bucket-list experience you can only have in {country}",
+        "A surprising fact about a famous tourist attraction in {country}",
+    ],
+    "food": [
+        "The most viral street food trend in {country} right now",
+        "A must-try traditional dish from {country} and the story behind it",
+        "A popular food market or food street worth visiting in {country}",
+        "A comfort food from {country} that's become an internet obsession",
+        "A unique regional specialty from {country} most outsiders have never heard of",
+    ],
+}
+
 # Evergreen, proven high-reach hashtags for YouTube Shorts discovery - added
 # on top of Groq's 5 topic-specific hashtags rather than relying purely on
 # ones invented per-topic. Guarantees every upload has real "viral" tags,
@@ -194,10 +224,33 @@ def get_trending_topic(category):
     return random.choice(top5)[1]
 
 
+def pick_country():
+    """Round-robin through COUNTRIES, state persisted in topics.json (like
+    pick_language()) so it advances one-per-run across separate scheduled
+    invocations rather than resetting each time."""
+    data = json.loads(TOPICS_FILE.read_text())
+    idx = data.get("next_country_index", 0) % len(COUNTRIES)
+    country = COUNTRIES[idx]
+    data["next_country_index"] = (idx + 1) % len(COUNTRIES)
+    TOPICS_FILE.write_text(json.dumps(data, indent=2))
+    return country
+
+
 def pick_topic(category=None, force_static=False):
     if category is None:
         category = random.choice(list(CATEGORY_SUBREDDITS.keys()))
     data = json.loads(TOPICS_FILE.read_text())
+
+    # Travel/food always rotate through a specific country instead of using
+    # the generic static list or Reddit trending - keeps content fresh and
+    # globally varied every single run ("gather more videos about each
+    # country's viral travel/food topics, then rotate").
+    if category in TRAVEL_FOOD_TOPIC_TEMPLATES:
+        country = pick_country()
+        template = random.choice(TRAVEL_FOOD_TOPIC_TEMPLATES[category])
+        topic = template.format(country=country)
+        print(f"Country: {country}", flush=True)
+        return topic, data["niche"]
 
     if not force_static and os.environ.get("USE_TRENDING", "true").lower() == "true":
         trending = get_trending_topic(category)
@@ -861,9 +914,10 @@ def main():
     max_attempts = int(os.environ.get("MAX_ATTEMPTS", "3"))
     last_error = None
 
-    # Picked once per invocation (not per attempt) and persisted in
-    # topics.json, so it alternates en/hi across separate scheduled runs.
-    language = pick_language()
+    # English only for now (was alternating en/hi - pick_language()/the
+    # Hindi voice+prompt+font support is still intact in the code below,
+    # just not invoked, in case this gets turned back on later).
+    language = "en"
 
     # Weighted by how travel/food/tech videos have actually performed so
     # far (views + likes on videos old enough to have real stats) - see
