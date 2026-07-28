@@ -1,10 +1,20 @@
 name: Generate and Upload Shorts (every 4 hours, 6x/day)
 
-# Scheduled trigger paused - a Claude scheduled task is running the pipeline
-# instead (same 4-hour cadence) until July 31, so we don't double-post and
-# blow through the YouTube API's daily quota. Manual trigger still works via
-# workflow_dispatch. To resume this as the scheduler, uncomment the
-# `schedule:` block below and disable/delete the Claude scheduled task.
+# Scheduled trigger paused - GitHub Actions' free minutes for this account
+# are exhausted for the current billing cycle, and GitHub-hosted runners
+# don't have a way around that. The local Mac (launchd, see run_pipeline.sh
+# + COMMANDS.md section 4) is the primary scheduler now - it has unrestricted
+# network access, unlike this repo's Cowork scheduled task, which can only
+# reach a limited allowlist of domains and can't call the Groq/YouTube APIs.
+# Cowork's scheduled task is monitoring-only (checks pace toward the 6/day
+# target, no pipeline execution). Manual trigger still works via
+# workflow_dispatch.
+#
+# To bring GitHub Actions back permanently without burning paid minutes:
+# register a self-hosted runner on the Mac (Settings -> Actions -> Runners
+# -> New self-hosted runner) and change `runs-on: ubuntu-latest` below to
+# `runs-on: self-hosted`. Self-hosted runners don't count against the
+# minutes quota at all. Until then, leave `schedule:` commented out here.
 on:
   # schedule:
   #   # Every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC.

@@ -140,11 +140,33 @@ rm -f .git/index.lock .git/HEAD.lock
 
 ---
 
-## 9. GitHub Actions (currently paused)
+## 9. Current setup: hybrid scheduling
 
-The GitHub Actions schedule is commented out in
-`.github/workflows/daily-short.yml` in favor of the local launchd
-automation (section 4). To switch back to GitHub Actions instead:
+As of July 2026, three schedulers exist, with only one meant to actually
+run the pipeline at a time:
+
+- **Local Mac launchd (primary)** - full network access, no cost. Section 4
+  below. `run_pipeline.sh` now activates `.venv` automatically and, on
+  detecting a skipped run (Mac was asleep/off), auto-fires catch-up runs
+  5 minutes apart via `catch_up.sh`, capped to today's remaining 6/day quota
+  (never over-posts even after a long sleep/vacation).
+- **GitHub Actions (paused)** - `schedule:` is commented out in
+  `.github/workflows/daily-short.yml` because this account is out of free
+  Actions minutes for the billing cycle. `workflow_dispatch` (manual "Run
+  workflow" button in the Actions tab) still works anytime. To make this
+  free and permanent again, register a self-hosted runner on the Mac and
+  switch `runs-on: ubuntu-latest` to `runs-on: self-hosted` - self-hosted
+  runners don't consume the minutes quota.
+- **Cowork scheduled task (monitoring only)** - runs every 4 hours but does
+  NOT attempt the pipeline itself. Cowork's sandbox can only reach a small
+  allowlist of domains and gets blocked (403) calling Groq/YouTube APIs, so
+  it just checks `performance_log.json`/`pipeline_runs.log` and reports
+  whether today's 6-video pace is on track, flagging if the Mac appears to
+  be behind or offline. It also only fires while the Claude desktop app is
+  open (a closed app means the check runs on next launch instead).
+
+To switch primary scheduler back to GitHub Actions (e.g. once minutes
+reset, or after setting up a self-hosted runner):
 
 1. Edit `.github/workflows/daily-short.yml` — uncomment the `schedule:`
    block near the top
