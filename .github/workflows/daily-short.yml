@@ -6,8 +6,12 @@ name: Generate and Upload Shorts (every hour, 24x/day)
 # also still works via workflow_dispatch.
 on:
   schedule:
-    # Every hour, on the hour.
-    - cron: "0 * * * *"
+    # Every hour, at :17 rather than :00 - GitHub's scheduled-workflow
+    # infrastructure is "best effort" with no timing guarantee, and the top
+    # of every hour is its most congested moment (huge numbers of repos all
+    # schedule there), which causes real delays or dropped ticks. An
+    # off-peak minute avoids that queue.
+    - cron: "17 * * * *"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
 
 # The pipeline run takes ~30 min. With an hourly trigger, if a run ever
