@@ -51,4 +51,17 @@ jobs:
           git add topics.json
           [ -f performance_log.json ] && git add performance_log.json
           git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
-          git push
+          # Retry on non-fast-forward rejection (another push landed on master
+          # in between, e.g. a manual commit or an overlapping run) - rebase
+          # onto the latest remote state and try again, a few times before
+          # giving up. The video has already uploaded by this point either
+          # way; this just makes sure the rotation state isn't silently lost.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              break
+            fi
+            echo "Push rejected, retrying ($i/5)..."
+            git fetch origin master
+            git rebase origin/master
+            sleep $((RANDOM % 10 + 5))
+          done
