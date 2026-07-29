@@ -1,4 +1,4 @@
-name: Generate and Upload Shorts (every 4 hours, 6x/day)
+name: Generate and Upload Shorts (every hour, 24x/day)
 
 # Repo is public, so Actions minutes are unlimited (public repos don't
 # consume the free-tier minutes quota that private repos do). Schedule is
@@ -6,9 +6,17 @@ name: Generate and Upload Shorts (every 4 hours, 6x/day)
 # also still works via workflow_dispatch.
 on:
   schedule:
-    # Every 4 hours: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC.
-    - cron: "0 */4 * * *"
+    # Every hour, on the hour.
+    - cron: "0 * * * *"
   workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
+
+# The pipeline run takes ~30 min. With an hourly trigger, if a run ever
+# takes longer than usual (API slowness, fallback retries), this stops the
+# next hour's trigger from starting a second run in parallel - it queues
+# instead, so they never race on git state or double-post.
+concurrency:
+  group: shorts-pipeline
+  cancel-in-progress: false
 
 jobs:
   generate-and-upload:
@@ -31,7 +39,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Random jitter delay
-        run: sleep $((RANDOM % 1200))   # 0-20 min random delay, avoids exact-clock posting pattern
+        run: sleep $((RANDOM % 240))   # 0-4 min random delay - kept short since the ~30 min run needs to comfortably finish inside the hour
 
       - name: Run pipeline
         env:
