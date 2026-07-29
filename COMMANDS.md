@@ -119,6 +119,13 @@ cd "/Users/viral/Desktop/KingsInnovations/My Apps/TheCozyyRental-Youtube"
 
 ## 8. Git basics (only needed if something didn't auto-push)
 
+As of July 2026 the repo is **public**. A branch ruleset on `master`
+blocks force pushes and branch deletion, but normal pushes work fine —
+there's no PR requirement (removed after hitting a self-approval
+deadlock as the sole maintainer). Since nobody else has been added as a
+collaborator, only you (and anything using your credentials) can push —
+that's what actually keeps "everyone else" out, not a PR gate.
+
 ```bash
 cd "/Users/viral/Desktop/KingsInnovations/My Apps/TheCozyyRental-Youtube"
 git status
@@ -138,44 +145,32 @@ If you ever see `fatal: Unable to create '.git/index.lock': File exists`:
 rm -f .git/index.lock .git/HEAD.lock
 ```
 
+If you ever want to add a collaborator later, revisit branch protection
+first (Settings → Rules → Rulesets) — re-enabling "Require a pull request
+before merging" makes sense once more than one person has write access.
+
 ---
 
-## 9. Current setup: hybrid scheduling
+## 9. Current setup: GitHub Actions is the sole scheduler
 
-As of July 2026, three schedulers exist, with only one meant to actually
-run the pipeline at a time:
+- **GitHub Actions (active)** — `schedule:` in
+  `.github/workflows/daily-short.yml` runs every 4 hours (00:00, 04:00,
+  08:00, 12:00, 16:00, 20:00 UTC). The repo is public, so this runs on
+  unlimited free Actions minutes (no more billing-quota risk). Manual
+  trigger also works anytime via **Actions tab → Run workflow**.
+- **Local Mac launchd — intentionally not installed.** Confirmed unloaded
+  (`launchctl list` and `~/Library/LaunchAgents/` both empty). Leave it
+  off; running two schedulers at once would double-post. Section 4 above
+  still documents how to install it if you ever want to switch back to
+  local-only automation instead of GitHub Actions.
+- **Cowork scheduled task — removed.** It couldn't reach the Groq/YouTube
+  APIs from the sandbox (network allowlist blocks them), so it was
+  monitoring-only at best; deleted now that GitHub Actions handles
+  execution directly.
 
-- **Local Mac launchd (primary)** - full network access, no cost. Section 4
-  below. `run_pipeline.sh` now activates `.venv` automatically and, on
-  detecting a skipped run (Mac was asleep/off), auto-fires catch-up runs
-  5 minutes apart via `catch_up.sh`, capped to today's remaining 6/day quota
-  (never over-posts even after a long sleep/vacation).
-- **GitHub Actions (paused)** - `schedule:` is commented out in
-  `.github/workflows/daily-short.yml` because this account is out of free
-  Actions minutes for the billing cycle. `workflow_dispatch` (manual "Run
-  workflow" button in the Actions tab) still works anytime. To make this
-  free and permanent again, register a self-hosted runner on the Mac and
-  switch `runs-on: ubuntu-latest` to `runs-on: self-hosted` - self-hosted
-  runners don't consume the minutes quota.
-- **Cowork scheduled task (monitoring only)** - runs every 4 hours but does
-  NOT attempt the pipeline itself. Cowork's sandbox can only reach a small
-  allowlist of domains and gets blocked (403) calling Groq/YouTube APIs, so
-  it just checks `performance_log.json`/`pipeline_runs.log` and reports
-  whether today's 6-video pace is on track, flagging if the Mac appears to
-  be behind or offline. It also only fires while the Claude desktop app is
-  open (a closed app means the check runs on next launch instead).
-
-To switch primary scheduler back to GitHub Actions (e.g. once minutes
-reset, or after setting up a self-hosted runner):
-
-1. Edit `.github/workflows/daily-short.yml` — uncomment the `schedule:`
-   block near the top
-2. `git add .github/workflows/daily-short.yml && git commit -m "Re-enable GH Actions schedule" && git push`
-3. Stop the local automation so only one scheduler is active:
-   `launchctl unload ~/Library/LaunchAgents/com.cozyyrental.shortspipeline.plist`
-
-You can also trigger GitHub Actions manually anytime (even while paused)
-from the repo's **Actions** tab → select the workflow → **Run workflow**.
+If GitHub Actions ever needs to be paused again (e.g. future billing
+issue), comment out the `schedule:` block in
+`.github/workflows/daily-short.yml`, commit, and push.
 
 ---
 
