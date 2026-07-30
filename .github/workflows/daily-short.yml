@@ -1,4 +1,4 @@
-name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
+name: Generate and Upload Shorts (self-chained, ~15 min gap after each run)
 
 # Repo is public, so Actions minutes are unlimited (public repos don't
 # consume the free-tier minutes quota that private repos do).
@@ -8,7 +8,7 @@ name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
 # drops ticks rather than queuing them (confirmed: real gaps of 2-3+ hours
 # despite an hourly cron). So this workflow no longer depends on it as the
 # primary driver. Instead, each run explicitly triggers the next one itself
-# via the GitHub API (workflow_dispatch), after waiting 30 minutes past its
+# via the GitHub API (workflow_dispatch), after waiting 15 minutes past its
 # own completion - see the final "Wait, then trigger next run" step. That
 # call fires immediately when made, skipping the flaky schedule-evaluation
 # queue entirely.
@@ -104,7 +104,7 @@ jobs:
             sleep $((RANDOM % 10 + 5))
           done
 
-      - name: Wait 30 min, then trigger the next run
+      - name: Wait 15 min, then trigger the next run
         # always() so the chain keeps going even if an earlier step failed
         # (e.g. upload error) - one bad run shouldn't permanently stall the
         # whole pipeline. But NOT !cancelled() - always() alone also fires
@@ -120,7 +120,7 @@ jobs:
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          sleep 1800
+          sleep 900   # 15 min gap after this run finishes, then chain the next
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \

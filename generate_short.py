@@ -49,6 +49,41 @@ VOICES = {
 }
 VIDEO_SIZE = (1080, 1920)
 
+# Native-language narration for country-specific videos, for authenticity.
+# Every other country video is narrated in that country's main language
+# instead of English (see pick_use_native()); captions stay in English
+# either way, so the video is still watchable by an English-speaking
+# audience and the subtitle font never needs non-Latin glyphs.
+#
+# "voice" values are Microsoft Edge TTS neural voices. If any voice name
+# here is wrong/retired, synthesis raises and run_once() falls back to the
+# English voice + English lines automatically - a bad entry costs one
+# English video, never a failed run. (These couldn't be verified against
+# the live Edge TTS voice list from this sandbox, since Microsoft's TTS
+# endpoint isn't reachable here - the fallback path is the safety net.)
+COUNTRY_LANGUAGES = {
+    "Japan":       {"name": "Japanese",              "voice": "ja-JP-KeitaNeural"},
+    "Italy":       {"name": "Italian",               "voice": "it-IT-DiegoNeural"},
+    "France":      {"name": "French",                "voice": "fr-FR-HenriNeural"},
+    "Thailand":    {"name": "Thai",                  "voice": "th-TH-NiwatNeural"},
+    "Mexico":      {"name": "Mexican Spanish",       "voice": "es-MX-JorgeNeural"},
+    "India":       {"name": "Hindi",                 "voice": "hi-IN-MadhurNeural"},
+    "Vietnam":     {"name": "Vietnamese",            "voice": "vi-VN-NamMinhNeural"},
+    "Greece":      {"name": "Greek",                 "voice": "el-GR-NestorasNeural"},
+    "Turkey":      {"name": "Turkish",               "voice": "tr-TR-AhmetNeural"},
+    "Spain":       {"name": "European Spanish",      "voice": "es-ES-AlvaroNeural"},
+    "Indonesia":   {"name": "Indonesian",            "voice": "id-ID-ArdiNeural"},
+    "Peru":        {"name": "Peruvian Spanish",      "voice": "es-PE-AlexNeural"},
+    "Morocco":     {"name": "Moroccan Arabic",       "voice": "ar-MA-JamalNeural"},
+    "South Korea": {"name": "Korean",                "voice": "ko-KR-InJoonNeural"},
+    "Brazil":      {"name": "Brazilian Portuguese",  "voice": "pt-BR-AntonioNeural"},
+    "Portugal":    {"name": "European Portuguese",   "voice": "pt-PT-DuarteNeural"},
+    "Egypt":       {"name": "Egyptian Arabic",       "voice": "ar-EG-ShakirNeural"},
+    "Philippines": {"name": "Filipino",              "voice": "fil-PH-AngeloNeural"},
+    "Argentina":   {"name": "Argentinian Spanish",   "voice": "es-AR-TomasNeural"},
+    "Iceland":     {"name": "Icelandic",             "voice": "is-IS-GunnarNeural"},
+}
+
 # Curated for the travel / food / tech / AI / animals niche - visually rich
 # subjects that read well as fast photo/video slideshows. Deliberately
 # excludes r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't
@@ -249,7 +284,23 @@ def pick_country():
     return country
 
 
+def pick_use_native():
+    """Alternates native-language / English narration every run, state
+    persisted in topics.json so it survives across separate GitHub Actions
+    runs (each run is a fresh checkout - only committed state carries over).
+    Returns True when this run should narrate in the country's own language:
+    "one English then another video that country's national language"."""
+    data = json.loads(TOPICS_FILE.read_text())
+    use_native = bool(data.get("next_use_native", False))
+    data["next_use_native"] = not use_native
+    TOPICS_FILE.write_text(json.dumps(data, indent=2))
+    return use_native
+
+
 def pick_topic(category=None, force_static=False):
+    """Returns (topic, niche, country) - country is None for categories that
+    aren't country-rotated (tech/ai), and is what main() uses to decide which
+    native-language voice a country video can be narrated in."""
     if category is None:
         category = random.choice(list(CATEGORY_SUBREDDITS.keys()))
     data = json.loads(TOPICS_FILE.read_text())
@@ -263,12 +314,12 @@ def pick_topic(category=None, force_static=False):
         template = random.choice(COUNTRY_TOPIC_TEMPLATES[category])
         topic = template.format(country=country)
         print(f"Country: {country}", flush=True)
-        return topic, data["niche"]
+        return topic, data["niche"], country
 
     if not force_static and os.environ.get("USE_TRENDING", "true").lower() == "true":
         trending = get_trending_topic(category)
         if trending:
-            return trending, data["niche"]
+            return trending, data["niche"], None
 
     # Static fallback: topics are tagged with a category (see topics.json).
     # Random rather than round-robin - the pool per category is small enough
@@ -278,7 +329,7 @@ def pick_topic(category=None, force_static=False):
     if not matching:
         matching = topics  # safety net if a category has no static entries
     topic = random.choice(matching)
-    return topic["text"], data["niche"]
+    return topic["text"], data["niche"], None
 
 
 def pick_language():
@@ -292,29 +343,55 @@ def pick_language():
     return lang
 
 
-def generate_script(topic, niche, language="en"):
-    if language == "hi":
+def generate_script(topic, niche, language="en", native_language_name=None):
+    """native_language_name: e.g. "Japanese" - when set, each beat's "line"
+    is narration in that language while "line_en" carries the English
+    caption text for the same beat. Title/description/hashtags stay English
+    for discoverability with a global audience. When None, narration is
+    English and "line_en" simply mirrors "line"."""
+    if native_language_name:
+        language_instruction = f"""LANGUAGE - IMPORTANT, READ CAREFULLY: this video is narrated in
+{native_language_name} for authenticity, but captioned in English so an
+English-speaking audience can still follow it. So for EVERY beat you must
+return BOTH:
+  - "line": the narration, written naturally in {native_language_name} (in
+    that language's own native script where applicable, NOT romanized).
+    Write like a popular local {native_language_name}-speaking YouTube
+    creator would actually talk - natural and conversational, never a stiff
+    word-for-word textbook translation.
+  - "line_en": a faithful English translation of that same line, used as
+    the on-screen caption.
+"title", "description", and "hashtags" must ALL be in English regardless -
+they drive discovery with a global audience.
+IMPORTANT EXCEPTION: "visual_prompts" must ALWAYS be in English too, since
+they are search queries against an English-language stock footage database -
+non-English search terms return no results."""
+    elif language == "hi":
         language_instruction = """LANGUAGE: Write "title", "description", and every beat's "line" entirely
 in Hindi using Devanagari script (not Hinglish/romanized). Keep the tone
 natural and conversational, like a popular Hindi YouTube creator - not a
 stiff textbook translation. Hashtags may stay in English (common practice
-for reach). IMPORTANT EXCEPTION: "visual_prompts" must ALWAYS be written in
-English regardless of narration language, since they are search queries
+for reach). Also include "line_en" per beat: a faithful English translation
+of that line. IMPORTANT EXCEPTION: "visual_prompts" must ALWAYS be written
+in English regardless of narration language, since they are search queries
 against an English-language stock footage database - Hindi search terms
 will return no results."""
     else:
-        language_instruction = 'LANGUAGE: Write everything in English.'
+        language_instruction = ('LANGUAGE: Write everything in English. Set each beat\'s '
+                                '"line_en" to the same text as its "line".')
 
     prompt = f"""You write scripts for YouTube Shorts in the niche: {niche}.
 Topic: {topic}
 
 {language_instruction}
 
-This needs to be a SHORT, punchy Short - under 25 seconds when read aloud at
-a normal pace. Every word has to earn its place. Structure it tight:
+This needs to be a punchy Short that runs 15-25 seconds when read aloud at a
+brisk pace - NOT shorter. Every word has to earn its place, but do not
+undershoot the length either: a 7-10 second video is far too short and will
+be rejected. Structure it tight:
 1. A scroll-stopping hook in the first line (a bold claim, a question, or
    "nobody tells you this" style opener)
-2. 2-4 concrete, specific tips/facts/beats - each genuinely useful, zero
+2. 3-5 concrete, specific tips/facts/beats - each genuinely useful, zero
    filler, zero build-up/throat-clearing
 3. A quick closing line with a call to action (follow for more, comment your
    experience, etc.)
@@ -328,9 +405,10 @@ Return STRICT JSON with keys:
 - "title": catchy YouTube title, under 90 chars
 - "description": 2-3 sentence description with a call to action
 - "hashtags": array of 5 relevant hashtags (no # symbol)
-- "beats": array of 4-6 objects (following the structure above), each with:
+- "beats": array of 5-7 objects (following the structure above), each with:
     - "line": one sentence of narration (conversational, punchy, no filler,
-      roughly 8-14 words each)
+      roughly 12-16 words each - not shorter, these must add up to a
+      15-25 second read)
     - "visual_prompts": array of 2-3 short stock-footage SEARCH PHRASES, in
       English (2-5 words each, like you'd type into a stock video site -
       e.g. "street food market night", "airplane window clouds", "smartphone
@@ -339,9 +417,10 @@ Return STRICT JSON with keys:
       common enough that real stock footage of them plausibly exists -
       avoid overly specific or abstract phrasing
 
-Target 55-70 words of total narration across all beats combined - this is
-important, do not overshoot it, the whole thing needs to land under 25
-seconds when read aloud. First line must be a strong hook.
+HARD REQUIREMENT ON LENGTH: total narration across all beats combined must be
+70-95 words. Count them before answering. Fewer than 70 words produces a
+video that is too short to be usable, so err toward the upper end rather
+than the lower. First line must be a strong hook.
 Content must be strictly brand-safe and family-friendly: no adult content,
 violence, illegal activity, hate speech, drugs, gambling, or anything that
 could be flagged as unsafe for advertisers or YouTube's community guidelines.
@@ -364,10 +443,13 @@ Output ONLY the JSON, no markdown fences."""
     return json.loads(text)
 
 
-async def synthesize_voice(text, out_path, language="en", rate="+18%"):
+async def synthesize_voice(text, out_path, language="en", rate="+18%", voice_override=None):
     # Slightly faster than default speaking rate - matches the punchier,
     # quick-cut editing style rather than a slow, deliberate voiceover.
-    voice = VOICES.get(language, VOICES["en"])
+    # voice_override lets a caller pass a specific Edge TTS voice (used for
+    # native-language narration, see COUNTRY_LANGUAGES) instead of looking
+    # one up by language code.
+    voice = voice_override or VOICES.get(language, VOICES["en"])
     communicate = edge_tts.Communicate(text, voice, rate=rate)
     await communicate.save(str(out_path))
 
@@ -643,10 +725,15 @@ def build_video(clip_paths, voice_path, srt_path, out_path):
         ], check=True)
 
 
-def write_srt(beats, durations, out_path, language="en"):
+def write_srt(beats, durations, out_path, language="en", caption_key="line"):
     """Writes an .ass subtitle file (despite the name, kept for compatibility
     with callers) with the caption style baked into the file header - no
     CLI-side force_style escaping needed.
+
+    caption_key selects which field of each beat to render as the caption.
+    For native-language narration this is "line_en" (English captions over
+    native audio), which also keeps the font simple: English captions never
+    need non-Latin glyphs no matter what language the voiceover is in.
 
     Fontname must actually have glyphs for the script being rendered -
     Devanagari (Hindi) needs a dedicated font or it renders as blank boxes.
@@ -658,7 +745,14 @@ def write_srt(beats, durations, out_path, language="en"):
         cs = int((t - int(t)) * 100)
         return f"{h:d}:{m:02d}:{int(s):02d}.{cs:02d}"
 
-    font = "Noto Sans Devanagari" if language == "hi" else "Noto Sans"
+    # Captions are English whenever caption_key is "line_en", so the Latin
+    # font is correct then regardless of the narration language.
+    if caption_key == "line_en" or language == "en":
+        font = "Noto Sans"
+    elif language == "hi":
+        font = "Noto Sans Devanagari"
+    else:
+        font = "Noto Sans"
 
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -678,7 +772,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     t = 0.0
     for beat, dur in zip(beats, durations):
         start, end = t, t + dur
-        text = beat["line"].replace("\n", " ").replace(",", "\\,")
+        raw = beat.get(caption_key) or beat.get("line", "")
+        text = raw.replace("\n", " ").replace(",", "\\,")
         lines.append(f"Dialogue: 0,{fmt(start)},{fmt(end)},Default,,0,0,0,,{text}")
         t = end
 
@@ -820,51 +915,107 @@ class UnsafeTopicError(Exception):
     pass
 
 
-def run_once(topic, niche, language="en", category=None):
+MIN_VIDEO_SECONDS = 14.0   # anything under this reads as a broken/stub video
+                           # (a 7s Short slipped out once when the model
+                           # badly undershot the word target) - regenerate
+                           # the script rather than publishing it
+MAX_SCRIPT_TRIES = 3
+
+
+def run_once(topic, niche, language="en", category=None, native=None):
     """Runs the full pipeline for a single topic: script -> safety check ->
     voice -> images -> video -> upload. Raises on any failure; caller decides
-    whether to retry with a different topic."""
+    whether to retry with a different topic.
+
+    native: optional {"name": ..., "voice": ...} from COUNTRY_LANGUAGES. When
+    set, narration is synthesized in that language and captions render the
+    English translation. If native synthesis fails for any reason (bad/retired
+    voice name, TTS hiccup), this falls back to the English voice reading the
+    English lines - never a failed run just because a native voice misbehaved.
+    """
     work = Path(tempfile.mkdtemp())
     print("Topic:", topic, flush=True)
     print("Language:", language, flush=True)
     print("Category:", category, flush=True)
+    if native:
+        print(f"Narration language: {native['name']} ({native['voice']}), English captions", flush=True)
 
-    print("Generating script (Groq)...", flush=True)
-    script = generate_script(topic, niche, language=language)
-    print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
-
-    full_check_text = script["title"] + " " + script["description"] + " " + \
-        " ".join(b["line"] for b in script["beats"])
-    if not is_safe_topic(full_check_text):
-        match = find_blocked_match(full_check_text)
-        print(f"Safety check matched: {match[0]!r} in context: ...{match[1]}...", flush=True)
-        raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
-
-    beats = script["beats"]
-    full_text = " ".join(b["line"] for b in beats)
-
-    print("Synthesizing voiceover (Edge TTS)...", flush=True)
     voice_path = work / "voice.mp3"
-    asyncio.run(synthesize_voice(full_text, voice_path, language=language))
+    script = None
+    beats = None
+    total_dur = None
+    caption_key = "line_en" if native else "line"
+    narrating_native = bool(native)
 
-    total_dur = get_audio_duration(voice_path)
-    print(f"Voiceover ready: {total_dur:.1f}s", flush=True)
+    # Regenerate if the model produces a script too short to be a usable
+    # Short - measured on the actual synthesized audio, not a word-count
+    # guess, since speaking rate varies a lot by language.
+    for script_try in range(1, MAX_SCRIPT_TRIES + 1):
+        print(f"Generating script (Groq), try {script_try}/{MAX_SCRIPT_TRIES}...", flush=True)
+        script = generate_script(
+            topic, niche, language=language,
+            native_language_name=native["name"] if native else None,
+        )
+        print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
+
+        # Safety check runs on the English text (title/description/line_en) -
+        # BLOCKED_KEYWORDS are English, so checking native-script narration
+        # would silently pass everything.
+        full_check_text = script["title"] + " " + script["description"] + " " + \
+            " ".join((b.get("line_en") or b.get("line", "")) for b in script["beats"])
+        if not is_safe_topic(full_check_text):
+            match = find_blocked_match(full_check_text)
+            print(f"Safety check matched: {match[0]!r} in context: ...{match[1]}...", flush=True)
+            raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
+
+        beats = script["beats"]
+        narration_text = " ".join(b["line"] for b in beats)
+        english_text = " ".join((b.get("line_en") or b.get("line", "")) for b in beats)
+
+        print("Synthesizing voiceover (Edge TTS)...", flush=True)
+        if native:
+            try:
+                asyncio.run(synthesize_voice(
+                    narration_text, voice_path, voice_override=native["voice"]
+                ))
+            except Exception as e:
+                print(f"Native voice {native['voice']!r} failed ({e}) - "
+                      f"falling back to English narration.", flush=True)
+                narrating_native = False
+                caption_key = "line"
+                asyncio.run(synthesize_voice(english_text, voice_path, language="en"))
+        else:
+            asyncio.run(synthesize_voice(narration_text, voice_path, language=language))
+
+        total_dur = get_audio_duration(voice_path)
+        print(f"Voiceover ready: {total_dur:.1f}s", flush=True)
+
+        if total_dur >= MIN_VIDEO_SECONDS or script_try == MAX_SCRIPT_TRIES:
+            if total_dur < MIN_VIDEO_SECONDS:
+                print(f"WARNING: still only {total_dur:.1f}s after "
+                      f"{MAX_SCRIPT_TRIES} tries - publishing anyway.", flush=True)
+            break
+        print(f"Too short ({total_dur:.1f}s < {MIN_VIDEO_SECONDS}s) - "
+              f"regenerating a longer script...", flush=True)
 
     # Proportional pacing: a beat with more words gets more screen time,
     # instead of every beat getting an equal slice regardless of length.
-    word_counts = [max(len(b["line"].split()), 1) for b in beats]
+    # Weight by whichever text was actually spoken.
+    spoken_key = "line" if narrating_native or not native else "line_en"
+    word_counts = [max(len((b.get(spoken_key) or b.get("line", "")).split()), 1) for b in beats]
     total_words = sum(word_counts)
     beat_durations = [total_dur * (wc / total_words) for wc in word_counts]
 
     srt_path = work / "captions.ass"
-    write_srt(beats, beat_durations, srt_path, language=language)
+    write_srt(beats, beat_durations, srt_path, language=language, caption_key=caption_key)
 
     # Fast quick-cut editing: each beat gets 2-3 distinct visual shots
     # (downloaded images) instead of one static image for its whole duration.
     shots = []  # list of (prompt, shot_duration)
     for beat, beat_dur in zip(beats, beat_durations):
-        prompts = beat.get("visual_prompts") or [beat.get("visual_prompt", beat["line"])]
-        prompts = prompts[:3] or [beat["line"]]
+        default_prompt = beat.get("line_en") or beat.get("line", "")
+        prompts = beat.get("visual_prompts") or [beat.get("visual_prompt", default_prompt)]
+        prompts = prompts[:3] or [default_prompt]
         shot_dur = beat_dur / len(prompts)
         for p in prompts:
             shots.append((p, shot_dur))
@@ -919,7 +1070,10 @@ def run_once(topic, niche, language="en", category=None):
         description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
         tags=hashtags,
     )
-    record_performance_entry(video_id, category, language, topic)
+    # Log what was actually narrated (not what was requested) so the record
+    # stays accurate when a native voice fell back to English.
+    logged_language = native["name"] if (native and narrating_native) else language
+    record_performance_entry(video_id, category, logged_language, topic)
 
 
 def main():
@@ -940,15 +1094,26 @@ def main():
     print(f"Category weights: { {k: round(v, 1) for k, v in weights.items()} }", flush=True)
     print(f"Chosen category: {category}", flush=True)
 
+    # Alternate English / country-native narration on country videos, so the
+    # feed reads as "one English, then one in that country's own language".
+    # Only advances the toggle once per run (not per retry attempt).
+    use_native = pick_use_native()
+
     for attempt in range(1, max_attempts + 1):
         # First attempt uses trending (if enabled). Retries force the static
         # topics.json rotation instead - trending would likely just return
         # the same top candidate again and fail the same way.
         force_static = attempt > 1
-        topic, niche = pick_topic(category, force_static=force_static)
+        topic, niche, country = pick_topic(category, force_static=force_static)
+
+        # Native narration only applies to country-rotated categories - a
+        # generic tech/AI topic has no country, so it stays English.
+        native = COUNTRY_LANGUAGES.get(country) if (use_native and country) else None
+        if use_native and not native:
+            print("Native-narration slot, but this topic has no country - using English.", flush=True)
 
         try:
-            run_once(topic, niche, language=language, category=category)
+            run_once(topic, niche, language=language, category=category, native=native)
             print(f"Success on attempt {attempt}/{max_attempts}.")
             return
         except Exception as e:
