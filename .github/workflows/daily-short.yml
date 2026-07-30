@@ -50,6 +50,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        id: run_pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
@@ -104,7 +105,7 @@ jobs:
             sleep $((RANDOM % 10 + 5))
           done
 
-      - name: Wait 15 min, then trigger the next run
+      - name: Wait, then trigger the next run
         # always() so the chain keeps going even if an earlier step failed
         # (e.g. upload error) - one bad run shouldn't permanently stall the
         # whole pipeline. But NOT !cancelled() - always() alone also fires
@@ -116,11 +117,27 @@ jobs:
         # write" permission) because the default GITHUB_TOKEN is
         # deliberately blocked from triggering further workflow runs, to
         # prevent infinite-loop workflows.
+        #
+        # Wait length depends on whether the pipeline step succeeded:
+        #   - success -> full 15 min gap (normal posting cadence)
+        #   - failure -> short 60s wait, then retry right away. Most
+        #     failures we've seen are transient (a flaky Groq/YouTube API
+        #     call, a bad TTS voice on one specific country/language
+        #     combo) and self-fixing code (regeneration loops, English
+        #     fallback) already reduces how often this path is even hit.
+        #     60s (not 0s) avoids hammering APIs in a tight loop if
+        #     something is failing every single time - it still gives a
+        #     fixable failure a fast retry without waiting a full 15 min.
         if: always() && !cancelled()
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          sleep 900   # 15 min gap after this run finishes, then chain the next
+          if [ "${{ steps.run_pipeline.outcome }}" = "failure" ]; then
+            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 15 min gap."
+            sleep 60
+          else
+            sleep 900   # 15 min gap after a successful run, then chain the next
+          fi
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \

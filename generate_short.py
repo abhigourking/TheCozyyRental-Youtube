@@ -310,11 +310,40 @@ def get_trending_topic(category):
 def pick_country():
     """Round-robin through COUNTRIES, state persisted in topics.json (like
     pick_language()) so it advances one-per-run across separate scheduled
-    invocations rather than resetting each time."""
+    invocations rather than resetting each time.
+
+    Once every country has been picked at least once (a full 20-country
+    cycle), permanently switches to performance-weighted selection via
+    compute_country_weights() - "once we're done with all the countries,
+    start shortlisting the ones getting the most views." The
+    "country_cycle_complete" flag in topics.json makes that switch
+    one-directional: it never reverts to round-robin, it just keeps
+    re-weighting as more videos mature."""
     data = json.loads(TOPICS_FILE.read_text())
+
+    if data.get("country_cycle_complete", False):
+        weights = compute_country_weights()
+        country = random.choices(
+            COUNTRIES, weights=[weights[c] for c in COUNTRIES], k=1
+        )[0]
+        # next_country_index no longer drives selection once weighted, but
+        # keep advancing it anyway - harmless, and useful if you ever want
+        # to fall back to round-robin by clearing the flag.
+        idx = data.get("next_country_index", 0) % len(COUNTRIES)
+        data["next_country_index"] = (idx + 1) % len(COUNTRIES)
+        TOPICS_FILE.write_text(json.dumps(data, indent=2))
+        return country
+
     idx = data.get("next_country_index", 0) % len(COUNTRIES)
     country = COUNTRIES[idx]
-    data["next_country_index"] = (idx + 1) % len(COUNTRIES)
+    next_idx = (idx + 1) % len(COUNTRIES)
+    data["next_country_index"] = next_idx
+    if next_idx == 0:
+        # We just picked the last country in the rotation - every country
+        # has now been posted at least once. Flip on weighted selection.
+        data["country_cycle_complete"] = True
+        print("Country rotation: full cycle complete - switching to "
+              "performance-weighted country selection from here on.", flush=True)
     TOPICS_FILE.write_text(json.dumps(data, indent=2))
     return country
 
@@ -884,6 +913,7 @@ MIN_MATURITY_HOURS = 20   # give a video time to accumulate real views/likes
 MIN_SAMPLES_PER_CATEGORY = 3  # below this, treat the category as unproven
                                # and keep exploring it rather than trusting
                                # a tiny/noisy sample
+MIN_SAMPLES_PER_COUNTRY = 3   # same idea, for compute_country_weights()
 
 
 def load_performance_log():
@@ -892,9 +922,14 @@ def load_performance_log():
     return {"videos": []}
 
 
-def record_performance_entry(video_id, category, language, topic):
+def record_performance_entry(video_id, category, language, topic, country=None):
     """Called right after a successful upload so we can look up its real
-    view/like counts later and use them to bias future topic selection."""
+    view/like counts later and use them to bias future topic selection.
+    country is a structured field (not just parsed back out of the topic
+    text) so compute_country_weights() can group by it directly - it's
+    None for tech/ai topics, which aren't country-rotated. Older log
+    entries from before this field existed simply have no "country" key,
+    which compute_country_weights() already treats as "skip"."""
     if not video_id:
         return
     data = load_performance_log()
@@ -903,6 +938,7 @@ def record_performance_entry(video_id, category, language, topic):
         "category": category,
         "language": language,
         "topic": topic,
+        "country": country,
         "posted_at": time.time(),
     })
     PERFORMANCE_FILE.write_text(json.dumps(data, indent=2))
@@ -974,6 +1010,65 @@ def pick_category(weights):
     return random.choices(categories, weights=[weights[c] for c in categories], k=1)[0]
 
 
+def compute_country_weights():
+    """Same idea as compute_category_weights(), but grouped by country
+    instead of category - only called by pick_country() once the initial
+    20-country round-robin cycle has fully completed at least once, so
+    every country already has a fair first shot before weighting kicks in.
+    Countries with too few mature samples (including any older log entries
+    from before the "country" field existed, which just won't match any
+    country here) get a neutral weight so they stay in the mix rather than
+    getting starved by early noise. Fails open (equal weights) on any
+    error - this is an optimization, never something that should block a
+    run."""
+    equal_weights = {c: 1.0 for c in COUNTRIES}
+
+    try:
+        data = load_performance_log()
+        now = time.time()
+        mature = [
+            v for v in data["videos"]
+            if v.get("country") in COUNTRIES
+            and now - v.get("posted_at", 0) >= MIN_MATURITY_HOURS * 3600
+        ]
+        if not mature:
+            return equal_weights
+
+        youtube = get_youtube_client()
+        stats_by_id = {}
+        ids = [v["video_id"] for v in mature]
+        for i in range(0, len(ids), 50):
+            batch = ids[i:i + 50]
+            resp = youtube.videos().list(part="statistics", id=",".join(batch)).execute()
+            for item in resp.get("items", []):
+                stats_by_id[item["id"]] = item.get("statistics", {})
+
+        scores_by_country = {c: [] for c in COUNTRIES}
+        for v in mature:
+            stats = stats_by_id.get(v["video_id"])
+            if not stats:
+                continue
+            views = int(stats.get("viewCount", 0))
+            likes = int(stats.get("likeCount", 0))
+            score = views + likes * 10
+            scores_by_country[v["country"]].append(score)
+
+        all_scores = [s for lst in scores_by_country.values() for s in lst]
+        overall_avg = (sum(all_scores) / len(all_scores)) if all_scores else 1.0
+
+        weights = {}
+        for c in COUNTRIES:
+            lst = scores_by_country[c]
+            if len(lst) >= MIN_SAMPLES_PER_COUNTRY:
+                weights[c] = max(sum(lst) / len(lst), 1.0)
+            else:
+                weights[c] = overall_avg  # not enough data yet - keep exploring
+        return weights
+    except Exception as e:
+        print(f"compute_country_weights failed, falling back to equal weights: {e}", flush=True)
+        return equal_weights
+
+
 class UnsafeTopicError(Exception):
     pass
 
@@ -985,7 +1080,7 @@ MIN_VIDEO_SECONDS = 14.0   # anything under this reads as a broken/stub video
 MAX_SCRIPT_TRIES = 3
 
 
-def run_once(topic, niche, language="en", category=None, native=None):
+def run_once(topic, niche, language="en", category=None, native=None, country=None):
     """Runs the full pipeline for a single topic: script -> safety check ->
     voice -> images -> video -> upload. Raises on any failure; caller decides
     whether to retry with a different topic.
@@ -1160,7 +1255,7 @@ def run_once(topic, niche, language="en", category=None, native=None):
     # Log what was actually narrated (not what was requested) so the record
     # stays accurate when a native voice fell back to English.
     logged_language = native["name"] if (native and narrating_native) else language
-    record_performance_entry(video_id, category, logged_language, topic)
+    record_performance_entry(video_id, category, logged_language, topic, country=country)
 
 
 def main():
@@ -1200,7 +1295,7 @@ def main():
             print("Native-narration slot, but this topic has no country - using English.", flush=True)
 
         try:
-            run_once(topic, niche, language=language, category=category, native=native)
+            run_once(topic, niche, language=language, category=category, native=native, country=country)
             print(f"Success on attempt {attempt}/{max_attempts}.")
             return
         except Exception as e:
