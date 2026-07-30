@@ -202,9 +202,17 @@ explored rather than written off on noise.
 **Country rotation** — `travel` / `food` / `animals` topics are built from
 per-category templates with a `{country}` slot, cycling round-robin through
 20 countries (Japan → Italy → … → Iceland). The pointer lives in
-`topics.json` as `next_country_index` and **wraps back to the first country
-automatically** after the last one, so it cycles forever. `tech` / `ai` have
-no country and use Reddit-trending topics (with a static fallback pool).
+`topics.json` as `next_country_index`. `tech` / `ai` have no country and use
+Reddit-trending topics (with a static fallback pool).
+
+Once every country has been posted **at least once** (a full round-robin
+cycle), country selection permanently switches to *performance-weighted*
+picking, same idea as category weighting — see `compute_country_weights()`.
+This is tracked by a one-way `country_cycle_complete` flag in `topics.json`;
+once it flips on, it never reverts to round-robin. `performance_log.json`
+entries now carry a structured `country` field (older entries from before
+this existed just don't have one, and are skipped rather than causing an
+error).
 
 **Narration language** — alternates every run via `next_use_native` in
 `topics.json`: one video in English, the next narrated in that country's own
@@ -228,6 +236,32 @@ when the model badly undershot the word target.
 
 **Hashtags** — Groq's 5 topic-specific tags merged with 5 evergreen ones
 (`#shorts`, `#viral`, …), de-duplicated and capped at 10.
+
+**Visual fetching runs in parallel** — up to 5 shots (Pexels stock search →
+download → ffmpeg trim, or AI-image fallback → Ken Burns zoom) are fetched
+concurrently via a thread pool instead of one at a time, since this was the
+single biggest chunk of wall-clock time in a run. The one thing that can't
+run concurrently is the AI-image fallback itself (Pollinations' free tier
+allows only 1 in-flight request per IP) — that's enforced by a lock
+(`POLLINATIONS_LOCK`) inside `download_image()`, so AI-image shots still
+queue safely behind each other while stock-footage shots (the common case
+when `PEXELS_API_KEY` is set) get the full parallel speedup.
+
+**⚠️ Known gap: category/country weighting isn't actually learning yet.**
+Both `compute_category_weights()` and the new `compute_country_weights()`
+read video stats via `youtube.videos().list(part="statistics", ...)`, which
+needs a **read** scope on the YouTube API. The current `YT_REFRESH_TOKEN`
+was issued for uploading only, so these calls are failing with `403
+insufficientPermissions` on every run. This is non-fatal — both functions
+fail open to equal/neutral weights, so videos still post fine — but it
+means performance-based selection has no real effect right now, it's just
+picking uniformly at random.
+
+**To fix:** re-run `local_auth.py` (section 2 above) with a broader scope
+that includes `https://www.googleapis.com/auth/youtube.readonly` alongside
+the existing upload scope, then update the `YT_REFRESH_TOKEN` GitHub secret
+with the new refresh token it prints. This needs to be done by hand — it
+opens a browser for a Google login, which can't be done from here.
 
 ---
 

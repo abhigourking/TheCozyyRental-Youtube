@@ -14,7 +14,15 @@ named YT_REFRESH_TOKEN.
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = [
+    "https://www.googleapis.com/auth/youtube.upload",
+    # Needed for compute_category_weights()/compute_country_weights() to
+    # read view/like counts on past videos (youtube.videos().list) - without
+    # this, those calls fail with 403 insufficientPermissions and the
+    # pipeline silently falls back to picking categories/countries
+    # uniformly at random instead of favoring what's actually performing.
+    "https://www.googleapis.com/auth/youtube.readonly",
+]
 CLIENT_SECRET_FILE = "credentials/client_secret.json"
 
 def main():
