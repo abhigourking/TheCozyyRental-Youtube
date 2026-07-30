@@ -1,23 +1,30 @@
-name: Generate and Upload Shorts (every hour, 24x/day)
+name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
 
 # Repo is public, so Actions minutes are unlimited (public repos don't
-# consume the free-tier minutes quota that private repos do). Schedule is
-# live: this is the sole active scheduler for the pipeline. Manual trigger
-# also still works via workflow_dispatch.
+# consume the free-tier minutes quota that private repos do).
+#
+# GitHub's native `schedule:` trigger turned out to be unreliable at this
+# frequency - it's "best effort" with no SLA, and under load it silently
+# drops ticks rather than queuing them (confirmed: real gaps of 2-3+ hours
+# despite an hourly cron). So this workflow no longer depends on it as the
+# primary driver. Instead, each run explicitly triggers the next one itself
+# via the GitHub API (workflow_dispatch), after waiting 30 minutes past its
+# own completion - see the final "Wait, then trigger next run" step. That
+# call fires immediately when made, skipping the flaky schedule-evaluation
+# queue entirely.
+#
+# A low-frequency schedule is kept as a safety net only, in case the
+# self-chain ever breaks (e.g. a run gets killed before its last step, or a
+# GitHub Actions outage). If the chain is healthy, this backstop firing
+# occasionally just means one extra video - harmless, not a duplicate
+# problem - because of the concurrency lock below.
 on:
   schedule:
-    # Every hour, at :17 rather than :00 - GitHub's scheduled-workflow
-    # infrastructure is "best effort" with no timing guarantee, and the top
-    # of every hour is its most congested moment (huge numbers of repos all
-    # schedule there), which causes real delays or dropped ticks. An
-    # off-peak minute avoids that queue.
-    - cron: "17 * * * *"
-  workflow_dispatch: {}      # lets you trigger it manually from the Actions tab
+    - cron: "23 */3 * * *"   # backstop only, off-peak minute
+  workflow_dispatch: {}      # lets you trigger it manually, or restart the chain if it ever stalls
 
-# The pipeline run takes ~30 min. With an hourly trigger, if a run ever
-# takes longer than usual (API slowness, fallback retries), this stops the
-# next hour's trigger from starting a second run in parallel - it queues
-# instead, so they never race on git state or double-post.
+# Queues overlapping triggers instead of running them in parallel - keeps
+# the self-chain and the backstop schedule from ever racing on git state.
 concurrency:
   group: shorts-pipeline
   cancel-in-progress: false
@@ -41,9 +48,6 @@ jobs:
 
       - name: Install Python deps
         run: pip install -r requirements.txt
-
-      - name: Random jitter delay
-        run: sleep $((RANDOM % 240))   # 0-4 min random delay - kept short since the ~30 min run needs to comfortably finish inside the hour
 
       - name: Run pipeline
         env:
@@ -77,3 +81,23 @@ jobs:
             git rebase origin/master
             sleep $((RANDOM % 10 + 5))
           done
+
+      - name: Wait 30 min, then trigger the next run
+        # if: always() so the chain keeps going even if an earlier step
+        # failed (e.g. upload error) - one bad run shouldn't permanently
+        # stall the whole pipeline. Uses DISPATCH_TOKEN (a token with
+        # "Actions: Read and write" permission) because the default
+        # GITHUB_TOKEN is deliberately blocked from triggering further
+        # workflow runs, to prevent infinite-loop workflows.
+        if: always()
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          sleep 1800
+          curl -sf -X POST \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/workflows/daily-short.yml/dispatches \
+            -d '{"ref":"master"}' \
+          && echo "Next run triggered." \
+          || echo "::warning::Failed to trigger next run - DISPATCH_TOKEN may be missing/expired, or backstop schedule will eventually catch it."
