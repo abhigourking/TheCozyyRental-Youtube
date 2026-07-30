@@ -105,13 +105,18 @@ jobs:
           done
 
       - name: Wait 30 min, then trigger the next run
-        # if: always() so the chain keeps going even if an earlier step
-        # failed (e.g. upload error) - one bad run shouldn't permanently
-        # stall the whole pipeline. Uses DISPATCH_TOKEN (a token with
-        # "Actions: Read and write" permission) because the default
-        # GITHUB_TOKEN is deliberately blocked from triggering further
-        # workflow runs, to prevent infinite-loop workflows.
-        if: always()
+        # always() so the chain keeps going even if an earlier step failed
+        # (e.g. upload error) - one bad run shouldn't permanently stall the
+        # whole pipeline. But NOT !cancelled() - always() alone also fires
+        # after a manual cancellation, which meant cancelling a run still
+        # slept 30 min and dispatched the next one anyway, ignoring the
+        # cancel entirely. With !cancelled() added, a manual cancel now
+        # stops the chain as you'd expect; only genuine step failures keep
+        # it alive. Uses DISPATCH_TOKEN (a token with "Actions: Read and
+        # write" permission) because the default GITHUB_TOKEN is
+        # deliberately blocked from triggering further workflow runs, to
+        # prevent infinite-loop workflows.
+        if: always() && !cancelled()
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
