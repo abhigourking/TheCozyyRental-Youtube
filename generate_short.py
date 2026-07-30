@@ -178,9 +178,41 @@ BLOCKED_KEYWORDS = [
     "assault", "shooting", "shoot", "gun", "guns", "weapon", "weapons",
     "bomb", "terrorist", "terrorism",
     "scam", "fraud", "steal", "stolen", "illegal", "trafficking",
-    "gambling", "casino", "bet", "betting", "racist", "racism",
+    "gambling", "casino", "betting", "racist", "racism",
     "nazi", "hate crime", "child abuse", "minor", "underage",
 ]
+# ("bet" on its own was removed - "bet you didn't know", "you bet" etc. are
+# extremely common casual phrasing in this niche's generated scripts and
+# have nothing to do with gambling. "gambling"/"casino"/"betting" already
+# cover the actual gambling-content case.)
+
+# Common benign idioms/compound phrases that would otherwise false-positive
+# against BLOCKED_KEYWORDS above and kill an entirely safe run - e.g. "this
+# dish is a flavor bomb" tripped "bomb" and failed a completely fine Spanish
+# food video. Stripped out of the text before the blocklist regex runs, so a
+# genuinely concerning use of the same underlying word is still caught (a
+# standalone "bomb" with no "flavor"/"photo"/"bath" in front of it still
+# blocks normally).
+SAFE_IDIOMS = [
+    "flavor bomb", "flavour bomb", "flavor bombs", "flavour bombs",
+    "photo bomb", "photobomb", "photobombed", "photobombing", "bath bomb",
+    "f-bomb", "f bomb",
+    "photo shoot", "photoshoot", "video shoot", "camera shoot", "night shoot",
+    "shooting star", "shooting stars",
+    "glue gun", "staple gun", "spray gun", "water gun", "nail gun", "top gun",
+    "secret weapon",
+    "naked eye",
+    "kill two birds",
+    "steal the show", "steal your heart", "steal the spotlight",
+]
+_SAFE_IDIOM_PATTERN = re.compile(
+    r"\b(" + "|".join(re.escape(p) for p in SAFE_IDIOMS) + r")\b",
+    re.IGNORECASE,
+)
+
+
+def _strip_safe_idioms(text):
+    return _SAFE_IDIOM_PATTERN.sub(" ", text)
 
 # Second, broader filter specifically for trending-topic selection: skips
 # serious news / tragedy / politics even when it wouldn't otherwise trip the
@@ -207,19 +239,22 @@ _SENSITIVE_PATTERN = re.compile(
 
 
 def is_safe_topic(title):
-    return _BLOCKED_PATTERN.search(title) is None
+    return _BLOCKED_PATTERN.search(_strip_safe_idioms(title)) is None
 
 
 def find_blocked_match(text):
     """Returns the matched keyword + surrounding snippet for diagnostics,
     or None if nothing matched. Used to debug false positives without
-    needing to print/expose the entire generated script."""
-    m = _BLOCKED_PATTERN.search(text)
+    needing to print/expose the entire generated script. Operates on the
+    same idiom-stripped text is_safe_topic checks, so the reported match is
+    always a genuine one, never a "flavor bomb"-style false positive."""
+    stripped = _strip_safe_idioms(text)
+    m = _BLOCKED_PATTERN.search(stripped)
     if not m:
         return None
     start = max(0, m.start() - 25)
-    end = min(len(text), m.end() + 25)
-    return m.group(0), text[start:end]
+    end = min(len(stripped), m.end() + 25)
+    return m.group(0), stripped[start:end]
 
 
 def is_light_content(title):
