@@ -437,13 +437,17 @@ NOT one slow static image per sentence. To achieve that, give each beat
 MULTIPLE quick visual shots instead of just one.
 
 Return STRICT JSON with keys:
-- "title": catchy YouTube title, under 90 chars
-- "description": 2-3 sentence description with a call to action
-- "hashtags": array of 5 relevant hashtags (no # symbol)
-- "beats": array of 5-7 objects (following the structure above), each with:
-    - "line": one sentence of narration (conversational, punchy, no filler,
-      roughly 12-16 words each - not shorter, these must add up to a
-      15-25 second read)
+- "title": catchy YouTube title, under 90 chars (ALWAYS in English)
+- "description": 2-3 sentence description with a call to action (ALWAYS in English)
+- "hashtags": array of 5 relevant hashtags, no # symbol (ALWAYS in English)
+- "beats": array of 5-7 objects (following the structure above). EVERY beat
+  object MUST have all three of these keys, always, with no exceptions:
+    - "line": one sentence of narration in the language specified above
+      (conversational, punchy, no filler, roughly 12-16 words each - not
+      shorter, these must add up to a 15-25 second read)
+    - "line_en": the English version of that same line. If the language
+      specified above is already English, "line_en" must be IDENTICAL to
+      "line" - never omit this key even then.
     - "visual_prompts": array of 2-3 short stock-footage SEARCH PHRASES, in
       English (2-5 words each, like you'd type into a stock video site -
       e.g. "street food market night", "airplane window clouds", "smartphone
@@ -459,7 +463,7 @@ than the lower. First line must be a strong hook.
 Content must be strictly brand-safe and family-friendly: no adult content,
 violence, illegal activity, hate speech, drugs, gambling, or anything that
 could be flagged as unsafe for advertisers or YouTube's community guidelines.
-Output ONLY the JSON, no markdown fences."""
+Output ONLY the JSON, no markdown fences. Do not omit "line_en" from any beat."""
 
     resp = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
@@ -472,10 +476,34 @@ Output ONLY the JSON, no markdown fences."""
         },
         timeout=60,
     )
+    if resp.status_code >= 400:
+        # Print the response body before raising - a bare "400 Client Error"
+        # with no context (as happened once) is useless for diagnosing what
+        # Groq actually objected to (bad request shape, rate limit, content
+        # policy, etc.).
+        print(f"Groq API error {resp.status_code}: {resp.text[:500]}", flush=True)
     resp.raise_for_status()
     text = resp.json()["choices"][0]["message"]["content"].strip()
     text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
-    return json.loads(text)
+    script = json.loads(text)
+
+    # Defensive normalization: the schema above asks for both "line" and
+    # "line_en" on every beat, but a model can still drift and omit one -
+    # that previously surfaced as a bare, confusing "KeyError: 'line'" deep
+    # in run_once() and killed the whole run. Backfill from whichever field
+    # is present; only raise (a clear, specific error the retry loop can
+    # act on) if a beat has neither.
+    for i, beat in enumerate(script.get("beats", [])):
+        has_line = bool(beat.get("line"))
+        has_line_en = bool(beat.get("line_en"))
+        if not has_line and not has_line_en:
+            raise ValueError(f"Groq returned beat {i} with neither 'line' nor 'line_en': {beat!r}")
+        if not has_line:
+            beat["line"] = beat["line_en"]
+        if not has_line_en:
+            beat["line_en"] = beat["line"]
+
+    return script
 
 
 async def synthesize_voice(text, out_path, language="en", rate="+18%", voice_override=None):
@@ -981,48 +1009,72 @@ def run_once(topic, niche, language="en", category=None, native=None):
     total_dur = None
     caption_key = "line_en" if native else "line"
     narrating_native = bool(native)
+    MIN_VOICE_FILE_BYTES = 1024  # edge_tts can "succeed" (no exception) but
+
+    # write a near-empty/corrupt file for a bad voice name - catch that
+    # explicitly instead of letting it surface later as a cryptic ffprobe
+    # crash that skips the English fallback entirely (that's exactly what
+    # happened with the ja-JP/ar-EG/th-TH voices: no exception at synthesis,
+    # just a bad file, and ffprobe blew up outside the old try/except).
 
     # Regenerate if the model produces a script too short to be a usable
     # Short - measured on the actual synthesized audio, not a word-count
-    # guess, since speaking rate varies a lot by language.
+    # guess, since speaking rate varies a lot by language. Also regenerate
+    # (rather than crash the whole run) if Groq returns a malformed beat.
     for script_try in range(1, MAX_SCRIPT_TRIES + 1):
         print(f"Generating script (Groq), try {script_try}/{MAX_SCRIPT_TRIES}...", flush=True)
-        script = generate_script(
-            topic, niche, language=language,
-            native_language_name=native["name"] if native else None,
-        )
-        print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
+        try:
+            script = generate_script(
+                topic, niche, language=language,
+                native_language_name=native["name"] if native else None,
+            )
+            print(f"Script ready: {len(script['beats'])} beats, title: {script['title']!r}", flush=True)
 
-        # Safety check runs on the English text (title/description/line_en) -
-        # BLOCKED_KEYWORDS are English, so checking native-script narration
-        # would silently pass everything.
-        full_check_text = script["title"] + " " + script["description"] + " " + \
-            " ".join((b.get("line_en") or b.get("line", "")) for b in script["beats"])
-        if not is_safe_topic(full_check_text):
-            match = find_blocked_match(full_check_text)
-            print(f"Safety check matched: {match[0]!r} in context: ...{match[1]}...", flush=True)
-            raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
+            # Safety check runs on the English text (title/description/
+            # line_en) - BLOCKED_KEYWORDS are English, so checking
+            # native-script narration would silently pass everything.
+            full_check_text = script["title"] + " " + script["description"] + " " + \
+                " ".join((b.get("line_en") or b.get("line", "")) for b in script["beats"])
+            if not is_safe_topic(full_check_text):
+                match = find_blocked_match(full_check_text)
+                print(f"Safety check matched: {match[0]!r} in context: ...{match[1]}...", flush=True)
+                raise UnsafeTopicError(f"Generated script for topic {topic!r} failed the safety check")
 
-        beats = script["beats"]
-        narration_text = " ".join(b["line"] for b in beats)
-        english_text = " ".join((b.get("line_en") or b.get("line", "")) for b in beats)
+            beats = script["beats"]
+            narration_text = " ".join((b.get("line") or b.get("line_en", "")) for b in beats)
+            english_text = " ".join((b.get("line_en") or b.get("line", "")) for b in beats)
+        except (ValueError, KeyError) as e:
+            if script_try == MAX_SCRIPT_TRIES:
+                raise
+            print(f"Malformed script from Groq ({e!r}) - regenerating...", flush=True)
+            continue
 
         print("Synthesizing voiceover (Edge TTS)...", flush=True)
+        narrating_native = bool(native)
+        caption_key = "line_en" if native else "line"
         if native:
             try:
                 asyncio.run(synthesize_voice(
                     narration_text, voice_path, voice_override=native["voice"]
                 ))
+                actual_size = voice_path.stat().st_size if voice_path.exists() else 0
+                if actual_size < MIN_VOICE_FILE_BYTES:
+                    raise RuntimeError(
+                        f"native voice produced a {actual_size}-byte file "
+                        f"(no exception raised, but clearly not real audio)"
+                    )
+                total_dur = get_audio_duration(voice_path)
             except Exception as e:
                 print(f"Native voice {native['voice']!r} failed ({e}) - "
                       f"falling back to English narration.", flush=True)
                 narrating_native = False
                 caption_key = "line"
                 asyncio.run(synthesize_voice(english_text, voice_path, language="en"))
+                total_dur = get_audio_duration(voice_path)
         else:
             asyncio.run(synthesize_voice(narration_text, voice_path, language=language))
+            total_dur = get_audio_duration(voice_path)
 
-        total_dur = get_audio_duration(voice_path)
         print(f"Voiceover ready: {total_dur:.1f}s", flush=True)
 
         if total_dur >= MIN_VIDEO_SECONDS or script_try == MAX_SCRIPT_TRIES:
