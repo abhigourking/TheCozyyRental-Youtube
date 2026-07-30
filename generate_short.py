@@ -26,8 +26,9 @@ import subprocess
 import tempfile
 import shutil
 import asyncio
+import threading
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 import edge_tts
@@ -546,36 +547,51 @@ async def synthesize_voice(text, out_path, language="en", rate="+18%", voice_ove
     await communicate.save(str(out_path))
 
 
+# Pollinations' free tier enforces a hard "max 1 queued request per IP"
+# limit - any concurrency trips it immediately. Now that shot-fetching runs
+# multiple shots in a thread pool (see run_once()), this lock is what keeps
+# that promise even though several threads may all decide they need an AI
+# image at the same time - only one Pollinations request is ever in flight
+# at once, the rest simply queue on the lock. Stock-footage shots (Pexels)
+# and ffmpeg encoding never touch this lock, so they're unaffected and get
+# the full benefit of running in parallel.
+POLLINATIONS_LOCK = threading.Lock()
+
+
 def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # Requesting above final 1080x1920 output resolution gives the zoompan
     # (Ken Burns) effect in build_video room to zoom in without softening.
     url = f"https://image.pollinations.ai/prompt/{requests.utils.quote(prompt)}"
     params = {"width": width, "height": height, "nologo": "true", "enhance": "true"}
 
-    last_detail = None
-    for attempt in range(max_retries):
-        try:
-            r = requests.get(url, params=params, timeout=90)
-            if r.status_code == 429:
-                last_detail = f"HTTP 429: {r.text[:200]}"
-                wait = (2 ** attempt) * 3 + random.uniform(0, 2)
-                time.sleep(wait)
-                continue
-            if r.status_code >= 400:
-                last_detail = f"HTTP {r.status_code}: {r.text[:200]}"
+    with POLLINATIONS_LOCK:
+        last_detail = None
+        for attempt in range(max_retries):
+            try:
+                r = requests.get(url, params=params, timeout=90)
+                if r.status_code == 429:
+                    last_detail = f"HTTP 429: {r.text[:200]}"
+                    wait = (2 ** attempt) * 3 + random.uniform(0, 2)
+                    time.sleep(wait)
+                    continue
+                if r.status_code >= 400:
+                    last_detail = f"HTTP {r.status_code}: {r.text[:200]}"
+                    time.sleep((2 ** attempt) + random.uniform(0, 1))
+                    continue
+                r.raise_for_status()
+                out_path.write_bytes(r.content)
+                time.sleep(0.3)  # brief courtesy pause before releasing the
+                                  # lock, so a queued thread's request doesn't
+                                  # fire the instant this one lands
+                return
+            except requests.exceptions.RequestException as e:
+                last_detail = f"{type(e).__name__}: {e}"
                 time.sleep((2 ** attempt) + random.uniform(0, 1))
-                continue
-            r.raise_for_status()
-            out_path.write_bytes(r.content)
-            return
-        except requests.exceptions.RequestException as e:
-            last_detail = f"{type(e).__name__}: {e}"
-            time.sleep((2 ** attempt) + random.uniform(0, 1))
 
-    raise RuntimeError(
-        f"download_image failed after {max_retries} retries for prompt {prompt!r}. "
-        f"Last error: {last_detail}"
-    )
+        raise RuntimeError(
+            f"download_image failed after {max_retries} retries for prompt {prompt!r}. "
+            f"Last error: {last_detail}"
+        )
 
 
 def search_pexels_video(query):
@@ -720,7 +736,7 @@ def duplicate_clip_to_duration(src_path, target_duration, out_path):
         ], check=True, capture_output=True)
 
 
-def prepare_shot_clips(prompt, shot_dur, work_dir, index, fallback_clip=None):
+def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None):
     """Returns a list of ready-made mp4 clips (already trimmed/scaled to the
     target vertical size) covering shot_dur total. Tries real stock footage
     from Pexels first (each sub-cut takes a different time-slice of the same
@@ -734,6 +750,12 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, fallback_clip=None):
     clip from this video, then a plain color background as an absolute
     last resort. One flaky image request should never crash an entire
     video/upload slot when MAX_ATTEMPTS=1 makes that expensive to redo.
+
+    get_fallback_clip is a zero-arg callable (not a static path) returning
+    whatever the most recently completed successful clip is, read fresh at
+    the moment of use - shots now run concurrently in a thread pool, so
+    there's no single well-defined "previous shot" anymore, just "whatever
+    finished most recently across all in-flight shots."
     """
     n_splits = max(1, round(shot_dur / MAX_CUT_DURATION))
     sub_dur = shot_dur / n_splits
@@ -765,6 +787,7 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, fallback_clip=None):
             download_image(fallback_prompt, img_path)
         except Exception as e2:
             print(f"    Generic fallback also failed: {e2}", flush=True)
+            fallback_clip = get_fallback_clip() if get_fallback_clip else None
             clips = []
             for j in range(n_splits):
                 out_path = work_dir / f"clip_{index}_{j}.mp4"
@@ -1202,28 +1225,62 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
         for p in prompts:
             shots.append((p, shot_dur))
 
-    # Sequential, not parallel: Pollinations' free tier (used only as the
-    # fallback when no stock footage matches) enforces a hard "max 1 queued
-    # request per IP" limit - any concurrency trips it immediately. Pexels'
-    # free tier is far more generous, but we keep this paced regardless.
-    print(f"Fetching {len(shots)} visuals (stock footage, falling back to AI images)...", flush=True)
-    all_clip_paths = []
+    # Runs shots concurrently instead of one at a time - this was the single
+    # biggest chunk of wall-clock time in a run (Pexels searches, stock
+    # downloads, and ffmpeg trims for ~15-20 shots, each waited on in full
+    # before the next even started). Pexels' free tier is generous enough to
+    # handle several requests at once; ffmpeg trims are separate subprocesses
+    # so they parallelize fine too. The one thing that genuinely can't run
+    # concurrently is Pollinations (AI-image fallback) - its free tier caps
+    # at 1 in-flight request per IP - so that part alone is still serialized,
+    # via POLLINATIONS_LOCK inside download_image(). Net effect: shots that
+    # hit stock footage (the common case when PEXELS_API_KEY is set) get the
+    # full parallel speedup; shots that fall back to AI images queue safely
+    # behind each other without wasting the pool's other worker slots.
+    SHOT_FETCH_WORKERS = 5
+    print(f"Fetching {len(shots)} visuals (stock footage, falling back to AI images; "
+          f"up to {SHOT_FETCH_WORKERS} shots in parallel)...", flush=True)
+
+    fallback_lock = threading.Lock()
+    fallback_state = {"clip": None}
+
+    def get_fallback_clip():
+        with fallback_lock:
+            return fallback_state["clip"]
+
+    def set_fallback_clip(clip):
+        with fallback_lock:
+            fallback_state["clip"] = clip
+
+    def fetch_one(i, prompt, shot_dur):
+        clips, source = prepare_shot_clips(
+            prompt, shot_dur, work, i, get_fallback_clip=get_fallback_clip
+        )
+        return i, prompt, clips, source
+
+    results = [None] * len(shots)
     stock_count = ai_count = degraded_count = 0
-    last_successful_clip = None
-    for i, (prompt, shot_dur) in enumerate(shots):
-        print(f"  shot {i+1}/{len(shots)}: {prompt[:60]!r}...", flush=True)
-        clips, source = prepare_shot_clips(prompt, shot_dur, work, i, fallback_clip=last_successful_clip)
+    done = 0
+    with ThreadPoolExecutor(max_workers=SHOT_FETCH_WORKERS) as executor:
+        futures = [
+            executor.submit(fetch_one, i, prompt, shot_dur)
+            for i, (prompt, shot_dur) in enumerate(shots)
+        ]
+        for future in as_completed(futures):
+            i, prompt, clips, source = future.result()
+            results[i] = clips
+            done += 1
+            if source in ("stock", "ai_image"):
+                set_fallback_clip(clips[-1])
+                stock_count += (source == "stock")
+                ai_count += (source == "ai_image")
+            else:
+                degraded_count += 1  # "reused" or "placeholder"
+            print(f"  [{done}/{len(shots)}] shot {i+1} ({source}): {prompt[:60]!r}", flush=True)
+
+    all_clip_paths = []
+    for clips in results:
         all_clip_paths.extend(clips)
-        if source == "stock":
-            stock_count += 1
-            last_successful_clip = clips[-1]
-        elif source == "ai_image":
-            ai_count += 1
-            last_successful_clip = clips[-1]
-        else:
-            degraded_count += 1  # "reused" or "placeholder" - don't update
-                                  # last_successful_clip, it's already a fallback
-        time.sleep(0.4)
     print(f"All visuals ready ({stock_count} stock footage, {ai_count} AI image, "
           f"{degraded_count} degraded fallback).", flush=True)
 
