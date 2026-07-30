@@ -1,5 +1,5 @@
 {
-  "niche": "engaging travel, food, and technology content for a general audience - stunning travel destinations and city tours, delicious food and street eats, cool gadgets and tech innovations (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
+  "niche": "engaging travel, food, technology, AI, and animals content for a general audience - stunning travel destinations and city tours, delicious food and street eats, cool gadgets and tech innovations, mind-blowing AI tools/capabilities, and strange/unusual animals and wildlife (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
   "topics": [
     {
       "category": "travel",
@@ -40,6 +40,38 @@
     {
       "category": "tech",
       "text": "A simple gadget or tech hack that makes daily life easier"
+    },
+    {
+      "category": "ai",
+      "text": "A wild new AI tool that's changing how people work"
+    },
+    {
+      "category": "ai",
+      "text": "An AI-generated creation that broke the internet"
+    },
+    {
+      "category": "ai",
+      "text": "A mind-blowing AI capability most people don't know exists"
+    },
+    {
+      "category": "ai",
+      "text": "A simple AI trick that saves hours of work"
+    },
+    {
+      "category": "animals",
+      "text": "A bizarre animal you won't believe actually exists"
+    },
+    {
+      "category": "animals",
+      "text": "An unusual animal behavior scientists are still studying"
+    },
+    {
+      "category": "animals",
+      "text": "A strange creature found in the deep ocean"
+    },
+    {
+      "category": "animals",
+      "text": "A rare or endangered species most people have never heard of"
     }
   ],
   "next_language": "en",

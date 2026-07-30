@@ -49,17 +49,21 @@ VOICES = {
 }
 VIDEO_SIZE = (1080, 1920)
 
-# Curated for the travel / food / technology niche - visually rich subjects
-# that read well as fast photo/video slideshows. Deliberately excludes
-# r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't even
-# fetch heavy news/tragedy/political content in the first place. This is the
-# primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
+# Curated for the travel / food / tech / AI / animals niche - visually rich
+# subjects that read well as fast photo/video slideshows. Deliberately
+# excludes r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't
+# even fetch heavy news/tragedy/political content in the first place. This is
+# the primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
 # Split by category (rather than one flat list) so performance data can bias
-# which category gets picked next - see compute_category_weights().
+# which category gets picked next - see compute_category_weights(). Which
+# category gets picked each run is random (weighted by past performance, see
+# pick_category()) - not a fixed sequence of phases.
 CATEGORY_SUBREDDITS = {
     "travel": ["travel", "backpacking", "itookapicture", "hiking"],
     "food": ["food", "recipes", "EatCheapAndHealthy"],
     "tech": ["gadgets", "technology"],
+    "ai": ["artificial", "ChatGPT", "OpenAI"],
+    "animals": ["Eyebleach", "AnimalsBeingBros", "awwducational"],
 }
 
 # Rotated through (round-robin, state persisted in topics.json) to keep
@@ -74,8 +78,10 @@ COUNTRIES = [
 
 # {country} gets filled in with the current pick_country() result. Several
 # per category so the same country doesn't produce the same phrasing twice
-# in a row as it cycles back around.
-TRAVEL_FOOD_TOPIC_TEMPLATES = {
+# in a row as it cycles back around. travel/food/animals all share the same
+# rotating pick_country() pointer (round-robin across all 20 countries),
+# rather than each category tracking its own separate position.
+COUNTRY_TOPIC_TEMPLATES = {
     "travel": [
         "A viral travel spot in {country} that's all over social media right now",
         "A hidden gem destination in {country} most tourists don't know about",
@@ -89,6 +95,13 @@ TRAVEL_FOOD_TOPIC_TEMPLATES = {
         "A popular food market or food street worth visiting in {country}",
         "A comfort food from {country} that's become an internet obsession",
         "A unique regional specialty from {country} most outsiders have never heard of",
+    ],
+    "animals": [
+        "A strange native animal you can only find in {country}",
+        "An unusual creature that calls {country} home",
+        "A bizarre animal fact from {country} most people don't know",
+        "A rare or endangered species found in {country}",
+        "A wildlife behavior unique to {country} that scientists find fascinating",
     ],
 }
 
@@ -241,13 +254,13 @@ def pick_topic(category=None, force_static=False):
         category = random.choice(list(CATEGORY_SUBREDDITS.keys()))
     data = json.loads(TOPICS_FILE.read_text())
 
-    # Travel/food always rotate through a specific country instead of using
-    # the generic static list or Reddit trending - keeps content fresh and
-    # globally varied every single run ("gather more videos about each
+    # Travel/food/animals always rotate through a specific country instead of
+    # using the generic static list or Reddit trending - keeps content fresh
+    # and globally varied every single run ("gather more videos about each
     # country's viral travel/food topics, then rotate").
-    if category in TRAVEL_FOOD_TOPIC_TEMPLATES:
+    if category in COUNTRY_TOPIC_TEMPLATES:
         country = pick_country()
-        template = random.choice(TRAVEL_FOOD_TOPIC_TEMPLATES[category])
+        template = random.choice(COUNTRY_TOPIC_TEMPLATES[category])
         topic = template.format(country=country)
         print(f"Country: {country}", flush=True)
         return topic, data["niche"]
@@ -297,16 +310,14 @@ Topic: {topic}
 
 {language_instruction}
 
-This needs to be a full-length Short, roughly 55-70 seconds when read aloud
-at a normal pace - NOT a quick 8-10 second clip. Structure it like a proper
-piece of content people will actually watch to the end:
+This needs to be a SHORT, punchy Short - under 25 seconds when read aloud at
+a normal pace. Every word has to earn its place. Structure it tight:
 1. A scroll-stopping hook in the first line (a bold claim, a question, or
    "nobody tells you this" style opener)
-2. Build-up / context (1-2 lines)
-3. The main value: 4-7 concrete, specific tips/facts/steps - each its own
-   beat, each genuinely useful, not generic filler
-4. A strong closing line with a call to action (follow for more, comment
-   your experience, etc.)
+2. 2-4 concrete, specific tips/facts/beats - each genuinely useful, zero
+   filler, zero build-up/throat-clearing
+3. A quick closing line with a call to action (follow for more, comment your
+   experience, etc.)
 
 This should feel like a fast-paced, addictive, quick-cut viral Short (think
 TikTok/Reels editing style) - visuals should change every 1.5-2.5 seconds,
@@ -317,9 +328,9 @@ Return STRICT JSON with keys:
 - "title": catchy YouTube title, under 90 chars
 - "description": 2-3 sentence description with a call to action
 - "hashtags": array of 5 relevant hashtags (no # symbol)
-- "beats": array of 9-14 objects (following the structure above), each with:
+- "beats": array of 4-6 objects (following the structure above), each with:
     - "line": one sentence of narration (conversational, punchy, no filler,
-      roughly 12-20 words each)
+      roughly 8-14 words each)
     - "visual_prompts": array of 2-3 short stock-footage SEARCH PHRASES, in
       English (2-5 words each, like you'd type into a stock video site -
       e.g. "street food market night", "airplane window clouds", "smartphone
@@ -328,8 +339,9 @@ Return STRICT JSON with keys:
       common enough that real stock footage of them plausibly exists -
       avoid overly specific or abstract phrasing
 
-Target 160-220 words of total narration across all beats combined - this is
-important, do not undershoot it. First line must be a strong hook.
+Target 55-70 words of total narration across all beats combined - this is
+important, do not overshoot it, the whole thing needs to land under 25
+seconds when read aloud. First line must be a strong hook.
 Content must be strictly brand-safe and family-friendly: no adult content,
 violence, illegal activity, hate speech, drugs, gambling, or anything that
 could be flagged as unsafe for advertisers or YouTube's community guidelines.
