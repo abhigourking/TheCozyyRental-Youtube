@@ -67,18 +67,40 @@ jobs:
           git add topics.json
           [ -f performance_log.json ] && git add performance_log.json
           git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
-          # Retry on non-fast-forward rejection (another push landed on master
-          # in between, e.g. a manual commit or an overlapping run) - rebase
-          # onto the latest remote state and try again, a few times before
-          # giving up. The video has already uploaded by this point either
-          # way; this just makes sure the rotation state isn't silently lost.
+
+          # Retry on non-fast-forward rejection (another push landed on
+          # master in between - a code push, a manual trigger, or another
+          # run's own state commit). A plain "git rebase" occasionally hit a
+          # real conflict here: performance_log.json is a plain JSON array,
+          # and if two runs both appended a video entry around the same
+          # time, git's line-based merge can't reconcile two inserts at the
+          # same spot (the closing bracket). Once that happens, resolve it
+          # in Python instead of fighting git's text merge: keep our own
+          # freshly-uploaded video's entry, reset everything else to
+          # origin's latest, and union the video lists by video_id so
+          # neither side's entry is silently dropped. The video has already
+          # uploaded by this point either way - this only affects whether
+          # its stats get tracked for future category weighting.
           for i in 1 2 3 4 5; do
             if git push; then
               break
             fi
             echo "Push rejected, retrying ($i/5)..."
             git fetch origin master
-            git rebase origin/master
+
+            if git rebase origin/master; then
+              sleep $((RANDOM % 10 + 5))
+              continue
+            fi
+            echo "Rebase hit a real conflict - resolving performance_log.json by merging video lists..."
+            git rebase --abort
+
+            cp performance_log.json /tmp/ours_performance_log.json 2>/dev/null || echo '{"videos": []}' > /tmp/ours_performance_log.json
+            git reset --hard origin/master
+            python3 merge_performance_log.py
+
+            git add performance_log.json
+            git commit -m "chore: advance state (merged after conflict) [skip ci]" || echo "nothing to commit after merge"
             sleep $((RANDOM % 10 + 5))
           done
 
