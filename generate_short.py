@@ -642,6 +642,38 @@ async def synthesize_voice(text, out_path, language="en", rate="+18%", voice_ove
 POLLINATIONS_LOCK = threading.Lock()
 
 
+def _is_decodable_image(path):
+    """Validates the file is actually a real, decodable image - not just
+    that the HTTP request returned 200. Pollinations can return a 200 with
+    a corrupt/truncated/error-page body (more likely now that every shot
+    queues through one lock back-to-back); without this check that bad file
+    gets treated as a successful download and later crashes ffmpeg's Ken
+    Burns step with an opaque, hard-to-diagnose error (this is exactly what
+    happened - reproduced locally: a non-image body fed to `ffmpeg -loop 1`
+    fails with "No JPEG data found in image" / nonzero exit). Uses ffprobe
+    (already a hard dependency) rather than adding a new one like Pillow.
+
+    Important: ffprobe exits 0 even on a corrupt file - it just reports
+    "0,0" for width/height while logging the real error to stderr. So this
+    can't just check the exit code / non-empty stdout; it has to parse the
+    dimensions and confirm they're actually positive."""
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0",
+             "-show_entries", "stream=width,height", "-of", "csv=p=0", str(path)],
+            capture_output=True, text=True, timeout=15,
+        )
+        if result.returncode != 0:
+            return False
+        parts = result.stdout.strip().split(",")
+        if len(parts) != 2:
+            return False
+        width, height = int(parts[0]), int(parts[1])
+        return width > 0 and height > 0
+    except Exception:
+        return False
+
+
 def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # Requesting above final 1080x1920 output resolution gives the zoompan
     # (Ken Burns) effect in build_video room to zoom in without softening.
@@ -664,6 +696,11 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                     continue
                 r.raise_for_status()
                 out_path.write_bytes(r.content)
+                if not _is_decodable_image(out_path):
+                    last_detail = (f"HTTP 200 but {len(r.content)} bytes weren't a "
+                                    f"decodable image (corrupt/error body)")
+                    time.sleep((2 ** attempt) + random.uniform(0, 1))
+                    continue
                 time.sleep(0.3)  # brief courtesy pause before releasing the
                                   # lock, so a queued thread's request doesn't
                                   # fire the instant this one lands
@@ -820,6 +857,25 @@ def duplicate_clip_to_duration(src_path, target_duration, out_path):
         ], check=True, capture_output=True)
 
 
+def _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip):
+    """Last-resort fallback shared by every failure path in
+    prepare_shot_clips(): reuse the most recently successful clip from this
+    video if one exists, otherwise a plain solid-color background. Never
+    raises - this is the floor everything else falls back to, so one flaky
+    shot never crashes the whole run/upload."""
+    fallback_clip = get_fallback_clip() if get_fallback_clip else None
+    clips = []
+    for j in range(n_splits):
+        out_path = work_dir / f"clip_{index}_{j}.mp4"
+        if fallback_clip is not None:
+            duplicate_clip_to_duration(fallback_clip, sub_dur, out_path)
+        else:
+            make_solid_color_clip(sub_dur, out_path)
+        clips.append(out_path)
+    source = "reused" if fallback_clip is not None else "placeholder"
+    return clips, source
+
+
 def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None):
     """Returns a list of ready-made mp4 clips (already trimmed/scaled to the
     target vertical size) covering shot_dur total. Tries real stock footage
@@ -871,25 +927,30 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None
             download_image(fallback_prompt, img_path)
         except Exception as e2:
             print(f"    Generic fallback also failed: {e2}", flush=True)
-            fallback_clip = get_fallback_clip() if get_fallback_clip else None
-            clips = []
-            for j in range(n_splits):
-                out_path = work_dir / f"clip_{index}_{j}.mp4"
-                if fallback_clip is not None:
-                    duplicate_clip_to_duration(fallback_clip, sub_dur, out_path)
-                else:
-                    make_solid_color_clip(sub_dur, out_path)
-                clips.append(out_path)
-            source = "reused" if fallback_clip is not None else "placeholder"
+            clips, source = _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip)
             print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
             return clips, source
 
-    clips = []
-    for j in range(n_splits):
-        out_path = work_dir / f"clip_{index}_{j}.mp4"
-        make_ken_burns_clip(img_path, sub_dur, out_path, zoom_in=(j % 2 == 0))
-        clips.append(out_path)
-    return clips, "ai_image"
+    # download_image() now validates it got a real, decodable image before
+    # returning (see _is_decodable_image) - but ffmpeg's zoompan/Ken Burns
+    # step is still its own possible failure point (e.g. a genuinely valid
+    # but unusual image tripping up the filter), and previously had NO
+    # fallback at all: one bad frame here used to crash the entire run
+    # (reproduced and confirmed - "No JPEG data found in image" / nonzero
+    # ffmpeg exit, with MAX_ATTEMPTS=1 meaning no second chance). Now it
+    # degrades the same way every other failure in this function does.
+    try:
+        clips = []
+        for j in range(n_splits):
+            out_path = work_dir / f"clip_{index}_{j}.mp4"
+            make_ken_burns_clip(img_path, sub_dur, out_path, zoom_in=(j % 2 == 0))
+            clips.append(out_path)
+        return clips, "ai_image"
+    except Exception as e:
+        print(f"    Ken Burns clip generation failed for shot {index}: {e}", flush=True)
+        clips, source = _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip)
+        print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
+        return clips, source
 
 
 def build_video(clip_paths, voice_path, srt_path, out_path):
