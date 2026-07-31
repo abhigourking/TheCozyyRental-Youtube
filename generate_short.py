@@ -408,6 +408,26 @@ def pick_language():
     return lang
 
 
+# Running total for THIS process (one video/run of generate_short.py),
+# reset each fresh invocation - not persisted between runs by itself.
+# record_performance_entry() writes the final total into
+# performance_log.json so it becomes a durable per-video record you can
+# sum across a day to see actual usage against Groq's 100k/day cap,
+# instead of only ever seeing it in transient Actions logs.
+_GROQ_RUN_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "calls": 0}
+
+
+def record_groq_usage(usage):
+    _GROQ_RUN_USAGE["prompt_tokens"] += usage.get("prompt_tokens", 0) or 0
+    _GROQ_RUN_USAGE["completion_tokens"] += usage.get("completion_tokens", 0) or 0
+    _GROQ_RUN_USAGE["total_tokens"] += usage.get("total_tokens", 0) or 0
+    _GROQ_RUN_USAGE["calls"] += 1
+
+
+def get_groq_run_usage():
+    return dict(_GROQ_RUN_USAGE)
+
+
 def _groq_api_keys():
     """Configured Groq API keys, in fallback order: primary, then optional
     secondary (GROQ_API_KEY_2). Groq enforces rate limits per organization,
@@ -563,9 +583,23 @@ Output ONLY the JSON, no markdown fences. Do not omit "line_en" from any beat.""
         # 60s-on-failure backoff) handle it same as before.
         resp.raise_for_status()
 
-    text = resp.json()["choices"][0]["message"]["content"].strip()
+    data = resp.json()
+    text = data["choices"][0]["message"]["content"].strip()
     text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
     script = json.loads(text)
+
+    # Track token usage so it's visible per-call in the log and summable
+    # across a whole run (a run can call Groq more than once - one per
+    # script_try retry) - this is what makes "how many tokens did today's
+    # runs actually use" answerable instead of just guessing against the
+    # 100k/day cap.
+    usage = data.get("usage", {})
+    record_groq_usage(usage)
+    print(f"Groq usage this call: {usage.get('total_tokens', '?')} tokens "
+          f"(prompt={usage.get('prompt_tokens', '?')}, "
+          f"completion={usage.get('completion_tokens', '?')}) - "
+          f"run total so far: {_GROQ_RUN_USAGE['total_tokens']} tokens "
+          f"across {_GROQ_RUN_USAGE['calls']} Groq call(s)", flush=True)
 
     # Defensive normalization: the schema above asks for both "line" and
     # "line_en" on every beat, but a model can still drift and omit one -
@@ -1002,7 +1036,13 @@ def record_performance_entry(video_id, category, language, topic, country=None):
     text) so compute_country_weights() can group by it directly - it's
     None for tech/ai topics, which aren't country-rotated. Older log
     entries from before this field existed simply have no "country" key,
-    which compute_country_weights() already treats as "skip"."""
+    which compute_country_weights() already treats as "skip".
+
+    Also records this run's total Groq token usage (summed across every
+    Groq call the run made, including script-length regeneration retries)
+    so performance_log.json becomes a durable, queryable record of actual
+    usage - "how many tokens did today's videos use" is just summing
+    groq_tokens across today's entries, instead of scrolling Actions logs."""
     if not video_id:
         return
     data = load_performance_log()
@@ -1012,6 +1052,8 @@ def record_performance_entry(video_id, category, language, topic, country=None):
         "language": language,
         "topic": topic,
         "country": country,
+        "groq_tokens": get_groq_run_usage()["total_tokens"],
+        "groq_calls": get_groq_run_usage()["calls"],
         "posted_at": time.time(),
     })
     PERFORMANCE_FILE.write_text(json.dumps(data, indent=2))
@@ -1403,7 +1445,11 @@ def main():
 
         try:
             run_once(topic, niche, language=language, category=category, native=native, country=country)
-            print(f"Success on attempt {attempt}/{max_attempts}.")
+            usage = get_groq_run_usage()
+            print(f"Success on attempt {attempt}/{max_attempts}. "
+                  f"Groq usage this run: {usage['total_tokens']} tokens "
+                  f"across {usage['calls']} call(s) - "
+                  f"see performance_log.json for the running per-video record.")
             return
         except Exception as e:
             last_error = e
