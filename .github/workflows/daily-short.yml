@@ -53,6 +53,14 @@ jobs:
         id: run_pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # Optional fallback key from a SEPARATE Groq account (its own
+          # independent daily token quota - Groq rate-limits per
+          # organization, so a second key on the same account wouldn't
+          # help). generate_script() switches to this automatically only
+          # when the primary key hits its per-day quota specifically, not
+          # for other errors. Safe to leave unset - falls back to
+          # primary-key-only behavior.
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}

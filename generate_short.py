@@ -408,6 +408,38 @@ def pick_language():
     return lang
 
 
+def _groq_api_keys():
+    """Configured Groq API keys, in fallback order: primary, then optional
+    secondary (GROQ_API_KEY_2). Groq enforces rate limits per organization,
+    not per key - a second key on the SAME Groq account shares the exact
+    same exhausted quota, so this only helps if GROQ_API_KEY_2 belongs to a
+    genuinely separate account/org (confirmed to be the case here)."""
+    keys = []
+    primary = os.environ.get("GROQ_API_KEY")
+    if primary:
+        keys.append(("primary", primary))
+    secondary = os.environ.get("GROQ_API_KEY_2")
+    if secondary:
+        keys.append(("secondary", secondary))
+    return keys
+
+
+def _is_daily_quota_error(resp):
+    """True only for Groq's per-day (TPD/RPD) quota exhaustion - the case
+    where switching to a different account's key actually helps. A
+    per-minute rate limit (RPM/TPM) is transient and clears in seconds on
+    its own, so it should just propagate/retry normally rather than burning
+    the fallback key on something that wasn't the problem."""
+    if resp.status_code != 429:
+        return False
+    try:
+        detail = resp.json().get("error", {}).get("message", "")
+    except ValueError:
+        detail = resp.text
+    detail = detail.lower()
+    return "per day" in detail or "tpd" in detail or "rpd" in detail
+
+
 def generate_script(topic, niche, language="en", native_language_name=None):
     """native_language_name: e.g. "Japanese" - when set, each beat's "line"
     is narration in that language while "line_en" carries the English
@@ -495,24 +527,42 @@ violence, illegal activity, hate speech, drugs, gambling, or anything that
 could be flagged as unsafe for advertisers or YouTube's community guidelines.
 Output ONLY the JSON, no markdown fences. Do not omit "line_en" from any beat."""
 
-    resp = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"},
-        json={
-            "model": "llama-3.3-70b-versatile",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.9,
-            "response_format": {"type": "json_object"},
-        },
-        timeout=60,
-    )
-    if resp.status_code >= 400:
+    keys = _groq_api_keys()
+    if not keys:
+        raise RuntimeError("No Groq API key configured (GROQ_API_KEY missing).")
+
+    resp = None
+    for i, (label, key) in enumerate(keys):
+        resp = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}"},
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.9,
+                "response_format": {"type": "json_object"},
+            },
+            timeout=60,
+        )
+        if resp.ok:
+            break
         # Print the response body before raising - a bare "400 Client Error"
         # with no context (as happened once) is useless for diagnosing what
         # Groq actually objected to (bad request shape, rate limit, content
         # policy, etc.).
-        print(f"Groq API error {resp.status_code}: {resp.text[:500]}", flush=True)
-    resp.raise_for_status()
+        print(f"Groq API error {resp.status_code} ({label} key): {resp.text[:500]}", flush=True)
+        is_last_key = (i == len(keys) - 1)
+        if _is_daily_quota_error(resp) and not is_last_key:
+            print(f"Groq {label} key hit its daily token quota - "
+                  f"switching to the next configured key.", flush=True)
+            continue
+        # Either this was the last available key, or it's a non-quota error
+        # (bad request, transient per-minute limit, auth failure) that
+        # switching accounts wouldn't fix anyway - raise normally so the
+        # existing retry/backoff paths (script_try loop, workflow-level
+        # 60s-on-failure backoff) handle it same as before.
+        resp.raise_for_status()
+
     text = resp.json()["choices"][0]["message"]["content"].strip()
     text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
     script = json.loads(text)
