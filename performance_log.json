@@ -1086,6 +1086,16 @@
       "groq_tokens": 3796,
       "groq_calls": 3,
       "posted_at": 1785567933.677058
+    },
+    {
+      "video_id": "XBX8hYZ63MY",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Italy",
+      "country": "Italy",
+      "groq_tokens": 3793,
+      "groq_calls": 3,
+      "posted_at": 1785569545.2112288
     }
   ]
 }
