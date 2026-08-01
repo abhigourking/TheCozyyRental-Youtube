@@ -1106,6 +1106,16 @@
       "groq_tokens": 1363,
       "groq_calls": 1,
       "posted_at": 1785570986.1834044
+    },
+    {
+      "video_id": "r8gObOZLPuA",
+      "category": "travel",
+      "language": "en",
+      "topic": "A hidden gem destination in Philippines most tourists don't know about",
+      "country": "Philippines",
+      "groq_tokens": 3764,
+      "groq_calls": 3,
+      "posted_at": 1785572557.103162
     }
   ]
 }
