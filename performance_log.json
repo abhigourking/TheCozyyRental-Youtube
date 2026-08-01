@@ -1466,6 +1466,16 @@
       "groq_tokens": 1380,
       "groq_calls": 1,
       "posted_at": 1785625126.345048
+    },
+    {
+      "video_id": "-Qaqdt0uNhk",
+      "category": "animals",
+      "language": "en",
+      "topic": "A rare or endangered species found in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 3779,
+      "groq_calls": 3,
+      "posted_at": 1785626682.8265998
     }
   ]
 }
