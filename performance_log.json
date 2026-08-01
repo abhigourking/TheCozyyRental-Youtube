@@ -1456,6 +1456,16 @@
       "groq_tokens": 3736,
       "groq_calls": 3,
       "posted_at": 1785623586.3525012
+    },
+    {
+      "video_id": "jNMixW1rXM0",
+      "category": "travel",
+      "language": "Korean",
+      "topic": "A bucket-list experience you can only have in South Korea",
+      "country": "South Korea",
+      "groq_tokens": 1380,
+      "groq_calls": 1,
+      "posted_at": 1785625126.345048
     }
   ]
 }
