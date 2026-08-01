@@ -1236,6 +1236,16 @@
       "groq_tokens": 3693,
       "groq_calls": 3,
       "posted_at": 1785590682.8124764
+    },
+    {
+      "video_id": "zUP0XQijExI",
+      "category": "ai",
+      "language": "en",
+      "topic": "A simple AI trick that saves hours of work",
+      "country": null,
+      "groq_tokens": 3682,
+      "groq_calls": 3,
+      "posted_at": 1785592069.1474686
     }
   ]
 }
