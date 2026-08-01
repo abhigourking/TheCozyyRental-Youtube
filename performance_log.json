@@ -1206,6 +1206,16 @@
       "groq_tokens": 4482,
       "groq_calls": 3,
       "posted_at": 1785586124.9918091
+    },
+    {
+      "video_id": "7Z5QCfiHZ3E",
+      "category": "food",
+      "language": "en",
+      "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+      "country": "Portugal",
+      "groq_tokens": 3851,
+      "groq_calls": 3,
+      "posted_at": 1785587688.0554824
     }
   ]
 }
