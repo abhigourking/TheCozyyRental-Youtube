@@ -1356,6 +1356,16 @@
       "groq_tokens": 3908,
       "groq_calls": 3,
       "posted_at": 1785609217.9342966
+    },
+    {
+      "video_id": "q2sgGq2XOfE",
+      "category": "food",
+      "language": "Japanese",
+      "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+      "country": "Japan",
+      "groq_tokens": 1479,
+      "groq_calls": 1,
+      "posted_at": 1785610876.2228024
     }
   ]
 }
