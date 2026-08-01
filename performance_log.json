@@ -996,6 +996,16 @@
       "groq_tokens": 3776,
       "groq_calls": 3,
       "posted_at": 1785552348.5488353
+    },
+    {
+      "video_id": "ogOitNrMYRY",
+      "category": "travel",
+      "language": "Vietnamese",
+      "topic": "The most breathtaking place to visit in Vietnam",
+      "country": "Vietnam",
+      "groq_tokens": 1564,
+      "groq_calls": 1,
+      "posted_at": 1785555488.6785562
     }
   ]
 }
