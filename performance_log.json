@@ -1386,6 +1386,16 @@
       "groq_tokens": 3686,
       "groq_calls": 3,
       "posted_at": 1785613793.124171
+    },
+    {
+      "video_id": "ZK09JdShjNQ",
+      "category": "food",
+      "language": "en",
+      "topic": "The most viral street food trend in Spain right now",
+      "country": "Spain",
+      "groq_tokens": 3816,
+      "groq_calls": 3,
+      "posted_at": 1785615272.2271552
     }
   ]
 }
