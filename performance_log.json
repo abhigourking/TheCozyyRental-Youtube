@@ -1396,6 +1396,16 @@
       "groq_tokens": 3816,
       "groq_calls": 3,
       "posted_at": 1785615272.2271552
+    },
+    {
+      "video_id": "tgo6T4SR73U",
+      "category": "tech",
+      "language": "en",
+      "topic": "A cool new gadget or tech invention changing everyday life",
+      "country": null,
+      "groq_tokens": 3777,
+      "groq_calls": 3,
+      "posted_at": 1785616652.9220672
     }
   ]
 }
