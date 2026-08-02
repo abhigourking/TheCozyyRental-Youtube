@@ -1596,6 +1596,16 @@
       "groq_tokens": 3843,
       "groq_calls": 3,
       "posted_at": 1785644310.1989267
+    },
+    {
+      "video_id": "9SsxdWlWuqk",
+      "category": "travel",
+      "language": "Italian",
+      "topic": "The most breathtaking place to visit in Italy",
+      "country": "Italy",
+      "groq_tokens": 2943,
+      "groq_calls": 2,
+      "posted_at": 1785645784.4684613
     }
   ]
 }
