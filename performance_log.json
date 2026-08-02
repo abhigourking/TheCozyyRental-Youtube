@@ -1566,6 +1566,16 @@
       "groq_tokens": 1407,
       "groq_calls": 1,
       "posted_at": 1785639968.0169988
+    },
+    {
+      "video_id": "DiYjmM5eznY",
+      "category": "food",
+      "language": "en",
+      "topic": "The most viral street food trend in Argentina right now",
+      "country": "Argentina",
+      "groq_tokens": 3905,
+      "groq_calls": 3,
+      "posted_at": 1785641396.6478062
     }
   ]
 }
