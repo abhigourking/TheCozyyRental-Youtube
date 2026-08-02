@@ -1606,6 +1606,16 @@
       "groq_tokens": 2943,
       "groq_calls": 2,
       "posted_at": 1785645784.4684613
+    },
+    {
+      "video_id": "yLApYYemY-I",
+      "category": "ai",
+      "language": "en",
+      "topic": "An AI-generated creation that broke the internet",
+      "country": null,
+      "groq_tokens": 3751,
+      "groq_calls": 3,
+      "posted_at": 1785647202.1264033
     }
   ]
 }
