@@ -1996,6 +1996,16 @@
       "groq_tokens": 1317,
       "groq_calls": 1,
       "posted_at": 1785704315.383681
+    },
+    {
+      "video_id": "R5P31k2gnEQ",
+      "category": "food",
+      "language": "Brazilian Portuguese",
+      "topic": "A comfort food from Brazil that's become an internet obsession",
+      "country": "Brazil",
+      "groq_tokens": 3078,
+      "groq_calls": 2,
+      "posted_at": 1785705895.239546
     }
   ]
 }
