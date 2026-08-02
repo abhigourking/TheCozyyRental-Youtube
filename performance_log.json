@@ -1576,6 +1576,16 @@
       "groq_tokens": 3905,
       "groq_calls": 3,
       "posted_at": 1785641396.6478062
+    },
+    {
+      "video_id": "rIjh4KqxzSg",
+      "category": "food",
+      "language": "Brazilian Portuguese",
+      "topic": "The most viral street food trend in Brazil right now",
+      "country": "Brazil",
+      "groq_tokens": 1473,
+      "groq_calls": 1,
+      "posted_at": 1785642879.9522905
     }
   ]
 }
