@@ -1546,6 +1546,16 @@
       "groq_tokens": 3715,
       "groq_calls": 3,
       "posted_at": 1785636869.9831376
+    },
+    {
+      "video_id": "R-Rr5wZ-DNc",
+      "category": "travel",
+      "language": "en",
+      "topic": "A hidden gem destination in Egypt most tourists don't know about",
+      "country": "Egypt",
+      "groq_tokens": 3825,
+      "groq_calls": 3,
+      "posted_at": 1785638516.249996
     }
   ]
 }
