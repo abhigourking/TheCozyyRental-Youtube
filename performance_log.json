@@ -1486,6 +1486,16 @@
       "groq_tokens": 3739,
       "groq_calls": 3,
       "posted_at": 1785627996.2971714
+    },
+    {
+      "video_id": "e8_8OeE1nmA",
+      "category": "animals",
+      "language": "en",
+      "topic": "A rare or endangered species found in Greece",
+      "country": "Greece",
+      "groq_tokens": 3816,
+      "groq_calls": 3,
+      "posted_at": 1785629468.562383
     }
   ]
 }
