@@ -1946,6 +1946,16 @@
       "groq_tokens": 1454,
       "groq_calls": 1,
       "posted_at": 1785697015.2878106
+    },
+    {
+      "video_id": "Who1-dHNmVI",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Mexico that's all over social media right now",
+      "country": "Mexico",
+      "groq_tokens": 3874,
+      "groq_calls": 3,
+      "posted_at": 1785698620.5511272
     }
   ]
 }
