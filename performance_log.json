@@ -1676,6 +1676,16 @@
       "groq_tokens": 3760,
       "groq_calls": 3,
       "posted_at": 1785655564.8774872
+    },
+    {
+      "video_id": "D27zAsMxxL8",
+      "category": "animals",
+      "language": "Vietnamese",
+      "topic": "A wildlife behavior unique to Vietnam that scientists find fascinating",
+      "country": "Vietnam",
+      "groq_tokens": 4292,
+      "groq_calls": 3,
+      "posted_at": 1785657077.0045834
     }
   ]
 }
