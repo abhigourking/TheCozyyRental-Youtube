@@ -1886,6 +1886,16 @@
       "groq_tokens": 1441,
       "groq_calls": 1,
       "posted_at": 1785688152.049506
+    },
+    {
+      "video_id": "ZedYl9FLmhA",
+      "category": "animals",
+      "language": "en",
+      "topic": "A bizarre animal fact from Morocco most people don't know",
+      "country": "Morocco",
+      "groq_tokens": 3842,
+      "groq_calls": 3,
+      "posted_at": 1785689686.8387885
     }
   ]
 }
