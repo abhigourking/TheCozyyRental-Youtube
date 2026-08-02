@@ -1516,6 +1516,16 @@
       "groq_tokens": 3723,
       "groq_calls": 3,
       "posted_at": 1785632444.50516
+    },
+    {
+      "video_id": "EuwWGSPUcdk",
+      "category": "food",
+      "language": "Italian",
+      "topic": "A must-try traditional dish from Italy and the story behind it",
+      "country": "Italy",
+      "groq_tokens": 1511,
+      "groq_calls": 1,
+      "posted_at": 1785633976.2917259
     }
   ]
 }
