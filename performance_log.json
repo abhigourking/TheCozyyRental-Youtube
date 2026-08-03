@@ -2506,6 +2506,16 @@
       "groq_tokens": 3735,
       "groq_calls": 3,
       "posted_at": 1785777964.6553597
+    },
+    {
+      "video_id": "zYL0GhDIRoQ",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in South Korea",
+      "country": "South Korea",
+      "groq_tokens": 3913,
+      "groq_calls": 3,
+      "posted_at": 1785779531.815906
     }
   ]
 }
