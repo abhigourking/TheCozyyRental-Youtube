@@ -2596,6 +2596,16 @@
       "groq_tokens": 3682,
       "groq_calls": 3,
       "posted_at": 1785791263.0599194
+    },
+    {
+      "video_id": "IbLVgKUaCOE",
+      "category": "animals",
+      "language": "Turkish",
+      "topic": "A bizarre animal fact from Turkey most people don't know",
+      "country": "Turkey",
+      "groq_tokens": 1465,
+      "groq_calls": 1,
+      "posted_at": 1785792933.7444355
     }
   ]
 }
