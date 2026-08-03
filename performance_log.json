@@ -2306,6 +2306,16 @@
       "groq_tokens": 1422,
       "groq_calls": 1,
       "posted_at": 1785749887.6070948
+    },
+    {
+      "video_id": "D2c0F8YogMo",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Portugal",
+      "country": "Portugal",
+      "groq_tokens": 3715,
+      "groq_calls": 3,
+      "posted_at": 1785751398.5013888
     }
   ]
 }
