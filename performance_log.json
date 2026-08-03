@@ -2136,6 +2136,16 @@
       "groq_tokens": 3830,
       "groq_calls": 3,
       "posted_at": 1785724409.0168777
+    },
+    {
+      "video_id": "Lf0P7dLRl6Q",
+      "category": "travel",
+      "language": "Egyptian Arabic",
+      "topic": "A bucket-list experience you can only have in Egypt",
+      "country": "Egypt",
+      "groq_tokens": 1444,
+      "groq_calls": 1,
+      "posted_at": 1785726057.807426
     }
   ]
 }
