@@ -2606,6 +2606,16 @@
       "groq_tokens": 1465,
       "groq_calls": 1,
       "posted_at": 1785792933.7444355
+    },
+    {
+      "video_id": "6kd_U3rVxCM",
+      "category": "animals",
+      "language": "en",
+      "topic": "A wildlife behavior unique to Philippines that scientists find fascinating",
+      "country": "Philippines",
+      "groq_tokens": 3780,
+      "groq_calls": 3,
+      "posted_at": 1785794296.325766
     }
   ]
 }
