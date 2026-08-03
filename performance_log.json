@@ -2296,6 +2296,16 @@
       "groq_tokens": 3724,
       "groq_calls": 3,
       "posted_at": 1785748486.4667127
+    },
+    {
+      "video_id": "jqWkBhNjyqA",
+      "category": "travel",
+      "language": "Thai",
+      "topic": "A viral travel spot in Thailand that's all over social media right now",
+      "country": "Thailand",
+      "groq_tokens": 1422,
+      "groq_calls": 1,
+      "posted_at": 1785749887.6070948
     }
   ]
 }
