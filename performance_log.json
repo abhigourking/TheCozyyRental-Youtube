@@ -2396,6 +2396,16 @@
       "groq_tokens": 2600,
       "groq_calls": 2,
       "posted_at": 1785762817.5105298
+    },
+    {
+      "video_id": "EhDedgnFgbQ",
+      "category": "food",
+      "language": "Icelandic",
+      "topic": "A must-try traditional dish from Iceland and the story behind it",
+      "country": "Iceland",
+      "groq_tokens": 4467,
+      "groq_calls": 3,
+      "posted_at": 1785764436.570586
     }
   ]
 }
