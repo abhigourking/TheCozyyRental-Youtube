@@ -2376,6 +2376,16 @@
       "groq_tokens": 3676,
       "groq_calls": 3,
       "posted_at": 1785759801.5847206
+    },
+    {
+      "video_id": "MG6eehJ9Ac8",
+      "category": "food",
+      "language": "Vietnamese",
+      "topic": "The most viral street food trend in Vietnam right now",
+      "country": "Vietnam",
+      "groq_tokens": 1492,
+      "groq_calls": 1,
+      "posted_at": 1785761245.3635955
     }
   ]
 }
