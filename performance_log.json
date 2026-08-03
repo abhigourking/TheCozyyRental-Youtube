@@ -2196,6 +2196,16 @@
       "groq_tokens": 3839,
       "groq_calls": 3,
       "posted_at": 1785733516.0513515
+    },
+    {
+      "video_id": "-XIJPD3KXcw",
+      "category": "animals",
+      "language": "Indonesian",
+      "topic": "A bizarre animal fact from Indonesia most people don't know",
+      "country": "Indonesia",
+      "groq_tokens": 1508,
+      "groq_calls": 1,
+      "posted_at": 1785735135.4973307
     }
   ]
 }
