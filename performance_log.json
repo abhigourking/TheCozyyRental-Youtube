@@ -2516,6 +2516,16 @@
       "groq_tokens": 3913,
       "groq_calls": 3,
       "posted_at": 1785779531.815906
+    },
+    {
+      "video_id": "TTqy1Xoj05A",
+      "category": "animals",
+      "language": "European Portuguese",
+      "topic": "A rare or endangered species found in Portugal",
+      "country": "Portugal",
+      "groq_tokens": 4412,
+      "groq_calls": 3,
+      "posted_at": 1785780924.4207342
     }
   ]
 }
