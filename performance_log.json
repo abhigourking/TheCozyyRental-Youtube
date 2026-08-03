@@ -2266,6 +2266,16 @@
       "groq_tokens": 1371,
       "groq_calls": 1,
       "posted_at": 1785744265.5818493
+    },
+    {
+      "video_id": "xrPvKzdsntA",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Greece",
+      "country": "Greece",
+      "groq_tokens": 3705,
+      "groq_calls": 3,
+      "posted_at": 1785745832.7915034
     }
   ]
 }
