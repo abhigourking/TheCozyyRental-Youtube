@@ -2956,6 +2956,16 @@
       "groq_tokens": 3728,
       "groq_calls": 3,
       "posted_at": 1785846464.751057
+    },
+    {
+      "video_id": "BTj1NguzEBQ",
+      "category": "travel",
+      "language": "Indonesian",
+      "topic": "A bucket-list experience you can only have in Indonesia",
+      "country": "Indonesia",
+      "groq_tokens": 1515,
+      "groq_calls": 1,
+      "posted_at": 1785848025.7657306
     }
   ]
 }
