@@ -2796,6 +2796,16 @@
       "groq_tokens": 3839,
       "groq_calls": 3,
       "posted_at": 1785823567.9285877
+    },
+    {
+      "video_id": "qkCgUZB4E30",
+      "category": "travel",
+      "language": "Indonesian",
+      "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+      "country": "Indonesia",
+      "groq_tokens": 1482,
+      "groq_calls": 1,
+      "posted_at": 1785825064.768378
     }
   ]
 }
