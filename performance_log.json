@@ -2996,6 +2996,16 @@
       "groq_tokens": 1296,
       "groq_calls": 1,
       "posted_at": 1785852252.880055
+    },
+    {
+      "video_id": "grBFhc7wJQ8",
+      "category": "animals",
+      "language": "Icelandic",
+      "topic": "A bizarre animal fact from Iceland most people don't know",
+      "country": "Iceland",
+      "groq_tokens": 4560,
+      "groq_calls": 3,
+      "posted_at": 1785855560.954631
     }
   ]
 }
