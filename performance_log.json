@@ -2966,6 +2966,16 @@
       "groq_tokens": 1515,
       "groq_calls": 1,
       "posted_at": 1785848025.7657306
+    },
+    {
+      "video_id": "2jNKFJu04W8",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in Egypt",
+      "country": "Egypt",
+      "groq_tokens": 3755,
+      "groq_calls": 3,
+      "posted_at": 1785849422.121069
     }
   ]
 }
