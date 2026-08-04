@@ -2986,6 +2986,16 @@
       "groq_tokens": 3810,
       "groq_calls": 3,
       "posted_at": 1785850642.4190567
+    },
+    {
+      "video_id": "a7FQVhkaX3U",
+      "category": "food",
+      "language": "en",
+      "topic": "The most viral street food trend in Italy right now",
+      "country": "Italy",
+      "groq_tokens": 1296,
+      "groq_calls": 1,
+      "posted_at": 1785852252.880055
     }
   ]
 }
