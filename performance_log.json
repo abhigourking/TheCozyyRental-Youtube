@@ -3046,6 +3046,16 @@
       "groq_tokens": 2880,
       "groq_calls": 2,
       "posted_at": 1785869441.4491637
+    },
+    {
+      "video_id": "ayV0PJXbyWk",
+      "category": "travel",
+      "language": "en",
+      "topic": "A hidden gem destination in Greece most tourists don't know about",
+      "country": "Greece",
+      "groq_tokens": 3823,
+      "groq_calls": 3,
+      "posted_at": 1785872555.1075113
     }
   ]
 }
