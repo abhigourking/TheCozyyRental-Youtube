@@ -2816,6 +2816,16 @@
       "groq_tokens": 3800,
       "groq_calls": 3,
       "posted_at": 1785826551.0900216
+    },
+    {
+      "video_id": "q2gYkVafgSo",
+      "category": "animals",
+      "language": "Greek",
+      "topic": "A strange native animal you can only find in Greece",
+      "country": "Greece",
+      "groq_tokens": 1503,
+      "groq_calls": 1,
+      "posted_at": 1785827978.5342994
     }
   ]
 }
