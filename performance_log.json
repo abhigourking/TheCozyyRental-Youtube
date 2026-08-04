@@ -2716,6 +2716,16 @@
       "groq_tokens": 3819,
       "groq_calls": 3,
       "posted_at": 1785808942.397995
+    },
+    {
+      "video_id": "z_of2fsfcgs",
+      "category": "animals",
+      "language": "Brazilian Portuguese",
+      "topic": "A strange native animal you can only find in Brazil",
+      "country": "Brazil",
+      "groq_tokens": 1509,
+      "groq_calls": 1,
+      "posted_at": 1785810504.7037835
     }
   ]
 }
