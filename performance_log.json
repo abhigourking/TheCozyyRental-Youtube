@@ -2746,6 +2746,16 @@
       "groq_tokens": 1387,
       "groq_calls": 1,
       "posted_at": 1785816593.172266
+    },
+    {
+      "video_id": "esIapthtXZ8",
+      "category": "animals",
+      "language": "en",
+      "topic": "A strange native animal you can only find in Spain",
+      "country": "Spain",
+      "groq_tokens": 3799,
+      "groq_calls": 3,
+      "posted_at": 1785817927.425589
     }
   ]
 }
