@@ -2736,6 +2736,16 @@
       "groq_tokens": 3894,
       "groq_calls": 3,
       "posted_at": 1785815108.170218
+    },
+    {
+      "video_id": "d-nssznmUq0",
+      "category": "food",
+      "language": "Egyptian Arabic",
+      "topic": "A popular food market or food street worth visiting in Egypt",
+      "country": "Egypt",
+      "groq_tokens": 1387,
+      "groq_calls": 1,
+      "posted_at": 1785816593.172266
     }
   ]
 }
