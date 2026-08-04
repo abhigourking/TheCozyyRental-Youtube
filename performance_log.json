@@ -3076,6 +3076,16 @@
       "groq_tokens": 2548,
       "groq_calls": 2,
       "posted_at": 1785878666.2895012
+    },
+    {
+      "video_id": "CX_fVxDzTFo",
+      "category": "animals",
+      "language": "Korean",
+      "topic": "An unusual creature that calls South Korea home",
+      "country": "South Korea",
+      "groq_tokens": 1506,
+      "groq_calls": 1,
+      "posted_at": 1785882573.4701886
     }
   ]
 }
