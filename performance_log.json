@@ -3386,6 +3386,16 @@
       "groq_tokens": 1445,
       "groq_calls": 1,
       "posted_at": 1785962440.2881184
+    },
+    {
+      "video_id": "SUMAH7-Xkh8",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Japan that's all over social media right now",
+      "country": "Japan",
+      "groq_tokens": 3798,
+      "groq_calls": 3,
+      "posted_at": 1785963960.3507056
     }
   ]
 }
