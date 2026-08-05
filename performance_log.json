@@ -3136,6 +3136,16 @@
       "groq_tokens": 3708,
       "groq_calls": 3,
       "posted_at": 1785895948.8636184
+    },
+    {
+      "video_id": "Qy7u5aUeFF8",
+      "category": "travel",
+      "language": "Moroccan Arabic",
+      "topic": "The most breathtaking place to visit in Morocco",
+      "country": "Morocco",
+      "groq_tokens": 1345,
+      "groq_calls": 1,
+      "posted_at": 1785899057.6290114
     }
   ]
 }
