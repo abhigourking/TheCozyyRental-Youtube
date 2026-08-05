@@ -3106,6 +3106,16 @@
       "groq_tokens": 3738,
       "groq_calls": 3,
       "posted_at": 1785887170.3831387
+    },
+    {
+      "video_id": "j2VVtIeOBNk",
+      "category": "travel",
+      "language": "en",
+      "topic": "A bucket-list experience you can only have in France",
+      "country": "France",
+      "groq_tokens": 3794,
+      "groq_calls": 3,
+      "posted_at": 1785890268.9901578
     }
   ]
 }
