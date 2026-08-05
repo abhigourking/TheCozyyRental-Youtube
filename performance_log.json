@@ -3126,6 +3126,16 @@
       "groq_tokens": 3783,
       "groq_calls": 3,
       "posted_at": 1785892474.835412
+    },
+    {
+      "video_id": "MRLU5C0xmAg",
+      "category": "animals",
+      "language": "en",
+      "topic": "A bizarre animal fact from Egypt most people don't know",
+      "country": "Egypt",
+      "groq_tokens": 3708,
+      "groq_calls": 3,
+      "posted_at": 1785895948.8636184
     }
   ]
 }
