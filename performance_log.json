@@ -3376,6 +3376,16 @@
       "groq_tokens": 3739,
       "groq_calls": 3,
       "posted_at": 1785960758.8687003
+    },
+    {
+      "video_id": "hPy8UaOtYc4",
+      "category": "travel",
+      "language": "Japanese",
+      "topic": "The most breathtaking place to visit in Japan",
+      "country": "Japan",
+      "groq_tokens": 1445,
+      "groq_calls": 1,
+      "posted_at": 1785962440.2881184
     }
   ]
 }
