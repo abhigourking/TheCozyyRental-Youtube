@@ -3296,6 +3296,16 @@
       "groq_tokens": 3795,
       "groq_calls": 3,
       "posted_at": 1785943587.042849
+    },
+    {
+      "video_id": "wSjiTltDwhw",
+      "category": "food",
+      "language": "Mexican Spanish",
+      "topic": "A comfort food from Mexico that's become an internet obsession",
+      "country": "Mexico",
+      "groq_tokens": 1540,
+      "groq_calls": 1,
+      "posted_at": 1785946523.9050937
     }
   ]
 }
