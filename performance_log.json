@@ -3326,6 +3326,16 @@
       "groq_tokens": 3761,
       "groq_calls": 3,
       "posted_at": 1785952371.022683
+    },
+    {
+      "video_id": "3cwcSht6JPc",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Peru",
+      "country": "Peru",
+      "groq_tokens": 3836,
+      "groq_calls": 3,
+      "posted_at": 1785955331.7894924
     }
   ]
 }
