@@ -3346,6 +3346,16 @@
       "groq_tokens": 3762,
       "groq_calls": 3,
       "posted_at": 1785956598.0436018
+    },
+    {
+      "video_id": "EgK03-Qw65I",
+      "category": "animals",
+      "language": "en",
+      "topic": "A wildlife behavior unique to Greece that scientists find fascinating",
+      "country": "Greece",
+      "groq_tokens": 3713,
+      "groq_calls": 3,
+      "posted_at": 1785958076.8460581
     }
   ]
 }
