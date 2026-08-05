@@ -3276,6 +3276,16 @@
       "groq_tokens": 3719,
       "groq_calls": 3,
       "posted_at": 1785937910.5922637
+    },
+    {
+      "video_id": "GDLp4iufzgc",
+      "category": "food",
+      "language": "Italian",
+      "topic": "A comfort food from Italy that's become an internet obsession",
+      "country": "Italy",
+      "groq_tokens": 2919,
+      "groq_calls": 2,
+      "posted_at": 1785941556.6893985
     }
   ]
 }
