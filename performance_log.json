@@ -3416,6 +3416,16 @@
       "groq_tokens": 2615,
       "groq_calls": 2,
       "posted_at": 1785966877.041282
+    },
+    {
+      "video_id": "ZD111uUoD-0",
+      "category": "food",
+      "language": "French",
+      "topic": "A unique regional specialty from France most outsiders have never heard of",
+      "country": "France",
+      "groq_tokens": 1446,
+      "groq_calls": 1,
+      "posted_at": 1785968449.7711287
     }
   ]
 }
