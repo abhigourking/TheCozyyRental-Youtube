@@ -3626,6 +3626,16 @@
       "groq_tokens": 1479,
       "groq_calls": 1,
       "posted_at": 1785997403.7800703
+    },
+    {
+      "video_id": "iH60bHZ1Tq4",
+      "category": "animals",
+      "language": "en",
+      "topic": "A strange native animal you can only find in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 3784,
+      "groq_calls": 3,
+      "posted_at": 1785998878.371425
     }
   ]
 }
