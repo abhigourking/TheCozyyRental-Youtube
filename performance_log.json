@@ -3756,6 +3756,16 @@
       "groq_tokens": 3840,
       "groq_calls": 3,
       "posted_at": 1786015123.301441
+    },
+    {
+      "video_id": "Q5yqGTijQ8Y",
+      "category": "food",
+      "language": "European Spanish",
+      "topic": "A comfort food from Spain that's become an internet obsession",
+      "country": "Spain",
+      "groq_tokens": 2996,
+      "groq_calls": 2,
+      "posted_at": 1786016686.6197557
     }
   ]
 }
