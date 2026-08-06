@@ -3776,6 +3776,16 @@
       "groq_tokens": 3824,
       "groq_calls": 3,
       "posted_at": 1786018290.6565251
+    },
+    {
+      "video_id": "Z_VYJhymrQA",
+      "category": "animals",
+      "language": "Filipino",
+      "topic": "A bizarre animal fact from Philippines most people don't know",
+      "country": "Philippines",
+      "groq_tokens": 1461,
+      "groq_calls": 1,
+      "posted_at": 1786020173.7766066
     }
   ]
 }
