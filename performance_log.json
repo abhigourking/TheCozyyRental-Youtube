@@ -3826,6 +3826,16 @@
       "groq_tokens": 3005,
       "groq_calls": 2,
       "posted_at": 1786029209.4993522
+    },
+    {
+      "video_id": "tEXCy2e0hZw",
+      "category": "animals",
+      "language": "en",
+      "topic": "A rare or endangered species found in South Korea",
+      "country": "South Korea",
+      "groq_tokens": 3778,
+      "groq_calls": 3,
+      "posted_at": 1786031152.9695377
     }
   ]
 }
