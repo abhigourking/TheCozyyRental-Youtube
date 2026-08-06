@@ -3496,6 +3496,16 @@
       "groq_tokens": 3644,
       "groq_calls": 3,
       "posted_at": 1785978227.52327
+    },
+    {
+      "video_id": "GP9Vitt3TxY",
+      "category": "tech",
+      "language": "en",
+      "topic": "A futuristic piece of technology you'll want in your home",
+      "country": null,
+      "groq_tokens": 3762,
+      "groq_calls": 3,
+      "posted_at": 1785979470.9158368
     }
   ]
 }
