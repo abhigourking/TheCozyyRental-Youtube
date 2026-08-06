@@ -3576,6 +3576,16 @@
       "groq_tokens": 3803,
       "groq_calls": 3,
       "posted_at": 1785989717.2135925
+    },
+    {
+      "video_id": "RAnOK_LBjhM",
+      "category": "food",
+      "language": "Egyptian Arabic",
+      "topic": "A comfort food from Egypt that's become an internet obsession",
+      "country": "Egypt",
+      "groq_tokens": 1420,
+      "groq_calls": 1,
+      "posted_at": 1785991258.5430367
     }
   ]
 }
