@@ -3516,6 +3516,16 @@
       "groq_tokens": 2509,
       "groq_calls": 2,
       "posted_at": 1785980988.837593
+    },
+    {
+      "video_id": "j-bMjFnxXHc",
+      "category": "ai",
+      "language": "en",
+      "topic": "A mind-blowing AI capability most people don't know exists",
+      "country": null,
+      "groq_tokens": 3759,
+      "groq_calls": 3,
+      "posted_at": 1785982454.3652766
     }
   ]
 }
