@@ -3816,6 +3816,16 @@
       "groq_tokens": 3736,
       "groq_calls": 3,
       "posted_at": 1786027594.4451363
+    },
+    {
+      "video_id": "Y59xe8z-x1Y",
+      "category": "food",
+      "language": "Icelandic",
+      "topic": "A comfort food from Iceland that's become an internet obsession",
+      "country": "Iceland",
+      "groq_tokens": 3005,
+      "groq_calls": 2,
+      "posted_at": 1786029209.4993522
     }
   ]
 }
