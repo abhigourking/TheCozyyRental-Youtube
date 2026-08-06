@@ -3616,6 +3616,16 @@
       "groq_tokens": 3916,
       "groq_calls": 3,
       "posted_at": 1785995834.283323
+    },
+    {
+      "video_id": "fChBWNOQ5cA",
+      "category": "food",
+      "language": "Peruvian Spanish",
+      "topic": "The most viral street food trend in Peru right now",
+      "country": "Peru",
+      "groq_tokens": 1479,
+      "groq_calls": 1,
+      "posted_at": 1785997403.7800703
     }
   ]
 }
