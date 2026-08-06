@@ -3586,6 +3586,16 @@
       "groq_tokens": 1420,
       "groq_calls": 1,
       "posted_at": 1785991258.5430367
+    },
+    {
+      "video_id": "7U1k2PJHuBs",
+      "category": "travel",
+      "language": "en",
+      "topic": "A hidden gem destination in Turkey most tourists don't know about",
+      "country": "Turkey",
+      "groq_tokens": 3753,
+      "groq_calls": 3,
+      "posted_at": 1785992846.2435272
     }
   ]
 }
