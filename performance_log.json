@@ -3476,6 +3476,16 @@
       "groq_tokens": 3717,
       "groq_calls": 3,
       "posted_at": 1785975757.4867702
+    },
+    {
+      "video_id": "DXv0LM0vg7E",
+      "category": "ai",
+      "language": "en",
+      "topic": "A wild new AI tool that's changing how people work",
+      "country": null,
+      "groq_tokens": 3770,
+      "groq_calls": 3,
+      "posted_at": 1785977126.1300917
     }
   ]
 }
