@@ -3456,6 +3456,16 @@
       "groq_tokens": 3814,
       "groq_calls": 3,
       "posted_at": 1785972902.1685874
+    },
+    {
+      "video_id": "UlXdRlLK5Eo",
+      "category": "food",
+      "language": "Indonesian",
+      "topic": "A must-try traditional dish from Indonesia and the story behind it",
+      "country": "Indonesia",
+      "groq_tokens": 2927,
+      "groq_calls": 2,
+      "posted_at": 1785974431.3980532
     }
   ]
 }
