@@ -3996,6 +3996,16 @@
       "groq_tokens": 3751,
       "groq_calls": 3,
       "posted_at": 1786084122.6073017
+    },
+    {
+      "video_id": "kCk7g4Ev83M",
+      "category": "animals",
+      "language": "Moroccan Arabic",
+      "topic": "A rare or endangered species found in Morocco",
+      "country": "Morocco",
+      "groq_tokens": 5488,
+      "groq_calls": 3,
+      "posted_at": 1786085702.8301437
     }
   ]
 }
