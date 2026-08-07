@@ -4076,6 +4076,16 @@
       "groq_tokens": 3859,
       "groq_calls": 3,
       "posted_at": 1786096310.698601
+    },
+    {
+      "video_id": "smcmjmu8ODU",
+      "category": "travel",
+      "language": "Thai",
+      "topic": "A bucket-list experience you can only have in Thailand",
+      "country": "Thailand",
+      "groq_tokens": 1468,
+      "groq_calls": 1,
+      "posted_at": 1786097884.5913262
     }
   ]
 }
