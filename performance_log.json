@@ -4186,6 +4186,16 @@
       "groq_tokens": 3789,
       "groq_calls": 3,
       "posted_at": 1786111228.1394277
+    },
+    {
+      "video_id": "p2UTaCPx-X0",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in Spain",
+      "country": "Spain",
+      "groq_tokens": 3782,
+      "groq_calls": 3,
+      "posted_at": 1786112992.810898
     }
   ]
 }
