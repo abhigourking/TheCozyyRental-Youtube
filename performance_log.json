@@ -4296,6 +4296,16 @@
       "groq_tokens": 3733,
       "groq_calls": 3,
       "posted_at": 1786127038.3538563
+    },
+    {
+      "video_id": "Gio2_42MbvU",
+      "category": "animals",
+      "language": "Thai",
+      "topic": "A rare or endangered species found in Thailand",
+      "country": "Thailand",
+      "groq_tokens": 1403,
+      "groq_calls": 1,
+      "posted_at": 1786128525.0601542
     }
   ]
 }
