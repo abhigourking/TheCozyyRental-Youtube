@@ -3956,6 +3956,16 @@
       "groq_tokens": 3756,
       "groq_calls": 3,
       "posted_at": 1786078600.3555386
+    },
+    {
+      "video_id": "M0FN1WZf168",
+      "category": "travel",
+      "language": "European Portuguese",
+      "topic": "The most breathtaking place to visit in Portugal",
+      "country": "Portugal",
+      "groq_tokens": 4383,
+      "groq_calls": 3,
+      "posted_at": 1786080096.0771155
     }
   ]
 }
