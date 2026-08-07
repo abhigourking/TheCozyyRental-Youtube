@@ -4206,6 +4206,16 @@
       "groq_tokens": 3772,
       "groq_calls": 3,
       "posted_at": 1786114389.0734682
+    },
+    {
+      "video_id": "iQzcDuinw7g",
+      "category": "animals",
+      "language": "en",
+      "topic": "A rare or endangered species found in Japan",
+      "country": "Japan",
+      "groq_tokens": 3748,
+      "groq_calls": 3,
+      "posted_at": 1786115785.0133054
     }
   ]
 }
