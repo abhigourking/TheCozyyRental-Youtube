@@ -4386,6 +4386,16 @@
       "groq_tokens": 1416,
       "groq_calls": 1,
       "posted_at": 1786139668.7922945
+    },
+    {
+      "video_id": "0kk8s4DUUt8",
+      "category": "animals",
+      "language": "en",
+      "topic": "A bizarre animal fact from Argentina most people don't know",
+      "country": "Argentina",
+      "groq_tokens": 3831,
+      "groq_calls": 3,
+      "posted_at": 1786141085.6730564
     }
   ]
 }
