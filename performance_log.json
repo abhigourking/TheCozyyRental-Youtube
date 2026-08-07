@@ -3856,6 +3856,16 @@
       "groq_tokens": 3738,
       "groq_calls": 3,
       "posted_at": 1786063746.2425191
+    },
+    {
+      "video_id": "ADyekkGUbPc",
+      "category": "tech",
+      "language": "en",
+      "topic": "A simple gadget or tech hack that makes daily life easier",
+      "country": null,
+      "groq_tokens": 3752,
+      "groq_calls": 3,
+      "posted_at": 1786065006.5177877
     }
   ]
 }
