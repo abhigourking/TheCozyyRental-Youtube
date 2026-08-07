@@ -3896,6 +3896,16 @@
       "groq_tokens": 3770,
       "groq_calls": 3,
       "posted_at": 1786069886.2826273
+    },
+    {
+      "video_id": "yiG70esmhJE",
+      "category": "food",
+      "language": "Brazilian Portuguese",
+      "topic": "A popular food market or food street worth visiting in Brazil",
+      "country": "Brazil",
+      "groq_tokens": 1501,
+      "groq_calls": 1,
+      "posted_at": 1786071317.1375308
     }
   ]
 }
