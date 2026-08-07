@@ -3966,6 +3966,16 @@
       "groq_tokens": 4383,
       "groq_calls": 3,
       "posted_at": 1786080096.0771155
+    },
+    {
+      "video_id": "FMOMOQiOb6s",
+      "category": "animals",
+      "language": "en",
+      "topic": "A rare or endangered species found in Italy",
+      "country": "Italy",
+      "groq_tokens": 2494,
+      "groq_calls": 2,
+      "posted_at": 1786081471.7870374
     }
   ]
 }
