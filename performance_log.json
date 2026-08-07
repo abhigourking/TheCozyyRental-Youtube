@@ -4046,6 +4046,16 @@
       "groq_tokens": 2925,
       "groq_calls": 2,
       "posted_at": 1786091668.5838144
+    },
+    {
+      "video_id": "y0dUkt7qOo0",
+      "category": "animals",
+      "language": "en",
+      "topic": "A wildlife behavior unique to Brazil that scientists find fascinating",
+      "country": "Brazil",
+      "groq_tokens": 3778,
+      "groq_calls": 3,
+      "posted_at": 1786093302.37061
     }
   ]
 }
