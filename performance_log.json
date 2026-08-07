@@ -3846,6 +3846,16 @@
       "groq_tokens": 3861,
       "groq_calls": 3,
       "posted_at": 1786062219.987642
+    },
+    {
+      "video_id": "a4OMOM1H6pM",
+      "category": "animals",
+      "language": "en",
+      "topic": "A wildlife behavior unique to Italy that scientists find fascinating",
+      "country": "Italy",
+      "groq_tokens": 3738,
+      "groq_calls": 3,
+      "posted_at": 1786063746.2425191
     }
   ]
 }
