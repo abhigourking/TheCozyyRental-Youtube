@@ -5006,6 +5006,16 @@
       "groq_tokens": 1474,
       "groq_calls": 1,
       "posted_at": 1786230603.792371
+    },
+    {
+      "video_id": "9f0EMy9QjX4",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in France that's all over social media right now",
+      "country": "France",
+      "groq_tokens": 1323,
+      "groq_calls": 1,
+      "posted_at": 1786232167.3769622
     }
   ]
 }
