@@ -4486,6 +4486,16 @@
       "groq_tokens": 1554,
       "groq_calls": 1,
       "posted_at": 1786153670.8680282
+    },
+    {
+      "video_id": "l5lOs5-Tw2E",
+      "category": "food",
+      "language": "en",
+      "topic": "A comfort food from Indonesia that's become an internet obsession",
+      "country": "Indonesia",
+      "groq_tokens": 3875,
+      "groq_calls": 3,
+      "posted_at": 1786155190.14667
     }
   ]
 }
