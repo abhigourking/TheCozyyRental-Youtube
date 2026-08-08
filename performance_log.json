@@ -4576,6 +4576,16 @@
       "groq_tokens": 3674,
       "groq_calls": 3,
       "posted_at": 1786167431.9428797
+    },
+    {
+      "video_id": "SFoA0VN9E6g",
+      "category": "food",
+      "language": "Egyptian Arabic",
+      "topic": "A unique regional specialty from Egypt most outsiders have never heard of",
+      "country": "Egypt",
+      "groq_tokens": 1399,
+      "groq_calls": 1,
+      "posted_at": 1786168800.529301
     }
   ]
 }
