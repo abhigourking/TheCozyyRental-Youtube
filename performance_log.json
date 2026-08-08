@@ -4996,6 +4996,16 @@
       "groq_tokens": 3722,
       "groq_calls": 3,
       "posted_at": 1786229213.563871
+    },
+    {
+      "video_id": "x4ViMEcWaFE",
+      "category": "travel",
+      "language": "Greek",
+      "topic": "A viral travel spot in Greece that's all over social media right now",
+      "country": "Greece",
+      "groq_tokens": 1474,
+      "groq_calls": 1,
+      "posted_at": 1786230603.792371
     }
   ]
 }
