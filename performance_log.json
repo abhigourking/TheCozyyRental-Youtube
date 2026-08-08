@@ -4536,6 +4536,16 @@
       "groq_tokens": 3875,
       "groq_calls": 3,
       "posted_at": 1786161327.245116
+    },
+    {
+      "video_id": "gsloOBQg-sk",
+      "category": "food",
+      "language": "Argentinian Spanish",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "country": "Argentina",
+      "groq_tokens": 1461,
+      "groq_calls": 1,
+      "posted_at": 1786162940.283051
     }
   ]
 }
