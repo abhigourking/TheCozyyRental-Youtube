@@ -4776,6 +4776,16 @@
       "groq_tokens": 3848,
       "groq_calls": 3,
       "posted_at": 1786197089.752919
+    },
+    {
+      "video_id": "ihSzjRCaR24",
+      "category": "travel",
+      "language": "European Portuguese",
+      "topic": "A viral travel spot in Portugal that's all over social media right now",
+      "country": "Portugal",
+      "groq_tokens": 1464,
+      "groq_calls": 1,
+      "posted_at": 1786198581.5602903
     }
   ]
 }
