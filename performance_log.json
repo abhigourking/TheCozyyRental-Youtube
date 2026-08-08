@@ -4606,6 +4606,16 @@
       "groq_tokens": 1461,
       "groq_calls": 1,
       "posted_at": 1786171710.5260572
+    },
+    {
+      "video_id": "TcL_hwjw71o",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in South Korea",
+      "country": "South Korea",
+      "groq_tokens": 3664,
+      "groq_calls": 3,
+      "posted_at": 1786173275.307714
     }
   ]
 }
