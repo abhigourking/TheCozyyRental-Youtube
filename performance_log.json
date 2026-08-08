@@ -4876,6 +4876,16 @@
       "groq_tokens": 3815,
       "groq_calls": 3,
       "posted_at": 1786211290.3926387
+    },
+    {
+      "video_id": "QTLW-0snfM8",
+      "category": "food",
+      "language": "Argentinian Spanish",
+      "topic": "A comfort food from Argentina that's become an internet obsession",
+      "country": "Argentina",
+      "groq_tokens": 1490,
+      "groq_calls": 1,
+      "posted_at": 1786212866.2463796
     }
   ]
 }
