@@ -4896,6 +4896,16 @@
       "groq_tokens": 1281,
       "groq_calls": 1,
       "posted_at": 1786214276.113726
+    },
+    {
+      "video_id": "amxQAQBsVAk",
+      "category": "travel",
+      "language": "Brazilian Portuguese",
+      "topic": "A bucket-list experience you can only have in Brazil",
+      "country": "Brazil",
+      "groq_tokens": 1460,
+      "groq_calls": 1,
+      "posted_at": 1786215493.9028506
     }
   ]
 }
