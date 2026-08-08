@@ -4916,6 +4916,16 @@
       "groq_tokens": 3757,
       "groq_calls": 3,
       "posted_at": 1786217006.4348521
+    },
+    {
+      "video_id": "vnyiyszIMYo",
+      "category": "travel",
+      "language": "Argentinian Spanish",
+      "topic": "A viral travel spot in Argentina that's all over social media right now",
+      "country": "Argentina",
+      "groq_tokens": 2884,
+      "groq_calls": 2,
+      "posted_at": 1786218435.0246792
     }
   ]
 }
