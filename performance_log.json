@@ -4656,6 +4656,16 @@
       "groq_tokens": 3825,
       "groq_calls": 3,
       "posted_at": 1786179351.7826438
+    },
+    {
+      "video_id": "fcocuZL9pkA",
+      "category": "food",
+      "language": "European Spanish",
+      "topic": "A popular food market or food street worth visiting in Spain",
+      "country": "Spain",
+      "groq_tokens": 1418,
+      "groq_calls": 1,
+      "posted_at": 1786180775.3665779
     }
   ]
 }
