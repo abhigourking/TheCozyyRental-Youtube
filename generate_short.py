@@ -85,21 +85,22 @@ COUNTRY_LANGUAGES = {
     "Iceland":     {"name": "Icelandic",             "voice": "is-IS-GunnarNeural"},
 }
 
-# Curated for the travel / food / tech / AI / animals niche - visually rich
-# subjects that read well as fast photo/video slideshows. Deliberately
-# excludes r/news, r/worldnews, r/politics, r/PublicFreakout etc. so we don't
-# even fetch heavy news/tragedy/political content in the first place. This is
-# the primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
+# Curated for the travel / food niche only - visually rich subjects that
+# read well as fast photo/video slideshows. Deliberately excludes r/news,
+# r/worldnews, r/politics, r/PublicFreakout etc. so we don't even fetch
+# heavy news/tragedy/political content in the first place. This is the
+# primary defense; the SENSITIVE_KEYWORDS filter below is the backup.
 # Split by category (rather than one flat list) so performance data can bias
 # which category gets picked next - see compute_category_weights(). Which
 # category gets picked each run is random (weighted by past performance, see
 # pick_category()) - not a fixed sequence of phases.
+#
+# tech/ai/animals were removed (travel + food only, per request) - both
+# remaining categories are country-rotated (see COUNTRY_TOPIC_TEMPLATES
+# below), so every video now goes through the country rotation.
 CATEGORY_SUBREDDITS = {
     "travel": ["travel", "backpacking", "itookapicture", "hiking"],
     "food": ["food", "recipes", "EatCheapAndHealthy"],
-    "tech": ["gadgets", "technology"],
-    "ai": ["artificial", "ChatGPT", "OpenAI"],
-    "animals": ["Eyebleach", "AnimalsBeingBros", "awwducational"],
 }
 
 # Rotated through (round-robin, state persisted in topics.json) to keep
@@ -114,9 +115,9 @@ COUNTRIES = [
 
 # {country} gets filled in with the current pick_country() result. Several
 # per category so the same country doesn't produce the same phrasing twice
-# in a row as it cycles back around. travel/food/animals all share the same
-# rotating pick_country() pointer (round-robin across all 20 countries),
-# rather than each category tracking its own separate position.
+# in a row as it cycles back around. travel/food share the same rotating
+# pick_country() pointer (round-robin across all 20 countries), rather than
+# each category tracking its own separate position.
 COUNTRY_TOPIC_TEMPLATES = {
     "travel": [
         "A viral travel spot in {country} that's all over social media right now",
@@ -131,13 +132,6 @@ COUNTRY_TOPIC_TEMPLATES = {
         "A popular food market or food street worth visiting in {country}",
         "A comfort food from {country} that's become an internet obsession",
         "A unique regional specialty from {country} most outsiders have never heard of",
-    ],
-    "animals": [
-        "A strange native animal you can only find in {country}",
-        "An unusual creature that calls {country} home",
-        "A bizarre animal fact from {country} most people don't know",
-        "A rare or endangered species found in {country}",
-        "A wildlife behavior unique to {country} that scientists find fascinating",
     ],
 }
 
@@ -363,16 +357,20 @@ def pick_use_native():
 
 
 def pick_topic(category=None, force_static=False):
-    """Returns (topic, niche, country) - country is None for categories that
-    aren't country-rotated (tech/ai), and is what main() uses to decide which
-    native-language voice a country video can be narrated in."""
+    """Returns (topic, niche, country). With only travel/food configured in
+    CATEGORY_SUBREDDITS, every category is country-rotated, so country is
+    always set here in practice - it's what main() uses to decide which
+    native-language voice a country video can be narrated in. The
+    non-country branches below (Reddit trending / static fallback) are kept
+    as dead-but-working code in case a non-country category is ever added
+    back."""
     if category is None:
         category = random.choice(list(CATEGORY_SUBREDDITS.keys()))
     data = json.loads(TOPICS_FILE.read_text())
 
-    # Travel/food/animals always rotate through a specific country instead of
-    # using the generic static list or Reddit trending - keeps content fresh
-    # and globally varied every single run ("gather more videos about each
+    # Travel/food always rotate through a specific country instead of using
+    # the generic static list or Reddit trending - keeps content fresh and
+    # globally varied every single run ("gather more videos about each
     # country's viral travel/food topics, then rotate").
     if category in COUNTRY_TOPIC_TEMPLATES:
         country = pick_country()

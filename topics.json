@@ -1,5 +1,5 @@
 {
-  "niche": "engaging travel, food, technology, AI, and animals content for a general audience - stunning travel destinations and city tours, delicious food and street eats, cool gadgets and tech innovations, mind-blowing AI tools/capabilities, and strange/unusual animals and wildlife (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
+  "niche": "engaging travel and food content for a general audience - stunning travel destinations and city tours, delicious food and street eats (light, fun, visually rich, great for fast photo/video slideshows, not news/politics)",
   "topics": [
     {
       "category": "travel",
@@ -8,10 +8,6 @@
     {
       "category": "food",
       "text": "A mouth-watering street food you have to try at least once"
-    },
-    {
-      "category": "tech",
-      "text": "A cool new gadget or tech invention changing everyday life"
     },
     {
       "category": "travel",
@@ -26,52 +22,12 @@
       "text": "An amazing regional dish and the story behind it"
     },
     {
-      "category": "tech",
-      "text": "A futuristic piece of technology you'll want in your home"
-    },
-    {
       "category": "food",
       "text": "A hidden food market or street food alley worth visiting"
     },
     {
       "category": "travel",
       "text": "A breathtaking natural landmark perfect for a bucket list trip"
-    },
-    {
-      "category": "tech",
-      "text": "A simple gadget or tech hack that makes daily life easier"
-    },
-    {
-      "category": "ai",
-      "text": "A wild new AI tool that's changing how people work"
-    },
-    {
-      "category": "ai",
-      "text": "An AI-generated creation that broke the internet"
-    },
-    {
-      "category": "ai",
-      "text": "A mind-blowing AI capability most people don't know exists"
-    },
-    {
-      "category": "ai",
-      "text": "A simple AI trick that saves hours of work"
-    },
-    {
-      "category": "animals",
-      "text": "A bizarre animal you won't believe actually exists"
-    },
-    {
-      "category": "animals",
-      "text": "An unusual animal behavior scientists are still studying"
-    },
-    {
-      "category": "animals",
-      "text": "A strange creature found in the deep ocean"
-    },
-    {
-      "category": "animals",
-      "text": "A rare or endangered species most people have never heard of"
     }
   ],
   "next_language": "en",

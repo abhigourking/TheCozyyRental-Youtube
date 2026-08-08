@@ -193,17 +193,20 @@ To pause everything: disable the workflow (above), or comment out the
 
 ## 10. Content model (what gets made, and how it varies)
 
-**Categories** — `travel`, `food`, `tech`, `ai`, `animals`. One is picked
-per run at random, *weighted by past performance* (views + likes×10 on
-videos at least 20h old, see `compute_category_weights()`). Categories with
-fewer than 3 mature samples get a neutral weight so they keep getting
-explored rather than written off on noise.
+**Categories** — `travel`, `food` only (tech/AI/animals were removed). One
+is picked per run at random, *weighted by past performance* (views +
+likes×10 on videos at least 20h old, see `compute_category_weights()`).
+Categories with fewer than 3 mature samples get a neutral weight so they
+keep getting explored rather than written off on noise.
 
-**Country rotation** — `travel` / `food` / `animals` topics are built from
-per-category templates with a `{country}` slot, cycling round-robin through
-20 countries (Japan → Italy → … → Iceland). The pointer lives in
-`topics.json` as `next_country_index`. `tech` / `ai` have no country and use
-Reddit-trending topics (with a static fallback pool).
+**Country rotation** — since both remaining categories (`travel` / `food`)
+are country-rotated, **every single video now goes through country
+rotation** - built from per-category templates with a `{country}` slot,
+cycling round-robin through 20 countries (Japan → Italy → … → Iceland). The
+pointer lives in `topics.json` as `next_country_index`. (The Reddit-trending
+/ static-fallback code path for non-country categories is still in the code
+but currently unreachable, in case a non-country category is ever added
+back.)
 
 Once every country has been posted **at least once** (a full round-robin
 cycle), country selection permanently switches to *performance-weighted*
