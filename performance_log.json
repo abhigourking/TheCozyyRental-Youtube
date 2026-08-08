@@ -4926,6 +4926,16 @@
       "groq_tokens": 2884,
       "groq_calls": 2,
       "posted_at": 1786218435.0246792
+    },
+    {
+      "video_id": "Zha7dAcjJNc",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Egypt that's all over social media right now",
+      "country": "Egypt",
+      "groq_tokens": 3783,
+      "groq_calls": 3,
+      "posted_at": 1786219859.1973922
     }
   ]
 }
