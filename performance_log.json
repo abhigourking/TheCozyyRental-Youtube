@@ -4636,6 +4636,16 @@
       "groq_tokens": 3740,
       "groq_calls": 3,
       "posted_at": 1786176270.5914848
+    },
+    {
+      "video_id": "vE-KzPiLQ6k",
+      "category": "travel",
+      "language": "Italian",
+      "topic": "A hidden gem destination in Italy most tourists don't know about",
+      "country": "Italy",
+      "groq_tokens": 2902,
+      "groq_calls": 2,
+      "posted_at": 1786177881.0066452
     }
   ]
 }
