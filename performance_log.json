@@ -4506,6 +4506,16 @@
       "groq_tokens": 1484,
       "groq_calls": 1,
       "posted_at": 1786156686.5961637
+    },
+    {
+      "video_id": "UvEQmOez9eM",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Indonesia that's all over social media right now",
+      "country": "Indonesia",
+      "groq_tokens": 2543,
+      "groq_calls": 2,
+      "posted_at": 1786158359.0406828
     }
   ]
 }
