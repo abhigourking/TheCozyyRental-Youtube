@@ -4966,6 +4966,16 @@
       "groq_tokens": 1504,
       "groq_calls": 1,
       "posted_at": 1786224873.6521325
+    },
+    {
+      "video_id": "mKcKuWWb6W4",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Brazil",
+      "country": "Brazil",
+      "groq_tokens": 3766,
+      "groq_calls": 3,
+      "posted_at": 1786226347.8566914
     }
   ]
 }
