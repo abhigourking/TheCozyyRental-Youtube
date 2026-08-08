@@ -4866,6 +4866,16 @@
       "groq_tokens": 4324,
       "groq_calls": 3,
       "posted_at": 1786209751.1664643
+    },
+    {
+      "video_id": "3FxWcpdGPuI",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Morocco",
+      "country": "Morocco",
+      "groq_tokens": 3815,
+      "groq_calls": 3,
+      "posted_at": 1786211290.3926387
     }
   ]
 }
