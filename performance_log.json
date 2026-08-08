@@ -4466,6 +4466,16 @@
       "groq_tokens": 1481,
       "groq_calls": 1,
       "posted_at": 1786150635.00683
+    },
+    {
+      "video_id": "ro5pXdLDiq8",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Indonesia",
+      "country": "Indonesia",
+      "groq_tokens": 3731,
+      "groq_calls": 3,
+      "posted_at": 1786152169.2584794
     }
   ]
 }
