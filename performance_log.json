@@ -4936,6 +4936,16 @@
       "groq_tokens": 3783,
       "groq_calls": 3,
       "posted_at": 1786219859.1973922
+    },
+    {
+      "video_id": "qObjQRz0eBU",
+      "category": "food",
+      "language": "Japanese",
+      "topic": "A comfort food from Japan that's become an internet obsession",
+      "country": "Japan",
+      "groq_tokens": 1411,
+      "groq_calls": 1,
+      "posted_at": 1786221555.0397544
     }
   ]
 }
