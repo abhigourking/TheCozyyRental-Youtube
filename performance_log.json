@@ -4566,6 +4566,16 @@
       "groq_tokens": 2863,
       "groq_calls": 2,
       "posted_at": 1786166073.236412
+    },
+    {
+      "video_id": "3i5fxCxXuy8",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 3674,
+      "groq_calls": 3,
+      "posted_at": 1786167431.9428797
     }
   ]
 }
