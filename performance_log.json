@@ -4676,6 +4676,16 @@
       "groq_tokens": 3750,
       "groq_calls": 3,
       "posted_at": 1786182379.9965062
+    },
+    {
+      "video_id": "8bfTXQ7VBlk",
+      "category": "travel",
+      "language": "Korean",
+      "topic": "A hidden gem destination in South Korea most tourists don't know about",
+      "country": "South Korea",
+      "groq_tokens": 1433,
+      "groq_calls": 1,
+      "posted_at": 1786183876.6576588
     }
   ]
 }
