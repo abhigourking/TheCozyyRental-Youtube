@@ -4976,6 +4976,16 @@
       "groq_tokens": 3766,
       "groq_calls": 3,
       "posted_at": 1786226347.8566914
+    },
+    {
+      "video_id": "30VSWz6CgZE",
+      "category": "travel",
+      "language": "Indonesian",
+      "topic": "The most breathtaking place to visit in Indonesia",
+      "country": "Indonesia",
+      "groq_tokens": 1429,
+      "groq_calls": 1,
+      "posted_at": 1786227733.7549179
     }
   ]
 }
