@@ -4756,6 +4756,16 @@
       "groq_tokens": 3748,
       "groq_calls": 3,
       "posted_at": 1786194168.5071573
+    },
+    {
+      "video_id": "PjA0ezJlhsc",
+      "category": "travel",
+      "language": "Brazilian Portuguese",
+      "topic": "A viral travel spot in Brazil that's all over social media right now",
+      "country": "Brazil",
+      "groq_tokens": 1456,
+      "groq_calls": 1,
+      "posted_at": 1786195402.885486
     }
   ]
 }
