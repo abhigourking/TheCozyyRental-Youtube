@@ -27,6 +27,7 @@ import tempfile
 import shutil
 import asyncio
 import threading
+import base64
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -672,11 +673,74 @@ def _is_decodable_image(path):
         return False
 
 
+def _is_flagged_nsfw(path):
+    """Second, independent safety check on top of Pollinations' own safe=true
+    filter - a YouTube video got removed for nudity that safe=true alone
+    apparently let through (no filter is 100% reliable, and this has real
+    consequences: repeated Community Guidelines strikes can terminate the
+    whole channel). Sends the downloaded image to Pollinations' own vision
+    endpoint (a completely separate model/code path from the image
+    generator, so it isn't just re-checking its own homework the same way)
+    and asks it to classify strictly.
+
+    FAILS CLOSED, unlike almost everything else in this pipeline: if the
+    check itself errors out (network issue, bad response, anything) this
+    returns True (treat as flagged) rather than False. Every other
+    safety-irrelevant check in this file fails open so a flaky dependency
+    never blocks a video; this one is different on purpose - an
+    inconclusive nudity check must never be treated as "probably fine."""
+    try:
+        image_b64 = base64.b64encode(path.read_bytes()).decode()
+        resp = requests.post(
+            "https://text.pollinations.ai/openai",
+            json={
+                "model": "openai",
+                "messages": [{
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": (
+                            "You are a strict content safety filter for a public "
+                            "YouTube channel. Look at this image. Does it contain "
+                            "any nudity, sexual content, sexually suggestive poses, "
+                            "or content that would violate YouTube's sex and nudity "
+                            "policy? Answer with EXACTLY one word: YES or NO. If you "
+                            "are at all unsure, answer YES."
+                        )},
+                        {"type": "image_url", "image_url": {
+                            "url": f"data:image/jpeg;base64,{image_b64}"
+                        }},
+                    ],
+                }],
+                "max_tokens": 5,
+            },
+            timeout=30,
+        )
+        if resp.status_code != 200:
+            print(f"    NSFW check request failed ({resp.status_code}) - "
+                  f"treating as flagged out of caution.", flush=True)
+            return True
+        answer = resp.json()["choices"][0]["message"]["content"].strip().upper()
+        flagged = "YES" in answer or "NO" not in answer
+        if flagged:
+            print(f"    NSFW check flagged this image (model said {answer!r}).", flush=True)
+        return flagged
+    except Exception as e:
+        print(f"    NSFW check errored ({e}) - treating as flagged out of caution.", flush=True)
+        return True
+
+
 def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # Requesting above final 1080x1920 output resolution gives the zoompan
     # (Ken Burns) effect in build_video room to zoom in without softening.
+    # safe=true is Pollinations' own NSFW filter - the API rejects/errors on
+    # flagged content before it's even returned, instead of us having to
+    # catch it after the fact. This is layer 1; _is_flagged_nsfw() below is
+    # an independent layer 2 on whatever does come back, since a video got
+    # published with nudity in it before this was added - one filter alone
+    # wasn't enough.
     url = f"https://image.pollinations.ai/prompt/{requests.utils.quote(prompt)}"
-    params = {"width": width, "height": height, "nologo": "true", "enhance": "true"}
+    params = {"width": width, "height": height, "nologo": "true", "enhance": "true",
+              "safe": "true"}
 
     with POLLINATIONS_LOCK:
         last_detail = None
@@ -689,6 +753,10 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                     time.sleep(wait)
                     continue
                 if r.status_code >= 400:
+                    # This is also what safe=true triggers when Pollinations'
+                    # own filter flags the prompt/output - a rejection here
+                    # is exactly what we want it to do, not a bug to route
+                    # around.
                     last_detail = f"HTTP {r.status_code}: {r.text[:200]}"
                     time.sleep((2 ** attempt) + random.uniform(0, 1))
                     continue
@@ -697,6 +765,10 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                 if not _is_decodable_image(out_path):
                     last_detail = (f"HTTP 200 but {len(r.content)} bytes weren't a "
                                     f"decodable image (corrupt/error body)")
+                    time.sleep((2 ** attempt) + random.uniform(0, 1))
+                    continue
+                if _is_flagged_nsfw(out_path):
+                    last_detail = "image failed the independent NSFW safety check"
                     time.sleep((2 ** attempt) + random.uniform(0, 1))
                     continue
                 time.sleep(0.3)  # brief courtesy pause before releasing the
