@@ -5096,6 +5096,16 @@
       "groq_tokens": 3698,
       "groq_calls": 3,
       "posted_at": 1786243826.3172326
+    },
+    {
+      "video_id": "EfoTJUkg-3g",
+      "category": "food",
+      "language": "Vietnamese",
+      "topic": "A comfort food from Vietnam that's become an internet obsession",
+      "country": "Vietnam",
+      "groq_tokens": 1441,
+      "groq_calls": 1,
+      "posted_at": 1786245264.7023017
     }
   ]
 }
