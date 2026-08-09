@@ -5236,6 +5236,16 @@
       "groq_tokens": 3812,
       "groq_calls": 3,
       "posted_at": 1786283868.7798033
+    },
+    {
+      "video_id": "W5IeqHkqYOA",
+      "category": "travel",
+      "language": "Vietnamese",
+      "topic": "A bucket-list experience you can only have in Vietnam",
+      "country": "Vietnam",
+      "groq_tokens": 4128,
+      "groq_calls": 3,
+      "posted_at": 1786287993.6131556
     }
   ]
 }
