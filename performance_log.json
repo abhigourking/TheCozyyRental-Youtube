@@ -5066,6 +5066,16 @@
       "groq_tokens": 1539,
       "groq_calls": 1,
       "posted_at": 1786239586.7762644
+    },
+    {
+      "video_id": "_QDptgors9k",
+      "category": "food",
+      "language": "en",
+      "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+      "country": "Italy",
+      "groq_tokens": 3834,
+      "groq_calls": 3,
+      "posted_at": 1786241063.0747883
     }
   ]
 }
