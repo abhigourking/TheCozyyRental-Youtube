@@ -5226,6 +5226,16 @@
       "groq_tokens": 1444,
       "groq_calls": 1,
       "posted_at": 1786278599.9563026
+    },
+    {
+      "video_id": "QGz69QDkjfw",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 3812,
+      "groq_calls": 3,
+      "posted_at": 1786283868.7798033
     }
   ]
 }
