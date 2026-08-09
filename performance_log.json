@@ -5246,6 +5246,16 @@
       "groq_tokens": 4128,
       "groq_calls": 3,
       "posted_at": 1786287993.6131556
+    },
+    {
+      "video_id": "vR70ewjCRpo",
+      "category": "food",
+      "language": "en",
+      "topic": "The most viral street food trend in Portugal right now",
+      "country": "Portugal",
+      "groq_tokens": 1261,
+      "groq_calls": 1,
+      "posted_at": 1786292103.7003736
     }
   ]
 }
