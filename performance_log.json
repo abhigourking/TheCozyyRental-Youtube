@@ -5046,6 +5046,16 @@
       "groq_tokens": 1448,
       "groq_calls": 1,
       "posted_at": 1786236557.9529526
+    },
+    {
+      "video_id": "v3-gOUX1oIw",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Japan",
+      "country": "Japan",
+      "groq_tokens": 3659,
+      "groq_calls": 3,
+      "posted_at": 1786238112.5963058
     }
   ]
 }
