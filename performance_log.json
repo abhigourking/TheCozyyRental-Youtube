@@ -5196,6 +5196,16 @@
       "groq_tokens": 3839,
       "groq_calls": 3,
       "posted_at": 1786265328.1193595
+    },
+    {
+      "video_id": "WWDxkSV8U4Y",
+      "category": "travel",
+      "language": "Thai",
+      "topic": "A surprising fact about a famous tourist attraction in Thailand",
+      "country": "Thailand",
+      "groq_tokens": 3455,
+      "groq_calls": 2,
+      "posted_at": 1786270056.2135305
     }
   ]
 }
