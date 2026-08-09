@@ -5286,6 +5286,16 @@
       "groq_tokens": 1481,
       "groq_calls": 1,
       "posted_at": 1786304727.2813668
+    },
+    {
+      "video_id": "Mq0990hGQNs",
+      "category": "food",
+      "language": "en",
+      "topic": "A comfort food from South Korea that's become an internet obsession",
+      "country": "South Korea",
+      "groq_tokens": 1331,
+      "groq_calls": 1,
+      "posted_at": 1786309025.1035354
     }
   ]
 }
