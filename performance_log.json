@@ -5296,6 +5296,16 @@
       "groq_tokens": 1331,
       "groq_calls": 1,
       "posted_at": 1786309025.1035354
+    },
+    {
+      "video_id": "bq6J4MWJebU",
+      "category": "food",
+      "language": "Greek",
+      "topic": "A comfort food from Greece that's become an internet obsession",
+      "country": "Greece",
+      "groq_tokens": 5047,
+      "groq_calls": 3,
+      "posted_at": 1786313973.0918713
     }
   ]
 }
