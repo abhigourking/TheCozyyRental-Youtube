@@ -5356,6 +5356,16 @@
       "groq_tokens": 3738,
       "groq_calls": 3,
       "posted_at": 1786335874.3591285
+    },
+    {
+      "video_id": "YGBNv2Fdanw",
+      "category": "travel",
+      "language": "Argentinian Spanish",
+      "topic": "A hidden gem destination in Argentina most tourists don't know about",
+      "country": "Argentina",
+      "groq_tokens": 1423,
+      "groq_calls": 1,
+      "posted_at": 1786340147.5340776
     }
   ]
 }
