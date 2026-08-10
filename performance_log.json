@@ -5316,6 +5316,16 @@
       "groq_tokens": 2651,
       "groq_calls": 2,
       "posted_at": 1786318896.0847032
+    },
+    {
+      "video_id": "sOn0QC2snRk",
+      "category": "travel",
+      "language": "European Spanish",
+      "topic": "A surprising fact about a famous tourist attraction in Spain",
+      "country": "Spain",
+      "groq_tokens": 2923,
+      "groq_calls": 2,
+      "posted_at": 1786323186.4563541
     }
   ]
 }
