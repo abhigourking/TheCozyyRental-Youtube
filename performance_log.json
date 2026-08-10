@@ -5386,6 +5386,16 @@
       "groq_tokens": 4239,
       "groq_calls": 3,
       "posted_at": 1786349289.8793535
+    },
+    {
+      "video_id": "FvaZqV5nIOk",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Turkey that's all over social media right now",
+      "country": "Turkey",
+      "groq_tokens": 3725,
+      "groq_calls": 3,
+      "posted_at": 1786353843.914837
     }
   ]
 }
