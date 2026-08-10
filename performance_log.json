@@ -5416,6 +5416,16 @@
       "groq_tokens": 3782,
       "groq_calls": 3,
       "posted_at": 1786366378.4535158
+    },
+    {
+      "video_id": "4etf-KaY_S0",
+      "category": "food",
+      "language": "Turkish",
+      "topic": "A popular food market or food street worth visiting in Turkey",
+      "country": "Turkey",
+      "groq_tokens": 1484,
+      "groq_calls": 1,
+      "posted_at": 1786371508.326802
     }
   ]
 }
