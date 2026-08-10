@@ -5456,6 +5456,16 @@
       "groq_tokens": 3800,
       "groq_calls": 3,
       "posted_at": 1786384387.6390147
+    },
+    {
+      "video_id": "jyFDouf1EmI",
+      "category": "travel",
+      "language": "Egyptian Arabic",
+      "topic": "A surprising fact about a famous tourist attraction in Egypt",
+      "country": "Egypt",
+      "groq_tokens": 4111,
+      "groq_calls": 3,
+      "posted_at": 1786388646.3376892
     }
   ]
 }
