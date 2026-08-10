@@ -5396,6 +5396,16 @@
       "groq_tokens": 3725,
       "groq_calls": 3,
       "posted_at": 1786353843.914837
+    },
+    {
+      "video_id": "CA2w_n1dJoM",
+      "category": "travel",
+      "language": "Turkish",
+      "topic": "A surprising fact about a famous tourist attraction in Turkey",
+      "country": "Turkey",
+      "groq_tokens": 2759,
+      "groq_calls": 2,
+      "posted_at": 1786361846.727669
     }
   ]
 }
