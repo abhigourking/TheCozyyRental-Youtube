@@ -5436,6 +5436,16 @@
       "groq_tokens": 3828,
       "groq_calls": 3,
       "posted_at": 1786375841.2117794
+    },
+    {
+      "video_id": "vkNIQhUnQCw",
+      "category": "travel",
+      "language": "Icelandic",
+      "topic": "A surprising fact about a famous tourist attraction in Iceland",
+      "country": "Iceland",
+      "groq_tokens": 4281,
+      "groq_calls": 3,
+      "posted_at": 1786380144.1852465
     }
   ]
 }
