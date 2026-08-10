@@ -5476,6 +5476,16 @@
       "groq_tokens": 3716,
       "groq_calls": 3,
       "posted_at": 1786392969.956643
+    },
+    {
+      "video_id": "T6rh8MeZdmQ",
+      "category": "food",
+      "language": "European Portuguese",
+      "topic": "A comfort food from Portugal that's become an internet obsession",
+      "country": "Portugal",
+      "groq_tokens": 1450,
+      "groq_calls": 1,
+      "posted_at": 1786397045.473444
     }
   ]
 }
