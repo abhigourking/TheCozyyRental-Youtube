@@ -5466,6 +5466,16 @@
       "groq_tokens": 4111,
       "groq_calls": 3,
       "posted_at": 1786388646.3376892
+    },
+    {
+      "video_id": "Du1td_Wzdvk",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in South Korea that's all over social media right now",
+      "country": "South Korea",
+      "groq_tokens": 3716,
+      "groq_calls": 3,
+      "posted_at": 1786392969.956643
     }
   ]
 }
