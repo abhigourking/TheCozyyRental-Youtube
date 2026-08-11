@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 128,
+    "times_flagged": 136,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Thailand",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786469761.424266
+        "flagged_at": 1786476126.0626771
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786471536.8191195
+        "flagged_at": 1786476126.1025054
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786471536.821974
+        "flagged_at": 1786476126.1055453
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786471536.8246815
+        "flagged_at": 1786476126.1085966
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786471536.8273726
+        "flagged_at": 1786476126.1116273
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 88,
+    "times_flagged": 92,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786474683.0960562
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786474683.099012
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786474683.1019702
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786474683.1050086
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786474683.1079926
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786476126.090362
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786476126.0934045
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786476126.0964417
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786476126.099505
       }
     ]
   },
@@ -3007,6 +3007,117 @@
         "country": "Spain",
         "confidence": 0.822,
         "flagged_at": 1786474683.0841773
+      }
+    ]
+  },
+  "vibrant street art": {
+    "prompt": "vibrant street art",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.349,
+        "flagged_at": 1786476126.0417342
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.349,
+        "flagged_at": 1786476126.044845
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.349,
+        "flagged_at": 1786476126.047814
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.349,
+        "flagged_at": 1786476126.0507772
+      }
+    ]
+  },
+  "swimming in natural pools": {
+    "prompt": "swimming in natural pools",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.418,
+        "flagged_at": 1786476126.0656586
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.418,
+        "flagged_at": 1786476126.0686603
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.418,
+        "flagged_at": 1786476126.072271
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.418,
+        "flagged_at": 1786476126.0752559
+      }
+    ]
+  },
+  "mexican market scene": {
+    "prompt": "mexican market scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.792,
+        "flagged_at": 1786476126.0782564
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.792,
+        "flagged_at": 1786476126.0812852
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.792,
+        "flagged_at": 1786476126.0843115
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.792,
+        "flagged_at": 1786476126.0873358
       }
     ]
   }
