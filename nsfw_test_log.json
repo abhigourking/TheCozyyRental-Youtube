@@ -1225,6 +1225,42 @@
         }
       ],
       "ran_at": 1786448323.4935892
+    },
+    {
+      "run_number": "864",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31488810538",
+      "topic": "A surprising fact about a famous tourist attraction in Morocco",
+      "category": "travel",
+      "country": "Morocco",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "Spices and textiles for sale"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "Spices and textiles for sale"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "Spices and textiles for sale"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "Spices and textiles for sale"
+        }
+      ],
+      "ran_at": 1786450034.2584698
     }
   ]
 }

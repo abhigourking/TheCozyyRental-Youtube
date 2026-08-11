@@ -1233,5 +1233,42 @@
         "flagged_at": 1786448323.5149798
       }
     ]
+  },
+  "spices and textiles for sale": {
+    "prompt": "Spices and textiles for sale",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.826,
+        "flagged_at": 1786450034.2600377
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.826,
+        "flagged_at": 1786450034.2614553
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.826,
+        "flagged_at": 1786450034.2628002
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.826,
+        "flagged_at": 1786450034.26415
+      }
+    ]
   }
 }
