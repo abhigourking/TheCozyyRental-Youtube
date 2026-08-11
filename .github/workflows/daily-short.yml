@@ -49,9 +49,31 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
+      - name: Cache NudeNet 640m model
+        id: nudenet_cache
+        uses: actions/cache@v4
+        with:
+          path: models/640m.onnx
+          key: nudenet-640m-onnx-v1
+
+      - name: Download NudeNet 640m model
+        # Larger/more accurate nudity-detection model than the bundled
+        # default (320n) - not shipped in the pip package, so it's fetched
+        # once here and cached across runs (~100MB, cache avoids re-pulling
+        # it on every single run). If this download ever fails, the
+        # pipeline still runs fine - generate_short.py falls back to the
+        # bundled default model when NUDENET_MODEL_PATH isn't a real file.
+        if: steps.nudenet_cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p models
+          curl -sfL -o models/640m.onnx \
+            https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
+          || echo "::warning::NudeNet 640m model download failed - pipeline will fall back to the bundled default model."
+
       - name: Run pipeline
         id: run_pipeline
         env:
+          NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           # Optional fallback key from a SEPARATE Groq account (its own
           # independent daily token quota - Groq rate-limits per

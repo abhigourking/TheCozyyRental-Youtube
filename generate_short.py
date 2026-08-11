@@ -657,7 +657,21 @@ NUDITY_DETECTION_CLASSES = {
     "BUTTOCKS_EXPOSED",
     "ANUS_EXPOSED",
 }
-NUDITY_DETECTION_THRESHOLD = 0.5
+# Lowered from 0.5 to 0.3 after the third strike (an innocent food-topic
+# prompt still produced nudity) - 0.5 was letting borderline-confidence
+# detections through unflagged. Erring toward more false positives (a safe
+# image gets discarded and retried) is the right tradeoff vs. another
+# Community Guidelines strike.
+NUDITY_DETECTION_THRESHOLD = 0.3
+
+# Optional path to NudeNet's larger, more accurate "640m" detection model
+# (YOLOv8m-based, 640x640 input - notably better recall than the ~7MB
+# "320n" model bundled by default with the pip package). Not shipped in the
+# package itself, so the workflow downloads it once and caches it across
+# runs, then points here via env var. Falls back to the bundled default
+# model if unset or the file isn't actually present, so this never becomes
+# a hard dependency / can't turn into a new single point of failure.
+_NUDENET_MODEL_PATH = os.environ.get("NUDENET_MODEL_PATH", "").strip()
 
 _nude_detector = None
 _nude_detector_lock = threading.Lock()
@@ -673,7 +687,12 @@ def _get_nude_detector():
         with _nude_detector_lock:
             if _nude_detector is None:
                 from nudenet import NudeDetector
-                _nude_detector = NudeDetector()
+                if _NUDENET_MODEL_PATH and os.path.isfile(_NUDENET_MODEL_PATH):
+                    print(f"    Loading NudeNet 640m model from {_NUDENET_MODEL_PATH}", flush=True)
+                    _nude_detector = NudeDetector(model_path=_NUDENET_MODEL_PATH, inference_resolution=640)
+                else:
+                    print("    NUDENET_MODEL_PATH not set/found - using bundled default (320n) model.", flush=True)
+                    _nude_detector = NudeDetector()
     return _nude_detector
 
 
