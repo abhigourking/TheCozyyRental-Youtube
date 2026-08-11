@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 112,
+    "times_flagged": 116,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786482494.9705465
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786482495.0026119
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786482495.006203
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786482495.0097702
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
         "flagged_at": 1786482495.0133293
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786484078.708691
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786484078.7129703
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786484078.7172277
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786484078.721643
       }
     ]
   },
@@ -3710,6 +3710,43 @@
         "country": "Philippines",
         "confidence": 0.848,
         "flagged_at": 1786482494.984715
+      }
+    ]
+  },
+  "spices on kitchen counter": {
+    "prompt": "spices on kitchen counter",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786484078.6913297
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786484078.6958978
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786484078.700238
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786484078.7044592
       }
     ]
   }
