@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 76,
+    "times_flagged": 88,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786469761.447231
+        "flagged_at": 1786474683.0960562
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "topic": "The most viral street food trend in Spain right now",
         "category": "food",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786471536.8747976
+        "flagged_at": 1786474683.099012
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "topic": "The most viral street food trend in Spain right now",
         "category": "food",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786471536.8777118
+        "flagged_at": 1786474683.1019702
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "topic": "The most viral street food trend in Spain right now",
         "category": "food",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786471536.8805523
+        "flagged_at": 1786474683.1050086
       },
       {
-        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "topic": "The most viral street food trend in Spain right now",
         "category": "food",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786471536.8833935
+        "flagged_at": 1786474683.1079926
       }
     ]
   },
@@ -2933,6 +2933,80 @@
         "country": "South Korea",
         "confidence": 0.811,
         "flagged_at": 1786471536.8719432
+      }
+    ]
+  },
+  "street food market day": {
+    "prompt": "street food market day",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.805,
+        "flagged_at": 1786474683.0513089
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.805,
+        "flagged_at": 1786474683.0545163
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.805,
+        "flagged_at": 1786474683.0575163
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.805,
+        "flagged_at": 1786474683.06043
+      }
+    ]
+  },
+  "food blogger profile": {
+    "prompt": "food blogger profile",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786474683.0751915
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786474683.078146
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786474683.0811687
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786474683.0841773
       }
     ]
   }
