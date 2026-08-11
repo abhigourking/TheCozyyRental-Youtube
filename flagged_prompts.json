@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 60,
+    "times_flagged": 68,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Portugal that's all over social media right now",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786448323.5043235
+        "flagged_at": 1786454831.2429368
       },
       {
-        "topic": "A viral travel spot in Portugal that's all over social media right now",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786448323.5163267
+        "flagged_at": 1786454831.2446384
       },
       {
-        "topic": "A viral travel spot in Portugal that's all over social media right now",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786448323.517659
+        "flagged_at": 1786454831.2463903
       },
       {
-        "topic": "A viral travel spot in Portugal that's all over social media right now",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786448323.5189893
+        "flagged_at": 1786454831.2481024
       },
       {
-        "topic": "A viral travel spot in Portugal that's all over social media right now",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786448323.5203128
+        "flagged_at": 1786454831.2497852
       }
     ]
   },
@@ -1490,6 +1490,117 @@
         "country": "France",
         "confidence": 0.783,
         "flagged_at": 1786453262.4772859
+      }
+    ]
+  },
+  "mushroom foraging": {
+    "prompt": "mushroom foraging",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786454831.2177088
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786454831.219413
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786454831.2210364
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786454831.222659
+      }
+    ]
+  },
+  "wild boar rag\u00f9": {
+    "prompt": "wild boar rag\u00f9",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.527,
+        "flagged_at": 1786454831.2243123
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.527,
+        "flagged_at": 1786454831.2259862
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.527,
+        "flagged_at": 1786454831.2276669
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.527,
+        "flagged_at": 1786454831.2293942
+      }
+    ]
+  },
+  "social media sharing": {
+    "prompt": "social media sharing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786454831.2310855
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786454831.2327368
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786454831.2344189
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786454831.23612
       }
     ]
   }
