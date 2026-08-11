@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 72,
+    "times_flagged": 88,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786454831.2497852
+        "flagged_at": 1786458004.1911132
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786456358.8018363
+        "flagged_at": 1786458004.1926928
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786456358.8036032
+        "flagged_at": 1786458004.1947954
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786456358.8053648
+        "flagged_at": 1786458004.196369
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786456358.8071017
+        "flagged_at": 1786458004.1979203
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 24,
+    "times_flagged": 36,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "The most breathtaking place to visit in Brazil",
         "category": "travel",
-        "country": "France",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786453262.4716232
+        "flagged_at": 1786458004.148253
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786456358.7879803
+        "flagged_at": 1786458004.1557279
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786456358.789695
+        "flagged_at": 1786458004.157242
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786456358.7914364
+        "flagged_at": 1786458004.1587493
       },
       {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786456358.7931592
+        "flagged_at": 1786458004.160315
       }
     ]
   },
@@ -1712,6 +1712,265 @@
         "country": "Iceland",
         "confidence": 0.77,
         "flagged_at": 1786456358.8001099
+      }
+    ]
+  },
+  "desert landscape": {
+    "prompt": "desert landscape",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.439,
+        "flagged_at": 1786458004.1149218
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.439,
+        "flagged_at": 1786458004.1164408
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.439,
+        "flagged_at": 1786458004.117829
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.439,
+        "flagged_at": 1786458004.1192386
+      }
+    ]
+  },
+  "tropical plants": {
+    "prompt": "tropical plants",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.434,
+        "flagged_at": 1786458004.1263282
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.434,
+        "flagged_at": 1786458004.1277356
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.434,
+        "flagged_at": 1786458004.1292083
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.434,
+        "flagged_at": 1786458004.1306129
+      }
+    ]
+  },
+  "swimming in lagoons": {
+    "prompt": "swimming in lagoons",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.775,
+        "flagged_at": 1786458004.132018
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.775,
+        "flagged_at": 1786458004.1335192
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.775,
+        "flagged_at": 1786458004.1349475
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.775,
+        "flagged_at": 1786458004.1364043
+      }
+    ]
+  },
+  "sunbathing": {
+    "prompt": "sunbathing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.74,
+        "flagged_at": 1786458004.137865
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.74,
+        "flagged_at": 1786458004.1393313
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.74,
+        "flagged_at": 1786458004.1408117
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.74,
+        "flagged_at": 1786458004.1422884
+      }
+    ]
+  },
+  "a\u00e7a\u00ed fruit": {
+    "prompt": "a\u00e7a\u00ed fruit",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.773,
+        "flagged_at": 1786458004.1497335
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.773,
+        "flagged_at": 1786458004.1512141
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.773,
+        "flagged_at": 1786458004.1527245
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.773,
+        "flagged_at": 1786458004.1542327
+      }
+    ]
+  },
+  "local market": {
+    "prompt": "local market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.8,
+        "flagged_at": 1786458004.1678236
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.8,
+        "flagged_at": 1786458004.16944
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.8,
+        "flagged_at": 1786458004.1709657
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.8,
+        "flagged_at": 1786458004.172512
+      }
+    ]
+  },
+  "travel planning": {
+    "prompt": "travel planning",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.742,
+        "flagged_at": 1786458004.1802034
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.742,
+        "flagged_at": 1786458004.1817436
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.742,
+        "flagged_at": 1786458004.1832912
+      },
+      {
+        "topic": "The most breathtaking place to visit in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.742,
+        "flagged_at": 1786458004.184853
       }
     ]
   }
