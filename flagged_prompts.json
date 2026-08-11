@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 124,
+    "times_flagged": 128,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786469761.3908918
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786469761.4159124
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786469761.4186883
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786469761.4214735
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
         "flagged_at": 1786469761.424266
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786471536.8191195
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786471536.821974
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786471536.8246815
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786471536.8273726
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 72,
+    "times_flagged": 76,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786469761.4354348
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786469761.4382184
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786469761.4409986
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786469761.443776
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
         "flagged_at": 1786469761.447231
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786471536.8747976
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786471536.8777118
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786471536.8805523
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786471536.8833935
       }
     ]
   },
@@ -2785,6 +2785,154 @@
         "country": "Thailand",
         "confidence": 0.315,
         "flagged_at": 1786469761.458441
+      }
+    ]
+  },
+  "korean mealtime": {
+    "prompt": "Korean mealtime",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.518,
+        "flagged_at": 1786471536.8300757
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.518,
+        "flagged_at": 1786471536.8328035
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.518,
+        "flagged_at": 1786471536.8355215
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.518,
+        "flagged_at": 1786471536.8382604
+      }
+    ]
+  },
+  "delicious eating reaction": {
+    "prompt": "Delicious eating reaction",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.32,
+        "flagged_at": 1786471536.8410404
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.32,
+        "flagged_at": 1786471536.8438215
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.32,
+        "flagged_at": 1786471536.8466136
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.32,
+        "flagged_at": 1786471536.8494236
+      }
+    ]
+  },
+  "food blogger taking photo": {
+    "prompt": "Food blogger taking photo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.718,
+        "flagged_at": 1786471536.8522098
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.718,
+        "flagged_at": 1786471536.8550014
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.718,
+        "flagged_at": 1786471536.8578227
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.718,
+        "flagged_at": 1786471536.860637
+      }
+    ]
+  },
+  "follow button on phone": {
+    "prompt": "Follow button on phone",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786471536.8634365
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786471536.8662612
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786471536.869092
+      },
+      {
+        "topic": "A must-try traditional dish from South Korea and the story behind it",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786471536.8719432
       }
     ]
   }
