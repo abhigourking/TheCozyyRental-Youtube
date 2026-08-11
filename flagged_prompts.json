@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 88,
+    "times_flagged": 92,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786458004.1911132
-      },
-      {
-        "topic": "The most breathtaking place to visit in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786458004.1926928
-      },
-      {
-        "topic": "The most breathtaking place to visit in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786458004.1947954
-      },
-      {
-        "topic": "The most breathtaking place to visit in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786458004.196369
-      },
-      {
-        "topic": "The most breathtaking place to visit in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
         "flagged_at": 1786458004.1979203
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786461470.42027
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786461470.4224973
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786461470.42474
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786461470.4269621
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 40,
+    "times_flagged": 48,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Brazil",
-        "category": "travel",
-        "country": "Brazil",
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786458004.160315
+        "flagged_at": 1786461470.4638524
       },
       {
-        "topic": "The most breathtaking place to visit in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786459623.1465988
+        "flagged_at": 1786461470.4758387
       },
       {
-        "topic": "The most breathtaking place to visit in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786459623.1486998
+        "flagged_at": 1786461470.4782429
       },
       {
-        "topic": "The most breathtaking place to visit in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786459623.1507742
+        "flagged_at": 1786461470.480624
       },
       {
-        "topic": "The most breathtaking place to visit in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786459623.1528633
+        "flagged_at": 1786461470.4829917
       }
     ]
   },
@@ -2082,6 +2082,228 @@
         "country": "Argentina",
         "confidence": 0.842,
         "flagged_at": 1786459623.144488
+      }
+    ]
+  },
+  "thai street food market": {
+    "prompt": "Thai street food market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786461470.4024417
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786461470.4047089
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786461470.4069173
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786461470.409132
+      }
+    ]
+  },
+  "exotic ingredients": {
+    "prompt": "exotic ingredients",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.826,
+        "flagged_at": 1786461470.4113348
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.826,
+        "flagged_at": 1786461470.413532
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.826,
+        "flagged_at": 1786461470.415755
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.826,
+        "flagged_at": 1786461470.4179695
+      }
+    ]
+  },
+  "spices": {
+    "prompt": "spices",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.824,
+        "flagged_at": 1786461470.429191
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.824,
+        "flagged_at": 1786461470.4314394
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.824,
+        "flagged_at": 1786461470.4336522
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.824,
+        "flagged_at": 1786461470.4359727
+      }
+    ]
+  },
+  "braised beef": {
+    "prompt": "braised beef",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.531,
+        "flagged_at": 1786461470.4382625
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.531,
+        "flagged_at": 1786461470.440518
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.531,
+        "flagged_at": 1786461470.4428098
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.531,
+        "flagged_at": 1786461470.4451408
+      }
+    ]
+  },
+  "thai map": {
+    "prompt": "Thai map",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786461470.4474888
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786461470.449791
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786461470.4521499
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786461470.4544775
+      }
+    ]
+  },
+  "follow button": {
+    "prompt": "follow button",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786461470.4662964
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786461470.468724
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786461470.4711375
+      },
+      {
+        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786461470.4734688
       }
     ]
   }
