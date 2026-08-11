@@ -644,6 +644,73 @@ async def synthesize_voice(text, out_path, language="en", rate="+18%", voice_ove
 POLLINATIONS_LOCK = threading.Lock()
 
 
+# Explicit nudity classes only - deliberately NOT blocking on
+# FEET_EXPOSED/BELLY_EXPOSED/ARMPITS_EXPOSED/MALE_BREAST_EXPOSED, which
+# would false-positive on completely normal travel/food/beach content
+# (bare feet, a visible midriff, a shirtless man at the beach are not
+# nudity under YouTube's actual policy). These five are the ones that
+# matter for "sex and nudity policy" strikes.
+NUDITY_DETECTION_CLASSES = {
+    "FEMALE_GENITALIA_EXPOSED",
+    "MALE_GENITALIA_EXPOSED",
+    "FEMALE_BREAST_EXPOSED",
+    "BUTTOCKS_EXPOSED",
+    "ANUS_EXPOSED",
+}
+NUDITY_DETECTION_THRESHOLD = 0.5
+
+_nude_detector = None
+_nude_detector_lock = threading.Lock()
+
+
+def _get_nude_detector():
+    """Lazy-loaded singleton - the model only needs to load once per
+    process, and onnxruntime's InferenceSession.run() is safe to call
+    concurrently from multiple threads, so only the one-time construction
+    needs the lock, not each detection call."""
+    global _nude_detector
+    if _nude_detector is None:
+        with _nude_detector_lock:
+            if _nude_detector is None:
+                from nudenet import NudeDetector
+                _nude_detector = NudeDetector()
+    return _nude_detector
+
+
+def _is_flagged_nsfw(path):
+    """Real, offline, pixel-level nudity check on the actual generated
+    image - not the prompt used to request it. This exists because prompt-
+    based prevention (safe=true, a "no nudity" suffix, even a hard keyword
+    block on risky-sounding prompts) proved insufficient across repeated
+    YouTube strikes: an AI image generator can produce nudity completely
+    unprompted, for an entirely innocent-sounding request (a "Must-Try Thai
+    Dish" food video got flagged - nothing about that topic should trigger
+    any keyword filter, yet the generator still produced a nude figure).
+    Only inspecting the actual pixels closes that gap.
+
+    Uses NudeNet (pip install nudenet) - runs fully offline via ONNX
+    Runtime, no network call at inference time, so unlike the previous
+    attempt at this (Pollinations' vision endpoint, which turned out to
+    require payment - HTTP 402 on every call) this cannot break due to a
+    service going paid, changing its rate limits, or going down.
+
+    FAILS CLOSED like every safety-relevant check in this file: if
+    detection itself errors (corrupt file, model issue, anything), this
+    returns True (treat as flagged) rather than silently passing."""
+    try:
+        detector = _get_nude_detector()
+        detections = detector.detect(str(path))
+        for d in detections:
+            if d.get("class") in NUDITY_DETECTION_CLASSES and d.get("score", 0) >= NUDITY_DETECTION_THRESHOLD:
+                print(f"    NSFW check flagged this image: {d['class']} "
+                      f"(confidence {d['score']:.2f}).", flush=True)
+                return True
+        return False
+    except Exception as e:
+        print(f"    NSFW check errored ({e}) - treating as flagged out of caution.", flush=True)
+        return True
+
+
 def _is_decodable_image(path):
     """Validates the file is actually a real, decodable image - not just
     that the HTTP request returned 200. Pollinations can return a 200 with
@@ -726,6 +793,10 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                 if not _is_decodable_image(out_path):
                     last_detail = (f"HTTP 200 but {len(r.content)} bytes weren't a "
                                     f"decodable image (corrupt/error body)")
+                    time.sleep((2 ** attempt) + random.uniform(0, 1))
+                    continue
+                if _is_flagged_nsfw(out_path):
+                    last_detail = "image failed the local NudeNet nudity check"
                     time.sleep((2 ** attempt) + random.uniform(0, 1))
                     continue
                 time.sleep(0.3)  # brief courtesy pause before releasing the
