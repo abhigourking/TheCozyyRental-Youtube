@@ -1270,5 +1270,42 @@
         "flagged_at": 1786450034.26415
       }
     ]
+  },
+  "social media follow": {
+    "prompt": "social media follow",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.829,
+        "flagged_at": 1786451672.6029258
+      },
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.829,
+        "flagged_at": 1786451672.6044006
+      },
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.829,
+        "flagged_at": 1786451672.605802
+      },
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.829,
+        "flagged_at": 1786451672.6071813
+      }
+    ]
   }
 }
