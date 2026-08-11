@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 44,
+    "times_flagged": 52,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in France",
+        "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
-        "country": "France",
+        "country": "Egypt",
         "confidence": 0.357,
-        "flagged_at": 1786443580.0947254
+        "flagged_at": 1786446685.2282164
       },
       {
-        "topic": "A popular food market or food street worth visiting in France",
+        "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
-        "country": "France",
+        "country": "Egypt",
         "confidence": 0.357,
-        "flagged_at": 1786443580.112664
+        "flagged_at": 1786446685.229465
       },
       {
-        "topic": "A popular food market or food street worth visiting in France",
+        "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
-        "country": "France",
+        "country": "Egypt",
         "confidence": 0.357,
-        "flagged_at": 1786443580.1137285
+        "flagged_at": 1786446685.230822
       },
       {
-        "topic": "A popular food market or food street worth visiting in France",
+        "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
-        "country": "France",
+        "country": "Egypt",
         "confidence": 0.357,
-        "flagged_at": 1786443580.1147707
+        "flagged_at": 1786446685.2320535
       },
       {
-        "topic": "A popular food market or food street worth visiting in France",
+        "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
-        "country": "France",
+        "country": "Egypt",
         "confidence": 0.357,
-        "flagged_at": 1786443580.1158004
+        "flagged_at": 1786446685.2333333
       }
     ]
   },
@@ -1046,6 +1046,80 @@
         "country": "Italy",
         "confidence": 0.476,
         "flagged_at": 1786445174.8112957
+      }
+    ]
+  },
+  "person eating konafah": {
+    "prompt": "person eating konafah",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786446685.2143872
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786446685.215669
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786446685.216886
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786446685.2181785
+      }
+    ]
+  },
+  "social media follow screen": {
+    "prompt": "social media follow screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.714,
+        "flagged_at": 1786446685.21942
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.714,
+        "flagged_at": 1786446685.2206585
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.714,
+        "flagged_at": 1786446685.221916
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.714,
+        "flagged_at": 1786446685.2231998
       }
     ]
   }
