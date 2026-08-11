@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 108,
+    "times_flagged": 116,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786463406.2294462
+        "flagged_at": 1786466620.8499198
       },
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786463406.231859
+        "flagged_at": 1786466620.8524756
       },
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786463406.2342005
+        "flagged_at": 1786466620.8550198
       },
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786463406.236544
+        "flagged_at": 1786466620.857593
       },
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786463406.2389047
+        "flagged_at": 1786466620.8601365
       }
     ]
   },
@@ -2452,6 +2452,154 @@
         "country": "Portugal",
         "confidence": 0.481,
         "flagged_at": 1786464991.129503
+      }
+    ]
+  },
+  "mexican street art": {
+    "prompt": "mexican street art",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.821,
+        "flagged_at": 1786466620.8115194
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.821,
+        "flagged_at": 1786466620.8141923
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.821,
+        "flagged_at": 1786466620.8167439
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.821,
+        "flagged_at": 1786466620.819281
+      }
+    ]
+  },
+  "mexico city street food": {
+    "prompt": "mexico city street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.74,
+        "flagged_at": 1786466620.821777
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.74,
+        "flagged_at": 1786466620.8243012
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.74,
+        "flagged_at": 1786466620.8268297
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.74,
+        "flagged_at": 1786466620.8293707
+      }
+    ]
+  },
+  "mexican market scenes": {
+    "prompt": "mexican market scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.819,
+        "flagged_at": 1786466620.8319035
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.819,
+        "flagged_at": 1786466620.8344567
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.819,
+        "flagged_at": 1786466620.8370385
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.819,
+        "flagged_at": 1786466620.8395834
+      }
+    ]
+  },
+  "social media travel inspiration": {
+    "prompt": "social media travel inspiration",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.786,
+        "flagged_at": 1786466620.862675
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.786,
+        "flagged_at": 1786466620.865231
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.786,
+        "flagged_at": 1786466620.8678305
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.786,
+        "flagged_at": 1786466620.8704505
       }
     ]
   }
