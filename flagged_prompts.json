@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 12,
+    "times_flagged": 20,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "The most breathtaking place to visit in France",
         "category": "travel",
-        "country": "South Korea",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786440287.6526372
+        "flagged_at": 1786453262.466293
       },
       {
-        "topic": "A comfort food from Italy that's become an internet obsession",
-        "category": "food",
-        "country": "Italy",
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786445174.8030262
+        "flagged_at": 1786453262.467584
       },
       {
-        "topic": "A comfort food from Italy that's become an internet obsession",
-        "category": "food",
-        "country": "Italy",
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786445174.804211
+        "flagged_at": 1786453262.4689617
       },
       {
-        "topic": "A comfort food from Italy that's become an internet obsession",
-        "category": "food",
-        "country": "Italy",
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786445174.8053405
+        "flagged_at": 1786453262.47031
       },
       {
-        "topic": "A comfort food from Italy that's become an internet obsession",
-        "category": "food",
-        "country": "Italy",
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786445174.806543
+        "flagged_at": 1786453262.4716232
       }
     ]
   },
@@ -1305,6 +1305,191 @@
         "country": "Japan",
         "confidence": 0.829,
         "flagged_at": 1786451672.6071813
+      }
+    ]
+  },
+  "cobblestone street": {
+    "prompt": "cobblestone street",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786453262.436763
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786453262.4382274
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786453262.4395635
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786453262.4408524
+      }
+    ]
+  },
+  "street performer crowd": {
+    "prompt": "street performer crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.802,
+        "flagged_at": 1786453262.4421158
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.802,
+        "flagged_at": 1786453262.4433515
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.802,
+        "flagged_at": 1786453262.4492834
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.802,
+        "flagged_at": 1786453262.450599
+      }
+    ]
+  },
+  "canal boat ride": {
+    "prompt": "canal boat ride",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.738,
+        "flagged_at": 1786453262.4518468
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.738,
+        "flagged_at": 1786453262.4531453
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.738,
+        "flagged_at": 1786453262.4545097
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.738,
+        "flagged_at": 1786453262.4557998
+      }
+    ]
+  },
+  "old town narrow street": {
+    "prompt": "old town narrow street",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.847,
+        "flagged_at": 1786453262.4571025
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.847,
+        "flagged_at": 1786453262.4583864
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.847,
+        "flagged_at": 1786453262.4597645
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.847,
+        "flagged_at": 1786453262.461086
+      }
+    ]
+  },
+  "map pin location": {
+    "prompt": "map pin location",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.783,
+        "flagged_at": 1786453262.4732685
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.783,
+        "flagged_at": 1786453262.4746206
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.783,
+        "flagged_at": 1786453262.4759758
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.783,
+        "flagged_at": 1786453262.4772859
       }
     ]
   }
