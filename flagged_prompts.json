@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 116,
+    "times_flagged": 124,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786466620.8499198
+        "flagged_at": 1786469761.3908918
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786466620.8524756
+        "flagged_at": 1786469761.4159124
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786466620.8550198
+        "flagged_at": 1786469761.4186883
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786466620.857593
+        "flagged_at": 1786469761.4214735
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786466620.8601365
+        "flagged_at": 1786469761.424266
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 64,
+    "times_flagged": 72,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786463406.2199934
+        "flagged_at": 1786469761.4354348
       },
       {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786468247.28213
+        "flagged_at": 1786469761.4382184
       },
       {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786468247.2848833
+        "flagged_at": 1786469761.4409986
       },
       {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786468247.2876618
+        "flagged_at": 1786469761.443776
       },
       {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786468247.29039
+        "flagged_at": 1786469761.447231
       }
     ]
   },
@@ -2674,6 +2674,117 @@
         "country": "France",
         "confidence": 0.636,
         "flagged_at": 1786468247.2793565
+      }
+    ]
+  },
+  "rock climbing railay": {
+    "prompt": "rock climbing railay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.586,
+        "flagged_at": 1786469761.3936145
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.586,
+        "flagged_at": 1786469761.396377
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.586,
+        "flagged_at": 1786469761.399145
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.586,
+        "flagged_at": 1786469761.4019396
+      }
+    ]
+  },
+  "island hopping thailand": {
+    "prompt": "island hopping thailand",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.681,
+        "flagged_at": 1786469761.404697
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.681,
+        "flagged_at": 1786469761.407497
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.681,
+        "flagged_at": 1786469761.4102862
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.681,
+        "flagged_at": 1786469761.413076
+      }
+    ]
+  },
+  "smartphone travel planning": {
+    "prompt": "smartphone travel planning",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.315,
+        "flagged_at": 1786469761.4500327
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.315,
+        "flagged_at": 1786469761.4528174
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.315,
+        "flagged_at": 1786469761.4556286
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.315,
+        "flagged_at": 1786469761.458441
       }
     ]
   }
