@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 24,
+    "times_flagged": 28,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786435362.9297304
-      },
-      {
-        "topic": "A hidden gem destination in Iceland most tourists don't know about",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786435362.9300642
-      },
-      {
-        "topic": "A hidden gem destination in Iceland most tourists don't know about",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786435362.930398
-      },
-      {
-        "topic": "A hidden gem destination in Iceland most tourists don't know about",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786435362.930732
-      },
-      {
-        "topic": "A hidden gem destination in Iceland most tourists don't know about",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.357,
         "flagged_at": 1786435362.931064
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786438562.3524349
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786438562.3529499
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786438562.353484
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786438562.354037
       }
     ]
   },
@@ -558,6 +558,43 @@
         "country": "India",
         "confidence": 0.744,
         "flagged_at": 1786436971.1203008
+      }
+    ]
+  },
+  "korean bbq grill": {
+    "prompt": "Korean BBQ grill",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.774,
+        "flagged_at": 1786438562.350301
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.774,
+        "flagged_at": 1786438562.3508544
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.774,
+        "flagged_at": 1786438562.3514032
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.774,
+        "flagged_at": 1786438562.3519058
       }
     ]
   }
