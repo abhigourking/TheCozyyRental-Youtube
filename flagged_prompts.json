@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 168,
+    "times_flagged": 172,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786482494.9564357
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786482494.9883435
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786482494.9919229
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786482494.9954808
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
         "flagged_at": 1786482494.999032
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786490490.4972298
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786490490.5012147
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786490490.5052044
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786490490.509182
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 116,
+    "times_flagged": 136,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786482495.0133293
+        "flagged_at": 1786490490.4771347
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786484078.708691
+        "flagged_at": 1786490490.5132058
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786484078.7129703
+        "flagged_at": 1786490490.5172222
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786484078.7172277
+        "flagged_at": 1786490490.5212336
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786484078.721643
+        "flagged_at": 1786490490.525223
       }
     ]
   },
@@ -3969,6 +3969,191 @@
         "country": "Argentina",
         "confidence": 0.839,
         "flagged_at": 1786488915.3741422
+      }
+    ]
+  },
+  "traditional indonesian market": {
+    "prompt": "traditional Indonesian market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.829,
+        "flagged_at": 1786490490.355399
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.829,
+        "flagged_at": 1786490490.3593924
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.829,
+        "flagged_at": 1786490490.3632154
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.829,
+        "flagged_at": 1786490490.3670478
+      }
+    ]
+  },
+  "goat meat market": {
+    "prompt": "goat meat market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1786490490.386315
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1786490490.3901873
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1786490490.3940747
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1786490490.3980021
+      }
+    ]
+  },
+  "traditional indonesian cooking": {
+    "prompt": "traditional Indonesian cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.588,
+        "flagged_at": 1786490490.4018836
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.588,
+        "flagged_at": 1786490490.4057977
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.588,
+        "flagged_at": 1786490490.4097083
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.588,
+        "flagged_at": 1786490490.413652
+      }
+    ]
+  },
+  "happy foodie reactions": {
+    "prompt": "happy foodie reactions",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.773,
+        "flagged_at": 1786490490.433275
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.773,
+        "flagged_at": 1786490490.4372087
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.773,
+        "flagged_at": 1786490490.4411213
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.773,
+        "flagged_at": 1786490490.4450831
+      }
+    ]
+  },
+  "foodie adventures": {
+    "prompt": "foodie adventures",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.737,
+        "flagged_at": 1786490490.4811568
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.737,
+        "flagged_at": 1786490490.485162
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.737,
+        "flagged_at": 1786490490.4892337
+      },
+      {
+        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.737,
+        "flagged_at": 1786490490.4932005
       }
     ]
   }
