@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 92,
+    "times_flagged": 108,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Brazil",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Turkey",
         "confidence": 0.357,
-        "flagged_at": 1786458004.1979203
+        "flagged_at": 1786463406.2294462
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.357,
-        "flagged_at": 1786461470.42027
+        "flagged_at": 1786463406.231859
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.357,
-        "flagged_at": 1786461470.4224973
+        "flagged_at": 1786463406.2342005
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.357,
-        "flagged_at": 1786461470.42474
+        "flagged_at": 1786463406.236544
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.357,
-        "flagged_at": 1786461470.4269621
+        "flagged_at": 1786463406.2389047
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 48,
+    "times_flagged": 60,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.701,
-        "flagged_at": 1786461470.4638524
+        "flagged_at": 1786463406.2104597
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.701,
-        "flagged_at": 1786461470.4758387
+        "flagged_at": 1786463406.2128825
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.701,
-        "flagged_at": 1786461470.4782429
+        "flagged_at": 1786463406.215241
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.701,
-        "flagged_at": 1786461470.480624
+        "flagged_at": 1786463406.2176282
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
         "confidence": 0.701,
-        "flagged_at": 1786461470.4829917
+        "flagged_at": 1786463406.2199934
       }
     ]
   },
@@ -2304,6 +2304,43 @@
         "country": "Thailand",
         "confidence": 0.847,
         "flagged_at": 1786461470.4734688
+      }
+    ]
+  },
+  "steep hills and valleys": {
+    "prompt": "steep hills and valleys",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.696,
+        "flagged_at": 1786463406.1644232
+      },
+      {
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.696,
+        "flagged_at": 1786463406.1670525
+      },
+      {
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.696,
+        "flagged_at": 1786463406.169461
+      },
+      {
+        "topic": "A hidden gem destination in Turkey most tourists don't know about",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.696,
+        "flagged_at": 1786463406.1718686
       }
     ]
   }
