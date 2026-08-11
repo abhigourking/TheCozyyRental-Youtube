@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 8,
+    "times_flagged": 12,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in India most tourists don't know about",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786436971.1172628
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.701,
-        "flagged_at": 1786440287.650225
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.701,
-        "flagged_at": 1786440287.6510413
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.701,
-        "flagged_at": 1786440287.6518452
-      },
       {
         "topic": "A bucket-list experience you can only have in South Korea",
         "category": "travel",
         "country": "South Korea",
         "confidence": 0.701,
         "flagged_at": 1786440287.6526372
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786445174.8030262
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786445174.804211
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786445174.8053405
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786445174.806543
       }
     ]
   },
@@ -935,6 +935,117 @@
         "country": "France",
         "confidence": 0.737,
         "flagged_at": 1786443580.1116104
+      }
+    ]
+  },
+  "happy crowd eating": {
+    "prompt": "happy crowd eating",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.431,
+        "flagged_at": 1786445174.7939467
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.431,
+        "flagged_at": 1786445174.7950559
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.431,
+        "flagged_at": 1786445174.7961967
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.431,
+        "flagged_at": 1786445174.797297
+      }
+    ]
+  },
+  "arancini ingredients": {
+    "prompt": "arancini ingredients",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.629,
+        "flagged_at": 1786445174.7984343
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.629,
+        "flagged_at": 1786445174.7995682
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.629,
+        "flagged_at": 1786445174.8007064
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.629,
+        "flagged_at": 1786445174.8018749
+      }
+    ]
+  },
+  "italian flag": {
+    "prompt": " Italian flag",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.476,
+        "flagged_at": 1786445174.8077283
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.476,
+        "flagged_at": 1786445174.8088617
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.476,
+        "flagged_at": 1786445174.8101387
+      },
+      {
+        "topic": "A comfort food from Italy that's become an internet obsession",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.476,
+        "flagged_at": 1786445174.8112957
       }
     ]
   }
