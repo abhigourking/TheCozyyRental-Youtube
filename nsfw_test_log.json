@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "topic": "A viral travel spot in Japan that's all over social media right now",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 120,
+      "images_flagged": 120,
+      "ran_at": 1786430107.887212
+    }
+  ]
+}
