@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 52,
+    "times_flagged": 60,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786446685.2282164
+        "flagged_at": 1786448323.5043235
       },
       {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786446685.229465
+        "flagged_at": 1786448323.5163267
       },
       {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786446685.230822
+        "flagged_at": 1786448323.517659
       },
       {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786446685.2320535
+        "flagged_at": 1786448323.5189893
       },
       {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786446685.2333333
+        "flagged_at": 1786448323.5203128
       }
     ]
   },
@@ -1120,6 +1120,117 @@
         "country": "Egypt",
         "confidence": 0.714,
         "flagged_at": 1786446685.2231998
+      }
+    ]
+  },
+  "traditional portuguese cuisine": {
+    "prompt": "traditional Portuguese cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.56,
+        "flagged_at": 1786448323.4952059
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.56,
+        "flagged_at": 1786448323.4965572
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.56,
+        "flagged_at": 1786448323.4978335
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.56,
+        "flagged_at": 1786448323.4991162
+      }
+    ]
+  },
+  "friendly locals": {
+    "prompt": "friendly locals",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.775,
+        "flagged_at": 1786448323.505585
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.775,
+        "flagged_at": 1786448323.5069172
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.775,
+        "flagged_at": 1786448323.5082235
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.775,
+        "flagged_at": 1786448323.5095217
+      }
+    ]
+  },
+  "travel blog": {
+    "prompt": "travel blog",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.682,
+        "flagged_at": 1786448323.5109382
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.682,
+        "flagged_at": 1786448323.5122585
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.682,
+        "flagged_at": 1786448323.513625
+      },
+      {
+        "topic": "A viral travel spot in Portugal that's all over social media right now",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.682,
+        "flagged_at": 1786448323.5149798
       }
     ]
   }
