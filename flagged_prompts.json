@@ -1,0 +1,231 @@
+{
+  "porto city streets": {
+    "prompt": "Porto city streets",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.496,
+        "flagged_at": 1786433642.0285254
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.496,
+        "flagged_at": 1786433642.0286865
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.496,
+        "flagged_at": 1786433642.0288744
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.496,
+        "flagged_at": 1786433642.029133
+      }
+    ]
+  },
+  "grilled meat skewers": {
+    "prompt": "grilled meat skewers",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.392,
+        "flagged_at": 1786433642.0293806
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.392,
+        "flagged_at": 1786433642.0296187
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.392,
+        "flagged_at": 1786433642.0299559
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.392,
+        "flagged_at": 1786433642.0302055
+      }
+    ]
+  },
+  "scenic nature landscape": {
+    "prompt": "scenic nature landscape",
+    "times_flagged": 16,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786433642.0386622
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786433642.039044
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786433642.0394773
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786433642.0398607
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786433642.0402424
+      }
+    ]
+  },
+  "traditional portuguese decor": {
+    "prompt": "traditional Portuguese decor",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.447,
+        "flagged_at": 1786433642.0328627
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.447,
+        "flagged_at": 1786433642.0331738
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.447,
+        "flagged_at": 1786433642.0335317
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.447,
+        "flagged_at": 1786433642.0338607
+      }
+    ]
+  },
+  "smartphone with social media": {
+    "prompt": "smartphone with social media",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.474,
+        "flagged_at": 1786433642.0341973
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.474,
+        "flagged_at": 1786433642.0345943
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.474,
+        "flagged_at": 1786433642.035034
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.474,
+        "flagged_at": 1786433642.0354295
+      }
+    ]
+  },
+  "comment section on screen": {
+    "prompt": "comment section on screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.809,
+        "flagged_at": 1786433642.0357907
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.809,
+        "flagged_at": 1786433642.0361598
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.809,
+        "flagged_at": 1786433642.0365777
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.809,
+        "flagged_at": 1786433642.0369742
+      }
+    ]
+  }
+}
