@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 144,
+    "times_flagged": 152,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "topic": "A bucket-list experience you can only have in Italy",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786477581.6504495
+        "flagged_at": 1786479117.712066
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "topic": "A bucket-list experience you can only have in Italy",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786477581.666347
+        "flagged_at": 1786479117.7153804
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "topic": "A bucket-list experience you can only have in Italy",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786477581.6701763
+        "flagged_at": 1786479117.7186322
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "topic": "A bucket-list experience you can only have in Italy",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786477581.6733856
+        "flagged_at": 1786479117.721893
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "topic": "A bucket-list experience you can only have in Italy",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786477581.676548
+        "flagged_at": 1786479117.7251673
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 96,
+    "times_flagged": 100,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786476126.099505
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786477581.6797383
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786477581.6829438
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786477581.6861222
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
         "country": "Iceland",
         "confidence": 0.701,
         "flagged_at": 1786477581.689315
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786479117.6757214
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786479117.6789377
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786479117.6821666
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786479117.6853588
       }
     ]
   },
@@ -3229,6 +3229,154 @@
         "country": "Iceland",
         "confidence": 0.827,
         "flagged_at": 1786477581.6631546
+      }
+    ]
+  },
+  "tuscan countryside road": {
+    "prompt": "tuscan countryside road",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.496,
+        "flagged_at": 1786479117.6496108
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.496,
+        "flagged_at": 1786479117.653037
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.496,
+        "flagged_at": 1786479117.6563048
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.496,
+        "flagged_at": 1786479117.6595266
+      }
+    ]
+  },
+  "pizza maker hands": {
+    "prompt": "pizza maker hands",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786479117.6627645
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786479117.6659667
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786479117.6692035
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1786479117.6724236
+      }
+    ]
+  },
+  "gondolier rowing close up": {
+    "prompt": "gondolier rowing close up",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.303,
+        "flagged_at": 1786479117.6886597
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.303,
+        "flagged_at": 1786479117.6918948
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.303,
+        "flagged_at": 1786479117.6951406
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.303,
+        "flagged_at": 1786479117.698385
+      }
+    ]
+  },
+  "italian flag waving": {
+    "prompt": "italian flag waving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.644,
+        "flagged_at": 1786479117.728492
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.644,
+        "flagged_at": 1786479117.7317593
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.644,
+        "flagged_at": 1786479117.7350287
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.644,
+        "flagged_at": 1786479117.7383392
       }
     ]
   }
