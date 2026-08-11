@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 32,
+    "times_flagged": 36,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786438562.354037
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786440287.6469505
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786440287.6477752
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786440287.648568
-      },
       {
         "topic": "A bucket-list experience you can only have in South Korea",
         "category": "travel",
         "country": "South Korea",
         "confidence": 0.357,
         "flagged_at": 1786440287.649416
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786441947.2274327
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786441947.2283428
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786441947.2292242
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786441947.2300942
       }
     ]
   },
@@ -676,6 +676,80 @@
         "country": "South Korea",
         "confidence": 0.737,
         "flagged_at": 1786440287.646122
+      }
+    ]
+  },
+  "traditional greek cuisine": {
+    "prompt": "Traditional Greek cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.721,
+        "flagged_at": 1786441947.2204885
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.721,
+        "flagged_at": 1786441947.22139
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.721,
+        "flagged_at": 1786441947.2222335
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.721,
+        "flagged_at": 1786441947.2230768
+      }
+    ]
+  },
+  "social media engagement": {
+    "prompt": "Social media engagement",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.84,
+        "flagged_at": 1786441947.2239537
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.84,
+        "flagged_at": 1786441947.2248302
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.84,
+        "flagged_at": 1786441947.225698
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.84,
+        "flagged_at": 1786441947.226586
       }
     ]
   }

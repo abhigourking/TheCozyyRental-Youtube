@@ -631,6 +631,90 @@
         }
       ],
       "ran_at": 1786440287.6394625
+    },
+    {
+      "run_number": "857",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31478709228",
+      "topic": "A surprising fact about a famous tourist attraction in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 26,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.721,
+          "prompt": "Traditional Greek cuisine"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.721,
+          "prompt": "Traditional Greek cuisine"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.721,
+          "prompt": "Traditional Greek cuisine"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.721,
+          "prompt": "Traditional Greek cuisine"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "Social media engagement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "Social media engagement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "Social media engagement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "Social media engagement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786441947.2194452
     }
   ]
 }
