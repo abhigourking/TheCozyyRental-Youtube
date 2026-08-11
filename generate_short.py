@@ -696,6 +696,15 @@ def _get_nude_detector():
     return _nude_detector
 
 
+# Running tally for this test week (2026-08-11 through the strike
+# cool-down) - lets us log, per video, how many candidate images the
+# NudeNet check actually looked at vs how many it flagged, so we can
+# verify the detection logic is doing real work rather than just trusting
+# it silently. Reset per-process (each GitHub Actions run is a fresh
+# process), written out via record_nsfw_test_entry() at the end of the run.
+_NSFW_RUN_STATS = {"checked": 0, "flagged": 0}
+
+
 def _is_flagged_nsfw(path):
     """Real, offline, pixel-level nudity check on the actual generated
     image - not the prompt used to request it. This exists because prompt-
@@ -716,6 +725,7 @@ def _is_flagged_nsfw(path):
     FAILS CLOSED like every safety-relevant check in this file: if
     detection itself errors (corrupt file, model issue, anything), this
     returns True (treat as flagged) rather than silently passing."""
+    _NSFW_RUN_STATS["checked"] += 1
     try:
         detector = _get_nude_detector()
         detections = detector.detect(str(path))
@@ -723,10 +733,12 @@ def _is_flagged_nsfw(path):
             if d.get("class") in NUDITY_DETECTION_CLASSES and d.get("score", 0) >= NUDITY_DETECTION_THRESHOLD:
                 print(f"    NSFW check flagged this image: {d['class']} "
                       f"(confidence {d['score']:.2f}).", flush=True)
+                _NSFW_RUN_STATS["flagged"] += 1
                 return True
         return False
     except Exception as e:
         print(f"    NSFW check errored ({e}) - treating as flagged out of caution.", flush=True)
+        _NSFW_RUN_STATS["flagged"] += 1
         return True
 
 
@@ -1282,6 +1294,31 @@ def record_performance_entry(video_id, category, language, topic, country=None):
     PERFORMANCE_FILE.write_text(json.dumps(data, indent=2))
 
 
+NSFW_TEST_LOG_FILE = ROOT / "nsfw_test_log.json"
+
+
+def record_nsfw_test_entry(topic, category, country=None):
+    """Appends one entry per run to nsfw_test_log.json - separate from
+    performance_log.json since this tracks detection-logic behavior, not
+    video performance, and needs to keep working during the SKIP_UPLOAD
+    strike cool-down when there's no video_id to key off of. Purely a
+    verification/observability log; nothing in the pipeline reads this
+    back, so a write failure here should never break a run."""
+    try:
+        data = json.loads(NSFW_TEST_LOG_FILE.read_text()) if NSFW_TEST_LOG_FILE.exists() else {"runs": []}
+        data["runs"].append({
+            "topic": topic,
+            "category": category,
+            "country": country,
+            "images_checked": _NSFW_RUN_STATS["checked"],
+            "images_flagged": _NSFW_RUN_STATS["flagged"],
+            "ran_at": time.time(),
+        })
+        NSFW_TEST_LOG_FILE.write_text(json.dumps(data, indent=2))
+    except Exception as e:
+        print(f"  (non-fatal) failed to write nsfw_test_log.json: {e}", flush=True)
+
+
 def compute_category_weights():
     """Fetches current view/like counts (cheap - 1 quota unit per 50 videos,
     nothing like the 1600-unit cost of an upload) for past videos old enough
@@ -1609,9 +1646,17 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     final_path.mkdir(exist_ok=True)
     shutil.copy(out_video, final_path / "latest_short.mp4")
 
+    print(f"NudeNet check this run: {_NSFW_RUN_STATS['checked']} images checked, "
+          f"{_NSFW_RUN_STATS['flagged']} flagged.", flush=True)
+    record_nsfw_test_entry(topic, category, country=country)
+
     # Set SKIP_UPLOAD=true to render and save locally without touching
     # YouTube at all - useful while you're still dialing in quality/pacing
-    # and don't want every test run to actually publish anything.
+    # and don't want every test run to actually publish anything. Also used
+    # to ride out the strike cool-down window (see daily-short.yml) - keeps
+    # the full pipeline, including the NudeNet check, exercising and logging
+    # every run without risking another upload attempt while the channel is
+    # restricted.
     if os.environ.get("SKIP_UPLOAD", "false").lower() == "true":
         print(f"SKIP_UPLOAD is set - not uploading. Saved to {final_path / 'latest_short.mp4'}", flush=True)
         return

@@ -70,9 +70,33 @@ jobs:
             https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
           || echo "::warning::NudeNet 640m model download failed - pipeline will fall back to the bundled default model."
 
+      - name: Determine upload pause (Community Guidelines strike cool-down)
+        # The channel got a 1-strike Community Guidelines restriction
+        # (nudity) on 2026-08-11 - YouTube blocks uploads for 7 days from a
+        # strike. RESUME_DATE below is +8 days as a buffer. Until then,
+        # every run still executes the FULL pipeline (topic pick, script,
+        # images, the NudeNet nudity check, TTS, video assembly) so we keep
+        # exercising and logging the detection logic all week (see
+        # nsfw_test_log.json) - it just sets SKIP_UPLOAD=true so it never
+        # calls the YouTube API and can't hit the strike's 403. That also
+        # means these runs finish as a normal *success*, so the self-chain
+        # takes its normal 15-min gap instead of the 60s failure-retry loop
+        # hammering the API every minute for a week.
+        run: |
+          RESUME_DATE="2026-08-19"
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" < "$RESUME_DATE" ]]; then
+            echo "Upload paused until $RESUME_DATE (today: $TODAY, strike cool-down). Running in SKIP_UPLOAD test mode."
+            echo "SKIP_UPLOAD=true" >> "$GITHUB_ENV"
+          else
+            echo "Past $RESUME_DATE - resuming normal uploads."
+            echo "SKIP_UPLOAD=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Run pipeline
         id: run_pipeline
         env:
+          SKIP_UPLOAD: ${{ env.SKIP_UPLOAD }}
           NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           # Optional fallback key from a SEPARATE Groq account (its own
@@ -97,6 +121,7 @@ jobs:
           git config user.email "actions@github.com"
           git add topics.json
           [ -f performance_log.json ] && git add performance_log.json
+          [ -f nsfw_test_log.json ] && git add nsfw_test_log.json
           git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
 
           # Retry on non-fast-forward rejection (another push landed on
