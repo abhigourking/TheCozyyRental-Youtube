@@ -54,7 +54,15 @@ jobs:
         uses: actions/cache@v4
         with:
           path: models/640m.onnx
-          key: nudenet-640m-onnx-v1
+          # v2: bumped after a corrupt/truncated v1-cached download caused
+          # generate_short.py to fail-closed-flag every single image for
+          # an entire run (120/120) - NudeDetector's ONNX load blew up on
+          # the bad file, and since that happened inside the nudity check's
+          # fail-closed try/except, it silently looked identical to "every
+          # image really was nudity" instead of the technical failure it
+          # actually was. Bumping the key discards whatever's cached under
+          # v1 and forces a fresh, validated download below.
+          key: nudenet-640m-onnx-v2
 
       - name: Download NudeNet 640m model
         # Larger/more accurate nudity-detection model than the bundled
@@ -69,6 +77,20 @@ jobs:
           curl -sfL -o models/640m.onnx \
             https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
           || echo "::warning::NudeNet 640m model download failed - pipeline will fall back to the bundled default model."
+
+          # Guard against a partial/corrupt download slipping through as a
+          # false success (curl can still exit 0 on some dropped-connection
+          # cases) - and, worse, getting cached that way for every run
+          # after this one. The real file is ~103.5MB; anything far
+          # smaller isn't usable. Delete it so generate_short.py's own
+          # fallback-to-default-model logic (see _get_nude_detector) kicks
+          # in cleanly instead of trying to load junk and fail-closed
+          # flagging every image in the run.
+          SIZE=$(stat -c%s models/640m.onnx 2>/dev/null || echo 0)
+          if [ "$SIZE" -lt 90000000 ]; then
+            echo "::warning::Downloaded 640m.onnx is only $SIZE bytes (expected ~103.5MB) - discarding it, pipeline will use the bundled default model instead."
+            rm -f models/640m.onnx
+          fi
 
       - name: Determine upload pause (Community Guidelines strike cool-down)
         # The channel got a 1-strike Community Guidelines restriction
@@ -109,7 +131,10 @@ jobs:
           RESP=$(curl -sf -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/artifacts?per_page=100")
-          ARTIFACT_JSON=$(echo "$RESP" | jq -c '[.artifacts[] | select(.name | startswith("queued-video-")) | select(.expired == false)] | sort_by(.created_at) | .[0]')
+          PENDING=$(echo "$RESP" | jq -c '[.artifacts[] | select(.name | startswith("queued-video-")) | select(.expired == false)] | sort_by(.created_at)')
+          PENDING_COUNT=$(echo "$PENDING" | jq 'length')
+          echo "Queue status: $PENDING_COUNT video(s) waiting to be uploaded (also visible under this repo's Actions -> Artifacts, named queued-video-<run number>)."
+          ARTIFACT_JSON=$(echo "$PENDING" | jq -c '.[0]')
           if [ "$ARTIFACT_JSON" = "null" ] || [ -z "$ARTIFACT_JSON" ]; then
             echo "No queued videos waiting - resuming normal generation this run."
             echo "ready=false" >> "$GITHUB_OUTPUT"
@@ -118,7 +143,7 @@ jobs:
             echo "artifact_id=$(echo "$ARTIFACT_JSON" | jq -r '.id')" >> "$GITHUB_OUTPUT"
             echo "artifact_name=$(echo "$ARTIFACT_JSON" | jq -r '.name')" >> "$GITHUB_OUTPUT"
             echo "run_id=$(echo "$ARTIFACT_JSON" | jq -r '.workflow_run.id')" >> "$GITHUB_OUTPUT"
-            echo "Found queued video: $(echo "$ARTIFACT_JSON" | jq -r '.name') - uploading it this run instead of generating a new one."
+            echo "Uploading oldest queued video: $(echo "$ARTIFACT_JSON" | jq -r '.name') ($((PENDING_COUNT - 1)) remaining after this)."
           fi
 
       - name: Download queued video artifact
@@ -182,7 +207,16 @@ jobs:
         # it would've been uploaded with (see run_once()'s SKIP_UPLOAD
         # branch) into an artifact means the "Check for queued videos"
         # step above can find and publish it later, once uploads resume.
-        if: always() && env.SKIP_UPLOAD == 'true' && steps.run_pipeline.outcome == 'success'
+        #
+        # Gated on latest_short_meta.json actually existing (not just the
+        # pipeline step succeeding): run_once() deliberately skips writing
+        # that file whenever the NudeNet check flagged anything at all
+        # during generation, even if the final video only used visuals
+        # that passed - so a video that ever triggered a flag can never
+        # end up queued for auto-upload, full stop. hashFiles() here
+        # matches actual queue-worthiness to that same rule instead of
+        # just trusting the pipeline step's exit code.
+        if: always() && env.SKIP_UPLOAD == 'true' && steps.run_pipeline.outcome == 'success' && hashFiles('output/latest_short_meta.json') != ''
         uses: actions/upload-artifact@v4
         with:
           name: queued-video-${{ github.run_number }}
@@ -200,6 +234,7 @@ jobs:
           [ -f performance_log.json ] && git add performance_log.json
           [ -f nsfw_test_log.json ] && git add nsfw_test_log.json
           [ -f error_log.json ] && git add error_log.json
+          [ -f flagged_prompts.json ] && git add flagged_prompts.json
           git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
 
           # Retry on non-fast-forward rejection (another push landed on

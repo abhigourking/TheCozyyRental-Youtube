@@ -690,8 +690,25 @@ def _get_nude_detector():
             if _nude_detector is None:
                 from nudenet import NudeDetector
                 if _NUDENET_MODEL_PATH and os.path.isfile(_NUDENET_MODEL_PATH):
-                    print(f"    Loading NudeNet 640m model from {_NUDENET_MODEL_PATH}", flush=True)
-                    _nude_detector = NudeDetector(model_path=_NUDENET_MODEL_PATH, inference_resolution=640)
+                    # A corrupt/truncated download (interrupted transfer, or
+                    # a bad file that got cached from an earlier failed
+                    # run) would otherwise raise here, and since this whole
+                    # call is inside _is_flagged_nsfw()'s fail-closed
+                    # try/except, that used to mean EVERY single image for
+                    # the rest of the run got silently flagged - a 320n
+                    # ONNX load bug looks identical to "this run's images
+                    # were all nudity" unless you're staring at the log.
+                    # Falling back to the known-good bundled model here
+                    # keeps a bad custom model from taking the whole
+                    # detector down instead of just losing the accuracy
+                    # upgrade for this run.
+                    try:
+                        print(f"    Loading NudeNet 640m model from {_NUDENET_MODEL_PATH}", flush=True)
+                        _nude_detector = NudeDetector(model_path=_NUDENET_MODEL_PATH, inference_resolution=640)
+                    except Exception as e:
+                        print(f"    Failed to load 640m model ({type(e).__name__}: {e}) - "
+                              f"falling back to the bundled default (320n) model instead.", flush=True)
+                        _nude_detector = NudeDetector()
                 else:
                     print("    NUDENET_MODEL_PATH not set/found - using bundled default (320n) model.", flush=True)
                     _nude_detector = NudeDetector()
@@ -702,12 +719,56 @@ def _get_nude_detector():
 # cool-down) - lets us log, per video, how many candidate images the
 # NudeNet check actually looked at vs how many it flagged, so we can
 # verify the detection logic is doing real work rather than just trusting
-# it silently. Reset per-process (each GitHub Actions run is a fresh
-# process), written out via record_nsfw_test_entry() at the end of the run.
-_NSFW_RUN_STATS = {"checked": 0, "flagged": 0}
+# it silently. flag_details records WHY each one was flagged - either a
+# real detection (class + confidence, matched right back to the prompt
+# that produced it) or a technical error (fails closed, but distinguishing
+# the two matters: a wall of "error" entries means a bug, not nudity - see
+# the 640m-model-load fallback above, added after exactly that happened).
+# Reset per-process (each GitHub Actions run is a fresh process), written
+# out via record_nsfw_test_entry() at the end of the run.
+_NSFW_RUN_STATS = {"checked": 0, "flagged": 0, "flag_details": []}
 
 
-def _is_flagged_nsfw(path):
+FLAGGED_PROMPTS_FILE = ROOT / "flagged_prompts.json"
+_flagged_prompts_lock = threading.Lock()
+
+
+def _load_flagged_prompts():
+    try:
+        return json.loads(FLAGGED_PROMPTS_FILE.read_text()) if FLAGGED_PROMPTS_FILE.exists() else {}
+    except Exception:
+        return {}
+
+
+def record_flagged_prompt(prompt, cls, confidence, topic, category, country):
+    """Learned blocklist: every time NudeNet gets a REAL detection (not a
+    technical error) on an AI-generated image, remember the exact prompt
+    that produced it. _get_safe_ai_image_prompt() checks new prompts
+    against this before ever sending them to the generator, so a prompt
+    that has produced nudity once doesn't get to waste another generation
+    cycle (image download + retries + NudeNet check, all just to get
+    discarded again) reproducing it. Keyed by the normalized prompt text so
+    repeats (same country+template combo, common given the rotation) merge
+    into one growing-confidence entry instead of duplicating."""
+    key = prompt.strip().lower()
+    with _flagged_prompts_lock:
+        try:
+            data = _load_flagged_prompts()
+            entry = data.get(key, {"prompt": prompt, "times_flagged": 0, "classes": [], "examples": []})
+            entry["times_flagged"] += 1
+            if cls not in entry["classes"]:
+                entry["classes"].append(cls)
+            entry["examples"] = (entry["examples"] + [{
+                "topic": topic, "category": category, "country": country,
+                "confidence": round(confidence, 3), "flagged_at": time.time(),
+            }])[-5:]  # keep it bounded - most recent 5 examples is plenty
+            data[key] = entry
+            FLAGGED_PROMPTS_FILE.write_text(json.dumps(data, indent=2))
+        except Exception as e:
+            print(f"  (non-fatal) failed to update flagged_prompts.json: {e}", flush=True)
+
+
+def _is_flagged_nsfw(path, prompt=None):
     """Real, offline, pixel-level nudity check on the actual generated
     image - not the prompt used to request it. This exists because prompt-
     based prevention (safe=true, a "no nudity" suffix, even a hard keyword
@@ -726,7 +787,10 @@ def _is_flagged_nsfw(path):
 
     FAILS CLOSED like every safety-relevant check in this file: if
     detection itself errors (corrupt file, model issue, anything), this
-    returns True (treat as flagged) rather than silently passing."""
+    returns True (treat as flagged) rather than silently passing. That
+    failure mode is recorded distinctly from a real detection (see
+    flag_details below) precisely so a technical failure doesn't get
+    mistaken for - or learned as - an actual nudity pattern."""
     _NSFW_RUN_STATS["checked"] += 1
     try:
         detector = _get_nude_detector()
@@ -734,13 +798,22 @@ def _is_flagged_nsfw(path):
         for d in detections:
             if d.get("class") in NUDITY_DETECTION_CLASSES and d.get("score", 0) >= NUDITY_DETECTION_THRESHOLD:
                 print(f"    NSFW check flagged this image: {d['class']} "
-                      f"(confidence {d['score']:.2f}).", flush=True)
+                      f"(confidence {d['score']:.2f}) - prompt: {prompt!r}", flush=True)
                 _NSFW_RUN_STATS["flagged"] += 1
+                _NSFW_RUN_STATS["flag_details"].append({
+                    "reason": "detected", "class": d["class"],
+                    "confidence": round(d["score"], 3), "prompt": prompt,
+                })
                 return True
         return False
     except Exception as e:
-        print(f"    NSFW check errored ({e}) - treating as flagged out of caution.", flush=True)
+        print(f"    NSFW check errored ({type(e).__name__}: {e}) - treating as flagged out of caution "
+              f"(this is a technical failure, not necessarily real nudity - check the reason in "
+              f"nsfw_test_log.json).", flush=True)
         _NSFW_RUN_STATS["flagged"] += 1
+        _NSFW_RUN_STATS["flag_details"].append({
+            "reason": "error", "error": f"{type(e).__name__}: {e}", "prompt": prompt,
+        })
         return True
 
 
@@ -828,7 +901,7 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                                     f"decodable image (corrupt/error body)")
                     time.sleep((2 ** attempt) + random.uniform(0, 1))
                     continue
-                if _is_flagged_nsfw(out_path):
+                if _is_flagged_nsfw(out_path, prompt=prompt):
                     last_detail = "image failed the local NudeNet nudity check"
                     time.sleep((2 ** attempt) + random.uniform(0, 1))
                     continue
@@ -976,13 +1049,15 @@ AI_IMAGE_RISK_KEYWORDS = [
 
 
 def _get_safe_ai_image_prompt(prompt):
-    """Returns prompt unchanged unless it matches AI_IMAGE_RISK_KEYWORDS, in
-    which case it returns a generic, topic-unrelated fallback instead -
-    trading a bit of visual relevance on that one shot for guaranteeing the
-    AI generator is never even asked for a nudity-adjacent concept in the
-    first place, rather than trusting a downstream filter to catch it after
-    generation. Only used for the AI-image path; Pexels stock search still
-    gets the real, original prompt."""
+    """Returns prompt unchanged unless it matches AI_IMAGE_RISK_KEYWORDS or
+    is a known-bad prompt from flagged_prompts.json (see
+    record_flagged_prompt), in which case it returns a generic,
+    topic-unrelated fallback instead - trading a bit of visual relevance on
+    that one shot for guaranteeing the AI generator is never even asked for
+    a nudity-adjacent concept in the first place, rather than trusting a
+    downstream filter to catch it after generation. Only used for the
+    AI-image path; Pexels stock search still gets the real, original
+    prompt."""
     lower = prompt.lower()
     for kw in AI_IMAGE_RISK_KEYWORDS:
         if kw in lower:
@@ -991,6 +1066,16 @@ def _get_safe_ai_image_prompt(prompt):
                   f"{kw!r} - substituting safe generic prompt {safe!r} "
                   f"instead of sending the original to the generator.", flush=True)
             return safe
+
+    flagged = _load_flagged_prompts()
+    hit = flagged.get(lower.strip())
+    if hit:
+        safe = random.choice(GENERIC_FALLBACK_PROMPTS)
+        print(f"    AI image prompt {prompt!r} previously produced real nudity "
+              f"({hit['times_flagged']}x, classes: {hit['classes']}) - substituting "
+              f"safe generic prompt {safe!r} instead of trying it again.", flush=True)
+        return safe
+
     return prompt
 
 
@@ -1349,20 +1434,38 @@ def record_nsfw_test_entry(topic, category, country=None):
     video performance, and needs to keep working during the SKIP_UPLOAD
     strike cool-down when there's no video_id to key off of. Purely a
     verification/observability log; nothing in the pipeline reads this
-    back, so a write failure here should never break a run."""
+    back, so a write failure here should never break a run.
+
+    Also feeds every REAL detection (not a technical error - see
+    _is_flagged_nsfw) into flagged_prompts.json via record_flagged_prompt(),
+    so a prompt that has produced actual nudity once is remembered and
+    avoided next time (_get_safe_ai_image_prompt() checks it) instead of
+    wasting another full generation+check cycle reproducing the same
+    result."""
     try:
         data = json.loads(NSFW_TEST_LOG_FILE.read_text()) if NSFW_TEST_LOG_FILE.exists() else {"runs": []}
+        # Bounded per-run detail log - a pathological run (e.g. a bug
+        # flagging every single image) shouldn't blow this file up
+        # unboundedly; the checked/flagged counts above still capture the
+        # full picture regardless.
+        details = _NSFW_RUN_STATS["flag_details"][:25]
         data["runs"].append({
             "topic": topic,
             "category": category,
             "country": country,
             "images_checked": _NSFW_RUN_STATS["checked"],
             "images_flagged": _NSFW_RUN_STATS["flagged"],
+            "flag_details": details,
             "ran_at": time.time(),
         })
+        data["runs"] = data["runs"][-500:]
         NSFW_TEST_LOG_FILE.write_text(json.dumps(data, indent=2))
     except Exception as e:
         print(f"  (non-fatal) failed to write nsfw_test_log.json: {e}", flush=True)
+
+    for d in _NSFW_RUN_STATS["flag_details"]:
+        if d.get("reason") == "detected" and d.get("prompt"):
+            record_flagged_prompt(d["prompt"], d["class"], d["confidence"], topic, category, country)
 
 
 def compute_category_weights():
@@ -1512,6 +1615,13 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     voice name, TTS hiccup), this falls back to the English voice reading the
     English lines - never a failed run just because a native voice misbehaved.
     """
+    # Reset so a retried attempt (see main()'s retry loop) reports this
+    # attempt's own NudeNet stats, not an accumulation across every attempt
+    # tried so far this process.
+    _NSFW_RUN_STATS["checked"] = 0
+    _NSFW_RUN_STATS["flagged"] = 0
+    _NSFW_RUN_STATS["flag_details"] = []
+
     work = Path(tempfile.mkdtemp())
     print("Topic:", topic, flush=True)
     print("Language:", language, flush=True)
@@ -1700,6 +1810,25 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     # Log what was actually narrated (not what was requested) so the record
     # stays accurate when a native voice fell back to English.
     logged_language = native["name"] if (native and narrating_native) else language
+
+    # Extra safety gate on top of the per-shot retry logic in
+    # download_image()/prepare_shot_clips(), which already guarantees a
+    # flagged image is never the one that actually ends up in the
+    # assembled video (it gets retried away or swapped for a safe
+    # fallback/stock/reused clip first). This is stricter still: if the
+    # detector flagged ANYTHING at all while generating this video's
+    # shots, don't publish or queue it for later publishing, even though
+    # the visuals actually used are already clean. Deliberately
+    # conservative given the strike history - a flag means the model tried
+    # to produce unsafe content for this topic at least once, and that's
+    # not a bar worth publishing right up against. Costs nothing: a fresh
+    # topic gets tried automatically next cycle (~15 min later).
+    if _NSFW_RUN_STATS["flagged"] > 0:
+        print(f"  {_NSFW_RUN_STATS['flagged']} image(s) were flagged during generation for "
+              f"this topic - skipping upload/queue entirely out of caution, even though the "
+              f"assembled video only used visuals that passed the check. Will try a "
+              f"different topic next cycle.", flush=True)
+        return
 
     # Set SKIP_UPLOAD=true to render and save locally without touching
     # YouTube at all - useful while you're still dialing in quality/pacing
