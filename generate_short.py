@@ -534,7 +534,11 @@ Return STRICT JSON with keys:
       close up hands"), each a DIFFERENT quick shot/angle/moment illustrating
       this line (not near-duplicates of each other). Keep these concrete and
       common enough that real stock footage of them plausibly exists -
-      avoid overly specific or abstract phrasing
+      avoid overly specific or abstract phrasing. NEVER suggest statues,
+      sculptures, classical/nude art, or beach/bathing/spa scenes as a
+      visual prompt, even if the topic is about a place famous for them -
+      pick a different concrete visual instead (architecture, food,
+      landscape, everyday street life, etc.)
 
 HARD REQUIREMENT ON LENGTH: total narration across all beats combined must be
 70-95 words. Count them before answering. Fewer than 70 words produces a
@@ -841,6 +845,50 @@ GENERIC_FALLBACK_PROMPTS = [
     "colorful abstract background",
 ]
 
+# Repeated YouTube nudity strikes traced back to this specific gap: classical
+# Greek/Roman statues and sculptures are famously, overwhelmingly nude - when
+# an AI image generator is asked for "ancient Greek sculpture" or "classical
+# statue", it's very likely to produce actual nude imagery, because that's
+# genuinely what the real subject looks like. Pollinations' safe=true filter
+# is explicitly tuned to let "artistic" content through (their own docs),
+# which is exactly the bucket classical statuary falls into - safe=true and
+# a prompt-level "no nudity" suffix both proved unreliable against this
+# specific category (that's what caused the repeat strikes). This is
+# travel/food content, so statues/sculptures/bathing/beach scenes come up
+# often and legitimately - rather than block the whole shot, any prompt
+# matching one of these concepts gets swapped for a generic, unrelated-but-
+# safe fallback prompt before it's ever sent to the AI generator. Real stock
+# footage (Pexels) is NOT affected - that's curated commercial photography,
+# not a diffusion model, and was never the source of either incident.
+AI_IMAGE_RISK_KEYWORDS = [
+    "statue", "statues", "sculpture", "sculptures", "sculptural",
+    "carving", "carvings", "figurine", "bronze figure", "marble figure",
+    "classical art", "classical figure", "nude art", "life drawing",
+    "beach", "bikini", "swimwear", "swimsuit", "topless", "shirtless",
+    "bare-chested", "bare chested", "spa", "bath house", "bathhouse",
+    "onsen", "hot spring", "hammam", "sauna", "skinny dip",
+    "locker room", "changing room", "massage",
+]
+
+
+def _get_safe_ai_image_prompt(prompt):
+    """Returns prompt unchanged unless it matches AI_IMAGE_RISK_KEYWORDS, in
+    which case it returns a generic, topic-unrelated fallback instead -
+    trading a bit of visual relevance on that one shot for guaranteeing the
+    AI generator is never even asked for a nudity-adjacent concept in the
+    first place, rather than trusting a downstream filter to catch it after
+    generation. Only used for the AI-image path; Pexels stock search still
+    gets the real, original prompt."""
+    lower = prompt.lower()
+    for kw in AI_IMAGE_RISK_KEYWORDS:
+        if kw in lower:
+            safe = random.choice(GENERIC_FALLBACK_PROMPTS)
+            print(f"    AI image prompt {prompt!r} matched risk keyword "
+                  f"{kw!r} - substituting safe generic prompt {safe!r} "
+                  f"instead of sending the original to the generator.", flush=True)
+            return safe
+    return prompt
+
 
 def make_solid_color_clip(duration, out_path, color="0x1a1a2e"):
     """Absolute last resort if literally nothing else works for a shot (no
@@ -940,8 +988,9 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None
             pass  # fall through to the AI-image fallback below
 
     img_path = work_dir / f"img_{index}.jpg"
+    ai_prompt = _get_safe_ai_image_prompt(prompt)
     try:
-        download_image(prompt, img_path)
+        download_image(ai_prompt, img_path)
     except Exception as e:
         print(f"    AI image failed for {prompt!r}: {e}", flush=True)
         fallback_prompt = random.choice(GENERIC_FALLBACK_PROMPTS)
