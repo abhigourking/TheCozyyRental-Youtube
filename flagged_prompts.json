@@ -3934,5 +3934,42 @@
         "flagged_at": 1786485677.2530005
       }
     ]
+  },
+  "social media icons on screen": {
+    "prompt": "social media icons on screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.839,
+        "flagged_at": 1786488915.3621616
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.839,
+        "flagged_at": 1786488915.366084
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.839,
+        "flagged_at": 1786488915.3698423
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.839,
+        "flagged_at": 1786488915.3741422
+      }
+    ]
   }
 }

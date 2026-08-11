@@ -4103,6 +4103,42 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786487323.7330337
+    },
+    {
+      "run_number": "893",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31543639216",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "social media icons on screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "social media icons on screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "social media icons on screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "social media icons on screen"
+        }
+      ],
+      "ran_at": 1786488915.357717
     }
   ]
 }
