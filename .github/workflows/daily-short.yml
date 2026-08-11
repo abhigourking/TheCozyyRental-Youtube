@@ -122,6 +122,7 @@ jobs:
           git add topics.json
           [ -f performance_log.json ] && git add performance_log.json
           [ -f nsfw_test_log.json ] && git add nsfw_test_log.json
+          [ -f error_log.json ] && git add error_log.json
           git commit -m "chore: advance state [skip ci]" || echo "nothing to commit"
 
           # Retry on non-fast-forward rejection (another push landed on

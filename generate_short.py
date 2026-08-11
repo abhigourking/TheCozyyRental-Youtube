@@ -27,6 +27,7 @@ import tempfile
 import shutil
 import asyncio
 import threading
+import traceback
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -1294,6 +1295,50 @@ def record_performance_entry(video_id, category, language, topic, country=None):
     PERFORMANCE_FILE.write_text(json.dumps(data, indent=2))
 
 
+ERROR_LOG_FILE = ROOT / "error_log.json"
+
+
+def _github_run_url():
+    """None outside GitHub Actions (e.g. running locally) - the run/job env
+    vars are only set there."""
+    run_id = os.environ.get("GITHUB_RUN_ID")
+    if not run_id:
+        return None
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    return f"{server}/{repo}/actions/runs/{run_id}"
+
+
+def record_error_entry(topic, category, country, attempt, max_attempts, error):
+    """Persists every failed attempt (not just the final one that kills the
+    run) to error_log.json, including the GitHub Actions run number/link so
+    a failure seen here can be traced straight back to its job's full logs -
+    the console output itself isn't kept anywhere once a run's logs age out.
+    Never raises - a logging failure should never be what takes down a run."""
+    try:
+        data = json.loads(ERROR_LOG_FILE.read_text()) if ERROR_LOG_FILE.exists() else {"errors": []}
+        data["errors"].append({
+            "run_number": os.environ.get("GITHUB_RUN_NUMBER"),
+            "run_id": os.environ.get("GITHUB_RUN_ID"),
+            "run_url": _github_run_url(),
+            "topic": topic,
+            "category": category,
+            "country": country,
+            "attempt": attempt,
+            "max_attempts": max_attempts,
+            "error_type": type(error).__name__,
+            "error": str(error),
+            "traceback": traceback.format_exc()[-4000:],
+            "occurred_at": time.time(),
+        })
+        # Keep this from growing without bound - most recent 200 failures is
+        # plenty to spot patterns without the file becoming unwieldy.
+        data["errors"] = data["errors"][-200:]
+        ERROR_LOG_FILE.write_text(json.dumps(data, indent=2))
+    except Exception as log_err:
+        print(f"  (non-fatal) failed to write error_log.json: {log_err}", flush=True)
+
+
 NSFW_TEST_LOG_FILE = ROOT / "nsfw_test_log.json"
 
 
@@ -1722,6 +1767,7 @@ def main():
         except Exception as e:
             last_error = e
             print(f"Attempt {attempt}/{max_attempts} failed for topic {topic!r}: {e}")
+            record_error_entry(topic, category, country, attempt, max_attempts, e)
             if attempt < max_attempts:
                 print("Retrying with a different topic...")
 
