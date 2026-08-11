@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 68,
+    "times_flagged": 72,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Italy",
         "confidence": 0.357,
-        "flagged_at": 1786454831.2429368
-      },
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.357,
-        "flagged_at": 1786454831.2446384
-      },
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.357,
-        "flagged_at": 1786454831.2463903
-      },
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.357,
-        "flagged_at": 1786454831.2481024
-      },
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.357,
         "flagged_at": 1786454831.2497852
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786456358.8018363
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786456358.8036032
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786456358.8053648
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786456358.8071017
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 20,
+    "times_flagged": 24,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786453262.466293
-      },
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786453262.467584
-      },
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786453262.4689617
-      },
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786453262.47031
-      },
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
         "flagged_at": 1786453262.4716232
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786456358.7879803
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786456358.789695
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786456358.7914364
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786456358.7931592
       }
     ]
   },
@@ -1601,6 +1601,117 @@
         "country": "Italy",
         "confidence": 0.806,
         "flagged_at": 1786454831.23612
+      }
+    ]
+  },
+  "icelandic hot dog toppings": {
+    "prompt": "Icelandic hot dog toppings",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.664,
+        "flagged_at": 1786456358.7741272
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.664,
+        "flagged_at": 1786456358.7758727
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.664,
+        "flagged_at": 1786456358.7775996
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.664,
+        "flagged_at": 1786456358.779308
+      }
+    ]
+  },
+  "person eating fermented shark": {
+    "prompt": "person eating fermented shark",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.743,
+        "flagged_at": 1786456358.7810383
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.743,
+        "flagged_at": 1786456358.7828047
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.743,
+        "flagged_at": 1786456358.784517
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.743,
+        "flagged_at": 1786456358.7862525
+      }
+    ]
+  },
+  "vendors selling food": {
+    "prompt": "vendors selling food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.77,
+        "flagged_at": 1786456358.7948923
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.77,
+        "flagged_at": 1786456358.7966182
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.77,
+        "flagged_at": 1786456358.7983696
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.77,
+        "flagged_at": 1786456358.8001099
       }
     ]
   }
