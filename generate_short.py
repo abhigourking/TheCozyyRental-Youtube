@@ -1450,6 +1450,8 @@ def record_nsfw_test_entry(topic, category, country=None):
         # full picture regardless.
         details = _NSFW_RUN_STATS["flag_details"][:25]
         data["runs"].append({
+            "run_number": os.environ.get("GITHUB_RUN_NUMBER"),
+            "run_url": _github_run_url(),
             "topic": topic,
             "category": category,
             "country": country,
