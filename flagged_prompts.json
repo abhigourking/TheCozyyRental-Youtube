@@ -3749,5 +3749,190 @@
         "flagged_at": 1786484078.7044592
       }
     ]
+  },
+  "social media feeds": {
+    "prompt": "social media feeds",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.79,
+        "flagged_at": 1786485677.1826408
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.79,
+        "flagged_at": 1786485677.1864514
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.79,
+        "flagged_at": 1786485677.1900682
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.79,
+        "flagged_at": 1786485677.1936717
+      }
+    ]
+  },
+  "sweet fillings preparation": {
+    "prompt": "sweet fillings preparation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.793,
+        "flagged_at": 1786485677.19732
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.793,
+        "flagged_at": 1786485677.2010083
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.793,
+        "flagged_at": 1786485677.2046754
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.793,
+        "flagged_at": 1786485677.2083383
+      }
+    ]
+  },
+  "hotteok with different fillings": {
+    "prompt": "hotteok with different fillings",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.812,
+        "flagged_at": 1786485677.2120054
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.812,
+        "flagged_at": 1786485677.2157054
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.812,
+        "flagged_at": 1786485677.2194033
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.812,
+        "flagged_at": 1786485677.2230833
+      }
+    ]
+  },
+  "filling options on display": {
+    "prompt": "filling options on display",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786485677.2267902
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786485677.230547
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786485677.2342691
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786485677.237981
+      }
+    ]
+  },
+  "follow for more adventures": {
+    "prompt": "follow for more adventures",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786485677.2416883
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786485677.2454946
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786485677.24925
+      },
+      {
+        "topic": "A comfort food from South Korea that's become an internet obsession",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786485677.2530005
+      }
+    ]
   }
 }
