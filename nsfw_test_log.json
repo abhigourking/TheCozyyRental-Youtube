@@ -2557,6 +2557,90 @@
         }
       ],
       "ran_at": 1786466620.808243
+    },
+    {
+      "run_number": "877",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31515212636",
+      "topic": "A comfort food from France that's become an internet obsession",
+      "category": "food",
+      "country": "France",
+      "images_checked": 26,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.625,
+          "prompt": "croissant being bitten into"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.625,
+          "prompt": "croissant being bitten into"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.625,
+          "prompt": "croissant being bitten into"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.625,
+          "prompt": "croissant being bitten into"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.636,
+          "prompt": "person enjoying croissant"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.636,
+          "prompt": "person enjoying croissant"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.636,
+          "prompt": "person enjoying croissant"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.636,
+          "prompt": "person enjoying croissant"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786468247.25672
     }
   ]
 }
