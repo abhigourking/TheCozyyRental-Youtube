@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 160,
+    "times_flagged": 168,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786480863.6285279
+        "flagged_at": 1786482494.9564357
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786480863.6736207
+        "flagged_at": 1786482494.9883435
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786480863.6770787
+        "flagged_at": 1786482494.9919229
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786480863.6805367
+        "flagged_at": 1786482494.9954808
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786480863.6840656
+        "flagged_at": 1786482494.999032
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 104,
+    "times_flagged": 112,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Italy",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
         "category": "travel",
-        "country": "Italy",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786479117.6853588
+        "flagged_at": 1786482494.9705465
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786480863.6318889
+        "flagged_at": 1786482495.0026119
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786480863.6352665
+        "flagged_at": 1786482495.006203
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786480863.6386337
+        "flagged_at": 1786482495.0097702
       },
       {
-        "topic": "A popular food market or food street worth visiting in Peru",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786480863.6426952
+        "flagged_at": 1786482495.0133293
       }
     ]
   },
@@ -3525,6 +3525,191 @@
         "country": "Peru",
         "confidence": 0.65,
         "flagged_at": 1786480863.6701543
+      }
+    ]
+  },
+  "traveler looking surprised": {
+    "prompt": "traveler looking surprised",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.819,
+        "flagged_at": 1786482494.8890605
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.819,
+        "flagged_at": 1786482494.8927271
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.819,
+        "flagged_at": 1786482494.8961859
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.819,
+        "flagged_at": 1786482494.8996363
+      }
+    ]
+  },
+  "drought affected plants": {
+    "prompt": "drought affected plants",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.805,
+        "flagged_at": 1786482494.9031246
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.805,
+        "flagged_at": 1786482494.9066367
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.805,
+        "flagged_at": 1786482494.9101424
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.805,
+        "flagged_at": 1786482494.9142663
+      }
+    ]
+  },
+  "weather forecast animation": {
+    "prompt": "weather forecast animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786482494.9177835
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786482494.9212844
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786482494.9248126
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786482494.928271
+      }
+    ]
+  },
+  "weather forecast screen": {
+    "prompt": "weather forecast screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786482494.9317677
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786482494.9352922
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786482494.9388127
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786482494.942302
+      }
+    ]
+  },
+  "hidden gem discovery": {
+    "prompt": "hidden gem discovery",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.848,
+        "flagged_at": 1786482494.9740741
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.848,
+        "flagged_at": 1786482494.9775841
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.848,
+        "flagged_at": 1786482494.9811435
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.848,
+        "flagged_at": 1786482494.984715
       }
     ]
   }
