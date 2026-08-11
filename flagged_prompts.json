@@ -2343,5 +2343,116 @@
         "flagged_at": 1786463406.1718686
       }
     ]
+  },
+  "market crowd": {
+    "prompt": "market crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.583,
+        "flagged_at": 1786464991.1028771
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.583,
+        "flagged_at": 1786464991.105354
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.583,
+        "flagged_at": 1786464991.1077387
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.583,
+        "flagged_at": 1786464991.11015
+      }
+    ]
+  },
+  "market night scene": {
+    "prompt": "market night scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.743,
+        "flagged_at": 1786464991.1125364
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.743,
+        "flagged_at": 1786464991.1149266
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.743,
+        "flagged_at": 1786464991.1173468
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.743,
+        "flagged_at": 1786464991.1197512
+      }
+    ]
+  },
+  "food and travel guides": {
+    "prompt": "food and travel guides",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.481,
+        "flagged_at": 1786464991.1221943
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.481,
+        "flagged_at": 1786464991.1245956
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.481,
+        "flagged_at": 1786464991.1270566
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Portugal",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.481,
+        "flagged_at": 1786464991.129503
+      }
+    ]
   }
 }
