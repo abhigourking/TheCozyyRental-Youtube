@@ -93,8 +93,68 @@ jobs:
             echo "SKIP_UPLOAD=false" >> "$GITHUB_ENV"
           fi
 
+      - name: Check for queued videos to catch up
+        # Once SKIP_UPLOAD flips back to false (past RESUME_DATE above),
+        # drain the backlog of videos generated-but-not-uploaded during the
+        # cool-down before resuming normal generation - one queued video
+        # per run, oldest first, so the whole backlog uploads gradually
+        # (naturally spaced by the usual 15-min chain gap below) instead of
+        # all at once. Uses DISPATCH_TOKEN (same token already used to
+        # trigger the next run) to list artifacts via the REST API.
+        id: check_queue
+        if: env.SKIP_UPLOAD == 'false'
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          RESP=$(curl -sf -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/artifacts?per_page=100")
+          ARTIFACT_JSON=$(echo "$RESP" | jq -c '[.artifacts[] | select(.name | startswith("queued-video-")) | select(.expired == false)] | sort_by(.created_at) | .[0]')
+          if [ "$ARTIFACT_JSON" = "null" ] || [ -z "$ARTIFACT_JSON" ]; then
+            echo "No queued videos waiting - resuming normal generation this run."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+            echo "artifact_id=$(echo "$ARTIFACT_JSON" | jq -r '.id')" >> "$GITHUB_OUTPUT"
+            echo "artifact_name=$(echo "$ARTIFACT_JSON" | jq -r '.name')" >> "$GITHUB_OUTPUT"
+            echo "run_id=$(echo "$ARTIFACT_JSON" | jq -r '.workflow_run.id')" >> "$GITHUB_OUTPUT"
+            echo "Found queued video: $(echo "$ARTIFACT_JSON" | jq -r '.name') - uploading it this run instead of generating a new one."
+          fi
+
+      - name: Download queued video artifact
+        if: steps.check_queue.outputs.ready == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.check_queue.outputs.artifact_name }}
+          path: queued_video
+          github-token: ${{ secrets.DISPATCH_TOKEN }}
+          repository: abhigourking/TheCozyyRental-Youtube
+          run-id: ${{ steps.check_queue.outputs.run_id }}
+
+      - name: Upload queued video (catch-up)
+        id: upload_queued
+        if: steps.check_queue.outputs.ready == 'true'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PRIVACY_STATUS: "public"
+        run: python generate_short.py --upload-queued queued_video/latest_short.mp4 queued_video/latest_short_meta.json
+
+      - name: Delete consumed queued artifact
+        if: steps.check_queue.outputs.ready == 'true' && steps.upload_queued.outcome == 'success'
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          curl -sf -X DELETE -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/artifacts/${{ steps.check_queue.outputs.artifact_id }}" \
+          && echo "Consumed artifact deleted." \
+          || echo "::warning::Failed to delete consumed artifact ${{ steps.check_queue.outputs.artifact_id }} - it'll just sit there expired/unused, harmless."
+
       - name: Run pipeline
         id: run_pipeline
+        if: steps.check_queue.outputs.ready != 'true'
         env:
           SKIP_UPLOAD: ${{ env.SKIP_UPLOAD }}
           NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
@@ -114,6 +174,23 @@ jobs:
           USE_TRENDING: "true"        # pull from Reddit trending (niche subs) with safety filtering; falls back to topics.json
           MAX_ATTEMPTS: "1"           # no retry-with-new-topic - each retry re-downloads a full batch of images against a tight free-tier image API limit
         run: python generate_short.py
+
+      - name: Queue generated video as artifact (upload paused)
+        # Nothing generated during the strike cool-down would otherwise
+        # survive past this job - the runner and its filesystem are thrown
+        # away at the end of every run. Packaging the video + the metadata
+        # it would've been uploaded with (see run_once()'s SKIP_UPLOAD
+        # branch) into an artifact means the "Check for queued videos"
+        # step above can find and publish it later, once uploads resume.
+        if: always() && env.SKIP_UPLOAD == 'true' && steps.run_pipeline.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: queued-video-${{ github.run_number }}
+          path: |
+            output/latest_short.mp4
+            output/latest_short_meta.json
+          retention-days: 30
+          if-no-files-found: warn
 
       - name: Commit updated state
         run: |
@@ -188,11 +265,11 @@ jobs:
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          if [ "${{ steps.run_pipeline.outcome }}" = "failure" ]; then
-            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 15 min gap."
+          if [ "${{ steps.run_pipeline.outcome }}" = "failure" ] || [ "${{ steps.upload_queued.outcome }}" = "failure" ]; then
+            echo "Pipeline step (or a queued catch-up upload) failed - short 60s wait before retrying, instead of the full 15 min gap."
             sleep 60
           else
-            sleep 900   # 15 min gap after a successful run, then chain the next
+            sleep 900   # 15 min gap after a successful run - also naturally paces out queued catch-up uploads, one per run
           fi
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \

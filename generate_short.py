@@ -18,6 +18,7 @@ Optional:
 """
 
 import os
+import sys
 import json
 import re
 import random
@@ -1695,6 +1696,11 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
           f"{_NSFW_RUN_STATS['flagged']} flagged.", flush=True)
     record_nsfw_test_entry(topic, category, country=country)
 
+    hashtags = build_hashtags(script["hashtags"])
+    # Log what was actually narrated (not what was requested) so the record
+    # stays accurate when a native voice fell back to English.
+    logged_language = native["name"] if (native and narrating_native) else language
+
     # Set SKIP_UPLOAD=true to render and save locally without touching
     # YouTube at all - useful while you're still dialing in quality/pacing
     # and don't want every test run to actually publish anything. Also used
@@ -1703,21 +1709,53 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     # every run without risking another upload attempt while the channel is
     # restricted.
     if os.environ.get("SKIP_UPLOAD", "false").lower() == "true":
-        print(f"SKIP_UPLOAD is set - not uploading. Saved to {final_path / 'latest_short.mp4'}", flush=True)
+        # Write the metadata this video would have been uploaded with
+        # alongside it, so a later catch-up run (see --upload-queued) has
+        # everything it needs to actually publish it once uploads resume -
+        # the workflow packages latest_short.mp4 + this file together into
+        # a GitHub Actions artifact so nothing generated during the pause
+        # gets thrown away.
+        meta = {
+            "title": script["title"],
+            "description": script["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
+            "tags": hashtags,
+            "topic": topic,
+            "category": category,
+            "country": country,
+            "language": logged_language,
+        }
+        (final_path / "latest_short_meta.json").write_text(json.dumps(meta, indent=2))
+        print(f"SKIP_UPLOAD is set - not uploading. Saved to {final_path / 'latest_short.mp4'} "
+              f"(metadata alongside it for later catch-up upload).", flush=True)
         return
 
     print("Uploading to YouTube...", flush=True)
-    hashtags = build_hashtags(script["hashtags"])
     video_id = upload_to_youtube(
         out_video,
         title=script["title"],
         description=script["description"] + "\n\n" + " ".join(f"#{h}" for h in hashtags),
         tags=hashtags,
     )
-    # Log what was actually narrated (not what was requested) so the record
-    # stays accurate when a native voice fell back to English.
-    logged_language = native["name"] if (native and narrating_native) else language
     record_performance_entry(video_id, category, logged_language, topic, country=country)
+
+
+def upload_queued_video(video_path, meta_path):
+    """Catch-up path used by the workflow once SKIP_UPLOAD flips back off:
+    uploads a video that was generated (and NudeNet-checked) during the
+    strike cool-down but never published, using the metadata saved
+    alongside it at generation time. Mirrors the tail end of run_once()'s
+    normal upload path so it shows up in performance_log.json exactly like
+    a live-generated video would."""
+    meta = json.loads(Path(meta_path).read_text())
+    print(f"Uploading queued video: {meta['title']!r} (topic: {meta['topic']!r})", flush=True)
+    video_id = upload_to_youtube(
+        Path(video_path),
+        title=meta["title"],
+        description=meta["description"],
+        tags=meta["tags"],
+    )
+    record_performance_entry(video_id, meta["category"], meta["language"], meta["topic"], country=meta.get("country"))
+    print(f"Queued video uploaded: {video_id}", flush=True)
 
 
 def main():
@@ -1777,4 +1815,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # `python generate_short.py --upload-queued <video.mp4> <meta.json>` -
+    # catch-up path the workflow uses to drain the backlog of videos
+    # generated (and NudeNet-checked) during the SKIP_UPLOAD strike
+    # cool-down, one per run, once uploads resume. Separate from the normal
+    # `python generate_short.py` entry point below so a catch-up run never
+    # also tries to generate a brand new video in the same job.
+    if len(sys.argv) > 1 and sys.argv[1] == "--upload-queued":
+        upload_queued_video(sys.argv[2], sys.argv[3])
+    else:
+        main()
