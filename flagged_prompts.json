@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 136,
+    "times_flagged": 144,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786476126.0626771
+        "flagged_at": 1786477581.6504495
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786476126.1025054
+        "flagged_at": 1786477581.666347
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786476126.1055453
+        "flagged_at": 1786477581.6701763
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786476126.1085966
+        "flagged_at": 1786477581.6733856
       },
       {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Mexico",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786476126.1116273
+        "flagged_at": 1786477581.676548
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 92,
+    "times_flagged": 96,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786474683.1079926
-      },
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786476126.090362
-      },
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786476126.0934045
-      },
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786476126.0964417
-      },
       {
         "topic": "A viral travel spot in Mexico that's all over social media right now",
         "category": "travel",
         "country": "Mexico",
         "confidence": 0.701,
         "flagged_at": 1786476126.099505
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786477581.6797383
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786477581.6829438
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786477581.6861222
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786477581.689315
       }
     ]
   },
@@ -3118,6 +3118,117 @@
         "country": "Mexico",
         "confidence": 0.792,
         "flagged_at": 1786476126.0873358
+      }
+    ]
+  },
+  "tourists in iceland": {
+    "prompt": "tourists in Iceland",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.598,
+        "flagged_at": 1786477581.6156592
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.598,
+        "flagged_at": 1786477581.6189086
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.598,
+        "flagged_at": 1786477581.6220121
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.598,
+        "flagged_at": 1786477581.625111
+      }
+    ]
+  },
+  "travel brochures": {
+    "prompt": "travel brochures",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.683,
+        "flagged_at": 1786477581.6282048
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.683,
+        "flagged_at": 1786477581.6313622
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.683,
+        "flagged_at": 1786477581.6344883
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.683,
+        "flagged_at": 1786477581.6376145
+      }
+    ]
+  },
+  "construction site": {
+    "prompt": "construction site",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.827,
+        "flagged_at": 1786477581.6536145
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.827,
+        "flagged_at": 1786477581.656783
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.827,
+        "flagged_at": 1786477581.6599782
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.827,
+        "flagged_at": 1786477581.6631546
       }
     ]
   }
