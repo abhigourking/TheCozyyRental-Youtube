@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 16,
+    "times_flagged": 24,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786433642.0386622
+        "flagged_at": 1786435362.9297304
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786433642.039044
+        "flagged_at": 1786435362.9300642
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786433642.0394773
+        "flagged_at": 1786435362.930398
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786433642.0398607
+        "flagged_at": 1786435362.930732
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786433642.0402424
+        "flagged_at": 1786435362.931064
       }
     ]
   },
@@ -225,6 +225,154 @@
         "country": "Portugal",
         "confidence": 0.809,
         "flagged_at": 1786433642.0369742
+      }
+    ]
+  },
+  "local festival": {
+    "prompt": "local festival",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.784,
+        "flagged_at": 1786435362.6218367
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.784,
+        "flagged_at": 1786435362.6221724
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.784,
+        "flagged_at": 1786435362.6768785
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.784,
+        "flagged_at": 1786435362.7308576
+      }
+    ]
+  },
+  "locals smiling": {
+    "prompt": "locals smiling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.815,
+        "flagged_at": 1786435362.734861
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.815,
+        "flagged_at": 1786435362.8884645
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.815,
+        "flagged_at": 1786435362.9013002
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.815,
+        "flagged_at": 1786435362.9036374
+      }
+    ]
+  },
+  "comment section": {
+    "prompt": "comment section",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.823,
+        "flagged_at": 1786435362.903966
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.823,
+        "flagged_at": 1786435362.904281
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.823,
+        "flagged_at": 1786435362.9045858
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.823,
+        "flagged_at": 1786435362.9274962
+      }
+    ]
+  },
+  "thumbs up": {
+    "prompt": "thumbs up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.83,
+        "flagged_at": 1786435363.1281683
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.83,
+        "flagged_at": 1786435363.1313925
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.83,
+        "flagged_at": 1786435363.1318214
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.83,
+        "flagged_at": 1786435363.1322367
       }
     ]
   }
