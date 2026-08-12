@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 304,
+    "times_flagged": 308,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786542061.8124464
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786545116.2773528
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786545116.2848306
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786545116.2923973
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Brazil",
         "category": "travel",
         "country": "Brazil",
         "confidence": 0.357,
         "flagged_at": 1786545116.2999158
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786546604.9090433
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786546604.9166005
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786546604.9241574
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786546604.931749
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 244,
+    "times_flagged": 252,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786543627.0262415
+        "flagged_at": 1786546604.8412411
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786543627.0617537
+        "flagged_at": 1786546604.8788047
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786543627.0688493
+        "flagged_at": 1786546604.8863597
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786543627.0759783
+        "flagged_at": 1786546604.8938909
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786543627.0831451
+        "flagged_at": 1786546604.9015024
       }
     ]
   },
@@ -7743,6 +7743,191 @@
         "country": "Brazil",
         "confidence": 0.506,
         "flagged_at": 1786545116.2697918
+      }
+    ]
+  },
+  "picar\u00f3n dessert": {
+    "prompt": "picar\u00f3n dessert",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1786546604.6994467
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1786546604.7073467
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1786546604.7148645
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1786546604.7223873
+      }
+    ]
+  },
+  "peruvian sweets": {
+    "prompt": "peruvian sweets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.812,
+        "flagged_at": 1786546604.729784
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.812,
+        "flagged_at": 1786546604.737157
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.812,
+        "flagged_at": 1786546604.744526
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.812,
+        "flagged_at": 1786546604.751925
+      }
+    ]
+  },
+  "street food dessert": {
+    "prompt": "street food dessert",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.822,
+        "flagged_at": 1786546604.759341
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.822,
+        "flagged_at": 1786546604.7667422
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.822,
+        "flagged_at": 1786546604.7741897
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.822,
+        "flagged_at": 1786546604.781608
+      }
+    ]
+  },
+  "comment section on phone": {
+    "prompt": "comment section on phone",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1786546604.7890363
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1786546604.7965035
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1786546604.8039663
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1786546604.8114402
+      }
+    ]
+  },
+  "street food lovers": {
+    "prompt": "street food lovers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.819,
+        "flagged_at": 1786546604.8487322
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.819,
+        "flagged_at": 1786546604.8562052
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.819,
+        "flagged_at": 1786546604.8637366
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.819,
+        "flagged_at": 1786546604.8712547
       }
     ]
   }
