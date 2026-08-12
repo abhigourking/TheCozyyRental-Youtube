@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 236,
+    "times_flagged": 244,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in South Korea",
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786529558.725325
+        "flagged_at": 1786543627.0262415
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786532509.9760919
+        "flagged_at": 1786543627.0617537
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786532509.9824984
+        "flagged_at": 1786543627.0688493
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786532509.9889276
+        "flagged_at": 1786543627.0759783
       },
       {
-        "topic": "A unique regional specialty from Thailand most outsiders have never heard of",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786532509.9954143
+        "flagged_at": 1786543627.0831451
       }
     ]
   },
@@ -7595,6 +7595,80 @@
         "country": "Portugal",
         "confidence": 0.807,
         "flagged_at": 1786542061.7836003
+      }
+    ]
+  },
+  "ancient mayan astronomy": {
+    "prompt": "ancient mayan astronomy",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.78,
+        "flagged_at": 1786543626.9759083
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.78,
+        "flagged_at": 1786543626.9834106
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.78,
+        "flagged_at": 1786543626.9905238
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.78,
+        "flagged_at": 1786543626.9976108
+      }
+    ]
+  },
+  "mexican flag waving": {
+    "prompt": "mexican flag waving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.787,
+        "flagged_at": 1786543627.0333898
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.787,
+        "flagged_at": 1786543627.0404885
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.787,
+        "flagged_at": 1786543627.0475645
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.787,
+        "flagged_at": 1786543627.0546665
       }
     ]
   }
