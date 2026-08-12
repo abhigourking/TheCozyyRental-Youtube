@@ -8980,6 +8980,42 @@
         }
       ],
       "ran_at": 1786560519.709963
+    },
+    {
+      "run_number": "946",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31630777515",
+      "topic": "A popular food market or food street worth visiting in Japan",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.617,
+          "prompt": "mochi making process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.617,
+          "prompt": "mochi making process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.617,
+          "prompt": "mochi making process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.617,
+          "prompt": "mochi making process"
+        }
+      ],
+      "ran_at": 1786562106.0289946
     }
   ]
 }

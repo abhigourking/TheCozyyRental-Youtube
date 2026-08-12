@@ -8522,5 +8522,42 @@
         "flagged_at": 1786560519.8713322
       }
     ]
+  },
+  "mochi making process": {
+    "prompt": "mochi making process",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.617,
+        "flagged_at": 1786562106.037954
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.617,
+        "flagged_at": 1786562106.0464413
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.617,
+        "flagged_at": 1786562106.0544262
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.617,
+        "flagged_at": 1786562106.0626106
+      }
+    ]
   }
 }
