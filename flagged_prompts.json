@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 184,
+    "times_flagged": 188,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786512634.1411824
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786512634.1883585
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786512634.193612
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786512634.1988559
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786512634.2041016
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786514248.8964581
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786514248.9018989
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786514248.9073846
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786514248.9128392
       }
     ]
   },
@@ -5560,6 +5560,117 @@
         "country": "Spain",
         "confidence": 0.781,
         "flagged_at": 1786512634.1621559
+      }
+    ]
+  },
+  "syrup being poured on hotteok": {
+    "prompt": "syrup being poured on hotteok",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786514248.8314486
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786514248.8371136
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786514248.842445
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786514248.847789
+      }
+    ]
+  },
+  "honey and cinnamon mixture": {
+    "prompt": "honey and cinnamon mixture",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.315,
+        "flagged_at": 1786514248.8531883
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.315,
+        "flagged_at": 1786514248.8585494
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.315,
+        "flagged_at": 1786514248.8639338
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.315,
+        "flagged_at": 1786514248.8693364
+      }
+    ]
+  },
+  "hotteok street food vendor": {
+    "prompt": "hotteok street food vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.786,
+        "flagged_at": 1786514248.874742
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.786,
+        "flagged_at": 1786514248.8801627
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.786,
+        "flagged_at": 1786514248.885581
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.786,
+        "flagged_at": 1786514248.8910148
       }
     ]
   }
