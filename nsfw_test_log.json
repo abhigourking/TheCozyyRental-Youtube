@@ -7288,6 +7288,42 @@
         }
       ],
       "ran_at": 1786532509.8915803
+    },
+    {
+      "run_number": "926",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31591140775",
+      "topic": "The most breathtaking place to visit in Turkey",
+      "category": "travel",
+      "country": "Turkey",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.415,
+          "prompt": "question mark animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.415,
+          "prompt": "question mark animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.415,
+          "prompt": "question mark animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.415,
+          "prompt": "question mark animation"
+        }
+      ],
+      "ran_at": 1786533917.8995264
     }
   ]
 }

@@ -6894,5 +6894,42 @@
         "flagged_at": 1786532510.0213
       }
     ]
+  },
+  "question mark animation": {
+    "prompt": "question mark animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.415,
+        "flagged_at": 1786533917.905521
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.415,
+        "flagged_at": 1786533917.9108422
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.415,
+        "flagged_at": 1786533917.9158108
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.415,
+        "flagged_at": 1786533917.9416375
+      }
+    ]
   }
 }
