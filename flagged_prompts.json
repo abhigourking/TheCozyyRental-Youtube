@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 196,
+    "times_flagged": 204,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Morocco",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786503249.8569252
+        "flagged_at": 1786506473.4031143
       },
       {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "France",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786504874.7132676
+        "flagged_at": 1786506473.549403
       },
       {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "France",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786504874.7180438
+        "flagged_at": 1786506473.5545547
       },
       {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "France",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786504874.7227259
+        "flagged_at": 1786506473.559703
       },
       {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "France",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786504874.7274766
+        "flagged_at": 1786506473.5648491
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 168,
+    "times_flagged": 172,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786501695.8932362
-      },
-      {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786504874.6752446
-      },
-      {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786504874.6799674
-      },
-      {
-        "topic": "A unique regional specialty from France most outsiders have never heard of",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786504874.6849713
-      },
       {
         "topic": "A unique regional specialty from France most outsiders have never heard of",
         "category": "food",
         "country": "France",
         "confidence": 0.701,
         "flagged_at": 1786504874.68968
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786506473.427742
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786506473.4326782
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786506473.4376135
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786506473.4425862
       }
     ]
   },
@@ -5079,6 +5079,302 @@
         "country": "France",
         "confidence": 0.488,
         "flagged_at": 1786504874.7085073
+      }
+    ]
+  },
+  "street food stalls india": {
+    "prompt": "street food stalls india",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.743,
+        "flagged_at": 1786506473.3489065
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.743,
+        "flagged_at": 1786506473.354023
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.743,
+        "flagged_at": 1786506473.358914
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.743,
+        "flagged_at": 1786506473.3638067
+      }
+    ]
+  },
+  "pani puri mumbai streets": {
+    "prompt": "pani puri mumbai streets",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786506473.3686616
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786506473.3736382
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786506473.3785338
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786506473.3834453
+      }
+    ]
+  },
+  "indian street food snacks": {
+    "prompt": "indian street food snacks",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.815,
+        "flagged_at": 1786506473.4080296
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.815,
+        "flagged_at": 1786506473.4129636
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.815,
+        "flagged_at": 1786506473.4179134
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.815,
+        "flagged_at": 1786506473.4228234
+      }
+    ]
+  },
+  "chaat items in mumbai": {
+    "prompt": "chaat items in mumbai",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786506473.4475272
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786506473.4525192
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786506473.457488
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786506473.46275
+      }
+    ]
+  },
+  "street food snacks india": {
+    "prompt": "street food snacks india",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.738,
+        "flagged_at": 1786506473.4677808
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.738,
+        "flagged_at": 1786506473.4727957
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.738,
+        "flagged_at": 1786506473.477818
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.738,
+        "flagged_at": 1786506473.4828758
+      }
+    ]
+  },
+  "mumbai street food variety": {
+    "prompt": "mumbai street food variety",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.801,
+        "flagged_at": 1786506473.4878953
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.801,
+        "flagged_at": 1786506473.4929316
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.801,
+        "flagged_at": 1786506473.4980013
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.801,
+        "flagged_at": 1786506473.5030713
+      }
+    ]
+  },
+  "mumbai street food night": {
+    "prompt": "mumbai street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.67,
+        "flagged_at": 1786506473.5081127
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.67,
+        "flagged_at": 1786506473.5132244
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.67,
+        "flagged_at": 1786506473.5183382
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.67,
+        "flagged_at": 1786506473.523457
+      }
+    ]
+  },
+  "people eating street food": {
+    "prompt": "people eating street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.607,
+        "flagged_at": 1786506473.5285869
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.607,
+        "flagged_at": 1786506473.5337226
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.607,
+        "flagged_at": 1786506473.538863
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.607,
+        "flagged_at": 1786506473.5442357
       }
     ]
   }
