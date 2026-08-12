@@ -8041,5 +8041,42 @@
         "flagged_at": 1786549818.0574334
       }
     ]
+  },
+  "wine pouring into glass": {
+    "prompt": "wine pouring into glass",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.766,
+        "flagged_at": 1786551411.8944247
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.766,
+        "flagged_at": 1786551411.900709
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.766,
+        "flagged_at": 1786551411.90654
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.766,
+        "flagged_at": 1786551411.9123268
+      }
+    ]
   }
 }

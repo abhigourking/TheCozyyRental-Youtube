@@ -8392,6 +8392,42 @@
         }
       ],
       "ran_at": 1786549817.9959548
+    },
+    {
+      "run_number": "938",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31615817823",
+      "topic": "A viral travel spot in Spain that's all over social media right now",
+      "category": "travel",
+      "country": "Spain",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "wine pouring into glass"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "wine pouring into glass"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "wine pouring into glass"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "wine pouring into glass"
+        }
+      ],
+      "ran_at": 1786551411.886608
     }
   ]
 }
