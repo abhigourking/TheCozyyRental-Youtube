@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 300,
+    "times_flagged": 304,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from India that's become an internet obsession",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786540455.2418988
-      },
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786542061.7908497
-      },
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786542061.7980406
-      },
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786542061.8052614
-      },
       {
         "topic": "A hidden gem destination in Portugal most tourists don't know about",
         "category": "travel",
         "country": "Portugal",
         "confidence": 0.357,
         "flagged_at": 1786542061.8124464
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786545116.2773528
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786545116.2848306
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786545116.2923973
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786545116.2999158
       }
     ]
   },
@@ -7669,6 +7669,80 @@
         "country": "Mexico",
         "confidence": 0.787,
         "flagged_at": 1786543627.0546665
+      }
+    ]
+  },
+  "soapstone quarry mining": {
+    "prompt": "soapstone quarry mining",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.665,
+        "flagged_at": 1786545116.2167523
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.665,
+        "flagged_at": 1786545116.22463
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.665,
+        "flagged_at": 1786545116.2321289
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.665,
+        "flagged_at": 1786545116.2396262
+      }
+    ]
+  },
+  "christ the redeemer interior": {
+    "prompt": "Christ the Redeemer interior",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.506,
+        "flagged_at": 1786545116.2472398
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.506,
+        "flagged_at": 1786545116.2547662
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.506,
+        "flagged_at": 1786545116.2622902
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.506,
+        "flagged_at": 1786545116.2697918
       }
     ]
   }
