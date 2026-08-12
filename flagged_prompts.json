@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 192,
+    "times_flagged": 196,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786501695.8042092
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786503249.842596
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786503249.8473547
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786503249.8521268
-      },
       {
         "topic": "A popular food market or food street worth visiting in Morocco",
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
         "flagged_at": 1786503249.8569252
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786504874.7132676
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786504874.7180438
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786504874.7227259
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786504874.7274766
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 164,
+    "times_flagged": 168,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786501695.8753126
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786501695.879786
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786501695.8842824
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786501695.8887765
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
         "flagged_at": 1786501695.8932362
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786504874.6752446
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786504874.6799674
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786504874.6849713
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786504874.68968
       }
     ]
   },
@@ -5005,6 +5005,80 @@
         "country": "Morocco",
         "confidence": 0.494,
         "flagged_at": 1786503249.8953216
+      }
+    ]
+  },
+  "person taking a bite of aligot": {
+    "prompt": "person taking a bite of Aligot",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.767,
+        "flagged_at": 1786504874.655875
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.767,
+        "flagged_at": 1786504874.660933
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.767,
+        "flagged_at": 1786504874.6658049
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.767,
+        "flagged_at": 1786504874.670519
+      }
+    ]
+  },
+  "person enjoying aligot at a cafe": {
+    "prompt": "person enjoying Aligot at a cafe",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.488,
+        "flagged_at": 1786504874.6944153
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.488,
+        "flagged_at": 1786504874.6990912
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.488,
+        "flagged_at": 1786504874.7038178
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.488,
+        "flagged_at": 1786504874.7085073
       }
     ]
   }
