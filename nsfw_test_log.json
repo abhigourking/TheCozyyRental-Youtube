@@ -6658,6 +6658,66 @@
         }
       ],
       "ran_at": 1786523248.124172
+    },
+    {
+      "run_number": "919",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31579555867",
+      "topic": "The most viral street food trend in Brazil right now",
+      "category": "food",
+      "country": "Brazil",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "brazilian food bloggers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "brazilian food bloggers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "brazilian food bloggers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "brazilian food bloggers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "social media comments screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "social media comments screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "social media comments screen"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "social media comments screen"
+        }
+      ],
+      "ran_at": 1786524849.2524607
     }
   ]
 }

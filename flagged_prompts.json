@@ -6302,5 +6302,79 @@
         "flagged_at": 1786523248.1758423
       }
     ]
+  },
+  "brazilian food bloggers": {
+    "prompt": "brazilian food bloggers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.761,
+        "flagged_at": 1786524849.259767
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.761,
+        "flagged_at": 1786524849.2661376
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.761,
+        "flagged_at": 1786524849.2722466
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.761,
+        "flagged_at": 1786524849.2782853
+      }
+    ]
+  },
+  "social media comments screen": {
+    "prompt": "social media comments screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.781,
+        "flagged_at": 1786524849.2842364
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.781,
+        "flagged_at": 1786524849.2902248
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.781,
+        "flagged_at": 1786524849.2962162
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.781,
+        "flagged_at": 1786524849.3022206
+      }
+    ]
   }
 }
