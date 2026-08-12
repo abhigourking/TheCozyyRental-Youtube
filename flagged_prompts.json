@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 260,
+    "times_flagged": 264,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786520183.064759
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786520183.0941985
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786520183.1001484
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786520183.1061597
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
         "flagged_at": 1786520183.112054
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786521701.8798842
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786521701.885633
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786521701.8913908
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786521701.8971696
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 200,
+    "times_flagged": 212,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
+        "topic": "A comfort food from Mexico that's become an internet obsession",
         "category": "food",
-        "country": "Argentina",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786517173.7259927
+        "flagged_at": 1786521701.9207885
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786518689.528305
+        "flagged_at": 1786521701.949887
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786518689.532664
+        "flagged_at": 1786521701.9557319
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786518689.5368607
+        "flagged_at": 1786521701.9616075
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786518689.5411055
+        "flagged_at": 1786521701.9674795
       }
     ]
   },
@@ -6115,6 +6115,117 @@
         "country": "Greece",
         "confidence": 0.704,
         "flagged_at": 1786520183.088209
+      }
+    ]
+  },
+  "social media feed": {
+    "prompt": "social media feed",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.725,
+        "flagged_at": 1786521701.8100142
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.725,
+        "flagged_at": 1786521701.8161461
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.725,
+        "flagged_at": 1786521701.8220518
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.725,
+        "flagged_at": 1786521701.8278716
+      }
+    ]
+  },
+  "meat market": {
+    "prompt": "meat market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1786521701.83367
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1786521701.8394294
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1786521701.8452654
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1786521701.85102
+      }
+    ]
+  },
+  "food blog screenshot": {
+    "prompt": "food blog screenshot",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.724,
+        "flagged_at": 1786521701.9266255
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.724,
+        "flagged_at": 1786521701.9324715
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.724,
+        "flagged_at": 1786521701.9382827
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.724,
+        "flagged_at": 1786521701.9440627
       }
     ]
   }
