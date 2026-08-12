@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 324,
+    "times_flagged": 328,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786552555.7356308
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786555864.7948897
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786555864.803993
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786555864.8131003
-      },
       {
         "topic": "A bucket-list experience you can only have in Argentina",
         "category": "travel",
         "country": "Argentina",
         "confidence": 0.357,
         "flagged_at": 1786555864.8224359
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786557356.3342357
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786557356.3422043
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786557356.350586
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786557356.3587246
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 256,
+    "times_flagged": 264,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786546604.9015024
+        "flagged_at": 1786557356.2939227
       },
       {
-        "topic": "A bucket-list experience you can only have in Argentina",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Argentina",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786555864.656436
+        "flagged_at": 1786557356.3987231
       },
       {
-        "topic": "A bucket-list experience you can only have in Argentina",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Argentina",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786555864.6650388
+        "flagged_at": 1786557356.4067247
       },
       {
-        "topic": "A bucket-list experience you can only have in Argentina",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Argentina",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786555864.6734695
+        "flagged_at": 1786557356.4149659
       },
       {
-        "topic": "A bucket-list experience you can only have in Argentina",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Argentina",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786555864.681864
+        "flagged_at": 1786557356.4228725
       }
     ]
   },
@@ -8261,6 +8261,80 @@
         "country": "Argentina",
         "confidence": 0.337,
         "flagged_at": 1786555864.7858672
+      }
+    ]
+  },
+  "phuket night market food": {
+    "prompt": "Phuket night market food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.798,
+        "flagged_at": 1786557356.302009
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.798,
+        "flagged_at": 1786557356.3100402
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.798,
+        "flagged_at": 1786557356.318235
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.798,
+        "flagged_at": 1786557356.3261762
+      }
+    ]
+  },
+  "thai flag waving": {
+    "prompt": "Thai flag waving",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.778,
+        "flagged_at": 1786557356.3667736
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.778,
+        "flagged_at": 1786557356.3747044
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.778,
+        "flagged_at": 1786557356.3826957
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.778,
+        "flagged_at": 1786557356.3907359
       }
     ]
   }
