@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 220,
+    "times_flagged": 228,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786509636.3229148
+        "flagged_at": 1786512634.1830707
       },
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786509636.3282454
+        "flagged_at": 1786512634.209343
       },
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786509636.333527
+        "flagged_at": 1786512634.2145805
       },
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786509636.3388453
+        "flagged_at": 1786512634.219868
       },
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786509636.344137
+        "flagged_at": 1786512634.225148
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 176,
+    "times_flagged": 184,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786506473.4425862
+        "flagged_at": 1786512634.1411824
       },
       {
-        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
-        "category": "food",
-        "country": "Vietnam",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786511167.8326275
+        "flagged_at": 1786512634.1883585
       },
       {
-        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
-        "category": "food",
-        "country": "Vietnam",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786511167.8369534
+        "flagged_at": 1786512634.193612
       },
       {
-        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
-        "category": "food",
-        "country": "Vietnam",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786511167.8409667
+        "flagged_at": 1786512634.1988559
       },
       {
-        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
-        "category": "food",
-        "country": "Vietnam",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786511167.8449771
+        "flagged_at": 1786512634.2041016
       }
     ]
   },
@@ -5523,6 +5523,43 @@
         "country": "Thailand",
         "confidence": 0.453,
         "flagged_at": 1786509636.3017054
+      }
+    ]
+  },
+  "street performer night": {
+    "prompt": "street performer night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.781,
+        "flagged_at": 1786512634.1463933
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.781,
+        "flagged_at": 1786512634.151613
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.781,
+        "flagged_at": 1786512634.1568875
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.781,
+        "flagged_at": 1786512634.1621559
       }
     ]
   }
