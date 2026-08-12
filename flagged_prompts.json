@@ -9743,5 +9743,42 @@
         "flagged_at": 1786576554.9353416
       }
     ]
+  },
+  "happy couple eating galette": {
+    "prompt": "happy couple eating galette",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.363,
+        "flagged_at": 1786578138.89181
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.363,
+        "flagged_at": 1786578138.901286
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.363,
+        "flagged_at": 1786578138.9103677
+      },
+      {
+        "topic": "A unique regional specialty from France most outsiders have never heard of",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.363,
+        "flagged_at": 1786578138.9194546
+      }
+    ]
   }
 }

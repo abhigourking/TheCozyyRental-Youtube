@@ -10132,6 +10132,42 @@
         }
       ],
       "ran_at": 1786576554.8992946
+    },
+    {
+      "run_number": "958",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31651172726",
+      "topic": "A unique regional specialty from France most outsiders have never heard of",
+      "category": "food",
+      "country": "France",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.363,
+          "prompt": "happy couple eating galette"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.363,
+          "prompt": "happy couple eating galette"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.363,
+          "prompt": "happy couple eating galette"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.363,
+          "prompt": "happy couple eating galette"
+        }
+      ],
+      "ran_at": 1786578138.8816812
     }
   ]
 }
