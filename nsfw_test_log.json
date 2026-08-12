@@ -4540,6 +4540,90 @@
         }
       ],
       "ran_at": 1786496876.6873724
+    },
+    {
+      "run_number": "899",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31553410549",
+      "topic": "A popular food market or food street worth visiting in Greece",
+      "category": "food",
+      "country": "Greece",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "athens cityscape dusk"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "athens cityscape dusk"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "athens cityscape dusk"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "athens cityscape dusk"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "fresh seafood close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "fresh seafood close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "fresh seafood close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "fresh seafood close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "flea market sweets display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "flea market sweets display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "flea market sweets display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "flea market sweets display"
+        }
+      ],
+      "ran_at": 1786498447.2981365
     }
   ]
 }
