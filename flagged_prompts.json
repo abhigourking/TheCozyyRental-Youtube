@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 232,
+    "times_flagged": 240,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786512634.225148
+        "flagged_at": 1786517173.6381056
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786515750.1965463
+        "flagged_at": 1786517173.6655414
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786515750.2007136
+        "flagged_at": 1786517173.6710086
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786515750.204882
+        "flagged_at": 1786517173.676555
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786515750.209133
+        "flagged_at": 1786517173.6820045
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 188,
+    "times_flagged": 196,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786512634.2041016
+        "flagged_at": 1786517173.704049
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in Argentina",
         "category": "food",
-        "country": "South Korea",
+        "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786514248.8964581
+        "flagged_at": 1786517173.7095058
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in Argentina",
         "category": "food",
-        "country": "South Korea",
+        "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786514248.9018989
+        "flagged_at": 1786517173.7150116
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in Argentina",
         "category": "food",
-        "country": "South Korea",
+        "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786514248.9073846
+        "flagged_at": 1786517173.7205381
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in Argentina",
         "category": "food",
-        "country": "South Korea",
+        "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786514248.9128392
+        "flagged_at": 1786517173.7259927
       }
     ]
   },
@@ -5708,6 +5708,154 @@
         "country": "Morocco",
         "confidence": 0.834,
         "flagged_at": 1786515750.1923814
+      }
+    ]
+  },
+  "buenos aires street life": {
+    "prompt": "buenos aires street life",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.847,
+        "flagged_at": 1786517173.5566454
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.847,
+        "flagged_at": 1786517173.5622637
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.847,
+        "flagged_at": 1786517173.567646
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.847,
+        "flagged_at": 1786517173.5729785
+      }
+    ]
+  },
+  "city traffic moving": {
+    "prompt": "city traffic moving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.754,
+        "flagged_at": 1786517173.578312
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.754,
+        "flagged_at": 1786517173.5836732
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.754,
+        "flagged_at": 1786517173.5890422
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.754,
+        "flagged_at": 1786517173.594433
+      }
+    ]
+  },
+  "antique shops nearby": {
+    "prompt": "antique shops nearby",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.45,
+        "flagged_at": 1786517173.5998242
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.45,
+        "flagged_at": 1786517173.6052442
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.45,
+        "flagged_at": 1786517173.610655
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.45,
+        "flagged_at": 1786517173.61606
+      }
+    ]
+  },
+  "street performers entertaining": {
+    "prompt": "street performers entertaining",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.737,
+        "flagged_at": 1786517173.64357
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.737,
+        "flagged_at": 1786517173.649047
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.737,
+        "flagged_at": 1786517173.654544
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.737,
+        "flagged_at": 1786517173.6600206
       }
     ]
   }

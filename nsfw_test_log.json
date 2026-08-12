@@ -5932,6 +5932,168 @@
         }
       ],
       "ran_at": 1786515750.17475
+    },
+    {
+      "run_number": "913",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31570709345",
+      "topic": "A popular food market or food street worth visiting in Argentina",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 43,
+      "images_flagged": 32,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "buenos aires street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "buenos aires street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "buenos aires street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "buenos aires street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "city traffic moving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "city traffic moving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "city traffic moving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "city traffic moving"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.45,
+          "prompt": "antique shops nearby"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.45,
+          "prompt": "antique shops nearby"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.45,
+          "prompt": "antique shops nearby"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.45,
+          "prompt": "antique shops nearby"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "street performers entertaining"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "street performers entertaining"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "street performers entertaining"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "street performers entertaining"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786517173.5504322
     }
   ]
 }
