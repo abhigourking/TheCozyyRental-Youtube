@@ -7967,5 +7967,79 @@
         "flagged_at": 1786548329.857173
       }
     ]
+  },
+  "traditional greek sweets": {
+    "prompt": "traditional Greek sweets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.757,
+        "flagged_at": 1786549818.004807
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.757,
+        "flagged_at": 1786549818.012645
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.757,
+        "flagged_at": 1786549818.0200093
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.757,
+        "flagged_at": 1786549818.027413
+      }
+    ]
+  },
+  "greek street food": {
+    "prompt": "Greek street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.48,
+        "flagged_at": 1786549818.0348449
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.48,
+        "flagged_at": 1786549818.0423589
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.48,
+        "flagged_at": 1786549818.0498514
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.48,
+        "flagged_at": 1786549818.0574334
+      }
+    ]
   }
 }

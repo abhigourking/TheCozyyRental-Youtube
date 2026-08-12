@@ -8332,6 +8332,66 @@
         }
       ],
       "ran_at": 1786548329.8264537
+    },
+    {
+      "run_number": "937",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31613586340",
+      "topic": "A bucket-list experience you can only have in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "traditional Greek sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "traditional Greek sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "traditional Greek sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "traditional Greek sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.48,
+          "prompt": "Greek street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.48,
+          "prompt": "Greek street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.48,
+          "prompt": "Greek street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.48,
+          "prompt": "Greek street food"
+        }
+      ],
+      "ran_at": 1786549817.9959548
     }
   ]
 }
