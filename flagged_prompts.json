@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 284,
+    "times_flagged": 288,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786570094.7409236
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786570094.7502637
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786570094.7595143
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786570094.7686718
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
         "flagged_at": 1786570094.7779007
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786571772.2803934
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786571772.2885988
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786571772.296813
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786571772.305203
       }
     ]
   },
@@ -9297,6 +9297,117 @@
         "country": "Argentina",
         "confidence": 0.364,
         "flagged_at": 1786570094.7044368
+      }
+    ]
+  },
+  "social media followers growing": {
+    "prompt": "social media followers growing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.824,
+        "flagged_at": 1786571772.1785533
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.824,
+        "flagged_at": 1786571772.1868894
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.824,
+        "flagged_at": 1786571772.1951792
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.824,
+        "flagged_at": 1786571772.2034535
+      }
+    ]
+  },
+  "foodie traveling the world": {
+    "prompt": "foodie traveling the world",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.82,
+        "flagged_at": 1786571772.2116833
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.82,
+        "flagged_at": 1786571772.2199178
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.82,
+        "flagged_at": 1786571772.2303145
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.82,
+        "flagged_at": 1786571772.2389576
+      }
+    ]
+  },
+  "new recipe being discovered": {
+    "prompt": "new recipe being discovered",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786571772.2474015
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786571772.2556005
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786571772.263904
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786571772.2721803
       }
     ]
   }
