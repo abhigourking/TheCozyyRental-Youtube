@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 204,
+    "times_flagged": 212,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786506473.4031143
+        "flagged_at": 1786508184.7791665
       },
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786506473.549403
+        "flagged_at": 1786508184.805112
       },
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786506473.5545547
+        "flagged_at": 1786508184.8102987
       },
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786506473.559703
+        "flagged_at": 1786508184.8155074
       },
       {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786506473.5648491
+        "flagged_at": 1786508184.8207088
       }
     ]
   },
@@ -5375,6 +5375,117 @@
         "country": "India",
         "confidence": 0.607,
         "flagged_at": 1786506473.5442357
+      }
+    ]
+  },
+  "vibrant market scenes": {
+    "prompt": "vibrant market scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.813,
+        "flagged_at": 1786508184.7220237
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.813,
+        "flagged_at": 1786508184.7274334
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.813,
+        "flagged_at": 1786508184.7326055
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.813,
+        "flagged_at": 1786508184.7378128
+      }
+    ]
+  },
+  "marrakech medina streets": {
+    "prompt": "marrakech medina streets",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.496,
+        "flagged_at": 1786508184.7430549
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.496,
+        "flagged_at": 1786508184.7481654
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.496,
+        "flagged_at": 1786508184.7533405
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.496,
+        "flagged_at": 1786508184.758479
+      }
+    ]
+  },
+  "moroccan tea ceremony": {
+    "prompt": "moroccan tea ceremony",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.461,
+        "flagged_at": 1786508184.7843244
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.461,
+        "flagged_at": 1786508184.7895074
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.461,
+        "flagged_at": 1786508184.7946851
+      },
+      {
+        "topic": "The most breathtaking place to visit in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.461,
+        "flagged_at": 1786508184.7998931
       }
     ]
   }
