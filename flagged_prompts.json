@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 348,
+    "times_flagged": 352,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786566859.7538147
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786566859.7949755
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786566859.803225
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786566859.811465
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
         "flagged_at": 1786566859.8197865
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786568501.5020323
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786568501.5102582
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786568501.5185072
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786568501.5267065
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 268,
+    "times_flagged": 276,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Thailand",
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
         "category": "travel",
-        "country": "Thailand",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786557356.4228725
+        "flagged_at": 1786568501.429205
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786566859.8948116
+        "flagged_at": 1786568501.469263
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786566859.9031198
+        "flagged_at": 1786568501.4773962
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786566859.911459
+        "flagged_at": 1786568501.485516
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786566859.9345722
+        "flagged_at": 1786568501.4936817
       }
     ]
   },
@@ -9001,6 +9001,154 @@
         "country": "South Korea",
         "confidence": 0.691,
         "flagged_at": 1786566859.968514
+      }
+    ]
+  },
+  "market scene": {
+    "prompt": "market scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.3086987
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.3170059
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.3251426
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.3331485
+      }
+    ]
+  },
+  "traditional clothing": {
+    "prompt": "traditional clothing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.773,
+        "flagged_at": 1786568501.3411193
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.773,
+        "flagged_at": 1786568501.349133
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.773,
+        "flagged_at": 1786568501.3570344
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.773,
+        "flagged_at": 1786568501.365134
+      }
+    ]
+  },
+  "textiles": {
+    "prompt": "textiles",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.79,
+        "flagged_at": 1786568501.3731186
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.79,
+        "flagged_at": 1786568501.3812754
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.79,
+        "flagged_at": 1786568501.3892658
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.79,
+        "flagged_at": 1786568501.3972847
+      }
+    ]
+  },
+  "traditional dance": {
+    "prompt": "traditional dance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.437126
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.4450877
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.4531312
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.807,
+        "flagged_at": 1786568501.461183
       }
     ]
   }
