@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 216,
+    "times_flagged": 228,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786521701.9674795
+        "flagged_at": 1786526329.2605872
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786523248.2076108
+        "flagged_at": 1786526329.3236248
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786523248.2139242
+        "flagged_at": 1786526329.3285933
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786523248.220264
+        "flagged_at": 1786526329.3333237
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786523248.2265866
+        "flagged_at": 1786526329.338034
       }
     ]
   },
@@ -6374,6 +6374,154 @@
         "country": "Brazil",
         "confidence": 0.781,
         "flagged_at": 1786524849.3022206
+      }
+    ]
+  },
+  "sizzling wok noodles": {
+    "prompt": "sizzling wok noodles",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1786526329.2076864
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1786526329.2126794
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1786526329.2174356
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1786526329.2223573
+      }
+    ]
+  },
+  "local villages passing": {
+    "prompt": "local villages passing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.838,
+        "flagged_at": 1786526329.2652156
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.838,
+        "flagged_at": 1786526329.2699778
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.838,
+        "flagged_at": 1786526329.2746387
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.838,
+        "flagged_at": 1786526329.2793753
+      }
+    ]
+  },
+  "backpacker walking": {
+    "prompt": "backpacker walking",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.515,
+        "flagged_at": 1786526329.284051
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.515,
+        "flagged_at": 1786526329.288735
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.515,
+        "flagged_at": 1786526329.2936537
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.515,
+        "flagged_at": 1786526329.2983615
+      }
+    ]
+  },
+  "smiling travelers group": {
+    "prompt": "smiling travelers group",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.741,
+        "flagged_at": 1786526329.303115
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.741,
+        "flagged_at": 1786526329.3079195
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.741,
+        "flagged_at": 1786526329.3128788
+      },
+      {
+        "topic": "A viral travel spot in Thailand that's all over social media right now",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.741,
+        "flagged_at": 1786526329.318127
       }
     ]
   }
