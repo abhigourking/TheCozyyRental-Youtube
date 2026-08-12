@@ -8488,6 +8488,42 @@
         }
       ],
       "ran_at": 1786552555.6692889
+    },
+    {
+      "run_number": "941",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31619653748",
+      "topic": "The most breathtaking place to visit in Portugal",
+      "category": "travel",
+      "country": "Portugal",
+      "images_checked": 22,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.427,
+          "prompt": "street art and graffiti"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.427,
+          "prompt": "street art and graffiti"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.427,
+          "prompt": "street art and graffiti"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.427,
+          "prompt": "street art and graffiti"
+        }
+      ],
+      "ran_at": 1786554123.0439632
     }
   ]
 }

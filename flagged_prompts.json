@@ -8078,5 +8078,42 @@
         "flagged_at": 1786551411.9123268
       }
     ]
+  },
+  "street art and graffiti": {
+    "prompt": "street art and graffiti",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.427,
+        "flagged_at": 1786554123.0525594
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.427,
+        "flagged_at": 1786554123.060495
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.427,
+        "flagged_at": 1786554123.0681856
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.427,
+        "flagged_at": 1786554123.075742
+      }
+    ]
   }
 }
