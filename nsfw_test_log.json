@@ -8896,6 +8896,90 @@
         }
       ],
       "ran_at": 1786558975.8697824
+    },
+    {
+      "run_number": "945",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31628620010",
+      "topic": "The most viral street food trend in India right now",
+      "category": "food",
+      "country": "India",
+      "images_checked": 26,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "person eating vada"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "person eating vada"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "person eating vada"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "person eating vada"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "person eating dosa"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "person eating dosa"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "person eating dosa"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "person eating dosa"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786560519.709963
     }
   ]
 }
