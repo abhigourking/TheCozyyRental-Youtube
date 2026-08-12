@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 292,
+    "times_flagged": 300,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
         "category": "food",
-        "country": "Argentina",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786571772.305203
+        "flagged_at": 1786574943.3607464
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786573348.6979558
+        "flagged_at": 1786574943.3672233
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786573348.7069032
+        "flagged_at": 1786574943.3734586
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786573348.7158177
+        "flagged_at": 1786574943.3798392
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786573348.7247152
+        "flagged_at": 1786574943.38617
       }
     ]
   },
@@ -9667,6 +9667,43 @@
         "country": "Iceland",
         "confidence": 0.646,
         "flagged_at": 1786573348.963486
+      }
+    ]
+  },
+  "japan travel brochure": {
+    "prompt": "Japan travel brochure",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.766,
+        "flagged_at": 1786574943.5593786
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.766,
+        "flagged_at": 1786574943.5657675
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.766,
+        "flagged_at": 1786574943.5720963
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.766,
+        "flagged_at": 1786574943.5784178
       }
     ]
   }
