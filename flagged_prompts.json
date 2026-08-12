@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 320,
+    "times_flagged": 324,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786552555.7031207
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786552555.711175
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786552555.71926
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786552555.7273076
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786552555.7356308
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786555864.7948897
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786555864.803993
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786555864.8131003
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786555864.8224359
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 252,
+    "times_flagged": 256,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Peru",
         "confidence": 0.701,
-        "flagged_at": 1786546604.8412411
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786546604.8788047
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786546604.8863597
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786546604.8938909
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.701,
         "flagged_at": 1786546604.9015024
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786555864.656436
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786555864.6650388
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786555864.6734695
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786555864.681864
       }
     ]
   },
@@ -8113,6 +8113,154 @@
         "country": "Portugal",
         "confidence": 0.427,
         "flagged_at": 1786554123.075742
+      }
+    ]
+  },
+  "wine tasting vineyard": {
+    "prompt": "wine tasting vineyard",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786555864.623601
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786555864.6318247
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786555864.6400774
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786555864.648223
+      }
+    ]
+  },
+  "street performers in buenos aires": {
+    "prompt": "street performers in Buenos Aires",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.693,
+        "flagged_at": 1786555864.690167
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.693,
+        "flagged_at": 1786555864.6985474
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.693,
+        "flagged_at": 1786555864.7070224
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.693,
+        "flagged_at": 1786555864.715438
+      }
+    ]
+  },
+  "smartphone video playback": {
+    "prompt": "smartphone video playback",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.816,
+        "flagged_at": 1786555864.723855
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.816,
+        "flagged_at": 1786555864.7322333
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.816,
+        "flagged_at": 1786555864.7407153
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.816,
+        "flagged_at": 1786555864.7489836
+      }
+    ]
+  },
+  "food bloggers eating": {
+    "prompt": "food bloggers eating",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.337,
+        "flagged_at": 1786555864.758282
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.337,
+        "flagged_at": 1786555864.767583
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.337,
+        "flagged_at": 1786555864.77675
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.337,
+        "flagged_at": 1786555864.7858672
       }
     ]
   }
