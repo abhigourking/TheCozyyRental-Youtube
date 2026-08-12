@@ -7079,5 +7079,79 @@
         "flagged_at": 1786535609.4263444
       }
     ]
+  },
+  "kunafah being served": {
+    "prompt": "kunafah being served",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.803,
+        "flagged_at": 1786537107.639452
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.803,
+        "flagged_at": 1786537107.6465015
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.803,
+        "flagged_at": 1786537107.6532862
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.803,
+        "flagged_at": 1786537107.6600926
+      }
+    ]
+  },
+  "follow us social media": {
+    "prompt": "follow us social media",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.786,
+        "flagged_at": 1786537107.6668499
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.786,
+        "flagged_at": 1786537107.6735969
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.786,
+        "flagged_at": 1786537107.680338
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.786,
+        "flagged_at": 1786537107.6870823
+      }
+    ]
   }
 }
