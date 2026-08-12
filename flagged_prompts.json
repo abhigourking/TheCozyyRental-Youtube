@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 184,
+    "times_flagged": 188,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786500035.517618
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786500035.557493
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786500035.5619986
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786500035.56645
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
         "flagged_at": 1786500035.570904
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786501695.790981
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786501695.7953632
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786501695.799787
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786501695.8042092
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 148,
+    "times_flagged": 164,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
-        "country": "Philippines",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786500035.5000722
+        "flagged_at": 1786501695.8753126
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
-        "country": "Philippines",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786500035.5396066
+        "flagged_at": 1786501695.879786
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
-        "country": "Philippines",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786500035.5440447
+        "flagged_at": 1786501695.8842824
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
-        "country": "Philippines",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786500035.5484939
+        "flagged_at": 1786501695.8887765
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
-        "country": "Philippines",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786500035.5530431
+        "flagged_at": 1786501695.8932362
       }
     ]
   },
@@ -4598,6 +4598,191 @@
         "country": "Philippines",
         "confidence": 0.542,
         "flagged_at": 1786500035.535185
+      }
+    ]
+  },
+  "colorful festival celebrations": {
+    "prompt": "colorful festival celebrations",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.798,
+        "flagged_at": 1786501695.7211545
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.798,
+        "flagged_at": 1786501695.72568
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.798,
+        "flagged_at": 1786501695.7299812
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.798,
+        "flagged_at": 1786501695.734257
+      }
+    ]
+  },
+  "matheran hill station": {
+    "prompt": "matheran hill station",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786501695.7385876
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786501695.7429469
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786501695.7473009
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.484,
+        "flagged_at": 1786501695.75162
+      }
+    ]
+  },
+  "indian street food": {
+    "prompt": "indian street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1786501695.7559636
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1786501695.7602968
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1786501695.7646828
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1786501695.7690516
+      }
+    ]
+  },
+  "backwater cruises": {
+    "prompt": "backwater cruises",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.327,
+        "flagged_at": 1786501695.8086228
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.327,
+        "flagged_at": 1786501695.8130531
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.327,
+        "flagged_at": 1786501695.817473
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.327,
+        "flagged_at": 1786501695.821877
+      }
+    ]
+  },
+  "indian maps": {
+    "prompt": "indian maps",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786501695.8440485
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786501695.8485277
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786501695.852984
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786501695.857454
       }
     ]
   }
