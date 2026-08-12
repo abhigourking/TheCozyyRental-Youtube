@@ -8812,6 +8812,90 @@
         }
       ],
       "ran_at": 1786557356.26034
+    },
+    {
+      "run_number": "944",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31626360497",
+      "topic": "A surprising fact about a famous tourist attraction in Philippines",
+      "category": "travel",
+      "country": "Philippines",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "summer heat protection"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "summer heat protection"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "summer heat protection"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "summer heat protection"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "comment section youtube"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "comment section youtube"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "comment section youtube"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "comment section youtube"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "sharing travel experiences"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "sharing travel experiences"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "sharing travel experiences"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "sharing travel experiences"
+        }
+      ],
+      "ran_at": 1786558975.8697824
     }
   ]
 }

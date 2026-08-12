@@ -8337,5 +8337,116 @@
         "flagged_at": 1786557356.3907359
       }
     ]
+  },
+  "summer heat protection": {
+    "prompt": "summer heat protection",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786558975.8792667
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786558975.8874059
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786558975.8951766
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.828,
+        "flagged_at": 1786558975.9029865
+      }
+    ]
+  },
+  "comment section youtube": {
+    "prompt": "comment section youtube",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786558975.9107904
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786558975.9185843
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786558975.9263892
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786558975.9341896
+      }
+    ]
+  },
+  "sharing travel experiences": {
+    "prompt": "sharing travel experiences",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.404,
+        "flagged_at": 1786558975.942018
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.404,
+        "flagged_at": 1786558975.949832
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.404,
+        "flagged_at": 1786558975.9576607
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.404,
+        "flagged_at": 1786558975.9655135
+      }
+    ]
   }
 }
