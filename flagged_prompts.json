@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 136,
+    "times_flagged": 140,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786490490.4771347
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786490490.5132058
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786490490.5172222
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786490490.5212336
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
         "flagged_at": 1786490490.525223
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786496876.742937
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786496876.74711
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786496876.7513318
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786496876.7555053
       }
     ]
   },
@@ -4265,6 +4265,117 @@
         "country": "Indonesia",
         "confidence": 0.618,
         "flagged_at": 1786495127.5618389
+      }
+    ]
+  },
+  "tokyo street food night": {
+    "prompt": "Tokyo street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.779,
+        "flagged_at": 1786496876.6926494
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.779,
+        "flagged_at": 1786496876.6969774
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.779,
+        "flagged_at": 1786496876.7011106
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.779,
+        "flagged_at": 1786496876.7052336
+      }
+    ]
+  },
+  "pork market in japan": {
+    "prompt": "pork market in Japan",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.796,
+        "flagged_at": 1786496876.7093854
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.796,
+        "flagged_at": 1786496876.7136364
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.796,
+        "flagged_at": 1786496876.7178056
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.796,
+        "flagged_at": 1786496876.7219603
+      }
+    ]
+  },
+  "traditional japanese farm": {
+    "prompt": "traditional Japanese farm",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.453,
+        "flagged_at": 1786496876.7261105
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.453,
+        "flagged_at": 1786496876.730293
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.453,
+        "flagged_at": 1786496876.7344525
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.453,
+        "flagged_at": 1786496876.738638
       }
     ]
   }
