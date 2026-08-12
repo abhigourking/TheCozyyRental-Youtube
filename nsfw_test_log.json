@@ -9172,6 +9172,66 @@
         }
       ],
       "ran_at": 1786563588.749068
+    },
+    {
+      "run_number": "949",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31634991453",
+      "topic": "A surprising fact about a famous tourist attraction in Peru",
+      "category": "travel",
+      "country": "Peru",
+      "images_checked": 25,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.479,
+          "prompt": "Inca stonework close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.479,
+          "prompt": "Inca stonework close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.479,
+          "prompt": "Inca stonework close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.479,
+          "prompt": "Inca stonework close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786565254.64433
     }
   ]
 }

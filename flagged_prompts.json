@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 336,
+    "times_flagged": 340,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786560519.8922951
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Egypt",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786563588.8565786
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Egypt",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786563588.8647094
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Egypt",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786563588.8728511
-      },
       {
         "topic": "A popular food market or food street worth visiting in Egypt",
         "category": "food",
         "country": "Egypt",
         "confidence": 0.357,
         "flagged_at": 1786563588.8810115
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786565254.6871085
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786565254.6954415
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786565254.703878
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786565254.7121747
       }
     ]
   },
@@ -8742,6 +8742,43 @@
         "country": "Egypt",
         "confidence": 0.754,
         "flagged_at": 1786563588.946442
+      }
+    ]
+  },
+  "inca stonework close up": {
+    "prompt": "Inca stonework close up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.479,
+        "flagged_at": 1786565254.6535554
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.479,
+        "flagged_at": 1786565254.6621878
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.479,
+        "flagged_at": 1786565254.670462
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.479,
+        "flagged_at": 1786565254.6787674
       }
     ]
   }
