@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 356,
+    "times_flagged": 360,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Mexico most tourists don't know about",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786568501.5267065
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786570094.7871099
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786570094.7963128
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786570094.8055644
-      },
       {
         "topic": "A comfort food from Argentina that's become an internet obsession",
         "category": "food",
         "country": "Argentina",
         "confidence": 0.357,
         "flagged_at": 1786570094.8148792
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786573348.769638
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786573348.778684
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786573348.7879753
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.357,
+        "flagged_at": 1786573348.7971032
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 288,
+    "times_flagged": 292,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786570094.7779007
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786571772.2803934
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786571772.2885988
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786571772.296813
-      },
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
         "flagged_at": 1786571772.305203
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786573348.6979558
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786573348.7069032
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786573348.7158177
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.701,
+        "flagged_at": 1786573348.7247152
       }
     ]
   },
@@ -9408,6 +9408,265 @@
         "country": "Argentina",
         "confidence": 0.762,
         "flagged_at": 1786571772.2721803
+      }
+    ]
+  },
+  "fish stew cooking": {
+    "prompt": "fish stew cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.79,
+        "flagged_at": 1786573348.6263223
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.79,
+        "flagged_at": 1786573348.6356468
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.79,
+        "flagged_at": 1786573348.6444836
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.79,
+        "flagged_at": 1786573348.6533136
+      }
+    ]
+  },
+  "hot dog street vendor": {
+    "prompt": "hot dog street vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.806,
+        "flagged_at": 1786573348.662268
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.806,
+        "flagged_at": 1786573348.671122
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.806,
+        "flagged_at": 1786573348.6801054
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.806,
+        "flagged_at": 1786573348.6890395
+      }
+    ]
+  },
+  "chocolate making process": {
+    "prompt": "chocolate making process",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.776,
+        "flagged_at": 1786573348.7336016
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.776,
+        "flagged_at": 1786573348.7425494
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.776,
+        "flagged_at": 1786573348.751515
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.776,
+        "flagged_at": 1786573348.7605367
+      }
+    ]
+  },
+  "food market sampling": {
+    "prompt": "food market sampling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.817,
+        "flagged_at": 1786573348.8062165
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.817,
+        "flagged_at": 1786573348.8153467
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.817,
+        "flagged_at": 1786573348.8244572
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.817,
+        "flagged_at": 1786573348.8337896
+      }
+    ]
+  },
+  "icelandic beer tasting": {
+    "prompt": "Icelandic beer tasting",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.416,
+        "flagged_at": 1786573348.8430014
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.416,
+        "flagged_at": 1786573348.8522062
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.416,
+        "flagged_at": 1786573348.8613174
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.416,
+        "flagged_at": 1786573348.870455
+      }
+    ]
+  },
+  "craft soda bottling": {
+    "prompt": "craft soda bottling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.843,
+        "flagged_at": 1786573348.879503
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.843,
+        "flagged_at": 1786573348.8887916
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.843,
+        "flagged_at": 1786573348.89806
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.843,
+        "flagged_at": 1786573348.925582
+      }
+    ]
+  },
+  "pub nightlife": {
+    "prompt": "pub nightlife",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.646,
+        "flagged_at": 1786573348.9355886
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.646,
+        "flagged_at": 1786573348.9450107
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.646,
+        "flagged_at": 1786573348.954227
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.646,
+        "flagged_at": 1786573348.963486
       }
     ]
   }
