@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 248,
+    "times_flagged": 260,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786518689.6276784
+        "flagged_at": 1786520183.064759
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786518689.6320333
+        "flagged_at": 1786520183.0941985
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786518689.6364086
+        "flagged_at": 1786520183.1001484
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786518689.640775
+        "flagged_at": 1786520183.1061597
       },
       {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786518689.6451232
+        "flagged_at": 1786520183.112054
       }
     ]
   },
@@ -6041,6 +6041,80 @@
         "country": "Morocco",
         "confidence": 0.789,
         "flagged_at": 1786518689.6100905
+      }
+    ]
+  },
+  "ancient greek artwork": {
+    "prompt": " ancient Greek artwork",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.47,
+        "flagged_at": 1786520182.9997644
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.47,
+        "flagged_at": 1786520183.0060225
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.47,
+        "flagged_at": 1786520183.011864
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.47,
+        "flagged_at": 1786520183.0176804
+      }
+    ]
+  },
+  "traveler looking out": {
+    "prompt": "traveler looking out",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.704,
+        "flagged_at": 1786520183.070541
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.704,
+        "flagged_at": 1786520183.076385
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.704,
+        "flagged_at": 1786520183.0823245
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.704,
+        "flagged_at": 1786520183.088209
       }
     ]
   }
