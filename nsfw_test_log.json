@@ -5596,6 +5596,42 @@
         }
       ],
       "ran_at": 1786509636.2793434
+    },
+    {
+      "run_number": "908",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31564843724",
+      "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786511167.8279095
     }
   ]
 }
