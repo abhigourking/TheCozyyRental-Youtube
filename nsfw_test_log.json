@@ -7120,6 +7120,42 @@
         }
       ],
       "ran_at": 1786529558.6762993
+    },
+    {
+      "run_number": "923",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31587512797",
+      "topic": "A bucket-list experience you can only have in Peru",
+      "category": "travel",
+      "country": "Peru",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.399,
+          "prompt": "Peruvian cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.399,
+          "prompt": "Peruvian cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.399,
+          "prompt": "Peruvian cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.399,
+          "prompt": "Peruvian cuisine dishes"
+        }
+      ],
+      "ran_at": 1786530947.0077322
     }
   ]
 }

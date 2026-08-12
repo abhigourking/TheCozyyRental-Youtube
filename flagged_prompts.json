@@ -6709,5 +6709,42 @@
         "flagged_at": 1786529558.771661
       }
     ]
+  },
+  "peruvian cuisine dishes": {
+    "prompt": "Peruvian cuisine dishes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.399,
+        "flagged_at": 1786530947.0152752
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.399,
+        "flagged_at": 1786530947.0220263
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.399,
+        "flagged_at": 1786530947.0283628
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.399,
+        "flagged_at": 1786530947.0347078
+      }
+    ]
   }
 }
