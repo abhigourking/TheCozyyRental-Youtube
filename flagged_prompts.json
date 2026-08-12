@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 264,
+    "times_flagged": 268,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786520183.112054
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786521701.8798842
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786521701.885633
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786521701.8913908
-      },
       {
         "topic": "A comfort food from Mexico that's become an internet obsession",
         "category": "food",
         "country": "Mexico",
         "confidence": 0.357,
         "flagged_at": 1786521701.8971696
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786523248.1822011
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786523248.1885452
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786523248.1949747
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786523248.201283
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 212,
+    "times_flagged": 216,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786521701.9207885
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786521701.949887
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786521701.9557319
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786521701.9616075
-      },
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
         "flagged_at": 1786521701.9674795
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786523248.2076108
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786523248.2139242
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786523248.220264
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786523248.2265866
       }
     ]
   },
@@ -6226,6 +6226,80 @@
         "country": "Mexico",
         "confidence": 0.724,
         "flagged_at": 1786521701.9440627
+      }
+    ]
+  },
+  "myeongdong shopping street": {
+    "prompt": "Myeongdong shopping street",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786523248.1316202
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786523248.1381466
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786523248.1443925
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786523248.1506712
+      }
+    ]
+  },
+  "seoul street food night": {
+    "prompt": " Seoul street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786523248.1568656
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786523248.1632342
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786523248.169533
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786523248.1758423
       }
     ]
   }
