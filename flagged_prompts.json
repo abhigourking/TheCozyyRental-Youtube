@@ -4156,5 +4156,42 @@
         "flagged_at": 1786490490.4932005
       }
     ]
+  },
+  "smartphone with comments section": {
+    "prompt": "smartphone with comments section",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.305,
+        "flagged_at": 1786493624.3112986
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.305,
+        "flagged_at": 1786493624.3155706
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.305,
+        "flagged_at": 1786493624.3196595
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.305,
+        "flagged_at": 1786493624.323759
+      }
+    ]
   }
 }

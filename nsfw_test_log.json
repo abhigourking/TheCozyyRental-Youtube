@@ -4312,6 +4312,42 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786491982.6814373
+    },
+    {
+      "run_number": "896",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31548687527",
+      "topic": "A comfort food from Egypt that's become an internet obsession",
+      "category": "food",
+      "country": "Egypt",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.305,
+          "prompt": "smartphone with comments section"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.305,
+          "prompt": "smartphone with comments section"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.305,
+          "prompt": "smartphone with comments section"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.305,
+          "prompt": "smartphone with comments section"
+        }
+      ],
+      "ran_at": 1786493624.3063667
     }
   ]
 }
