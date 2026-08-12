@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 332,
+    "times_flagged": 336,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786557356.3587246
-      },
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786560519.8765569
-      },
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786560519.8817744
-      },
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786560519.8869526
-      },
       {
         "topic": "The most viral street food trend in India right now",
         "category": "food",
         "country": "India",
         "confidence": 0.357,
         "flagged_at": 1786560519.8922951
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786563588.8565786
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786563588.8647094
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786563588.8728511
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786563588.8810115
       }
     ]
   },
@@ -8557,6 +8557,191 @@
         "country": "Japan",
         "confidence": 0.617,
         "flagged_at": 1786562106.0626106
+      }
+    ]
+  },
+  "spices and sweets": {
+    "prompt": "spices and sweets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.789,
+        "flagged_at": 1786563588.7587066
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.789,
+        "flagged_at": 1786563588.76718
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.789,
+        "flagged_at": 1786563588.7752118
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.789,
+        "flagged_at": 1786563588.783305
+      }
+    ]
+  },
+  "crowded market scene": {
+    "prompt": "crowded market scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.869,
+        "flagged_at": 1786563588.7914126
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.869,
+        "flagged_at": 1786563588.7995098
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.869,
+        "flagged_at": 1786563588.8075979
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.869,
+        "flagged_at": 1786563588.815665
+      }
+    ]
+  },
+  "falafel street food": {
+    "prompt": "falafel street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.801,
+        "flagged_at": 1786563588.824001
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.801,
+        "flagged_at": 1786563588.8321645
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.801,
+        "flagged_at": 1786563588.8402514
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.801,
+        "flagged_at": 1786563588.8484106
+      }
+    ]
+  },
+  "vendor displaying goods": {
+    "prompt": "vendor displaying goods",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.814,
+        "flagged_at": 1786563588.8892102
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.814,
+        "flagged_at": 1786563588.897395
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.814,
+        "flagged_at": 1786563588.9056234
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.814,
+        "flagged_at": 1786563588.9138002
+      }
+    ]
+  },
+  "phone screen travel blog": {
+    "prompt": "phone screen travel blog",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.754,
+        "flagged_at": 1786563588.9219215
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.754,
+        "flagged_at": 1786563588.9301403
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.754,
+        "flagged_at": 1786563588.9382596
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Egypt",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.754,
+        "flagged_at": 1786563588.946442
       }
     ]
   }
