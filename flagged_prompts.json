@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 308,
+    "times_flagged": 312,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786545116.2999158
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786546604.9090433
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786546604.9166005
-      },
-      {
-        "topic": "The most viral street food trend in Peru right now",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786546604.9241574
-      },
       {
         "topic": "The most viral street food trend in Peru right now",
         "category": "food",
         "country": "Peru",
         "confidence": 0.357,
         "flagged_at": 1786546604.931749
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786548329.864501
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786548329.8717928
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786548329.8791704
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786548329.8865013
       }
     ]
   },
@@ -7928,6 +7928,43 @@
         "country": "Peru",
         "confidence": 0.819,
         "flagged_at": 1786546604.8712547
+      }
+    ]
+  },
+  "lisbon street art": {
+    "prompt": "Lisbon street art",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.605,
+        "flagged_at": 1786548329.8349802
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.605,
+        "flagged_at": 1786548329.8426468
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.605,
+        "flagged_at": 1786548329.8499184
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.605,
+        "flagged_at": 1786548329.857173
       }
     ]
   }
