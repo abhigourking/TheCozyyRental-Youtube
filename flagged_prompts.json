@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 176,
+    "times_flagged": 184,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786490490.509182
+        "flagged_at": 1786500035.517618
       },
       {
-        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
         "category": "travel",
-        "country": "Indonesia",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786495127.565943
+        "flagged_at": 1786500035.557493
       },
       {
-        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
         "category": "travel",
-        "country": "Indonesia",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786495127.5701625
+        "flagged_at": 1786500035.5619986
       },
       {
-        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
         "category": "travel",
-        "country": "Indonesia",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786495127.574275
+        "flagged_at": 1786500035.56645
       },
       {
-        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
         "category": "travel",
-        "country": "Indonesia",
+        "country": "Philippines",
         "confidence": 0.357,
-        "flagged_at": 1786495127.578416
+        "flagged_at": 1786500035.570904
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 140,
+    "times_flagged": 148,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786490490.525223
+        "flagged_at": 1786500035.5000722
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786496876.742937
+        "flagged_at": 1786500035.5396066
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786496876.74711
+        "flagged_at": 1786500035.5440447
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786496876.7513318
+        "flagged_at": 1786500035.5484939
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786496876.7555053
+        "flagged_at": 1786500035.5530431
       }
     ]
   },
@@ -4487,6 +4487,117 @@
         "country": "Greece",
         "confidence": 0.505,
         "flagged_at": 1786498447.3510861
+      }
+    ]
+  },
+  "island hopping tour": {
+    "prompt": "island hopping tour",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.726,
+        "flagged_at": 1786500035.4517589
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.726,
+        "flagged_at": 1786500035.4562333
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.726,
+        "flagged_at": 1786500035.4605474
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.726,
+        "flagged_at": 1786500035.4648995
+      }
+    ]
+  },
+  "marine life": {
+    "prompt": "marine life",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.681,
+        "flagged_at": 1786500035.4692514
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.681,
+        "flagged_at": 1786500035.4737525
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.681,
+        "flagged_at": 1786500035.4781077
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.681,
+        "flagged_at": 1786500035.482469
+      }
+    ]
+  },
+  "sunset over water": {
+    "prompt": "sunset over water",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.542,
+        "flagged_at": 1786500035.5220144
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.542,
+        "flagged_at": 1786500035.5264208
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.542,
+        "flagged_at": 1786500035.5308082
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.542,
+        "flagged_at": 1786500035.535185
       }
     ]
   }
