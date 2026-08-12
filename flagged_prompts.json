@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 360,
+    "times_flagged": 364,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Argentina that's become an internet obsession",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786570094.8148792
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Iceland",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786573348.769638
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Iceland",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786573348.778684
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Iceland",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786573348.7879753
-      },
       {
         "topic": "A popular food market or food street worth visiting in Iceland",
         "category": "food",
         "country": "Iceland",
         "confidence": 0.357,
         "flagged_at": 1786573348.7971032
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786576554.944012
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786576554.952589
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786576554.961158
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786576554.9697683
       }
     ]
   },
@@ -9704,6 +9704,43 @@
         "country": "Japan",
         "confidence": 0.766,
         "flagged_at": 1786574943.5784178
+      }
+    ]
+  },
+  "kashmiri handicrafts": {
+    "prompt": "Kashmiri handicrafts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.838,
+        "flagged_at": 1786576554.908926
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.838,
+        "flagged_at": 1786576554.9177911
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.838,
+        "flagged_at": 1786576554.9266403
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.838,
+        "flagged_at": 1786576554.9353416
       }
     ]
   }
