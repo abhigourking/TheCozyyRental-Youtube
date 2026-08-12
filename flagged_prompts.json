@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 212,
+    "times_flagged": 220,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Morocco",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786508184.7791665
+        "flagged_at": 1786509636.3229148
       },
       {
-        "topic": "The most breathtaking place to visit in Morocco",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786508184.805112
+        "flagged_at": 1786509636.3282454
       },
       {
-        "topic": "The most breathtaking place to visit in Morocco",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786508184.8102987
+        "flagged_at": 1786509636.333527
       },
       {
-        "topic": "The most breathtaking place to visit in Morocco",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786508184.8155074
+        "flagged_at": 1786509636.3388453
       },
       {
-        "topic": "The most breathtaking place to visit in Morocco",
+        "topic": "A bucket-list experience you can only have in Thailand",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786508184.8207088
+        "flagged_at": 1786509636.344137
       }
     ]
   },
@@ -5486,6 +5486,43 @@
         "country": "Morocco",
         "confidence": 0.461,
         "flagged_at": 1786508184.7998931
+      }
+    ]
+  },
+  "pad thai cooking": {
+    "prompt": " Pad Thai cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.453,
+        "flagged_at": 1786509636.2855034
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.453,
+        "flagged_at": 1786509636.291121
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.453,
+        "flagged_at": 1786509636.2964067
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.453,
+        "flagged_at": 1786509636.3017054
       }
     ]
   }
