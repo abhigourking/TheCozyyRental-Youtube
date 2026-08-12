@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 296,
+    "times_flagged": 300,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
-        "category": "food",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786538709.0140595
-      },
-      {
-        "topic": "A comfort food from India that's become an internet obsession",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786540455.220615
-      },
-      {
-        "topic": "A comfort food from India that's become an internet obsession",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786540455.2276964
-      },
-      {
-        "topic": "A comfort food from India that's become an internet obsession",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786540455.2347734
-      },
       {
         "topic": "A comfort food from India that's become an internet obsession",
         "category": "food",
         "country": "India",
         "confidence": 0.357,
         "flagged_at": 1786540455.2418988
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786542061.7908497
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786542061.7980406
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786542061.8052614
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786542061.8124464
       }
     ]
   },
@@ -7521,6 +7521,80 @@
         "country": "India",
         "confidence": 0.596,
         "flagged_at": 1786540455.270757
+      }
+    ]
+  },
+  "traditional pastries": {
+    "prompt": "traditional pastries",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.655,
+        "flagged_at": 1786542061.7331526
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.655,
+        "flagged_at": 1786542061.7406106
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.655,
+        "flagged_at": 1786542061.747734
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.655,
+        "flagged_at": 1786542061.7548816
+      }
+    ]
+  },
+  "fresh seafood market": {
+    "prompt": "fresh seafood market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786542061.762068
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786542061.7692606
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786542061.7764275
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786542061.7836003
       }
     ]
   }
