@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 188,
+    "times_flagged": 192,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786500035.570904
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786501695.790981
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786501695.7953632
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786501695.799787
-      },
       {
         "topic": "A bucket-list experience you can only have in India",
         "category": "travel",
         "country": "India",
         "confidence": 0.357,
         "flagged_at": 1786501695.8042092
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786503249.842596
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786503249.8473547
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786503249.8521268
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786503249.8569252
       }
     ]
   },
@@ -4783,6 +4783,228 @@
         "country": "India",
         "confidence": 0.807,
         "flagged_at": 1786501695.857454
+      }
+    ]
+  },
+  "grilled meat market": {
+    "prompt": "grilled meat market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.799,
+        "flagged_at": 1786503249.7673528
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.799,
+        "flagged_at": 1786503249.7722342
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.799,
+        "flagged_at": 1786503249.7768722
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.799,
+        "flagged_at": 1786503249.7815235
+      }
+    ]
+  },
+  "local cuisine varieties": {
+    "prompt": "local cuisine varieties",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.831,
+        "flagged_at": 1786503249.7861917
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.831,
+        "flagged_at": 1786503249.790861
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.831,
+        "flagged_at": 1786503249.795504
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.831,
+        "flagged_at": 1786503249.800142
+      }
+    ]
+  },
+  "food market crowd": {
+    "prompt": "food market crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.852,
+        "flagged_at": 1786503249.8048615
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.852,
+        "flagged_at": 1786503249.809561
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.852,
+        "flagged_at": 1786503249.8142512
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.852,
+        "flagged_at": 1786503249.8189898
+      }
+    ]
+  },
+  "tagine pot": {
+    "prompt": "tagine pot",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.404,
+        "flagged_at": 1786503249.823696
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.404,
+        "flagged_at": 1786503249.8284283
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.404,
+        "flagged_at": 1786503249.8331418
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.404,
+        "flagged_at": 1786503249.8378704
+      }
+    ]
+  },
+  "local eating habits": {
+    "prompt": "local eating habits",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.777,
+        "flagged_at": 1786503249.8616986
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.777,
+        "flagged_at": 1786503249.8665087
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.777,
+        "flagged_at": 1786503249.871288
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.777,
+        "flagged_at": 1786503249.8760777
+      }
+    ]
+  },
+  "foodie logo": {
+    "prompt": "foodie logo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.494,
+        "flagged_at": 1786503249.8808556
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.494,
+        "flagged_at": 1786503249.8856857
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.494,
+        "flagged_at": 1786503249.8905091
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Morocco",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.494,
+        "flagged_at": 1786503249.8953216
       }
     ]
   }
