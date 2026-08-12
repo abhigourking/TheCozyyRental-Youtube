@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 276,
+    "times_flagged": 280,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786527982.872209
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786527982.9028547
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786527982.9089627
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786527982.9150674
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
         "flagged_at": 1786527982.9211984
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786529558.7773504
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786529558.7830672
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786529558.788748
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786529558.7944493
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 228,
+    "times_flagged": 232,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786526329.2605872
-      },
-      {
-        "topic": "A viral travel spot in Thailand that's all over social media right now",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786526329.3236248
-      },
-      {
-        "topic": "A viral travel spot in Thailand that's all over social media right now",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786526329.3285933
-      },
-      {
-        "topic": "A viral travel spot in Thailand that's all over social media right now",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786526329.3333237
-      },
-      {
-        "topic": "A viral travel spot in Thailand that's all over social media right now",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
         "flagged_at": 1786526329.338034
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786529558.708212
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786529558.714007
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786529558.719691
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786529558.725325
       }
     ]
   },
@@ -6596,6 +6596,117 @@
         "country": "France",
         "confidence": 0.796,
         "flagged_at": 1786527982.896732
+      }
+    ]
+  },
+  "royal guards changing ceremony": {
+    "prompt": "royal guards changing ceremony",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.485,
+        "flagged_at": 1786529558.683161
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.485,
+        "flagged_at": 1786529558.689075
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.485,
+        "flagged_at": 1786529558.696457
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.485,
+        "flagged_at": 1786529558.7023969
+      }
+    ]
+  },
+  "k-pop dance performance": {
+    "prompt": "K-pop dance performance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.673,
+        "flagged_at": 1786529558.730999
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.673,
+        "flagged_at": 1786529558.7366486
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.673,
+        "flagged_at": 1786529558.742464
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.673,
+        "flagged_at": 1786529558.748321
+      }
+    ]
+  },
+  "traditional korean festival": {
+    "prompt": "traditional Korean festival",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.776,
+        "flagged_at": 1786529558.754153
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.776,
+        "flagged_at": 1786529558.759943
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.776,
+        "flagged_at": 1786529558.7657118
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.776,
+        "flagged_at": 1786529558.771661
       }
     ]
   }
