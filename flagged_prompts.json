@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 228,
+    "times_flagged": 232,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786512634.1830707
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786512634.209343
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786512634.2145805
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786512634.219868
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786512634.225148
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786515750.1965463
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786515750.2007136
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786515750.204882
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.357,
+        "flagged_at": 1786515750.209133
       }
     ]
   },
@@ -5671,6 +5671,43 @@
         "country": "South Korea",
         "confidence": 0.786,
         "flagged_at": 1786514248.8910148
+      }
+    ]
+  },
+  "social media": {
+    "prompt": "social media",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.834,
+        "flagged_at": 1786515750.1796908
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.834,
+        "flagged_at": 1786515750.1840856
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.834,
+        "flagged_at": 1786515750.1882346
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.834,
+        "flagged_at": 1786515750.1923814
       }
     ]
   }
