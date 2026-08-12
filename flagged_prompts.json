@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 312,
+    "times_flagged": 320,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Peru right now",
+        "topic": "The most viral street food trend in Spain right now",
         "category": "food",
-        "country": "Peru",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786546604.931749
+        "flagged_at": 1786552555.7031207
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786548329.864501
+        "flagged_at": 1786552555.711175
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786548329.8717928
+        "flagged_at": 1786552555.71926
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786548329.8791704
+        "flagged_at": 1786552555.7273076
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786548329.8865013
+        "flagged_at": 1786552555.7356308
       }
     ]
   },
