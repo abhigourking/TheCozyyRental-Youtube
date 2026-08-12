@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 240,
+    "times_flagged": 248,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786517173.6381056
+        "flagged_at": 1786518689.6276784
       },
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786517173.6655414
+        "flagged_at": 1786518689.6320333
       },
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786517173.6710086
+        "flagged_at": 1786518689.6364086
       },
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786517173.676555
+        "flagged_at": 1786518689.640775
       },
       {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786517173.6820045
+        "flagged_at": 1786518689.6451232
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 196,
+    "times_flagged": 200,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Argentina",
         "confidence": 0.701,
-        "flagged_at": 1786517173.704049
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786517173.7095058
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786517173.7150116
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786517173.7205381
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Argentina",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.701,
         "flagged_at": 1786517173.7259927
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786518689.528305
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786518689.532664
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786518689.5368607
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786518689.5411055
       }
     ]
   },
@@ -5856,6 +5856,191 @@
         "country": "Argentina",
         "confidence": 0.737,
         "flagged_at": 1786517173.6600206
+      }
+    ]
+  },
+  "spicy food market": {
+    "prompt": "spicy food market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.511038
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.5155625
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.5198057
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.5240717
+      }
+    ]
+  },
+  "vibrant mosaics": {
+    "prompt": "vibrant mosaics",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.811,
+        "flagged_at": 1786518689.5453212
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.811,
+        "flagged_at": 1786518689.5495522
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.811,
+        "flagged_at": 1786518689.5537922
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.811,
+        "flagged_at": 1786518689.5581207
+      }
+    ]
+  },
+  "busy market scenes": {
+    "prompt": "busy market scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.825,
+        "flagged_at": 1786518689.562345
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.825,
+        "flagged_at": 1786518689.5666044
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.825,
+        "flagged_at": 1786518689.5709212
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.825,
+        "flagged_at": 1786518689.575233
+      }
+    ]
+  },
+  "colorful textiles": {
+    "prompt": "colorful textiles",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.5795195
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.58384
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.5881722
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.774,
+        "flagged_at": 1786518689.592463
+      }
+    ]
+  },
+  "traditional crafts": {
+    "prompt": "traditional crafts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.789,
+        "flagged_at": 1786518689.5968041
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.789,
+        "flagged_at": 1786518689.601186
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.789,
+        "flagged_at": 1786518689.6057012
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.789,
+        "flagged_at": 1786518689.6100905
       }
     ]
   }
