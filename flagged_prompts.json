@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 172,
+    "times_flagged": 176,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.357,
-        "flagged_at": 1786482494.999032
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786490490.4972298
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786490490.5012147
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786490490.5052044
-      },
       {
         "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.357,
         "flagged_at": 1786490490.509182
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786495127.565943
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786495127.5701625
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786495127.574275
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786495127.578416
       }
     ]
   },
@@ -4191,6 +4191,80 @@
         "country": "Egypt",
         "confidence": 0.305,
         "flagged_at": 1786493624.323759
+      }
+    ]
+  },
+  "food vendor serving customers": {
+    "prompt": "food vendor serving customers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.759,
+        "flagged_at": 1786495127.5329695
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.759,
+        "flagged_at": 1786495127.5372312
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.759,
+        "flagged_at": 1786495127.5413613
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.759,
+        "flagged_at": 1786495127.5454433
+      }
+    ]
+  },
+  "food blogger taking photos": {
+    "prompt": "food blogger taking photos",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.618,
+        "flagged_at": 1786495127.5495198
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.618,
+        "flagged_at": 1786495127.553628
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.618,
+        "flagged_at": 1786495127.557725
+      },
+      {
+        "topic": "A viral travel spot in Indonesia that's all over social media right now",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.618,
+        "flagged_at": 1786495127.5618389
       }
     ]
   }
