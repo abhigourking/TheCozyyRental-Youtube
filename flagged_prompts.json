@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 468,
+    "times_flagged": 480,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786639464.969124
+        "flagged_at": 1786642364.504279
       },
       {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Portugal",
         "category": "travel",
-        "country": "Greece",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786640929.901897
+        "flagged_at": 1786642364.5172787
       },
       {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Portugal",
         "category": "travel",
-        "country": "Greece",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786640929.915444
+        "flagged_at": 1786642364.5304663
       },
       {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Portugal",
         "category": "travel",
-        "country": "Greece",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786640929.9285576
+        "flagged_at": 1786642364.5436418
       },
       {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Portugal",
         "category": "travel",
-        "country": "Greece",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786640929.941611
+        "flagged_at": 1786642364.5568218
       }
     ]
   },
@@ -13293,6 +13293,191 @@
         "country": "Vietnam",
         "confidence": 0.783,
         "flagged_at": 1786638150.310125
+      }
+    ]
+  },
+  "sea spray sunset": {
+    "prompt": "sea spray sunset",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.305,
+        "flagged_at": 1786642364.239705
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.305,
+        "flagged_at": 1786642364.2531145
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.305,
+        "flagged_at": 1786642364.266097
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.305,
+        "flagged_at": 1786642364.2792337
+      }
+    ]
+  },
+  "wildflowers blooming": {
+    "prompt": "wildflowers blooming",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.761,
+        "flagged_at": 1786642364.2922258
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.761,
+        "flagged_at": 1786642364.3050919
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.761,
+        "flagged_at": 1786642364.3178108
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.761,
+        "flagged_at": 1786642364.3305552
+      }
+    ]
+  },
+  "bakeries pastries": {
+    "prompt": "bakeries pastries",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.697,
+        "flagged_at": 1786642364.3961782
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.697,
+        "flagged_at": 1786642364.425027
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.697,
+        "flagged_at": 1786642364.438458
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.697,
+        "flagged_at": 1786642364.4515781
+      }
+    ]
+  },
+  "local specialties": {
+    "prompt": "local specialties",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.645,
+        "flagged_at": 1786642364.5700052
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.645,
+        "flagged_at": 1786642364.5831053
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.645,
+        "flagged_at": 1786642364.5961716
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.645,
+        "flagged_at": 1786642364.6094575
+      }
+    ]
+  },
+  "travel blog screenshots": {
+    "prompt": "travel blog screenshots",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.793,
+        "flagged_at": 1786642364.6225562
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.793,
+        "flagged_at": 1786642364.6358106
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.793,
+        "flagged_at": 1786642364.648961
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.793,
+        "flagged_at": 1786642364.662257
       }
     ]
   }
