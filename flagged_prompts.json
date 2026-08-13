@@ -10335,5 +10335,79 @@
         "flagged_at": 1786589158.5397139
       }
     ]
+  },
+  "santorini alleys": {
+    "prompt": "santorini alleys",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.496,
+        "flagged_at": 1786590652.1238585
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.496,
+        "flagged_at": 1786590652.1319246
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.496,
+        "flagged_at": 1786590652.1395514
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.496,
+        "flagged_at": 1786590652.1471426
+      }
+    ]
+  },
+  "greek cuisine": {
+    "prompt": "greek cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1786590652.1547763
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1786590652.1624205
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1786590652.1700652
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1786590652.177765
+      }
+    ]
   }
 }
