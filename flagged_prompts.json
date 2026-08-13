@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 452,
+    "times_flagged": 456,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786613551.455059
-      },
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786615118.912221
-      },
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786615118.92313
-      },
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786615118.934082
-      },
       {
         "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
         "category": "food",
         "country": "Mexico",
         "confidence": 0.357,
         "flagged_at": 1786615118.945001
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786616832.8128269
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786616832.8236969
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786616832.8345523
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786616832.8591623
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 392,
+    "times_flagged": 396,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786611933.4891331
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786613551.553688
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786613551.5646095
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786613551.5756152
-      },
       {
         "topic": "The most viral street food trend in Thailand right now",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.701,
         "flagged_at": 1786613551.5866225
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786616832.8705485
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786616832.8814304
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786616832.8922276
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786616832.903096
       }
     ]
   },
@@ -11776,6 +11776,117 @@
         "country": "Mexico",
         "confidence": 0.844,
         "flagged_at": 1786615118.9888756
+      }
+    ]
+  },
+  "local market fresh produce": {
+    "prompt": "local market fresh produce",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.831,
+        "flagged_at": 1786616832.680316
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.831,
+        "flagged_at": 1786616832.691956
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.831,
+        "flagged_at": 1786616832.70285
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.831,
+        "flagged_at": 1786616832.7138767
+      }
+    ]
+  },
+  "street performers in lima": {
+    "prompt": "street performers in Lima",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.693,
+        "flagged_at": 1786616832.724716
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.693,
+        "flagged_at": 1786616832.7355292
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.693,
+        "flagged_at": 1786616832.746326
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.693,
+        "flagged_at": 1786616832.757103
+      }
+    ]
+  },
+  "peruvian handicrafts market": {
+    "prompt": "Peruvian handicrafts market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.774,
+        "flagged_at": 1786616832.7694585
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.774,
+        "flagged_at": 1786616832.7803965
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.774,
+        "flagged_at": 1786616832.7911935
+      },
+      {
+        "topic": "The most breathtaking place to visit in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.774,
+        "flagged_at": 1786616832.8019707
       }
     ]
   }
