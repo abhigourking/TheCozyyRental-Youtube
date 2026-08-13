@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 428,
+    "times_flagged": 436,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786599384.8459094
+        "flagged_at": 1786602393.8736408
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in France",
+        "topic": "The most breathtaking place to visit in Vietnam",
         "category": "travel",
-        "country": "France",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786600930.1856003
+        "flagged_at": 1786602393.9242551
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in France",
+        "topic": "The most breathtaking place to visit in Vietnam",
         "category": "travel",
-        "country": "France",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786600930.195777
+        "flagged_at": 1786602393.9343913
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in France",
+        "topic": "The most breathtaking place to visit in Vietnam",
         "category": "travel",
-        "country": "France",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786600930.2059069
+        "flagged_at": 1786602393.9446006
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in France",
+        "topic": "The most breathtaking place to visit in Vietnam",
         "category": "travel",
-        "country": "France",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786600930.2161162
+        "flagged_at": 1786602393.9547749
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 356,
+    "times_flagged": 360,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786593608.9891405
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786593608.998902
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786593609.008713
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786593609.018493
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786593609.028287
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786602393.7622256
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786602393.7727194
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786602393.7828586
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786602393.7928772
       }
     ]
   },
@@ -10888,6 +10888,80 @@
         "country": "France",
         "confidence": 0.837,
         "flagged_at": 1786600930.1754158
+      }
+    ]
+  },
+  "vietnamese traditional dance": {
+    "prompt": "vietnamese traditional dance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.743,
+        "flagged_at": 1786602393.8028853
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.743,
+        "flagged_at": 1786602393.812976
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.743,
+        "flagged_at": 1786602393.8231106
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.743,
+        "flagged_at": 1786602393.8331761
+      }
+    ]
+  },
+  "travel guide book": {
+    "prompt": "travel guide book",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.343,
+        "flagged_at": 1786602393.883712
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.343,
+        "flagged_at": 1786602393.8939183
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.343,
+        "flagged_at": 1786602393.904027
+      },
+      {
+        "topic": "The most breathtaking place to visit in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.343,
+        "flagged_at": 1786602393.9141433
       }
     ]
   }
