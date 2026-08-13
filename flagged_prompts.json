@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 372,
+    "times_flagged": 376,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786606834.8263402
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786606834.836887
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786606834.84738
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786606834.8578517
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
         "flagged_at": 1786606834.8682864
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786608488.8714392
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786608488.88252
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786608488.8936172
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786608488.9046695
       }
     ]
   },
@@ -11221,6 +11221,43 @@
         "country": "Morocco",
         "confidence": 0.681,
         "flagged_at": 1786605338.8583653
+      }
+    ]
+  },
+  "japanese festival celebration": {
+    "prompt": "Japanese festival celebration",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.747,
+        "flagged_at": 1786608488.8263898
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.747,
+        "flagged_at": 1786608488.8380742
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.747,
+        "flagged_at": 1786608488.8493237
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.747,
+        "flagged_at": 1786608488.8603106
       }
     ]
   }
