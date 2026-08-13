@@ -13998,5 +13998,42 @@
         "flagged_at": 1786646947.9024725
       }
     ]
+  },
+  "thai market crowd": {
+    "prompt": "Thai market crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.758,
+        "flagged_at": 1786651373.5335686
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.758,
+        "flagged_at": 1786651373.5475166
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.758,
+        "flagged_at": 1786651373.5610244
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.758,
+        "flagged_at": 1786651373.5745022
+      }
+    ]
   }
 }

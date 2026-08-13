@@ -15164,6 +15164,42 @@
         }
       ],
       "ran_at": 1786649930.1633396
+    },
+    {
+      "run_number": "1014",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31738134184",
+      "topic": "A bucket-list experience you can only have in Thailand",
+      "category": "travel",
+      "country": "Thailand",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.758,
+          "prompt": "Thai market crowd"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.758,
+          "prompt": "Thai market crowd"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.758,
+          "prompt": "Thai market crowd"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.758,
+          "prompt": "Thai market crowd"
+        }
+      ],
+      "ran_at": 1786651373.5179684
     }
   ]
 }
