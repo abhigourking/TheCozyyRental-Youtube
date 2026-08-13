@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 532,
+    "times_flagged": 536,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786645509.753835
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786645509.9885345
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786645510.0023534
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786645510.0163882
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
         "flagged_at": 1786645510.0302126
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786648462.9265733
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786648462.9406786
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786648462.9543765
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786648462.9680595
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 504,
+    "times_flagged": 508,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786645509.9747424
-      },
-      {
-        "topic": "A hidden gem destination in Morocco most tourists don't know about",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786646947.916157
-      },
-      {
-        "topic": "A hidden gem destination in Morocco most tourists don't know about",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786646947.9301836
-      },
-      {
-        "topic": "A hidden gem destination in Morocco most tourists don't know about",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786646947.9440613
-      },
       {
         "topic": "A hidden gem destination in Morocco most tourists don't know about",
         "category": "travel",
         "country": "Morocco",
         "confidence": 0.701,
         "flagged_at": 1786646947.9577231
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786648462.9816887
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786648462.99528
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786648463.0089288
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786648463.0225484
       }
     ]
   },
