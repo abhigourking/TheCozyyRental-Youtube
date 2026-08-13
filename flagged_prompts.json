@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 552,
+    "times_flagged": 556,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786661924.2065933
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786661924.2908566
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786661924.3047886
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786661924.3187497
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
         "flagged_at": 1786661924.3330104
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786663238.0256388
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786663238.0403898
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786663238.055103
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786663238.06984
       }
     ]
   },
@@ -14662,6 +14662,43 @@
         "country": "Vietnam",
         "confidence": 0.822,
         "flagged_at": 1786661924.3896863
+      }
+    ]
+  },
+  "spicy street food": {
+    "prompt": "spicy street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.794,
+        "flagged_at": 1786663237.9660783
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.794,
+        "flagged_at": 1786663237.9810636
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.794,
+        "flagged_at": 1786663237.9957964
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.794,
+        "flagged_at": 1786663238.0109048
       }
     ]
   }
