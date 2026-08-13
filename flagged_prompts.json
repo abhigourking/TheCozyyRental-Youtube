@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 448,
+    "times_flagged": 452,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.357,
-        "flagged_at": 1786611933.3045058
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786613551.4225092
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786613551.433373
-      },
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786613551.4442353
-      },
       {
         "topic": "The most viral street food trend in Thailand right now",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
         "flagged_at": 1786613551.455059
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786615118.912221
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786615118.92313
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786615118.934082
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786615118.945001
       }
     ]
   },
@@ -11665,6 +11665,117 @@
         "country": "Thailand",
         "confidence": 0.822,
         "flagged_at": 1786613551.5426924
+      }
+    ]
+  },
+  "shredded chicken cooking": {
+    "prompt": "shredded chicken cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.797,
+        "flagged_at": 1786615118.82434
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.797,
+        "flagged_at": 1786615118.8357441
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.797,
+        "flagged_at": 1786615118.8467197
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.797,
+        "flagged_at": 1786615118.85772
+      }
+    ]
+  },
+  "mexican chef cooking": {
+    "prompt": "Mexican chef cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.57,
+        "flagged_at": 1786615118.8685865
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.57,
+        "flagged_at": 1786615118.8795247
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.57,
+        "flagged_at": 1786615118.8903985
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.57,
+        "flagged_at": 1786615118.9013386
+      }
+    ]
+  },
+  "follow button on screen": {
+    "prompt": "follow button on screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.844,
+        "flagged_at": 1786615118.9559166
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.844,
+        "flagged_at": 1786615118.9669173
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.844,
+        "flagged_at": 1786615118.9778676
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.844,
+        "flagged_at": 1786615118.9888756
       }
     ]
   }
