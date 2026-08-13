@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 480,
+    "times_flagged": 488,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "topic": "The most viral street food trend in Morocco right now",
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786624805.8279011
+        "flagged_at": 1786630536.1221082
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786629020.1605136
+        "flagged_at": 1786630536.2500448
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786629020.169608
+        "flagged_at": 1786630536.2639794
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786629020.1786718
+        "flagged_at": 1786630536.277625
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786629020.1877828
+        "flagged_at": 1786630536.2910326
       }
     ]
   },
@@ -12627,6 +12627,191 @@
         "country": "Thailand",
         "confidence": 0.793,
         "flagged_at": 1786629020.2242498
+      }
+    ]
+  },
+  "meat and spice mix": {
+    "prompt": "meat and spice mix",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.791,
+        "flagged_at": 1786630535.9157062
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.791,
+        "flagged_at": 1786630535.9284627
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.791,
+        "flagged_at": 1786630535.9408493
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.791,
+        "flagged_at": 1786630535.9533207
+      }
+    ]
+  },
+  "moroccan pastry shop": {
+    "prompt": "moroccan pastry shop",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.698,
+        "flagged_at": 1786630535.9657042
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.698,
+        "flagged_at": 1786630535.9781215
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.698,
+        "flagged_at": 1786630535.9904883
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.698,
+        "flagged_at": 1786630536.0028982
+      }
+    ]
+  },
+  "meat and onion filling": {
+    "prompt": "meat and onion filling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.802,
+        "flagged_at": 1786630536.0153553
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.802,
+        "flagged_at": 1786630536.0277548
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.802,
+        "flagged_at": 1786630536.0400581
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.802,
+        "flagged_at": 1786630536.0523925
+      }
+    ]
+  },
+  "moroccan tea pot": {
+    "prompt": "moroccan tea pot",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.506,
+        "flagged_at": 1786630536.1360834
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.506,
+        "flagged_at": 1786630536.1508307
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.506,
+        "flagged_at": 1786630536.1649718
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.506,
+        "flagged_at": 1786630536.178537
+      }
+    ]
+  },
+  "person commenting on phone": {
+    "prompt": "person commenting on phone",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786630536.1929095
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786630536.2075279
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786630536.2219753
+      },
+      {
+        "topic": "The most viral street food trend in Morocco right now",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786630536.2360666
       }
     ]
   }
