@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 556,
+    "times_flagged": 564,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
-        "category": "food",
-        "country": "Egypt",
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786657357.0112708
+        "flagged_at": 1786660373.4923785
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786658875.4327705
+        "flagged_at": 1786660373.503492
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786658875.446605
+        "flagged_at": 1786660373.5145526
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786658875.4606
+        "flagged_at": 1786660373.5255394
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.357,
-        "flagged_at": 1786658875.474638
+        "flagged_at": 1786660373.5367684
       }
     ]
   },
@@ -14514,6 +14514,43 @@
         "country": "Mexico",
         "confidence": 0.467,
         "flagged_at": 1786658875.585817
+      }
+    ]
+  },
+  "lake thingvallavatn": {
+    "prompt": "lake thingvallavatn",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.496,
+        "flagged_at": 1786660373.5478067
+      },
+      {
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.496,
+        "flagged_at": 1786660373.5589137
+      },
+      {
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.496,
+        "flagged_at": 1786660373.5700958
+      },
+      {
+        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.496,
+        "flagged_at": 1786660373.5813081
       }
     ]
   }
