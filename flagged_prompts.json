@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 396,
+    "times_flagged": 400,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786586058.7291539
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786586058.738857
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786586058.748524
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786586058.7581537
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786586058.7678027
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786589158.4749615
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786589158.4842856
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786589158.4935534
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786589158.502872
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 332,
+    "times_flagged": 348,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Spain",
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
         "category": "travel",
-        "country": "Spain",
+        "country": "Egypt",
         "confidence": 0.701,
-        "flagged_at": 1786586058.8839073
+        "flagged_at": 1786589158.4284039
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
         "confidence": 0.701,
-        "flagged_at": 1786587557.4256554
+        "flagged_at": 1786589158.5485823
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
         "confidence": 0.701,
-        "flagged_at": 1786587557.4357536
+        "flagged_at": 1786589158.5579088
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
         "confidence": 0.701,
-        "flagged_at": 1786587557.4458091
+        "flagged_at": 1786589158.5672863
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
         "confidence": 0.701,
-        "flagged_at": 1786587557.455814
+        "flagged_at": 1786589158.5765564
       }
     ]
   },
@@ -10222,6 +10222,117 @@
         "country": "Philippines",
         "confidence": 0.83,
         "flagged_at": 1786587557.4962974
+      }
+    ]
+  },
+  "street market crowd": {
+    "prompt": "street market crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.823,
+        "flagged_at": 1786589158.2882855
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.823,
+        "flagged_at": 1786589158.2977915
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.823,
+        "flagged_at": 1786589158.3071632
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.823,
+        "flagged_at": 1786589158.3165615
+      }
+    ]
+  },
+  "nile riverbank": {
+    "prompt": "nile riverbank",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.348,
+        "flagged_at": 1786589158.4375832
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.348,
+        "flagged_at": 1786589158.4468427
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.348,
+        "flagged_at": 1786589158.4561152
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.348,
+        "flagged_at": 1786589158.4656084
+      }
+    ]
+  },
+  "passport stamp": {
+    "prompt": "passport stamp",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.812,
+        "flagged_at": 1786589158.51223
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.812,
+        "flagged_at": 1786589158.5215094
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.812,
+        "flagged_at": 1786589158.5303977
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.812,
+        "flagged_at": 1786589158.5397139
       }
     ]
   }
