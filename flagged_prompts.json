@@ -10557,5 +10557,42 @@
         "flagged_at": 1786593609.067371
       }
     ]
+  },
+  "food market in porto": {
+    "prompt": "food market in Porto",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.81,
+        "flagged_at": 1786594871.9478903
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.81,
+        "flagged_at": 1786594871.9583268
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.81,
+        "flagged_at": 1786594871.9683042
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.81,
+        "flagged_at": 1786594871.9782178
+      }
+    ]
   }
 }

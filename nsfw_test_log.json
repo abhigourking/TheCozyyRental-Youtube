@@ -11284,6 +11284,42 @@
         }
       ],
       "ran_at": 1786593608.9088466
+    },
+    {
+      "run_number": "970",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31666434364",
+      "topic": "The most viral street food trend in Portugal right now",
+      "category": "food",
+      "country": "Portugal",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "food market in Porto"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "food market in Porto"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "food market in Porto"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "food market in Porto"
+        }
+      ],
+      "ran_at": 1786594871.936033
     }
   ]
 }
