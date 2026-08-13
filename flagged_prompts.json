@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 440,
+    "times_flagged": 444,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.357,
-        "flagged_at": 1786602393.9547749
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786610115.5340261
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786610115.544451
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786610115.5549169
-      },
       {
         "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
         "country": "Greece",
         "confidence": 0.357,
         "flagged_at": 1786610115.5654387
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786611933.2728975
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786611933.2834246
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786611933.2939856
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786611933.3045058
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 380,
+    "times_flagged": 388,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
         "category": "travel",
         "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786608488.9046695
+        "flagged_at": 1786611933.4316828
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786610115.4506783
+        "flagged_at": 1786611933.4423516
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786610115.4610093
+        "flagged_at": 1786611933.4673257
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786610115.4714124
+        "flagged_at": 1786611933.4785333
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786610115.481811
+        "flagged_at": 1786611933.4891331
       }
     ]
   },
@@ -11369,6 +11369,154 @@
         "country": "Greece",
         "confidence": 0.794,
         "flagged_at": 1786610115.52353
+      }
+    ]
+  },
+  "french and japanese flags": {
+    "prompt": "French and Japanese flags",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.48,
+        "flagged_at": 1786611933.1877606
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.48,
+        "flagged_at": 1786611933.1990533
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.48,
+        "flagged_at": 1786611933.2095056
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.48,
+        "flagged_at": 1786611933.2200096
+      }
+    ]
+  },
+  "japanese pop culture fans": {
+    "prompt": "Japanese pop culture fans",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.307,
+        "flagged_at": 1786611933.2306225
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.307,
+        "flagged_at": 1786611933.2412193
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.307,
+        "flagged_at": 1786611933.2517729
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.307,
+        "flagged_at": 1786611933.2622833
+      }
+    ]
+  },
+  "historical photos of tokyo": {
+    "prompt": "Historical photos of Tokyo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.449,
+        "flagged_at": 1786611933.3150482
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.449,
+        "flagged_at": 1786611933.3255532
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.449,
+        "flagged_at": 1786611933.3360767
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.449,
+        "flagged_at": 1786611933.346621
+      }
+    ]
+  },
+  "tourists walking around tokyo": {
+    "prompt": "Tourists walking around Tokyo",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.384,
+        "flagged_at": 1786611933.3571901
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.384,
+        "flagged_at": 1786611933.3680336
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.384,
+        "flagged_at": 1786611933.3786135
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.384,
+        "flagged_at": 1786611933.389169
       }
     ]
   }
