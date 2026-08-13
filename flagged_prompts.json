@@ -12481,5 +12481,79 @@
         "flagged_at": 1786626180.3885975
       }
     ]
+  },
+  "traditional cooking pot": {
+    "prompt": "traditional cooking pot",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.423,
+        "flagged_at": 1786627761.9924397
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.423,
+        "flagged_at": 1786627762.0043507
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.423,
+        "flagged_at": 1786627762.0153055
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.423,
+        "flagged_at": 1786627762.0263462
+      }
+    ]
+  },
+  "moroccan tea pouring": {
+    "prompt": "moroccan tea pouring",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.756,
+        "flagged_at": 1786627762.0372264
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.756,
+        "flagged_at": 1786627762.0483963
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.756,
+        "flagged_at": 1786627762.0593345
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.756,
+        "flagged_at": 1786627762.0704024
+      }
+    ]
   }
 }

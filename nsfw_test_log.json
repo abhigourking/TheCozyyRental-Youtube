@@ -13395,6 +13395,66 @@
         }
       ],
       "ran_at": 1786626180.3387563
+    },
+    {
+      "run_number": "995",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31704218655",
+      "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+      "category": "food",
+      "country": "Morocco",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.423,
+          "prompt": "traditional cooking pot"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.423,
+          "prompt": "traditional cooking pot"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.423,
+          "prompt": "traditional cooking pot"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.423,
+          "prompt": "traditional cooking pot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "moroccan tea pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "moroccan tea pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "moroccan tea pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "moroccan tea pouring"
+        }
+      ],
+      "ran_at": 1786627761.9793506
     }
   ]
 }
