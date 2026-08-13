@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 500,
+    "times_flagged": 504,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786645509.6988618
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786645509.9332745
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786645509.9471087
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786645509.9609544
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
         "flagged_at": 1786645509.9747424
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786646947.916157
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786646947.9301836
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786646947.9440613
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.701,
+        "flagged_at": 1786646947.9577231
       }
     ]
   },
@@ -13922,6 +13922,80 @@
         "country": "Indonesia",
         "confidence": 0.811,
         "flagged_at": 1786645509.9194763
+      }
+    ]
+  },
+  "blue cityscape": {
+    "prompt": "blue cityscape",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.727,
+        "flagged_at": 1786646947.8074362
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.727,
+        "flagged_at": 1786646947.8214815
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.727,
+        "flagged_at": 1786646947.8350284
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.727,
+        "flagged_at": 1786646947.8485417
+      }
+    ]
+  },
+  "moroccan sweets": {
+    "prompt": "moroccan sweets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.717,
+        "flagged_at": 1786646947.8619463
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.717,
+        "flagged_at": 1786646947.8754005
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.717,
+        "flagged_at": 1786646947.888884
+      },
+      {
+        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.717,
+        "flagged_at": 1786646947.9024725
       }
     ]
   }
