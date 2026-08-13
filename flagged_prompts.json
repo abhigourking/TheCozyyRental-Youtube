@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 556,
+    "times_flagged": 560,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786661924.3330104
-      },
-      {
-        "topic": "A hidden gem destination in India most tourists don't know about",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786663238.0256388
-      },
-      {
-        "topic": "A hidden gem destination in India most tourists don't know about",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786663238.0403898
-      },
-      {
-        "topic": "A hidden gem destination in India most tourists don't know about",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786663238.055103
-      },
       {
         "topic": "A hidden gem destination in India most tourists don't know about",
         "category": "travel",
         "country": "India",
         "confidence": 0.701,
         "flagged_at": 1786663238.06984
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786664989.7064204
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786664989.7212932
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786664989.7362244
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786664989.7512565
       }
     ]
   },
@@ -14699,6 +14699,191 @@
         "country": "India",
         "confidence": 0.794,
         "flagged_at": 1786663238.0109048
+      }
+    ]
+  },
+  "istanbul street food night": {
+    "prompt": " Istanbul street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.779,
+        "flagged_at": 1786664989.390937
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.779,
+        "flagged_at": 1786664989.406352
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.779,
+        "flagged_at": 1786664989.4212785
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.779,
+        "flagged_at": 1786664989.4361534
+      }
+    ]
+  },
+  "herbs and spices market": {
+    "prompt": "herbs and spices market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.821,
+        "flagged_at": 1786664989.450803
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.821,
+        "flagged_at": 1786664989.465634
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.821,
+        "flagged_at": 1786664989.4806905
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.821,
+        "flagged_at": 1786664989.4955204
+      }
+    ]
+  },
+  "bite taken out": {
+    "prompt": "bite taken out",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.865,
+        "flagged_at": 1786664989.5103467
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.865,
+        "flagged_at": 1786664989.5253057
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.865,
+        "flagged_at": 1786664989.5401857
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.865,
+        "flagged_at": 1786664989.5550337
+      }
+    ]
+  },
+  "flavors combining": {
+    "prompt": "flavors combining",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.832,
+        "flagged_at": 1786664989.5699134
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.832,
+        "flagged_at": 1786664989.6010604
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.832,
+        "flagged_at": 1786664989.6165264
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.832,
+        "flagged_at": 1786664989.6314812
+      }
+    ]
+  },
+  "foodie community shot": {
+    "prompt": "foodie community shot",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.767,
+        "flagged_at": 1786664989.6464694
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.767,
+        "flagged_at": 1786664989.66136
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.767,
+        "flagged_at": 1786664989.6764433
+      },
+      {
+        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.767,
+        "flagged_at": 1786664989.6913514
       }
     ]
   }
