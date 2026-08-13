@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 548,
+    "times_flagged": 552,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786654192.8991168
-      },
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786654193.0448203
-      },
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786654193.0590029
-      },
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786654193.0730858
-      },
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.357,
         "flagged_at": 1786654193.0871623
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786657356.984299
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786657356.9932435
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786657357.0022712
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786657357.0112708
       }
     ]
   },
@@ -14292,6 +14292,80 @@
         "country": "Portugal",
         "confidence": 0.813,
         "flagged_at": 1786655800.9003348
+      }
+    ]
+  },
+  "foodie comments section": {
+    "prompt": "foodie comments section",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786657356.9123566
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786657356.921584
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786657356.930522
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.808,
+        "flagged_at": 1786657356.9394822
+      }
+    ]
+  },
+  "social media post": {
+    "prompt": "social media post",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.819,
+        "flagged_at": 1786657356.948392
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.819,
+        "flagged_at": 1786657356.957381
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.819,
+        "flagged_at": 1786657356.966368
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.819,
+        "flagged_at": 1786657356.97529
       }
     ]
   }
