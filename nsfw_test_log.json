@@ -13359,6 +13359,42 @@
         }
       ],
       "ran_at": 1786624805.413351
+    },
+    {
+      "run_number": "994",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31702333549",
+      "topic": "A bucket-list experience you can only have in Morocco",
+      "category": "travel",
+      "country": "Morocco",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.486,
+          "prompt": "travel guidebook"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.486,
+          "prompt": "travel guidebook"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.486,
+          "prompt": "travel guidebook"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.486,
+          "prompt": "travel guidebook"
+        }
+      ],
+      "ran_at": 1786626180.3387563
     }
   ]
 }

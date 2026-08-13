@@ -12444,5 +12444,42 @@
         "flagged_at": 1786624805.7542477
       }
     ]
+  },
+  "travel guidebook": {
+    "prompt": "travel guidebook",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.486,
+        "flagged_at": 1786626180.352378
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.486,
+        "flagged_at": 1786626180.3648784
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.486,
+        "flagged_at": 1786626180.3766532
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.486,
+        "flagged_at": 1786626180.3885975
+      }
+    ]
   }
 }
