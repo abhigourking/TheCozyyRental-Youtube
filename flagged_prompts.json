@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 408,
+    "times_flagged": 416,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Morocco",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786592196.9881163
+        "flagged_at": 1786597810.4078472
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Morocco",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786592197.0371504
+        "flagged_at": 1786597810.4592314
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Morocco",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786592197.0469358
+        "flagged_at": 1786597810.469783
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Morocco",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786592197.056707
+        "flagged_at": 1786597810.480149
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Morocco",
-        "category": "travel",
-        "country": "Morocco",
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786592197.0664907
+        "flagged_at": 1786597810.490433
       }
     ]
   },
@@ -10629,6 +10629,80 @@
         "country": "Brazil",
         "confidence": 0.58,
         "flagged_at": 1786596370.0130959
+      }
+    ]
+  },
+  "traditional peruvian dishes": {
+    "prompt": "traditional Peruvian dishes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.726,
+        "flagged_at": 1786597810.3357122
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.726,
+        "flagged_at": 1786597810.3465073
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.726,
+        "flagged_at": 1786597810.3566725
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.726,
+        "flagged_at": 1786597810.3669906
+      }
+    ]
+  },
+  "food and travel photos": {
+    "prompt": "food and travel photos",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.764,
+        "flagged_at": 1786597810.41813
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.764,
+        "flagged_at": 1786597810.4283688
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.764,
+        "flagged_at": 1786597810.438662
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Peru",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.764,
+        "flagged_at": 1786597810.4489913
       }
     ]
   }
