@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 476,
+    "times_flagged": 480,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786624805.572031
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786624805.8002577
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786624805.809488
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786624805.8186824
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
         "flagged_at": 1786624805.8279011
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786629020.1605136
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786629020.169608
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786629020.1786718
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786629020.1877828
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 412,
+    "times_flagged": 420,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786624805.6082518
+        "flagged_at": 1786629020.1151567
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786624805.7634304
+        "flagged_at": 1786629020.2334023
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786624805.7726262
+        "flagged_at": 1786629020.2426386
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786624805.781775
+        "flagged_at": 1786629020.2654202
       },
       {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786624805.7910974
+        "flagged_at": 1786629020.2752202
       }
     ]
   },
@@ -12553,6 +12553,80 @@
         "country": "Morocco",
         "confidence": 0.756,
         "flagged_at": 1786627762.0704024
+      }
+    ]
+  },
+  "rock climbing": {
+    "prompt": "rock climbing",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.368,
+        "flagged_at": 1786629020.1241677
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.368,
+        "flagged_at": 1786629020.1332588
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.368,
+        "flagged_at": 1786629020.1423087
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.368,
+        "flagged_at": 1786629020.1513882
+      }
+    ]
+  },
+  "local vendors": {
+    "prompt": "local vendors",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.793,
+        "flagged_at": 1786629020.1969235
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.793,
+        "flagged_at": 1786629020.206075
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.793,
+        "flagged_at": 1786629020.2151227
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.793,
+        "flagged_at": 1786629020.2242498
       }
     ]
   }
