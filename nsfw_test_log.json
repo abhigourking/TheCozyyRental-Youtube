@@ -11812,6 +11812,66 @@
         }
       ],
       "ran_at": 1786602393.750263
+    },
+    {
+      "run_number": "977",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31674790944",
+      "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "eating banh khot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "eating banh khot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "eating banh khot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "eating banh khot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "Vietnam travel brochure"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "Vietnam travel brochure"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "Vietnam travel brochure"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "Vietnam travel brochure"
+        }
+      ],
+      "ran_at": 1786603825.863692
     }
   ]
 }

@@ -10964,5 +10964,79 @@
         "flagged_at": 1786602393.9141433
       }
     ]
+  },
+  "eating banh khot": {
+    "prompt": "eating banh khot",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1786603825.8739269
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1786603825.8821883
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1786603825.8899539
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1786603825.8977473
+      }
+    ]
+  },
+  "vietnam travel brochure": {
+    "prompt": "Vietnam travel brochure",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.77,
+        "flagged_at": 1786603825.906354
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.77,
+        "flagged_at": 1786603825.9151702
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.77,
+        "flagged_at": 1786603825.9239302
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.77,
+        "flagged_at": 1786603825.989432
+      }
+    ]
   }
 }
