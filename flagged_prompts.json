@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 400,
+    "times_flagged": 408,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Spain",
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
         "category": "travel",
-        "country": "Spain",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786586058.7678027
+        "flagged_at": 1786592196.9881163
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786589158.4749615
+        "flagged_at": 1786592197.0371504
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786589158.4842856
+        "flagged_at": 1786592197.0469358
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786589158.4935534
+        "flagged_at": 1786592197.056707
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786589158.502872
+        "flagged_at": 1786592197.0664907
       }
     ]
   },
@@ -10407,6 +10407,80 @@
         "country": "Greece",
         "confidence": 0.786,
         "flagged_at": 1786590652.177765
+      }
+    ]
+  },
+  "jemaa el-fnaa daytime": {
+    "prompt": "Jemaa el-Fnaa daytime",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.787,
+        "flagged_at": 1786592196.9188914
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.787,
+        "flagged_at": 1786592196.9290054
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.787,
+        "flagged_at": 1786592196.939011
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.787,
+        "flagged_at": 1786592196.948734
+      }
+    ]
+  },
+  "grilled meats marrakech": {
+    "prompt": "grilled meats Marrakech",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.815,
+        "flagged_at": 1786592196.9978385
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.815,
+        "flagged_at": 1786592197.007625
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.815,
+        "flagged_at": 1786592197.0175893
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Morocco",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.815,
+        "flagged_at": 1786592197.0273292
       }
     ]
   }
