@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 424,
+    "times_flagged": 428,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786599384.8135674
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786599384.8216975
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786599384.829615
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786599384.837616
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
         "flagged_at": 1786599384.8459094
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786600930.1856003
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786600930.195777
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786600930.2059069
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.357,
+        "flagged_at": 1786600930.2161162
       }
     ]
   },
@@ -10851,6 +10851,43 @@
         "country": "Morocco",
         "confidence": 0.823,
         "flagged_at": 1786599384.7373958
+      }
+    ]
+  },
+  "paint cans and brushes": {
+    "prompt": "paint cans and brushes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.837,
+        "flagged_at": 1786600930.144387
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.837,
+        "flagged_at": 1786600930.1551058
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.837,
+        "flagged_at": 1786600930.1652074
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.837,
+        "flagged_at": 1786600930.1754158
       }
     ]
   }
