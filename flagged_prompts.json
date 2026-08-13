@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 552,
+    "times_flagged": 556,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786654193.0871623
-      },
-      {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786657356.984299
-      },
-      {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786657356.9932435
-      },
-      {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.357,
-        "flagged_at": 1786657357.0022712
-      },
       {
         "topic": "A must-try traditional dish from Egypt and the story behind it",
         "category": "food",
         "country": "Egypt",
         "confidence": 0.357,
         "flagged_at": 1786657357.0112708
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786658875.4327705
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786658875.446605
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786658875.4606
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786658875.474638
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 532,
+    "times_flagged": 544,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786655800.85875
+        "flagged_at": 1786658875.530141
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786655800.9107482
+        "flagged_at": 1786658875.5997908
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786655800.9211838
+        "flagged_at": 1786658875.6135972
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786655800.9316313
+        "flagged_at": 1786658875.6275883
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786655800.9420214
+        "flagged_at": 1786658875.6416333
       }
     ]
   },
@@ -14366,6 +14366,154 @@
         "country": "Egypt",
         "confidence": 0.819,
         "flagged_at": 1786657356.97529
+      }
+    ]
+  },
+  "mexican street food vendor": {
+    "prompt": "mexican street food vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.758,
+        "flagged_at": 1786658875.1978593
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.758,
+        "flagged_at": 1786658875.2120216
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.758,
+        "flagged_at": 1786658875.2257822
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.758,
+        "flagged_at": 1786658875.2395453
+      }
+    ]
+  },
+  "grilled elote on the cob": {
+    "prompt": "grilled elote on the cob",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.479,
+        "flagged_at": 1786658875.3083065
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.479,
+        "flagged_at": 1786658875.3222268
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.479,
+        "flagged_at": 1786658875.3360772
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.479,
+        "flagged_at": 1786658875.3498418
+      }
+    ]
+  },
+  "elote being slathered with mayo": {
+    "prompt": "elote being slathered with mayo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.777,
+        "flagged_at": 1786658875.3635807
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.777,
+        "flagged_at": 1786658875.3777843
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.777,
+        "flagged_at": 1786658875.3916144
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.777,
+        "flagged_at": 1786658875.4185882
+      }
+    ]
+  },
+  "foodie traveling in mexico": {
+    "prompt": "foodie traveling in mexico",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.467,
+        "flagged_at": 1786658875.5440302
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.467,
+        "flagged_at": 1786658875.55794
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.467,
+        "flagged_at": 1786658875.5718548
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.467,
+        "flagged_at": 1786658875.585817
       }
     ]
   }
