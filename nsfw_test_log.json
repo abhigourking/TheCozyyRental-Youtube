@@ -11320,6 +11320,42 @@
         }
       ],
       "ran_at": 1786594871.936033
+    },
+    {
+      "run_number": "971",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31667539915",
+      "topic": "A viral travel spot in Brazil that's all over social media right now",
+      "category": "travel",
+      "country": "Brazil",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "person holding a plate of food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "person holding a plate of food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "person holding a plate of food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "person holding a plate of food"
+        }
+      ],
+      "ran_at": 1786596369.970989
     }
   ]
 }

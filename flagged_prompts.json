@@ -10594,5 +10594,42 @@
         "flagged_at": 1786594871.9782178
       }
     ]
+  },
+  "person holding a plate of food": {
+    "prompt": "person holding a plate of food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Brazil that's all over social media right now",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.58,
+        "flagged_at": 1786596369.982641
+      },
+      {
+        "topic": "A viral travel spot in Brazil that's all over social media right now",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.58,
+        "flagged_at": 1786596369.993097
+      },
+      {
+        "topic": "A viral travel spot in Brazil that's all over social media right now",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.58,
+        "flagged_at": 1786596370.003064
+      },
+      {
+        "topic": "A viral travel spot in Brazil that's all over social media right now",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.58,
+        "flagged_at": 1786596370.0130959
+      }
+    ]
   }
 }
