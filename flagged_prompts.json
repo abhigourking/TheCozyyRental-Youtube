@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 564,
+    "times_flagged": 572,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786660373.4923785
+        "flagged_at": 1786661924.0951416
       },
       {
-        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786660373.503492
+        "flagged_at": 1786661924.4037228
       },
       {
-        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786660373.5145526
+        "flagged_at": 1786661924.417926
       },
       {
-        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786660373.5255394
+        "flagged_at": 1786661924.432197
       },
       {
-        "topic": "A viral travel spot in Iceland that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Vietnam",
         "confidence": 0.357,
-        "flagged_at": 1786660373.5367684
+        "flagged_at": 1786661924.4463112
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 544,
+    "times_flagged": 552,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786658875.530141
+        "flagged_at": 1786661924.2065933
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786658875.5997908
+        "flagged_at": 1786661924.2908566
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786658875.6135972
+        "flagged_at": 1786661924.3047886
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786658875.6275883
+        "flagged_at": 1786661924.3187497
       },
       {
-        "topic": "The most viral street food trend in Mexico right now",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786658875.6416333
+        "flagged_at": 1786661924.3330104
       }
     ]
   },
@@ -14551,6 +14551,117 @@
         "country": "Iceland",
         "confidence": 0.496,
         "flagged_at": 1786660373.5813081
+      }
+    ]
+  },
+  "cave exploration": {
+    "prompt": "cave exploration",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.68,
+        "flagged_at": 1786661924.1090484
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.68,
+        "flagged_at": 1786661924.1229937
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.68,
+        "flagged_at": 1786661924.1370022
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.68,
+        "flagged_at": 1786661924.1508493
+      }
+    ]
+  },
+  "seafood market": {
+    "prompt": "seafood market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.824,
+        "flagged_at": 1786661924.2204232
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.824,
+        "flagged_at": 1786661924.2347791
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.824,
+        "flagged_at": 1786661924.2623231
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.824,
+        "flagged_at": 1786661924.2769227
+      }
+    ]
+  },
+  "local market produce": {
+    "prompt": "local market produce",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.822,
+        "flagged_at": 1786661924.3473172
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.822,
+        "flagged_at": 1786661924.3612802
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.822,
+        "flagged_at": 1786661924.3755717
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.822,
+        "flagged_at": 1786661924.3896863
       }
     ]
   }
