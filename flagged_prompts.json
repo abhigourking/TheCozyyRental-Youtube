@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 524,
+    "times_flagged": 532,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "Greece",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786640930.0465896
+        "flagged_at": 1786645509.753835
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786643980.1541903
+        "flagged_at": 1786645509.9885345
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786643980.167831
+        "flagged_at": 1786645510.0023534
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786643980.1814592
+        "flagged_at": 1786645510.0163882
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786643980.1950634
+        "flagged_at": 1786645510.0302126
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 492,
+    "times_flagged": 500,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786643980.2495067
+        "flagged_at": 1786645509.6988618
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786643980.2631283
+        "flagged_at": 1786645509.9332745
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786643980.2769194
+        "flagged_at": 1786645509.9471087
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786643980.2906463
+        "flagged_at": 1786645509.9609544
       },
       {
-        "topic": "A viral travel spot in India that's all over social media right now",
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
         "category": "travel",
-        "country": "India",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786643980.3042972
+        "flagged_at": 1786645509.9747424
       }
     ]
   },
@@ -13700,6 +13700,228 @@
         "country": "India",
         "confidence": 0.483,
         "flagged_at": 1786643980.1405866
+      }
+    ]
+  },
+  "relief panel details": {
+    "prompt": "relief panel details",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.76,
+        "flagged_at": 1786645509.4781623
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.76,
+        "flagged_at": 1786645509.4921227
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.76,
+        "flagged_at": 1786645509.505741
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.76,
+        "flagged_at": 1786645509.5192823
+      }
+    ]
+  },
+  "carved stone storytelling": {
+    "prompt": "carved stone storytelling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.693,
+        "flagged_at": 1786645509.5328572
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.693,
+        "flagged_at": 1786645509.5464716
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.693,
+        "flagged_at": 1786645509.560143
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.693,
+        "flagged_at": 1786645509.5737667
+      }
+    ]
+  },
+  "historical scenes": {
+    "prompt": "historical scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.738,
+        "flagged_at": 1786645509.587462
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.738,
+        "flagged_at": 1786645509.6011777
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.738,
+        "flagged_at": 1786645509.6148462
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.738,
+        "flagged_at": 1786645509.628487
+      }
+    ]
+  },
+  "local cuisine": {
+    "prompt": "local cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1786645509.7676759
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1786645509.7813957
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1786645509.7951767
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1786645509.8089926
+      }
+    ]
+  },
+  "palm sugar production": {
+    "prompt": "palm sugar production",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786645509.8226972
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786645509.8364856
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786645509.8502853
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786645509.8641248
+      }
+    ]
+  },
+  "traditional snacks": {
+    "prompt": "traditional snacks",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.811,
+        "flagged_at": 1786645509.8779035
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.811,
+        "flagged_at": 1786645509.8917456
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.811,
+        "flagged_at": 1786645509.9056199
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.811,
+        "flagged_at": 1786645509.9194763
       }
     ]
   }
