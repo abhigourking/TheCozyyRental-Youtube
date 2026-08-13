@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 524,
+    "times_flagged": 532,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Greece",
+        "topic": "The most breathtaking place to visit in Portugal",
         "category": "travel",
-        "country": "Greece",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786649930.3323107
+        "flagged_at": 1786655800.85875
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786654193.1013408
+        "flagged_at": 1786655800.9107482
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786654193.1157184
+        "flagged_at": 1786655800.9211838
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786654193.1303577
+        "flagged_at": 1786655800.9316313
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786654193.144854
+        "flagged_at": 1786655800.9420214
       }
     ]
   },
@@ -14218,6 +14218,80 @@
         "country": "South Korea",
         "confidence": 0.666,
         "flagged_at": 1786654193.030849
+      }
+    ]
+  },
+  "traditional portuguese pastry": {
+    "prompt": "traditional portuguese pastry",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.827,
+        "flagged_at": 1786655800.7852697
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.827,
+        "flagged_at": 1786655800.7961707
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.827,
+        "flagged_at": 1786655800.8066535
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.827,
+        "flagged_at": 1786655800.817019
+      }
+    ]
+  },
+  "portuguese folk dance": {
+    "prompt": "portuguese folk dance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1786655800.8690965
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1786655800.8794818
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1786655800.8899086
+      },
+      {
+        "topic": "The most breathtaking place to visit in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1786655800.9003348
       }
     ]
   }
