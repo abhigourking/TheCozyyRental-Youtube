@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 468,
+    "times_flagged": 476,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786622982.9817278
+        "flagged_at": 1786624805.572031
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786622983.0386624
+        "flagged_at": 1786624805.8002577
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786622983.0500033
+        "flagged_at": 1786624805.809488
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786622983.0616229
+        "flagged_at": 1786624805.8186824
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786622983.0728931
+        "flagged_at": 1786624805.8279011
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 404,
+    "times_flagged": 412,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786618353.7108357
+        "flagged_at": 1786624805.6082518
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786622983.1455934
+        "flagged_at": 1786624805.7634304
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786622983.1569557
+        "flagged_at": 1786624805.7726262
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786622983.1684213
+        "flagged_at": 1786624805.781775
       },
       {
-        "topic": "A popular food market or food street worth visiting in Iceland",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786622983.1797698
+        "flagged_at": 1786624805.7910974
       }
     ]
   },
@@ -12183,6 +12183,265 @@
         "country": "Iceland",
         "confidence": 0.786,
         "flagged_at": 1786622983.1342468
+      }
+    ]
+  },
+  "flaky pastry layers": {
+    "prompt": "flaky pastry layers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786624805.4241726
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786624805.4338605
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786624805.4428658
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.827,
+        "flagged_at": 1786624805.4516792
+      }
+    ]
+  },
+  "meat and spice mixture": {
+    "prompt": "meat and spice mixture",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.783,
+        "flagged_at": 1786624805.460586
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.783,
+        "flagged_at": 1786624805.4694974
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.783,
+        "flagged_at": 1786624805.478476
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.783,
+        "flagged_at": 1786624805.487403
+      }
+    ]
+  },
+  "traditional moroccan dish": {
+    "prompt": "traditional moroccan dish",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.798,
+        "flagged_at": 1786624805.4963043
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.798,
+        "flagged_at": 1786624805.5053449
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.798,
+        "flagged_at": 1786624805.5143237
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.798,
+        "flagged_at": 1786624805.5232637
+      }
+    ]
+  },
+  "moroccan cultural heritage": {
+    "prompt": "moroccan cultural heritage",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.561,
+        "flagged_at": 1786624805.617353
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.561,
+        "flagged_at": 1786624805.6263905
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.561,
+        "flagged_at": 1786624805.63554
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.561,
+        "flagged_at": 1786624805.6445827
+      }
+    ]
+  },
+  "travel and food blogger": {
+    "prompt": "travel and food blogger",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.778,
+        "flagged_at": 1786624805.6536663
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.778,
+        "flagged_at": 1786624805.6627588
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.778,
+        "flagged_at": 1786624805.6718884
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.778,
+        "flagged_at": 1786624805.6809561
+      }
+    ]
+  },
+  "moroccan food recipes": {
+    "prompt": "moroccan food recipes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.619,
+        "flagged_at": 1786624805.6900678
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.619,
+        "flagged_at": 1786624805.6992207
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.619,
+        "flagged_at": 1786624805.7083821
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.619,
+        "flagged_at": 1786624805.7175114
+      }
+    ]
+  },
+  "global cuisine exploration": {
+    "prompt": "global cuisine exploration",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786624805.7266643
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786624805.7358353
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786624805.7449956
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.751,
+        "flagged_at": 1786624805.7542477
       }
     ]
   }
