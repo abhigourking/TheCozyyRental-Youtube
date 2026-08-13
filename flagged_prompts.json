@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 360,
+    "times_flagged": 372,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
+        "category": "travel",
+        "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786593609.028287
+        "flagged_at": 1786606834.8263402
       },
       {
-        "topic": "The most breathtaking place to visit in Vietnam",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786602393.7622256
+        "flagged_at": 1786606834.836887
       },
       {
-        "topic": "The most breathtaking place to visit in Vietnam",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786602393.7727194
+        "flagged_at": 1786606834.84738
       },
       {
-        "topic": "The most breathtaking place to visit in Vietnam",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786602393.7828586
+        "flagged_at": 1786606834.8578517
       },
       {
-        "topic": "The most breathtaking place to visit in Vietnam",
+        "topic": "A surprising fact about a famous tourist attraction in Iceland",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786602393.7928772
+        "flagged_at": 1786606834.8682864
       }
     ]
   },
