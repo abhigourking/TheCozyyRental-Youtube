@@ -13982,6 +13982,66 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786635155.155427
+    },
+    {
+      "run_number": "1002",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31717312545",
+      "topic": "The most viral street food trend in Japan right now",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "Takoyaki balls cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "Takoyaki balls cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "Takoyaki balls cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "Takoyaki balls cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786636510.4232814
     }
   ]
 }
