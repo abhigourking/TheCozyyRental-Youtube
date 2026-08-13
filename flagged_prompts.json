@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 496,
+    "times_flagged": 500,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786632099.5517337
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786632099.6127522
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786632099.6249707
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786632099.637073
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
         "flagged_at": 1786632099.6494603
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786638149.9970014
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786638150.0231512
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786638150.036396
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786638150.0491965
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 436,
+    "times_flagged": 448,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Japan that's become an internet obsession",
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
-        "country": "Japan",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786633726.4228926
+        "flagged_at": 1786638150.205282
       },
       {
-        "topic": "The most viral street food trend in Japan right now",
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
-        "country": "Japan",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786636510.4861634
+        "flagged_at": 1786638150.3231082
       },
       {
-        "topic": "The most viral street food trend in Japan right now",
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
-        "country": "Japan",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786636510.4980514
+        "flagged_at": 1786638150.3363745
       },
       {
-        "topic": "The most viral street food trend in Japan right now",
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
-        "country": "Japan",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786636510.509852
+        "flagged_at": 1786638150.3494442
       },
       {
-        "topic": "The most viral street food trend in Japan right now",
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
-        "country": "Japan",
+        "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786636510.5216975
+        "flagged_at": 1786638150.362495
       }
     ]
   },
@@ -13071,6 +13071,228 @@
         "country": "Japan",
         "confidence": 0.795,
         "flagged_at": 1786636510.4742854
+      }
+    ]
+  },
+  "pancake being served": {
+    "prompt": "pancake being served",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.642,
+        "flagged_at": 1786638149.8433685
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.642,
+        "flagged_at": 1786638149.8565729
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.642,
+        "flagged_at": 1786638149.869384
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.642,
+        "flagged_at": 1786638149.8821099
+      }
+    ]
+  },
+  "shrimp and pork being cooked": {
+    "prompt": "shrimp and pork being cooked",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.805,
+        "flagged_at": 1786638149.8949049
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.805,
+        "flagged_at": 1786638149.9076562
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.805,
+        "flagged_at": 1786638149.920384
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.805,
+        "flagged_at": 1786638149.9332168
+      }
+    ]
+  },
+  "filling being wrapped": {
+    "prompt": "filling being wrapped",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1786638149.9459045
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1786638149.9587488
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1786638149.971497
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1786638149.9842768
+      }
+    ]
+  },
+  "vietnam travel poster": {
+    "prompt": "vietnam travel poster",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.748,
+        "flagged_at": 1786638150.113735
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.748,
+        "flagged_at": 1786638150.1269705
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.748,
+        "flagged_at": 1786638150.1399264
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.748,
+        "flagged_at": 1786638150.1529372
+      }
+    ]
+  },
+  "subscription bell ringing": {
+    "prompt": "subscription bell ringing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.826,
+        "flagged_at": 1786638150.2182279
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.826,
+        "flagged_at": 1786638150.2313359
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.826,
+        "flagged_at": 1786638150.2444603
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.826,
+        "flagged_at": 1786638150.2577906
+      }
+    ]
+  },
+  "new video notifications": {
+    "prompt": "new video notifications",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1786638150.2708719
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1786638150.284005
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1786638150.2971103
+      },
+      {
+        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1786638150.310125
       }
     ]
   }
