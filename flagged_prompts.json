@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 488,
+    "times_flagged": 496,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Morocco right now",
+        "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786630536.1221082
+        "flagged_at": 1786632099.5517337
       },
       {
-        "topic": "The most viral street food trend in Morocco right now",
+        "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786630536.2500448
+        "flagged_at": 1786632099.6127522
       },
       {
-        "topic": "The most viral street food trend in Morocco right now",
+        "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786630536.2639794
+        "flagged_at": 1786632099.6249707
       },
       {
-        "topic": "The most viral street food trend in Morocco right now",
+        "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786630536.277625
+        "flagged_at": 1786632099.637073
       },
       {
-        "topic": "The most viral street food trend in Morocco right now",
+        "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
-        "country": "Morocco",
+        "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786630536.2910326
+        "flagged_at": 1786632099.6494603
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 420,
+    "times_flagged": 428,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786629020.1151567
+        "flagged_at": 1786632099.3902369
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786629020.2334023
+        "flagged_at": 1786632099.5639772
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786629020.2426386
+        "flagged_at": 1786632099.5761735
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786629020.2654202
+        "flagged_at": 1786632099.5883365
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786629020.2752202
+        "flagged_at": 1786632099.6006005
       }
     ]
   },
@@ -12812,6 +12812,191 @@
         "country": "Morocco",
         "confidence": 0.827,
         "flagged_at": 1786630536.2360666
+      }
+    ]
+  },
+  "street food martabak": {
+    "prompt": "street food martabak",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.745,
+        "flagged_at": 1786632099.2058136
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.745,
+        "flagged_at": 1786632099.2187614
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.745,
+        "flagged_at": 1786632099.23061
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.745,
+        "flagged_at": 1786632099.2424133
+      }
+    ]
+  },
+  "fresh fruit toppings": {
+    "prompt": "fresh fruit toppings",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.2544978
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.2664332
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.2784195
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.2905045
+      }
+    ]
+  },
+  "street food tour guide": {
+    "prompt": "street food tour guide",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.3024755
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.3143978
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.3264618
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1786632099.339128
+      }
+    ]
+  },
+  "follow button smartphone": {
+    "prompt": "follow button smartphone",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786632099.4030056
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786632099.4300995
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786632099.4429302
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.825,
+        "flagged_at": 1786632099.454962
+      }
+    ]
+  },
+  "indonesian flag waving": {
+    "prompt": "Indonesian flag waving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.649,
+        "flagged_at": 1786632099.4669516
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.649,
+        "flagged_at": 1786632099.4789608
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.649,
+        "flagged_at": 1786632099.4909809
+      },
+      {
+        "topic": "The most viral street food trend in Indonesia right now",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.649,
+        "flagged_at": 1786632099.503028
       }
     ]
   }
