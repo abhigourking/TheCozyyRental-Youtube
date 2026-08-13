@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 428,
+    "times_flagged": 432,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.701,
-        "flagged_at": 1786632099.3902369
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786632099.5639772
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786632099.5761735
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786632099.5883365
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
         "flagged_at": 1786632099.6006005
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786633726.39179
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786633726.4021778
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786633726.4126294
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786633726.4228926
       }
     ]
   },
@@ -12997,6 +12997,43 @@
         "country": "Indonesia",
         "confidence": 0.649,
         "flagged_at": 1786632099.503028
+      }
+    ]
+  },
+  "smiling foodie face": {
+    "prompt": "smiling foodie face",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.555,
+        "flagged_at": 1786633726.331469
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.555,
+        "flagged_at": 1786633726.3428838
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.555,
+        "flagged_at": 1786633726.3535845
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.555,
+        "flagged_at": 1786633726.3813398
       }
     ]
   }

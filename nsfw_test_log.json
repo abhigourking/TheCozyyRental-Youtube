@@ -13911,6 +13911,66 @@
         }
       ],
       "ran_at": 1786632099.1907675
+    },
+    {
+      "run_number": "1000",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31712782445",
+      "topic": "A comfort food from Japan that's become an internet obsession",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.555,
+          "prompt": "smiling foodie face"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.555,
+          "prompt": "smiling foodie face"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.555,
+          "prompt": "smiling foodie face"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.555,
+          "prompt": "smiling foodie face"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786633726.3184826
     }
   ]
 }
