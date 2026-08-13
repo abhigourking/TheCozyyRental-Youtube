@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 364,
+    "times_flagged": 368,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Iceland",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.357,
-        "flagged_at": 1786573348.7971032
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786576554.944012
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786576554.952589
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786576554.961158
-      },
       {
         "topic": "The most breathtaking place to visit in India",
         "category": "travel",
         "country": "India",
         "confidence": 0.357,
         "flagged_at": 1786576554.9697683
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786579816.7664635
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786579816.7761376
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786579816.7857854
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786579816.7954628
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 300,
+    "times_flagged": 308,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786574943.3607464
+        "flagged_at": 1786579816.7179456
       },
       {
-        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786574943.3672233
+        "flagged_at": 1786579816.7277687
       },
       {
-        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786574943.3734586
+        "flagged_at": 1786579816.7375176
       },
       {
-        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786574943.3798392
+        "flagged_at": 1786579816.7471652
       },
       {
-        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
-        "category": "food",
-        "country": "Japan",
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786574943.38617
+        "flagged_at": 1786579816.7568479
       }
     ]
   },
@@ -9778,6 +9778,43 @@
         "country": "France",
         "confidence": 0.363,
         "flagged_at": 1786578138.9194546
+      }
+    ]
+  },
+  "age of discovery ships": {
+    "prompt": "age of discovery ships",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.584,
+        "flagged_at": 1786579816.649591
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.584,
+        "flagged_at": 1786579816.6591885
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.584,
+        "flagged_at": 1786579816.6689377
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.584,
+        "flagged_at": 1786579816.6786933
       }
     ]
   }
