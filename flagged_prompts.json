@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 508,
+    "times_flagged": 520,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Morocco most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in Greece",
         "category": "travel",
-        "country": "Morocco",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786646947.9577231
+        "flagged_at": 1786649930.276763
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Greece",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786648462.9816887
+        "flagged_at": 1786649930.2905855
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Greece",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786648462.99528
+        "flagged_at": 1786649930.3043795
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Greece",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786648463.0089288
+        "flagged_at": 1786649930.3183606
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Greece",
         "category": "travel",
-        "country": "Egypt",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786648463.0225484
+        "flagged_at": 1786649930.3323107
       }
     ]
   },
