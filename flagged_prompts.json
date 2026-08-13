@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 444,
+    "times_flagged": 448,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Greece",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786610115.5654387
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.357,
-        "flagged_at": 1786611933.2728975
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.357,
-        "flagged_at": 1786611933.2834246
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.357,
-        "flagged_at": 1786611933.2939856
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Japan",
         "category": "travel",
         "country": "Japan",
         "confidence": 0.357,
         "flagged_at": 1786611933.3045058
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786613551.4225092
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786613551.433373
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786613551.4442353
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786613551.455059
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 388,
+    "times_flagged": 392,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Japan",
         "confidence": 0.701,
-        "flagged_at": 1786611933.4316828
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786611933.4423516
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786611933.4673257
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786611933.4785333
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
         "flagged_at": 1786611933.4891331
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786613551.553688
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786613551.5646095
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786613551.5756152
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786613551.5866225
       }
     ]
   },
@@ -11517,6 +11517,154 @@
         "country": "Japan",
         "confidence": 0.384,
         "flagged_at": 1786611933.389169
+      }
+    ]
+  },
+  "bangkok street food night": {
+    "prompt": "Bangkok street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.781,
+        "flagged_at": 1786613551.3355074
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.781,
+        "flagged_at": 1786613551.3467803
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.781,
+        "flagged_at": 1786613551.357527
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.781,
+        "flagged_at": 1786613551.3682716
+      }
+    ]
+  },
+  "fresh crab market": {
+    "prompt": "fresh crab market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786613551.3790934
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786613551.3899338
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786613551.4007618
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.847,
+        "flagged_at": 1786613551.411602
+      }
+    ]
+  },
+  "thai street food vendor": {
+    "prompt": "Thai street food vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.811,
+        "flagged_at": 1786613551.4659853
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.811,
+        "flagged_at": 1786613551.476859
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.811,
+        "flagged_at": 1786613551.4878314
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.811,
+        "flagged_at": 1786613551.4987445
+      }
+    ]
+  },
+  "prawns seafood market": {
+    "prompt": "prawns seafood market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.822,
+        "flagged_at": 1786613551.5096307
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.822,
+        "flagged_at": 1786613551.5205996
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.822,
+        "flagged_at": 1786613551.5314934
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.822,
+        "flagged_at": 1786613551.5426924
       }
     ]
   }
