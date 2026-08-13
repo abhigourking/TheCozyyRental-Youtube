@@ -10276,6 +10276,66 @@
         }
       ],
       "ran_at": 1786579816.6390927
+    },
+    {
+      "run_number": "960",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31654357808",
+      "topic": "A comfort food from Iceland that's become an internet obsession",
+      "category": "food",
+      "country": "Iceland",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.627,
+          "prompt": "sugar pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.627,
+          "prompt": "sugar pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.627,
+          "prompt": "sugar pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.627,
+          "prompt": "sugar pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786581390.064474
     }
   ]
 }
