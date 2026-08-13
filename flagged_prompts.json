@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 500,
+    "times_flagged": 512,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Indonesia right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Indonesia",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786632099.6494603
+        "flagged_at": 1786639464.725611
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786638149.9970014
+        "flagged_at": 1786639464.736791
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786638150.0231512
+        "flagged_at": 1786639464.747886
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786638150.036396
+        "flagged_at": 1786639464.7590854
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786638150.0491965
+        "flagged_at": 1786639464.7704334
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 448,
+    "times_flagged": 464,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786638150.205282
+        "flagged_at": 1786639464.9239879
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786638150.3231082
+        "flagged_at": 1786639464.9353442
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786638150.3363745
+        "flagged_at": 1786639464.9464235
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786638150.3494442
+        "flagged_at": 1786639464.9576025
       },
       {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Vietnam",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786638150.362495
+        "flagged_at": 1786639464.969124
       }
     ]
   },
