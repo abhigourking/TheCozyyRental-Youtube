@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 328,
+    "times_flagged": 332,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786586058.8451865
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786586058.8548932
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786586058.8645809
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786586058.8742473
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786586058.8839073
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786587557.4256554
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786587557.4357536
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786587557.4458091
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786587557.455814
       }
     ]
   },
@@ -10148,6 +10148,80 @@
         "country": "Spain",
         "confidence": 0.77,
         "flagged_at": 1786586058.652217
+      }
+    ]
+  },
+  "manila street food night": {
+    "prompt": "Manila street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.779,
+        "flagged_at": 1786587557.385851
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.779,
+        "flagged_at": 1786587557.3956258
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.779,
+        "flagged_at": 1786587557.405561
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.779,
+        "flagged_at": 1786587557.4154625
+      }
+    ]
+  },
+  "food adventure logo": {
+    "prompt": "food adventure logo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.83,
+        "flagged_at": 1786587557.465891
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.83,
+        "flagged_at": 1786587557.4760115
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.83,
+        "flagged_at": 1786587557.4861372
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Philippines",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.83,
+        "flagged_at": 1786587557.4962974
       }
     ]
   }
