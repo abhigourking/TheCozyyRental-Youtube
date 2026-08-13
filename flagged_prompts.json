@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 384,
+    "times_flagged": 396,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786584698.0846467
+        "flagged_at": 1786586058.7291539
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786584698.0948787
+        "flagged_at": 1786586058.738857
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786584698.105004
+        "flagged_at": 1786586058.748524
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786584698.1150973
+        "flagged_at": 1786586058.7581537
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786584698.1252394
+        "flagged_at": 1786586058.7678027
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 312,
+    "times_flagged": 328,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786579816.7568479
+        "flagged_at": 1786586058.8451865
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786584698.0137749
+        "flagged_at": 1786586058.8548932
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786584698.0238974
+        "flagged_at": 1786586058.8645809
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786584698.033986
+        "flagged_at": 1786586058.8742473
       },
       {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786584698.0440998
+        "flagged_at": 1786586058.8839073
       }
     ]
   },
@@ -10074,6 +10074,80 @@
         "country": "Portugal",
         "confidence": 0.823,
         "flagged_at": 1786584698.00365
+      }
+    ]
+  },
+  "madrid street performers": {
+    "prompt": "Madrid street performers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.751,
+        "flagged_at": 1786586058.585358
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.751,
+        "flagged_at": 1786586058.594894
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.751,
+        "flagged_at": 1786586058.6044939
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.751,
+        "flagged_at": 1786586058.614013
+      }
+    ]
+  },
+  "festival street party": {
+    "prompt": "festival street party",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.77,
+        "flagged_at": 1786586058.6235268
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.77,
+        "flagged_at": 1786586058.633071
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.77,
+        "flagged_at": 1786586058.642668
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.77,
+        "flagged_at": 1786586058.652217
       }
     ]
   }
