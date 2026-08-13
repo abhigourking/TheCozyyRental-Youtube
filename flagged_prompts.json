@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 456,
+    "times_flagged": 460,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786615118.945001
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786616832.8128269
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786616832.8236969
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786616832.8345523
-      },
       {
         "topic": "The most breathtaking place to visit in Peru",
         "category": "travel",
         "country": "Peru",
         "confidence": 0.357,
         "flagged_at": 1786616832.8591623
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786618353.8101032
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786618353.8345826
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786618353.846329
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786618353.8574045
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 396,
+    "times_flagged": 400,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Thailand right now",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786613551.5866225
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786616832.8705485
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786616832.8814304
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786616832.8922276
-      },
       {
         "topic": "The most breathtaking place to visit in Peru",
         "category": "travel",
         "country": "Peru",
         "confidence": 0.701,
         "flagged_at": 1786616832.903096
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786618353.677757
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786618353.6887453
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786618353.6997309
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786618353.7108357
       }
     ]
   },
@@ -11887,6 +11887,117 @@
         "country": "Peru",
         "confidence": 0.774,
         "flagged_at": 1786616832.8019707
+      }
+    ]
+  },
+  "gyeongbokgung palace courtyard": {
+    "prompt": "Gyeongbokgung Palace courtyard",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786618353.6326663
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786618353.6445506
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786618353.6556017
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786618353.6667013
+      }
+    ]
+  },
+  "traditional korean construction": {
+    "prompt": "traditional Korean construction",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.754,
+        "flagged_at": 1786618353.7217772
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.754,
+        "flagged_at": 1786618353.7328367
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.754,
+        "flagged_at": 1786618353.743853
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.754,
+        "flagged_at": 1786618353.7549129
+      }
+    ]
+  },
+  "historical korean artifacts": {
+    "prompt": "historical Korean artifacts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786618353.7659285
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786618353.776959
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786618353.7880268
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786618353.799075
       }
     ]
   }
