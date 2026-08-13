@@ -12000,5 +12000,79 @@
         "flagged_at": 1786618353.799075
       }
     ]
+  },
+  "unesco logo ceremony": {
+    "prompt": "UNESCO logo ceremony",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.814,
+        "flagged_at": 1786620017.9014645
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.814,
+        "flagged_at": 1786620017.9135816
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.814,
+        "flagged_at": 1786620017.925037
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.814,
+        "flagged_at": 1786620017.9362655
+      }
+    ]
+  },
+  "lisbon food market night": {
+    "prompt": "Lisbon food market night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.482,
+        "flagged_at": 1786620017.9474528
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.482,
+        "flagged_at": 1786620017.95867
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.482,
+        "flagged_at": 1786620017.9698324
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.482,
+        "flagged_at": 1786620017.9810054
+      }
+    ]
   }
 }

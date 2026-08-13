@@ -12970,6 +12970,66 @@
         }
       ],
       "ran_at": 1786618353.6192806
+    },
+    {
+      "run_number": "990",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31694132531",
+      "topic": "A surprising fact about a famous tourist attraction in Portugal",
+      "category": "travel",
+      "country": "Portugal",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "UNESCO logo ceremony"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "UNESCO logo ceremony"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "UNESCO logo ceremony"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "UNESCO logo ceremony"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.482,
+          "prompt": "Lisbon food market night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.482,
+          "prompt": "Lisbon food market night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.482,
+          "prompt": "Lisbon food market night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.482,
+          "prompt": "Lisbon food market night"
+        }
+      ],
+      "ran_at": 1786620017.8880208
     }
   ]
 }
