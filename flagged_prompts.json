@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 520,
+    "times_flagged": 524,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786640929.9941585
-      },
-      {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786640930.007265
-      },
-      {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786640930.0203753
-      },
-      {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
-        "flagged_at": 1786640930.033458
-      },
-      {
-        "topic": "A viral travel spot in Greece that's all over social media right now",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.357,
         "flagged_at": 1786640930.0465896
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786643980.1541903
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786643980.167831
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786643980.1814592
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.357,
+        "flagged_at": 1786643980.1950634
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 480,
+    "times_flagged": 492,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Portugal",
+        "topic": "A viral travel spot in India that's all over social media right now",
         "category": "travel",
-        "country": "Portugal",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786642364.504279
+        "flagged_at": 1786643980.2495067
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
+        "topic": "A viral travel spot in India that's all over social media right now",
         "category": "travel",
-        "country": "Portugal",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786642364.5172787
+        "flagged_at": 1786643980.2631283
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
+        "topic": "A viral travel spot in India that's all over social media right now",
         "category": "travel",
-        "country": "Portugal",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786642364.5304663
+        "flagged_at": 1786643980.2769194
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
+        "topic": "A viral travel spot in India that's all over social media right now",
         "category": "travel",
-        "country": "Portugal",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786642364.5436418
+        "flagged_at": 1786643980.2906463
       },
       {
-        "topic": "The most breathtaking place to visit in Portugal",
+        "topic": "A viral travel spot in India that's all over social media right now",
         "category": "travel",
-        "country": "Portugal",
+        "country": "India",
         "confidence": 0.701,
-        "flagged_at": 1786642364.5568218
+        "flagged_at": 1786643980.3042972
       }
     ]
   },
@@ -13478,6 +13478,228 @@
         "country": "Portugal",
         "confidence": 0.793,
         "flagged_at": 1786642364.662257
+      }
+    ]
+  },
+  "smartphone viral video": {
+    "prompt": "smartphone viral video",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.775,
+        "flagged_at": 1786643979.753303
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.775,
+        "flagged_at": 1786643979.7671874
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.775,
+        "flagged_at": 1786643979.7804499
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.775,
+        "flagged_at": 1786643979.7937818
+      }
+    ]
+  },
+  "delicious indian cuisine": {
+    "prompt": "delicious indian cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.742,
+        "flagged_at": 1786643979.8073533
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.742,
+        "flagged_at": 1786643979.8208585
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.742,
+        "flagged_at": 1786643979.8343492
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.742,
+        "flagged_at": 1786643979.8479154
+      }
+    ]
+  },
+  "tourist visiting famous landmark": {
+    "prompt": "tourist visiting famous landmark",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.436,
+        "flagged_at": 1786643979.8612723
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.436,
+        "flagged_at": 1786643979.8746843
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.436,
+        "flagged_at": 1786643979.8880403
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.436,
+        "flagged_at": 1786643979.9014566
+      }
+    ]
+  },
+  "photographer taking city shots": {
+    "prompt": "photographer taking city shots",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.784,
+        "flagged_at": 1786643979.914696
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.784,
+        "flagged_at": 1786643979.9281788
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.784,
+        "flagged_at": 1786643979.9416902
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.784,
+        "flagged_at": 1786643979.9553797
+      }
+    ]
+  },
+  "city street life at night": {
+    "prompt": "city street life at night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.758,
+        "flagged_at": 1786643980.0449927
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.758,
+        "flagged_at": 1786643980.0585902
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.758,
+        "flagged_at": 1786643980.072274
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.758,
+        "flagged_at": 1786643980.0860176
+      }
+    ]
+  },
+  "social media travel post": {
+    "prompt": "social media travel post",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.483,
+        "flagged_at": 1786643980.0995998
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.483,
+        "flagged_at": 1786643980.1132429
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.483,
+        "flagged_at": 1786643980.126974
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.483,
+        "flagged_at": 1786643980.1405866
       }
     ]
   }
