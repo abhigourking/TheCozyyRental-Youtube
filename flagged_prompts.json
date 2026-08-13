@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 512,
+    "times_flagged": 520,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786639464.725611
+        "flagged_at": 1786640929.9941585
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786639464.736791
+        "flagged_at": 1786640930.007265
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786639464.747886
+        "flagged_at": 1786640930.0203753
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786639464.7590854
+        "flagged_at": 1786640930.033458
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786639464.7704334
+        "flagged_at": 1786640930.0465896
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 464,
+    "times_flagged": 468,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786639464.9239879
-      },
-      {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786639464.9353442
-      },
-      {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786639464.9464235
-      },
-      {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786639464.9576025
-      },
-      {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786639464.969124
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786640929.901897
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786640929.915444
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786640929.9285576
+      },
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786640929.941611
       }
     ]
   },
