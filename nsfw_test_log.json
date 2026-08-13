@@ -11464,6 +11464,162 @@
         }
       ],
       "ran_at": 1786597810.3235593
+    },
+    {
+      "run_number": "974",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31670254581",
+      "topic": "A popular food market or food street worth visiting in Morocco",
+      "category": "food",
+      "country": "Morocco",
+      "images_checked": 37,
+      "images_flagged": 24,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "traditional Moroccan sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "traditional Moroccan sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "traditional Moroccan sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "traditional Moroccan sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.44,
+          "prompt": "close up of snails"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.44,
+          "prompt": "close up of snails"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.44,
+          "prompt": "close up of snails"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.44,
+          "prompt": "close up of snails"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.491,
+          "prompt": "fresh orange juice being squeezed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.491,
+          "prompt": "fresh orange juice being squeezed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.491,
+          "prompt": "fresh orange juice being squeezed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.491,
+          "prompt": "fresh orange juice being squeezed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "person enjoying a pastry"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "person enjoying a pastry"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "person enjoying a pastry"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "person enjoying a pastry"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786599384.601681
     }
   ]
 }
