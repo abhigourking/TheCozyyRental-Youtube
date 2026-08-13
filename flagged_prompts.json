@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 376,
+    "times_flagged": 384,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
-        "country": "Iceland",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786581390.1386318
+        "flagged_at": 1786584698.0846467
       },
       {
-        "topic": "A comfort food from India that's become an internet obsession",
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786583014.9687002
+        "flagged_at": 1786584698.0948787
       },
       {
-        "topic": "A comfort food from India that's become an internet obsession",
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786583015.0795321
+        "flagged_at": 1786584698.105004
       },
       {
-        "topic": "A comfort food from India that's become an internet obsession",
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786583015.1839051
+        "flagged_at": 1786584698.1150973
       },
       {
-        "topic": "A comfort food from India that's become an internet obsession",
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Portugal",
         "confidence": 0.357,
-        "flagged_at": 1786583015.4194188
+        "flagged_at": 1786584698.1252394
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 308,
+    "times_flagged": 312,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Portugal",
         "confidence": 0.701,
-        "flagged_at": 1786579816.7179456
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.701,
-        "flagged_at": 1786579816.7277687
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.701,
-        "flagged_at": 1786579816.7375176
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.701,
-        "flagged_at": 1786579816.7471652
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.701,
         "flagged_at": 1786579816.7568479
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786584698.0137749
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786584698.0238974
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786584698.033986
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786584698.0440998
       }
     ]
   },
@@ -9963,6 +9963,117 @@
         "country": "India",
         "confidence": 0.307,
         "flagged_at": 1786583014.9608731
+      }
+    ]
+  },
+  "traditional portuguese sweets": {
+    "prompt": "traditional portuguese sweets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786584697.891611
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786584697.9019182
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786584697.9122791
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786584697.922724
+      }
+    ]
+  },
+  "milk and sugar ingredients": {
+    "prompt": "milk and sugar ingredients",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.828,
+        "flagged_at": 1786584697.9328272
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.828,
+        "flagged_at": 1786584697.9429333
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.828,
+        "flagged_at": 1786584697.9530392
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.828,
+        "flagged_at": 1786584697.96312
+      }
+    ]
+  },
+  "sweet treats on display": {
+    "prompt": "sweet treats on display",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.823,
+        "flagged_at": 1786584697.9732292
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.823,
+        "flagged_at": 1786584697.9833527
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.823,
+        "flagged_at": 1786584697.9934886
+      },
+      {
+        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.823,
+        "flagged_at": 1786584698.00365
       }
     ]
   }

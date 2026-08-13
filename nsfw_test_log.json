@@ -10444,6 +10444,162 @@
         }
       ],
       "ran_at": 1786583014.7019997
+    },
+    {
+      "run_number": "962",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31657293515",
+      "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
+      "category": "food",
+      "country": "Portugal",
+      "images_checked": 39,
+      "images_flagged": 24,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "traditional portuguese sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "traditional portuguese sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "traditional portuguese sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "traditional portuguese sweets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "milk and sugar ingredients"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "milk and sugar ingredients"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "milk and sugar ingredients"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "milk and sugar ingredients"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "sweet treats on display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "sweet treats on display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "sweet treats on display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "sweet treats on display"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786584697.88016
     }
   ]
 }
