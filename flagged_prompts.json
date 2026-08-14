@@ -17351,5 +17351,42 @@
         "flagged_at": 1786712371.7400577
       }
     ]
+  },
+  "mexico city street art": {
+    "prompt": "Mexico City street art",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.605,
+        "flagged_at": 1786713910.0159025
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.605,
+        "flagged_at": 1786713910.027644
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.605,
+        "flagged_at": 1786713910.039125
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.605,
+        "flagged_at": 1786713910.0503154
+      }
+    ]
   }
 }

@@ -18921,6 +18921,42 @@
         }
       ],
       "ran_at": 1786712371.583732
+    },
+    {
+      "run_number": "1060",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31803825397",
+      "topic": "A viral travel spot in Mexico that's all over social media right now",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "Mexico City street art"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "Mexico City street art"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "Mexico City street art"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "Mexico City street art"
+        }
+      ],
+      "ran_at": 1786713910.0022562
     }
   ]
 }
