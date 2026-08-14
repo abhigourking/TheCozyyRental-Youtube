@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 696,
+    "times_flagged": 708,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
-        "country": "Brazil",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786719742.3085756
+        "flagged_at": 1786724059.5363915
       },
       {
-        "topic": "A popular food market or food street worth visiting in Mexico",
+        "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
-        "country": "Mexico",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786722538.49
+        "flagged_at": 1786724059.6794915
       },
       {
-        "topic": "A popular food market or food street worth visiting in Mexico",
+        "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
-        "country": "Mexico",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786722538.5081651
+        "flagged_at": 1786724059.697084
       },
       {
-        "topic": "A popular food market or food street worth visiting in Mexico",
+        "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
-        "country": "Mexico",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786722538.5252893
+        "flagged_at": 1786724059.7158976
       },
       {
-        "topic": "A popular food market or food street worth visiting in Mexico",
+        "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
-        "country": "Mexico",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786722538.542908
+        "flagged_at": 1786724059.73408
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 660,
+    "times_flagged": 664,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786719742.467538
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Mexico",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786722538.6286485
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Mexico",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786722538.6615784
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Mexico",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786722538.6795347
-      },
       {
         "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
         "country": "Mexico",
         "confidence": 0.701,
         "flagged_at": 1786722538.6967583
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786724059.342726
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786724059.360546
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786724059.378139
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786724059.3957837
       }
     ]
   },
@@ -17978,6 +17978,147 @@
         "country": "Mexico",
         "confidence": 0.73,
         "flagged_at": 1786722538.7656565
+      }
+    ]
+  },
+  "north indian cuisine": {
+    "prompt": "north indian cuisine",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786724059.2579463
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786724059.2754006
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786724059.292922
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786724059.3107905
+      }
+    ]
+  },
+  "indian bread": {
+    "prompt": "indian bread",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.826,
+        "flagged_at": 1786724059.4132702
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.826,
+        "flagged_at": 1786724059.4307463
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.826,
+        "flagged_at": 1786724059.4483194
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.826,
+        "flagged_at": 1786724059.4660926
+      }
+    ]
+  },
+  "food reviews": {
+    "prompt": "food reviews",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1786724059.5546553
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1786724059.5724669
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1786724059.5899904
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1786724059.6076279
+      }
+    ]
+  },
+  "channel trailer": {
+    "prompt": "channel trailer",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.824,
+        "flagged_at": 1786724059.625305
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.824,
+        "flagged_at": 1786724059.643844
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.824,
+        "flagged_at": 1786724059.661843
       }
     ]
   }
