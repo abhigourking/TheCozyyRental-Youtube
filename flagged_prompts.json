@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 740,
+    "times_flagged": 748,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
-        "category": "food",
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
         "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786731188.545736
+        "flagged_at": 1786735534.8963084
       },
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Japan",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786732694.3525422
+        "flagged_at": 1786735534.914013
       },
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Japan",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786732694.3833663
+        "flagged_at": 1786735534.945298
       },
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Japan",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786732694.4014914
+        "flagged_at": 1786735534.9634836
       },
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Japan",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786732694.4193604
+        "flagged_at": 1786735534.9813688
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 688,
+    "times_flagged": 692,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786729654.4495325
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786732694.2805505
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786732694.299054
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.701,
-        "flagged_at": 1786732694.3168225
-      },
       {
         "topic": "A bucket-list experience you can only have in Japan",
         "category": "travel",
         "country": "Japan",
         "confidence": 0.701,
         "flagged_at": 1786732694.3345358
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786735534.9991992
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786735535.0171533
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786735535.0350184
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786735535.0530326
       }
     ]
   },
@@ -18785,6 +18785,43 @@
         "country": "India",
         "confidence": 0.821,
         "flagged_at": 1786734143.7761204
+      }
+    ]
+  },
+  "local cuisine market": {
+    "prompt": "local cuisine market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.794,
+        "flagged_at": 1786735534.7713213
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.794,
+        "flagged_at": 1786735534.7897007
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.794,
+        "flagged_at": 1786735534.8074758
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.794,
+        "flagged_at": 1786735534.8253307
       }
     ]
   }
