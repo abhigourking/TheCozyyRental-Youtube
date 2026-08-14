@@ -15367,5 +15367,116 @@
         "flagged_at": 1786672957.506241
       }
     ]
+  },
+  "indian curries": {
+    "prompt": "Indian curries",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.698,
+        "flagged_at": 1786674388.5682836
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.698,
+        "flagged_at": 1786674388.5853875
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.698,
+        "flagged_at": 1786674388.6031563
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.698,
+        "flagged_at": 1786674388.6220148
+      }
+    ]
+  },
+  "street food in mumbai": {
+    "prompt": "street food in Mumbai",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.817,
+        "flagged_at": 1786674388.637498
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.817,
+        "flagged_at": 1786674388.651364
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.817,
+        "flagged_at": 1786674388.665023
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.817,
+        "flagged_at": 1786674388.6787207
+      }
+    ]
+  },
+  "indian mountain scenery": {
+    "prompt": "Indian mountain scenery",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.404,
+        "flagged_at": 1786674388.6924455
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.404,
+        "flagged_at": 1786674388.706027
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.404,
+        "flagged_at": 1786674388.7365046
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.404,
+        "flagged_at": 1786674388.7506068
+      }
+    ]
   }
 }

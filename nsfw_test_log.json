@@ -16777,6 +16777,90 @@
         }
       ],
       "ran_at": 1786672957.2566326
+    },
+    {
+      "run_number": "1030",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31763284640",
+      "topic": "A bucket-list experience you can only have in India",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.698,
+          "prompt": "Indian curries"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.698,
+          "prompt": "Indian curries"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.698,
+          "prompt": "Indian curries"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.698,
+          "prompt": "Indian curries"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "street food in Mumbai"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "street food in Mumbai"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "street food in Mumbai"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "street food in Mumbai"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "Indian mountain scenery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "Indian mountain scenery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "Indian mountain scenery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.404,
+          "prompt": "Indian mountain scenery"
+        }
+      ],
+      "ran_at": 1786674388.5520282
     }
   ]
 }
