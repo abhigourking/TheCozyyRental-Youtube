@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 568,
+    "times_flagged": 572,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786669699.4176695
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786669699.569976
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786669699.5849075
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786669699.6001248
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
         "flagged_at": 1786669699.6151342
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786672957.520976
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786672957.5357106
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786672957.5503516
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.701,
+        "flagged_at": 1786672957.5650804
       }
     ]
   },
@@ -15217,6 +15217,154 @@
         "country": "Spain",
         "confidence": 0.789,
         "flagged_at": 1786671339.4008565
+      }
+    ]
+  },
+  "potato dishes": {
+    "prompt": "potato dishes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.491,
+        "flagged_at": 1786672957.2736192
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.491,
+        "flagged_at": 1786672957.2886348
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.491,
+        "flagged_at": 1786672957.3031535
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.491,
+        "flagged_at": 1786672957.3176732
+      }
+    ]
+  },
+  "city street food": {
+    "prompt": "city street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.375,
+        "flagged_at": 1786672957.3322496
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.375,
+        "flagged_at": 1786672957.3467822
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.375,
+        "flagged_at": 1786672957.361272
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.375,
+        "flagged_at": 1786672957.3758113
+      }
+    ]
+  },
+  "foodie traveling": {
+    "prompt": "foodie traveling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786672957.3903604
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786672957.4048972
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786672957.4194832
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786672957.4471183
+      }
+    ]
+  },
+  "delicious dishes": {
+    "prompt": "delicious dishes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.788,
+        "flagged_at": 1786672957.4621115
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.788,
+        "flagged_at": 1786672957.4768183
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.788,
+        "flagged_at": 1786672957.4914787
+      },
+      {
+        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.788,
+        "flagged_at": 1786672957.506241
       }
     ]
   }
