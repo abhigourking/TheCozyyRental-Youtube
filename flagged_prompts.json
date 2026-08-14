@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 608,
+    "times_flagged": 612,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786701420.499539
-      },
-      {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786701420.586362
-      },
-      {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786701420.6039827
-      },
-      {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786701420.6209872
-      },
-      {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
         "flagged_at": 1786701420.6381118
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786704650.0803843
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786704650.1164577
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786704650.1333961
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786704650.1501002
       }
     ]
   },
@@ -16882,6 +16882,73 @@
         "country": "Mexico",
         "confidence": 0.529,
         "flagged_at": 1786701420.5686631
+      }
+    ]
+  },
+  "feijoada being served to a customer": {
+    "prompt": "feijoada being served to a customer",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.756,
+        "flagged_at": 1786704649.9656706
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.756,
+        "flagged_at": 1786704649.9826477
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.756,
+        "flagged_at": 1786704649.9988003
+      }
+    ]
+  },
+  "person taking a bite of feijoada": {
+    "prompt": "person taking a bite of feijoada",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.767,
+        "flagged_at": 1786704650.015185
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.767,
+        "flagged_at": 1786704650.0314467
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.767,
+        "flagged_at": 1786704650.047682
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.767,
+        "flagged_at": 1786704650.0638258
       }
     ]
   }
