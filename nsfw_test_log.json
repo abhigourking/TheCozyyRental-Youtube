@@ -21242,6 +21242,90 @@
         }
       ],
       "ran_at": 1786745883.300665
+    },
+    {
+      "run_number": "1087",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31847048175",
+      "topic": "A popular food market or food street worth visiting in Iceland",
+      "category": "food",
+      "country": "Iceland",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Laugavegur street sign"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Laugavegur street sign"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Laugavegur street sign"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Laugavegur street sign"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.638,
+          "prompt": "Reykjavik city lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.638,
+          "prompt": "Reykjavik city lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.638,
+          "prompt": "Reykjavik city lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.638,
+          "prompt": "Reykjavik city lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.613,
+          "prompt": "food blogger taking pictures"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.613,
+          "prompt": "food blogger taking pictures"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.613,
+          "prompt": "food blogger taking pictures"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.613,
+          "prompt": "food blogger taking pictures"
+        }
+      ],
+      "ran_at": 1786747528.2945843
     }
   ]
 }
