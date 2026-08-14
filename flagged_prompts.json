@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 716,
+    "times_flagged": 720,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Iceland",
         "confidence": 0.701,
-        "flagged_at": 1786744535.0894923
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786744535.1054919
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786744535.1215196
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786744535.1374905
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Iceland",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.701,
         "flagged_at": 1786744535.1535938
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786749003.646904
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786749003.6860824
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786749003.7055473
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.701,
+        "flagged_at": 1786749003.724884
       }
     ]
   },
@@ -19488,6 +19488,43 @@
         "country": "Iceland",
         "confidence": 0.613,
         "flagged_at": 1786747528.532873
+      }
+    ]
+  },
+  "spices and fabrics": {
+    "prompt": "spices and fabrics",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.817,
+        "flagged_at": 1786749003.5696716
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.817,
+        "flagged_at": 1786749003.5895488
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.817,
+        "flagged_at": 1786749003.6086593
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.817,
+        "flagged_at": 1786749003.6279407
       }
     ]
   }

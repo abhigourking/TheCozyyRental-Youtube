@@ -21326,6 +21326,66 @@
         }
       ],
       "ran_at": 1786747528.2945843
+    },
+    {
+      "run_number": "1088",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31848788200",
+      "topic": "A bucket-list experience you can only have in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "spices and fabrics"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "spices and fabrics"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "spices and fabrics"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "spices and fabrics"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786749003.547277
     }
   ]
 }
