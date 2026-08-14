@@ -17299,6 +17299,17 @@
         }
       ],
       "ran_at": 1786680509.0046718
+    },
+    {
+      "run_number": "1036",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31769718296",
+      "topic": "A must-try traditional dish from France and the story behind it",
+      "category": "food",
+      "country": "France",
+      "images_checked": 15,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1786681998.452735
     }
   ]
 }
