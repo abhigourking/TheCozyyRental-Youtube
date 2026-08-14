@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 692,
+    "times_flagged": 704,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Japan",
+        "topic": "A bucket-list experience you can only have in Philippines",
         "category": "travel",
-        "country": "Japan",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786732694.3345358
+        "flagged_at": 1786738692.1893046
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A bucket-list experience you can only have in Philippines",
         "category": "travel",
-        "country": "Peru",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786735534.9991992
+        "flagged_at": 1786738692.2076628
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A bucket-list experience you can only have in Philippines",
         "category": "travel",
-        "country": "Peru",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786735535.0171533
+        "flagged_at": 1786738692.2259946
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A bucket-list experience you can only have in Philippines",
         "category": "travel",
-        "country": "Peru",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786735535.0350184
+        "flagged_at": 1786738692.2447782
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A bucket-list experience you can only have in Philippines",
         "category": "travel",
-        "country": "Peru",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786735535.0530326
+        "flagged_at": 1786738692.2632651
       }
     ]
   },
@@ -18896,6 +18896,228 @@
         "country": "Italy",
         "confidence": 0.46,
         "flagged_at": 1786737141.4471655
+      }
+    ]
+  },
+  "tropical forests": {
+    "prompt": "tropical forests",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.765,
+        "flagged_at": 1786738691.6005328
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.765,
+        "flagged_at": 1786738691.6192396
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.765,
+        "flagged_at": 1786738691.6375394
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.765,
+        "flagged_at": 1786738691.6555269
+      }
+    ]
+  },
+  "island hopping": {
+    "prompt": "island hopping",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.395,
+        "flagged_at": 1786738691.6735911
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.395,
+        "flagged_at": 1786738691.6919372
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.395,
+        "flagged_at": 1786738691.7102473
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.395,
+        "flagged_at": 1786738691.7286823
+      }
+    ]
+  },
+  "grilled meats": {
+    "prompt": "grilled meats",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.587,
+        "flagged_at": 1786738691.8368812
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.587,
+        "flagged_at": 1786738691.8555136
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.587,
+        "flagged_at": 1786738691.8739538
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.587,
+        "flagged_at": 1786738691.8923142
+      }
+    ]
+  },
+  "veggie market": {
+    "prompt": "veggie market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786738691.9107132
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786738691.9292686
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786738691.947781
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.829,
+        "flagged_at": 1786738691.9663064
+      }
+    ]
+  },
+  "tropical fruits": {
+    "prompt": "tropical fruits",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.364,
+        "flagged_at": 1786738691.984987
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.364,
+        "flagged_at": 1786738692.0037234
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.364,
+        "flagged_at": 1786738692.0224195
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.364,
+        "flagged_at": 1786738692.041077
+      }
+    ]
+  },
+  "philippine flag": {
+    "prompt": "philippine flag",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.71,
+        "flagged_at": 1786738692.0594325
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.71,
+        "flagged_at": 1786738692.0781739
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.71,
+        "flagged_at": 1786738692.096868
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.71,
+        "flagged_at": 1786738692.115505
       }
     ]
   }
