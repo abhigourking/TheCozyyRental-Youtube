@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 756,
+    "times_flagged": 760,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786741748.659651
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786741748.6781077
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786741748.6964922
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786741748.7149878
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786741748.7334604
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786743205.4055257
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786743205.4239995
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786743205.442323
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786743205.4607913
       }
     ]
   },
@@ -19192,6 +19192,117 @@
         "country": "Spain",
         "confidence": 0.825,
         "flagged_at": 1786741748.8083599
+      }
+    ]
+  },
+  "flowers blooming": {
+    "prompt": "flowers blooming",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.799,
+        "flagged_at": 1786743205.1644974
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.799,
+        "flagged_at": 1786743205.183601
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.799,
+        "flagged_at": 1786743205.201972
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.799,
+        "flagged_at": 1786743205.2205796
+      }
+    ]
+  },
+  "takoyaki cooking": {
+    "prompt": "takoyaki cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.759,
+        "flagged_at": 1786743205.2393348
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.759,
+        "flagged_at": 1786743205.2724035
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.759,
+        "flagged_at": 1786743205.291358
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.759,
+        "flagged_at": 1786743205.3133414
+      }
+    ]
+  },
+  "food market night": {
+    "prompt": "food market night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.725,
+        "flagged_at": 1786743205.332008
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.725,
+        "flagged_at": 1786743205.3504071
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.725,
+        "flagged_at": 1786743205.3689017
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.725,
+        "flagged_at": 1786743205.3872058
       }
     ]
   }
