@@ -16144,5 +16144,42 @@
         "flagged_at": 1786690706.5622935
       }
     ]
+  },
+  "crispy bread texture close up": {
+    "prompt": "crispy bread texture close up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.307,
+        "flagged_at": 1786692271.3891714
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.307,
+        "flagged_at": 1786692271.398665
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.307,
+        "flagged_at": 1786692271.4077108
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.307,
+        "flagged_at": 1786692271.416341
+      }
+    ]
   }
 }

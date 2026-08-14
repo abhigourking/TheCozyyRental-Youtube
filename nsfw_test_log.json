@@ -17693,6 +17693,42 @@
         }
       ],
       "ran_at": 1786690706.4333582
+    },
+    {
+      "run_number": "1044",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31779110608",
+      "topic": "A comfort food from Brazil that's become an internet obsession",
+      "category": "food",
+      "country": "Brazil",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.307,
+          "prompt": "crispy bread texture close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.307,
+          "prompt": "crispy bread texture close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.307,
+          "prompt": "crispy bread texture close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.307,
+          "prompt": "crispy bread texture close up"
+        }
+      ],
+      "ran_at": 1786692271.3779402
     }
   ]
 }
