@@ -17891,6 +17891,42 @@
         }
       ],
       "ran_at": 1786693748.9352582
+    },
+    {
+      "run_number": "1047",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31782402183",
+      "topic": "A surprising fact about a famous tourist attraction in India",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "local cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "local cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "local cuisine dishes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "local cuisine dishes"
+        }
+      ],
+      "ran_at": 1786695235.8454688
     }
   ]
 }

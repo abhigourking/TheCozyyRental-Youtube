@@ -16366,5 +16366,42 @@
         "flagged_at": 1786693749.4380114
       }
     ]
+  },
+  "local cuisine dishes": {
+    "prompt": "local cuisine dishes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786695235.8648057
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786695235.881553
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786695235.8971984
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786695235.9130087
+      }
+    ]
   }
 }
