@@ -18861,6 +18861,66 @@
         }
       ],
       "ran_at": 1786710602.8829055
+    },
+    {
+      "run_number": "1059",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31801657120",
+      "topic": "A viral travel spot in France that's all over social media right now",
+      "category": "travel",
+      "country": "France",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "local market and produce"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "local market and produce"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "local market and produce"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.58,
+          "prompt": "local market and produce"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "social media screen and follow button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "social media screen and follow button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "social media screen and follow button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "social media screen and follow button"
+        }
+      ],
+      "ran_at": 1786712371.583732
     }
   ]
 }

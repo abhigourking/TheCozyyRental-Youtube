@@ -17277,5 +17277,79 @@
         "flagged_at": 1786710603.1083102
       }
     ]
+  },
+  "local market and produce": {
+    "prompt": "local market and produce",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.58,
+        "flagged_at": 1786712371.6043103
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.58,
+        "flagged_at": 1786712371.622427
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.58,
+        "flagged_at": 1786712371.639418
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.58,
+        "flagged_at": 1786712371.65694
+      }
+    ]
+  },
+  "social media screen and follow button": {
+    "prompt": "social media screen and follow button",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.801,
+        "flagged_at": 1786712371.6740549
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.801,
+        "flagged_at": 1786712371.6913085
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.801,
+        "flagged_at": 1786712371.7086034
+      },
+      {
+        "topic": "A viral travel spot in France that's all over social media right now",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.801,
+        "flagged_at": 1786712371.7400577
+      }
+    ]
   }
 }
