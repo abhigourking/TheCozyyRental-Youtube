@@ -21206,6 +21206,42 @@
         }
       ],
       "ran_at": 1786744534.521387
+    },
+    {
+      "run_number": "1086",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31845568089",
+      "topic": "The most breathtaking place to visit in Portugal",
+      "category": "travel",
+      "country": "Portugal",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.675,
+          "prompt": "barista making espresso"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.675,
+          "prompt": "barista making espresso"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.675,
+          "prompt": "barista making espresso"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.675,
+          "prompt": "barista making espresso"
+        }
+      ],
+      "ran_at": 1786745883.300665
     }
   ]
 }
