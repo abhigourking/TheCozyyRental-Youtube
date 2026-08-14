@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 692,
+    "times_flagged": 696,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786718389.0937011
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786719742.255988
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786719742.2734916
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786719742.2911196
-      },
       {
         "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
         "country": "Brazil",
         "confidence": 0.357,
         "flagged_at": 1786719742.3085756
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786722538.49
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786722538.5081651
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786722538.5252893
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786722538.542908
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 656,
+    "times_flagged": 660,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786719742.3980756
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786719742.4156086
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786719742.4329984
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786719742.4501624
-      },
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
         "flagged_at": 1786719742.467538
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786722538.6286485
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786722538.6615784
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786722538.6795347
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1786722538.6967583
       }
     ]
   },
@@ -17904,6 +17904,80 @@
         "country": "India",
         "confidence": 0.806,
         "flagged_at": 1786721152.6279926
+      }
+    ]
+  },
+  "food market evening": {
+    "prompt": "food market evening",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.778,
+        "flagged_at": 1786722538.5600185
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.778,
+        "flagged_at": 1786722538.577076
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.778,
+        "flagged_at": 1786722538.5942397
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.778,
+        "flagged_at": 1786722538.6115458
+      }
+    ]
+  },
+  "street market scene": {
+    "prompt": "street market scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.73,
+        "flagged_at": 1786722538.71404
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.73,
+        "flagged_at": 1786722538.7312405
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.73,
+        "flagged_at": 1786722538.7484338
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.73,
+        "flagged_at": 1786722538.7656565
       }
     ]
   }
