@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 580,
+    "times_flagged": 588,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786668181.1965127
+        "flagged_at": 1786671339.4746783
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786668181.2816179
+        "flagged_at": 1786671339.489688
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786668181.2964694
+        "flagged_at": 1786671339.5041287
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786668181.310887
+        "flagged_at": 1786671339.518618
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786668181.3259816
+        "flagged_at": 1786671339.5330493
       }
     ]
   },
@@ -15143,6 +15143,80 @@
         "country": "Morocco",
         "confidence": 0.622,
         "flagged_at": 1786669699.5543847
+      }
+    ]
+  },
+  "bite taken out of croqueta": {
+    "prompt": "bite taken out of croqueta",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.815,
+        "flagged_at": 1786671339.2985973
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.815,
+        "flagged_at": 1786671339.3136754
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.815,
+        "flagged_at": 1786671339.3282466
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.815,
+        "flagged_at": 1786671339.342883
+      }
+    ]
+  },
+  "ham and chicken fillings": {
+    "prompt": "ham and chicken fillings",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.789,
+        "flagged_at": 1786671339.3572712
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.789,
+        "flagged_at": 1786671339.3718681
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.789,
+        "flagged_at": 1786671339.386355
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.789,
+        "flagged_at": 1786671339.4008565
       }
     ]
   }
