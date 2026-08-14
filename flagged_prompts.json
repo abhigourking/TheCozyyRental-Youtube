@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 736,
+    "times_flagged": 740,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786729654.5195303
-      },
-      {
-        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786731188.4910438
-      },
-      {
-        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786731188.5094054
-      },
-      {
-        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786731188.5275476
-      },
       {
         "topic": "A unique regional specialty from Peru most outsiders have never heard of",
         "category": "food",
         "country": "Peru",
         "confidence": 0.357,
         "flagged_at": 1786731188.545736
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786732694.3525422
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786732694.3833663
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786732694.4014914
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786732694.4193604
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 684,
+    "times_flagged": 688,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.701,
-        "flagged_at": 1786728276.2147768
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786729654.3969455
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786729654.4143937
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786729654.431928
-      },
       {
         "topic": "The most viral street food trend in Indonesia right now",
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.701,
         "flagged_at": 1786729654.4495325
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786732694.2805505
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786732694.299054
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786732694.3168225
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786732694.3345358
       }
     ]
   },
