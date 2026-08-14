@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 748,
+    "times_flagged": 756,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786735534.8963084
+        "flagged_at": 1786741748.659651
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786735534.914013
+        "flagged_at": 1786741748.6781077
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786735534.945298
+        "flagged_at": 1786741748.6964922
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786735534.9634836
+        "flagged_at": 1786741748.7149878
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786735534.9813688
+        "flagged_at": 1786741748.7334604
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 704,
+    "times_flagged": 708,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786738692.1893046
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786738692.2076628
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786738692.2259946
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786738692.2447782
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Philippines",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.701,
         "flagged_at": 1786738692.2632651
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786741748.5138075
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786741748.5322857
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786741748.550735
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786741748.569355
       }
     ]
   },
@@ -19118,6 +19118,80 @@
         "country": "Philippines",
         "confidence": 0.71,
         "flagged_at": 1786738692.115505
+      }
+    ]
+  },
+  "instagram feed scrolling": {
+    "prompt": "instagram feed scrolling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.837,
+        "flagged_at": 1786741748.4390996
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.837,
+        "flagged_at": 1786741748.4584727
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.837,
+        "flagged_at": 1786741748.4768298
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.837,
+        "flagged_at": 1786741748.4952693
+      }
+    ]
+  },
+  "comment section scrolling": {
+    "prompt": "comment section scrolling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.825,
+        "flagged_at": 1786741748.7520545
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.825,
+        "flagged_at": 1786741748.7706409
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.825,
+        "flagged_at": 1786741748.789322
+      },
+      {
+        "topic": "A comfort food from Spain that's become an internet obsession",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.825,
+        "flagged_at": 1786741748.8083599
       }
     ]
   }
