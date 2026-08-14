@@ -17239,6 +17239,66 @@
         }
       ],
       "ran_at": 1786679139.9352918
+    },
+    {
+      "run_number": "1035",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31768529652",
+      "topic": "A hidden gem destination in Mexico most tourists don't know about",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "delicious street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "delicious street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "delicious street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "delicious street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786680509.0046718
     }
   ]
 }

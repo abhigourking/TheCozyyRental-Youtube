@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 608,
+    "times_flagged": 612,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786679140.3963923
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786679140.4744215
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786679140.4902554
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786679140.5056045
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
         "flagged_at": 1786679140.5209723
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786680509.0828884
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786680509.0978453
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786680509.1128702
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786680509.1278195
       }
     ]
   },
@@ -15809,6 +15809,43 @@
         "country": "Morocco",
         "confidence": 0.484,
         "flagged_at": 1786679140.3344357
+      }
+    ]
+  },
+  "delicious street food": {
+    "prompt": "delicious street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.8,
+        "flagged_at": 1786680509.0218685
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.8,
+        "flagged_at": 1786680509.0375504
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.8,
+        "flagged_at": 1786680509.0527217
+      },
+      {
+        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.8,
+        "flagged_at": 1786680509.0677605
       }
     ]
   }
