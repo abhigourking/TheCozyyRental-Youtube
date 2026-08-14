@@ -16070,5 +16070,79 @@
         "flagged_at": 1786687708.2092717
       }
     ]
+  },
+  "food vendors cooking": {
+    "prompt": "food vendors cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.519,
+        "flagged_at": 1786690706.451579
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.519,
+        "flagged_at": 1786690706.4681656
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.519,
+        "flagged_at": 1786690706.4839058
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.519,
+        "flagged_at": 1786690706.499744
+      }
+    ]
+  },
+  "food and travel collage": {
+    "prompt": "food and travel collage",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.656,
+        "flagged_at": 1786690706.515401
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.656,
+        "flagged_at": 1786690706.531071
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.656,
+        "flagged_at": 1786690706.5466073
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.656,
+        "flagged_at": 1786690706.5622935
+      }
+    ]
   }
 }

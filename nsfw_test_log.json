@@ -17633,6 +17633,66 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786689095.4338453
+    },
+    {
+      "run_number": "1043",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31777479441",
+      "topic": "A popular food market or food street worth visiting in Vietnam",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.519,
+          "prompt": "food vendors cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.519,
+          "prompt": "food vendors cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.519,
+          "prompt": "food vendors cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.519,
+          "prompt": "food vendors cooking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.656,
+          "prompt": "food and travel collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.656,
+          "prompt": "food and travel collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.656,
+          "prompt": "food and travel collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.656,
+          "prompt": "food and travel collage"
+        }
+      ],
+      "ran_at": 1786690706.4333582
     }
   ]
 }
