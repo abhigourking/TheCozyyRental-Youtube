@@ -18957,6 +18957,66 @@
         }
       ],
       "ran_at": 1786713910.0022562
+    },
+    {
+      "run_number": "1061",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31805795485",
+      "topic": "A bucket-list experience you can only have in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "cairo city street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "cairo city street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "cairo city street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "cairo city street life"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.631,
+          "prompt": "social media icons animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.631,
+          "prompt": "social media icons animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.631,
+          "prompt": "social media icons animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.631,
+          "prompt": "social media icons animation"
+        }
+      ],
+      "ran_at": 1786715441.665725
     }
   ]
 }
