@@ -20235,6 +20235,168 @@
         }
       ],
       "ran_at": 1786729654.152621
+    },
+    {
+      "run_number": "1074",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31826806330",
+      "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+      "category": "food",
+      "country": "Peru",
+      "images_checked": 46,
+      "images_flagged": 32,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "food market scenes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "food market scenes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "food market scenes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "food market scenes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "marinating meat process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "marinating meat process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "marinating meat process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "marinating meat process"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "Peruvian spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "Peruvian spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "Peruvian spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "Peruvian spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.647,
+          "prompt": "Peruvian condiments"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.647,
+          "prompt": "Peruvian condiments"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.647,
+          "prompt": "Peruvian condiments"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.647,
+          "prompt": "Peruvian condiments"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "spicy food challenges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "spicy food challenges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "spicy food challenges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "spicy food challenges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "foodie travel vlogs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "foodie travel vlogs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "foodie travel vlogs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "foodie travel vlogs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "social media follow prompts"
+        }
+      ],
+      "ran_at": 1786731187.9420247
     }
   ]
 }

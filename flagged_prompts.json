@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 732,
+    "times_flagged": 736,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.357,
-        "flagged_at": 1786729654.2261803
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786729654.4669838
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786729654.4845908
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786729654.502094
-      },
-      {
-        "topic": "The most viral street food trend in Indonesia right now",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.357,
         "flagged_at": 1786729654.5195303
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786731188.4910438
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786731188.5094054
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786731188.5275476
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.357,
+        "flagged_at": 1786731188.545736
       }
     ]
   },
@@ -18489,6 +18489,265 @@
         "country": "Indonesia",
         "confidence": 0.807,
         "flagged_at": 1786729654.589462
+      }
+    ]
+  },
+  "food market scenes": {
+    "prompt": "food market scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.814,
+        "flagged_at": 1786731187.9629443
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.814,
+        "flagged_at": 1786731187.9816802
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.814,
+        "flagged_at": 1786731187.9999065
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.814,
+        "flagged_at": 1786731188.017626
+      }
+    ]
+  },
+  "marinating meat process": {
+    "prompt": "marinating meat process",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.816,
+        "flagged_at": 1786731188.0353558
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.816,
+        "flagged_at": 1786731188.0534415
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.816,
+        "flagged_at": 1786731188.0712407
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.816,
+        "flagged_at": 1786731188.0891879
+      }
+    ]
+  },
+  "peruvian spices": {
+    "prompt": "Peruvian spices",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.81,
+        "flagged_at": 1786731188.1076126
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.81,
+        "flagged_at": 1786731188.1412477
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.81,
+        "flagged_at": 1786731188.1597757
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.81,
+        "flagged_at": 1786731188.177644
+      }
+    ]
+  },
+  "peruvian condiments": {
+    "prompt": "Peruvian condiments",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.647,
+        "flagged_at": 1786731188.195668
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.647,
+        "flagged_at": 1786731188.2135546
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.647,
+        "flagged_at": 1786731188.2318213
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.647,
+        "flagged_at": 1786731188.2504606
+      }
+    ]
+  },
+  "spicy food challenges": {
+    "prompt": "spicy food challenges",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.745,
+        "flagged_at": 1786731188.2684467
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.745,
+        "flagged_at": 1786731188.2866347
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.745,
+        "flagged_at": 1786731188.3052268
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.745,
+        "flagged_at": 1786731188.3238008
+      }
+    ]
+  },
+  "foodie travel vlogs": {
+    "prompt": "foodie travel vlogs",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.616,
+        "flagged_at": 1786731188.3419614
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.616,
+        "flagged_at": 1786731188.3601832
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.616,
+        "flagged_at": 1786731188.3785462
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.616,
+        "flagged_at": 1786731188.3966758
+      }
+    ]
+  },
+  "social media follow prompts": {
+    "prompt": "social media follow prompts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1786731188.4155514
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1786731188.434928
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1786731188.4538848
+      },
+      {
+        "topic": "A unique regional specialty from Peru most outsiders have never heard of",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1786731188.472286
       }
     ]
   }
