@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 712,
+    "times_flagged": 724,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from India and the story behind it",
+        "topic": "A must-try traditional dish from Spain and the story behind it",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786724059.73408
+        "flagged_at": 1786726924.3118637
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786725446.0232406
+        "flagged_at": 1786726924.474521
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786725446.0412126
+        "flagged_at": 1786726924.492853
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786725446.0592694
+        "flagged_at": 1786726924.5112267
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786725446.0772498
+        "flagged_at": 1786726924.529171
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 664,
+    "times_flagged": 668,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Mexico",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786722538.6967583
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786724059.342726
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786724059.360546
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.701,
-        "flagged_at": 1786724059.378139
-      },
       {
         "topic": "A must-try traditional dish from India and the story behind it",
         "category": "food",
         "country": "India",
         "confidence": 0.701,
         "flagged_at": 1786724059.3957837
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786726924.048421
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786726924.065971
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786726924.083367
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.701,
+        "flagged_at": 1786726924.1007931
       }
     ]
   },
@@ -18156,6 +18156,191 @@
         "country": "South Korea",
         "confidence": 0.484,
         "flagged_at": 1786725446.0052087
+      }
+    ]
+  },
+  "flamenco dancer background": {
+    "prompt": "flamenco dancer background",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.733,
+        "flagged_at": 1786726923.8891072
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.733,
+        "flagged_at": 1786726923.9074695
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.733,
+        "flagged_at": 1786726923.9250321
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.733,
+        "flagged_at": 1786726923.9428494
+      }
+    ]
+  },
+  "food festival crowd": {
+    "prompt": "food festival crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.8,
+        "flagged_at": 1786726923.960306
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.8,
+        "flagged_at": 1786726923.9780512
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.8,
+        "flagged_at": 1786726924.0125484
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.8,
+        "flagged_at": 1786726924.0307517
+      }
+    ]
+  },
+  "seafood market fresh": {
+    "prompt": "seafood market fresh",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.799,
+        "flagged_at": 1786726924.1184375
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.799,
+        "flagged_at": 1786726924.136197
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.799,
+        "flagged_at": 1786726924.1538274
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.799,
+        "flagged_at": 1786726924.1714604
+      }
+    ]
+  },
+  "paella serving close up": {
+    "prompt": "paella serving close up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.854,
+        "flagged_at": 1786726924.3295527
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.854,
+        "flagged_at": 1786726924.347611
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.854,
+        "flagged_at": 1786726924.365877
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.854,
+        "flagged_at": 1786726924.384074
+      }
+    ]
+  },
+  "fork taking a bite": {
+    "prompt": "fork taking a bite",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786726924.4020371
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786726924.4200957
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786726924.438622
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.822,
+        "flagged_at": 1786726924.456774
       }
     ]
   }
