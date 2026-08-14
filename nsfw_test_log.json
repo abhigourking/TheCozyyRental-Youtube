@@ -20601,6 +20601,66 @@
         }
       ],
       "ran_at": 1786735534.7505386
+    },
+    {
+      "run_number": "1079",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31834340686",
+      "topic": "A popular food market or food street worth visiting in Italy",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "Suppl\u00ec being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "Suppl\u00ec being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "Suppl\u00ec being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "Suppl\u00ec being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.46,
+          "prompt": "Mozzarella balls being made"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.46,
+          "prompt": "Mozzarella balls being made"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.46,
+          "prompt": "Mozzarella balls being made"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.46,
+          "prompt": "Mozzarella balls being made"
+        }
+      ],
+      "ran_at": 1786737141.3138235
     }
   ]
 }

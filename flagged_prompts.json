@@ -18824,5 +18824,79 @@
         "flagged_at": 1786735534.8253307
       }
     ]
+  },
+  "suppl\u00ec being fried": {
+    "prompt": "Suppl\u00ec being fried",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786737141.3328555
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786737141.3497763
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786737141.365912
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1786737141.3822224
+      }
+    ]
+  },
+  "mozzarella balls being made": {
+    "prompt": "Mozzarella balls being made",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.46,
+        "flagged_at": 1786737141.398451
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.46,
+        "flagged_at": 1786737141.4147623
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.46,
+        "flagged_at": 1786737141.4309523
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.46,
+        "flagged_at": 1786737141.4471655
+      }
+    ]
   }
 }
