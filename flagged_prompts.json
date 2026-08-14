@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 572,
+    "times_flagged": 580,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786661924.0951416
+        "flagged_at": 1786668181.1965127
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786661924.4037228
+        "flagged_at": 1786668181.2816179
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786661924.417926
+        "flagged_at": 1786668181.2964694
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786661924.432197
+        "flagged_at": 1786668181.310887
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Vietnam",
+        "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786661924.4463112
+        "flagged_at": 1786668181.3259816
       }
     ]
   },
@@ -14884,6 +14884,117 @@
         "country": "Turkey",
         "confidence": 0.767,
         "flagged_at": 1786664989.6913514
+      }
+    ]
+  },
+  "ayutthaya temple ruins": {
+    "prompt": "ayutthaya temple ruins",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.334,
+        "flagged_at": 1786668181.038316
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.334,
+        "flagged_at": 1786668181.0532224
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.334,
+        "flagged_at": 1786668181.0674553
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.334,
+        "flagged_at": 1786668181.0816202
+      }
+    ]
+  },
+  "bangkok street food vendors": {
+    "prompt": "bangkok street food vendors",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.766,
+        "flagged_at": 1786668181.0958996
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.766,
+        "flagged_at": 1786668181.110387
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.766,
+        "flagged_at": 1786668181.1248252
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.766,
+        "flagged_at": 1786668181.1392303
+      }
+    ]
+  },
+  "ayutthaya boat ride": {
+    "prompt": "ayutthaya boat ride",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.664,
+        "flagged_at": 1786668181.210786
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.664,
+        "flagged_at": 1786668181.2250943
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.664,
+        "flagged_at": 1786668181.2394118
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.664,
+        "flagged_at": 1786668181.2538958
       }
     ]
   }
