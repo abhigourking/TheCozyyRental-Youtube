@@ -20457,6 +20457,42 @@
         }
       ],
       "ran_at": 1786732694.2594109
+    },
+    {
+      "run_number": "1076",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31830754088",
+      "topic": "A viral travel spot in India that's all over social media right now",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.821,
+          "prompt": "summer flowers blooming"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.821,
+          "prompt": "summer flowers blooming"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.821,
+          "prompt": "summer flowers blooming"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.821,
+          "prompt": "summer flowers blooming"
+        }
+      ],
+      "ran_at": 1786734143.7010667
     }
   ]
 }

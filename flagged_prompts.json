@@ -18750,5 +18750,42 @@
         "flagged_at": 1786731188.472286
       }
     ]
+  },
+  "summer flowers blooming": {
+    "prompt": "summer flowers blooming",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.821,
+        "flagged_at": 1786734143.7219796
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.821,
+        "flagged_at": 1786734143.740501
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.821,
+        "flagged_at": 1786734143.7584088
+      },
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.821,
+        "flagged_at": 1786734143.7761204
+      }
+    ]
   }
 }
