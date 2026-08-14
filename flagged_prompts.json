@@ -17869,5 +17869,42 @@
         "flagged_at": 1786719742.2383878
       }
     ]
+  },
+  "local market shopping": {
+    "prompt": "local market shopping",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.806,
+        "flagged_at": 1786721152.5934987
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.806,
+        "flagged_at": 1786721152.6054466
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.806,
+        "flagged_at": 1786721152.6167216
+      },
+      {
+        "topic": "A hidden gem destination in India most tourists don't know about",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.806,
+        "flagged_at": 1786721152.6279926
+      }
+    ]
   }
 }

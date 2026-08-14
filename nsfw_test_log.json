@@ -19443,6 +19443,42 @@
         }
       ],
       "ran_at": 1786719742.1643615
+    },
+    {
+      "run_number": "1066",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31813739678",
+      "topic": "A hidden gem destination in India most tourists don't know about",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "local market shopping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "local market shopping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "local market shopping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "local market shopping"
+        }
+      ],
+      "ran_at": 1786721152.579562
     }
   ]
 }
