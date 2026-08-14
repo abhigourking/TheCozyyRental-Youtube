@@ -17062,5 +17062,116 @@
         "flagged_at": 1786707291.1128135
       }
     ]
+  },
+  "ancient egyptian workers": {
+    "prompt": "ancient egyptian workers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.765,
+        "flagged_at": 1786708874.6026435
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.765,
+        "flagged_at": 1786708874.6209526
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.765,
+        "flagged_at": 1786708874.638673
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.765,
+        "flagged_at": 1786708874.6560376
+      }
+    ]
+  },
+  "ancient egyptian masons at work": {
+    "prompt": "ancient egyptian masons at work",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.389,
+        "flagged_at": 1786708874.6733003
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.389,
+        "flagged_at": 1786708874.690763
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.389,
+        "flagged_at": 1786708874.7084262
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.389,
+        "flagged_at": 1786708874.7260478
+      }
+    ]
+  },
+  "stone block placement animation": {
+    "prompt": "stone block placement animation",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.409,
+        "flagged_at": 1786708874.7440114
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.409,
+        "flagged_at": 1786708874.7616482
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.409,
+        "flagged_at": 1786708874.8036897
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.409,
+        "flagged_at": 1786708874.8216126
+      }
+    ]
   }
 }

@@ -18675,6 +18675,90 @@
         }
       ],
       "ran_at": 1786707290.684841
+    },
+    {
+      "run_number": "1057",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31797793024",
+      "topic": "A surprising fact about a famous tourist attraction in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "ancient egyptian workers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "ancient egyptian workers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "ancient egyptian workers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "ancient egyptian workers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.389,
+          "prompt": "ancient egyptian masons at work"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.389,
+          "prompt": "ancient egyptian masons at work"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.389,
+          "prompt": "ancient egyptian masons at work"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.389,
+          "prompt": "ancient egyptian masons at work"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.409,
+          "prompt": "stone block placement animation"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.409,
+          "prompt": "stone block placement animation"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.409,
+          "prompt": "stone block placement animation"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.409,
+          "prompt": "stone block placement animation"
+        }
+      ],
+      "ran_at": 1786708874.5828228
     }
   ]
 }
