@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 720,
+    "times_flagged": 728,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
-        "category": "travel",
-        "country": "Iceland",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786744535.1535938
+        "flagged_at": 1786750404.8058279
       },
       {
-        "topic": "A bucket-list experience you can only have in Egypt",
-        "category": "travel",
-        "country": "Egypt",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786749003.646904
+        "flagged_at": 1786750404.8203838
       },
       {
-        "topic": "A bucket-list experience you can only have in Egypt",
-        "category": "travel",
-        "country": "Egypt",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786749003.6860824
+        "flagged_at": 1786750404.8477297
       },
       {
-        "topic": "A bucket-list experience you can only have in Egypt",
-        "category": "travel",
-        "country": "Egypt",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786749003.7055473
+        "flagged_at": 1786750404.8628323
       },
       {
-        "topic": "A bucket-list experience you can only have in Egypt",
-        "category": "travel",
-        "country": "Egypt",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786749003.724884
+        "flagged_at": 1786750404.8777113
       }
     ]
   },
