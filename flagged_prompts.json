@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 656,
+    "times_flagged": 664,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Italy that's become an internet obsession",
-        "category": "food",
-        "country": "Italy",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786698360.6265132
+        "flagged_at": 1786707290.756108
       },
       {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786701420.2262387
+        "flagged_at": 1786707290.7729335
       },
       {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786701420.2431371
+        "flagged_at": 1786707290.7900834
       },
       {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786701420.2600422
+        "flagged_at": 1786707290.806933
       },
       {
-        "topic": "A must-try traditional dish from Mexico and the story behind it",
-        "category": "food",
-        "country": "Mexico",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786701420.276706
+        "flagged_at": 1786707290.8238144
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 616,
+    "times_flagged": 624,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Brazil and the story behind it",
-        "category": "food",
-        "country": "Brazil",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786704650.1501002
+        "flagged_at": 1786707290.9757566
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786705944.813656
+        "flagged_at": 1786707290.9927142
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786705944.9593623
+        "flagged_at": 1786707291.0098088
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786705944.9727125
+        "flagged_at": 1786707291.0268953
       },
       {
-        "topic": "A popular food market or food street worth visiting in Philippines",
-        "category": "food",
-        "country": "Philippines",
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786705945.0410943
+        "flagged_at": 1786707291.0436864
       }
     ]
   },
@@ -16986,6 +16986,80 @@
         "country": "Philippines",
         "confidence": 0.452,
         "flagged_at": 1786705944.8007495
+      }
+    ]
+  },
+  "khanom buang dessert": {
+    "prompt": "khanom buang dessert",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.786,
+        "flagged_at": 1786707290.8404229
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.786,
+        "flagged_at": 1786707290.8571782
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.786,
+        "flagged_at": 1786707290.8894553
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.786,
+        "flagged_at": 1786707290.907011
+      }
+    ]
+  },
+  "traditional thai farm": {
+    "prompt": "traditional thai farm",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.814,
+        "flagged_at": 1786707291.0608544
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.814,
+        "flagged_at": 1786707291.078408
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.814,
+        "flagged_at": 1786707291.0957327
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.814,
+        "flagged_at": 1786707291.1128135
       }
     ]
   }
