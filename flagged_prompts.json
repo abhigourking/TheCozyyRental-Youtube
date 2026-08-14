@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 708,
+    "times_flagged": 712,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786724059.5363915
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786724059.6794915
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786724059.697084
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786724059.7158976
-      },
-      {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
         "flagged_at": 1786724059.73408
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786725446.0232406
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786725446.0412126
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786725446.0592694
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786725446.0772498
       }
     ]
   },
@@ -18119,6 +18119,43 @@
         "country": "India",
         "confidence": 0.824,
         "flagged_at": 1786724059.661843
+      }
+    ]
+  },
+  "gyeongju city street": {
+    "prompt": "Gyeongju city street",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.484,
+        "flagged_at": 1786725445.950572
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.484,
+        "flagged_at": 1786725445.969142
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.484,
+        "flagged_at": 1786725445.9871402
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.484,
+        "flagged_at": 1786725446.0052087
       }
     ]
   }

@@ -19749,6 +19749,66 @@
         }
       ],
       "ran_at": 1786724059.1651065
+    },
+    {
+      "run_number": "1070",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31819563207",
+      "topic": "A hidden gem destination in South Korea most tourists don't know about",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.484,
+          "prompt": "Gyeongju city street"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.484,
+          "prompt": "Gyeongju city street"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.484,
+          "prompt": "Gyeongju city street"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.484,
+          "prompt": "Gyeongju city street"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786725445.9300003
     }
   ]
 }
