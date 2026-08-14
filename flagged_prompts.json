@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 768,
+    "times_flagged": 776,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786744534.5854044
+        "flagged_at": 1786751730.8329704
       },
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786744534.7679093
+        "flagged_at": 1786751730.8521168
       },
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786744534.7836823
+        "flagged_at": 1786751730.8711176
       },
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786744534.9915774
+        "flagged_at": 1786751730.8902833
       },
       {
-        "topic": "A bucket-list experience you can only have in Iceland",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Iceland",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786744535.007286
+        "flagged_at": 1786751730.909171
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 728,
+    "times_flagged": 732,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786750404.8058279
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786750404.8203838
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786750404.8477297
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786750404.8628323
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
         "flagged_at": 1786750404.8777113
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786751730.6101441
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786751730.6292696
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786751730.6617885
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786751730.6813915
       }
     ]
   },
@@ -19525,6 +19525,80 @@
         "country": "Egypt",
         "confidence": 0.817,
         "flagged_at": 1786749003.6279407
+      }
+    ]
+  },
+  "colorful brazilian street art": {
+    "prompt": "colorful Brazilian street art",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.488,
+        "flagged_at": 1786751730.5338297
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.488,
+        "flagged_at": 1786751730.5535393
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.488,
+        "flagged_at": 1786751730.5723553
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.488,
+        "flagged_at": 1786751730.591387
+      }
+    ]
+  },
+  "a\u00e7a\u00ed bowl close up": {
+    "prompt": "a\u00e7a\u00ed bowl close up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786751730.7003858
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786751730.719198
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786751730.7382636
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786751730.7570648
       }
     ]
   }
