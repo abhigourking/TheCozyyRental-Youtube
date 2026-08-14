@@ -18370,6 +18370,17 @@
         }
       ],
       "ran_at": 1786701420.1408277
+    },
+    {
+      "run_number": "1052",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31791247052",
+      "topic": "The most breathtaking place to visit in Turkey",
+      "category": "travel",
+      "country": "Turkey",
+      "images_checked": 15,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1786702916.9283638
     }
   ]
 }
