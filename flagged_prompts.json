@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 664,
+    "times_flagged": 668,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786707290.756108
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786707290.7729335
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786707290.7900834
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786707290.806933
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
         "flagged_at": 1786707290.8238144
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786710602.9989817
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786710603.0262475
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786710603.039125
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786710603.0520065
       }
     ]
   },
@@ -17171,6 +17171,110 @@
         "country": "Egypt",
         "confidence": 0.409,
         "flagged_at": 1786708874.8216126
+      }
+    ]
+  },
+  "pork cutlets on grill": {
+    "prompt": "pork cutlets on grill",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.439,
+        "flagged_at": 1786710602.899093
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.439,
+        "flagged_at": 1786710602.9125764
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.439,
+        "flagged_at": 1786710602.9253163
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.439,
+        "flagged_at": 1786710602.938166
+      }
+    ]
+  },
+  "breading process hands": {
+    "prompt": "breading process hands",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.828,
+        "flagged_at": 1786710602.9508288
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.828,
+        "flagged_at": 1786710602.9637647
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.828,
+        "flagged_at": 1786710602.9845355
+      }
+    ]
+  },
+  "happy person eating tonkatsu": {
+    "prompt": "happy person eating tonkatsu",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.771,
+        "flagged_at": 1786710603.0647423
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.771,
+        "flagged_at": 1786710603.0800903
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.771,
+        "flagged_at": 1786710603.0946796
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.771,
+        "flagged_at": 1786710603.1083102
       }
     ]
   }

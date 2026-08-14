@@ -18759,6 +18759,108 @@
         }
       ],
       "ran_at": 1786708874.5828228
+    },
+    {
+      "run_number": "1058",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31799616757",
+      "topic": "A must-try traditional dish from Japan and the story behind it",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 29,
+      "images_flagged": 15,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.439,
+          "prompt": "pork cutlets on grill"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.439,
+          "prompt": "pork cutlets on grill"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.439,
+          "prompt": "pork cutlets on grill"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.439,
+          "prompt": "pork cutlets on grill"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "breading process hands"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "breading process hands"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "breading process hands"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "happy person eating tonkatsu"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "happy person eating tonkatsu"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "happy person eating tonkatsu"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "happy person eating tonkatsu"
+        }
+      ],
+      "ran_at": 1786710602.8829055
     }
   ]
 }
