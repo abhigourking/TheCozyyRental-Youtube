@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 588,
+    "times_flagged": 592,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786671339.4746783
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786671339.489688
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786671339.5041287
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786671339.518618
-      },
-      {
-        "topic": "A comfort food from Spain that's become an internet obsession",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786671339.5330493
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786677526.9553163
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786677526.970875
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786677526.9867272
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.357,
+        "flagged_at": 1786677527.0020893
       }
     ]
   },
@@ -15587,6 +15587,117 @@
         "country": "South Korea",
         "confidence": 0.392,
         "flagged_at": 1786675880.2535124
+      }
+    ]
+  },
+  "coffee being poured": {
+    "prompt": "coffee being poured",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786677526.7555687
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786677526.7713838
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786677526.786863
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.807,
+        "flagged_at": 1786677526.8021724
+      }
+    ]
+  },
+  "street performers": {
+    "prompt": "street performers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.805,
+        "flagged_at": 1786677526.8174465
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.805,
+        "flagged_at": 1786677526.8327603
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.805,
+        "flagged_at": 1786677526.8480942
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.805,
+        "flagged_at": 1786677526.8638232
+      }
+    ]
+  },
+  "traveler taking photo": {
+    "prompt": "traveler taking photo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.412,
+        "flagged_at": 1786677526.8944006
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.412,
+        "flagged_at": 1786677526.9098325
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.412,
+        "flagged_at": 1786677526.9251606
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.412,
+        "flagged_at": 1786677526.9401917
       }
     ]
   }
