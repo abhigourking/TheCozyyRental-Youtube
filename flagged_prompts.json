@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 668,
+    "times_flagged": 680,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from India and the story behind it",
-        "category": "food",
-        "country": "India",
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786724059.3957837
+        "flagged_at": 1786728276.0623622
       },
       {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786726924.048421
+        "flagged_at": 1786728276.162526
       },
       {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786726924.065971
+        "flagged_at": 1786728276.1800451
       },
       {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786726924.083367
+        "flagged_at": 1786728276.1973994
       },
       {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
         "confidence": 0.701,
-        "flagged_at": 1786726924.1007931
+        "flagged_at": 1786728276.2147768
       }
     ]
   },
@@ -18341,6 +18341,43 @@
         "country": "Spain",
         "confidence": 0.822,
         "flagged_at": 1786726924.456774
+      }
+    ]
+  },
+  "souvlaki street vendor": {
+    "prompt": "souvlaki street vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.693,
+        "flagged_at": 1786728276.0797446
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.693,
+        "flagged_at": 1786728276.1099136
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.693,
+        "flagged_at": 1786728276.1275659
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.693,
+        "flagged_at": 1786728276.1450698
       }
     ]
   }
