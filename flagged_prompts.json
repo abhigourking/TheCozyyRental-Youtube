@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 688,
+    "times_flagged": 692,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786718388.7974582
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786718389.0413392
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786718389.0588124
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786718389.076288
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
         "flagged_at": 1786718389.0937011
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786719742.255988
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786719742.2734916
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786719742.2911196
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786719742.3085756
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 648,
+    "times_flagged": 656,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786718388.7278006
+        "flagged_at": 1786719742.3980756
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786718389.1111717
+        "flagged_at": 1786719742.4156086
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786718389.1286054
+        "flagged_at": 1786719742.4329984
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786718389.1464453
+        "flagged_at": 1786719742.4501624
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.701,
-        "flagged_at": 1786718389.1639428
+        "flagged_at": 1786719742.467538
       }
     ]
   },
@@ -17830,6 +17830,43 @@
         "country": "India",
         "confidence": 0.809,
         "flagged_at": 1786718389.023795
+      }
+    ]
+  },
+  "brazilian street food": {
+    "prompt": "Brazilian street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.848,
+        "flagged_at": 1786719742.1849806
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.848,
+        "flagged_at": 1786719742.202768
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.848,
+        "flagged_at": 1786719742.2205846
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.848,
+        "flagged_at": 1786719742.2383878
       }
     ]
   }
