@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 612,
+    "times_flagged": 620,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786679140.5209723
+        "flagged_at": 1786685029.85815
       },
       {
-        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786680509.0828884
+        "flagged_at": 1786685030.0183706
       },
       {
-        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786680509.0978453
+        "flagged_at": 1786685030.034426
       },
       {
-        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786680509.1128702
+        "flagged_at": 1786685030.0501912
       },
       {
-        "topic": "A hidden gem destination in Mexico most tourists don't know about",
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786680509.1278195
+        "flagged_at": 1786685030.0672474
       }
     ]
   },
@@ -15920,6 +15920,117 @@
         "country": "South Korea",
         "confidence": 0.805,
         "flagged_at": 1786683489.635875
+      }
+    ]
+  },
+  "ferry to nami island": {
+    "prompt": "ferry to Nami Island",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786685029.7461832
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786685029.7633305
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786685029.7803335
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.811,
+        "flagged_at": 1786685029.796042
+      }
+    ]
+  },
+  "grilled pork street food": {
+    "prompt": "grilled pork street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.547,
+        "flagged_at": 1786685029.873665
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.547,
+        "flagged_at": 1786685029.8892872
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.547,
+        "flagged_at": 1786685029.9211695
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.547,
+        "flagged_at": 1786685029.9372294
+      }
+    ]
+  },
+  "ferry leaving nami island": {
+    "prompt": "ferry leaving Nami Island",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786685029.9534025
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786685029.9701493
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786685029.9859354
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.827,
+        "flagged_at": 1786685030.0015912
       }
     ]
   }
