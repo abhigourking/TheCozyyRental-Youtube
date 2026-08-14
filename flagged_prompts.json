@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 668,
+    "times_flagged": 680,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "topic": "A bucket-list experience you can only have in Japan",
         "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786707290.8238144
-      },
-      {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
         "country": "Japan",
         "confidence": 0.357,
-        "flagged_at": 1786710602.9989817
+        "flagged_at": 1786716794.9996343
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
         "country": "Japan",
         "confidence": 0.357,
-        "flagged_at": 1786710603.0262475
+        "flagged_at": 1786716795.0166192
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
         "country": "Japan",
         "confidence": 0.357,
-        "flagged_at": 1786710603.039125
+        "flagged_at": 1786716795.0336797
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
         "country": "Japan",
         "confidence": 0.357,
-        "flagged_at": 1786710603.0520065
+        "flagged_at": 1786716795.0507772
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1786716795.0682437
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 624,
+    "times_flagged": 628,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.701,
-        "flagged_at": 1786707290.9757566
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786707290.9927142
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786707291.0098088
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786707291.0268953
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
         "flagged_at": 1786707291.0436864
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786716794.880494
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786716794.8974512
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786716794.914396
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1786716794.9314508
       }
     ]
   },
@@ -17460,6 +17460,80 @@
         "country": "Egypt",
         "confidence": 0.631,
         "flagged_at": 1786715441.8031259
+      }
+    ]
+  },
+  "sushi chef hands": {
+    "prompt": "sushi chef hands",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.405,
+        "flagged_at": 1786716794.659882
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.405,
+        "flagged_at": 1786716794.6775556
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.405,
+        "flagged_at": 1786716794.6952991
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.405,
+        "flagged_at": 1786716794.7121716
+      }
+    ]
+  },
+  "harajuku fashion district": {
+    "prompt": "Harajuku fashion district",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.566,
+        "flagged_at": 1786716794.7968075
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.566,
+        "flagged_at": 1786716794.8289325
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.566,
+        "flagged_at": 1786716794.846382
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.566,
+        "flagged_at": 1786716794.8633986
       }
     ]
   }
