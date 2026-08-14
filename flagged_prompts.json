@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 592,
+    "times_flagged": 608,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Spain that's become an internet obsession",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
         "category": "food",
-        "country": "Spain",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786671339.5330493
+        "flagged_at": 1786679140.3963923
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786677526.9553163
+        "flagged_at": 1786679140.4744215
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786677526.970875
+        "flagged_at": 1786679140.4902554
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786677526.9867272
+        "flagged_at": 1786679140.5056045
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786677527.0020893
+        "flagged_at": 1786679140.5209723
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 576,
+    "times_flagged": 584,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Portugal and the story behind it",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
         "category": "food",
-        "country": "Portugal",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786672957.5650804
+        "flagged_at": 1786679140.0004165
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786675880.2694817
+        "flagged_at": 1786679140.4118612
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786675880.285079
+        "flagged_at": 1786679140.4273753
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786675880.300641
+        "flagged_at": 1786679140.442963
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786675880.3160944
+        "flagged_at": 1786679140.4584725
       }
     ]
   },
@@ -15698,6 +15698,117 @@
         "country": "Portugal",
         "confidence": 0.412,
         "flagged_at": 1786677526.9401917
+      }
+    ]
+  },
+  "moroccan kitchen cooking": {
+    "prompt": "moroccan kitchen cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.304,
+        "flagged_at": 1786679140.101822
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.304,
+        "flagged_at": 1786679140.1175706
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.304,
+        "flagged_at": 1786679140.133125
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.304,
+        "flagged_at": 1786679140.1486785
+      }
+    ]
+  },
+  "food street morocco": {
+    "prompt": "food street morocco",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.2257519
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.2413292
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.256796
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.2724283
+      }
+    ]
+  },
+  "fez morocco street": {
+    "prompt": "fez morocco street",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.2881482
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.3036177
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.3190224
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.484,
+        "flagged_at": 1786679140.3344357
       }
     ]
   }
