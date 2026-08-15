@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 864,
+    "times_flagged": 880,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786775093.03383
+        "flagged_at": 1786779771.1756663
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "The most viral street food trend in India right now",
         "category": "food",
-        "country": "Italy",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786776559.4110715
+        "flagged_at": 1786779771.3605683
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "The most viral street food trend in India right now",
         "category": "food",
-        "country": "Italy",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786776559.432139
+        "flagged_at": 1786779771.3811853
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "The most viral street food trend in India right now",
         "category": "food",
-        "country": "Italy",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786776559.4529767
+        "flagged_at": 1786779771.4017696
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "The most viral street food trend in India right now",
         "category": "food",
-        "country": "Italy",
+        "country": "India",
         "confidence": 0.357,
-        "flagged_at": 1786776559.473721
+        "flagged_at": 1786779771.4223642
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 772,
+    "times_flagged": 776,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.701,
-        "flagged_at": 1786776559.3070836
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786778030.7727778
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786778030.793574
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786778030.8140025
-      },
       {
         "topic": "A popular food market or food street worth visiting in Morocco",
         "category": "food",
         "country": "Morocco",
         "confidence": 0.701,
         "flagged_at": 1786778030.834332
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786779771.0318542
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786779771.0523934
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786779771.0730479
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.701,
+        "flagged_at": 1786779771.0935273
       }
     ]
   },
@@ -21153,6 +21153,154 @@
         "country": "Morocco",
         "confidence": 0.832,
         "flagged_at": 1786778030.9158375
+      }
+    ]
+  },
+  "pani puri street food stall": {
+    "prompt": "pani puri street food stall",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.734,
+        "flagged_at": 1786779770.7852058
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.734,
+        "flagged_at": 1786779770.8062286
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.734,
+        "flagged_at": 1786779770.8267243
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.734,
+        "flagged_at": 1786779770.8471162
+      }
+    ]
+  },
+  "bhel puri vendor night market": {
+    "prompt": "bhel puri vendor night market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.761,
+        "flagged_at": 1786779770.8675897
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.761,
+        "flagged_at": 1786779770.8880744
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.761,
+        "flagged_at": 1786779770.908649
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.761,
+        "flagged_at": 1786779770.929251
+      }
+    ]
+  },
+  "street food online ordering": {
+    "prompt": "street food online ordering",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.78,
+        "flagged_at": 1786779771.196109
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.78,
+        "flagged_at": 1786779771.2167466
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.78,
+        "flagged_at": 1786779771.2372344
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.78,
+        "flagged_at": 1786779771.2577145
+      }
+    ]
+  },
+  "person eating food at home": {
+    "prompt": "person eating food at home",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786779771.2782423
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786779771.2987947
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786779771.319415
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786779771.3400128
       }
     ]
   }
