@@ -22064,6 +22064,17 @@
         }
       ],
       "ran_at": 1786757437.2432878
+    },
+    {
+      "run_number": "1095",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31857376710",
+      "topic": "The most viral street food trend in Turkey right now",
+      "category": "food",
+      "country": "Turkey",
+      "images_checked": 15,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1786758880.2240393
     }
   ]
 }
