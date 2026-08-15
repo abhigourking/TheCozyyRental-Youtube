@@ -23486,5 +23486,116 @@
         "flagged_at": 1786811190.0331044
       }
     ]
+  },
+  "churro chocolate dip": {
+    "prompt": "churro chocolate dip",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.488,
+        "flagged_at": 1786812750.581619
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.488,
+        "flagged_at": 1786812750.6047742
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.488,
+        "flagged_at": 1786812750.6271904
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.488,
+        "flagged_at": 1786812750.6645803
+      }
+    ]
+  },
+  "street snack vendor": {
+    "prompt": "street snack vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.538,
+        "flagged_at": 1786812750.687538
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.538,
+        "flagged_at": 1786812750.7099004
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.538,
+        "flagged_at": 1786812750.732079
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.538,
+        "flagged_at": 1786812750.7543097
+      }
+    ]
+  },
+  "comment overlay": {
+    "prompt": "comment overlay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.811,
+        "flagged_at": 1786812750.7767968
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.811,
+        "flagged_at": 1786812750.8005395
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.811,
+        "flagged_at": 1786812750.8243508
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.811,
+        "flagged_at": 1786812750.8487005
+      }
+    ]
   }
 }

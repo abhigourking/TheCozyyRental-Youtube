@@ -25997,6 +25997,90 @@
         }
       ],
       "ran_at": 1786811189.8355901
+    },
+    {
+      "run_number": "1138",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31896210461",
+      "topic": "A popular food market or food street worth visiting in Spain",
+      "category": "food",
+      "country": "Spain",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.488,
+          "prompt": "churro chocolate dip"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.488,
+          "prompt": "churro chocolate dip"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.488,
+          "prompt": "churro chocolate dip"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.488,
+          "prompt": "churro chocolate dip"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "street snack vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "street snack vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "street snack vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "street snack vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "comment overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "comment overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "comment overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "comment overlay"
+        }
+      ],
+      "ran_at": 1786812750.5549102
     }
   ]
 }
