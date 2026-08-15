@@ -24960,6 +24960,17 @@
         }
       ],
       "ran_at": 1786796427.5770166
+    },
+    {
+      "run_number": "1127",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31884994728",
+      "topic": "The most breathtaking place to visit in Mexico",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 15,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1786797935.3864787
     }
   ]
 }
