@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 944,
+    "times_flagged": 952,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786792903.9679704
+        "flagged_at": 1786801449.1857228
       },
       {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "topic": "The most viral street food trend in Brazil right now",
         "category": "food",
-        "country": "Philippines",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786794644.69313
+        "flagged_at": 1786801449.383233
       },
       {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "topic": "The most viral street food trend in Brazil right now",
         "category": "food",
-        "country": "Philippines",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786794644.7148707
+        "flagged_at": 1786801449.4051604
       },
       {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "topic": "The most viral street food trend in Brazil right now",
         "category": "food",
-        "country": "Philippines",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786794644.7366688
+        "flagged_at": 1786801449.4270554
       },
       {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "topic": "The most viral street food trend in Brazil right now",
         "category": "food",
-        "country": "Philippines",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786794644.7589326
+        "flagged_at": 1786801449.4489763
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 828,
+    "times_flagged": 832,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.701,
-        "flagged_at": 1786796427.874361
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786799688.4022636
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786799688.4244378
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.701,
-        "flagged_at": 1786799688.4460907
-      },
       {
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
         "country": "Iceland",
         "confidence": 0.701,
         "flagged_at": 1786799688.4679039
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786801449.4709692
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786801449.4931188
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786801449.5151246
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786801449.5373023
       }
     ]
   },
@@ -22633,6 +22633,191 @@
         "country": "Iceland",
         "confidence": 0.83,
         "flagged_at": 1786799688.5557353
+      }
+    ]
+  },
+  "beans being seasoned": {
+    "prompt": "beans being seasoned",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.303,
+        "flagged_at": 1786801448.8563175
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.303,
+        "flagged_at": 1786801448.8785326
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.303,
+        "flagged_at": 1786801448.9000962
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.303,
+        "flagged_at": 1786801448.9216704
+      }
+    ]
+  },
+  "close up fried food": {
+    "prompt": "close up fried food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.438,
+        "flagged_at": 1786801448.943567
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.438,
+        "flagged_at": 1786801448.96534
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.438,
+        "flagged_at": 1786801448.9873505
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.438,
+        "flagged_at": 1786801449.0106885
+      }
+    ]
+  },
+  "s\u00e3o paulo street vendor": {
+    "prompt": "S\u00e3o Paulo street vendor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.791,
+        "flagged_at": 1786801449.0325253
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.791,
+        "flagged_at": 1786801449.0544686
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.791,
+        "flagged_at": 1786801449.076613
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.791,
+        "flagged_at": 1786801449.0983312
+      }
+    ]
+  },
+  "neon filter effect overlay": {
+    "prompt": "neon filter effect overlay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.821,
+        "flagged_at": 1786801449.207622
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.821,
+        "flagged_at": 1786801449.2295527
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.821,
+        "flagged_at": 1786801449.2513578
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.821,
+        "flagged_at": 1786801449.2733998
+      }
+    ]
+  },
+  "thumbs up animation": {
+    "prompt": "thumbs up animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.814,
+        "flagged_at": 1786801449.2951572
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.814,
+        "flagged_at": 1786801449.3171155
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.814,
+        "flagged_at": 1786801449.339122
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.814,
+        "flagged_at": 1786801449.3611155
       }
     ]
   }
