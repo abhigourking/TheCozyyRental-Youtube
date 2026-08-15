@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 788,
+    "times_flagged": 800,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Argentina",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786753172.3779159
+        "flagged_at": 1786756020.0392816
       },
       {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786754579.1098788
+        "flagged_at": 1786756020.059906
       },
       {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786754579.1286492
+        "flagged_at": 1786756020.0801952
       },
       {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786754579.1473465
+        "flagged_at": 1786756020.1004305
       },
       {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "topic": "A bucket-list experience you can only have in Peru",
         "category": "travel",
-        "country": "Vietnam",
+        "country": "Peru",
         "confidence": 0.357,
-        "flagged_at": 1786754579.1660483
+        "flagged_at": 1786756020.120915
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 736,
+    "times_flagged": 740,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786751730.6813915
-      },
-      {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786754578.8716967
-      },
-      {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786754578.890796
-      },
-      {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786754578.909238
-      },
       {
         "topic": "A viral travel spot in Vietnam that's all over social media right now",
         "category": "travel",
         "country": "Vietnam",
         "confidence": 0.701,
         "flagged_at": 1786754578.9280357
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786756019.735478
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786756019.7557678
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786756019.7760394
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1786756019.7960277
       }
     ]
   },
@@ -19784,6 +19784,154 @@
         "country": "Vietnam",
         "confidence": 0.801,
         "flagged_at": 1786754579.0906959
+      }
+    ]
+  },
+  "festival parade colorful costumes": {
+    "prompt": "festival parade colorful costumes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.789,
+        "flagged_at": 1786756019.5569587
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.789,
+        "flagged_at": 1786756019.5960376
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.789,
+        "flagged_at": 1786756019.6160796
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.789,
+        "flagged_at": 1786756019.6361036
+      }
+    ]
+  },
+  "traditional music and dance": {
+    "prompt": "traditional music and dance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.787,
+        "flagged_at": 1786756019.6557906
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.787,
+        "flagged_at": 1786756019.675604
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.787,
+        "flagged_at": 1786756019.6955457
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.787,
+        "flagged_at": 1786756019.7155173
+      }
+    ]
+  },
+  "candlelight procession night": {
+    "prompt": "candlelight procession night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.788,
+        "flagged_at": 1786756019.8158615
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.788,
+        "flagged_at": 1786756019.8360913
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.788,
+        "flagged_at": 1786756019.8561795
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.788,
+        "flagged_at": 1786756019.8763487
+      }
+    ]
+  },
+  "sunrise over andean mountains": {
+    "prompt": "sunrise over Andean mountains",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.644,
+        "flagged_at": 1786756019.896466
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.644,
+        "flagged_at": 1786756019.9167666
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.644,
+        "flagged_at": 1786756019.9368064
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.644,
+        "flagged_at": 1786756019.957047
       }
     ]
   }
