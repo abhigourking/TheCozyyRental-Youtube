@@ -22873,6 +22873,168 @@
         }
       ],
       "ran_at": 1786770570.7710738
+    },
+    {
+      "run_number": "1106",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31866872244",
+      "topic": "A must-try traditional dish from Vietnam and the story behind it",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 47,
+      "images_flagged": 36,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "pork and shrimp filling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "pork and shrimp filling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "pork and shrimp filling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "pork and shrimp filling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.502,
+          "prompt": "delicious Vietnamese dish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.502,
+          "prompt": "delicious Vietnamese dish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.502,
+          "prompt": "delicious Vietnamese dish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.502,
+          "prompt": "delicious Vietnamese dish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.746,
+          "prompt": "sizzling pancake"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.746,
+          "prompt": "sizzling pancake"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.746,
+          "prompt": "sizzling pancake"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.746,
+          "prompt": "sizzling pancake"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "cold beer pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "cold beer pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "cold beer pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "cold beer pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "delicious food and drink"
+        }
+      ],
+      "ran_at": 1786772061.9269602
     }
   ]
 }
