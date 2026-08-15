@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1004,
+    "times_flagged": 1016,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Thailand",
+        "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786814389.9440625
+        "flagged_at": 1786817333.8334918
       },
       {
-        "topic": "A popular food market or food street worth visiting in Thailand",
+        "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786814390.0572674
+        "flagged_at": 1786817333.8574047
       },
       {
-        "topic": "A popular food market or food street worth visiting in Thailand",
+        "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786814390.0794516
+        "flagged_at": 1786817333.8813117
       },
       {
-        "topic": "A popular food market or food street worth visiting in Thailand",
+        "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786814390.1016552
+        "flagged_at": 1786817333.9055035
       },
       {
-        "topic": "A popular food market or food street worth visiting in Thailand",
+        "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786814390.1238482
+        "flagged_at": 1786817333.9302452
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 856,
+    "times_flagged": 860,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Thailand",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786814389.3989275
-      },
-      {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786815851.7028458
-      },
-      {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786815851.728197
-      },
-      {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786815851.7532291
-      },
       {
         "topic": "A comfort food from France that's become an internet obsession",
         "category": "food",
         "country": "France",
         "confidence": 0.701,
         "flagged_at": 1786815851.7783198
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786817333.645941
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786817333.669371
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786817333.693378
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786817333.717207
       }
     ]
   },
@@ -23928,6 +23928,154 @@
         "country": "France",
         "confidence": 0.777,
         "flagged_at": 1786815851.677814
+      }
+    ]
+  },
+  "northern thai market": {
+    "prompt": "northern Thai market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.794,
+        "flagged_at": 1786817333.1667325
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.794,
+        "flagged_at": 1786817333.1902432
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.794,
+        "flagged_at": 1786817333.227825
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.794,
+        "flagged_at": 1786817333.2507503
+      }
+    ]
+  },
+  "street market mango stall": {
+    "prompt": "street market mango stall",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.345,
+        "flagged_at": 1786817333.2735353
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.345,
+        "flagged_at": 1786817333.2965198
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.345,
+        "flagged_at": 1786817333.3195202
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.345,
+        "flagged_at": 1786817333.3424761
+      }
+    ]
+  },
+  "mango slices falling": {
+    "prompt": "mango slices falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.831,
+        "flagged_at": 1786817333.3656294
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.831,
+        "flagged_at": 1786817333.3884947
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.831,
+        "flagged_at": 1786817333.4113235
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.831,
+        "flagged_at": 1786817333.4342642
+      }
+    ]
+  },
+  "creamy rice swirl": {
+    "prompt": "creamy rice swirl",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.782,
+        "flagged_at": 1786817333.4573486
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.782,
+        "flagged_at": 1786817333.4805017
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.782,
+        "flagged_at": 1786817333.5042052
+      },
+      {
+        "topic": "A comfort food from Thailand that's become an internet obsession",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.782,
+        "flagged_at": 1786817333.5277984
       }
     ]
   }
