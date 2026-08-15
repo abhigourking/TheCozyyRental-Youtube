@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1084,
+    "times_flagged": 1096,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786833459.1633854
+        "flagged_at": 1786837076.909154
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786835280.7309172
+        "flagged_at": 1786837077.2458665
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786835280.755666
+        "flagged_at": 1786837077.2705193
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786835280.7804847
+        "flagged_at": 1786837077.2953546
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786835280.805616
+        "flagged_at": 1786837077.3201973
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 896,
+    "times_flagged": 900,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786828417.9680343
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786831843.0644867
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786831843.0805578
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.701,
-        "flagged_at": 1786831843.096837
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Peru",
         "category": "travel",
         "country": "Peru",
         "confidence": 0.701,
         "flagged_at": 1786831843.1131535
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786837077.14763
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786837077.1720457
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786837077.196586
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786837077.2211452
       }
     ]
   },
@@ -25223,6 +25223,228 @@
         "country": "Thailand",
         "confidence": 0.779,
         "flagged_at": 1786835280.7057052
+      }
+    ]
+  },
+  "curious tourist": {
+    "prompt": "curious tourist",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.77,
+        "flagged_at": 1786837076.3462198
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.77,
+        "flagged_at": 1786837076.371001
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.77,
+        "flagged_at": 1786837076.3955002
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.77,
+        "flagged_at": 1786837076.4196556
+      }
+    ]
+  },
+  "sprouts being tossed": {
+    "prompt": "sprouts being tossed",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.758,
+        "flagged_at": 1786837076.54101
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.758,
+        "flagged_at": 1786837076.5656803
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.758,
+        "flagged_at": 1786837076.5900762
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.758,
+        "flagged_at": 1786837076.6143146
+      }
+    ]
+  },
+  "social media upload animation": {
+    "prompt": "social media upload animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.846,
+        "flagged_at": 1786837076.638781
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.846,
+        "flagged_at": 1786837076.6631362
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.846,
+        "flagged_at": 1786837076.6875608
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.846,
+        "flagged_at": 1786837076.7120194
+      }
+    ]
+  },
+  "friends reacting excitedly": {
+    "prompt": "friends reacting excitedly",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786837076.7367878
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786837076.7614048
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786837076.7859247
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.86,
+        "flagged_at": 1786837076.8104086
+      }
+    ]
+  },
+  "comment bubble popping": {
+    "prompt": "comment bubble popping",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.814,
+        "flagged_at": 1786837076.9338205
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.814,
+        "flagged_at": 1786837076.9582613
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.814,
+        "flagged_at": 1786837076.9987667
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.814,
+        "flagged_at": 1786837077.0240002
+      }
+    ]
+  },
+  "happy viewer thumbs up": {
+    "prompt": "happy viewer thumbs up",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.815,
+        "flagged_at": 1786837077.0489993
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.815,
+        "flagged_at": 1786837077.0734348
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.815,
+        "flagged_at": 1786837077.098173
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.815,
+        "flagged_at": 1786837077.122715
       }
     ]
   }
