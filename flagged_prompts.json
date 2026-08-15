@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 840,
+    "times_flagged": 844,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786766254.6286242
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786766254.648294
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786766254.6680613
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
-        "flagged_at": 1786766254.6884744
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.357,
         "flagged_at": 1786766254.7101521
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786767759.0911074
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786767759.1108315
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786767759.1303556
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.357,
+        "flagged_at": 1786767759.1497662
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 748,
+    "times_flagged": 752,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786766254.2379062
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786766254.4130778
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786766254.4326212
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
-        "flagged_at": 1786766254.4521928
-      },
-      {
-        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.701,
         "flagged_at": 1786766254.4717333
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786767759.1694448
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786767759.1891022
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786767759.2088804
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.701,
+        "flagged_at": 1786767759.2284977
       }
     ]
   },
@@ -20450,6 +20450,154 @@
         "country": "Morocco",
         "confidence": 0.786,
         "flagged_at": 1786766254.393392
+      }
+    ]
+  },
+  "people eating souvlaki": {
+    "prompt": "people eating souvlaki",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.657,
+        "flagged_at": 1786767758.762924
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.657,
+        "flagged_at": 1786767758.7829647
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.657,
+        "flagged_at": 1786767758.8022668
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.657,
+        "flagged_at": 1786767758.8215349
+      }
+    ]
+  },
+  "gyro meat rotating": {
+    "prompt": "gyro meat rotating",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1786767758.8408759
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1786767758.876019
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1786767758.8958597
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1786767758.9153008
+      }
+    ]
+  },
+  "street food vendor serving": {
+    "prompt": "street food vendor serving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.842,
+        "flagged_at": 1786767758.93474
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.842,
+        "flagged_at": 1786767758.95427
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.842,
+        "flagged_at": 1786767758.9737363
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.842,
+        "flagged_at": 1786767758.9933352
+      }
+    ]
+  },
+  "follow us on social media": {
+    "prompt": "follow us on social media",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.808,
+        "flagged_at": 1786767759.01296
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.808,
+        "flagged_at": 1786767759.0324757
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.808,
+        "flagged_at": 1786767759.0518713
+      },
+      {
+        "topic": "The most viral street food trend in Greece right now",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.808,
+        "flagged_at": 1786767759.0715706
       }
     ]
   }
