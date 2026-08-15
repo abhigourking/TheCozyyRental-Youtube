@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 860,
+    "times_flagged": 864,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786773707.3402324
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786775092.9734309
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786775092.9934108
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786775093.0137262
-      },
       {
         "topic": "A hidden gem destination in Thailand most tourists don't know about",
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.357,
         "flagged_at": 1786775093.03383
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.357,
+        "flagged_at": 1786776559.4110715
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.357,
+        "flagged_at": 1786776559.432139
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.357,
+        "flagged_at": 1786776559.4529767
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.357,
+        "flagged_at": 1786776559.473721
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 764,
+    "times_flagged": 768,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786772062.669123
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786775092.8933117
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786775092.913477
-      },
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786775092.9333715
-      },
       {
         "topic": "A hidden gem destination in Thailand most tourists don't know about",
         "category": "travel",
         "country": "Thailand",
         "confidence": 0.701,
         "flagged_at": 1786775092.9534414
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786776559.2438734
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786776559.2653913
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786776559.2861888
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.701,
+        "flagged_at": 1786776559.3070836
       }
     ]
   },
@@ -21042,6 +21042,43 @@
         "country": "Thailand",
         "confidence": 0.446,
         "flagged_at": 1786775092.8728547
+      }
+    ]
+  },
+  "person commenting": {
+    "prompt": "person commenting",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.825,
+        "flagged_at": 1786776559.3277438
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.825,
+        "flagged_at": 1786776559.348498
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.825,
+        "flagged_at": 1786776559.3691537
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.825,
+        "flagged_at": 1786776559.3899193
       }
     ]
   }
