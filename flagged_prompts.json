@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 924,
+    "times_flagged": 936,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
+        "topic": "A bucket-list experience you can only have in Mexico",
         "category": "travel",
-        "country": "Indonesia",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786788369.5525117
+        "flagged_at": 1786791239.704831
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786789792.1909523
+        "flagged_at": 1786791239.8118515
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786789792.2119582
+        "flagged_at": 1786791239.833385
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786789792.2329135
+        "flagged_at": 1786791239.854822
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
-        "category": "food",
-        "country": "South Korea",
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786789792.2540011
+        "flagged_at": 1786791239.8763492
       }
     ]
   },
@@ -21893,6 +21893,43 @@
         "country": "South Korea",
         "confidence": 0.302,
         "flagged_at": 1786789792.0850754
+      }
+    ]
+  },
+  "mexican food market": {
+    "prompt": "mexican food market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.507,
+        "flagged_at": 1786791239.7263525
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.507,
+        "flagged_at": 1786791239.7477305
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.507,
+        "flagged_at": 1786791239.7690933
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.507,
+        "flagged_at": 1786791239.7904978
       }
     ]
   }
