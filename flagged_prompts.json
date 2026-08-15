@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 776,
+    "times_flagged": 784,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786751730.8329704
+        "flagged_at": 1786753172.3030558
       },
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786751730.8521168
+        "flagged_at": 1786753172.3218062
       },
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786751730.8711176
+        "flagged_at": 1786753172.3405719
       },
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786751730.8902833
+        "flagged_at": 1786753172.359252
       },
       {
-        "topic": "A bucket-list experience you can only have in Brazil",
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
         "category": "travel",
-        "country": "Brazil",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786751730.909171
+        "flagged_at": 1786753172.3779159
       }
     ]
   },
@@ -19599,6 +19599,117 @@
         "country": "Brazil",
         "confidence": 0.749,
         "flagged_at": 1786751730.7570648
+      }
+    ]
+  },
+  "meat skewers cooking": {
+    "prompt": "meat skewers cooking",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.784,
+        "flagged_at": 1786753172.005677
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.784,
+        "flagged_at": 1786753172.025066
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.784,
+        "flagged_at": 1786753172.044177
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.784,
+        "flagged_at": 1786753172.063355
+      }
+    ]
+  },
+  "cable car mountain view": {
+    "prompt": "cable car mountain view",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.375,
+        "flagged_at": 1786753172.0961199
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.375,
+        "flagged_at": 1786753172.1154764
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.375,
+        "flagged_at": 1786753172.1342905
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.375,
+        "flagged_at": 1786753172.1530888
+      }
+    ]
+  },
+  "hilltop scenic view": {
+    "prompt": "hilltop scenic view",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.409,
+        "flagged_at": 1786753172.171842
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.409,
+        "flagged_at": 1786753172.1904292
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.409,
+        "flagged_at": 1786753172.2091856
+      },
+      {
+        "topic": "A viral travel spot in Argentina that's all over social media right now",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.409,
+        "flagged_at": 1786753172.2278957
       }
     ]
   }
