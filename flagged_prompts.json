@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1080,
+    "times_flagged": 1084,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786833459.0653117
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786833459.089915
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786833459.1142797
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
-        "flagged_at": 1786833459.1386614
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.357,
         "flagged_at": 1786833459.1633854
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786835280.7309172
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786835280.755666
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786835280.7804847
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786835280.805616
       }
     ]
   },
@@ -25075,6 +25075,154 @@
         "country": "Brazil",
         "confidence": 0.817,
         "flagged_at": 1786833458.8700035
+      }
+    ]
+  },
+  "thai map zoom": {
+    "prompt": "thai map zoom",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.3208222
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.3465889
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.372821
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.3989437
+      }
+    ]
+  },
+  "farm harvest hands": {
+    "prompt": "farm harvest hands",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1786835280.4247558
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1786835280.4502354
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1786835280.4754884
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1786835280.5003667
+      }
+    ]
+  },
+  "hand tapping subscribe": {
+    "prompt": "hand tapping subscribe",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.5257022
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.5507653
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.5768957
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1786835280.6027093
+      }
+    ]
+  },
+  "travel montage collage": {
+    "prompt": "travel montage collage",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.779,
+        "flagged_at": 1786835280.6284757
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.779,
+        "flagged_at": 1786835280.654179
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.779,
+        "flagged_at": 1786835280.680078
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.779,
+        "flagged_at": 1786835280.7057052
       }
     ]
   }
