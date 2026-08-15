@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1020,
+    "times_flagged": 1024,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Thailand that's become an internet obsession",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.357,
-        "flagged_at": 1786817333.9302452
-      },
-      {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786819006.4028053
-      },
-      {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786819006.4258037
-      },
-      {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786819006.448811
-      },
       {
         "topic": "A must-try traditional dish from Spain and the story behind it",
         "category": "food",
         "country": "Spain",
         "confidence": 0.357,
         "flagged_at": 1786819006.4717474
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.357,
+        "flagged_at": 1786820450.2962394
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.357,
+        "flagged_at": 1786820450.319569
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.357,
+        "flagged_at": 1786820450.3421695
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.357,
+        "flagged_at": 1786820450.3647614
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 860,
+    "times_flagged": 864,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from France that's become an internet obsession",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786815851.7783198
-      },
-      {
-        "topic": "A comfort food from Thailand that's become an internet obsession",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786817333.645941
-      },
-      {
-        "topic": "A comfort food from Thailand that's become an internet obsession",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786817333.669371
-      },
-      {
-        "topic": "A comfort food from Thailand that's become an internet obsession",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786817333.693378
-      },
       {
         "topic": "A comfort food from Thailand that's become an internet obsession",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.701,
         "flagged_at": 1786817333.717207
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786820450.388078
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786820450.4108179
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786820450.4336677
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.701,
+        "flagged_at": 1786820450.4565797
       }
     ]
   },
@@ -24113,6 +24113,43 @@
         "country": "Spain",
         "confidence": 0.832,
         "flagged_at": 1786819006.3796191
+      }
+    ]
+  },
+  "photographer framing balloon": {
+    "prompt": "photographer framing balloon",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.84,
+        "flagged_at": 1786820450.189517
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.84,
+        "flagged_at": 1786820450.213106
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.84,
+        "flagged_at": 1786820450.235914
+      },
+      {
+        "topic": "The most breathtaking place to visit in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.84,
+        "flagged_at": 1786820450.258757
       }
     ]
   }
