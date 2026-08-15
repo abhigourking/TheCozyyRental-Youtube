@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 908,
+    "times_flagged": 916,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786784107.7090657
+        "flagged_at": 1786786940.1478727
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786784107.9146264
+        "flagged_at": 1786786940.2564547
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786784107.9372275
+        "flagged_at": 1786786940.278174
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786784107.9596078
+        "flagged_at": 1786786940.2999687
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786784107.982534
+        "flagged_at": 1786786940.321746
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 792,
+    "times_flagged": 804,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786784108.0743608
+        "flagged_at": 1786786940.2346284
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786784108.0972157
+        "flagged_at": 1786786940.3432643
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786784108.1197631
+        "flagged_at": 1786786940.3649428
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786784108.142604
+        "flagged_at": 1786786940.3866763
       },
       {
-        "topic": "A bucket-list experience you can only have in South Korea",
+        "topic": "A bucket-list experience you can only have in Spain",
         "category": "travel",
-        "country": "South Korea",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786784108.1653008
+        "flagged_at": 1786786940.4082623
       }
     ]
   },
@@ -21671,6 +21671,43 @@
         "country": "South Korea",
         "confidence": 0.496,
         "flagged_at": 1786784107.8915803
+      }
+    ]
+  },
+  "tomato fight": {
+    "prompt": "tomato fight",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.46,
+        "flagged_at": 1786786939.9816217
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.46,
+        "flagged_at": 1786786940.018008
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.46,
+        "flagged_at": 1786786940.0398545
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Spain",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.46,
+        "flagged_at": 1786786940.0614028
       }
     ]
   }
