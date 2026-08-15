@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1024,
+    "times_flagged": 1028,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Spain and the story behind it",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786819006.4717474
-      },
-      {
-        "topic": "The most breathtaking place to visit in Turkey",
-        "category": "travel",
-        "country": "Turkey",
-        "confidence": 0.357,
-        "flagged_at": 1786820450.2962394
-      },
-      {
-        "topic": "The most breathtaking place to visit in Turkey",
-        "category": "travel",
-        "country": "Turkey",
-        "confidence": 0.357,
-        "flagged_at": 1786820450.319569
-      },
-      {
-        "topic": "The most breathtaking place to visit in Turkey",
-        "category": "travel",
-        "country": "Turkey",
-        "confidence": 0.357,
-        "flagged_at": 1786820450.3421695
-      },
       {
         "topic": "The most breathtaking place to visit in Turkey",
         "category": "travel",
         "country": "Turkey",
         "confidence": 0.357,
         "flagged_at": 1786820450.3647614
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786821800.0697165
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786821800.0938528
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786821800.117394
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.357,
+        "flagged_at": 1786821800.1401405
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 864,
+    "times_flagged": 872,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Thailand that's become an internet obsession",
-        "category": "food",
-        "country": "Thailand",
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786817333.717207
+        "flagged_at": 1786821800.2356634
       },
       {
-        "topic": "The most breathtaking place to visit in Turkey",
+        "topic": "The most breathtaking place to visit in Mexico",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786820450.388078
+        "flagged_at": 1786821800.2592952
       },
       {
-        "topic": "The most breathtaking place to visit in Turkey",
+        "topic": "The most breathtaking place to visit in Mexico",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786820450.4108179
+        "flagged_at": 1786821800.2826853
       },
       {
-        "topic": "The most breathtaking place to visit in Turkey",
+        "topic": "The most breathtaking place to visit in Mexico",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786820450.4336677
+        "flagged_at": 1786821800.3061898
       },
       {
-        "topic": "The most breathtaking place to visit in Turkey",
+        "topic": "The most breathtaking place to visit in Mexico",
         "category": "travel",
-        "country": "Turkey",
+        "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786820450.4565797
+        "flagged_at": 1786821800.329629
       }
     ]
   },
@@ -24150,6 +24150,117 @@
         "country": "Turkey",
         "confidence": 0.84,
         "flagged_at": 1786820450.258757
+      }
+    ]
+  },
+  "sunlight piercing water": {
+    "prompt": "sunlight piercing water",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.829,
+        "flagged_at": 1786821799.7734578
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.829,
+        "flagged_at": 1786821799.7972803
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.829,
+        "flagged_at": 1786821799.8206513
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.829,
+        "flagged_at": 1786821799.8438954
+      }
+    ]
+  },
+  "oaxaca market alley": {
+    "prompt": "Oaxaca market alley",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.432,
+        "flagged_at": 1786821799.8834713
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.432,
+        "flagged_at": 1786821799.907626
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.432,
+        "flagged_at": 1786821799.9308577
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.432,
+        "flagged_at": 1786821799.9536724
+      }
+    ]
+  },
+  "light beams water": {
+    "prompt": "light beams water",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.736,
+        "flagged_at": 1786821799.9767523
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.736,
+        "flagged_at": 1786821800.0003574
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.736,
+        "flagged_at": 1786821800.0237346
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.736,
+        "flagged_at": 1786821800.0464776
       }
     ]
   }
