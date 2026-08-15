@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 852,
+    "times_flagged": 856,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Spain",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786811190.30226
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Thailand",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786814389.3323295
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Thailand",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786814389.3546562
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Thailand",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.701,
-        "flagged_at": 1786814389.3767333
-      },
       {
         "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.701,
         "flagged_at": 1786814389.3989275
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786815851.7028458
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786815851.728197
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786815851.7532291
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786815851.7783198
       }
     ]
   },
@@ -23854,6 +23854,80 @@
         "country": "Thailand",
         "confidence": 0.852,
         "flagged_at": 1786814390.0349612
+      }
+    ]
+  },
+  "melting cheese closeup": {
+    "prompt": "melting cheese closeup",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.825,
+        "flagged_at": 1786815851.4819453
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.825,
+        "flagged_at": 1786815851.527686
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.825,
+        "flagged_at": 1786815851.5527885
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.825,
+        "flagged_at": 1786815851.57751
+      }
+    ]
+  },
+  "broiler flame": {
+    "prompt": "broiler flame",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.777,
+        "flagged_at": 1786815851.602645
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.777,
+        "flagged_at": 1786815851.627749
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.777,
+        "flagged_at": 1786815851.6526496
+      },
+      {
+        "topic": "A comfort food from France that's become an internet obsession",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.777,
+        "flagged_at": 1786815851.677814
       }
     ]
   }
