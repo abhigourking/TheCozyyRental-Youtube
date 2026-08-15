@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 824,
+    "times_flagged": 828,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786763511.5501587
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786763511.5654068
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786763511.5805888
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786763511.5958383
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
         "flagged_at": 1786763511.6112382
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786764837.8982823
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786764837.9180965
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786764837.9378924
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.357,
+        "flagged_at": 1786764837.9575877
       }
     ]
   },
@@ -20265,6 +20265,43 @@
         "country": "Argentina",
         "confidence": 0.763,
         "flagged_at": 1786763511.4889812
+      }
+    ]
+  },
+  "street food vendor egypt": {
+    "prompt": "street food vendor egypt",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.3,
+        "flagged_at": 1786764837.818568
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.3,
+        "flagged_at": 1786764837.8388593
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.3,
+        "flagged_at": 1786764837.8585684
+      },
+      {
+        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.3,
+        "flagged_at": 1786764837.8785362
       }
     ]
   }
