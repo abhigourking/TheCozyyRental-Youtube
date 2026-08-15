@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 980,
+    "times_flagged": 988,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786809613.7578537
+        "flagged_at": 1786811190.1232638
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786809613.871647
+        "flagged_at": 1786811190.3245792
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786809613.8944442
+        "flagged_at": 1786811190.3470194
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786809613.916773
+        "flagged_at": 1786811190.3693182
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786809613.9390554
+        "flagged_at": 1786811190.3918407
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 840,
+    "times_flagged": 848,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A comfort food from Turkey that's become an internet obsession",
+        "topic": "A popular food market or food street worth visiting in Spain",
         "category": "food",
-        "country": "Turkey",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786804646.8978808
+        "flagged_at": 1786811190.2129154
       },
       {
-        "topic": "The most viral street food trend in Philippines right now",
+        "topic": "A popular food market or food street worth visiting in Spain",
         "category": "food",
-        "country": "Philippines",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786806335.9298055
+        "flagged_at": 1786811190.2352147
       },
       {
-        "topic": "The most viral street food trend in Philippines right now",
+        "topic": "A popular food market or food street worth visiting in Spain",
         "category": "food",
-        "country": "Philippines",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786806335.9513257
+        "flagged_at": 1786811190.2576644
       },
       {
-        "topic": "The most viral street food trend in Philippines right now",
+        "topic": "A popular food market or food street worth visiting in Spain",
         "category": "food",
-        "country": "Philippines",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786806335.9727514
+        "flagged_at": 1786811190.2800024
       },
       {
-        "topic": "The most viral street food trend in Philippines right now",
+        "topic": "A popular food market or food street worth visiting in Spain",
         "category": "food",
-        "country": "Philippines",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786806335.9941332
+        "flagged_at": 1786811190.30226
       }
     ]
   },
@@ -23410,6 +23410,80 @@
         "country": "Argentina",
         "confidence": 0.762,
         "flagged_at": 1786809614.0281234
+      }
+    ]
+  },
+  "grilled octopus": {
+    "prompt": "grilled octopus",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.379,
+        "flagged_at": 1786811189.8622868
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.379,
+        "flagged_at": 1786811189.8854594
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.379,
+        "flagged_at": 1786811189.921225
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.379,
+        "flagged_at": 1786811189.9438853
+      }
+    ]
+  },
+  "clock fast forward": {
+    "prompt": "clock fast forward",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.82,
+        "flagged_at": 1786811189.9662473
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.82,
+        "flagged_at": 1786811189.988478
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.82,
+        "flagged_at": 1786811190.0108533
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.82,
+        "flagged_at": 1786811190.0331044
       }
     ]
   }
