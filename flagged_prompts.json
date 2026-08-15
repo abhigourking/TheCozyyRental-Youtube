@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 900,
+    "times_flagged": 908,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786782650.3162882
+        "flagged_at": 1786784107.7090657
       },
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786782650.3320963
+        "flagged_at": 1786784107.9146264
       },
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786782650.3478074
+        "flagged_at": 1786784107.9372275
       },
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786782650.363756
+        "flagged_at": 1786784107.9596078
       },
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
-        "category": "food",
-        "country": "Morocco",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.357,
-        "flagged_at": 1786782650.3794215
+        "flagged_at": 1786784107.982534
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 784,
+    "times_flagged": 792,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.701,
-        "flagged_at": 1786781122.5887327
+        "flagged_at": 1786784108.0743608
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.701,
-        "flagged_at": 1786781122.709846
+        "flagged_at": 1786784108.0972157
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.701,
-        "flagged_at": 1786781122.749431
+        "flagged_at": 1786784108.1197631
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.701,
-        "flagged_at": 1786781122.7661633
+        "flagged_at": 1786784108.142604
       },
       {
-        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
-        "category": "food",
-        "country": "Spain",
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
         "confidence": 0.701,
-        "flagged_at": 1786781122.801451
+        "flagged_at": 1786784108.1653008
       }
     ]
   },
@@ -21523,6 +21523,154 @@
         "country": "Morocco",
         "confidence": 0.786,
         "flagged_at": 1786782650.2533667
+      }
+    ]
+  },
+  "autumn leaves falling": {
+    "prompt": "autumn leaves falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.855,
+        "flagged_at": 1786784107.4463756
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.855,
+        "flagged_at": 1786784107.4687169
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.855,
+        "flagged_at": 1786784107.4907854
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.855,
+        "flagged_at": 1786784107.5130262
+      }
+    ]
+  },
+  "korean cosmetics market": {
+    "prompt": "Korean cosmetics market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.568,
+        "flagged_at": 1786784107.5532138
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.568,
+        "flagged_at": 1786784107.5759363
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.568,
+        "flagged_at": 1786784107.5979693
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.568,
+        "flagged_at": 1786784107.6198256
+      }
+    ]
+  },
+  "hongdae street food night": {
+    "prompt": "Hongdae street food night",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786784107.7317355
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786784107.7543032
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786784107.7776833
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.779,
+        "flagged_at": 1786784107.800438
+      }
+    ]
+  },
+  "gyeongbokgung palace gates": {
+    "prompt": "Gyeongbokgung Palace gates",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786784107.8230698
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786784107.8453913
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786784107.8682842
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786784107.8915803
       }
     ]
   }
