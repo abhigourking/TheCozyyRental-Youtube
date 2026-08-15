@@ -27215,6 +27215,66 @@
         }
       ],
       "ran_at": 1786826783.7053022
+    },
+    {
+      "run_number": "1149",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31908287086",
+      "topic": "The most breathtaking place to visit in Spain",
+      "category": "travel",
+      "country": "Spain",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.308,
+          "prompt": "jagged peaks drone"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.308,
+          "prompt": "jagged peaks drone"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.308,
+          "prompt": "jagged peaks drone"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.308,
+          "prompt": "jagged peaks drone"
+        }
+      ],
+      "ran_at": 1786828417.8980582
     }
   ]
 }
