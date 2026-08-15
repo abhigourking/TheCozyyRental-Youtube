@@ -561,10 +561,23 @@ Output ONLY the JSON, no markdown fences. Do not omit "line_en" from any beat.""
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {key}"},
             json={
-                "model": "llama-3.3-70b-versatile",
+                # llama-3.3-70b-versatile was deprecated by Groq, shutdown
+                # 2026-08-16 - openai/gpt-oss-120b is their recommended
+                # replacement (the other option, qwen/qwen3.6-27b, is
+                # smaller/less capable). It's a reasoning model, but unlike
+                # some others its chain-of-thought goes into a separate
+                # message.reasoning field by default - message.content
+                # stays just the final answer, so the existing
+                # content-parsing/JSON-fence-stripping below didn't need to
+                # change. reasoning_effort=low + include_reasoning=False
+                # skip the (unneeded, for a short structured script) deep
+                # reasoning pass entirely - faster and cheaper per call.
+                "model": "openai/gpt-oss-120b",
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.9,
                 "response_format": {"type": "json_object"},
+                "reasoning_effort": "low",
+                "include_reasoning": False,
             },
             timeout=60,
         )
