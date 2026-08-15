@@ -261,14 +261,29 @@ jobs:
               sleep $((RANDOM % 10 + 5))
               continue
             fi
-            echo "Rebase hit a real conflict - resolving performance_log.json by merging video lists..."
+            echo "Rebase hit a real conflict - resolving state files by merging instead of losing this run's entries..."
             git rebase --abort
 
+            # Back up EVERY bot-managed append-log before the hard reset
+            # below wipes the working tree back to origin's version -
+            # not just performance_log.json. This used to only protect
+            # performance_log.json, which meant nsfw_test_log.json,
+            # error_log.json, and flagged_prompts.json entries from this
+            # run were silently discarded on every conflict (confirmed:
+            # this is why ~4 days of nsfw_test_log.json data went missing
+            # during the NudeNet test week - see merge_state_logs.py).
             cp performance_log.json /tmp/ours_performance_log.json 2>/dev/null || echo '{"videos": []}' > /tmp/ours_performance_log.json
+            [ -f nsfw_test_log.json ] && cp nsfw_test_log.json /tmp/ours_nsfw_test_log.json
+            [ -f error_log.json ] && cp error_log.json /tmp/ours_error_log.json
+            [ -f flagged_prompts.json ] && cp flagged_prompts.json /tmp/ours_flagged_prompts.json
             git reset --hard origin/master
             python3 merge_performance_log.py
+            python3 merge_state_logs.py
 
             git add performance_log.json
+            [ -f nsfw_test_log.json ] && git add nsfw_test_log.json
+            [ -f error_log.json ] && git add error_log.json
+            [ -f flagged_prompts.json ] && git add flagged_prompts.json
             git commit -m "chore: advance state (merged after conflict) [skip ci]" || echo "nothing to commit after merge"
             sleep $((RANDOM % 10 + 5))
           done
