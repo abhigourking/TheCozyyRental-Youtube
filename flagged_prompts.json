@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 828,
+    "times_flagged": 840,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Argentina",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786763511.6112382
+        "flagged_at": 1786766254.6286242
       },
       {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786764837.8982823
+        "flagged_at": 1786766254.648294
       },
       {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786764837.9180965
+        "flagged_at": 1786766254.6680613
       },
       {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786764837.9378924
+        "flagged_at": 1786766254.6884744
       },
       {
-        "topic": "A must-try traditional dish from Egypt and the story behind it",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
         "category": "food",
-        "country": "Egypt",
+        "country": "Morocco",
         "confidence": 0.357,
-        "flagged_at": 1786764837.9575877
+        "flagged_at": 1786766254.7101521
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 740,
+    "times_flagged": 748,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Vietnam that's all over social media right now",
-        "category": "travel",
-        "country": "Vietnam",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786754578.9280357
+        "flagged_at": 1786766254.2379062
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786756019.735478
+        "flagged_at": 1786766254.4130778
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786756019.7557678
+        "flagged_at": 1786766254.4326212
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786756019.7760394
+        "flagged_at": 1786766254.4521928
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
         "confidence": 0.701,
-        "flagged_at": 1786756019.7960277
+        "flagged_at": 1786766254.4717333
       }
     ]
   },
@@ -20302,6 +20302,154 @@
         "country": "Egypt",
         "confidence": 0.3,
         "flagged_at": 1786764837.8785362
+      }
+    ]
+  },
+  "moroccan market food stall": {
+    "prompt": "moroccan market food stall",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.388,
+        "flagged_at": 1786766254.0091345
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.388,
+        "flagged_at": 1786766254.028992
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.388,
+        "flagged_at": 1786766254.0481172
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.388,
+        "flagged_at": 1786766254.0671902
+      }
+    ]
+  },
+  "layered pastry dish": {
+    "prompt": "layered pastry dish",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.483,
+        "flagged_at": 1786766254.0863059
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.483,
+        "flagged_at": 1786766254.121142
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.483,
+        "flagged_at": 1786766254.1408255
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.483,
+        "flagged_at": 1786766254.1601303
+      }
+    ]
+  },
+  "flaky dough wrapping": {
+    "prompt": "flaky dough wrapping",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.76,
+        "flagged_at": 1786766254.2572203
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.76,
+        "flagged_at": 1786766254.276462
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.76,
+        "flagged_at": 1786766254.2959235
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.76,
+        "flagged_at": 1786766254.3154037
+      }
+    ]
+  },
+  "meat and onion mixture": {
+    "prompt": "meat and onion mixture",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.786,
+        "flagged_at": 1786766254.3349495
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.786,
+        "flagged_at": 1786766254.3544643
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.786,
+        "flagged_at": 1786766254.3739135
+      },
+      {
+        "topic": "A unique regional specialty from Morocco most outsiders have never heard of",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.786,
+        "flagged_at": 1786766254.393392
       }
     ]
   }
