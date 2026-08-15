@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 920,
+    "times_flagged": 924,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786786940.321746
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786788369.486799
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786788369.5089786
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.357,
-        "flagged_at": 1786788369.5306053
-      },
       {
         "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.357,
         "flagged_at": 1786788369.5525117
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786789792.1909523
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786789792.2119582
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786789792.2329135
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786789792.2540011
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 808,
+    "times_flagged": 812,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786786940.4082623
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786788369.5742657
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786788369.5961418
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1786788369.6177542
-      },
       {
         "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.701,
         "flagged_at": 1786788369.6395938
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786789792.1062348
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786789792.1274428
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786789792.1486568
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.701,
+        "flagged_at": 1786789792.1698833
       }
     ]
   },
@@ -21745,6 +21745,154 @@
         "country": "Indonesia",
         "confidence": 0.606,
         "flagged_at": 1786788369.4481378
+      }
+    ]
+  },
+  "busy night market": {
+    "prompt": "Busy night market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786789791.7545898
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786789791.776024
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786789791.7970111
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786789791.8179603
+      }
+    ]
+  },
+  "korean street food varieties": {
+    "prompt": "Korean street food varieties",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.794,
+        "flagged_at": 1786789791.8521152
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.794,
+        "flagged_at": 1786789791.8736954
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.794,
+        "flagged_at": 1786789791.894807
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.794,
+        "flagged_at": 1786789791.9160564
+      }
+    ]
+  },
+  "kimchi being made": {
+    "prompt": "kimchi being made",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.773,
+        "flagged_at": 1786789791.9371054
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.773,
+        "flagged_at": 1786789791.9582002
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.773,
+        "flagged_at": 1786789791.979159
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.773,
+        "flagged_at": 1786789792.0003197
+      }
+    ]
+  },
+  "korean desserts": {
+    "prompt": "Korean desserts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.302,
+        "flagged_at": 1786789792.0212708
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.302,
+        "flagged_at": 1786789792.0424194
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.302,
+        "flagged_at": 1786789792.0637326
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.302,
+        "flagged_at": 1786789792.0850754
       }
     ]
   }
