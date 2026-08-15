@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 940,
+    "times_flagged": 944,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786791239.8763492
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786792903.9080312
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786792903.9264832
-      },
-      {
-        "topic": "A bucket-list experience you can only have in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.357,
-        "flagged_at": 1786792903.9487143
-      },
       {
         "topic": "A bucket-list experience you can only have in South Korea",
         "category": "travel",
         "country": "South Korea",
         "confidence": 0.357,
         "flagged_at": 1786792903.9679704
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.357,
+        "flagged_at": 1786794644.69313
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.357,
+        "flagged_at": 1786794644.7148707
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.357,
+        "flagged_at": 1786794644.7366688
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.357,
+        "flagged_at": 1786794644.7589326
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 812,
+    "times_flagged": 820,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786788369.6395938
+        "flagged_at": 1786794644.6714299
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
+        "topic": "A comfort food from Philippines that's become an internet obsession",
         "category": "food",
-        "country": "South Korea",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786789792.1062348
+        "flagged_at": 1786794644.9621346
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
+        "topic": "A comfort food from Philippines that's become an internet obsession",
         "category": "food",
-        "country": "South Korea",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786789792.1274428
+        "flagged_at": 1786794644.9846165
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
+        "topic": "A comfort food from Philippines that's become an internet obsession",
         "category": "food",
-        "country": "South Korea",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786789792.1486568
+        "flagged_at": 1786794645.0068514
       },
       {
-        "topic": "A popular food market or food street worth visiting in South Korea",
+        "topic": "A comfort food from Philippines that's become an internet obsession",
         "category": "food",
-        "country": "South Korea",
+        "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786789792.1698833
+        "flagged_at": 1786794645.028978
       }
     ]
   },
@@ -22189,6 +22189,228 @@
         "country": "South Korea",
         "confidence": 0.832,
         "flagged_at": 1786792904.343644
+      }
+    ]
+  },
+  "viral video reaction": {
+    "prompt": "viral video reaction",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.799,
+        "flagged_at": 1786794644.2546265
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.799,
+        "flagged_at": 1786794644.2769065
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.799,
+        "flagged_at": 1786794644.2987525
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.799,
+        "flagged_at": 1786794644.3202062
+      }
+    ]
+  },
+  "colorful sauce drizzle": {
+    "prompt": "colorful sauce drizzle",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.367,
+        "flagged_at": 1786794644.3421962
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.367,
+        "flagged_at": 1786794644.3639617
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.367,
+        "flagged_at": 1786794644.3858037
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.367,
+        "flagged_at": 1786794644.4079046
+      }
+    ]
+  },
+  "likes counter rising": {
+    "prompt": "likes counter rising",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786794644.4300208
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786794644.4518964
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786794644.4735646
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786794644.4953032
+      }
+    ]
+  },
+  "phone recording food": {
+    "prompt": "phone recording food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.815,
+        "flagged_at": 1786794644.5169394
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.815,
+        "flagged_at": 1786794644.5385573
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.815,
+        "flagged_at": 1786794644.5602193
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.815,
+        "flagged_at": 1786794644.5821042
+      }
+    ]
+  },
+  "follow button animation": {
+    "prompt": "follow button animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.804,
+        "flagged_at": 1786794644.7809598
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.804,
+        "flagged_at": 1786794644.8027864
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.804,
+        "flagged_at": 1786794644.824712
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.804,
+        "flagged_at": 1786794644.847142
+      }
+    ]
+  },
+  "quick montage of other dishes": {
+    "prompt": "quick montage of other dishes",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.307,
+        "flagged_at": 1786794644.8705688
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.307,
+        "flagged_at": 1786794644.893731
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.307,
+        "flagged_at": 1786794644.916763
+      },
+      {
+        "topic": "A comfort food from Philippines that's become an internet obsession",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.307,
+        "flagged_at": 1786794644.9394522
       }
     ]
   }
