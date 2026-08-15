@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 836,
+    "times_flagged": 840,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Brazil right now",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786801449.5373023
-      },
-      {
-        "topic": "A comfort food from Turkey that's become an internet obsession",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.701,
-        "flagged_at": 1786804646.8257089
-      },
-      {
-        "topic": "A comfort food from Turkey that's become an internet obsession",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.701,
-        "flagged_at": 1786804646.8498883
-      },
-      {
-        "topic": "A comfort food from Turkey that's become an internet obsession",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.701,
-        "flagged_at": 1786804646.8737087
-      },
       {
         "topic": "A comfort food from Turkey that's become an internet obsession",
         "category": "food",
         "country": "Turkey",
         "confidence": 0.701,
         "flagged_at": 1786804646.8978808
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786806335.9298055
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786806335.9513257
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786806335.9727514
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.701,
+        "flagged_at": 1786806335.9941332
       }
     ]
   },
@@ -22966,6 +22966,117 @@
         "country": "Turkey",
         "confidence": 0.769,
         "flagged_at": 1786804647.0914168
+      }
+    ]
+  },
+  "tiktok phone screen": {
+    "prompt": "TikTok phone screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.586,
+        "flagged_at": 1786806335.7571018
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.586,
+        "flagged_at": 1786806335.7795365
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.586,
+        "flagged_at": 1786806335.8013074
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.586,
+        "flagged_at": 1786806335.8227766
+      }
+    ]
+  },
+  "steam rising dough": {
+    "prompt": "steam rising dough",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.567,
+        "flagged_at": 1786806335.844159
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.567,
+        "flagged_at": 1786806335.8655467
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.567,
+        "flagged_at": 1786806335.8869061
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.567,
+        "flagged_at": 1786806335.9083698
+      }
+    ]
+  },
+  "honey drizzle over taco": {
+    "prompt": "honey drizzle over taco",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.791,
+        "flagged_at": 1786806336.0155427
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.791,
+        "flagged_at": 1786806336.0369081
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.791,
+        "flagged_at": 1786806336.058276
+      },
+      {
+        "topic": "The most viral street food trend in Philippines right now",
+        "category": "food",
+        "country": "Philippines",
+        "confidence": 0.791,
+        "flagged_at": 1786806336.0798328
       }
     ]
   }
