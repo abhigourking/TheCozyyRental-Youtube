@@ -27053,6 +27053,168 @@
         }
       ],
       "ran_at": 1786825248.5282762
+    },
+    {
+      "run_number": "1148",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31907120323",
+      "topic": "A must-try traditional dish from Portugal and the story behind it",
+      "category": "food",
+      "country": "Portugal",
+      "images_checked": 48,
+      "images_flagged": 36,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "old Lisbon alley"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "old Lisbon alley"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "old Lisbon alley"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "old Lisbon alley"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "Lisbon street market"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "Lisbon street market"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "Lisbon street market"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.432,
+          "prompt": "Lisbon street market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.312,
+          "prompt": "cod fish being flaked"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.312,
+          "prompt": "cod fish being flaked"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.312,
+          "prompt": "cod fish being flaked"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.312,
+          "prompt": "cod fish being flaked"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.512,
+          "prompt": "crispy potato shards"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.512,
+          "prompt": "crispy potato shards"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.512,
+          "prompt": "crispy potato shards"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.512,
+          "prompt": "crispy potato shards"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.464,
+          "prompt": "slow motion egg drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.464,
+          "prompt": "slow motion egg drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.464,
+          "prompt": "slow motion egg drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.464,
+          "prompt": "slow motion egg drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "wine glass pouring"
+        }
+      ],
+      "ran_at": 1786826783.7053022
     }
   ]
 }
