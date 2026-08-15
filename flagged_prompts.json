@@ -20674,5 +20674,42 @@
         "flagged_at": 1786769207.3115704
       }
     ]
+  },
+  "meat market street food": {
+    "prompt": "meat market street food",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.792,
+        "flagged_at": 1786770570.7940316
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.792,
+        "flagged_at": 1786770570.8145058
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.792,
+        "flagged_at": 1786770570.8346734
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.792,
+        "flagged_at": 1786770570.854726
+      }
+    ]
   }
 }

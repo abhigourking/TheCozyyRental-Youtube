@@ -22837,6 +22837,42 @@
         }
       ],
       "ran_at": 1786769207.1333838
+    },
+    {
+      "run_number": "1105",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31865926560",
+      "topic": "The most viral street food trend in Egypt right now",
+      "category": "food",
+      "country": "Egypt",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "meat market street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "meat market street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "meat market street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "meat market street food"
+        }
+      ],
+      "ran_at": 1786770570.7710738
     }
   ]
 }
