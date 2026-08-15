@@ -26489,6 +26489,66 @@
         }
       ],
       "ran_at": 1786817333.1397862
+    },
+    {
+      "run_number": "1142",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31901015223",
+      "topic": "A must-try traditional dish from Spain and the story behind it",
+      "category": "food",
+      "country": "Spain",
+      "images_checked": 22,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "YouTube subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "YouTube subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "YouTube subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "YouTube subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786819006.2701347
     }
   ]
 }
