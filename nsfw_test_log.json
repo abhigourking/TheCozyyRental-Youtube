@@ -25241,6 +25241,42 @@
         }
       ],
       "ran_at": 1786801448.818327
+    },
+    {
+      "run_number": "1131",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31888677067",
+      "topic": "A popular food market or food street worth visiting in France",
+      "category": "food",
+      "country": "France",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.578,
+          "prompt": "espresso pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.578,
+          "prompt": "espresso pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.578,
+          "prompt": "espresso pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.578,
+          "prompt": "espresso pouring"
+        }
+      ],
+      "ran_at": 1786802951.863273
     }
   ]
 }

@@ -22820,5 +22820,42 @@
         "flagged_at": 1786801449.3611155
       }
     ]
+  },
+  "espresso pouring": {
+    "prompt": "espresso pouring",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.578,
+        "flagged_at": 1786802951.8885567
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.578,
+        "flagged_at": 1786802951.9112182
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.578,
+        "flagged_at": 1786802951.932671
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.578,
+        "flagged_at": 1786802951.9683783
+      }
+    ]
   }
 }
