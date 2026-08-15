@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 936,
+    "times_flagged": 940,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Mexico",
         "confidence": 0.357,
-        "flagged_at": 1786791239.704831
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786791239.8118515
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786791239.833385
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
-        "flagged_at": 1786791239.854822
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.357,
         "flagged_at": 1786791239.8763492
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786792903.9080312
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786792903.9264832
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786792903.9487143
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.357,
+        "flagged_at": 1786792903.9679704
       }
     ]
   },
@@ -21930,6 +21930,265 @@
         "country": "Mexico",
         "confidence": 0.507,
         "flagged_at": 1786791239.7904978
+      }
+    ]
+  },
+  "seoul to nami island ferry ride": {
+    "prompt": "Seoul to Nami Island ferry ride",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.808,
+        "flagged_at": 1786792903.5928457
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.808,
+        "flagged_at": 1786792903.610281
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.808,
+        "flagged_at": 1786792903.6289198
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.808,
+        "flagged_at": 1786792903.6467164
+      }
+    ]
+  },
+  "bukchon hanok village streets": {
+    "prompt": "Bukchon Hanok Village streets",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792903.6785634
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792903.6967335
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792903.7134392
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792903.740724
+      }
+    ]
+  },
+  "nami island autumn foliage": {
+    "prompt": "Nami Island autumn foliage",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786792903.7589333
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786792903.7759104
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786792903.7926316
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.839,
+        "flagged_at": 1786792903.809167
+      }
+    ]
+  },
+  "korean bbq sizzling meat": {
+    "prompt": "Korean BBQ sizzling meat",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.69,
+        "flagged_at": 1786792903.8273494
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.69,
+        "flagged_at": 1786792903.8507233
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.69,
+        "flagged_at": 1786792903.8677042
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.69,
+        "flagged_at": 1786792903.8879135
+      }
+    ]
+  },
+  "gyeongbokgung palace main gate": {
+    "prompt": "Gyeongbokgung Palace main gate",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792903.9924402
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792904.0144987
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792904.0317576
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.496,
+        "flagged_at": 1786792904.0483098
+      }
+    ]
+  },
+  "korean traditional market scenes": {
+    "prompt": "Korean traditional market scenes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786792904.0657167
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786792904.0826652
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786792904.1002831
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.813,
+        "flagged_at": 1786792904.2542877
+      }
+    ]
+  },
+  "social media comments scrolling": {
+    "prompt": "Social media comments scrolling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786792904.2768812
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786792904.2961638
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786792904.3213017
+      },
+      {
+        "topic": "A bucket-list experience you can only have in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.832,
+        "flagged_at": 1786792904.343644
       }
     ]
   }

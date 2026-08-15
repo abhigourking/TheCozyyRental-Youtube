@@ -24528,6 +24528,168 @@
         }
       ],
       "ran_at": 1786791239.5149045
+    },
+    {
+      "run_number": "1124",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31881318806",
+      "topic": "A bucket-list experience you can only have in South Korea",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 46,
+      "images_flagged": 32,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "Seoul to Nami Island ferry ride"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "Seoul to Nami Island ferry ride"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "Seoul to Nami Island ferry ride"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "Seoul to Nami Island ferry ride"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Bukchon Hanok Village streets"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Bukchon Hanok Village streets"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Bukchon Hanok Village streets"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Bukchon Hanok Village streets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "Nami Island autumn foliage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "Nami Island autumn foliage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "Nami Island autumn foliage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "Nami Island autumn foliage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.69,
+          "prompt": "Korean BBQ sizzling meat"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.69,
+          "prompt": "Korean BBQ sizzling meat"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.69,
+          "prompt": "Korean BBQ sizzling meat"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.69,
+          "prompt": "Korean BBQ sizzling meat"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.357,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Gyeongbokgung Palace main gate"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Gyeongbokgung Palace main gate"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Gyeongbokgung Palace main gate"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "Gyeongbokgung Palace main gate"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "Korean traditional market scenes"
+        }
+      ],
+      "ran_at": 1786792903.5723126
     }
   ]
 }
