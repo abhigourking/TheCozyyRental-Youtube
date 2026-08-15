@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1036,
+    "times_flagged": 1040,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786823634.225915
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786823634.5066564
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786823634.5254362
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786823634.5437214
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.357,
         "flagged_at": 1786823634.5626442
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786825248.7531328
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786825248.778356
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786825248.802456
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.357,
+        "flagged_at": 1786825248.8267026
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 876,
+    "times_flagged": 880,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786821800.329629
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786823634.3961987
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786823634.4160686
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786823634.4374056
-      },
       {
         "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
         "country": "France",
         "confidence": 0.701,
         "flagged_at": 1786823634.458207
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786825248.850784
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786825248.8753567
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786825248.8994386
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.701,
+        "flagged_at": 1786825248.9235885
       }
     ]
   },
@@ -24372,6 +24372,80 @@
         "country": "France",
         "confidence": 0.797,
         "flagged_at": 1786823634.3779218
+      }
+    ]
+  },
+  "river water splash": {
+    "prompt": "river water splash",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.844,
+        "flagged_at": 1786825248.556156
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.844,
+        "flagged_at": 1786825248.5808907
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.844,
+        "flagged_at": 1786825248.6056545
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.844,
+        "flagged_at": 1786825248.6306872
+      }
+    ]
+  },
+  "swimmer in river": {
+    "prompt": "swimmer in river",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786825248.655378
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786825248.680417
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786825248.7046041
+      },
+      {
+        "topic": "A hidden gem destination in Brazil most tourists don't know about",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1786825248.728898
       }
     ]
   }
