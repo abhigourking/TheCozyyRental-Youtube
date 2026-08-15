@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 804,
+    "times_flagged": 808,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.357,
-        "flagged_at": 1786756020.120915
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786757437.4327614
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786757437.4516373
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.357,
-        "flagged_at": 1786757437.4705825
-      },
       {
         "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
         "country": "India",
         "confidence": 0.357,
         "flagged_at": 1786757437.4895542
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786760511.0109673
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786760511.0304868
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786760511.0499904
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.357,
+        "flagged_at": 1786760511.0694108
       }
     ]
   },
@@ -20006,6 +20006,43 @@
         "country": "India",
         "confidence": 0.815,
         "flagged_at": 1786757437.4135964
+      }
+    ]
+  },
+  "street performers crowd": {
+    "prompt": "street performers crowd",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.849,
+        "flagged_at": 1786760510.9171858
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.849,
+        "flagged_at": 1786760510.9522269
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.849,
+        "flagged_at": 1786760510.9719634
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.849,
+        "flagged_at": 1786760510.9915292
       }
     ]
   }
