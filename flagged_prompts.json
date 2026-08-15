@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 784,
+    "times_flagged": 788,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786753172.3030558
-      },
-      {
-        "topic": "A viral travel spot in Argentina that's all over social media right now",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786753172.3218062
-      },
-      {
-        "topic": "A viral travel spot in Argentina that's all over social media right now",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786753172.3405719
-      },
-      {
-        "topic": "A viral travel spot in Argentina that's all over social media right now",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
-        "flagged_at": 1786753172.359252
-      },
-      {
-        "topic": "A viral travel spot in Argentina that's all over social media right now",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.357,
         "flagged_at": 1786753172.3779159
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786754579.1098788
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786754579.1286492
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786754579.1473465
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.357,
+        "flagged_at": 1786754579.1660483
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 732,
+    "times_flagged": 736,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786750404.8777113
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786751730.6101441
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786751730.6292696
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Brazil",
-        "category": "travel",
-        "country": "Brazil",
-        "confidence": 0.701,
-        "flagged_at": 1786751730.6617885
-      },
       {
         "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
         "country": "Brazil",
         "confidence": 0.701,
         "flagged_at": 1786751730.6813915
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786754578.8716967
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786754578.890796
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786754578.909238
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.701,
+        "flagged_at": 1786754578.9280357
       }
     ]
   },
@@ -19710,6 +19710,80 @@
         "country": "Argentina",
         "confidence": 0.409,
         "flagged_at": 1786753172.2278957
+      }
+    ]
+  },
+  "traditional vietnamese dance": {
+    "prompt": "traditional Vietnamese dance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.661,
+        "flagged_at": 1786754578.9465475
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.661,
+        "flagged_at": 1786754578.977938
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.661,
+        "flagged_at": 1786754578.9969463
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.661,
+        "flagged_at": 1786754579.0156488
+      }
+    ]
+  },
+  "vietnamese flag waving": {
+    "prompt": "Vietnamese flag waving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1786754579.0345397
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1786754579.05339
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1786754579.0721257
+      },
+      {
+        "topic": "A viral travel spot in Vietnam that's all over social media right now",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1786754579.0906959
       }
     ]
   }
