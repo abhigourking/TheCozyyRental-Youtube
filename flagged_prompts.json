@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 972,
+    "times_flagged": 980,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786808070.0560021
+        "flagged_at": 1786809613.7578537
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786808070.1704855
+        "flagged_at": 1786809613.871647
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786808070.1886744
+        "flagged_at": 1786809613.8944442
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786808070.206761
+        "flagged_at": 1786809613.916773
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Portugal",
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
-        "country": "Portugal",
+        "country": "Argentina",
         "confidence": 0.357,
-        "flagged_at": 1786808070.2248616
+        "flagged_at": 1786809613.9390554
       }
     ]
   },
@@ -23225,6 +23225,191 @@
         "country": "Portugal",
         "confidence": 0.82,
         "flagged_at": 1786808070.1283195
+      }
+    ]
+  },
+  "echo sound waves": {
+    "prompt": "echo sound waves",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786809613.398405
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786809613.4215567
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786809613.4441168
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786809613.4831848
+      }
+    ]
+  },
+  "guide pointing": {
+    "prompt": "guide pointing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.812,
+        "flagged_at": 1786809613.5067327
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.812,
+        "flagged_at": 1786809613.529483
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.812,
+        "flagged_at": 1786809613.552237
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.812,
+        "flagged_at": 1786809613.5749571
+      }
+    ]
+  },
+  "cool water splash": {
+    "prompt": "cool water splash",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.819,
+        "flagged_at": 1786809613.597808
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.819,
+        "flagged_at": 1786809613.620485
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.819,
+        "flagged_at": 1786809613.6433165
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.819,
+        "flagged_at": 1786809613.6661394
+      }
+    ]
+  },
+  "thermometer water": {
+    "prompt": "thermometer water",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.796,
+        "flagged_at": 1786809613.7806962
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.796,
+        "flagged_at": 1786809613.803373
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.796,
+        "flagged_at": 1786809613.8264437
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.796,
+        "flagged_at": 1786809613.849385
+      }
+    ]
+  },
+  "comment bubble": {
+    "prompt": "comment bubble",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786809613.9612749
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786809613.9834025
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786809614.0059428
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.762,
+        "flagged_at": 1786809614.0281234
       }
     ]
   }
