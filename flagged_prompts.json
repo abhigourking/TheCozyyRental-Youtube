@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 808,
+    "times_flagged": 816,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in India",
+        "topic": "A comfort food from Brazil that's become an internet obsession",
         "category": "food",
-        "country": "India",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786757437.4895542
+        "flagged_at": 1786761916.386603
       },
       {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786760511.0109673
+        "flagged_at": 1786761916.4054794
       },
       {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786760511.0304868
+        "flagged_at": 1786761916.4243405
       },
       {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786760511.0499904
+        "flagged_at": 1786761916.4435132
       },
       {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786760511.0694108
+        "flagged_at": 1786761916.4624004
       }
     ]
   },
@@ -20043,6 +20043,154 @@
         "country": "Argentina",
         "confidence": 0.849,
         "flagged_at": 1786760510.9915292
+      }
+    ]
+  },
+  "close up melted cheese": {
+    "prompt": "close up melted cheese",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.46,
+        "flagged_at": 1786761916.0113106
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.46,
+        "flagged_at": 1786761916.0308418
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.46,
+        "flagged_at": 1786761916.0496411
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.46,
+        "flagged_at": 1786761916.068403
+      }
+    ]
+  },
+  "brazilian market scene": {
+    "prompt": "brazilian market scene",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1786761916.0873022
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1786761916.1206987
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1786761916.140216
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1786761916.159107
+      }
+    ]
+  },
+  "brazilian bakery counter": {
+    "prompt": "brazilian bakery counter",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.776,
+        "flagged_at": 1786761916.1778874
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.776,
+        "flagged_at": 1786761916.196694
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.776,
+        "flagged_at": 1786761916.2155247
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.776,
+        "flagged_at": 1786761916.2344923
+      }
+    ]
+  },
+  "freshly baked bread": {
+    "prompt": "freshly baked bread",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.573,
+        "flagged_at": 1786761916.2533095
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.573,
+        "flagged_at": 1786761916.2725878
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.573,
+        "flagged_at": 1786761916.2914903
+      },
+      {
+        "topic": "A comfort food from Brazil that's become an internet obsession",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.573,
+        "flagged_at": 1786761916.3104768
       }
     ]
   }
