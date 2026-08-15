@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1028,
+    "times_flagged": 1036,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Turkey",
+        "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
-        "country": "Turkey",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786820450.3647614
+        "flagged_at": 1786823634.225915
       },
       {
-        "topic": "The most breathtaking place to visit in Mexico",
+        "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786821800.0697165
+        "flagged_at": 1786823634.5066564
       },
       {
-        "topic": "The most breathtaking place to visit in Mexico",
+        "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786821800.0938528
+        "flagged_at": 1786823634.5254362
       },
       {
-        "topic": "The most breathtaking place to visit in Mexico",
+        "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786821800.117394
+        "flagged_at": 1786823634.5437214
       },
       {
-        "topic": "The most breathtaking place to visit in Mexico",
+        "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
-        "country": "Mexico",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786821800.1401405
+        "flagged_at": 1786823634.5626442
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 872,
+    "times_flagged": 876,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Mexico",
         "confidence": 0.701,
-        "flagged_at": 1786821800.2356634
-      },
-      {
-        "topic": "The most breathtaking place to visit in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786821800.2592952
-      },
-      {
-        "topic": "The most breathtaking place to visit in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786821800.2826853
-      },
-      {
-        "topic": "The most breathtaking place to visit in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
-        "flagged_at": 1786821800.3061898
-      },
-      {
-        "topic": "The most breathtaking place to visit in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.701,
         "flagged_at": 1786821800.329629
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786823634.3961987
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786823634.4160686
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786823634.4374056
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.701,
+        "flagged_at": 1786823634.458207
       }
     ]
   },
@@ -24261,6 +24261,117 @@
         "country": "Mexico",
         "confidence": 0.736,
         "flagged_at": 1786821800.0464776
+      }
+    ]
+  },
+  "cobblestone street france": {
+    "prompt": "cobblestone street France",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786823634.093241
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786823634.112019
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786823634.1298165
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.496,
+        "flagged_at": 1786823634.148611
+      }
+    ]
+  },
+  "hand tapping subscribe button": {
+    "prompt": "hand tapping subscribe button",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.827,
+        "flagged_at": 1786823634.245944
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.827,
+        "flagged_at": 1786823634.2650104
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.827,
+        "flagged_at": 1786823634.2839913
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.827,
+        "flagged_at": 1786823634.3034823
+      }
+    ]
+  },
+  "group of friends laughing outdoors": {
+    "prompt": "group of friends laughing outdoors",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1786823634.3218315
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1786823634.340099
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1786823634.3587756
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1786823634.3779218
       }
     ]
   }
