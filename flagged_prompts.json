@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 856,
+    "times_flagged": 860,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.357,
-        "flagged_at": 1786772062.5881224
-      },
-      {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786773707.2777946
-      },
-      {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786773707.2985342
-      },
-      {
-        "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
-        "category": "food",
-        "country": "Portugal",
-        "confidence": 0.357,
-        "flagged_at": 1786773707.3194752
-      },
       {
         "topic": "A unique regional specialty from Portugal most outsiders have never heard of",
         "category": "food",
         "country": "Portugal",
         "confidence": 0.357,
         "flagged_at": 1786773707.3402324
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786775092.9734309
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786775092.9934108
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786775093.0137262
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.357,
+        "flagged_at": 1786775093.03383
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 760,
+    "times_flagged": 764,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Vietnam",
         "confidence": 0.701,
-        "flagged_at": 1786772062.2653224
-      },
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786772062.6082966
-      },
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786772062.628718
-      },
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.701,
-        "flagged_at": 1786772062.648943
-      },
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.701,
         "flagged_at": 1786772062.669123
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786775092.8933117
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786775092.913477
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786775092.9333715
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786775092.9534414
       }
     ]
   },
@@ -21005,6 +21005,43 @@
         "country": "Portugal",
         "confidence": 0.416,
         "flagged_at": 1786773707.2570055
+      }
+    ]
+  },
+  "wildlife forest animals": {
+    "prompt": "wildlife forest animals",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.446,
+        "flagged_at": 1786775092.7975652
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.446,
+        "flagged_at": 1786775092.8180768
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.446,
+        "flagged_at": 1786775092.8382094
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.446,
+        "flagged_at": 1786775092.8728547
       }
     ]
   }
