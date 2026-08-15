@@ -20600,5 +20600,79 @@
         "flagged_at": 1786767759.0715706
       }
     ]
+  },
+  "souvlaki skewers": {
+    "prompt": "souvlaki skewers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1786769207.1562872
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1786769207.1906128
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1786769207.2111735
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1786769207.2312593
+      }
+    ]
+  },
+  "santorini caldera": {
+    "prompt": "Santorini caldera",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.329,
+        "flagged_at": 1786769207.2512543
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.329,
+        "flagged_at": 1786769207.2713323
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.329,
+        "flagged_at": 1786769207.2915058
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.329,
+        "flagged_at": 1786769207.3115704
+      }
+    ]
   }
 }

@@ -22777,6 +22777,66 @@
         }
       ],
       "ran_at": 1786767758.739753
+    },
+    {
+      "run_number": "1104",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31864891291",
+      "topic": "A bucket-list experience you can only have in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "souvlaki skewers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "souvlaki skewers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "souvlaki skewers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "souvlaki skewers"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.329,
+          "prompt": "Santorini caldera"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.329,
+          "prompt": "Santorini caldera"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.329,
+          "prompt": "Santorini caldera"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.329,
+          "prompt": "Santorini caldera"
+        }
+      ],
+      "ran_at": 1786769207.1333838
     }
   ]
 }
