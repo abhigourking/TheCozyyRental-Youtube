@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 988,
+    "times_flagged": 1004,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Spain",
+        "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
-        "country": "Spain",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786811190.1232638
+        "flagged_at": 1786814389.9440625
       },
       {
-        "topic": "A popular food market or food street worth visiting in Spain",
+        "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
-        "country": "Spain",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786811190.3245792
+        "flagged_at": 1786814390.0572674
       },
       {
-        "topic": "A popular food market or food street worth visiting in Spain",
+        "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
-        "country": "Spain",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786811190.3470194
+        "flagged_at": 1786814390.0794516
       },
       {
-        "topic": "A popular food market or food street worth visiting in Spain",
+        "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
-        "country": "Spain",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786811190.3693182
+        "flagged_at": 1786814390.1016552
       },
       {
-        "topic": "A popular food market or food street worth visiting in Spain",
+        "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
-        "country": "Spain",
+        "country": "Thailand",
         "confidence": 0.357,
-        "flagged_at": 1786811190.3918407
+        "flagged_at": 1786814390.1238482
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 848,
+    "times_flagged": 852,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786811190.2129154
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Spain",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786811190.2352147
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Spain",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786811190.2576644
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Spain",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786811190.2800024
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Spain",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786811190.30226
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786814389.3323295
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786814389.3546562
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786814389.3767333
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1786814389.3989275
       }
     ]
   },
@@ -23595,6 +23595,265 @@
         "country": "Spain",
         "confidence": 0.811,
         "flagged_at": 1786812750.8487005
+      }
+    ]
+  },
+  "crowd walking": {
+    "prompt": "crowd walking",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.305,
+        "flagged_at": 1786814389.0646815
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.305,
+        "flagged_at": 1786814389.0878842
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.305,
+        "flagged_at": 1786814389.110159
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.305,
+        "flagged_at": 1786814389.1323233
+      }
+    ]
+  },
+  "wok sizzling noodles": {
+    "prompt": "wok sizzling noodles",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786814389.1542976
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786814389.1764843
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786814389.1985812
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786814389.2209306
+      }
+    ]
+  },
+  "bangkok market entrance": {
+    "prompt": "Bangkok market entrance",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.432,
+        "flagged_at": 1786814389.243988
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.432,
+        "flagged_at": 1786814389.2661319
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.432,
+        "flagged_at": 1786814389.2881715
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.432,
+        "flagged_at": 1786814389.310294
+      }
+    ]
+  },
+  "vendor serving plate": {
+    "prompt": "vendor serving plate",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.808,
+        "flagged_at": 1786814389.5096803
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.808,
+        "flagged_at": 1786814389.532011
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.808,
+        "flagged_at": 1786814389.565821
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.808,
+        "flagged_at": 1786814389.5882955
+      }
+    ]
+  },
+  "people tasting": {
+    "prompt": "people tasting",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.749,
+        "flagged_at": 1786814389.6104386
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.749,
+        "flagged_at": 1786814389.6326437
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.749,
+        "flagged_at": 1786814389.6549141
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.749,
+        "flagged_at": 1786814389.6771724
+      }
+    ]
+  },
+  "crowd dancing": {
+    "prompt": "crowd dancing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.769,
+        "flagged_at": 1786814389.6993847
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.769,
+        "flagged_at": 1786814389.721772
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.769,
+        "flagged_at": 1786814389.7440748
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.769,
+        "flagged_at": 1786814389.7662568
+      }
+    ]
+  },
+  "price tag 30 baht": {
+    "prompt": "price tag 30 baht",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.852,
+        "flagged_at": 1786814389.966335
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.852,
+        "flagged_at": 1786814389.988525
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.852,
+        "flagged_at": 1786814390.011591
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.852,
+        "flagged_at": 1786814390.0349612
       }
     ]
   }
