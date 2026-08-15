@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 820,
+    "times_flagged": 824,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "food",
         "country": "Philippines",
         "confidence": 0.701,
-        "flagged_at": 1786794644.6714299
-      },
-      {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
-        "category": "food",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786794644.9621346
-      },
-      {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
-        "category": "food",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786794644.9846165
-      },
-      {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
-        "category": "food",
-        "country": "Philippines",
-        "confidence": 0.701,
-        "flagged_at": 1786794645.0068514
-      },
-      {
-        "topic": "A comfort food from Philippines that's become an internet obsession",
-        "category": "food",
-        "country": "Philippines",
-        "confidence": 0.701,
         "flagged_at": 1786794645.028978
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786796427.806793
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786796427.8294659
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786796427.8520088
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.701,
+        "flagged_at": 1786796427.874361
       }
     ]
   },
@@ -22411,6 +22411,117 @@
         "country": "Philippines",
         "confidence": 0.307,
         "flagged_at": 1786794644.9394522
+      }
+    ]
+  },
+  "glacier calving water splash": {
+    "prompt": "glacier calving water splash",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.672,
+        "flagged_at": 1786796427.6255274
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.672,
+        "flagged_at": 1786796427.6489499
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.672,
+        "flagged_at": 1786796427.6712823
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.672,
+        "flagged_at": 1786796427.6934981
+      }
+    ]
+  },
+  "ice spray mist": {
+    "prompt": "ice spray mist",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.717,
+        "flagged_at": 1786796427.7157552
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.717,
+        "flagged_at": 1786796427.7390053
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.717,
+        "flagged_at": 1786796427.762223
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.717,
+        "flagged_at": 1786796427.784614
+      }
+    ]
+  },
+  "hand tapping follow button": {
+    "prompt": "hand tapping follow button",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.793,
+        "flagged_at": 1786796427.8969493
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.793,
+        "flagged_at": 1786796427.9191058
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.793,
+        "flagged_at": 1786796427.9415097
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.793,
+        "flagged_at": 1786796427.964102
       }
     ]
   }
