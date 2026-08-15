@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1068,
+    "times_flagged": 1080,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Peru",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786831842.601915
+        "flagged_at": 1786833459.0653117
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Peru",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786831842.8812442
+        "flagged_at": 1786833459.089915
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Peru",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786831843.0151525
+        "flagged_at": 1786833459.1142797
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Peru",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786831843.0318196
+        "flagged_at": 1786833459.1386614
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
+        "topic": "A bucket-list experience you can only have in Brazil",
         "category": "travel",
-        "country": "Peru",
+        "country": "Brazil",
         "confidence": 0.357,
-        "flagged_at": 1786831843.0482972
+        "flagged_at": 1786833459.1633854
       }
     ]
   },
@@ -25038,6 +25038,43 @@
         "country": "Peru",
         "confidence": 0.796,
         "flagged_at": 1786831842.8104484
+      }
+    ]
+  },
+  "close up of acaraj\u00e9": {
+    "prompt": "close up of acaraj\u00e9",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.817,
+        "flagged_at": 1786833458.7954059
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.817,
+        "flagged_at": 1786833458.8206496
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.817,
+        "flagged_at": 1786833458.845573
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Brazil",
+        "category": "travel",
+        "country": "Brazil",
+        "confidence": 0.817,
+        "flagged_at": 1786833458.8700035
       }
     ]
   }
