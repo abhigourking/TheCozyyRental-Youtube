@@ -24971,6 +24971,114 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786797935.3864787
+    },
+    {
+      "run_number": "1128",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31886068257",
+      "topic": "A comfort food from Iceland that's become an internet obsession",
+      "category": "food",
+      "country": "Iceland",
+      "images_checked": 33,
+      "images_flagged": 16,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.497,
+          "prompt": "caramelized sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.497,
+          "prompt": "caramelized sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.497,
+          "prompt": "caramelized sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.497,
+          "prompt": "caramelized sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.62,
+          "prompt": "blueberry jam drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.62,
+          "prompt": "blueberry jam drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.62,
+          "prompt": "blueberry jam drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.62,
+          "prompt": "blueberry jam drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "subscribe button animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "subscribe button animation"
+        }
+      ],
+      "ran_at": 1786799688.1843212
     }
   ]
 }
