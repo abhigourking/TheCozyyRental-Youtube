@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 916,
+    "times_flagged": 920,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -85,35 +85,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786786940.1478727
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786786940.2564547
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786786940.278174
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
-        "flagged_at": 1786786940.2999687
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.357,
         "flagged_at": 1786786940.321746
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786788369.486799
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786788369.5089786
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786788369.5306053
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.357,
+        "flagged_at": 1786788369.5525117
       }
     ]
   },
@@ -489,7 +489,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 804,
+    "times_flagged": 808,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -499,35 +499,35 @@
         "category": "travel",
         "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786786940.2346284
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786786940.3432643
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786786940.3649428
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
-        "flagged_at": 1786786940.3866763
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Spain",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.701,
         "flagged_at": 1786786940.4082623
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.701,
+        "flagged_at": 1786788369.5742657
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.701,
+        "flagged_at": 1786788369.5961418
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.701,
+        "flagged_at": 1786788369.6177542
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.701,
+        "flagged_at": 1786788369.6395938
       }
     ]
   },
@@ -21708,6 +21708,43 @@
         "country": "Spain",
         "confidence": 0.46,
         "flagged_at": 1786786940.0614028
+      }
+    ]
+  },
+  "indonesian street food market": {
+    "prompt": "indonesian street food market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.606,
+        "flagged_at": 1786788369.383155
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.606,
+        "flagged_at": 1786788369.4052565
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.606,
+        "flagged_at": 1786788369.4266598
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.606,
+        "flagged_at": 1786788369.4481378
       }
     ]
   }
