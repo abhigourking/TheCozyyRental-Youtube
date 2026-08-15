@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 880,
+    "times_flagged": 892,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786779771.1756663
+        "flagged_at": 1786781122.2604437
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786779771.3605683
+        "flagged_at": 1786781122.410645
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786779771.3811853
+        "flagged_at": 1786781122.427145
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786779771.4017696
+        "flagged_at": 1786781122.4438431
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.357,
-        "flagged_at": 1786779771.4223642
+        "flagged_at": 1786781122.46055
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 776,
+    "times_flagged": 784,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Morocco",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "Morocco",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786778030.834332
+        "flagged_at": 1786781122.5887327
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786779771.0318542
+        "flagged_at": 1786781122.709846
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786779771.0523934
+        "flagged_at": 1786781122.749431
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786779771.0730479
+        "flagged_at": 1786781122.7661633
       },
       {
-        "topic": "The most viral street food trend in India right now",
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
         "category": "food",
-        "country": "India",
+        "country": "Spain",
         "confidence": 0.701,
-        "flagged_at": 1786779771.0935273
+        "flagged_at": 1786781122.801451
       }
     ]
   },
@@ -21301,6 +21301,117 @@
         "country": "India",
         "confidence": 0.704,
         "flagged_at": 1786779771.3400128
+      }
+    ]
+  },
+  "spicy chorizo": {
+    "prompt": "spicy chorizo",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.335,
+        "flagged_at": 1786781122.2770634
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.335,
+        "flagged_at": 1786781122.2936711
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.335,
+        "flagged_at": 1786781122.3103235
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.335,
+        "flagged_at": 1786781122.3271294
+      }
+    ]
+  },
+  "sizzling panceta": {
+    "prompt": "sizzling panceta",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.803,
+        "flagged_at": 1786781122.3435855
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.803,
+        "flagged_at": 1786781122.3603625
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.803,
+        "flagged_at": 1786781122.3772016
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.803,
+        "flagged_at": 1786781122.3940377
+      }
+    ]
+  },
+  "tasty tapas": {
+    "prompt": "tasty tapas",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.761,
+        "flagged_at": 1786781122.6379857
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.761,
+        "flagged_at": 1786781122.654781
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.761,
+        "flagged_at": 1786781122.6713243
+      },
+      {
+        "topic": "A unique regional specialty from Spain most outsiders have never heard of",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.761,
+        "flagged_at": 1786781122.6879346
       }
     ]
   }
