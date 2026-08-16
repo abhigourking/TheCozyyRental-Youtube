@@ -28001,6 +28001,90 @@
         }
       ],
       "ran_at": 1786837076.31748
+    },
+    {
+      "run_number": "1157",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31915860623",
+      "topic": "A viral travel spot in Philippines that's all over social media right now",
+      "category": "travel",
+      "country": "Philippines",
+      "images_checked": 30,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "vibrant social media feed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "vibrant social media feed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "vibrant social media feed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "vibrant social media feed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.373,
+          "prompt": "crowd cheering from shore"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.373,
+          "prompt": "crowd cheering from shore"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.373,
+          "prompt": "crowd cheering from shore"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.373,
+          "prompt": "crowd cheering from shore"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "slow moving fluffy clouds"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "slow moving fluffy clouds"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "slow moving fluffy clouds"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "slow moving fluffy clouds"
+        }
+      ],
+      "ran_at": 1786838732.5981386
     }
   ]
 }
