@@ -75,18 +75,12 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1120,
+    "times_flagged": 1121,
     "classes": [
-      "FEMALE_BREAST_EXPOSED"
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786843252.8745394
-      },
       {
         "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
@@ -114,6 +108,13 @@
         "country": "France",
         "confidence": 0.357,
         "flagged_at": 1786843253.5705237
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.475,
+        "flagged_at": 1786908670.37461
       }
     ]
   },
@@ -26341,26 +26342,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 13,
+    "times_flagged": 15,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Turkey right now",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.541,
-        "flagged_at": 1786902469.1378956
-      },
-      {
-        "topic": "The most viral street food trend in Turkey right now",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.837,
-        "flagged_at": 1786902469.1655293
-      },
       {
         "topic": "The most viral street food trend in Turkey right now",
         "category": "food",
@@ -26381,6 +26368,20 @@
         "country": "Mexico",
         "confidence": 0.623,
         "flagged_at": 1786904568.0197105
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.417,
+        "flagged_at": 1786908670.3175535
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.761,
+        "flagged_at": 1786908670.346326
       }
     ]
   },
@@ -28092,6 +28093,45 @@
         "country": "Japan",
         "confidence": 0.84,
         "flagged_at": 1786906622.218424
+      }
+    ]
+  },
+  "underwater reef swim": {
+    "prompt": "underwater reef swim",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.783,
+        "flagged_at": 1786908670.2318347
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.705,
+        "flagged_at": 1786908670.2605646
+      }
+    ]
+  },
+  "wave splash closeup": {
+    "prompt": "wave splash closeup",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.616,
+        "flagged_at": 1786908670.2892382
       }
     ]
   }

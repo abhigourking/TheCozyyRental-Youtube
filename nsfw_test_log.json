@@ -30104,6 +30104,54 @@
         }
       ],
       "ran_at": 1786906622.0542133
+    },
+    {
+      "run_number": "1202",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31966871402",
+      "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "underwater reef swim"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.705,
+          "prompt": "underwater reef swim"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "wave splash closeup"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.417,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.475,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1786908670.200407
     }
   ]
 }
