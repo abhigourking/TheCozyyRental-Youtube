@@ -29462,6 +29462,60 @@
         }
       ],
       "ran_at": 1786882119.1718464
+    },
+    {
+      "run_number": "1186",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31946935227",
+      "topic": "A comfort food from Mexico that's become an internet obsession",
+      "category": "food",
+      "country": "Mexico",
+      "images_checked": 22,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.665,
+          "prompt": "achiote spice closeup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.648,
+          "prompt": "hand flipping tortilla on comal"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "likes counter animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.759,
+          "prompt": "likes counter animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.767,
+          "prompt": "likes counter animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.744,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1786884070.400596
     }
   ]
 }

@@ -489,25 +489,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 915,
+    "times_flagged": 917,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786843253.6442504
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.701,
-        "flagged_at": 1786843253.6687725
-      },
       {
         "topic": "A popular food market or food street worth visiting in Egypt",
         "category": "food",
@@ -528,6 +514,20 @@
         "country": "Greece",
         "confidence": 0.761,
         "flagged_at": 1786871588.6374676
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.802,
+        "flagged_at": 1786884070.5657246
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.744,
+        "flagged_at": 1786884070.5924175
       }
     ]
   },
@@ -27281,6 +27281,68 @@
         "country": "Peru",
         "confidence": 0.848,
         "flagged_at": 1786882119.4437685
+      }
+    ]
+  },
+  "achiote spice closeup": {
+    "prompt": "achiote spice closeup",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.665,
+        "flagged_at": 1786884070.4311244
+      }
+    ]
+  },
+  "hand flipping tortilla on comal": {
+    "prompt": "hand flipping tortilla on comal",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.648,
+        "flagged_at": 1786884070.458519
+      }
+    ]
+  },
+  "likes counter animation": {
+    "prompt": "likes counter animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.808,
+        "flagged_at": 1786884070.4853632
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.759,
+        "flagged_at": 1786884070.5120876
+      },
+      {
+        "topic": "A comfort food from Mexico that's become an internet obsession",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.767,
+        "flagged_at": 1786884070.5386703
       }
     ]
   }
