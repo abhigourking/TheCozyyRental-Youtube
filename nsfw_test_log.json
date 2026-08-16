@@ -29390,6 +29390,78 @@
         }
       ],
       "ran_at": 1786879889.4064329
+    },
+    {
+      "run_number": "1185",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31945248424",
+      "topic": "A must-try traditional dish from Peru and the story behind it",
+      "category": "food",
+      "country": "Peru",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.621,
+          "prompt": "close up ceviche bowl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "chili flakes falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "fish being sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.62,
+          "prompt": "fish being sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.849,
+          "prompt": "time lapse marinating"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.751,
+          "prompt": "sea waves Peru"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.862,
+          "prompt": "sea waves Peru"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "sea waves Peru"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "subscribe button pop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.848,
+          "prompt": "subscribe button pop"
+        }
+      ],
+      "ran_at": 1786882119.1718464
     }
   ]
 }

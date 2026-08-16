@@ -27159,5 +27159,129 @@
         "flagged_at": 1786879889.6473243
       }
     ]
+  },
+  "close up ceviche bowl": {
+    "prompt": "close up ceviche bowl",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.621,
+        "flagged_at": 1786882119.202998
+      }
+    ]
+  },
+  "chili flakes falling": {
+    "prompt": "chili flakes falling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.814,
+        "flagged_at": 1786882119.2302034
+      }
+    ]
+  },
+  "fish being sliced": {
+    "prompt": "fish being sliced",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1786882119.2570705
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.62,
+        "flagged_at": 1786882119.2837832
+      }
+    ]
+  },
+  "time lapse marinating": {
+    "prompt": "time lapse marinating",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.849,
+        "flagged_at": 1786882119.3105595
+      }
+    ]
+  },
+  "sea waves peru": {
+    "prompt": "sea waves Peru",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.751,
+        "flagged_at": 1786882119.3371181
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.862,
+        "flagged_at": 1786882119.3640437
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.838,
+        "flagged_at": 1786882119.3905315
+      }
+    ]
+  },
+  "subscribe button pop": {
+    "prompt": "subscribe button pop",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.795,
+        "flagged_at": 1786882119.4170916
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.848,
+        "flagged_at": 1786882119.4437685
+      }
+    ]
   }
 }
