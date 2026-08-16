@@ -28762,6 +28762,90 @@
         }
       ],
       "ran_at": 1786855709.6084404
+    },
+    {
+      "run_number": "1171",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31928178813",
+      "topic": "A hidden gem destination in Greece most tourists don't know about",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 30,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.554,
+          "prompt": "fresh lemons being sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.322,
+          "prompt": "fresh lemons being sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.731,
+          "prompt": "fresh lemons being sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.644,
+          "prompt": "ferry crossing sea"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.734,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.729,
+          "prompt": "locals chatting market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.74,
+          "prompt": "locals chatting market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "locals chatting market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "comment bubble animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "comment bubble animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "comment bubble animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "comment bubble animation"
+        }
+      ],
+      "ran_at": 1786858125.5734117
     }
   ]
 }

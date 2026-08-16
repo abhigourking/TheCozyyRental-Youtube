@@ -26292,5 +26292,134 @@
         "flagged_at": 1786855709.7522933
       }
     ]
+  },
+  "fresh lemons being sliced": {
+    "prompt": "fresh lemons being sliced",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.554,
+        "flagged_at": 1786858125.603966
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.322,
+        "flagged_at": 1786858125.6305711
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.731,
+        "flagged_at": 1786858125.6568053
+      }
+    ]
+  },
+  "ferry crossing sea": {
+    "prompt": "ferry crossing sea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.644,
+        "flagged_at": 1786858125.6825702
+      }
+    ]
+  },
+  "modern city skyline": {
+    "prompt": "modern city skyline",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.734,
+        "flagged_at": 1786858125.7084913
+      }
+    ]
+  },
+  "locals chatting market": {
+    "prompt": "locals chatting market",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.729,
+        "flagged_at": 1786858125.734561
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.74,
+        "flagged_at": 1786858125.760737
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.771,
+        "flagged_at": 1786858125.787876
+      }
+    ]
+  },
+  "comment bubble animation": {
+    "prompt": "comment bubble animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.791,
+        "flagged_at": 1786858125.8139253
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.837,
+        "flagged_at": 1786858125.8400888
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.807,
+        "flagged_at": 1786858125.8667624
+      },
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.778,
+        "flagged_at": 1786858125.8930001
+      }
+    ]
   }
 }
