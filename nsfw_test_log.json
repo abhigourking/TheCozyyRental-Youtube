@@ -29060,6 +29060,36 @@
         }
       ],
       "ran_at": 1786867535.4445844
+    },
+    {
+      "run_number": "1178",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31936214781",
+      "topic": "A must-try traditional dish from Turkey and the story behind it",
+      "category": "food",
+      "country": "Turkey",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "locals folding lava\u015f"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.836,
+          "prompt": "happy expression"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.684,
+          "prompt": "hand holding kebab"
+        }
+      ],
+      "ran_at": 1786869454.607118
     }
   ]
 }

@@ -26670,5 +26670,53 @@
         "flagged_at": 1786867535.7279181
       }
     ]
+  },
+  "locals folding lava\u015f": {
+    "prompt": "locals folding lava\u015f",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.822,
+        "flagged_at": 1786869454.6367571
+      }
+    ]
+  },
+  "happy expression": {
+    "prompt": "happy expression",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.836,
+        "flagged_at": 1786869454.6625035
+      }
+    ]
+  },
+  "hand holding kebab": {
+    "prompt": "hand holding kebab",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.684,
+        "flagged_at": 1786869454.688158
+      }
+    ]
   }
 }
