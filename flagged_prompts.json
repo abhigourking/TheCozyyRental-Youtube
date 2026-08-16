@@ -28134,5 +28134,103 @@
         "flagged_at": 1786908670.2892382
       }
     ]
+  },
+  "habenero mayo drizzle": {
+    "prompt": "habenero mayo drizzle",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.334,
+        "flagged_at": 1786910750.271384
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.831,
+        "flagged_at": 1786910750.299691
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.78,
+        "flagged_at": 1786910750.3274944
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.732,
+        "flagged_at": 1786910750.354934
+      }
+    ]
+  },
+  "cilantro leaves scattering": {
+    "prompt": "cilantro leaves scattering",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.745,
+        "flagged_at": 1786910750.3823986
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.618,
+        "flagged_at": 1786910750.4098687
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.718,
+        "flagged_at": 1786910750.4374173
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.835,
+        "flagged_at": 1786910750.4649158
+      }
+    ]
+  },
+  "people taking photos": {
+    "prompt": "people taking photos",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.496,
+        "flagged_at": 1786910750.492844
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.789,
+        "flagged_at": 1786910750.5205727
+      }
+    ]
   }
 }

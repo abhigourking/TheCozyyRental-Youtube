@@ -30152,6 +30152,78 @@
         }
       ],
       "ran_at": 1786908670.200407
+    },
+    {
+      "run_number": "1203",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31968562293",
+      "topic": "The most viral street food trend in Mexico right now",
+      "category": "food",
+      "country": "Mexico",
+      "images_checked": 25,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.334,
+          "prompt": "habenero mayo drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "habenero mayo drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.78,
+          "prompt": "habenero mayo drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.732,
+          "prompt": "habenero mayo drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "cilantro leaves scattering"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.618,
+          "prompt": "cilantro leaves scattering"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.718,
+          "prompt": "cilantro leaves scattering"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.835,
+          "prompt": "cilantro leaves scattering"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.496,
+          "prompt": "people taking photos"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.789,
+          "prompt": "people taking photos"
+        }
+      ],
+      "ran_at": 1786910750.2395198
     }
   ]
 }
