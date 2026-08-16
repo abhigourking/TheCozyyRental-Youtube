@@ -28515,5 +28515,90 @@
         "flagged_at": 1786917298.9027553
       }
     ]
+  },
+  "crowded night market": {
+    "prompt": "crowded night market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.776,
+        "flagged_at": 1786919389.836339
+      }
+    ]
+  },
+  "ice crystals falling": {
+    "prompt": "ice crystals falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.776,
+        "flagged_at": 1786919389.8602457
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.341,
+        "flagged_at": 1786919389.9510713
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.777,
+        "flagged_at": 1786919389.976351
+      },
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.796,
+        "flagged_at": 1786919389.9999242
+      }
+    ]
+  },
+  "taste buds animation": {
+    "prompt": "taste buds animation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.478,
+        "flagged_at": 1786919390.0245779
+      }
+    ]
+  },
+  "steam and fire effect": {
+    "prompt": "steam and fire effect",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Thailand right now",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.801,
+        "flagged_at": 1786919390.1406422
+      }
+    ]
   }
 }

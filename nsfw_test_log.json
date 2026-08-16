@@ -30422,6 +30422,60 @@
         }
       ],
       "ran_at": 1786917298.704477
+    },
+    {
+      "run_number": "1208",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31975590321",
+      "topic": "The most viral street food trend in Thailand right now",
+      "category": "food",
+      "country": "Thailand",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.776,
+          "prompt": "crowded night market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.776,
+          "prompt": "ice crystals falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.341,
+          "prompt": "ice crystals falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.777,
+          "prompt": "ice crystals falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "ice crystals falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.478,
+          "prompt": "taste buds animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "steam and fire effect"
+        }
+      ],
+      "ran_at": 1786919389.8092897
     }
   ]
 }
