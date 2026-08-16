@@ -26989,5 +26989,67 @@
         "flagged_at": 1786875784.7134898
       }
     ]
+  },
+  "pyramids golden light": {
+    "prompt": "pyramids golden light",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.762,
+        "flagged_at": 1786877697.009492
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.806,
+        "flagged_at": 1786877697.0370936
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.704,
+        "flagged_at": 1786877697.0638702
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.792,
+        "flagged_at": 1786877697.0900772
+      }
+    ]
+  },
+  "red sea snorkeling": {
+    "prompt": "Red Sea snorkeling",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.396,
+        "flagged_at": 1786877697.1165023
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.711,
+        "flagged_at": 1786877697.1427665
+      }
+    ]
   }
 }

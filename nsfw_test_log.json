@@ -29276,6 +29276,54 @@
         }
       ],
       "ran_at": 1786875784.5260472
+    },
+    {
+      "run_number": "1183",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31942180136",
+      "topic": "A bucket-list experience you can only have in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 21,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.762,
+          "prompt": "pyramids golden light"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "pyramids golden light"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.704,
+          "prompt": "pyramids golden light"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "pyramids golden light"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.396,
+          "prompt": "Red Sea snorkeling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.711,
+          "prompt": "Red Sea snorkeling"
+        }
+      ],
+      "ran_at": 1786877696.9633343
     }
   ]
 }
