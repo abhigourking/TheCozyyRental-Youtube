@@ -27522,5 +27522,21 @@
         "flagged_at": 1786888352.9658093
       }
     ]
+  },
+  "archaeologist excavation": {
+    "prompt": "archaeologist excavation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.812,
+        "flagged_at": 1786890166.8161771
+      }
+    ]
   }
 }

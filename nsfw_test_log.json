@@ -29636,6 +29636,24 @@
         }
       ],
       "ran_at": 1786888352.7526515
+    },
+    {
+      "run_number": "1190",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31951793731",
+      "topic": "A surprising fact about a famous tourist attraction in Turkey",
+      "category": "travel",
+      "country": "Turkey",
+      "images_checked": 19,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "archaeologist excavation"
+        }
+      ],
+      "ran_at": 1786890166.7864614
     }
   ]
 }
