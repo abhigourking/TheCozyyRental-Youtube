@@ -28016,5 +28016,83 @@
         "flagged_at": 1786904567.9651554
       }
     ]
+  },
+  "tuna mayo mixing": {
+    "prompt": "tuna mayo mixing",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.621,
+        "flagged_at": 1786906622.0844607
+      }
+    ]
+  },
+  "pickled plum close up": {
+    "prompt": "pickled plum close up",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.517,
+        "flagged_at": 1786906622.111833
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.595,
+        "flagged_at": 1786906622.1387541
+      }
+    ]
+  },
+  "cheese melt stretch": {
+    "prompt": "cheese melt stretch",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.841,
+        "flagged_at": 1786906622.1652257
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.737,
+        "flagged_at": 1786906622.1917536
+      }
+    ]
+  },
+  "onigiri in wrap": {
+    "prompt": "onigiri in wrap",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.84,
+        "flagged_at": 1786906622.218424
+      }
+    ]
   }
 }

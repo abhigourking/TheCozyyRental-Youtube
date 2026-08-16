@@ -30056,6 +30056,54 @@
         }
       ],
       "ran_at": 1786904567.8248565
+    },
+    {
+      "run_number": "1200",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31965156750",
+      "topic": "A comfort food from Japan that's become an internet obsession",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.621,
+          "prompt": "tuna mayo mixing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.517,
+          "prompt": "pickled plum close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.595,
+          "prompt": "pickled plum close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "cheese melt stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "cheese melt stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "onigiri in wrap"
+        }
+      ],
+      "ran_at": 1786906622.0542133
     }
   ]
 }
