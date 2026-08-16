@@ -29090,6 +29090,66 @@
         }
       ],
       "ran_at": 1786869454.607118
+    },
+    {
+      "run_number": "1179",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31937567730",
+      "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+      "category": "food",
+      "country": "Greece",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "honey drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "honey drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.371,
+          "prompt": "person tasting dessert"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.692,
+          "prompt": "person tasting dessert"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.559,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "herbal tea steaming"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "snack plate"
+        }
+      ],
+      "ran_at": 1786871588.477354
     }
   ]
 }
