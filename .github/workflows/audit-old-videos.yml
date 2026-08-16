@@ -78,6 +78,13 @@ jobs:
         run: python audit_old_videos.py
 
       - name: Commit audit log
+        # always() so progress still gets saved even if "Run audit batch"
+        # fails or the job gets cancelled/times out partway through a big
+        # batch - save_audit_log() writes to disk after every single video,
+        # so whatever's on disk at this point is real, checked progress
+        # and shouldn't be thrown away just because something later in the
+        # batch (or the runner itself) had a problem.
+        if: always()
         run: |
           git config user.name "shorts-bot"
           git config user.email "actions@github.com"
