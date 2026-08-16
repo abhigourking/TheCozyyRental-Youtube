@@ -30284,6 +30284,78 @@
         }
       ],
       "ran_at": 1786912900.5996935
+    },
+    {
+      "run_number": "1205",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31972018588",
+      "topic": "A popular food market or food street worth visiting in Portugal",
+      "category": "food",
+      "country": "Portugal",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.855,
+          "prompt": "Lisbon market exterior"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "early market sunrise"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.525,
+          "prompt": "comment icons popping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.328,
+          "prompt": "comment icons popping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.707,
+          "prompt": "comment icons popping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "comment icons popping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.694,
+          "prompt": "quick montage of market highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.487,
+          "prompt": "quick montage of market highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "quick montage of market highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.852,
+          "prompt": "quick montage of market highlights"
+        }
+      ],
+      "ran_at": 1786915129.2742007
     }
   ]
 }
