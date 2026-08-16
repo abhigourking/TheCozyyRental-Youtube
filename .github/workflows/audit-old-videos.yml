@@ -1,0 +1,94 @@
+name: Audit old videos against current NudeNet detector (manual only)
+
+# One-off backlog audit - checks videos posted BEFORE the current NudeNet
+# detector existed, since none of them were ever actually scanned by it.
+# Deliberately NOT self-chaining and NOT on any schedule: this can delete
+# videos permanently, so every batch is a separate, deliberate
+# workflow_dispatch you trigger yourself. Re-run with the same inputs to
+# keep working through the backlog - already-audited videos are skipped
+# (see old_video_audit.json, committed back after each run like the other
+# state files).
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = check + log only, never deletes. false = actually delete flagged videos (also requires confirm_delete below)."
+        required: true
+        default: "true"
+      confirm_delete:
+        description: "Must be exactly DELETE to allow dry_run=false to delete anything. Leave blank for a dry run."
+        required: false
+        default: ""
+      batch_size:
+        description: "How many not-yet-audited videos to process this run."
+        required: true
+        default: "25"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: |
+          pip install -r requirements.txt
+          pip install yt-dlp
+
+      - name: Cache NudeNet 640m model
+        # Same cache key as daily-short.yml - shares the cache across both
+        # workflows instead of re-downloading, and keeps this audit using
+        # the exact same detector as the live pipeline for consistency.
+        id: nudenet_cache
+        uses: actions/cache@v4
+        with:
+          path: models/640m.onnx
+          key: nudenet-640m-onnx-v2
+
+      - name: Download NudeNet 640m model
+        if: steps.nudenet_cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p models
+          curl -sfL -o models/640m.onnx \
+            https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
+          || echo "::warning::640m model download failed - falling back to the bundled default model."
+          SIZE=$(stat -c%s models/640m.onnx 2>/dev/null || echo 0)
+          if [ "$SIZE" -lt 90000000 ]; then
+            echo "::warning::Downloaded 640m.onnx is only $SIZE bytes - discarding, falling back to default model."
+            rm -f models/640m.onnx
+          fi
+
+      - name: Run audit batch
+        id: run_audit
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          CONFIRM_DELETE: ${{ inputs.confirm_delete }}
+          AUDIT_BATCH_SIZE: ${{ inputs.batch_size }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
+        run: python audit_old_videos.py
+
+      - name: Commit audit log
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "actions@github.com"
+          git add old_video_audit.json
+          git commit -m "chore: old-video audit progress [skip ci]" || echo "nothing to commit"
+          for i in 1 2 3; do
+            if git push; then
+              break
+            fi
+            echo "Push rejected, retrying ($i/3)..."
+            git fetch origin master
+            git rebase origin/master || { git rebase --abort; git reset --hard origin/master; }
+            sleep 5
+          done

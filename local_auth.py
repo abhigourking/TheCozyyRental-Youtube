@@ -22,6 +22,12 @@ SCOPES = [
     # pipeline silently falls back to picking categories/countries
     # uniformly at random instead of favoring what's actually performing.
     "https://www.googleapis.com/auth/youtube.readonly",
+    # Needed for videos.delete() (audit_old_videos.py) - youtube.upload
+    # alone is NOT sufficient for deleting videos. Per YouTube's own API
+    # docs, videos.delete requires one of: youtube.partner, youtube, or
+    # youtube.force-ssl. force-ssl is the narrowest of the three that
+    # still covers delete.
+    "https://www.googleapis.com/auth/youtube.force-ssl",
 ]
 CLIENT_SECRET_FILE = "credentials/client_secret.json"
 
