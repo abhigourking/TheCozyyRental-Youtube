@@ -29324,6 +29324,72 @@
         }
       ],
       "ran_at": 1786877696.9633343
+    },
+    {
+      "run_number": "1184",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31943589397",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.798,
+          "prompt": "raw lamb cuts"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "marinating meat bowl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "chu\u00f1a leaves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "chu\u00f1a leaves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "chu\u00f1a leaves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "chu\u00f1a leaves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "glass of Malbec wine"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "comment bubble icon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.561,
+          "prompt": "comment bubble icon"
+        }
+      ],
+      "ran_at": 1786879889.4064329
     }
   ]
 }

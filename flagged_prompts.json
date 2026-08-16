@@ -27051,5 +27051,113 @@
         "flagged_at": 1786877697.1427665
       }
     ]
+  },
+  "raw lamb cuts": {
+    "prompt": "raw lamb cuts",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.798,
+        "flagged_at": 1786879889.4384325
+      }
+    ]
+  },
+  "marinating meat bowl": {
+    "prompt": "marinating meat bowl",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.802,
+        "flagged_at": 1786879889.4651637
+      }
+    ]
+  },
+  "chu\u00f1a leaves": {
+    "prompt": "chu\u00f1a leaves",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.8,
+        "flagged_at": 1786879889.4914858
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.791,
+        "flagged_at": 1786879889.5172133
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.825,
+        "flagged_at": 1786879889.5434148
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.823,
+        "flagged_at": 1786879889.5690136
+      }
+    ]
+  },
+  "glass of malbec wine": {
+    "prompt": "glass of Malbec wine",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.806,
+        "flagged_at": 1786879889.59501
+      }
+    ]
+  },
+  "comment bubble icon": {
+    "prompt": "comment bubble icon",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.812,
+        "flagged_at": 1786879889.6214385
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.561,
+        "flagged_at": 1786879889.6473243
+      }
+    ]
   }
 }
