@@ -26342,46 +26342,46 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 15,
+    "times_flagged": 19,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Turkey right now",
-        "category": "food",
-        "country": "Turkey",
-        "confidence": 0.817,
-        "flagged_at": 1786902469.1933146
-      },
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.838,
-        "flagged_at": 1786904567.992352
-      },
-      {
-        "topic": "A viral travel spot in Mexico that's all over social media right now",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.623,
-        "flagged_at": 1786904568.0197105
-      },
-      {
-        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.417,
-        "flagged_at": 1786908670.3175535
-      },
-      {
         "topic": "A hidden gem destination in Indonesia most tourists don't know about",
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.761,
         "flagged_at": 1786908670.346326
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.828,
+        "flagged_at": 1786921496.600187
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.862,
+        "flagged_at": 1786921496.6258209
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.845,
+        "flagged_at": 1786921496.6507058
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.825,
+        "flagged_at": 1786921496.6758142
       }
     ]
   },
@@ -28598,6 +28598,38 @@
         "country": "Thailand",
         "confidence": 0.801,
         "flagged_at": 1786919390.1406422
+      }
+    ]
+  },
+  "panoramic spring valley": {
+    "prompt": "panoramic spring valley",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.796,
+        "flagged_at": 1786921496.5234542
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.362,
+        "flagged_at": 1786921496.5495207
+      },
+      {
+        "topic": "A hidden gem destination in Argentina most tourists don't know about",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.778,
+        "flagged_at": 1786921496.5750856
       }
     ]
   }

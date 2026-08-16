@@ -30476,6 +30476,60 @@
         }
       ],
       "ran_at": 1786919389.8092897
+    },
+    {
+      "run_number": "1209",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31977186694",
+      "topic": "A hidden gem destination in Argentina most tourists don't know about",
+      "category": "travel",
+      "country": "Argentina",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "panoramic spring valley"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.362,
+          "prompt": "panoramic spring valley"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "panoramic spring valley"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.862,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.845,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1786921496.494505
     }
   ]
 }
