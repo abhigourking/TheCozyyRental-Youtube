@@ -26341,24 +26341,46 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 2,
+    "times_flagged": 7,
     "classes": [
-      "FEMALE_BREAST_EXPOSED"
+      "FEMALE_BREAST_EXPOSED",
+      "BUTTOCKS_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.734,
-        "flagged_at": 1786858125.7084913
+        "country": "Morocco",
+        "confidence": 0.853,
+        "flagged_at": 1786894478.9784782
       },
       {
-        "topic": "The most breathtaking place to visit in Mexico",
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
         "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.677,
-        "flagged_at": 1786888352.9918509
+        "country": "Morocco",
+        "confidence": 0.855,
+        "flagged_at": 1786894479.1538157
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.68,
+        "flagged_at": 1786894479.1757185
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.819,
+        "flagged_at": 1786894479.1976519
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.833,
+        "flagged_at": 1786894479.219513
       }
     ]
   },
@@ -27568,6 +27590,112 @@
         "country": "India",
         "confidence": 0.585,
         "flagged_at": 1786891902.2992647
+      }
+    ]
+  },
+  "instagram photo overlay": {
+    "prompt": "Instagram photo overlay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.805,
+        "flagged_at": 1786894478.8158827
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.788,
+        "flagged_at": 1786894478.837078
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.818,
+        "flagged_at": 1786894478.8970165
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.804,
+        "flagged_at": 1786894478.9567056
+      }
+    ]
+  },
+  "spice sprinkling": {
+    "prompt": "spice sprinkling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.748,
+        "flagged_at": 1786894478.9996777
+      }
+    ]
+  },
+  "golden light streets": {
+    "prompt": "golden light streets",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.81,
+        "flagged_at": 1786894479.0978494
+      }
+    ]
+  },
+  "travel montage quick cuts": {
+    "prompt": "travel montage quick cuts",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.758,
+        "flagged_at": 1786894479.2641103
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.832,
+        "flagged_at": 1786894479.287173
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.555,
+        "flagged_at": 1786894479.3088872
+      },
+      {
+        "topic": "A viral travel spot in Morocco that's all over social media right now",
+        "category": "travel",
+        "country": "Morocco",
+        "confidence": 0.409,
+        "flagged_at": 1786894479.330025
       }
     ]
   }
