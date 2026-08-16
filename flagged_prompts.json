@@ -26341,33 +26341,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 8,
+    "times_flagged": 11,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.855,
-        "flagged_at": 1786894479.1538157
-      },
-      {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.68,
-        "flagged_at": 1786894479.1757185
-      },
-      {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.819,
-        "flagged_at": 1786894479.1976519
-      },
       {
         "topic": "A viral travel spot in Morocco that's all over social media right now",
         "category": "travel",
@@ -26381,6 +26360,27 @@
         "country": "Egypt",
         "confidence": 0.519,
         "flagged_at": 1786900569.0371702
+      },
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.541,
+        "flagged_at": 1786902469.1378956
+      },
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.837,
+        "flagged_at": 1786902469.1655293
+      },
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.817,
+        "flagged_at": 1786902469.1933146
       }
     ]
   },
@@ -27931,6 +27931,36 @@
         "country": "Egypt",
         "confidence": 0.83,
         "flagged_at": 1786900569.1266036
+      }
+    ]
+  },
+  "person biting kokorec": {
+    "prompt": "person biting kokorec",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.811,
+        "flagged_at": 1786902469.0543282
+      },
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.759,
+        "flagged_at": 1786902469.0826797
+      },
+      {
+        "topic": "The most viral street food trend in Turkey right now",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.827,
+        "flagged_at": 1786902469.1105273
       }
     ]
   }

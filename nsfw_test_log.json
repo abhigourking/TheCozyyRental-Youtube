@@ -29954,6 +29954,54 @@
         }
       ],
       "ran_at": 1786900568.9104927
+    },
+    {
+      "run_number": "1198",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31961841681",
+      "topic": "The most viral street food trend in Turkey right now",
+      "category": "food",
+      "country": "Turkey",
+      "images_checked": 21,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "person biting kokorec"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.759,
+          "prompt": "person biting kokorec"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.827,
+          "prompt": "person biting kokorec"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.541,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1786902469.00706
     }
   ]
 }
