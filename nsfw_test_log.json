@@ -28570,6 +28570,96 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786849204.8018296
+    },
+    {
+      "run_number": "1166",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31923801047",
+      "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 31,
+      "images_flagged": 13,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "Japanese countryside road"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "cold sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "cold sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.842,
+          "prompt": "cold sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "cold sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.326,
+          "prompt": "green onion sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.688,
+          "prompt": "green onion sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "wasabi dollop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.758,
+          "prompt": "wasabi dollop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "wasabi dollop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.672,
+          "prompt": "wasabi dollop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "customers watching close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.753,
+          "prompt": "travel suitcase opening"
+        }
+      ],
+      "ran_at": 1786851574.9735835
     }
   ]
 }

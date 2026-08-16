@@ -25992,5 +25992,151 @@
         "flagged_at": 1786847414.3871362
       }
     ]
+  },
+  "japanese countryside road": {
+    "prompt": "Japanese countryside road",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.817,
+        "flagged_at": 1786851575.0032418
+      }
+    ]
+  },
+  "cold sauce drizzle": {
+    "prompt": "cold sauce drizzle",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.841,
+        "flagged_at": 1786851575.0296383
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.813,
+        "flagged_at": 1786851575.055733
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.842,
+        "flagged_at": 1786851575.0814648
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.818,
+        "flagged_at": 1786851575.1072795
+      }
+    ]
+  },
+  "green onion sprinkle": {
+    "prompt": "green onion sprinkle",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.326,
+        "flagged_at": 1786851575.133193
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.688,
+        "flagged_at": 1786851575.1590388
+      }
+    ]
+  },
+  "wasabi dollop": {
+    "prompt": "wasabi dollop",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.833,
+        "flagged_at": 1786851575.1851578
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.758,
+        "flagged_at": 1786851575.210961
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.817,
+        "flagged_at": 1786851575.2372153
+      },
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.672,
+        "flagged_at": 1786851575.2631896
+      }
+    ]
+  },
+  "customers watching close up": {
+    "prompt": "customers watching close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.823,
+        "flagged_at": 1786851575.2894478
+      }
+    ]
+  },
+  "travel suitcase opening": {
+    "prompt": "travel suitcase opening",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Japan most outsiders have never heard of",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.753,
+        "flagged_at": 1786851575.3153577
+      }
+    ]
   }
 }
