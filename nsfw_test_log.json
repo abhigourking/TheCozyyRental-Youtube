@@ -30002,6 +30002,60 @@
         }
       ],
       "ran_at": 1786902469.00706
+    },
+    {
+      "run_number": "1199",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31963423746",
+      "topic": "A viral travel spot in Mexico that's all over social media right now",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.737,
+          "prompt": "sunlight reflecting water layers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "sunlight reflecting water layers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "sunlight reflecting water layers"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.762,
+          "prompt": "sunlight reflecting water layers"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.587,
+          "prompt": "hand holding horchata drink"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.623,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1786904567.8248565
     }
   ]
 }

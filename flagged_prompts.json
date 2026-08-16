@@ -26341,26 +26341,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 11,
+    "times_flagged": 13,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.833,
-        "flagged_at": 1786894479.219513
-      },
-      {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.519,
-        "flagged_at": 1786900569.0371702
-      },
       {
         "topic": "The most viral street food trend in Turkey right now",
         "category": "food",
@@ -26381,6 +26367,20 @@
         "country": "Turkey",
         "confidence": 0.817,
         "flagged_at": 1786902469.1933146
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.838,
+        "flagged_at": 1786904567.992352
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.623,
+        "flagged_at": 1786904568.0197105
       }
     ]
   },
@@ -27961,6 +27961,59 @@
         "country": "Turkey",
         "confidence": 0.827,
         "flagged_at": 1786902469.1105273
+      }
+    ]
+  },
+  "sunlight reflecting water layers": {
+    "prompt": "sunlight reflecting water layers",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.737,
+        "flagged_at": 1786904567.8556209
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.797,
+        "flagged_at": 1786904567.8835363
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.8,
+        "flagged_at": 1786904567.9106867
+      },
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.762,
+        "flagged_at": 1786904567.9379451
+      }
+    ]
+  },
+  "hand holding horchata drink": {
+    "prompt": "hand holding horchata drink",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Mexico that's all over social media right now",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.587,
+        "flagged_at": 1786904567.9651554
       }
     ]
   }
