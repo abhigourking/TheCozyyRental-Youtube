@@ -27345,5 +27345,82 @@
         "flagged_at": 1786884070.5386703
       }
     ]
+  },
+  "fresh vegetables topping": {
+    "prompt": "fresh vegetables topping",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.831,
+        "flagged_at": 1786886176.2706447
+      }
+    ]
+  },
+  "comment bubble pop up": {
+    "prompt": "comment bubble pop up",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.813,
+        "flagged_at": 1786886176.2918956
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.831,
+        "flagged_at": 1786886176.3126326
+      }
+    ]
+  },
+  "turkish snack collage": {
+    "prompt": "Turkish snack collage",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.802,
+        "flagged_at": 1786886176.3326483
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.783,
+        "flagged_at": 1786886176.3536885
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.525,
+        "flagged_at": 1786886176.3739564
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.76,
+        "flagged_at": 1786886176.3940384
+      }
+    ]
   }
 }

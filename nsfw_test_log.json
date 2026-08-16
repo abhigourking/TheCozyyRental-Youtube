@@ -29516,6 +29516,60 @@
         }
       ],
       "ran_at": 1786884070.400596
+    },
+    {
+      "run_number": "1187",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31948405610",
+      "topic": "A popular food market or food street worth visiting in Turkey",
+      "category": "food",
+      "country": "Turkey",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "fresh vegetables topping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "comment bubble pop up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "comment bubble pop up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "Turkish snack collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "Turkish snack collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.525,
+          "prompt": "Turkish snack collage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.76,
+          "prompt": "Turkish snack collage"
+        }
+      ],
+      "ran_at": 1786886176.2469988
     }
   ]
 }
