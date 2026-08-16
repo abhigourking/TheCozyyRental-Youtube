@@ -29222,6 +29222,60 @@
         }
       ],
       "ran_at": 1786873686.1078694
+    },
+    {
+      "run_number": "1182",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31940661176",
+      "topic": "A bucket-list experience you can only have in Philippines",
+      "category": "travel",
+      "country": "Philippines",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.593,
+          "prompt": "snorkeler underwater"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "sunlight rays water surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "sunlight rays water surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.425,
+          "prompt": "Coron limestone cliffs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.852,
+          "prompt": "comment section animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "comment section animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.711,
+          "prompt": "comment section animation"
+        }
+      ],
+      "ran_at": 1786875784.5260472
     }
   ]
 }

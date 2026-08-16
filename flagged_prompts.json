@@ -26903,5 +26903,91 @@
         "flagged_at": 1786873686.385303
       }
     ]
+  },
+  "snorkeler underwater": {
+    "prompt": "snorkeler underwater",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.593,
+        "flagged_at": 1786875784.5562716
+      }
+    ]
+  },
+  "sunlight rays water surface": {
+    "prompt": "sunlight rays water surface",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.754,
+        "flagged_at": 1786875784.583006
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.822,
+        "flagged_at": 1786875784.60967
+      }
+    ]
+  },
+  "coron limestone cliffs": {
+    "prompt": "Coron limestone cliffs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.425,
+        "flagged_at": 1786875784.6357093
+      }
+    ]
+  },
+  "comment section animation": {
+    "prompt": "comment section animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.852,
+        "flagged_at": 1786875784.661533
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.605,
+        "flagged_at": 1786875784.687441
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.711,
+        "flagged_at": 1786875784.7134898
+      }
+    ]
   }
 }
