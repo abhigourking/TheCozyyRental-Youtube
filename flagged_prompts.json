@@ -26421,5 +26421,88 @@
         "flagged_at": 1786858125.8930001
       }
     ]
+  },
+  "old city skyline": {
+    "prompt": "old city skyline",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.761,
+        "flagged_at": 1786860151.0585022
+      }
+    ]
+  },
+  "ancient lanterns": {
+    "prompt": "ancient lanterns",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.818,
+        "flagged_at": 1786860151.0850012
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.79,
+        "flagged_at": 1786860151.110736
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.849,
+        "flagged_at": 1786860151.1364613
+      }
+    ]
+  },
+  "water flow animation": {
+    "prompt": "water flow animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.832,
+        "flagged_at": 1786860151.1615748
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.819,
+        "flagged_at": 1786860151.1871395
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.774,
+        "flagged_at": 1786860151.2125795
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Turkey",
+        "category": "travel",
+        "country": "Turkey",
+        "confidence": 0.786,
+        "flagged_at": 1786860151.237911
+      }
+    ]
   }
 }

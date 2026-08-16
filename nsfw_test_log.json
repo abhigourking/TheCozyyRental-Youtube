@@ -28846,6 +28846,66 @@
         }
       ],
       "ran_at": 1786858125.5734117
+    },
+    {
+      "run_number": "1172",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31929690550",
+      "topic": "A surprising fact about a famous tourist attraction in Turkey",
+      "category": "travel",
+      "country": "Turkey",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "old city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "ancient lanterns"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.79,
+          "prompt": "ancient lanterns"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.849,
+          "prompt": "ancient lanterns"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "water flow animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.819,
+          "prompt": "water flow animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "water flow animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "water flow animation"
+        }
+      ],
+      "ran_at": 1786860151.0154438
     }
   ]
 }
