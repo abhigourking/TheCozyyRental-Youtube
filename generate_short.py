@@ -886,13 +886,29 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # output in the first place.
     safe_prompt = prompt + NSFW_SAFETY_SUFFIX
     url = f"https://image.pollinations.ai/prompt/{requests.utils.quote(safe_prompt)}"
-    params = {"width": width, "height": height, "nologo": "true", "enhance": "true",
-              "safe": "true"}
 
     with POLLINATIONS_LOCK:
         last_detail = None
         for attempt in range(max_retries):
             try:
+                # A fresh random seed every attempt, including the first -
+                # without one, Pollinations serves the identical cached
+                # image for identical prompt+params (confirmed via their
+                # own docs: "same seed + parameters return the same cached
+                # result"). This was a real, confirmed bug: every "retry"
+                # after an NSFW flag was hitting that exact same cached
+                # image again, so all 4 retries were wasted (guaranteed to
+                # fail identically) instead of actually attempting a fresh
+                # generation - and worse, since shot prompts are often
+                # short reused phrases (e.g. "Porto city streets"), any
+                # OTHER video that happened to generate the same prompt
+                # text, at any point, would also get served that exact
+                # same flagged image forever. Randomizing the seed makes
+                # every single request (first try and retries alike) a
+                # genuinely independent generation.
+                params = {"width": width, "height": height, "nologo": "true",
+                          "enhance": "true", "safe": "true",
+                          "seed": random.randint(1, 2_000_000_000)}
                 r = requests.get(url, params=params, timeout=90)
                 if r.status_code == 429:
                     last_detail = f"HTTP 429: {r.text[:200]}"
