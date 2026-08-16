@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1112,
+    "times_flagged": 1120,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "Greece",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786841670.707408
+        "flagged_at": 1786843252.8745394
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "Greece",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786841670.7272089
+        "flagged_at": 1786843253.4842973
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "Greece",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786841670.7469878
+        "flagged_at": 1786843253.508801
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "Greece",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786841670.7667692
+        "flagged_at": 1786843253.533122
       },
       {
-        "topic": "A popular food market or food street worth visiting in Greece",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "Greece",
+        "country": "France",
         "confidence": 0.357,
-        "flagged_at": 1786841670.78678
+        "flagged_at": 1786843253.5705237
       }
     ]
   },
@@ -489,45 +489,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 900,
+    "times_flagged": 912,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786831843.1131535
+        "flagged_at": 1786843253.3625064
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "South Korea",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786837077.14763
+        "flagged_at": 1786843253.595379
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "South Korea",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786837077.1720457
+        "flagged_at": 1786843253.6197555
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "South Korea",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786837077.196586
+        "flagged_at": 1786843253.6442504
       },
       {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
-        "country": "South Korea",
+        "country": "France",
         "confidence": 0.701,
-        "flagged_at": 1786837077.2211452
+        "flagged_at": 1786843253.6687725
       }
     ]
   },
@@ -25704,6 +25704,154 @@
         "country": "Greece",
         "confidence": 0.849,
         "flagged_at": 1786841670.6280363
+      }
+    ]
+  },
+  "close\u2011up of golden falafel": {
+    "prompt": "close\u2011up of golden falafel",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.742,
+        "flagged_at": 1786843252.8988938
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.742,
+        "flagged_at": 1786843252.9231033
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.742,
+        "flagged_at": 1786843252.9474087
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.742,
+        "flagged_at": 1786843252.9716105
+      }
+    ]
+  },
+  "caramelized apples sizzling": {
+    "prompt": "caramelized apples sizzling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.408,
+        "flagged_at": 1786843252.9960077
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.408,
+        "flagged_at": 1786843253.0204582
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.408,
+        "flagged_at": 1786843253.044629
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.408,
+        "flagged_at": 1786843253.0692222
+      }
+    ]
+  },
+  "espresso being poured": {
+    "prompt": "espresso being poured",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.794,
+        "flagged_at": 1786843253.0934117
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.794,
+        "flagged_at": 1786843253.1176214
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.794,
+        "flagged_at": 1786843253.1418679
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.794,
+        "flagged_at": 1786843253.1661828
+      }
+    ]
+  },
+  "hand pointing at screen": {
+    "prompt": "hand pointing at screen",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.782,
+        "flagged_at": 1786843253.3868093
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.782,
+        "flagged_at": 1786843253.4111884
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.782,
+        "flagged_at": 1786843253.4355717
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.782,
+        "flagged_at": 1786843253.4599035
       }
     ]
   }
