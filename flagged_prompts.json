@@ -75,45 +75,45 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1104,
+    "times_flagged": 1112,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
-        "country": "Italy",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786840373.4549189
+        "flagged_at": 1786841670.707408
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
-        "country": "Italy",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786840373.4804616
+        "flagged_at": 1786841670.7272089
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
-        "country": "Italy",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786840373.5065148
+        "flagged_at": 1786841670.7469878
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
-        "country": "Italy",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786840373.532159
+        "flagged_at": 1786841670.7667692
       },
       {
-        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
-        "country": "Italy",
+        "country": "Greece",
         "confidence": 0.357,
-        "flagged_at": 1786840373.5573559
+        "flagged_at": 1786841670.78678
       }
     ]
   },
@@ -25593,6 +25593,117 @@
         "country": "Italy",
         "confidence": 0.65,
         "flagged_at": 1786840373.3526711
+      }
+    ]
+  },
+  "souvlaki being wrapped": {
+    "prompt": "souvlaki being wrapped",
+    "times_flagged": 4,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.301,
+        "flagged_at": 1786841670.3931649
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.301,
+        "flagged_at": 1786841670.413516
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.301,
+        "flagged_at": 1786841670.4336724
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.301,
+        "flagged_at": 1786841670.453386
+      }
+    ]
+  },
+  "athens market entrance": {
+    "prompt": "Athens market entrance",
+    "times_flagged": 4,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.432,
+        "flagged_at": 1786841670.4732766
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.432,
+        "flagged_at": 1786841670.4929986
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.432,
+        "flagged_at": 1786841670.5280275
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.432,
+        "flagged_at": 1786841670.5485277
+      }
+    ]
+  },
+  "hands breaking pastry": {
+    "prompt": "hands breaking pastry",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.849,
+        "flagged_at": 1786841670.568419
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.849,
+        "flagged_at": 1786841670.588328
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.849,
+        "flagged_at": 1786841670.6081748
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.849,
+        "flagged_at": 1786841670.6280363
       }
     ]
   }
