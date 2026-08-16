@@ -26341,19 +26341,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 7,
+    "times_flagged": 8,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Morocco that's all over social media right now",
-        "category": "travel",
-        "country": "Morocco",
-        "confidence": 0.853,
-        "flagged_at": 1786894478.9784782
-      },
       {
         "topic": "A viral travel spot in Morocco that's all over social media right now",
         "category": "travel",
@@ -26381,6 +26374,13 @@
         "country": "Morocco",
         "confidence": 0.833,
         "flagged_at": 1786894479.219513
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.519,
+        "flagged_at": 1786900569.0371702
       }
     ]
   },
@@ -27853,6 +27853,84 @@
         "country": "India",
         "confidence": 0.769,
         "flagged_at": 1786898550.2715564
+      }
+    ]
+  },
+  "calm salt lake reflection": {
+    "prompt": "calm salt lake reflection",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.601,
+        "flagged_at": 1786900568.9449215
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.709,
+        "flagged_at": 1786900568.975901
+      }
+    ]
+  },
+  "close up cooked fava beans": {
+    "prompt": "close up cooked fava beans",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.329,
+        "flagged_at": 1786900569.0067554
+      }
+    ]
+  },
+  "colorful abstract background": {
+    "prompt": "colorful abstract background",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.351,
+        "flagged_at": 1786900569.0669343
+      }
+    ]
+  },
+  "clear blue sky": {
+    "prompt": "clear blue sky",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.812,
+        "flagged_at": 1786900569.0967145
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.83,
+        "flagged_at": 1786900569.1266036
       }
     ]
   }
