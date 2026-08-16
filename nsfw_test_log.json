@@ -29828,6 +29828,78 @@
         }
       ],
       "ran_at": 1786896477.5475972
+    },
+    {
+      "run_number": "1196",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31958443477",
+      "topic": "The most breathtaking place to visit in India",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 25,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "colorful Indian market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "colorful Indian market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.804,
+          "prompt": "colorful Indian market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "colorful Indian market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "bright blue sky"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.704,
+          "prompt": "bright blue sky"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.657,
+          "prompt": "bright blue sky"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "travel montage ending"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.75,
+          "prompt": "travel montage ending"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.769,
+          "prompt": "travel montage ending"
+        }
+      ],
+      "ran_at": 1786898549.985333
     }
   ]
 }

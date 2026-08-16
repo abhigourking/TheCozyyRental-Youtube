@@ -27758,5 +27758,102 @@
         "flagged_at": 1786896477.722
       }
     ]
+  },
+  "colorful indian market": {
+    "prompt": "colorful Indian market",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.807,
+        "flagged_at": 1786898550.0296023
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.834,
+        "flagged_at": 1786898550.0570972
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.804,
+        "flagged_at": 1786898550.0843277
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.811,
+        "flagged_at": 1786898550.111095
+      }
+    ]
+  },
+  "bright blue sky": {
+    "prompt": "bright blue sky",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.805,
+        "flagged_at": 1786898550.1376886
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786898550.164475
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.657,
+        "flagged_at": 1786898550.1911016
+      }
+    ]
+  },
+  "travel montage ending": {
+    "prompt": "travel montage ending",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.782,
+        "flagged_at": 1786898550.217845
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.75,
+        "flagged_at": 1786898550.2447412
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.769,
+        "flagged_at": 1786898550.2715564
+      }
+    ]
   }
 }
