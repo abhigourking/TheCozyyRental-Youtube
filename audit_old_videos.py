@@ -73,13 +73,24 @@ def save_audit_log(data):
     AUDIT_LOG_FILE.write_text(json.dumps(data, indent=2))
 
 
+def _proc_error_detail(e):
+    """subprocess.CalledProcessError's default str() is just the command +
+    exit code - completely useless for diagnosing WHY something failed
+    (e.g. "Sign in to confirm you're not a bot" vs a bad format selector
+    vs a private/deleted video). Surface the actual stderr text instead."""
+    stderr = getattr(e, "stderr", None)
+    if stderr:
+        return f"{type(e).__name__}: {stderr.strip()[-800:]}"
+    return f"{type(e).__name__}: {e}"
+
+
 def download_video(video_id, out_path):
     # Lowest reasonable quality - frames just need to be detectable, not
     # high-res; keeps downloads small/fast across hundreds of videos.
     subprocess.run(
         ["yt-dlp", "-f", "worst[ext=mp4]/worst", "-o", str(out_path),
          f"https://www.youtube.com/watch?v={video_id}"],
-        check=True, capture_output=True, timeout=180,
+        check=True, capture_output=True, text=True, timeout=180,
     )
 
 
@@ -88,7 +99,7 @@ def extract_frames(video_path, work_dir):
     subprocess.run(
         ["ffmpeg", "-y", "-i", str(video_path),
          "-vf", f"fps=1/{FRAME_INTERVAL_SECONDS}", frames_pattern],
-        check=True, capture_output=True, timeout=120,
+        check=True, capture_output=True, text=True, timeout=120,
     )
     return sorted(work_dir.glob("frame_*.jpg"))
 
@@ -102,12 +113,12 @@ def check_video(video_id):
         try:
             download_video(video_id, video_path)
         except Exception as e:
-            return False, [], f"download failed: {type(e).__name__}: {e}"
+            return False, [], f"download failed: {_proc_error_detail(e)}"
 
         try:
             frames = extract_frames(video_path, td)
         except Exception as e:
-            return False, [], f"frame extraction failed: {type(e).__name__}: {e}"
+            return False, [], f"frame extraction failed: {_proc_error_detail(e)}"
 
         if not frames:
             return False, [], "no frames extracted"
