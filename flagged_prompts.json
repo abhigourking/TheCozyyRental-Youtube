@@ -75,26 +75,12 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1121,
+    "times_flagged": 1123,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786843253.4842973
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786843253.508801
-      },
       {
         "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
@@ -115,6 +101,20 @@
         "country": "Indonesia",
         "confidence": 0.475,
         "flagged_at": 1786908670.37461
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.774,
+        "flagged_at": 1786917298.9309871
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.77,
+        "flagged_at": 1786917298.9589946
       }
     ]
   },
@@ -28428,6 +28428,91 @@
         "country": "Portugal",
         "confidence": 0.852,
         "flagged_at": 1786915129.5560834
+      }
+    ]
+  },
+  "green salsa drizzle": {
+    "prompt": "green salsa drizzle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.833,
+        "flagged_at": 1786917298.7356267
+      }
+    ]
+  },
+  "steam rising from taco": {
+    "prompt": "steam rising from taco",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.787,
+        "flagged_at": 1786917298.763755
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.827,
+        "flagged_at": 1786917298.791344
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.84,
+        "flagged_at": 1786917298.8190527
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.755,
+        "flagged_at": 1786917298.846487
+      }
+    ]
+  },
+  "beer bottle condensation": {
+    "prompt": "beer bottle condensation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.825,
+        "flagged_at": 1786917298.8745732
+      }
+    ]
+  },
+  "people laughing at a table": {
+    "prompt": "people laughing at a table",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1786917298.9027553
       }
     ]
   }
