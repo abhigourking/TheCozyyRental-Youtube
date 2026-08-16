@@ -25854,5 +25854,104 @@
         "flagged_at": 1786843253.4599035
       }
     ]
+  },
+  "thin fish slices": {
+    "prompt": "thin fish slices",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.82,
+        "flagged_at": 1786845554.2472346
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.793,
+        "flagged_at": 1786845554.2736337
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.829,
+        "flagged_at": 1786845554.2996144
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.791,
+        "flagged_at": 1786845554.3255694
+      }
+    ]
+  },
+  "timer counting down": {
+    "prompt": "timer counting down",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.809,
+        "flagged_at": 1786845554.351841
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.792,
+        "flagged_at": 1786845554.3782778
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.812,
+        "flagged_at": 1786845554.4047
+      }
+    ]
+  },
+  "corn kernels popping": {
+    "prompt": "corn kernels popping",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1786845554.4307866
+      }
+    ]
+  },
+  "person scooping ceviche": {
+    "prompt": "person scooping ceviche",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.478,
+        "flagged_at": 1786845554.4575677
+      }
+    ]
   }
 }

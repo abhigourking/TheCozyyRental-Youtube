@@ -28463,6 +28463,72 @@
         }
       ],
       "ran_at": 1786843252.771908
+    },
+    {
+      "run_number": "1162",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31920002575",
+      "topic": "A must-try traditional dish from Peru and the story behind it",
+      "category": "food",
+      "country": "Peru",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "thin fish slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.793,
+          "prompt": "thin fish slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "thin fish slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "thin fish slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.809,
+          "prompt": "timer counting down"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "timer counting down"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "timer counting down"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "corn kernels popping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.478,
+          "prompt": "person scooping ceviche"
+        }
+      ],
+      "ran_at": 1786845554.2179942
     }
   ]
 }
