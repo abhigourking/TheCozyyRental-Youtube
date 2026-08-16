@@ -30530,6 +30530,48 @@
         }
       ],
       "ran_at": 1786921496.494505
+    },
+    {
+      "run_number": "1210",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31978826118",
+      "topic": "A viral travel spot in Indonesia that's all over social media right now",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 17,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.788,
+          "prompt": "travel vlog intro"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "travel vlog intro"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.731,
+          "prompt": "travel montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.591,
+          "prompt": "travel montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.382,
+          "prompt": "travel montage"
+        }
+      ],
+      "ran_at": 1786923220.429419
     }
   ]
 }
