@@ -28720,6 +28720,48 @@
         }
       ],
       "ran_at": 1786853675.7816303
+    },
+    {
+      "run_number": "1169",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31926761859",
+      "topic": "A hidden gem destination in Egypt most tourists don't know about",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "fava beans dish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.545,
+          "prompt": "subscribe button click"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.776,
+          "prompt": "subscribe button click"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "subscribe button click"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "playlist preview"
+        }
+      ],
+      "ran_at": 1786855709.6084404
     }
   ]
 }

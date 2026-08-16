@@ -26230,5 +26230,67 @@
         "flagged_at": 1786853675.9901998
       }
     ]
+  },
+  "fava beans dish": {
+    "prompt": "fava beans dish",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.847,
+        "flagged_at": 1786855709.6504557
+      }
+    ]
+  },
+  "subscribe button click": {
+    "prompt": "subscribe button click",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.545,
+        "flagged_at": 1786855709.6765766
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.776,
+        "flagged_at": 1786855709.7020469
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.831,
+        "flagged_at": 1786855709.7271163
+      }
+    ]
+  },
+  "playlist preview": {
+    "prompt": "playlist preview",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.81,
+        "flagged_at": 1786855709.7522933
+      }
+    ]
   }
 }
