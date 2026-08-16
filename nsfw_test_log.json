@@ -29150,6 +29150,78 @@
         }
       ],
       "ran_at": 1786871588.477354
+    },
+    {
+      "run_number": "1180",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31939121637",
+      "topic": "A bucket-list experience you can only have in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 25,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "Nile river temples"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.35,
+          "prompt": "Nile river temples"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "Nile river temples"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.386,
+          "prompt": "baladi bread bakery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.851,
+          "prompt": "Sphinx night timelapse"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "Sphinx night timelapse"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "Sphinx night timelapse"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "Sphinx night timelapse"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.398,
+          "prompt": "travel montage highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.578,
+          "prompt": "travel montage highlights"
+        }
+      ],
+      "ran_at": 1786873686.1078694
     }
   ]
 }

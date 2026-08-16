@@ -26796,5 +26796,112 @@
         "flagged_at": 1786871588.6896203
       }
     ]
+  },
+  "nile river temples": {
+    "prompt": "Nile river temples",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.805,
+        "flagged_at": 1786873686.1531699
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.35,
+        "flagged_at": 1786873686.1799834
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.82,
+        "flagged_at": 1786873686.2061203
+      }
+    ]
+  },
+  "baladi bread bakery": {
+    "prompt": "baladi bread bakery",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.386,
+        "flagged_at": 1786873686.2314913
+      }
+    ]
+  },
+  "sphinx night timelapse": {
+    "prompt": "Sphinx night timelapse",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.851,
+        "flagged_at": 1786873686.256966
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.783,
+        "flagged_at": 1786873686.2825115
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.814,
+        "flagged_at": 1786873686.3081484
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.824,
+        "flagged_at": 1786873686.3339868
+      }
+    ]
+  },
+  "travel montage highlights": {
+    "prompt": "travel montage highlights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.398,
+        "flagged_at": 1786873686.3595955
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.578,
+        "flagged_at": 1786873686.385303
+      }
+    ]
   }
 }
