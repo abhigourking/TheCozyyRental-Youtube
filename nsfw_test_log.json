@@ -28977,6 +28977,17 @@
         }
       ],
       "ran_at": 1786863953.4560194
+    },
+    {
+      "run_number": "1176",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31933646645",
+      "topic": "A bucket-list experience you can only have in Mexico",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 12,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1786865456.8986886
     }
   ]
 }
