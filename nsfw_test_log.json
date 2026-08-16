@@ -29654,6 +29654,30 @@
         }
       ],
       "ran_at": 1786890166.7864614
+    },
+    {
+      "run_number": "1191",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31953264153",
+      "topic": "A viral travel spot in India that's all over social media right now",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 17,
+      "images_flagged": 2,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.827,
+          "prompt": "vibrant street signs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.585,
+          "prompt": "steaming cup of tea"
+        }
+      ],
+      "ran_at": 1786891902.2288933
     }
   ]
 }

@@ -27538,5 +27538,37 @@
         "flagged_at": 1786890166.8161771
       }
     ]
+  },
+  "vibrant street signs": {
+    "prompt": "vibrant street signs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.827,
+        "flagged_at": 1786891902.2720068
+      }
+    ]
+  },
+  "steaming cup of tea": {
+    "prompt": "steaming cup of tea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in India that's all over social media right now",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.585,
+        "flagged_at": 1786891902.2992647
+      }
+    ]
   }
 }
