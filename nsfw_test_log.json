@@ -30224,6 +30224,66 @@
         }
       ],
       "ran_at": 1786910750.2395198
+    },
+    {
+      "run_number": "1204",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31970276789",
+      "topic": "A bucket-list experience you can only have in Brazil",
+      "category": "travel",
+      "country": "Brazil",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.736,
+          "prompt": "clear ocean surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "a\u00e7a\u00ed bowl closeup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.743,
+          "prompt": "hand picking fruit"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.793,
+          "prompt": "hand picking fruit"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "samba band performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "samba band performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.804,
+          "prompt": "samba band performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "samba band performance"
+        }
+      ],
+      "ran_at": 1786912900.5996935
     }
   ]
 }
