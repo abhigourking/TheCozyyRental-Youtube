@@ -26341,7 +26341,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 1,
+    "times_flagged": 2,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -26352,6 +26352,13 @@
         "country": "Greece",
         "confidence": 0.734,
         "flagged_at": 1786858125.7084913
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.677,
+        "flagged_at": 1786888352.9918509
       }
     ]
   },
@@ -27420,6 +27427,99 @@
         "country": "Turkey",
         "confidence": 0.76,
         "flagged_at": 1786886176.3940384
+      }
+    ]
+  },
+  "plate of cochinita pibil": {
+    "prompt": "plate of cochinita pibil",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.482,
+        "flagged_at": 1786888352.782944
+      }
+    ]
+  },
+  "sauce being drizzled": {
+    "prompt": "sauce being drizzled",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.812,
+        "flagged_at": 1786888352.809603
+      }
+    ]
+  },
+  "quick montage of mexican sites": {
+    "prompt": "quick montage of Mexican sites",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.863,
+        "flagged_at": 1786888352.8360806
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.745,
+        "flagged_at": 1786888352.8619993
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.814,
+        "flagged_at": 1786888352.8880086
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.704,
+        "flagged_at": 1786888352.913902
+      }
+    ]
+  },
+  "logo animation": {
+    "prompt": "logo animation",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.802,
+        "flagged_at": 1786888352.9398582
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.46,
+        "flagged_at": 1786888352.9658093
       }
     ]
   }

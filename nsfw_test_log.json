@@ -29570,6 +29570,72 @@
         }
       ],
       "ran_at": 1786886176.2469988
+    },
+    {
+      "run_number": "1189",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31950052861",
+      "topic": "The most breathtaking place to visit in Mexico",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.482,
+          "prompt": "plate of cochinita pibil"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "sauce being drizzled"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.863,
+          "prompt": "quick montage of Mexican sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "quick montage of Mexican sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "quick montage of Mexican sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.704,
+          "prompt": "quick montage of Mexican sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "logo animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.46,
+          "prompt": "logo animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.677,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1786888352.7526515
     }
   ]
 }
