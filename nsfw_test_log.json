@@ -28917,6 +28917,66 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786861781.072279
+    },
+    {
+      "run_number": "1174",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31932151667",
+      "topic": "A popular food market or food street worth visiting in Egypt",
+      "category": "food",
+      "country": "Egypt",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.49,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "tabla drums performance"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.751,
+          "prompt": "tabla drums performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "tabla drums performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "happy viewer reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.738,
+          "prompt": "happy viewer reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.787,
+          "prompt": "happy viewer reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.755,
+          "prompt": "happy viewer reaction"
+        }
+      ],
+      "ran_at": 1786863953.4560194
     }
   ]
 }
