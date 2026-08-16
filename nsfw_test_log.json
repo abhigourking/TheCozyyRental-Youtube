@@ -29780,6 +29780,54 @@
         }
       ],
       "ran_at": 1786894478.7917466
+    },
+    {
+      "run_number": "1195",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31956807118",
+      "topic": "The most breathtaking place to visit in Italy",
+      "category": "travel",
+      "country": "Italy",
+      "images_checked": 23,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "turquoise sea waves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.767,
+          "prompt": "turquoise sea waves"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.788,
+          "prompt": "lemon zest garnish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "lemon zest garnish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "lemon zest garnish"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "lemon zest garnish"
+        }
+      ],
+      "ran_at": 1786896477.5475972
     }
   ]
 }

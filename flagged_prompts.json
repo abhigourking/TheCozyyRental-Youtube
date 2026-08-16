@@ -27698,5 +27698,65 @@
         "flagged_at": 1786894479.330025
       }
     ]
+  },
+  "turquoise sea waves": {
+    "prompt": "turquoise sea waves",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.782,
+        "flagged_at": 1786896477.5798237
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.767,
+        "flagged_at": 1786896477.6087935
+      }
+    ]
+  },
+  "lemon zest garnish": {
+    "prompt": "lemon zest garnish",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.788,
+        "flagged_at": 1786896477.6374807
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.847,
+        "flagged_at": 1786896477.6654203
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.847,
+        "flagged_at": 1786896477.6938376
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.765,
+        "flagged_at": 1786896477.722
+      }
+    ]
   }
 }
