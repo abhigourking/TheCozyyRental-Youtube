@@ -25953,5 +25953,44 @@
         "flagged_at": 1786845554.4575677
       }
     ]
+  },
+  "kyoto arashiyama street": {
+    "prompt": "Kyoto Arashiyama street",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.783,
+        "flagged_at": 1786847414.3184724
+      }
+    ]
+  },
+  "people enjoying dessert": {
+    "prompt": "people enjoying dessert",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.678,
+        "flagged_at": 1786847414.344404
+      },
+      {
+        "topic": "A viral travel spot in Japan that's all over social media right now",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.64,
+        "flagged_at": 1786847414.3871362
+      }
+    ]
   }
 }

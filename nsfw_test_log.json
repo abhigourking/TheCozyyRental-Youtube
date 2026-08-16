@@ -28529,6 +28529,36 @@
         }
       ],
       "ran_at": 1786845554.2179942
+    },
+    {
+      "run_number": "1164",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31921443122",
+      "topic": "A viral travel spot in Japan that's all over social media right now",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 18,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "Kyoto Arashiyama street"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.678,
+          "prompt": "people enjoying dessert"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.64,
+          "prompt": "people enjoying dessert"
+        }
+      ],
+      "ran_at": 1786847414.2893147
     }
   ]
 }
