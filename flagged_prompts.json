@@ -26572,5 +26572,103 @@
         "flagged_at": 1786863953.6718562
       }
     ]
+  },
+  "glacier cracking": {
+    "prompt": "glacier cracking",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.673,
+        "flagged_at": 1786867535.4909487
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.707,
+        "flagged_at": 1786867535.518166
+      }
+    ]
+  },
+  "water splash from glacier": {
+    "prompt": "water splash from glacier",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.706,
+        "flagged_at": 1786867535.5452807
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.835,
+        "flagged_at": 1786867535.5712755
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.752,
+        "flagged_at": 1786867535.5971603
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.813,
+        "flagged_at": 1786867535.623131
+      }
+    ]
+  },
+  "blue glacier surface": {
+    "prompt": "blue glacier surface",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.815,
+        "flagged_at": 1786867535.649374
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.778,
+        "flagged_at": 1786867535.6754675
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.888,
+        "flagged_at": 1786867535.7017496
+      },
+      {
+        "topic": "The most breathtaking place to visit in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.806,
+        "flagged_at": 1786867535.7279181
+      }
+    ]
   }
 }

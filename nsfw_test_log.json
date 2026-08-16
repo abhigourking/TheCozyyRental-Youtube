@@ -28988,6 +28988,78 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1786865456.8986886
+    },
+    {
+      "run_number": "1177",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31934721825",
+      "topic": "The most breathtaking place to visit in Argentina",
+      "category": "travel",
+      "country": "Argentina",
+      "images_checked": 25,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.673,
+          "prompt": "glacier cracking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.707,
+          "prompt": "glacier cracking"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.706,
+          "prompt": "water splash from glacier"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.835,
+          "prompt": "water splash from glacier"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.752,
+          "prompt": "water splash from glacier"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "water splash from glacier"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.815,
+          "prompt": "blue glacier surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "blue glacier surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.888,
+          "prompt": "blue glacier surface"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "blue glacier surface"
+        }
+      ],
+      "ran_at": 1786867535.4445844
     }
   ]
 }
