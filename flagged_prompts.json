@@ -26138,5 +26138,97 @@
         "flagged_at": 1786851575.3153577
       }
     ]
+  },
+  "cardamom pods": {
+    "prompt": "cardamom pods",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.759,
+        "flagged_at": 1786853675.8115249
+      }
+    ]
+  },
+  "caramelized onions sizzling": {
+    "prompt": "caramelized onions sizzling",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.844,
+        "flagged_at": 1786853675.8377025
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.778,
+        "flagged_at": 1786853675.86366
+      }
+    ]
+  },
+  "smoke swirling": {
+    "prompt": "smoke swirling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.765,
+        "flagged_at": 1786853675.889023
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.802,
+        "flagged_at": 1786853675.9144402
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.819,
+        "flagged_at": 1786853675.9395745
+      },
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.634,
+        "flagged_at": 1786853675.9648948
+      }
+    ]
+  },
+  "lemon being squeezed": {
+    "prompt": "lemon being squeezed",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from India and the story behind it",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.704,
+        "flagged_at": 1786853675.9901998
+      }
+    ]
   }
 }

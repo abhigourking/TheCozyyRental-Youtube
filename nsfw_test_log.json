@@ -28660,6 +28660,66 @@
         }
       ],
       "ran_at": 1786851574.9735835
+    },
+    {
+      "run_number": "1167",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31925361508",
+      "topic": "A must-try traditional dish from India and the story behind it",
+      "category": "food",
+      "country": "India",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.759,
+          "prompt": "cardamom pods"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.844,
+          "prompt": "caramelized onions sizzling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "caramelized onions sizzling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "smoke swirling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "smoke swirling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.819,
+          "prompt": "smoke swirling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.634,
+          "prompt": "smoke swirling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.704,
+          "prompt": "lemon being squeezed"
+        }
+      ],
+      "ran_at": 1786853675.7816303
     }
   ]
 }
