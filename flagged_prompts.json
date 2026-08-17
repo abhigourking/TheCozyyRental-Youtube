@@ -31124,5 +31124,88 @@
         "flagged_at": 1786993503.0604975
       }
     ]
+  },
+  "pasta being tossed": {
+    "prompt": "pasta being tossed",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.309,
+        "flagged_at": 1786995502.5197952
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.82,
+        "flagged_at": 1786995502.5502958
+      }
+    ]
+  },
+  "golden fried onions falling": {
+    "prompt": "golden fried onions falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.749,
+        "flagged_at": 1786995502.5807772
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.838,
+        "flagged_at": 1786995502.610844
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.74,
+        "flagged_at": 1786995502.6408546
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.783,
+        "flagged_at": 1786995502.67063
+      }
+    ]
+  },
+  "vinegar being drizzled": {
+    "prompt": "vinegar being drizzled",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.696,
+        "flagged_at": 1786995502.700892
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.797,
+        "flagged_at": 1786995502.731055
+      }
+    ]
   }
 }

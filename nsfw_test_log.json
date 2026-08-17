@@ -32354,6 +32354,66 @@
         }
       ],
       "ran_at": 1786993502.903221
+    },
+    {
+      "run_number": "1250",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32059762747",
+      "topic": "A comfort food from Egypt that's become an internet obsession",
+      "category": "food",
+      "country": "Egypt",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.309,
+          "prompt": "pasta being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "pasta being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.749,
+          "prompt": "golden fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "golden fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.74,
+          "prompt": "golden fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "golden fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.696,
+          "prompt": "vinegar being drizzled"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "vinegar being drizzled"
+        }
+      ],
+      "ran_at": 1786995502.4864256
     }
   ]
 }
