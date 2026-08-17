@@ -31071,5 +31071,58 @@
         "flagged_at": 1786991495.7819784
       }
     ]
+  },
+  "honey dripping spoon": {
+    "prompt": "honey dripping spoon",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.82,
+        "flagged_at": 1786993502.937339
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.829,
+        "flagged_at": 1786993502.968802
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.809,
+        "flagged_at": 1786993502.9993498
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.835,
+        "flagged_at": 1786993503.0298426
+      }
+    ]
+  },
+  "text overlay call to action": {
+    "prompt": "text overlay call to action",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.816,
+        "flagged_at": 1786993503.0604975
+      }
+    ]
   }
 }

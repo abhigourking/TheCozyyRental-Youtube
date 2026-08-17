@@ -32312,6 +32312,48 @@
         }
       ],
       "ran_at": 1786991495.7077343
+    },
+    {
+      "run_number": "1248",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32056636259",
+      "topic": "A hidden gem destination in Portugal most tourists don't know about",
+      "category": "travel",
+      "country": "Portugal",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "honey dripping spoon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "honey dripping spoon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.809,
+          "prompt": "honey dripping spoon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.835,
+          "prompt": "honey dripping spoon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "text overlay call to action"
+        }
+      ],
+      "ran_at": 1786993502.903221
     }
   ]
 }
