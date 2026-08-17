@@ -30006,5 +30006,83 @@
         "flagged_at": 1786962230.535526
       }
     ]
+  },
+  "hand adding herbs": {
+    "prompt": "hand adding herbs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.839,
+        "flagged_at": 1786964285.0857928
+      }
+    ]
+  },
+  "golden mango slices": {
+    "prompt": "golden mango slices",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.78,
+        "flagged_at": 1786964285.1173239
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.873,
+        "flagged_at": 1786964285.148899
+      }
+    ]
+  },
+  "comment box animation": {
+    "prompt": "comment box animation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.85,
+        "flagged_at": 1786964285.1801143
+      }
+    ]
+  },
+  "follow button pop": {
+    "prompt": "follow button pop",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.846,
+        "flagged_at": 1786964285.210565
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.745,
+        "flagged_at": 1786964285.241126
+      }
+    ]
   }
 }

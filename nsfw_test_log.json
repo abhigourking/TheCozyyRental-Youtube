@@ -31532,6 +31532,54 @@
         }
       ],
       "ran_at": 1786962230.202375
+    },
+    {
+      "run_number": "1234",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32021146419",
+      "topic": "A popular food market or food street worth visiting in Vietnam",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "hand adding herbs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.78,
+          "prompt": "golden mango slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.873,
+          "prompt": "golden mango slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.85,
+          "prompt": "comment box animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.846,
+          "prompt": "follow button pop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.745,
+          "prompt": "follow button pop"
+        }
+      ],
+      "ran_at": 1786964285.0515466
     }
   ]
 }
