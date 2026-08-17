@@ -30794,6 +30794,24 @@
         }
       ],
       "ran_at": 1786936760.4214473
+    },
+    {
+      "run_number": "1219",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31991582079",
+      "topic": "A popular food market or food street worth visiting in Greece",
+      "category": "food",
+      "country": "Greece",
+      "images_checked": 16,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.635,
+          "prompt": "hand writing comment"
+        }
+      ],
+      "ran_at": 1786938433.012515
     }
   ]
 }

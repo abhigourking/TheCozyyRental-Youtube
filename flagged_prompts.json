@@ -28963,5 +28963,21 @@
         "flagged_at": 1786936760.5077531
       }
     ]
+  },
+  "hand writing comment": {
+    "prompt": "hand writing comment",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.635,
+        "flagged_at": 1786938433.043529
+      }
+    ]
   }
 }
