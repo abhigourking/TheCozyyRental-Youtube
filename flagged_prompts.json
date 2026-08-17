@@ -26342,26 +26342,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 22,
+    "times_flagged": 24,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.845,
-        "flagged_at": 1786921496.6507058
-      },
-      {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.825,
-        "flagged_at": 1786921496.6758142
-      },
       {
         "topic": "The most viral street food trend in Argentina right now",
         "category": "food",
@@ -26382,6 +26368,20 @@
         "country": "Egypt",
         "confidence": 0.83,
         "flagged_at": 1786932910.7512453
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.703,
+        "flagged_at": 1786947031.1149437
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.691,
+        "flagged_at": 1786947031.1444871
       }
     ]
   },
@@ -29191,6 +29191,134 @@
         "country": "South Korea",
         "confidence": 0.774,
         "flagged_at": 1786944574.2354684
+      }
+    ]
+  },
+  "caramel drizzle": {
+    "prompt": "caramel drizzle",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.833,
+        "flagged_at": 1786947030.940456
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.734,
+        "flagged_at": 1786947030.9696367
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1786947030.9984345
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.832,
+        "flagged_at": 1786947031.0275145
+      }
+    ]
+  },
+  "cinnamon sugar sprinkle": {
+    "prompt": "cinnamon sugar sprinkle",
+    "times_flagged": 2,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED",
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.761,
+        "flagged_at": 1786947031.0566597
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.519,
+        "flagged_at": 1786947031.0857933
+      }
+    ]
+  },
+  "laughing tourists": {
+    "prompt": "laughing tourists",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.75,
+        "flagged_at": 1786947031.1742222
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.841,
+        "flagged_at": 1786947031.203827
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.849,
+        "flagged_at": 1786947031.23336
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.811,
+        "flagged_at": 1786947031.2625234
+      }
+    ]
+  },
+  "travel channel logo": {
+    "prompt": "travel channel logo",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.796,
+        "flagged_at": 1786947031.2917569
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.828,
+        "flagged_at": 1786947031.3205001
+      },
+      {
+        "topic": "The most viral street food trend in Portugal right now",
+        "category": "food",
+        "country": "Portugal",
+        "confidence": 0.858,
+        "flagged_at": 1786947031.3677917
       }
     ]
   }

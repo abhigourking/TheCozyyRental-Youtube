@@ -30980,6 +30980,108 @@
         }
       ],
       "ran_at": 1786944574.0614216
+    },
+    {
+      "run_number": "1224",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31998971504",
+      "topic": "The most viral street food trend in Portugal right now",
+      "category": "food",
+      "country": "Portugal",
+      "images_checked": 33,
+      "images_flagged": 15,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "caramel drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.734,
+          "prompt": "caramel drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "caramel drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "caramel drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "cinnamon sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.519,
+          "prompt": "cinnamon sugar sprinkle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.703,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.691,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.75,
+          "prompt": "laughing tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "laughing tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.849,
+          "prompt": "laughing tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "laughing tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "travel channel logo"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "travel channel logo"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.858,
+          "prompt": "travel channel logo"
+        }
+      ],
+      "ran_at": 1786947030.908104
     }
   ]
 }
