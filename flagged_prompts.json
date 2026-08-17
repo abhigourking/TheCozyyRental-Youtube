@@ -26342,34 +26342,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 30,
+    "times_flagged": 33,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.473,
-        "flagged_at": 1786968797.1418102
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.387,
-        "flagged_at": 1786968797.1733255
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.758,
-        "flagged_at": 1786968797.5864007
-      },
       {
         "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
@@ -26383,6 +26362,27 @@
         "country": "India",
         "confidence": 0.823,
         "flagged_at": 1786968797.6524959
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.505,
+        "flagged_at": 1786985164.172424
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.788,
+        "flagged_at": 1786985164.4648492
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.791,
+        "flagged_at": 1786985164.625957
       }
     ]
   },
@@ -30682,6 +30682,133 @@
         "country": "Philippines",
         "confidence": 0.509,
         "flagged_at": 1786982669.1344185
+      }
+    ]
+  },
+  "young people scrolling phone": {
+    "prompt": "young people scrolling phone",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.823,
+        "flagged_at": 1786985164.2021136
+      }
+    ]
+  },
+  "timer 3 minutes": {
+    "prompt": "timer 3 minutes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.542,
+        "flagged_at": 1786985164.231235
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.727,
+        "flagged_at": 1786985164.260168
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.771,
+        "flagged_at": 1786985164.2888288
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.782,
+        "flagged_at": 1786985164.3180158
+      }
+    ]
+  },
+  "cream bubbling": {
+    "prompt": "cream bubbling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.589,
+        "flagged_at": 1786985164.347319
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.812,
+        "flagged_at": 1786985164.3764565
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.826,
+        "flagged_at": 1786985164.4055467
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.849,
+        "flagged_at": 1786985164.4350746
+      }
+    ]
+  },
+  "people posting on phone": {
+    "prompt": "people posting on phone",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.783,
+        "flagged_at": 1786985164.493901
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.835,
+        "flagged_at": 1786985164.5380573
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.809,
+        "flagged_at": 1786985164.567838
+      },
+      {
+        "topic": "A comfort food from Iceland that's become an internet obsession",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.806,
+        "flagged_at": 1786985164.596929
       }
     ]
   }
