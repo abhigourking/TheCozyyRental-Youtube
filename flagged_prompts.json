@@ -26342,20 +26342,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 36,
+    "times_flagged": 37,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.788,
-        "flagged_at": 1786985164.4648492
-      },
       {
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
@@ -26383,6 +26376,13 @@
         "country": "India",
         "confidence": 0.797,
         "flagged_at": 1786997710.3166535
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.688,
+        "flagged_at": 1787009856.7902014
       }
     ]
   },

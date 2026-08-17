@@ -32780,6 +32780,24 @@
         }
       ],
       "ran_at": 1787008040.0016036
+    },
+    {
+      "run_number": "1258",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32080141388",
+      "topic": "The most breathtaking place to visit in Thailand",
+      "category": "travel",
+      "country": "Thailand",
+      "images_checked": 19,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.688,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1787009856.756697
     }
   ]
 }
