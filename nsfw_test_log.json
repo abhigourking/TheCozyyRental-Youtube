@@ -32582,6 +32582,126 @@
         }
       ],
       "ran_at": 1787001932.2501106
+    },
+    {
+      "run_number": "1254",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32072327268",
+      "topic": "A must-try traditional dish from Iceland and the story behind it",
+      "category": "food",
+      "country": "Iceland",
+      "images_checked": 36,
+      "images_flagged": 18,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.313,
+          "prompt": "h\u00e1karl hanging racks"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "cheese aroma illustration"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "cheese aroma illustration"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.343,
+          "prompt": "cheese aroma illustration"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.485,
+          "prompt": "person tasting food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.319,
+          "prompt": "person tasting food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "tourist tasting reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "tourist tasting reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.742,
+          "prompt": "smiling faces"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.732,
+          "prompt": "fast cut montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.713,
+          "prompt": "fast cut montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "fast cut montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.853,
+          "prompt": "fast cut montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.849,
+          "prompt": "next food teaser"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "next food teaser"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "next food teaser"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.683,
+          "prompt": "next food teaser"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.689,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1787004498.646022
     }
   ]
 }
