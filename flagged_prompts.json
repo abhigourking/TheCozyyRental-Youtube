@@ -30607,5 +30607,82 @@
         "flagged_at": 1786978752.6542115
       }
     ]
+  },
+  "sunlight over water": {
+    "prompt": "sunlight over water",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.672,
+        "flagged_at": 1786982668.994823
+      },
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.82,
+        "flagged_at": 1786982669.0186603
+      },
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.847,
+        "flagged_at": 1786982669.042124
+      },
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.845,
+        "flagged_at": 1786982669.0652254
+      }
+    ]
+  },
+  "sunset horizon": {
+    "prompt": "sunset horizon",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.833,
+        "flagged_at": 1786982669.0883236
+      },
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.837,
+        "flagged_at": 1786982669.111272
+      }
+    ]
+  },
+  "people relaxing": {
+    "prompt": "people relaxing",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Philippines",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.509,
+        "flagged_at": 1786982669.1344185
+      }
+    ]
   }
 }

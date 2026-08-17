@@ -31970,6 +31970,60 @@
         }
       ],
       "ran_at": 1786978752.5018256
+    },
+    {
+      "run_number": "1243",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32043238500",
+      "topic": "The most breathtaking place to visit in Philippines",
+      "category": "travel",
+      "country": "Philippines",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.672,
+          "prompt": "sunlight over water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "sunlight over water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.847,
+          "prompt": "sunlight over water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.845,
+          "prompt": "sunlight over water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "sunset horizon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "sunset horizon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.509,
+          "prompt": "people relaxing"
+        }
+      ],
+      "ran_at": 1786982668.9684954
     }
   ]
 }
