@@ -32540,6 +32540,48 @@
         }
       ],
       "ran_at": 1786999891.0557995
+    },
+    {
+      "run_number": "1253",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32069372031",
+      "topic": "A popular food market or food street worth visiting in Mexico",
+      "category": "food",
+      "country": "Mexico",
+      "images_checked": 20,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.752,
+          "prompt": "neon signs street"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "Mexico City skyline night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "Mexico City skyline night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "Mexico City skyline night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "people cheering market"
+        }
+      ],
+      "ran_at": 1787001932.2501106
     }
   ]
 }

@@ -31385,5 +31385,67 @@
         "flagged_at": 1786999891.3048964
       }
     ]
+  },
+  "neon signs street": {
+    "prompt": "neon signs street",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.752,
+        "flagged_at": 1787001932.2756832
+      }
+    ]
+  },
+  "mexico city skyline night": {
+    "prompt": "Mexico City skyline night",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.841,
+        "flagged_at": 1787001932.2992787
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.814,
+        "flagged_at": 1787001932.3222964
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.84,
+        "flagged_at": 1787001932.3451426
+      }
+    ]
+  },
+  "people cheering market": {
+    "prompt": "people cheering market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.812,
+        "flagged_at": 1787001932.3679965
+      }
+    ]
   }
 }
