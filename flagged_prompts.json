@@ -26342,27 +26342,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 34,
+    "times_flagged": 36,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.823,
-        "flagged_at": 1786968797.6524959
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.505,
-        "flagged_at": 1786985164.172424
-      },
       {
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
@@ -26383,6 +26369,20 @@
         "country": "India",
         "confidence": 0.477,
         "flagged_at": 1786989662.6998484
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.444,
+        "flagged_at": 1786997710.2858179
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.797,
+        "flagged_at": 1786997710.3166535
       }
     ]
   },
@@ -31205,6 +31205,91 @@
         "country": "Egypt",
         "confidence": 0.797,
         "flagged_at": 1786995502.731055
+      }
+    ]
+  },
+  "busy indian street market": {
+    "prompt": "busy Indian street market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.825,
+        "flagged_at": 1786997710.068879
+      }
+    ]
+  },
+  "hand holding rolled snack": {
+    "prompt": "hand holding rolled snack",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.566,
+        "flagged_at": 1786997710.1002696
+      }
+    ]
+  },
+  "spices being added": {
+    "prompt": "spices being added",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.754,
+        "flagged_at": 1786997710.1313224
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.845,
+        "flagged_at": 1786997710.1622117
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.764,
+        "flagged_at": 1786997710.1931372
+      },
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.84,
+        "flagged_at": 1786997710.224027
+      }
+    ]
+  },
+  "mumbai street vendor": {
+    "prompt": "Mumbai street vendor",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.761,
+        "flagged_at": 1786997710.255017
       }
     ]
   }
