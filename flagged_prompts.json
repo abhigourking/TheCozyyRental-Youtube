@@ -29653,5 +29653,21 @@
         "flagged_at": 1786955457.3235269
       }
     ]
+  },
+  "surprised traveler reaction": {
+    "prompt": "surprised traveler reaction",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.705,
+        "flagged_at": 1786957283.7788227
+      }
+    ]
   }
 }

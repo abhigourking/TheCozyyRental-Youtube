@@ -31304,6 +31304,24 @@
         }
       ],
       "ran_at": 1786955457.1390507
+    },
+    {
+      "run_number": "1230",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32011919575",
+      "topic": "A hidden gem destination in Japan most tourists don't know about",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 19,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.705,
+          "prompt": "surprised traveler reaction"
+        }
+      ],
+      "ran_at": 1786957283.7456985
     }
   ]
 }
