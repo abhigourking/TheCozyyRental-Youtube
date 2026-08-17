@@ -26342,46 +26342,47 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 25,
+    "times_flagged": 30,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
-      "BUTTOCKS_EXPOSED"
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
       {
-        "topic": "The most viral street food trend in Argentina right now",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Argentina",
-        "confidence": 0.786,
-        "flagged_at": 1786925408.9846673
+        "country": "India",
+        "confidence": 0.473,
+        "flagged_at": 1786968797.1418102
       },
       {
-        "topic": "A viral travel spot in Egypt that's all over social media right now",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.83,
-        "flagged_at": 1786932910.7512453
-      },
-      {
-        "topic": "The most viral street food trend in Portugal right now",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Portugal",
-        "confidence": 0.703,
-        "flagged_at": 1786947031.1149437
+        "country": "India",
+        "confidence": 0.387,
+        "flagged_at": 1786968797.1733255
       },
       {
-        "topic": "The most viral street food trend in Portugal right now",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Portugal",
-        "confidence": 0.691,
-        "flagged_at": 1786947031.1444871
+        "country": "India",
+        "confidence": 0.758,
+        "flagged_at": 1786968797.5864007
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.398,
-        "flagged_at": 1786949025.5982556
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.764,
+        "flagged_at": 1786968797.6194634
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.823,
+        "flagged_at": 1786968797.6524959
       }
     ]
   },
@@ -30135,6 +30136,110 @@
         "country": "Greece",
         "confidence": 0.538,
         "flagged_at": 1786966290.6258552
+      }
+    ]
+  },
+  "golden cheese edges": {
+    "prompt": "golden cheese edges",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.778,
+        "flagged_at": 1786968797.204227
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.84,
+        "flagged_at": 1786968797.2357068
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.814,
+        "flagged_at": 1786968797.2679694
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.883,
+        "flagged_at": 1786968797.3005648
+      }
+    ]
+  },
+  "cheese pull shot": {
+    "prompt": "cheese pull shot",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.765,
+        "flagged_at": 1786968797.3333647
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.854,
+        "flagged_at": 1786968797.3659902
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.574,
+        "flagged_at": 1786968797.397806
+      }
+    ]
+  },
+  "yak butter melting": {
+    "prompt": "yak butter melting",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.816,
+        "flagged_at": 1786968797.430633
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.785,
+        "flagged_at": 1786968797.4634676
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1786968797.4976802
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.766,
+        "flagged_at": 1786968797.552859
       }
     ]
   }
