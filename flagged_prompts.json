@@ -29367,5 +29367,144 @@
         "flagged_at": 1786949025.6834912
       }
     ]
+  },
+  "buttery baguette sliced": {
+    "prompt": "buttery baguette sliced",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.359,
+        "flagged_at": 1786951337.092545
+      }
+    ]
+  },
+  "garlic butter spreading": {
+    "prompt": "garlic butter spreading",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.785,
+        "flagged_at": 1786951337.1221857
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.844,
+        "flagged_at": 1786951337.151191
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.818,
+        "flagged_at": 1786951337.1802514
+      }
+    ]
+  },
+  "sweet soy drizzle": {
+    "prompt": "sweet soy drizzle",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.816,
+        "flagged_at": 1786951337.2094557
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.803,
+        "flagged_at": 1786951337.2385402
+      }
+    ]
+  },
+  "steam rising early morning": {
+    "prompt": "steam rising early morning",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.808,
+        "flagged_at": 1786951337.2677066
+      }
+    ]
+  },
+  "comment section screenshot": {
+    "prompt": "comment section screenshot",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.575,
+        "flagged_at": 1786951337.2971406
+      }
+    ]
+  },
+  "user posting photo": {
+    "prompt": "user posting photo",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1786951337.3264515
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.82,
+        "flagged_at": 1786951337.3557248
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.303,
+        "flagged_at": 1786951337.3850482
+      },
+      {
+        "topic": "A comfort food from Vietnam that's become an internet obsession",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.833,
+        "flagged_at": 1786951337.41455
+      }
+    ]
   }
 }

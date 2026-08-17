@@ -31124,6 +31124,90 @@
         }
       ],
       "ran_at": 1786949025.537304
+    },
+    {
+      "run_number": "1226",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32003820999",
+      "topic": "A comfort food from Vietnam that's become an internet obsession",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 30,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.359,
+          "prompt": "buttery baguette sliced"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.785,
+          "prompt": "garlic butter spreading"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.844,
+          "prompt": "garlic butter spreading"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "garlic butter spreading"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "sweet soy drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "sweet soy drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "steam rising early morning"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "comment section screenshot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "user posting photo"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "user posting photo"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.303,
+          "prompt": "user posting photo"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "user posting photo"
+        }
+      ],
+      "ran_at": 1786951337.0606859
     }
   ]
 }
