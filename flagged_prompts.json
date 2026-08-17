@@ -30811,5 +30811,51 @@
         "flagged_at": 1786985164.596929
       }
     ]
+  },
+  "hakata pork bone broth": {
+    "prompt": "Hakata pork bone broth",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.465,
+        "flagged_at": 1786987114.0329812
+      }
+    ]
+  },
+  "umami word animation": {
+    "prompt": "umami word animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.799,
+        "flagged_at": 1786987114.0652862
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.73,
+        "flagged_at": 1786987114.0978806
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.85,
+        "flagged_at": 1786987114.1295066
+      }
+    ]
   }
 }

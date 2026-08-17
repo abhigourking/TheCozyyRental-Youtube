@@ -32132,6 +32132,42 @@
         }
       ],
       "ran_at": 1786985164.1401606
+    },
+    {
+      "run_number": "1245",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32048400644",
+      "topic": "A must-try traditional dish from Japan and the story behind it",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 22,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.465,
+          "prompt": "Hakata pork bone broth"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.799,
+          "prompt": "umami word animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "umami word animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.85,
+          "prompt": "umami word animation"
+        }
+      ],
+      "ran_at": 1786987113.9965386
     }
   ]
 }
