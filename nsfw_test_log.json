@@ -31256,6 +31256,54 @@
         }
       ],
       "ran_at": 1786953401.126804
+    },
+    {
+      "run_number": "1229",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32009205763",
+      "topic": "A popular food market or food street worth visiting in South Korea",
+      "category": "food",
+      "country": "South Korea",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.376,
+          "prompt": "bindaetteok being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "bindaetteok being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "bindaetteok being fried"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "someone picking up roll"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.752,
+          "prompt": "steam rising from pan"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.728,
+          "prompt": "market night lights"
+        }
+      ],
+      "ran_at": 1786955457.1390507
     }
   ]
 }

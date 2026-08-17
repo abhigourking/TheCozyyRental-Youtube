@@ -29575,5 +29575,83 @@
         "flagged_at": 1786953401.311916
       }
     ]
+  },
+  "bindaetteok being fried": {
+    "prompt": "bindaetteok being fried",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.376,
+        "flagged_at": 1786955457.172163
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.824,
+        "flagged_at": 1786955457.2025232
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.803,
+        "flagged_at": 1786955457.2328439
+      }
+    ]
+  },
+  "someone picking up roll": {
+    "prompt": "someone picking up roll",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.801,
+        "flagged_at": 1786955457.262734
+      }
+    ]
+  },
+  "steam rising from pan": {
+    "prompt": "steam rising from pan",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.752,
+        "flagged_at": 1786955457.2931352
+      }
+    ]
+  },
+  "market night lights": {
+    "prompt": "market night lights",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in South Korea",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.728,
+        "flagged_at": 1786955457.3235269
+      }
+    ]
   }
 }
