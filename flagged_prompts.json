@@ -28766,5 +28766,37 @@
         "flagged_at": 1786927119.2462928
       }
     ]
+  },
+  "sunset reflection on water": {
+    "prompt": "sunset reflection on water",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.72,
+        "flagged_at": 1786928991.7784464
+      }
+    ]
+  },
+  "hidden treasure icon": {
+    "prompt": "hidden treasure icon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.82,
+        "flagged_at": 1786928991.8078115
+      }
+    ]
   }
 }

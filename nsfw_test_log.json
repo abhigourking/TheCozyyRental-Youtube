@@ -30638,6 +30638,30 @@
         }
       ],
       "ran_at": 1786927119.1864133
+    },
+    {
+      "run_number": "1213",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31983334327",
+      "topic": "A viral travel spot in Spain that's all over social media right now",
+      "category": "travel",
+      "country": "Spain",
+      "images_checked": 20,
+      "images_flagged": 2,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.72,
+          "prompt": "sunset reflection on water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "hidden treasure icon"
+        }
+      ],
+      "ran_at": 1786928991.7467096
     }
   ]
 }
