@@ -490,18 +490,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 919,
+    "times_flagged": 920,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.761,
-        "flagged_at": 1786871588.6374676
-      },
       {
         "topic": "A comfort food from Mexico that's become an internet obsession",
         "category": "food",
@@ -529,6 +522,13 @@
         "country": "France",
         "confidence": 0.725,
         "flagged_at": 1786942646.2160437
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.834,
+        "flagged_at": 1786944574.0866616
       }
     ]
   },
@@ -29131,6 +29131,66 @@
         "country": "France",
         "confidence": 0.458,
         "flagged_at": 1786942646.2529843
+      }
+    ]
+  },
+  "secret garden blossoms": {
+    "prompt": "secret garden blossoms",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.802,
+        "flagged_at": 1786944574.12262
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.786,
+        "flagged_at": 1786944574.1455016
+      }
+    ]
+  },
+  "happy tourists": {
+    "prompt": "happy tourists",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.797,
+        "flagged_at": 1786944574.1680527
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.704,
+        "flagged_at": 1786944574.1905193
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.829,
+        "flagged_at": 1786944574.2129123
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.774,
+        "flagged_at": 1786944574.2354684
       }
     ]
   }

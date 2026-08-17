@@ -30926,6 +30926,60 @@
         }
       ],
       "ran_at": 1786942645.9396648
+    },
+    {
+      "run_number": "1223",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31997070889",
+      "topic": "A surprising fact about a famous tourist attraction in South Korea",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 21,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "secret garden blossoms"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "secret garden blossoms"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "happy tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.704,
+          "prompt": "happy tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "happy tourists"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "happy tourists"
+        }
+      ],
+      "ran_at": 1786944574.0614216
     }
   ]
 }
