@@ -29506,5 +29506,74 @@
         "flagged_at": 1786951337.41455
       }
     ]
+  },
+  "tsukiji market sunrise": {
+    "prompt": "Tsukiji market sunrise",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.805,
+        "flagged_at": 1786953401.1598246
+      }
+    ]
+  },
+  "various toppings being added": {
+    "prompt": "various toppings being added",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.867,
+        "flagged_at": 1786953401.1901877
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.784,
+        "flagged_at": 1786953401.2207909
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.768,
+        "flagged_at": 1786953401.2510304
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.842,
+        "flagged_at": 1786953401.281464
+      }
+    ]
+  },
+  "quick montage of markets": {
+    "prompt": "quick montage of markets",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.806,
+        "flagged_at": 1786953401.311916
+      }
+    ]
   }
 }

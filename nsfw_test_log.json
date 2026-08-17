@@ -31208,6 +31208,54 @@
         }
       ],
       "ran_at": 1786951337.0606859
+    },
+    {
+      "run_number": "1228",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32006623297",
+      "topic": "A popular food market or food street worth visiting in Japan",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "Tsukiji market sunrise"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.867,
+          "prompt": "various toppings being added"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "various toppings being added"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.768,
+          "prompt": "various toppings being added"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.842,
+          "prompt": "various toppings being added"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "quick montage of markets"
+        }
+      ],
+      "ran_at": 1786953401.126804
     }
   ]
 }
