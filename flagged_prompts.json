@@ -29874,5 +29874,137 @@
         "flagged_at": 1786959958.530868
       }
     ]
+  },
+  "jungle canopy aerial": {
+    "prompt": "jungle canopy aerial",
+    "times_flagged": 3,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.369,
+        "flagged_at": 1786962230.2360036
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.683,
+        "flagged_at": 1786962230.2662723
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.598,
+        "flagged_at": 1786962230.2964394
+      }
+    ]
+  },
+  "dense tropical forest": {
+    "prompt": "dense tropical forest",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.763,
+        "flagged_at": 1786962230.3264768
+      }
+    ]
+  },
+  "drone over jungle": {
+    "prompt": "drone over jungle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.607,
+        "flagged_at": 1786962230.3561351
+      }
+    ]
+  },
+  "sunset over lake": {
+    "prompt": "sunset over lake",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.648,
+        "flagged_at": 1786962230.38611
+      }
+    ]
+  },
+  "crocodile underwater view": {
+    "prompt": "crocodile underwater view",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.51,
+        "flagged_at": 1786962230.415958
+      }
+    ]
+  },
+  "collage of mexican icons": {
+    "prompt": "collage of Mexican icons",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.689,
+        "flagged_at": 1786962230.445538
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.809,
+        "flagged_at": 1786962230.4755487
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.622,
+        "flagged_at": 1786962230.5053012
+      },
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.781,
+        "flagged_at": 1786962230.535526
+      }
+    ]
   }
 }
