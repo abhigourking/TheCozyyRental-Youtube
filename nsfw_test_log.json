@@ -32762,6 +32762,24 @@
         }
       ],
       "ran_at": 1787006504.7466664
+    },
+    {
+      "run_number": "1257",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32078297437",
+      "topic": "The most breathtaking place to visit in Italy",
+      "category": "travel",
+      "country": "Italy",
+      "images_checked": 13,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.332,
+          "prompt": "gulls flying over sea"
+        }
+      ],
+      "ran_at": 1787008040.0016036
     }
   ]
 }

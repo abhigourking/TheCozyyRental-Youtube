@@ -31712,5 +31712,21 @@
         "flagged_at": 1787006505.0078173
       }
     ]
+  },
+  "gulls flying over sea": {
+    "prompt": "gulls flying over sea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.332,
+        "flagged_at": 1787008040.0346055
+      }
+    ]
   }
 }
