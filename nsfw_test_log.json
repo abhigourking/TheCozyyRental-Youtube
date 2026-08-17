@@ -30692,6 +30692,48 @@
         }
       ],
       "ran_at": 1786930898.6551023
+    },
+    {
+      "run_number": "1215",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31986453198",
+      "topic": "A viral travel spot in Egypt that's all over social media right now",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.787,
+          "prompt": "social media icons overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.703,
+          "prompt": "social media icons overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.733,
+          "prompt": "social media icons overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "social media icons overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1786932910.6351333
     }
   ]
 }
