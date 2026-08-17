@@ -18,6 +18,22 @@ name: Generate and Upload Shorts (self-chained, ~15 min gap after each run)
 # GitHub Actions outage). If the chain is healthy, this backstop firing
 # occasionally just means one extra video - harmless, not a duplicate
 # problem - because of the concurrency lock below.
+#
+# Nudity detector: back on the bundled 320n model (2026-08-17). This
+# pipeline briefly downloaded and used NudeNet's larger 640m model instead,
+# hoping for better accuracy after the strikes. A week of real
+# nsfw_test_log.json data instead showed a ~30% flag rate dominated
+# (~90%) by a single class, FEMALE_BREAST_EXPOSED, at high confidence
+# (0.4-0.85) on completely unrelated prompts ("spices being added",
+# "modern city skyline", "waterfall pool jump") - a pattern, not
+# borderline noise. NudeNet's own issue tracker (notAI-tech/NudeNet#150)
+# independently corroborates that 640m catches FEWER real nudes than 320n
+# at every confidence threshold in community benchmarks, so this isn't a
+# safety-for-noise tradeoff either way - 320n is strictly the safer,
+# better-tested choice. Switched back by simply no longer downloading
+# 640m.onnx or setting NUDENET_MODEL_PATH; generate_short.py's
+# _get_nude_detector() already falls back to the bundled default whenever
+# that env var isn't set.
 on:
   schedule:
     - cron: "23 */3 * * *"   # backstop only, off-peak minute
@@ -48,49 +64,6 @@ jobs:
 
       - name: Install Python deps
         run: pip install -r requirements.txt
-
-      - name: Cache NudeNet 640m model
-        id: nudenet_cache
-        uses: actions/cache@v4
-        with:
-          path: models/640m.onnx
-          # v2: bumped after a corrupt/truncated v1-cached download caused
-          # generate_short.py to fail-closed-flag every single image for
-          # an entire run (120/120) - NudeDetector's ONNX load blew up on
-          # the bad file, and since that happened inside the nudity check's
-          # fail-closed try/except, it silently looked identical to "every
-          # image really was nudity" instead of the technical failure it
-          # actually was. Bumping the key discards whatever's cached under
-          # v1 and forces a fresh, validated download below.
-          key: nudenet-640m-onnx-v2
-
-      - name: Download NudeNet 640m model
-        # Larger/more accurate nudity-detection model than the bundled
-        # default (320n) - not shipped in the pip package, so it's fetched
-        # once here and cached across runs (~100MB, cache avoids re-pulling
-        # it on every single run). If this download ever fails, the
-        # pipeline still runs fine - generate_short.py falls back to the
-        # bundled default model when NUDENET_MODEL_PATH isn't a real file.
-        if: steps.nudenet_cache.outputs.cache-hit != 'true'
-        run: |
-          mkdir -p models
-          curl -sfL -o models/640m.onnx \
-            https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
-          || echo "::warning::NudeNet 640m model download failed - pipeline will fall back to the bundled default model."
-
-          # Guard against a partial/corrupt download slipping through as a
-          # false success (curl can still exit 0 on some dropped-connection
-          # cases) - and, worse, getting cached that way for every run
-          # after this one. The real file is ~103.5MB; anything far
-          # smaller isn't usable. Delete it so generate_short.py's own
-          # fallback-to-default-model logic (see _get_nude_detector) kicks
-          # in cleanly instead of trying to load junk and fail-closed
-          # flagging every image in the run.
-          SIZE=$(stat -c%s models/640m.onnx 2>/dev/null || echo 0)
-          if [ "$SIZE" -lt 90000000 ]; then
-            echo "::warning::Downloaded 640m.onnx is only $SIZE bytes (expected ~103.5MB) - discarding it, pipeline will use the bundled default model instead."
-            rm -f models/640m.onnx
-          fi
 
       - name: Determine upload pause (Community Guidelines strike cool-down)
         # The channel got a 1-strike Community Guidelines restriction
@@ -182,7 +155,11 @@ jobs:
         if: steps.check_queue.outputs.ready != 'true'
         env:
           SKIP_UPLOAD: ${{ env.SKIP_UPLOAD }}
-          NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
+          # NUDENET_MODEL_PATH deliberately left unset - see "Nudity
+          # detector: back on the bundled 320n model" comment near the top
+          # of this file. generate_short.py's _get_nude_detector() already
+          # falls back cleanly to the bundled default model whenever this
+          # isn't a real file path.
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           # Optional fallback key from a SEPARATE Groq account (its own
           # independent daily token quota - Groq rate-limits per

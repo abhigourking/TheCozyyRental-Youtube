@@ -42,30 +42,15 @@ jobs:
           pip install -r requirements.txt
           pip install yt-dlp
 
-      - name: Cache NudeNet 640m model
-        # Same cache key as daily-short.yml - shares the cache across both
-        # workflows instead of re-downloading, and keeps this audit using
-        # the exact same detector as the live pipeline for consistency.
-        id: nudenet_cache
-        uses: actions/cache@v4
-        with:
-          path: models/640m.onnx
-          key: nudenet-640m-onnx-v2
-
-      - name: Download NudeNet 640m model
-        if: steps.nudenet_cache.outputs.cache-hit != 'true'
-        run: |
-          mkdir -p models
-          curl -sfL -o models/640m.onnx \
-            https://github.com/notAI-tech/NudeNet/releases/download/v3.4-weights/640m.onnx \
-          || echo "::warning::640m model download failed - falling back to the bundled default model."
-          SIZE=$(stat -c%s models/640m.onnx 2>/dev/null || echo 0)
-          if [ "$SIZE" -lt 90000000 ]; then
-            echo "::warning::Downloaded 640m.onnx is only $SIZE bytes - discarding, falling back to default model."
-            rm -f models/640m.onnx
-          fi
-
       - name: Run audit batch
+        # NUDENET_MODEL_PATH deliberately unset - back on the bundled 320n
+        # model (2026-08-17), same reasoning as daily-short.yml: real
+        # nsfw_test_log.json data showed 640m producing a systematic
+        # high-confidence false-flag pattern on one class, and NudeNet's
+        # own issue tracker (notAI-tech/NudeNet#150) independently found
+        # 640m catches fewer real nudes than 320n at every threshold. Using
+        # the same detector as the live pipeline also keeps this audit
+        # consistent with what actually gates uploads.
         id: run_audit
         env:
           DRY_RUN: ${{ inputs.dry_run }}
@@ -74,7 +59,6 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          NUDENET_MODEL_PATH: ${{ github.workspace }}/models/640m.onnx
         run: python audit_old_videos.py
 
       - name: Commit audit log
