@@ -26342,20 +26342,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 33,
+    "times_flagged": 34,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.764,
-        "flagged_at": 1786968797.6194634
-      },
       {
         "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
@@ -26383,6 +26376,13 @@
         "country": "Iceland",
         "confidence": 0.791,
         "flagged_at": 1786985164.625957
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.477,
+        "flagged_at": 1786989662.6998484
       }
     ]
   },
@@ -30855,6 +30855,165 @@
         "country": "Japan",
         "confidence": 0.85,
         "flagged_at": 1786987114.1295066
+      }
+    ]
+  },
+  "grilled chicken strips": {
+    "prompt": "grilled chicken strips",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.621,
+        "flagged_at": 1786989661.7880642
+      }
+    ]
+  },
+  "soft tortilla wrap": {
+    "prompt": "soft tortilla wrap",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.819,
+        "flagged_at": 1786989661.8120227
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.811,
+        "flagged_at": 1786989661.8353431
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.811,
+        "flagged_at": 1786989661.8581688
+      }
+    ]
+  },
+  "social media likes count": {
+    "prompt": "social media likes count",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.823,
+        "flagged_at": 1786989661.8810258
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.797,
+        "flagged_at": 1786989661.9038606
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.805,
+        "flagged_at": 1786989661.9269996
+      }
+    ]
+  },
+  "comment section scroll": {
+    "prompt": "comment section scroll",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.82,
+        "flagged_at": 1786989661.949899
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.338,
+        "flagged_at": 1786989661.9728115
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.744,
+        "flagged_at": 1786989662.1145928
+      }
+    ]
+  },
+  "various toppings displayed": {
+    "prompt": "various toppings displayed",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.791,
+        "flagged_at": 1786989662.138325
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.84,
+        "flagged_at": 1786989662.628858
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.838,
+        "flagged_at": 1786989662.6531062
+      },
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.391,
+        "flagged_at": 1786989662.6766775
+      }
+    ]
+  },
+  "share arrow graphic": {
+    "prompt": "share arrow graphic",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from India that's become an internet obsession",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.763,
+        "flagged_at": 1786989662.7378776
       }
     ]
   }
