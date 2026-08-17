@@ -490,18 +490,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 920,
+    "times_flagged": 921,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Mexico that's become an internet obsession",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.802,
-        "flagged_at": 1786884070.5657246
-      },
       {
         "topic": "A comfort food from Mexico that's become an internet obsession",
         "category": "food",
@@ -529,6 +522,13 @@
         "country": "South Korea",
         "confidence": 0.834,
         "flagged_at": 1786944574.0866616
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.409,
+        "flagged_at": 1786959958.5597866
       }
     ]
   },
@@ -29667,6 +29667,211 @@
         "country": "Japan",
         "confidence": 0.705,
         "flagged_at": 1786957283.7788227
+      }
+    ]
+  },
+  "banana leaf steam": {
+    "prompt": "banana leaf steam",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.824,
+        "flagged_at": 1786959957.9907665
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.781,
+        "flagged_at": 1786959958.020115
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1786959958.0493655
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.735,
+        "flagged_at": 1786959958.078599
+      }
+    ]
+  },
+  "banana leaves steaming": {
+    "prompt": "banana leaves steaming",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.441,
+        "flagged_at": 1786959958.1079044
+      }
+    ]
+  },
+  "vietnam street market": {
+    "prompt": "Vietnam street market",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.781,
+        "flagged_at": 1786959958.1369452
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.821,
+        "flagged_at": 1786959958.1657984
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.829,
+        "flagged_at": 1786959958.194561
+      }
+    ]
+  },
+  "lai chau highlands": {
+    "prompt": "Lai Chau highlands",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.819,
+        "flagged_at": 1786959958.2234256
+      }
+    ]
+  },
+  "coconut milk drizzle": {
+    "prompt": "coconut milk drizzle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.777,
+        "flagged_at": 1786959958.252098
+      }
+    ]
+  },
+  "hand tapping sesame": {
+    "prompt": "hand tapping sesame",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.606,
+        "flagged_at": 1786959958.2811162
+      }
+    ]
+  },
+  "lotus leaf texture": {
+    "prompt": "lotus leaf texture",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.843,
+        "flagged_at": 1786959958.3271816
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1786959958.3567677
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.865,
+        "flagged_at": 1786959958.3863928
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.845,
+        "flagged_at": 1786959958.4154341
+      }
+    ]
+  },
+  "antioxidant graphic overlay": {
+    "prompt": "antioxidant graphic overlay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.633,
+        "flagged_at": 1786959958.4445944
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.813,
+        "flagged_at": 1786959958.4733183
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.81,
+        "flagged_at": 1786959958.5020823
+      },
+      {
+        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.794,
+        "flagged_at": 1786959958.530868
       }
     ]
   }
