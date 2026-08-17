@@ -31629,5 +31629,88 @@
         "flagged_at": 1787004498.946041
       }
     ]
+  },
+  "rome street market": {
+    "prompt": "Rome street market",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.823,
+        "flagged_at": 1787006504.7816386
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.689,
+        "flagged_at": 1787006504.814536
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.794,
+        "flagged_at": 1787006504.8469071
+      }
+    ]
+  },
+  "lampredotto sandwich": {
+    "prompt": "lampredotto sandwich",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.8,
+        "flagged_at": 1787006504.8793795
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.817,
+        "flagged_at": 1787006504.9114773
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.828,
+        "flagged_at": 1787006504.9434237
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.75,
+        "flagged_at": 1787006504.9755225
+      }
+    ]
+  },
+  "italian food montage": {
+    "prompt": "Italian food montage",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.722,
+        "flagged_at": 1787006505.0078173
+      }
+    ]
   }
 }

@@ -32702,6 +32702,66 @@
         }
       ],
       "ran_at": 1787004498.646022
+    },
+    {
+      "run_number": "1256",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32075787059",
+      "topic": "A popular food market or food street worth visiting in Italy",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 23,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "Rome street market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.689,
+          "prompt": "Rome street market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "Rome street market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "lampredotto sandwich"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "lampredotto sandwich"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "lampredotto sandwich"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.75,
+          "prompt": "lampredotto sandwich"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.722,
+          "prompt": "Italian food montage"
+        }
+      ],
+      "ran_at": 1787006504.7466664
     }
   ]
 }
