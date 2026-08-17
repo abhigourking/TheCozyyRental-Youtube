@@ -31082,6 +31082,48 @@
         }
       ],
       "ran_at": 1786947030.908104
+    },
+    {
+      "run_number": "1225",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32001611970",
+      "topic": "A bucket-list experience you can only have in Indonesia",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.809,
+          "prompt": "audience clapping"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.398,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.491,
+          "prompt": "comment bubble pop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "comment bubble pop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "comment bubble pop"
+        }
+      ],
+      "ran_at": 1786949025.537304
     }
   ]
 }

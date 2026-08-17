@@ -26342,19 +26342,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 24,
+    "times_flagged": 25,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Argentina right now",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.732,
-        "flagged_at": 1786925408.9546814
-      },
       {
         "topic": "The most viral street food trend in Argentina right now",
         "category": "food",
@@ -26382,6 +26375,13 @@
         "country": "Portugal",
         "confidence": 0.691,
         "flagged_at": 1786947031.1444871
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.398,
+        "flagged_at": 1786949025.5982556
       }
     ]
   },
@@ -29319,6 +29319,52 @@
         "country": "Portugal",
         "confidence": 0.858,
         "flagged_at": 1786947031.3677917
+      }
+    ]
+  },
+  "audience clapping": {
+    "prompt": "audience clapping",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1786949025.5692077
+      }
+    ]
+  },
+  "comment bubble pop": {
+    "prompt": "comment bubble pop",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.491,
+        "flagged_at": 1786949025.626746
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.786,
+        "flagged_at": 1786949025.655001
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.807,
+        "flagged_at": 1786949025.6834912
       }
     ]
   }
