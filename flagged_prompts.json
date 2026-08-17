@@ -75,19 +75,12 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1123,
+    "times_flagged": 1124,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.357,
-        "flagged_at": 1786843253.533122
-      },
       {
         "topic": "A popular food market or food street worth visiting in France",
         "category": "food",
@@ -115,6 +108,13 @@
         "country": "Mexico",
         "confidence": 0.77,
         "flagged_at": 1786917298.9589946
+      },
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.763,
+        "flagged_at": 1786930898.687567
       }
     ]
   },
@@ -28796,6 +28796,38 @@
         "country": "Spain",
         "confidence": 0.82,
         "flagged_at": 1786928991.8078115
+      }
+    ]
+  },
+  "hand holding tortilla": {
+    "prompt": "hand holding tortilla",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.311,
+        "flagged_at": 1786930898.716341
+      }
+    ]
+  },
+  "tourist tasting taco": {
+    "prompt": "tourist tasting taco",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.524,
+        "flagged_at": 1786930898.7447515
       }
     ]
   }

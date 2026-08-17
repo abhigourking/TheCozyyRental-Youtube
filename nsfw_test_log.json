@@ -30662,6 +30662,36 @@
         }
       ],
       "ran_at": 1786928991.7467096
+    },
+    {
+      "run_number": "1214",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31984881108",
+      "topic": "The most viral street food trend in Spain right now",
+      "category": "food",
+      "country": "Spain",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.763,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.311,
+          "prompt": "hand holding tortilla"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.524,
+          "prompt": "tourist tasting taco"
+        }
+      ],
+      "ran_at": 1786930898.6551023
     }
   ]
 }
