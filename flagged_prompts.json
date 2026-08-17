@@ -28734,5 +28734,37 @@
         "flagged_at": 1786925409.0721943
       }
     ]
+  },
+  "caramel drizzle slow motion": {
+    "prompt": "caramel drizzle slow motion",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.824,
+        "flagged_at": 1786927119.2177308
+      }
+    ]
+  },
+  "steam rising from food": {
+    "prompt": "steam rising from food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Spain right now",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.837,
+        "flagged_at": 1786927119.2462928
+      }
+    ]
   }
 }

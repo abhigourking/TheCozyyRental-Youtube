@@ -30614,6 +30614,30 @@
         }
       ],
       "ran_at": 1786925408.9225812
+    },
+    {
+      "run_number": "1212",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31981972115",
+      "topic": "The most viral street food trend in Spain right now",
+      "category": "food",
+      "country": "Spain",
+      "images_checked": 17,
+      "images_flagged": 2,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "caramel drizzle slow motion"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "steam rising from food"
+        }
+      ],
+      "ran_at": 1786927119.1864133
     }
   ]
 }
