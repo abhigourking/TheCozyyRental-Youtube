@@ -27899,7 +27899,7 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 1,
+    "times_flagged": 2,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
@@ -27910,6 +27910,13 @@
         "country": "Egypt",
         "confidence": 0.351,
         "flagged_at": 1786900569.0669343
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.333,
+        "flagged_at": 1786970792.5145068
       }
     ]
   },
@@ -30240,6 +30247,61 @@
         "country": "India",
         "confidence": 0.766,
         "flagged_at": 1786968797.552859
+      }
+    ]
+  },
+  "people laughing outdoors": {
+    "prompt": "people laughing outdoors",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1786970792.3946655
+      },
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.831,
+        "flagged_at": 1786970792.4248555
+      }
+    ]
+  },
+  "pork cuts on cutting board": {
+    "prompt": "pork cuts on cutting board",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.406,
+        "flagged_at": 1786970792.4548256
+      }
+    ]
+  },
+  "old colonial map brazil": {
+    "prompt": "old colonial map Brazil",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Brazil and the story behind it",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.777,
+        "flagged_at": 1786970792.4847574
       }
     ]
   }

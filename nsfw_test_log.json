@@ -31730,6 +31730,48 @@
         }
       ],
       "ran_at": 1786968797.106997
+    },
+    {
+      "run_number": "1237",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32030018202",
+      "topic": "A must-try traditional dish from Brazil and the story behind it",
+      "category": "food",
+      "country": "Brazil",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "people laughing outdoors"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "people laughing outdoors"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.406,
+          "prompt": "pork cuts on cutting board"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.777,
+          "prompt": "old colonial map Brazil"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.333,
+          "prompt": "colorful abstract background"
+        }
+      ],
+      "ran_at": 1786970792.3628762
     }
   ]
 }
