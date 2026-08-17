@@ -31016,5 +31016,60 @@
         "flagged_at": 1786989662.7378776
       }
     ]
+  },
+  "delhi street market aerial": {
+    "prompt": "Delhi street market aerial",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.8,
+        "flagged_at": 1786991495.7276473
+      }
+    ]
+  },
+  "copper kettle chai": {
+    "prompt": "copper kettle chai",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.566,
+        "flagged_at": 1786991495.745858
+      }
+    ]
+  },
+  "quick montage of street foods": {
+    "prompt": "quick montage of street foods",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.748,
+        "flagged_at": 1786991495.7640643
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.795,
+        "flagged_at": 1786991495.7819784
+      }
+    ]
   }
 }

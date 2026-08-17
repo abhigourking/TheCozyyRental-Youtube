@@ -32276,6 +32276,42 @@
         }
       ],
       "ran_at": 1786989661.7619994
+    },
+    {
+      "run_number": "1247",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32054087856",
+      "topic": "A popular food market or food street worth visiting in India",
+      "category": "food",
+      "country": "India",
+      "images_checked": 19,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "Delhi street market aerial"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.566,
+          "prompt": "copper kettle chai"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.748,
+          "prompt": "quick montage of street foods"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.795,
+          "prompt": "quick montage of street foods"
+        }
+      ],
+      "ran_at": 1786991495.7077343
     }
   ]
 }
