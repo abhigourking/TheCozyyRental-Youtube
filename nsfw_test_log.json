@@ -31928,6 +31928,48 @@
         }
       ],
       "ran_at": 1786976734.1542873
+    },
+    {
+      "run_number": "1242",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32039865165",
+      "topic": "A viral travel spot in Egypt that's all over social media right now",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.768,
+          "prompt": "sunlight over dunes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.443,
+          "prompt": "sunlight over dunes"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "quick montage of Egyptian sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "quick montage of Egyptian sites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "engaging end screen"
+        }
+      ],
+      "ran_at": 1786978752.5018256
     }
   ]
 }

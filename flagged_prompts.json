@@ -30544,5 +30544,68 @@
         "flagged_at": 1786976734.4280415
       }
     ]
+  },
+  "sunlight over dunes": {
+    "prompt": "sunlight over dunes",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.768,
+        "flagged_at": 1786978752.5353072
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.443,
+        "flagged_at": 1786978752.5655437
+      }
+    ]
+  },
+  "quick montage of egyptian sites": {
+    "prompt": "quick montage of Egyptian sites",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.505,
+        "flagged_at": 1786978752.595189
+      },
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.782,
+        "flagged_at": 1786978752.6246686
+      }
+    ]
+  },
+  "engaging end screen": {
+    "prompt": "engaging end screen",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Egypt that's all over social media right now",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.82,
+        "flagged_at": 1786978752.6542115
+      }
+    ]
   }
 }
