@@ -30405,5 +30405,44 @@
         "flagged_at": 1786972926.2630365
       }
     ]
+  },
+  "close up fried potato patty": {
+    "prompt": "close up fried potato patty",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.543,
+        "flagged_at": 1786974696.1868086
+      }
+    ]
+  },
+  "bright fountain water": {
+    "prompt": "bright fountain water",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.717,
+        "flagged_at": 1786974696.216413
+      },
+      {
+        "topic": "The most viral street food trend in Peru right now",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.807,
+        "flagged_at": 1786974696.2450387
+      }
+    ]
   }
 }

@@ -31832,6 +31832,36 @@
         }
       ],
       "ran_at": 1786972926.024113
+    },
+    {
+      "run_number": "1240",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32035992840",
+      "topic": "The most viral street food trend in Peru right now",
+      "category": "food",
+      "country": "Peru",
+      "images_checked": 18,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.543,
+          "prompt": "close up fried potato patty"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.717,
+          "prompt": "bright fountain water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "bright fountain water"
+        }
+      ],
+      "ran_at": 1786974696.1541946
     }
   ]
 }
