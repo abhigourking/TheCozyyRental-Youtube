@@ -30878,6 +30878,54 @@
         }
       ],
       "ran_at": 1786940605.426862
+    },
+    {
+      "run_number": "1222",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31995183444",
+      "topic": "A bucket-list experience you can only have in France",
+      "category": "travel",
+      "country": "France",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.304,
+          "prompt": "vintage bike ride"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.481,
+          "prompt": "nice rooftop view"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.439,
+          "prompt": "nice rooftop view"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.725,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "French map pin highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.458,
+          "prompt": "French map pin highlights"
+        }
+      ],
+      "ran_at": 1786942645.9396648
     }
   ]
 }

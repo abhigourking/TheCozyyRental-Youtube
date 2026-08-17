@@ -490,18 +490,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 918,
+    "times_flagged": 919,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.559,
-        "flagged_at": 1786871588.611463
-      },
       {
         "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
@@ -529,6 +522,13 @@
         "country": "Greece",
         "confidence": 0.778,
         "flagged_at": 1786940605.634997
+      },
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.725,
+        "flagged_at": 1786942646.2160437
       }
     ]
   },
@@ -29069,6 +29069,68 @@
         "country": "Greece",
         "confidence": 0.789,
         "flagged_at": 1786940605.6933777
+      }
+    ]
+  },
+  "vintage bike ride": {
+    "prompt": "vintage bike ride",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.304,
+        "flagged_at": 1786942645.9610262
+      }
+    ]
+  },
+  "nice rooftop view": {
+    "prompt": "nice rooftop view",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.481,
+        "flagged_at": 1786942645.9805927
+      },
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.439,
+        "flagged_at": 1786942645.9994211
+      }
+    ]
+  },
+  "french map pin highlights": {
+    "prompt": "French map pin highlights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.828,
+        "flagged_at": 1786942646.2345567
+      },
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.458,
+        "flagged_at": 1786942646.2529843
       }
     ]
   }
