@@ -30572,6 +30572,48 @@
         }
       ],
       "ran_at": 1786923220.429419
+    },
+    {
+      "run_number": "1211",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31980173705",
+      "topic": "The most viral street food trend in Argentina right now",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.732,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.605,
+          "prompt": "bread crust close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "street food vibe"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.67,
+          "prompt": "montage of other foods"
+        }
+      ],
+      "ran_at": 1786925408.9225812
     }
   ]
 }

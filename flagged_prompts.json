@@ -26342,26 +26342,12 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 19,
+    "times_flagged": 21,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.761,
-        "flagged_at": 1786908670.346326
-      },
-      {
-        "topic": "A hidden gem destination in Argentina most tourists don't know about",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.828,
-        "flagged_at": 1786921496.600187
-      },
       {
         "topic": "A hidden gem destination in Argentina most tourists don't know about",
         "category": "travel",
@@ -26382,6 +26368,20 @@
         "country": "Argentina",
         "confidence": 0.825,
         "flagged_at": 1786921496.6758142
+      },
+      {
+        "topic": "The most viral street food trend in Argentina right now",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.732,
+        "flagged_at": 1786925408.9546814
+      },
+      {
+        "topic": "The most viral street food trend in Argentina right now",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.786,
+        "flagged_at": 1786925408.9846673
       }
     ]
   },
@@ -28684,6 +28684,54 @@
         "country": "Indonesia",
         "confidence": 0.382,
         "flagged_at": 1786923220.5943325
+      }
+    ]
+  },
+  "bread crust close up": {
+    "prompt": "bread crust close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Argentina right now",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.605,
+        "flagged_at": 1786925409.013907
+      }
+    ]
+  },
+  "street food vibe": {
+    "prompt": "street food vibe",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Argentina right now",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.806,
+        "flagged_at": 1786925409.0431316
+      }
+    ]
+  },
+  "montage of other foods": {
+    "prompt": "montage of other foods",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Argentina right now",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.67,
+        "flagged_at": 1786925409.0721943
       }
     ]
   }
