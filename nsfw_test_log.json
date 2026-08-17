@@ -30764,6 +30764,36 @@
         }
       ],
       "ran_at": 1786934841.08666
+    },
+    {
+      "run_number": "1218",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31989847426",
+      "topic": "The most breathtaking place to visit in Mexico",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.743,
+          "prompt": "aerial jungle canopy"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.631,
+          "prompt": "panoramic coastline view"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "quick montage of travel clips"
+        }
+      ],
+      "ran_at": 1786936760.4214473
     }
   ]
 }
