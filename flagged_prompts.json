@@ -30444,5 +30444,105 @@
         "flagged_at": 1786974696.2450387
       }
     ]
+  },
+  "water disappearing into ground": {
+    "prompt": "water disappearing into ground",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.66,
+        "flagged_at": 1786976734.1861002
+      }
+    ]
+  },
+  "dry field landscape": {
+    "prompt": "dry field landscape",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.306,
+        "flagged_at": 1786976734.217297
+      }
+    ]
+  },
+  "glowing algae water night": {
+    "prompt": "glowing algae water night",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.715,
+        "flagged_at": 1786976734.2473128
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.812,
+        "flagged_at": 1786976734.2771842
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.709,
+        "flagged_at": 1786976734.3071797
+      }
+    ]
+  },
+  "comment bubble overlay": {
+    "prompt": "comment bubble overlay",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.707,
+        "flagged_at": 1786976734.3375726
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.826,
+        "flagged_at": 1786976734.3676033
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.791,
+        "flagged_at": 1786976734.3979552
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.67,
+        "flagged_at": 1786976734.4280415
+      }
+    ]
   }
 }

@@ -31862,6 +31862,72 @@
         }
       ],
       "ran_at": 1786974696.1541946
+    },
+    {
+      "run_number": "1241",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32037872926",
+      "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 24,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.66,
+          "prompt": "water disappearing into ground"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.306,
+          "prompt": "dry field landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.715,
+          "prompt": "glowing algae water night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "glowing algae water night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.709,
+          "prompt": "glowing algae water night"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.707,
+          "prompt": "comment bubble overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "comment bubble overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "comment bubble overlay"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.67,
+          "prompt": "comment bubble overlay"
+        }
+      ],
+      "ran_at": 1786976734.1542873
     }
   ]
 }
