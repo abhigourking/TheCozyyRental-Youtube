@@ -32480,6 +32480,66 @@
         }
       ],
       "ran_at": 1786997710.0353782
+    },
+    {
+      "run_number": "1252",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32066132133",
+      "topic": "A hidden gem destination in Thailand most tourists don't know about",
+      "category": "travel",
+      "country": "Thailand",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.507,
+          "prompt": "bamboo boat on river"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.651,
+          "prompt": "locals mango snack"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.419,
+          "prompt": "waterfall pool jump"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.479,
+          "prompt": "waterfall pool jump"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.658,
+          "prompt": "waterfall pool jump"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.712,
+          "prompt": "waterfall pool jump"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "night market lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "night market lights"
+        }
+      ],
+      "ran_at": 1786999891.0557995
     }
   ]
 }

@@ -31292,5 +31292,98 @@
         "flagged_at": 1786997710.255017
       }
     ]
+  },
+  "bamboo boat on river": {
+    "prompt": "bamboo boat on river",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.507,
+        "flagged_at": 1786999891.0901659
+      }
+    ]
+  },
+  "locals mango snack": {
+    "prompt": "locals mango snack",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.651,
+        "flagged_at": 1786999891.1215472
+      }
+    ]
+  },
+  "waterfall pool jump": {
+    "prompt": "waterfall pool jump",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.419,
+        "flagged_at": 1786999891.153016
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.479,
+        "flagged_at": 1786999891.1835654
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.658,
+        "flagged_at": 1786999891.2139137
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.712,
+        "flagged_at": 1786999891.2440996
+      }
+    ]
+  },
+  "night market lights": {
+    "prompt": "night market lights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.797,
+        "flagged_at": 1786999891.274363
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.806,
+        "flagged_at": 1786999891.3048964
+      }
+    ]
   }
 }
