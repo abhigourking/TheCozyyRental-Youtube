@@ -31580,6 +31580,48 @@
         }
       ],
       "ran_at": 1786964285.0515466
+    },
+    {
+      "run_number": "1235",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32023874975",
+      "topic": "A popular food market or food street worth visiting in Greece",
+      "category": "food",
+      "country": "Greece",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "baklava dripping honey"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.844,
+          "prompt": "baklava dripping honey"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.844,
+          "prompt": "baklava dripping honey"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.789,
+          "prompt": "baklava dripping honey"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "street vendor serving drinks"
+        }
+      ],
+      "ran_at": 1786966290.47708
     }
   ]
 }

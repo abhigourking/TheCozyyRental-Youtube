@@ -30084,5 +30084,58 @@
         "flagged_at": 1786964285.241126
       }
     ]
+  },
+  "baklava dripping honey": {
+    "prompt": "baklava dripping honey",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.825,
+        "flagged_at": 1786966290.509163
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.844,
+        "flagged_at": 1786966290.538746
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.844,
+        "flagged_at": 1786966290.568023
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.789,
+        "flagged_at": 1786966290.5969617
+      }
+    ]
+  },
+  "street vendor serving drinks": {
+    "prompt": "street vendor serving drinks",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Greece",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.538,
+        "flagged_at": 1786966290.6258552
+      }
+    ]
   }
 }
