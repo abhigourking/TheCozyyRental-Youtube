@@ -1899,14 +1899,78 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     record_performance_entry(video_id, category, logged_language, topic, country=country)
 
 
+def _recheck_queued_video(video_path):
+    """Re-run the CURRENT nudity detector over a queued video's actual
+    frames before it gets published, instead of just trusting that it was
+    clean at generation time.
+
+    Why this matters specifically for the queue: a video can sit as a
+    queued artifact for days before the catch-up path picks it up, and
+    the detector running today isn't guaranteed to be the same one that
+    checked it originally - e.g. this backlog was generated while the
+    pipeline was briefly using NudeNet's 640m model, which was then
+    reverted back to the bundled 320n model after a week of
+    nsfw_test_log.json data. Re-checking with whatever detector is live
+    right now (see _get_nude_detector) closes that gap instead of
+    blindly publishing something an earlier/different model happened to
+    wave through.
+
+    Fails closed: any error (ffmpeg, detector, missing frames) counts as
+    NOT safe, same philosophy as _is_flagged_nsfw() for freshly generated
+    images.
+    """
+    try:
+        with tempfile.TemporaryDirectory() as td:
+            td = Path(td)
+            frames_pattern = str(td / "frame_%04d.jpg")
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", str(video_path), "-vf", "fps=1/2", frames_pattern],
+                check=True, capture_output=True, text=True, timeout=120,
+            )
+            frames = sorted(td.glob("frame_*.jpg"))
+            if not frames:
+                print("    Re-check: no frames extracted - treating as unsafe (fail closed).", flush=True)
+                return False
+
+            detector = _get_nude_detector()
+            for frame in frames:
+                detections = detector.detect(str(frame))
+                for d in detections:
+                    if (d.get("class") in NUDITY_DETECTION_CLASSES
+                            and d.get("score", 0) >= NUDITY_DETECTION_THRESHOLD):
+                        print(f"    Re-check FLAGGED: {d['class']} ({d['score']:.3f}) in {frame.name} - "
+                              f"discarding this queued video, will NOT upload.", flush=True)
+                        return False
+            print(f"    Re-check passed: {len(frames)} frame(s) clean.", flush=True)
+            return True
+    except Exception as e:
+        print(f"    Re-check failed ({type(e).__name__}: {e}) - treating as unsafe (fail closed), "
+              f"will NOT upload.", flush=True)
+        return False
+
+
 def upload_queued_video(video_path, meta_path):
     """Catch-up path used by the workflow once SKIP_UPLOAD flips back off:
     uploads a video that was generated (and NudeNet-checked) during the
     strike cool-down but never published, using the metadata saved
     alongside it at generation time. Mirrors the tail end of run_once()'s
     normal upload path so it shows up in performance_log.json exactly like
-    a live-generated video would."""
+    a live-generated video would.
+
+    Re-checks the video against the CURRENT detector first (see
+    _recheck_queued_video) rather than trusting whatever detector was
+    live when it was generated - if that fails, this deliberately does
+    NOT raise: it logs and returns normally so the workflow step still
+    exits successfully, the consumed artifact still gets cleaned up (it's
+    unsafe either way, no reason to keep it around or retry it), and the
+    chain moves on to the next queued video/normal generation instead of
+    getting stuck retrying a video that will never pass."""
     meta = json.loads(Path(meta_path).read_text())
+    print(f"Re-checking queued video before upload: {meta['title']!r} (topic: {meta['topic']!r})", flush=True)
+    if not _recheck_queued_video(Path(video_path)):
+        print("Queued video did NOT pass re-check - skipping upload for this one.", flush=True)
+        return
+
     print(f"Uploading queued video: {meta['title']!r} (topic: {meta['topic']!r})", flush=True)
     video_id = upload_to_youtube(
         Path(video_path),
