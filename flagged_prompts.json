@@ -28867,5 +28867,53 @@
         "flagged_at": 1786932910.7326481
       }
     ]
+  },
+  "olive bowls on table": {
+    "prompt": "olive bowls on table",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.375,
+        "flagged_at": 1786934841.1183329
+      }
+    ]
+  },
+  "chocolate sauce pouring": {
+    "prompt": "chocolate sauce pouring",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.751,
+        "flagged_at": 1786934841.1473603
+      }
+    ]
+  },
+  "hand holding sliced fruit": {
+    "prompt": "hand holding sliced fruit",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Spain",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.804,
+        "flagged_at": 1786934841.176144
+      }
+    ]
   }
 }

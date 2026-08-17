@@ -30734,6 +30734,36 @@
         }
       ],
       "ran_at": 1786932910.6351333
+    },
+    {
+      "run_number": "1217",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31988178979",
+      "topic": "A popular food market or food street worth visiting in Spain",
+      "category": "food",
+      "country": "Spain",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "olive bowls on table"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.751,
+          "prompt": "chocolate sauce pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.804,
+          "prompt": "hand holding sliced fruit"
+        }
+      ],
+      "ran_at": 1786934841.08666
     }
   ]
 }
