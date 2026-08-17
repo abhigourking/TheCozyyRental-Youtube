@@ -30812,6 +30812,72 @@
         }
       ],
       "ran_at": 1786938433.012515
+    },
+    {
+      "run_number": "1220",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/31993070320",
+      "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+      "category": "food",
+      "country": "Greece",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "honey drizzling over food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.798,
+          "prompt": "honey drizzling over food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "honey drizzling over food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.809,
+          "prompt": "honey drizzling over food"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.698,
+          "prompt": "close up spice jars"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.341,
+          "prompt": "close up spice jars"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "wine glass being poured"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.789,
+          "prompt": "smiling tourist tasting"
+        }
+      ],
+      "ran_at": 1786940605.426862
     }
   ]
 }
