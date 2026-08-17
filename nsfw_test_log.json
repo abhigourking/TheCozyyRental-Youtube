@@ -31772,6 +31772,66 @@
         }
       ],
       "ran_at": 1786970792.3628762
+    },
+    {
+      "run_number": "1238",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32032836682",
+      "topic": "A popular food market or food street worth visiting in Brazil",
+      "category": "food",
+      "country": "Brazil",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.401,
+          "prompt": "cheese melt close up"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "market shade trees"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "forr\u00f3 dancers performance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.784,
+          "prompt": "neon market lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.549,
+          "prompt": "neon market lights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "comment overlay animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "comment overlay animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.827,
+          "prompt": "comment overlay animation"
+        }
+      ],
+      "ran_at": 1786972926.024113
     }
   ]
 }

@@ -30304,5 +30304,106 @@
         "flagged_at": 1786970792.4847574
       }
     ]
+  },
+  "cheese melt close up": {
+    "prompt": "cheese melt close up",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.401,
+        "flagged_at": 1786972926.0562484
+      }
+    ]
+  },
+  "market shade trees": {
+    "prompt": "market shade trees",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.828,
+        "flagged_at": 1786972926.0860708
+      }
+    ]
+  },
+  "forr\u00f3 dancers performance": {
+    "prompt": "forr\u00f3 dancers performance",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.756,
+        "flagged_at": 1786972926.1157928
+      }
+    ]
+  },
+  "neon market lights": {
+    "prompt": "neon market lights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.784,
+        "flagged_at": 1786972926.145224
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.549,
+        "flagged_at": 1786972926.1744661
+      }
+    ]
+  },
+  "comment overlay animation": {
+    "prompt": "comment overlay animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.814,
+        "flagged_at": 1786972926.2043848
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.82,
+        "flagged_at": 1786972926.2336984
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Brazil",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.827,
+        "flagged_at": 1786972926.2630365
+      }
+    ]
   }
 }
