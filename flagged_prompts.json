@@ -32252,5 +32252,60 @@
         "flagged_at": 1787048926.848892
       }
     ]
+  },
+  "travel influencer selfie": {
+    "prompt": "travel influencer selfie",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Peru that's all over social media right now",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.624,
+        "flagged_at": 1787050887.9498146
+      }
+    ]
+  },
+  "grilling anticuchos": {
+    "prompt": "grilling anticuchos",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Peru that's all over social media right now",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.73,
+        "flagged_at": 1787050887.974506
+      }
+    ]
+  },
+  "street vendor serving": {
+    "prompt": "street vendor serving",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Peru that's all over social media right now",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.846,
+        "flagged_at": 1787050888.0010655
+      },
+      {
+        "topic": "A viral travel spot in Peru that's all over social media right now",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.818,
+        "flagged_at": 1787050888.0248728
+      }
+    ]
   }
 }

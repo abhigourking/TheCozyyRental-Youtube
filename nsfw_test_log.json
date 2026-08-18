@@ -33206,6 +33206,42 @@
         }
       ],
       "ran_at": 1787048926.410601
+    },
+    {
+      "run_number": "1272",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32128190050",
+      "topic": "A viral travel spot in Peru that's all over social media right now",
+      "category": "travel",
+      "country": "Peru",
+      "images_checked": 22,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.624,
+          "prompt": "travel influencer selfie"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "grilling anticuchos"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.846,
+          "prompt": "street vendor serving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "street vendor serving"
+        }
+      ],
+      "ran_at": 1787050887.923025
     }
   ]
 }
