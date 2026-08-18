@@ -32884,5 +32884,53 @@
         "flagged_at": 1787067986.7797291
       }
     ]
+  },
+  "panoramic sea view": {
+    "prompt": "panoramic sea view",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.74,
+        "flagged_at": 1787091526.8781922
+      }
+    ]
+  },
+  "sunrise over water": {
+    "prompt": "sunrise over water",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.443,
+        "flagged_at": 1787091526.9114373
+      }
+    ]
+  },
+  "bakery street greece": {
+    "prompt": "bakery street Greece",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Greece that's all over social media right now",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.719,
+        "flagged_at": 1787091526.9444587
+      }
+    ]
   }
 }
