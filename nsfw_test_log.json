@@ -33752,6 +33752,42 @@
         }
       ],
       "ran_at": 1787093625.564194
+    },
+    {
+      "run_number": "1287",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32195912195",
+      "topic": "A bucket-list experience you can only have in Japan",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 22,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "speedometer train"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.416,
+          "prompt": "mount fuji sunrise aerial"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.461,
+          "prompt": "crowd crossing neon"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.302,
+          "prompt": "crowd crossing neon"
+        }
+      ],
+      "ran_at": 1787095584.1138744
     }
   ]
 }

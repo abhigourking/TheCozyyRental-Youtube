@@ -32980,5 +32980,60 @@
         "flagged_at": 1787093625.6489544
       }
     ]
+  },
+  "speedometer train": {
+    "prompt": "speedometer train",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.818,
+        "flagged_at": 1787095584.1488228
+      }
+    ]
+  },
+  "mount fuji sunrise aerial": {
+    "prompt": "mount fuji sunrise aerial",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.416,
+        "flagged_at": 1787095584.1822207
+      }
+    ]
+  },
+  "crowd crossing neon": {
+    "prompt": "crowd crossing neon",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.461,
+        "flagged_at": 1787095584.2154837
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.302,
+        "flagged_at": 1787095584.2481422
+      }
+    ]
   }
 }
