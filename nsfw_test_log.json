@@ -33098,6 +33098,48 @@
         }
       ],
       "ran_at": 1787044861.633101
+    },
+    {
+      "run_number": "1269",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32122453207",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "close up bakery window"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.674,
+          "prompt": "hand holding pastry"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "corn kernels falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.793,
+          "prompt": "morning sun over hills"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.661,
+          "prompt": "morning sun over hills"
+        }
+      ],
+      "ran_at": 1787046874.0492322
     }
   ]
 }

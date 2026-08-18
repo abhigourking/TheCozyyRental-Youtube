@@ -32089,5 +32089,76 @@
         "flagged_at": 1787043184.4596608
       }
     ]
+  },
+  "close up bakery window": {
+    "prompt": "close up bakery window",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.823,
+        "flagged_at": 1787046874.0837178
+      }
+    ]
+  },
+  "hand holding pastry": {
+    "prompt": "hand holding pastry",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.674,
+        "flagged_at": 1787046874.1160233
+      }
+    ]
+  },
+  "corn kernels falling": {
+    "prompt": "corn kernels falling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.801,
+        "flagged_at": 1787046874.1482785
+      }
+    ]
+  },
+  "morning sun over hills": {
+    "prompt": "morning sun over hills",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.793,
+        "flagged_at": 1787046874.1804314
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.661,
+        "flagged_at": 1787046874.2124825
+      }
+    ]
   }
 }
