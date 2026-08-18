@@ -32798,6 +32798,78 @@
         }
       ],
       "ran_at": 1787009856.756697
+    },
+    {
+      "run_number": "1259",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32082269585",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.697,
+          "prompt": "powdered fruit being poured"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "pink ice cream swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.499,
+          "prompt": "pink ice cream swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.679,
+          "prompt": "pink ice cream swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.691,
+          "prompt": "pink ice cream swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.635,
+          "prompt": "dulce de leche pour"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "Salta street vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "Salta street vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.634,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1787012082.109807
     }
   ]
 }
