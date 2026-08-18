@@ -75,19 +75,13 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1126,
+    "times_flagged": 1127,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
-      "FEMALE_GENITALIA_EXPOSED"
+      "FEMALE_GENITALIA_EXPOSED",
+      "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.774,
-        "flagged_at": 1786917298.9309871
-      },
       {
         "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
         "category": "food",
@@ -115,6 +109,13 @@
         "country": "Italy",
         "confidence": 0.374,
         "flagged_at": 1787014510.7712817
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.707,
+        "flagged_at": 1787052984.7888923
       }
     ]
   },
@@ -26342,34 +26343,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 39,
+    "times_flagged": 42,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.444,
-        "flagged_at": 1786997710.2858179
-      },
-      {
-        "topic": "The most viral street food trend in India right now",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.797,
-        "flagged_at": 1786997710.3166535
-      },
-      {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.688,
-        "flagged_at": 1787009856.7902014
-      },
       {
         "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
         "category": "food",
@@ -26383,6 +26363,27 @@
         "country": "France",
         "confidence": 0.531,
         "flagged_at": 1787044861.6675477
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.767,
+        "flagged_at": 1787052984.821057
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.735,
+        "flagged_at": 1787052984.8531826
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.471,
+        "flagged_at": 1787052984.8845723
       }
     ]
   },
@@ -32305,6 +32306,22 @@
         "country": "Peru",
         "confidence": 0.818,
         "flagged_at": 1787050888.0248728
+      }
+    ]
+  },
+  "neon tropical fish": {
+    "prompt": "neon tropical fish",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.821,
+        "flagged_at": 1787052984.7566257
       }
     ]
   }
