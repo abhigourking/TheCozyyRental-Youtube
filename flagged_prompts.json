@@ -31973,5 +31973,21 @@
         "flagged_at": 1787016418.4805284
       }
     ]
+  },
+  "close\u2011up water ripple": {
+    "prompt": "close\u2011up water ripple",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.776,
+        "flagged_at": 1787039579.2155395
+      }
+    ]
   }
 }
