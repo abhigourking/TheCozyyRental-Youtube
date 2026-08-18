@@ -26342,20 +26342,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 38,
+    "times_flagged": 39,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from India that's become an internet obsession",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.477,
-        "flagged_at": 1786989662.6998484
-      },
       {
         "topic": "The most viral street food trend in India right now",
         "category": "food",
@@ -26383,6 +26376,13 @@
         "country": "Argentina",
         "confidence": 0.634,
         "flagged_at": 1787012082.4196184
+      },
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.531,
+        "flagged_at": 1787044861.6675477
       }
     ]
   },

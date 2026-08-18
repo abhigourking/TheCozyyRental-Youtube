@@ -33080,6 +33080,24 @@
         }
       ],
       "ran_at": 1787043184.2412457
+    },
+    {
+      "run_number": "1268",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32119980660",
+      "topic": "A bucket-list experience you can only have in France",
+      "category": "travel",
+      "country": "France",
+      "images_checked": 16,
+      "images_flagged": 1,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.531,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1787044861.633101
     }
   ]
 }
