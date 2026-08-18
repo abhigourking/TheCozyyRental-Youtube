@@ -26343,20 +26343,13 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 42,
+    "times_flagged": 43,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.634,
-        "flagged_at": 1787012082.4196184
-      },
       {
         "topic": "A bucket-list experience you can only have in France",
         "category": "travel",
@@ -26384,6 +26377,13 @@
         "country": "Japan",
         "confidence": 0.471,
         "flagged_at": 1787052984.8845723
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.352,
+        "flagged_at": 1787055351.5078323
       }
     ]
   },
@@ -32322,6 +32322,127 @@
         "country": "Japan",
         "confidence": 0.821,
         "flagged_at": 1787052984.7566257
+      }
+    ]
+  },
+  "social media likes": {
+    "prompt": "social media likes",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.813,
+        "flagged_at": 1787055351.2417912
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.811,
+        "flagged_at": 1787055351.2734687
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.798,
+        "flagged_at": 1787055351.304704
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.664,
+        "flagged_at": 1787055351.3354924
+      }
+    ]
+  },
+  "tapioca being folded": {
+    "prompt": "tapioca being folded",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.703,
+        "flagged_at": 1787055351.367058
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.777,
+        "flagged_at": 1787055351.3983345
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.841,
+        "flagged_at": 1787055351.429556
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.85,
+        "flagged_at": 1787055351.4610255
+      }
+    ]
+  },
+  "strawberries being sliced": {
+    "prompt": "strawberries being sliced",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.795,
+        "flagged_at": 1787055351.5396056
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.526,
+        "flagged_at": 1787055351.5711076
+      },
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.824,
+        "flagged_at": 1787055351.6025596
+      }
+    ]
+  },
+  "tapioca being filled": {
+    "prompt": "tapioca being filled",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Brazil right now",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.83,
+        "flagged_at": 1787055351.6340547
       }
     ]
   }
