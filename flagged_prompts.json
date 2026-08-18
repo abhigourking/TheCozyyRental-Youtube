@@ -32523,5 +32523,74 @@
         "flagged_at": 1787059273.2982323
       }
     ]
+  },
+  "lime plaster mixing": {
+    "prompt": "lime plaster mixing",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.381,
+        "flagged_at": 1787061345.2059987
+      }
+    ]
+  },
+  "sunlight reflecting on marble": {
+    "prompt": "sunlight reflecting on marble",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.55,
+        "flagged_at": 1787061345.2377596
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.769,
+        "flagged_at": 1787061345.269208
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.826,
+        "flagged_at": 1787061345.300151
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.728,
+        "flagged_at": 1787061345.3311496
+      }
+    ]
+  },
+  "nighttime taj mahal lights": {
+    "prompt": "nighttime Taj Mahal lights",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.848,
+        "flagged_at": 1787061345.3618717
+      }
+    ]
   }
 }

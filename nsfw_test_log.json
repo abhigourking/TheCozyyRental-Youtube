@@ -33446,6 +33446,54 @@
         }
       ],
       "ran_at": 1787059273.2573571
+    },
+    {
+      "run_number": "1278",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32143324427",
+      "topic": "A surprising fact about a famous tourist attraction in India",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 24,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.381,
+          "prompt": "lime plaster mixing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.55,
+          "prompt": "sunlight reflecting on marble"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.769,
+          "prompt": "sunlight reflecting on marble"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "sunlight reflecting on marble"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.728,
+          "prompt": "sunlight reflecting on marble"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.848,
+          "prompt": "nighttime Taj Mahal lights"
+        }
+      ],
+      "ran_at": 1787061345.1721203
     }
   ]
 }
