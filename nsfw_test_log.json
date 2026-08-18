@@ -33494,6 +33494,78 @@
         }
       ],
       "ran_at": 1787061345.1721203
+    },
+    {
+      "run_number": "1279",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32146750665",
+      "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.677,
+          "prompt": "underwater crystal clear water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.65,
+          "prompt": "underwater crystal clear water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.668,
+          "prompt": "underwater crystal clear water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.649,
+          "prompt": "underwater crystal clear water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "map pin indonesia"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.397,
+          "prompt": "clock 30 minutes timer"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.705,
+          "prompt": "comment box typing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "comment box typing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.77,
+          "prompt": "comment box typing"
+        }
+      ],
+      "ran_at": 1787063583.203122
     }
   ]
 }

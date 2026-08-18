@@ -491,18 +491,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 923,
+    "times_flagged": 924,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.725,
-        "flagged_at": 1786942646.2160437
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in South Korea",
         "category": "travel",
@@ -530,6 +523,13 @@
         "country": "Argentina",
         "confidence": 0.759,
         "flagged_at": 1787048926.806967
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.761,
+        "flagged_at": 1787063583.4419103
       }
     ]
   },
@@ -32590,6 +32590,105 @@
         "country": "India",
         "confidence": 0.848,
         "flagged_at": 1787061345.3618717
+      }
+    ]
+  },
+  "underwater crystal clear water": {
+    "prompt": "underwater crystal clear water",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.677,
+        "flagged_at": 1787063583.2401578
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.65,
+        "flagged_at": 1787063583.2737515
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.668,
+        "flagged_at": 1787063583.307397
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.649,
+        "flagged_at": 1787063583.3409703
+      }
+    ]
+  },
+  "map pin indonesia": {
+    "prompt": "map pin indonesia",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.832,
+        "flagged_at": 1787063583.3744018
+      }
+    ]
+  },
+  "clock 30 minutes timer": {
+    "prompt": "clock 30 minutes timer",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.397,
+        "flagged_at": 1787063583.4081075
+      }
+    ]
+  },
+  "comment box typing": {
+    "prompt": "comment box typing",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.705,
+        "flagged_at": 1787063583.4754734
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.783,
+        "flagged_at": 1787063583.5092285
+      },
+      {
+        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.77,
+        "flagged_at": 1787063583.5428529
       }
     ]
   }
