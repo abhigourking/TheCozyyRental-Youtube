@@ -33140,6 +33140,72 @@
         }
       ],
       "ran_at": 1787046874.0492322
+    },
+    {
+      "run_number": "1271",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32125353400",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 24,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.717,
+          "prompt": "caramel glaze pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "caramel glaze pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.575,
+          "prompt": "caramel glaze pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.819,
+          "prompt": "caramel glaze pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "condensed milk swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "condensed milk swirl"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.759,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.848,
+          "prompt": "golden slices sizzling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.731,
+          "prompt": "Argentina map pin"
+        }
+      ],
+      "ran_at": 1787048926.410601
     }
   ]
 }

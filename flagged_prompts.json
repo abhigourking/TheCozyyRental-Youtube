@@ -490,18 +490,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 922,
+    "times_flagged": 923,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.778,
-        "flagged_at": 1786940605.634997
-      },
       {
         "topic": "A bucket-list experience you can only have in France",
         "category": "travel",
@@ -529,6 +522,13 @@
         "country": "Iceland",
         "confidence": 0.689,
         "flagged_at": 1787004498.9634101
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.759,
+        "flagged_at": 1787048926.806967
       }
     ]
   },
@@ -32158,6 +32158,98 @@
         "country": "Argentina",
         "confidence": 0.661,
         "flagged_at": 1787046874.2124825
+      }
+    ]
+  },
+  "caramel glaze pouring": {
+    "prompt": "caramel glaze pouring",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.717,
+        "flagged_at": 1787048926.4339206
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.781,
+        "flagged_at": 1787048926.4551294
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.575,
+        "flagged_at": 1787048926.602284
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.819,
+        "flagged_at": 1787048926.6237497
+      }
+    ]
+  },
+  "condensed milk swirl": {
+    "prompt": "condensed milk swirl",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.808,
+        "flagged_at": 1787048926.6442509
+      },
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.802,
+        "flagged_at": 1787048926.6654224
+      }
+    ]
+  },
+  "golden slices sizzling": {
+    "prompt": "golden slices sizzling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.848,
+        "flagged_at": 1787048926.8280938
+      }
+    ]
+  },
+  "argentina map pin": {
+    "prompt": "Argentina map pin",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.731,
+        "flagged_at": 1787048926.848892
       }
     ]
   }
