@@ -33002,6 +33002,30 @@
         }
       ],
       "ran_at": 1787039579.18258
+    },
+    {
+      "run_number": "1266",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32114815972",
+      "topic": "A viral travel spot in Philippines that's all over social media right now",
+      "category": "travel",
+      "country": "Philippines",
+      "images_checked": 12,
+      "images_flagged": 2,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.684,
+          "prompt": "coconut ice cream vendor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "coconut ice cream vendor"
+        }
+      ],
+      "ran_at": 1787041068.6958938
     }
   ]
 }

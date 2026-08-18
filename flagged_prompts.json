@@ -31989,5 +31989,28 @@
         "flagged_at": 1787039579.2155395
       }
     ]
+  },
+  "coconut ice cream vendor": {
+    "prompt": "coconut ice cream vendor",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.684,
+        "flagged_at": 1787041068.7296352
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.794,
+        "flagged_at": 1787041068.7611148
+      }
+    ]
   }
 }
