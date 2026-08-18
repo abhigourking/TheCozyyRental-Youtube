@@ -33374,6 +33374,48 @@
         }
       ],
       "ran_at": 1787055351.2080674
+    },
+    {
+      "run_number": "1275",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32137230147",
+      "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 23,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.34,
+          "prompt": "closeup cheese texture"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "honey drizzle over cheese"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.379,
+          "prompt": "honey drizzle over cheese"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "honey drizzle over cheese"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.502,
+          "prompt": "cheese tasting reaction"
+        }
+      ],
+      "ran_at": 1787057349.596771
     }
   ]
 }
