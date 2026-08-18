@@ -32691,5 +32691,122 @@
         "flagged_at": 1787063583.5428529
       }
     ]
+  },
+  "buenos aires street market": {
+    "prompt": "Buenos Aires street market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.683,
+        "flagged_at": 1787065757.164239
+      }
+    ]
+  },
+  "beef cut breaded": {
+    "prompt": "beef cut breaded",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.828,
+        "flagged_at": 1787065757.1962361
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.861,
+        "flagged_at": 1787065757.2281468
+      }
+    ]
+  },
+  "melting mozzarella cheese": {
+    "prompt": "melting mozzarella cheese",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.786,
+        "flagged_at": 1787065757.2600412
+      }
+    ]
+  },
+  "meat pounding": {
+    "prompt": "meat pounding",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.763,
+        "flagged_at": 1787065757.2920697
+      }
+    ]
+  },
+  "mozzarella slice": {
+    "prompt": "mozzarella slice",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.768,
+        "flagged_at": 1787065757.324314
+      }
+    ]
+  },
+  "person taking bite": {
+    "prompt": "person taking bite",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.676,
+        "flagged_at": 1787065757.3562484
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.811,
+        "flagged_at": 1787065757.4058242
+      },
+      {
+        "topic": "A comfort food from Argentina that's become an internet obsession",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.756,
+        "flagged_at": 1787065757.4377313
+      }
+    ]
   }
 }

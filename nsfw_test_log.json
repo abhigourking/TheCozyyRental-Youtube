@@ -33566,6 +33566,72 @@
         }
       ],
       "ran_at": 1787063583.203122
+    },
+    {
+      "run_number": "1280",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32150559797",
+      "topic": "A comfort food from Argentina that's become an internet obsession",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.683,
+          "prompt": "Buenos Aires street market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "beef cut breaded"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.861,
+          "prompt": "beef cut breaded"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.786,
+          "prompt": "melting mozzarella cheese"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.763,
+          "prompt": "meat pounding"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.768,
+          "prompt": "mozzarella slice"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.676,
+          "prompt": "person taking bite"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "person taking bite"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "person taking bite"
+        }
+      ],
+      "ran_at": 1787065757.1296606
     }
   ]
 }
