@@ -33632,6 +33632,66 @@
         }
       ],
       "ran_at": 1787065757.1296606
+    },
+    {
+      "run_number": "1281",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32154248917",
+      "topic": "A popular food market or food street worth visiting in Egypt",
+      "category": "food",
+      "country": "Egypt",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.78,
+          "prompt": "spices being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.738,
+          "prompt": "spices being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "spices being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "spices being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "vendor smiling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.835,
+          "prompt": "vendor smiling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "people laughing together"
+        }
+      ],
+      "ran_at": 1787067986.135121
     }
   ]
 }
