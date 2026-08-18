@@ -75,19 +75,12 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1125,
+    "times_flagged": 1126,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.475,
-        "flagged_at": 1786908670.37461
-      },
       {
         "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
         "category": "food",
@@ -115,6 +108,13 @@
         "country": "Argentina",
         "confidence": 0.816,
         "flagged_at": 1787012082.3887627
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.374,
+        "flagged_at": 1787014510.7712817
       }
     ]
   },
@@ -31819,6 +31819,126 @@
         "country": "Argentina",
         "confidence": 0.77,
         "flagged_at": 1787012082.3580256
+      }
+    ]
+  },
+  "crisp golden edges": {
+    "prompt": "crisp golden edges",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.843,
+        "flagged_at": 1787014510.626245
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.856,
+        "flagged_at": 1787014510.6511517
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.841,
+        "flagged_at": 1787014510.675393
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.833,
+        "flagged_at": 1787014510.6990886
+      }
+    ]
+  },
+  "soft interior cut": {
+    "prompt": "soft interior cut",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.756,
+        "flagged_at": 1787014510.7227645
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.817,
+        "flagged_at": 1787014510.7471461
+      }
+    ]
+  },
+  "prosciutto slices": {
+    "prompt": "prosciutto slices",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.814,
+        "flagged_at": 1787014510.7959707
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.808,
+        "flagged_at": 1787014510.8205135
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.815,
+        "flagged_at": 1787014510.8448586
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.838,
+        "flagged_at": 1787014510.8693001
+      }
+    ]
+  },
+  "arugula being tossed": {
+    "prompt": "arugula being tossed",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.542,
+        "flagged_at": 1787014510.8937504
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.616,
+        "flagged_at": 1787014510.9176822
       }
     ]
   }

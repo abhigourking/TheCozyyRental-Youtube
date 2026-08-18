@@ -32870,6 +32870,96 @@
         }
       ],
       "ran_at": 1787012082.109807
+    },
+    {
+      "run_number": "1260",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32084728545",
+      "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 31,
+      "images_flagged": 13,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.843,
+          "prompt": "crisp golden edges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.856,
+          "prompt": "crisp golden edges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "crisp golden edges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "crisp golden edges"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "soft interior cut"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.817,
+          "prompt": "soft interior cut"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.374,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "prosciutto slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.808,
+          "prompt": "prosciutto slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.815,
+          "prompt": "prosciutto slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "prosciutto slices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.542,
+          "prompt": "arugula being tossed"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.616,
+          "prompt": "arugula being tossed"
+        }
+      ],
+      "ran_at": 1787014510.597812
     }
   ]
 }
