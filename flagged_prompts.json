@@ -32932,5 +32932,53 @@
         "flagged_at": 1787091526.9444587
       }
     ]
+  },
+  "curious traveler looking at street food": {
+    "prompt": "curious traveler looking at street food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.81,
+        "flagged_at": 1787093625.5924847
+      }
+    ]
+  },
+  "customers eating happily": {
+    "prompt": "customers eating happily",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.763,
+        "flagged_at": 1787093625.6187553
+      }
+    ]
+  },
+  "comment section highlight": {
+    "prompt": "comment section highlight",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.83,
+        "flagged_at": 1787093625.6489544
+      }
+    ]
   }
 }

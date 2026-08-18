@@ -33722,6 +33722,36 @@
         }
       ],
       "ran_at": 1787091526.8435965
+    },
+    {
+      "run_number": "1286",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32193282456",
+      "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+      "category": "food",
+      "country": "South Korea",
+      "images_checked": 24,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "curious traveler looking at street food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.763,
+          "prompt": "customers eating happily"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "comment section highlight"
+        }
+      ],
+      "ran_at": 1787093625.564194
     }
   ]
 }
