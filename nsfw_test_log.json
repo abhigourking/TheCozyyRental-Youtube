@@ -33416,6 +33416,36 @@
         }
       ],
       "ran_at": 1787057349.596771
+    },
+    {
+      "run_number": "1276",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32140255244",
+      "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.734,
+          "prompt": "close up grain flour sack"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.779,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.733,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1787059273.2573571
     }
   ]
 }

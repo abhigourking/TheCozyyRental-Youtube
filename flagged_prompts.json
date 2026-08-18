@@ -75,27 +75,13 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1127,
+    "times_flagged": 1129,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.77,
-        "flagged_at": 1786917298.9589946
-      },
-      {
-        "topic": "The most viral street food trend in Spain right now",
-        "category": "food",
-        "country": "Spain",
-        "confidence": 0.763,
-        "flagged_at": 1786930898.687567
-      },
       {
         "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
         "category": "food",
@@ -116,6 +102,20 @@
         "country": "Japan",
         "confidence": 0.707,
         "flagged_at": 1787052984.7888923
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.779,
+        "flagged_at": 1787059273.336172
+      },
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.733,
+        "flagged_at": 1787059273.3744416
       }
     ]
   },
@@ -32505,6 +32505,22 @@
         "country": "Argentina",
         "confidence": 0.502,
         "flagged_at": 1787057349.7209623
+      }
+    ]
+  },
+  "close up grain flour sack": {
+    "prompt": "close up grain flour sack",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.734,
+        "flagged_at": 1787059273.2982323
       }
     ]
   }
