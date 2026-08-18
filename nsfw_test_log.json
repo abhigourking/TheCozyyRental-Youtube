@@ -33026,6 +33026,60 @@
         }
       ],
       "ran_at": 1787041068.6958938
+    },
+    {
+      "run_number": "1267",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32116934911",
+      "topic": "The most viral street food trend in Italy right now",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "golden crispy food"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.476,
+          "prompt": "golden crispy food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "mozzarella stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.702,
+          "prompt": "mozzarella stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "mozzarella stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.738,
+          "prompt": "mozzarella stretch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "timer countdown"
+        }
+      ],
+      "ran_at": 1787043184.2412457
     }
   ]
 }

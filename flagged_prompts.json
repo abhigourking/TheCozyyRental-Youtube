@@ -32012,5 +32012,82 @@
         "flagged_at": 1787041068.7611148
       }
     ]
+  },
+  "golden crispy food": {
+    "prompt": "golden crispy food",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.794,
+        "flagged_at": 1787043184.2751021
+      },
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.476,
+        "flagged_at": 1787043184.3062716
+      }
+    ]
+  },
+  "mozzarella stretch": {
+    "prompt": "mozzarella stretch",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.802,
+        "flagged_at": 1787043184.3372161
+      },
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.702,
+        "flagged_at": 1787043184.3677156
+      },
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.82,
+        "flagged_at": 1787043184.3981829
+      },
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.738,
+        "flagged_at": 1787043184.428928
+      }
+    ]
+  },
+  "timer countdown": {
+    "prompt": "timer countdown",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Italy right now",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.805,
+        "flagged_at": 1787043184.4596608
+      }
+    ]
   }
 }
