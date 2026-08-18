@@ -32960,6 +32960,30 @@
         }
       ],
       "ran_at": 1787014510.597812
+    },
+    {
+      "run_number": "1261",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32087244798",
+      "topic": "The most breathtaking place to visit in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 20,
+      "images_flagged": 2,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "Aegean sea behind arch"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.35,
+          "prompt": "baklava being drizzled honey"
+        }
+      ],
+      "ran_at": 1787016418.416485
     }
   ]
 }

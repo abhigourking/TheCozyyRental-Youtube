@@ -31941,5 +31941,37 @@
         "flagged_at": 1787014510.9176822
       }
     ]
+  },
+  "aegean sea behind arch": {
+    "prompt": "Aegean sea behind arch",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.766,
+        "flagged_at": 1787016418.449663
+      }
+    ]
+  },
+  "baklava being drizzled honey": {
+    "prompt": "baklava being drizzled honey",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.35,
+        "flagged_at": 1787016418.4805284
+      }
+    ]
   }
 }
