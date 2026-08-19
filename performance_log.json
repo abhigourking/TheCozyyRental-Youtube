@@ -5626,6 +5626,16 @@
       "groq_tokens": 0,
       "groq_calls": 0,
       "posted_at": 1787149787.296103
+    },
+    {
+      "video_id": "vk39l5ag-Ew",
+      "category": "travel",
+      "language": "Turkish",
+      "topic": "The most breathtaking place to visit in Turkey",
+      "country": "Turkey",
+      "groq_tokens": 0,
+      "groq_calls": 0,
+      "posted_at": 1787156530.2428148
     }
   ]
 }
