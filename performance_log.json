@@ -5546,6 +5546,16 @@
       "groq_tokens": 1421,
       "groq_calls": 1,
       "posted_at": 1786424109.9420295
+    },
+    {
+      "video_id": "38gpdaUhVMg",
+      "category": "travel",
+      "language": "Turkish",
+      "topic": "A bucket-list experience you can only have in Turkey",
+      "country": "Turkey",
+      "groq_tokens": 0,
+      "groq_calls": 0,
+      "posted_at": 1787098845.741527
     }
   ]
 }
