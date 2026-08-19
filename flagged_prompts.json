@@ -33035,5 +33035,97 @@
         "flagged_at": 1787095584.2481422
       }
     ]
+  },
+  "hand picking cookies": {
+    "prompt": "hand picking cookies",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.585,
+        "flagged_at": 1787097902.0952563
+      }
+    ]
+  },
+  "comment bubbles animation": {
+    "prompt": "comment bubbles animation",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.751,
+        "flagged_at": 1787097902.1290715
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.806,
+        "flagged_at": 1787097902.1624312
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.837,
+        "flagged_at": 1787097902.2148004
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.346,
+        "flagged_at": 1787097902.247789
+      }
+    ]
+  },
+  "gelato cone being served": {
+    "prompt": "gelato cone being served",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.748,
+        "flagged_at": 1787097902.2812903
+      }
+    ]
+  },
+  "subscribe animation": {
+    "prompt": "subscribe animation",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.855,
+        "flagged_at": 1787097902.31432
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.744,
+        "flagged_at": 1787097902.3474548
+      }
+    ]
   }
 }

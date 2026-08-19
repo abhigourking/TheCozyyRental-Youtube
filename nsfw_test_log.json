@@ -33788,6 +33788,66 @@
         }
       ],
       "ran_at": 1787095584.1138744
+    },
+    {
+      "run_number": "1288",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/32198225658",
+      "topic": "A popular food market or food street worth visiting in Italy",
+      "category": "food",
+      "country": "Italy",
+      "images_checked": 29,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.585,
+          "prompt": "hand picking cookies"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.751,
+          "prompt": "comment bubbles animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.806,
+          "prompt": "comment bubbles animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.837,
+          "prompt": "comment bubbles animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.346,
+          "prompt": "comment bubbles animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.748,
+          "prompt": "gelato cone being served"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.855,
+          "prompt": "subscribe animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.744,
+          "prompt": "subscribe animation"
+        }
+      ],
+      "ran_at": 1787097902.058707
     }
   ]
 }
