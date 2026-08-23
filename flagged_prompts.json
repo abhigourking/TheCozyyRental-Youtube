@@ -33127,5 +33127,97 @@
         "flagged_at": 1787097902.3474548
       }
     ]
+  },
+  "greek village street": {
+    "prompt": "Greek village street",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.665,
+        "flagged_at": 1787469797.8683167
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.614,
+        "flagged_at": 1787469797.9009159
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.799,
+        "flagged_at": 1787469797.9330916
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.494,
+        "flagged_at": 1787469797.9643977
+      }
+    ]
+  },
+  "clay fermentation jars": {
+    "prompt": "clay fermentation jars",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.538,
+        "flagged_at": 1787469797.9963586
+      }
+    ]
+  },
+  "creamy cheese swirl": {
+    "prompt": "creamy cheese swirl",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.799,
+        "flagged_at": 1787469798.0280077
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.741,
+        "flagged_at": 1787469798.0724938
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.565,
+        "flagged_at": 1787469798.1045806
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.645,
+        "flagged_at": 1787469798.136466
+      }
+    ]
   }
 }
