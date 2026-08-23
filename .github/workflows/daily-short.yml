@@ -154,10 +154,27 @@ jobs:
         run: python generate_short.py --upload-queued queued_video/latest_short.mp4 queued_video/latest_short_meta.json
 
       - name: Delete consumed queued artifact
-        if: steps.check_queue.outputs.ready == 'true' && steps.upload_queued.outcome == 'success'
+        # always() (both re: the job and re: upload_queued's outcome) -
+        # NOT gated on upload succeeding. This used to only delete on
+        # success, which meant a failing upload left the exact same
+        # artifact at the front of the queue forever: every subsequent
+        # run re-picked it, re-failed the same way, and (with the old
+        # 60s fast-retry-on-failure below) re-triggered almost
+        # immediately. That's confirmed to be what turned one blocked
+        # upload (2026-08-19 second-strike API block) into ~2000 runs
+        # over about two days, with no new content ever generated in
+        # between because "Run pipeline" never got a turn. A failed
+        # catch-up upload now gets discarded after one attempt instead of
+        # retried indefinitely - if it failed for a real, persistent
+        # reason (like an active strike restriction), retrying the exact
+        # same video forever was never going to succeed anyway.
+        if: always() && steps.check_queue.outputs.ready == 'true'
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
+          if [ "${{ steps.upload_queued.outcome }}" != "success" ]; then
+            echo "::warning::Catch-up upload failed (${{ steps.check_queue.outputs.artifact_name }}) - discarding this queued artifact instead of retrying it forever. Check the 'Upload queued video' step's log above for why."
+          fi
           curl -sf -X DELETE -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/artifacts/${{ steps.check_queue.outputs.artifact_id }}" \
@@ -292,25 +309,39 @@ jobs:
         # deliberately blocked from triggering further workflow runs, to
         # prevent infinite-loop workflows.
         #
-        # Wait length depends on whether the pipeline step succeeded:
+        # Wait length depends on whether "Run pipeline" specifically
+        # succeeded:
         #   - success -> full 15 min gap (normal posting cadence)
         #   - failure -> short 60s wait, then retry right away. Most
-        #     failures we've seen are transient (a flaky Groq/YouTube API
-        #     call, a bad TTS voice on one specific country/language
-        #     combo) and self-fixing code (regeneration loops, English
-        #     fallback) already reduces how often this path is even hit.
-        #     60s (not 0s) avoids hammering APIs in a tight loop if
-        #     something is failing every single time - it still gives a
-        #     fixable failure a fast retry without waiting a full 15 min.
+        #     failures we've seen there are transient (a flaky Groq/
+        #     YouTube API call, a bad TTS voice on one specific country/
+        #     language combo) and self-fixing code (regeneration loops,
+        #     English fallback) already reduces how often this path is
+        #     even hit. 60s (not 0s) avoids hammering APIs in a tight loop
+        #     if something is failing every single time - it still gives
+        #     a fixable failure a fast retry without waiting a full 15 min.
+        #
+        # Deliberately does NOT fast-retry on upload_queued failures
+        # anymore (it used to, alongside run_pipeline). A catch-up-upload
+        # failure isn't necessarily transient the way a flaky API call
+        # is - it can be a real, persistent restriction (an active
+        # strike's upload block lasts up to 2 weeks) - and combined with
+        # the "Delete consumed queued artifact" step above now always
+        # discarding the failed item, a 60s retry loop here would burn
+        # through the entire remaining queue in minutes instead of at the
+        # normal ~15-min pace. This is exactly the combination (artifact
+        # never cleared + 60s retry on this specific failure) that turned
+        # one blocked upload into ~2000 runs on 2026-08-19/20 with the
+        # self-chain never once reaching "Run pipeline" in between.
         if: always() && !cancelled()
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          if [ "${{ steps.run_pipeline.outcome }}" = "failure" ] || [ "${{ steps.upload_queued.outcome }}" = "failure" ]; then
-            echo "Pipeline step (or a queued catch-up upload) failed - short 60s wait before retrying, instead of the full 15 min gap."
+          if [ "${{ steps.run_pipeline.outcome }}" = "failure" ]; then
+            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 15 min gap."
             sleep 60
           else
-            sleep 900   # 15 min gap after a successful run - also naturally paces out queued catch-up uploads, one per run
+            sleep 900   # 15 min gap - normal posting cadence, and also how long a failed-but-discarded catch-up upload waits before the next queue item gets a turn
           fi
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
