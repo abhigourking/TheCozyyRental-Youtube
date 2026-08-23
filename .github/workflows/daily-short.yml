@@ -66,25 +66,39 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Determine upload pause (Community Guidelines strike cool-down)
-        # The channel got a 1-strike Community Guidelines restriction
-        # (nudity) on 2026-08-11 - YouTube blocks uploads for 7 days from a
-        # strike. RESUME_DATE below is +8 days as a buffer. Until then,
-        # every run still executes the FULL pipeline (topic pick, script,
-        # images, the NudeNet nudity check, TTS, video assembly) so we keep
-        # exercising and logging the detection logic all week (see
-        # nsfw_test_log.json) - it just sets SKIP_UPLOAD=true so it never
-        # calls the YouTube API and can't hit the strike's 403. That also
-        # means these runs finish as a normal *success*, so the self-chain
-        # takes its normal 15-min gap instead of the 60s failure-retry loop
-        # hammering the API every minute for a week.
+        # SECOND STRIKE (2026-08-19, "Mexico's Most Breathtaking Spot
+        # #Shorts") - YouTube's own 2-week upload block runs through
+        # ~2026-09-02; RESUME_DATE below adds a 1-day buffer, same pattern
+        # as the first strike's cool-down.
+        #
+        # That video was fully clothed - NudeNet never flagged it and
+        # never could, because YouTube's nudity/sexual-content policy is
+        # broader than "exposed body parts" (it also covers content
+        # "meant to be sexually gratifying" with nothing exposed at all).
+        # NudeNet-based detection - the entire strategy this pipeline has
+        # relied on - is structurally blind to that category, so waiting
+        # out the 2 weeks alone does NOT fix why this happened. One more
+        # strike terminates the channel.
+        #
+        # So there are two independent gates below, both required before
+        # real uploads resume: the date (just clears YouTube's own API
+        # block) AND DETECTION_GAP_FIXED (manually flip to "true" here,
+        # deliberately, once there's an actual answer for the clothed/
+        # sexualized-content gap - not before). Until both are true, every
+        # run still executes the full pipeline in SKIP_UPLOAD test mode so
+        # generation keeps getting exercised and logged.
         run: |
-          RESUME_DATE="2026-08-19"
+          RESUME_DATE="2026-09-03"
+          DETECTION_GAP_FIXED="false"
           TODAY=$(date -u +%Y-%m-%d)
-          if [[ "$TODAY" < "$RESUME_DATE" ]]; then
-            echo "Upload paused until $RESUME_DATE (today: $TODAY, strike cool-down). Running in SKIP_UPLOAD test mode."
+          if [[ "$DETECTION_GAP_FIXED" != "true" ]]; then
+            echo "Upload paused - DETECTION_GAP_FIXED is still false (clothed/sexualized-content detection gap from the 2026-08-19 second strike hasn't been addressed yet). Running in SKIP_UPLOAD test mode regardless of date."
+            echo "SKIP_UPLOAD=true" >> "$GITHUB_ENV"
+          elif [[ "$TODAY" < "$RESUME_DATE" ]]; then
+            echo "Upload paused until $RESUME_DATE (today: $TODAY, second-strike cool-down). Running in SKIP_UPLOAD test mode."
             echo "SKIP_UPLOAD=true" >> "$GITHUB_ENV"
           else
-            echo "Past $RESUME_DATE - resuming normal uploads."
+            echo "Past $RESUME_DATE and DETECTION_GAP_FIXED=true - resuming normal uploads."
             echo "SKIP_UPLOAD=false" >> "$GITHUB_ENV"
           fi
 
