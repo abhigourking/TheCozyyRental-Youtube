@@ -23,6 +23,7 @@ import json
 import re
 import random
 import time
+import base64
 import subprocess
 import tempfile
 import shutil
@@ -781,29 +782,143 @@ def record_flagged_prompt(prompt, cls, confidence, topic, category, country):
             print(f"  (non-fatal) failed to update flagged_prompts.json: {e}", flush=True)
 
 
+# Second, independent safety layer added 2026-08-23 after the 2026-08-19
+# second strike, which was for a FULLY CLOTHED image (deep, unbuttoned
+# neckline) that NudeNet never flagged and structurally never could -
+# NudeNet only classifies specific EXPOSED body-part classes (see
+# NUDITY_DETECTION_CLASSES above), so it is blind to content YouTube's own
+# nudity/sexual-content policy still covers: presentation "meant to be
+# sexually gratifying" even with nothing technically exposed. A vision-
+# capable LLM, prompted specifically against that broader policy language
+# instead of narrow body-part classes, can catch what a pure detector
+# cannot. This runs as an ADDITIONAL check, not a replacement - NudeNet
+# still runs first and independently below.
+_VISION_MODERATION_MODEL = "qwen/qwen3.6-27b"  # Groq's only vision-capable
+# model as of 2026-08 (see console.groq.com/docs/vision) - reuses the same
+# GROQ_API_KEY(/_2) already configured for script generation, no new
+# secret needed.
+
+_VISION_MODERATION_PROMPT = """You are reviewing a single AI-generated stock-style image before it is used in a family-friendly YouTube Shorts video about travel, food, or culture.
+
+Judge this image strictly against YouTube's actual nudity and sexual content policy, which is BROADER than just "is skin exposed" - it also covers content "meant to be sexually gratifying" even when nothing is exposed (e.g. a deliberately plunging/unbuttoned neckline, sheer or see-through clothing, a deliberately sexualized pose or camera angle, underwear worn as outerwear in a suggestive way).
+
+Flag this image (set "unsafe" to true) if it shows ANY of:
+- Exposed genitals, breasts/nipples, buttocks, or anus - even partially
+- Clothing that is unbuttoned, open, or sheer enough to prominently expose or emphasize breasts/cleavage, genitals, or buttocks in a sexualized way
+- A pose, framing, or styling clearly intended to be sexually suggestive or provocative, regardless of how much skin is technically visible
+
+Do NOT flag ordinary, non-sexualized content: normal swimwear in a beach/pool context, a shirtless man, bare feet/midriff/arms/shoulders, ordinary fashion, statues/art with no sexual framing, or people simply existing in everyday clothing.
+
+Respond with ONLY a JSON object: {"unsafe": true or false, "reason": "one short sentence explaining why"}"""
+
+
+def _check_image_vision_model(path, prompt=None):
+    """The broader, clothed-content-aware second opinion described above.
+    Sends the image to Groq's vision model with a prompt targeted
+    specifically at YouTube's actual (broader-than-exposure) policy
+    language, gets back a structured unsafe/reason judgment.
+
+    FAILS CLOSED like every other safety check in this file: a missing
+    API key, an API error, or a response that doesn't parse as expected
+    JSON all count as flagged, not silently skipped - an image that never
+    actually got reviewed shouldn't be treated as having passed review."""
+    keys = _groq_api_keys()
+    if not keys:
+        print("    Vision moderation check skipped: no Groq API key configured - "
+              "treating as flagged out of caution.", flush=True)
+        _NSFW_RUN_STATS["flagged"] += 1
+        _NSFW_RUN_STATS["flag_details"].append({
+            "reason": "vision_error", "error": "no Groq API key configured", "prompt": prompt,
+        })
+        return True
+
+    try:
+        b64_image = base64.b64encode(Path(path).read_bytes()).decode("utf-8")
+        resp = None
+        for i, (label, key) in enumerate(keys):
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {key}"},
+                json={
+                    "model": _VISION_MODERATION_MODEL,
+                    "messages": [{
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": _VISION_MODERATION_PROMPT},
+                            {"type": "image_url",
+                             "image_url": {"url": f"data:image/jpeg;base64,{b64_image}"}},
+                        ],
+                    }],
+                    "temperature": 0,
+                    "response_format": {"type": "json_object"},
+                    "max_completion_tokens": 200,
+                },
+                timeout=30,
+            )
+            if resp.ok:
+                break
+            print(f"    Vision moderation API error {resp.status_code} ({label} key): "
+                  f"{resp.text[:300]}", flush=True)
+            is_last_key = (i == len(keys) - 1)
+            if _is_daily_quota_error(resp) and not is_last_key:
+                continue
+            resp.raise_for_status()
+
+        data = resp.json()
+        text = data["choices"][0]["message"]["content"].strip()
+        text = re.sub(r"^```json|```$", "", text, flags=re.MULTILINE).strip()
+        result = json.loads(text)
+        record_groq_usage(data.get("usage", {}))
+
+        if result.get("unsafe"):
+            reason = result.get("reason", "no reason given")
+            print(f"    Vision moderation check flagged this image: {reason} - "
+                  f"prompt: {prompt!r}", flush=True)
+            _NSFW_RUN_STATS["flagged"] += 1
+            _NSFW_RUN_STATS["flag_details"].append({
+                "reason": "vision_flagged", "vision_reason": reason, "prompt": prompt,
+            })
+            return True
+        return False
+    except Exception as e:
+        print(f"    Vision moderation check errored ({type(e).__name__}: {e}) - treating as "
+              f"flagged out of caution.", flush=True)
+        _NSFW_RUN_STATS["flagged"] += 1
+        _NSFW_RUN_STATS["flag_details"].append({
+            "reason": "vision_error", "error": f"{type(e).__name__}: {e}", "prompt": prompt,
+        })
+        return True
+
+
 def _is_flagged_nsfw(path, prompt=None):
-    """Real, offline, pixel-level nudity check on the actual generated
-    image - not the prompt used to request it. This exists because prompt-
-    based prevention (safe=true, a "no nudity" suffix, even a hard keyword
-    block on risky-sounding prompts) proved insufficient across repeated
-    YouTube strikes: an AI image generator can produce nudity completely
+    """Real, pixel-level check on the actual generated image - not the
+    prompt used to request it. This exists because prompt-based
+    prevention (safe=true, a "no nudity" suffix, even a hard keyword block
+    on risky-sounding prompts) proved insufficient across repeated YouTube
+    strikes: an AI image generator can produce unsafe content completely
     unprompted, for an entirely innocent-sounding request (a "Must-Try Thai
     Dish" food video got flagged - nothing about that topic should trigger
     any keyword filter, yet the generator still produced a nude figure).
     Only inspecting the actual pixels closes that gap.
 
-    Uses NudeNet (pip install nudenet) - runs fully offline via ONNX
-    Runtime, no network call at inference time, so unlike the previous
-    attempt at this (Pollinations' vision endpoint, which turned out to
-    require payment - HTTP 402 on every call) this cannot break due to a
-    service going paid, changing its rate limits, or going down.
+    Two independent layers, either one can flag the image:
+      1. NudeNet (pip install nudenet) - runs fully offline via ONNX
+         Runtime, classifies specific EXPOSED body-part classes. Unlike an
+         earlier attempt at this (Pollinations' vision endpoint, which
+         turned out to require payment - HTTP 402 on every call) this
+         cannot break due to a service going paid or changing rate limits.
+      2. _check_image_vision_model() - only runs if NudeNet found nothing,
+         since it costs an API call. Catches the broader category NudeNet
+         structurally cannot see: clothed-but-sexualized presentation (see
+         that function's docstring - this is what the 2026-08-19 second
+         strike actually was).
 
-    FAILS CLOSED like every safety-relevant check in this file: if
-    detection itself errors (corrupt file, model issue, anything), this
-    returns True (treat as flagged) rather than silently passing. That
-    failure mode is recorded distinctly from a real detection (see
-    flag_details below) precisely so a technical failure doesn't get
-    mistaken for - or learned as - an actual nudity pattern."""
+    FAILS CLOSED like every safety-relevant check in this file: if either
+    layer errors (corrupt file, model issue, API failure, anything), this
+    returns True (treat as flagged) rather than silently passing. Failure
+    modes are recorded distinctly from real detections (see flag_details)
+    precisely so a technical failure doesn't get mistaken for - or
+    learned as - an actual unsafe-content pattern."""
     _NSFW_RUN_STATS["checked"] += 1
     try:
         detector = _get_nude_detector()
@@ -818,7 +933,6 @@ def _is_flagged_nsfw(path, prompt=None):
                     "confidence": round(d["score"], 3), "prompt": prompt,
                 })
                 return True
-        return False
     except Exception as e:
         print(f"    NSFW check errored ({type(e).__name__}: {e}) - treating as flagged out of caution "
               f"(this is a technical failure, not necessarily real nudity - check the reason in "
@@ -828,6 +942,10 @@ def _is_flagged_nsfw(path, prompt=None):
             "reason": "error", "error": f"{type(e).__name__}: {e}", "prompt": prompt,
         })
         return True
+
+    # NudeNet found nothing - but NudeNet only sees exposed-skin classes,
+    # so get the broader second opinion before declaring this image clean.
+    return _check_image_vision_model(path, prompt=prompt)
 
 
 def _is_decodable_image(path):
@@ -1497,6 +1615,13 @@ def record_nsfw_test_entry(topic, category, country=None):
     for d in _NSFW_RUN_STATS["flag_details"]:
         if d.get("reason") == "detected" and d.get("prompt"):
             record_flagged_prompt(d["prompt"], d["class"], d["confidence"], topic, category, country)
+        elif d.get("reason") == "vision_flagged" and d.get("prompt"):
+            # Same learned-blocklist treatment for a vision-model catch as
+            # for a NudeNet detection - no numeric confidence from the
+            # vision model, so use 1.0 (it made a clear yes/no call, not a
+            # graded score) and a synthetic "class" so this is
+            # distinguishable from NudeNet-sourced entries downstream.
+            record_flagged_prompt(d["prompt"], "VISION_SEXUALIZED_CONTENT", 1.0, topic, category, country)
 
 
 def compute_category_weights():
@@ -1910,21 +2035,27 @@ def _recheck_queued_video(video_path):
     checked it originally - e.g. this backlog was generated while the
     pipeline was briefly using NudeNet's 640m model, which was then
     reverted back to the bundled 320n model after a week of
-    nsfw_test_log.json data. Re-checking with whatever detector is live
-    right now (see _get_nude_detector) closes that gap instead of
-    blindly publishing something an earlier/different model happened to
+    nsfw_test_log.json data. Re-checking with whatever's live right now
+    (via _is_flagged_nsfw - both NudeNet AND the vision-model second
+    opinion, see that function's docstring) closes that gap instead of
+    blindly publishing something an earlier/different check happened to
     wave through.
 
-    Fails closed: any error (ffmpeg, detector, missing frames) counts as
-    NOT safe, same philosophy as _is_flagged_nsfw() for freshly generated
-    images.
+    Samples a frame every 0.5s (tightened from every 2s after a real
+    incident: a video was found to have a clearly, prominently exposed
+    frame that nothing in the pipeline had caught - zero tolerance means
+    dense enough sampling that a multi-second shot can't hide between
+    samples) and runs every one of them through the full two-layer check.
+
+    Fails closed: any error (ffmpeg, either check, missing frames) counts
+    as NOT safe, same philosophy as _is_flagged_nsfw() everywhere else.
     """
     try:
         with tempfile.TemporaryDirectory() as td:
             td = Path(td)
             frames_pattern = str(td / "frame_%04d.jpg")
             subprocess.run(
-                ["ffmpeg", "-y", "-i", str(video_path), "-vf", "fps=1/2", frames_pattern],
+                ["ffmpeg", "-y", "-i", str(video_path), "-vf", "fps=2", frames_pattern],
                 check=True, capture_output=True, text=True, timeout=120,
             )
             frames = sorted(td.glob("frame_*.jpg"))
@@ -1932,16 +2063,12 @@ def _recheck_queued_video(video_path):
                 print("    Re-check: no frames extracted - treating as unsafe (fail closed).", flush=True)
                 return False
 
-            detector = _get_nude_detector()
             for frame in frames:
-                detections = detector.detect(str(frame))
-                for d in detections:
-                    if (d.get("class") in NUDITY_DETECTION_CLASSES
-                            and d.get("score", 0) >= NUDITY_DETECTION_THRESHOLD):
-                        print(f"    Re-check FLAGGED: {d['class']} ({d['score']:.3f}) in {frame.name} - "
-                              f"discarding this queued video, will NOT upload.", flush=True)
-                        return False
-            print(f"    Re-check passed: {len(frames)} frame(s) clean.", flush=True)
+                if _is_flagged_nsfw(frame, prompt=f"queued-video re-check frame {frame.name}"):
+                    print(f"    Re-check FLAGGED on {frame.name} - discarding this queued video, "
+                          f"will NOT upload.", flush=True)
+                    return False
+            print(f"    Re-check passed: {len(frames)} frame(s) clean (NudeNet + vision model).", flush=True)
             return True
     except Exception as e:
         print(f"    Re-check failed ({type(e).__name__}: {e}) - treating as unsafe (fail closed), "

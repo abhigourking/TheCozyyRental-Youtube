@@ -1,4 +1,4 @@
-name: Generate and Upload Shorts (self-chained, ~15 min gap after each run)
+name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
 
 # Repo is public, so Actions minutes are unlimited (public repos don't
 # consume the free-tier minutes quota that private repos do).
@@ -8,10 +8,12 @@ name: Generate and Upload Shorts (self-chained, ~15 min gap after each run)
 # drops ticks rather than queuing them (confirmed: real gaps of 2-3+ hours
 # despite an hourly cron). So this workflow no longer depends on it as the
 # primary driver. Instead, each run explicitly triggers the next one itself
-# via the GitHub API (workflow_dispatch), after waiting 15 minutes past its
-# own completion - see the final "Wait, then trigger next run" step. That
-# call fires immediately when made, skipping the flaky schedule-evaluation
-# queue entirely.
+# via the GitHub API (workflow_dispatch), after waiting past its own
+# completion - see the final "Wait, then trigger next run" step (gap
+# widened 15 -> 30 min on 2026-08-23 to comfortably absorb the added
+# per-image vision-model moderation call - see generate_short.py's
+# _check_image_vision_model). That call fires immediately when made,
+# skipping the flaky schedule-evaluation queue entirely.
 #
 # A low-frequency schedule is kept as a safety net only, in case the
 # self-chain ever breaks (e.g. a run gets killed before its last step, or a
@@ -311,7 +313,7 @@ jobs:
         #
         # Wait length depends on whether "Run pipeline" specifically
         # succeeded:
-        #   - success -> full 15 min gap (normal posting cadence)
+        #   - success -> full 30 min gap (normal posting cadence)
         #   - failure -> short 60s wait, then retry right away. Most
         #     failures we've seen there are transient (a flaky Groq/
         #     YouTube API call, a bad TTS voice on one specific country/
@@ -319,7 +321,7 @@ jobs:
         #     English fallback) already reduces how often this path is
         #     even hit. 60s (not 0s) avoids hammering APIs in a tight loop
         #     if something is failing every single time - it still gives
-        #     a fixable failure a fast retry without waiting a full 15 min.
+        #     a fixable failure a fast retry without waiting a full 30 min.
         #
         # Deliberately does NOT fast-retry on upload_queued failures
         # anymore (it used to, alongside run_pipeline). A catch-up-upload
@@ -329,7 +331,7 @@ jobs:
         # the "Delete consumed queued artifact" step above now always
         # discarding the failed item, a 60s retry loop here would burn
         # through the entire remaining queue in minutes instead of at the
-        # normal ~15-min pace. This is exactly the combination (artifact
+        # normal ~30-min pace. This is exactly the combination (artifact
         # never cleared + 60s retry on this specific failure) that turned
         # one blocked upload into ~2000 runs on 2026-08-19/20 with the
         # self-chain never once reaching "Run pipeline" in between.
@@ -338,10 +340,10 @@ jobs:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
           if [ "${{ steps.run_pipeline.outcome }}" = "failure" ]; then
-            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 15 min gap."
+            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 30 min gap."
             sleep 60
           else
-            sleep 900   # 15 min gap - normal posting cadence, and also how long a failed-but-discarded catch-up upload waits before the next queue item gets a turn
+            sleep 1800   # 30 min gap (widened from 15 on 2026-08-23 for the added per-image vision-model check) - normal posting cadence, and also how long a failed-but-discarded catch-up upload waits before the next queue item gets a turn
           fi
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
