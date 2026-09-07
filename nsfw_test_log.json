@@ -33914,6 +33914,148 @@
         }
       ],
       "ran_at": 1787469797.834257
+    },
+    {
+      "run_number": "3836",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34163706680",
+      "topic": "The most breathtaking place to visit in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 136,
+      "images_flagged": 135,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.744,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.307,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Santorini cliff view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Santorini cliff view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Santorini cliff view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Santorini cliff view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "aerial island sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "aerial island sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "aerial island sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "aerial island sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "crystal clear water cove"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "crystal clear water cove"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "crystal clear water cove"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "secret narrow path"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "secret narrow path"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "secret narrow path"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "secret narrow path"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.41,
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.475,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1788823188.9198728
     }
   ]
 }

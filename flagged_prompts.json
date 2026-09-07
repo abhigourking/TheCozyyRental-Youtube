@@ -75,27 +75,13 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1129,
+    "times_flagged": 1131,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.816,
-        "flagged_at": 1787012082.3887627
-      },
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.374,
-        "flagged_at": 1787014510.7712817
-      },
       {
         "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
@@ -116,6 +102,20 @@
         "country": "Italy",
         "confidence": 0.733,
         "flagged_at": 1787059273.3744416
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.814,
+        "flagged_at": 1788823189.2669022
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.752,
+        "flagged_at": 1788823189.744607
       }
     ]
   },
@@ -491,45 +491,45 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 924,
+    "times_flagged": 928,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.834,
-        "flagged_at": 1786944574.0866616
-      },
-      {
-        "topic": "A unique regional specialty from Vietnam most outsiders have never heard of",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.409,
-        "flagged_at": 1786959958.5597866
-      },
-      {
-        "topic": "A must-try traditional dish from Iceland and the story behind it",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.689,
-        "flagged_at": 1787004498.9634101
-      },
-      {
-        "topic": "A unique regional specialty from Argentina most outsiders have never heard of",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.759,
-        "flagged_at": 1787048926.806967
-      },
       {
         "topic": "A hidden gem destination in Indonesia most tourists don't know about",
         "category": "travel",
         "country": "Indonesia",
         "confidence": 0.761,
         "flagged_at": 1787063583.4419103
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.767,
+        "flagged_at": 1788823189.168519
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.654,
+        "flagged_at": 1788823189.2994401
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.335,
+        "flagged_at": 1788823189.3323188
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.798,
+        "flagged_at": 1788823189.3973937
       }
     ]
   },
@@ -26343,7 +26343,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 44,
+    "times_flagged": 53,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26351,39 +26351,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Japan",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Japan",
-        "confidence": 0.767,
-        "flagged_at": 1787052984.821057
+        "country": "Greece",
+        "confidence": 0.782,
+        "flagged_at": 1788823189.118789
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Japan",
-        "confidence": 0.735,
-        "flagged_at": 1787052984.8531826
+        "country": "Greece",
+        "confidence": 0.797,
+        "flagged_at": 1788823189.4313784
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Japan",
-        "confidence": 0.471,
-        "flagged_at": 1787052984.8845723
+        "country": "Greece",
+        "confidence": 0.634,
+        "flagged_at": 1788823189.4649591
       },
       {
-        "topic": "The most viral street food trend in Brazil right now",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.352,
-        "flagged_at": 1787055351.5078323
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.867,
+        "flagged_at": 1788823189.4985225
       },
       {
-        "topic": "A popular food market or food street worth visiting in Egypt",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.778,
-        "flagged_at": 1787067986.6170514
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.839,
+        "flagged_at": 1788823189.6303406
       }
     ]
   },
@@ -27900,9 +27900,10 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 2,
+    "times_flagged": 3,
     "classes": [
-      "FEMALE_BREAST_EXPOSED"
+      "FEMALE_BREAST_EXPOSED",
+      "BUTTOCKS_EXPOSED"
     ],
     "examples": [
       {
@@ -27918,6 +27919,13 @@
         "country": "Brazil",
         "confidence": 0.333,
         "flagged_at": 1786970792.5145068
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.41,
+        "flagged_at": 1788823189.0217807
       }
     ]
   },
@@ -33217,6 +33225,107 @@
         "country": "Greece",
         "confidence": 0.645,
         "flagged_at": 1787469798.136466
+      }
+    ]
+  },
+  "sunset over sea cliff": {
+    "prompt": "sunset over sea cliff",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.433,
+        "flagged_at": 1788823189.20166
+      }
+    ]
+  },
+  "reflective water surface": {
+    "prompt": "reflective water surface",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.74,
+        "flagged_at": 1788823189.2344906
+      }
+    ]
+  },
+  "explorer torchlight": {
+    "prompt": "explorer torchlight",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.66,
+        "flagged_at": 1788823189.3647301
+      }
+    ]
+  },
+  "hand pressing follow button": {
+    "prompt": "hand pressing follow button",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.739,
+        "flagged_at": 1788823189.5314727
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.797,
+        "flagged_at": 1788823189.564368
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.74,
+        "flagged_at": 1788823189.5973716
+      }
+    ]
+  },
+  "map pins dropping": {
+    "prompt": "map pins dropping",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.813,
+        "flagged_at": 1788823189.6629314
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.814,
+        "flagged_at": 1788823189.6953654
       }
     ]
   }
