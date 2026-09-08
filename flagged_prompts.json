@@ -75,20 +75,13 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1131,
+    "times_flagged": 1132,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.707,
-        "flagged_at": 1787052984.7888923
-      },
       {
         "topic": "A unique regional specialty from Italy most outsiders have never heard of",
         "category": "food",
@@ -116,6 +109,13 @@
         "country": "Greece",
         "confidence": 0.752,
         "flagged_at": 1788823189.744607
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.819,
+        "flagged_at": 1788844367.1134746
       }
     ]
   },
@@ -33396,6 +33396,106 @@
         "country": "Turkey",
         "confidence": 0.781,
         "flagged_at": 1788839670.5259233
+      }
+    ]
+  },
+  "temperature gauge": {
+    "prompt": "temperature gauge",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.662,
+        "flagged_at": 1788844367.0143173
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.791,
+        "flagged_at": 1788844367.039746
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.805,
+        "flagged_at": 1788844367.0645916
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1788844367.0890057
+      }
+    ]
+  },
+  "night lighting effects": {
+    "prompt": "night lighting effects",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1788844367.153787
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.824,
+        "flagged_at": 1788844367.1781046
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.655,
+        "flagged_at": 1788844367.202458
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1788844367.2275324
+      }
+    ]
+  },
+  "instagram photo mockup": {
+    "prompt": "instagram photo mockup",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.586,
+        "flagged_at": 1788844367.2520185
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.836,
+        "flagged_at": 1788844367.2766855
       }
     ]
   }

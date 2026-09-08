@@ -34108,6 +34108,81 @@
         }
       ],
       "ran_at": 1788839670.308359
+    },
+    {
+      "run_number": "3838",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34188372203",
+      "topic": "A surprising fact about a famous tourist attraction in South Korea",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 29,
+      "images_flagged": 11,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.662,
+          "prompt": "temperature gauge"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "temperature gauge"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "temperature gauge"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with an unbuttoned shirt that prominently exposes her breasts and nipples.",
+          "prompt": "temperature gauge"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.819,
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman in a sheer, form-fitting garment that reveals the outline of her breasts and nipples, which violates policies regarding sexually suggestive content.",
+          "prompt": "night lighting effects"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.824,
+          "prompt": "night lighting effects"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.655,
+          "prompt": "night lighting effects"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman with bare shoulders and upper back in a suggestive pose, which violates policies regarding sexually suggestive content.",
+          "prompt": "night lighting effects"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.586,
+          "prompt": "instagram photo mockup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.836,
+          "prompt": "instagram photo mockup"
+        }
+      ],
+      "ran_at": 1788844366.98771
     }
   ]
 }
