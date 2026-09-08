@@ -491,19 +491,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 930,
+    "times_flagged": 931,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.654,
-        "flagged_at": 1788823189.2994401
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -531,6 +524,13 @@
         "country": "France",
         "confidence": 1.0,
         "flagged_at": 1788887479.695486
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 1.0,
+        "flagged_at": 1788911061.773291
       }
     ]
   },
@@ -33860,6 +33860,45 @@
         "country": "Thailand",
         "confidence": 0.514,
         "flagged_at": 1788903601.6701894
+      }
+    ]
+  },
+  "tropical fruits display": {
+    "prompt": "tropical fruits display",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.749,
+        "flagged_at": 1788911061.7396104
+      }
+    ]
+  },
+  "people listening to music": {
+    "prompt": "people listening to music",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 1.0,
+        "flagged_at": 1788911061.8068163
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Argentina",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 1.0,
+        "flagged_at": 1788911061.8397655
       }
     ]
   }

@@ -34430,6 +34430,39 @@
         }
       ],
       "ran_at": 1788903601.3589768
+    },
+    {
+      "run_number": "3842",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34290684077",
+      "topic": "A popular food market or food street worth visiting in Argentina",
+      "category": "food",
+      "country": "Argentina",
+      "images_checked": 22,
+      "images_flagged": 4,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.749,
+          "prompt": "tropical fruits display"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a person in a state of undress with exposed skin and a pose that is sexually suggestive.",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features women wearing tops with extremely thin straps that expose the breasts and nipples, which violates the policy against exposed nudity.",
+          "prompt": "people listening to music"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts women with exposed breasts and nipples, which violates the policy against nudity.",
+          "prompt": "people listening to music"
+        }
+      ],
+      "ran_at": 1788911061.7046497
     }
   ]
 }
