@@ -491,18 +491,11 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 928,
+    "times_flagged": 929,
     "classes": [
       "FEMALE_BREAST_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Indonesia most tourists don't know about",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.761,
-        "flagged_at": 1787063583.4419103
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -530,6 +523,13 @@
         "country": "Greece",
         "confidence": 0.798,
         "flagged_at": 1788823189.3973937
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.734,
+        "flagged_at": 1788839670.5595698
       }
     ]
   },
@@ -33326,6 +33326,76 @@
         "country": "Greece",
         "confidence": 0.814,
         "flagged_at": 1788823189.6953654
+      }
+    ]
+  },
+  "close up food signs": {
+    "prompt": "close up food signs",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 1.0,
+        "flagged_at": 1788839670.3444831
+      }
+    ]
+  },
+  "hand picking baklava": {
+    "prompt": "hand picking baklava",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.322,
+        "flagged_at": 1788839670.3783357
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.774,
+        "flagged_at": 1788839670.4115376
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 1.0,
+        "flagged_at": 1788839670.4440882
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.812,
+        "flagged_at": 1788839670.4766586
+      }
+    ]
+  },
+  "steam from tea cup": {
+    "prompt": "steam from tea cup",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Turkey",
+        "category": "food",
+        "country": "Turkey",
+        "confidence": 0.781,
+        "flagged_at": 1788839670.5259233
       }
     ]
   }

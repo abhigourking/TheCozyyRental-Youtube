@@ -34056,6 +34056,58 @@
         }
       ],
       "ran_at": 1788823188.9198728
+    },
+    {
+      "run_number": "3837",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34184001999",
+      "topic": "A popular food market or food street worth visiting in Turkey",
+      "category": "food",
+      "country": "Turkey",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a sexually suggestive pose where pastries are placed over the breasts to emphasize cleavage and create a provocative visual.",
+          "prompt": "close up food signs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.322,
+          "prompt": "hand picking baklava"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "hand picking baklava"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "hand picking baklava"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "hand picking baklava"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.781,
+          "prompt": "steam from tea cup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.734,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1788839670.308359
     }
   ]
 }
