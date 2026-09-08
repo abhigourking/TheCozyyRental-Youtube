@@ -851,7 +851,28 @@ def _check_image_vision_model(path, prompt=None):
                     }],
                     "temperature": 0,
                     "response_format": {"type": "json_object"},
-                    "max_completion_tokens": 200,
+                    # qwen3.6-27b defaults to "thinking mode" (reasoning
+                    # tokens before the actual answer) unless told
+                    # otherwise - confirmed via console.groq.com's own
+                    # model card, and confirmed the hard way: with this
+                    # unset and max_completion_tokens=200, EVERY call was
+                    # hitting Groq's own 400 "max completion tokens
+                    # reached before generating a valid document" (the
+                    # reasoning ate the whole budget before the JSON
+                    # answer), which - fail-closed - flagged nearly every
+                    # image regardless of content and drove a retry
+                    # cascade that burned the entire 200K/day quota
+                    # inside a single video (a 1h43m "Run pipeline" step,
+                    # 136 images checked / 135 flagged, almost all from
+                    # this bug rather than real content). Groq's own docs
+                    # recommend reasoning_effort="none" for exactly this
+                    # kind of quick classification call.
+                    "reasoning_effort": "none",
+                    "reasoning_format": "hidden",  # extra insurance: even
+                    # in non-thinking mode, keep any reasoning content
+                    # out of message.content so it can't ever break the
+                    # JSON parse below.
+                    "max_completion_tokens": 400,
                 },
                 timeout=30,
             )
