@@ -34303,6 +34303,68 @@
         }
       ],
       "ran_at": 1788868556.2817547
+    },
+    {
+      "run_number": "3840",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34252805310",
+      "topic": "The most breathtaking place to visit in France",
+      "category": "travel",
+      "country": "France",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a fully nude person with exposed buttocks and genitals.",
+          "prompt": "waves hitting rocks"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "rainbow over sea"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.841,
+          "prompt": "rainbow over sea"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "rainbow over sea"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "rainbow over sea"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a revealing white bandeau top that prominently emphasizes cleavage and breasts, which falls under sexually suggestive content.",
+          "prompt": "close up water splash"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes the nipple and areola.",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.779,
+          "prompt": "golden sunset"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a female figure with exposed breasts and nipples.",
+          "prompt": "golden sunset"
+        }
+      ],
+      "ran_at": 1788887479.4475505
     }
   ]
 }

@@ -491,18 +491,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 929,
+    "times_flagged": 930,
     "classes": [
-      "FEMALE_BREAST_EXPOSED"
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.767,
-        "flagged_at": 1788823189.168519
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -530,6 +524,13 @@
         "country": "Turkey",
         "confidence": 0.734,
         "flagged_at": 1788839670.5595698
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1788887479.695486
       }
     ]
   },
@@ -33665,6 +33666,99 @@
         "country": "Egypt",
         "confidence": 1.0,
         "flagged_at": 1788868556.938648
+      }
+    ]
+  },
+  "waves hitting rocks": {
+    "prompt": "waves hitting rocks",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1788887479.4832911
+      }
+    ]
+  },
+  "rainbow over sea": {
+    "prompt": "rainbow over sea",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.811,
+        "flagged_at": 1788887479.5167804
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.841,
+        "flagged_at": 1788887479.5495465
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.81,
+        "flagged_at": 1788887479.5821664
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.834,
+        "flagged_at": 1788887479.6146026
+      }
+    ]
+  },
+  "close up water splash": {
+    "prompt": "close up water splash",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1788887479.6469405
+      }
+    ]
+  },
+  "golden sunset": {
+    "prompt": "golden sunset",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.779,
+        "flagged_at": 1788887479.7280917
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1788887479.7608256
       }
     ]
   }
