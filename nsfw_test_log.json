@@ -34183,6 +34183,126 @@
         }
       ],
       "ran_at": 1788844366.98771
+    },
+    {
+      "run_number": "3839",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34220839821",
+      "topic": "A surprising fact about a famous tourist attraction in Egypt",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 34,
+      "images_flagged": 19,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a tight, short garment that exposes the buttocks and is styled in a sexually suggestive manner.",
+          "prompt": "air flow animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.78,
+          "prompt": "air flow animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "air flow animation"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a character in a revealing outfit with a high slit that prominently exposes the buttocks and upper thigh in a sexualized manner.",
+          "prompt": "air flow animation"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately unbuttoned coat that prominently exposes the subject's breasts and cleavage in a sexualized manner.",
+          "prompt": "cold breath fog"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.676,
+          "prompt": "cold breath fog"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.899,
+          "prompt": "heat wave effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "heat wave effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "heat wave effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "heat wave effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "night cooling mist"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a dress with a plunging neckline that prominently exposes cleavage, which falls under the policy regarding clothing that emphasizes breasts in a sexualized way.",
+          "prompt": "night cooling mist"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.744,
+          "prompt": "night cooling mist"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately sexualized pose and outfit with a plunging neckline and high thigh slits that emphasize the body in a provocative manner.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.572,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.584,
+          "prompt": "travel montage preview"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.477,
+          "prompt": "travel montage preview"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "travel montage preview"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with an unbuttoned shirt that prominently exposes her breasts and cleavage in a sexualized manner.",
+          "prompt": "travel montage preview"
+        }
+      ],
+      "ran_at": 1788868556.2817547
     }
   ]
 }

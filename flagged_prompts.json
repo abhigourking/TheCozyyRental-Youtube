@@ -26343,27 +26343,14 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 53,
+    "times_flagged": 55,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
-      "FEMALE_GENITALIA_EXPOSED"
+      "FEMALE_GENITALIA_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.782,
-        "flagged_at": 1788823189.118789
-      },
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.797,
-        "flagged_at": 1788823189.4313784
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -26384,6 +26371,20 @@
         "country": "Greece",
         "confidence": 0.839,
         "flagged_at": 1788823189.6303406
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.771266
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.572,
+        "flagged_at": 1788868556.8046868
       }
     ]
   },
@@ -33496,6 +33497,174 @@
         "country": "South Korea",
         "confidence": 0.836,
         "flagged_at": 1788844367.2766855
+      }
+    ]
+  },
+  "air flow animation": {
+    "prompt": "air flow animation",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.3185074
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.78,
+        "flagged_at": 1788868556.3531263
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.833,
+        "flagged_at": 1788868556.3868942
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.4201288
+      }
+    ]
+  },
+  "cold breath fog": {
+    "prompt": "cold breath fog",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.4535494
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.676,
+        "flagged_at": 1788868556.4867258
+      }
+    ]
+  },
+  "heat wave effect": {
+    "prompt": "heat wave effect",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.899,
+        "flagged_at": 1788868556.5200613
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.834,
+        "flagged_at": 1788868556.553732
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.826,
+        "flagged_at": 1788868556.6033127
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.816,
+        "flagged_at": 1788868556.6374128
+      }
+    ]
+  },
+  "night cooling mist": {
+    "prompt": "night cooling mist",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.811,
+        "flagged_at": 1788868556.670848
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.7042766
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.744,
+        "flagged_at": 1788868556.7378697
+      }
+    ]
+  },
+  "travel montage preview": {
+    "prompt": "travel montage preview",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.584,
+        "flagged_at": 1788868556.8379986
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.477,
+        "flagged_at": 1788868556.8716872
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.754,
+        "flagged_at": 1788868556.9051294
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Egypt",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1788868556.938648
       }
     ]
   }
