@@ -33761,5 +33761,106 @@
         "flagged_at": 1788887479.7608256
       }
     ]
+  },
+  "palm trees shoreline": {
+    "prompt": "palm trees shoreline",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 1.0,
+        "flagged_at": 1788903601.393951
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.681,
+        "flagged_at": 1788903601.4268978
+      }
+    ]
+  },
+  "coconut ice closeup": {
+    "prompt": "coconut ice closeup",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.379,
+        "flagged_at": 1788903601.4596918
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.375,
+        "flagged_at": 1788903601.4922504
+      }
+    ]
+  },
+  "waves crashing sunrise": {
+    "prompt": "waves crashing sunrise",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.783,
+        "flagged_at": 1788903601.524958
+      }
+    ]
+  },
+  "yoga on sand": {
+    "prompt": "yoga on sand",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.724,
+        "flagged_at": 1788903601.5572624
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.532,
+        "flagged_at": 1788903601.589865
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.52,
+        "flagged_at": 1788903601.6370816
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.514,
+        "flagged_at": 1788903601.6701894
+      }
+    ]
   }
 }

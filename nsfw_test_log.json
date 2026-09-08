@@ -34365,6 +34365,71 @@
         }
       ],
       "ran_at": 1788887479.4475505
+    },
+    {
+      "run_number": "3841",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34279528693",
+      "topic": "A hidden gem destination in Thailand most tourists don't know about",
+      "category": "travel",
+      "country": "Thailand",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a person standing nude on a beach, which violates the policy against exposed buttocks and genitals.",
+          "prompt": "palm trees shoreline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.681,
+          "prompt": "palm trees shoreline"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.379,
+          "prompt": "coconut ice closeup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "coconut ice closeup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.783,
+          "prompt": "waves crashing sunrise"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.724,
+          "prompt": "yoga on sand"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.532,
+          "prompt": "yoga on sand"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.52,
+          "prompt": "yoga on sand"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.514,
+          "prompt": "yoga on sand"
+        }
+      ],
+      "ran_at": 1788903601.3589768
     }
   ]
 }
