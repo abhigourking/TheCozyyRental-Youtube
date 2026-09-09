@@ -34463,6 +34463,35 @@
         }
       ],
       "ran_at": 1788911061.7046497
+    },
+    {
+      "run_number": "3846",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34404358622",
+      "topic": "A popular food market or food street worth visiting in Indonesia",
+      "category": "food",
+      "country": "Indonesia",
+      "images_checked": 18,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman with exposed breasts and nipples, which violates the policy against nudity.",
+          "prompt": "close up sizzling grill"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.777,
+          "prompt": "Indonesia flag waving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.796,
+          "prompt": "Indonesia flag waving"
+        }
+      ],
+      "ran_at": 1788988485.8213248
     }
   ]
 }

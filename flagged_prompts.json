@@ -33901,5 +33901,44 @@
         "flagged_at": 1788911061.8397655
       }
     ]
+  },
+  "close up sizzling grill": {
+    "prompt": "close up sizzling grill",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 1.0,
+        "flagged_at": 1788988485.848026
+      }
+    ]
+  },
+  "indonesia flag waving": {
+    "prompt": "Indonesia flag waving",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.777,
+        "flagged_at": 1788988485.8730505
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.796,
+        "flagged_at": 1788988485.9404418
+      }
+    ]
   }
 }
