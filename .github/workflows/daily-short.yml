@@ -140,14 +140,36 @@ jobs:
         # (naturally spaced by the usual 15-min chain gap below) instead of
         # all at once. Uses DISPATCH_TOKEN (same token already used to
         # trigger the next run) to list artifacts via the REST API.
+        #
+        # Deliberately does NOT hard-fail the job on an API error (2026-09-09
+        # fix). This used to use `curl -sf`, which exits nonzero and aborts
+        # the step on any HTTP error - with the body suppressed by -s, so
+        # the real cause (bad token? rate limit? transient 5xx?) never even
+        # made it into the log. Worse: GitHub Actions treats a custom `if:`
+        # on a later step (like "Run pipeline"'s `if:
+        # steps.check_queue.outputs.ready != 'true'`) as `success() && ...`
+        # unless that condition calls always()/failure() - so this step
+        # failing silently skipped "Run pipeline" for the entire run,
+        # wasting a full 3-hour cycle producing nothing. This is a
+        # throughput concern only (never a safety one - it can't cause an
+        # unsafe upload, only a wasted cycle), so on any HTTP error this now
+        # logs the real status/body and proceeds as if the queue were empty
+        # instead of crashing the job.
         id: check_queue
         if: env.SKIP_UPLOAD == 'false'
         env:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
-          RESP=$(curl -sf -H "Authorization: Bearer $DISPATCH_TOKEN" \
+          HTTP_RESP=$(curl -s -w '\n%{http_code}' -H "Authorization: Bearer $DISPATCH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/abhigourking/TheCozyyRental-Youtube/actions/artifacts?per_page=100")
+          HTTP_CODE=$(echo "$HTTP_RESP" | tail -n1)
+          RESP=$(echo "$HTTP_RESP" | sed '$d')
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "::warning::Failed to list artifacts (HTTP $HTTP_CODE): $(echo "$RESP" | head -c 500) - treating as no queued videos this run, proceeding with normal generation instead of skipping the whole run."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           PENDING=$(echo "$RESP" | jq -c '[.artifacts[] | select(.name | startswith("queued-video-")) | select(.expired == false)] | sort_by(.created_at)')
           PENDING_COUNT=$(echo "$PENDING" | jq 'length')
           echo "Queue status: $PENDING_COUNT video(s) waiting to be uploaded (also visible under this repo's Actions -> Artifacts, named queued-video-<run number>)."
