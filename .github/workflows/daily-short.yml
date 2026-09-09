@@ -89,9 +89,20 @@ jobs:
         # sexualized-content gap - not before). Until both are true, every
         # run still executes the full pipeline in SKIP_UPLOAD test mode so
         # generation keeps getting exercised and logged.
+        #
+        # DETECTION_GAP_FIXED flipped to "true" on 2026-09-08 after a
+        # vision-model second check (Groq qwen/qwen3.6-27b, see
+        # _check_image_vision_model in generate_short.py) was added,
+        # tested, and verified against real production data - 6 runs
+        # post-fix, 0 API errors, and real correctly-reasoned catches of
+        # exactly the clothed-but-sexualized category that caused the
+        # second strike ("deliberately plunging neckline that prominently
+        # exposes cleavage", "unbuttoned shirt that prominently exposes
+        # her breasts and nipples", etc.) - 19 of 59 total flags across
+        # those runs came from this layer alone, content NudeNet missed.
         run: |
           RESUME_DATE="2026-09-03"
-          DETECTION_GAP_FIXED="false"
+          DETECTION_GAP_FIXED="true"
           TODAY=$(date -u +%Y-%m-%d)
           if [[ "$DETECTION_GAP_FIXED" != "true" ]]; then
             echo "Upload paused - DETECTION_GAP_FIXED is still false (clothed/sexualized-content detection gap from the 2026-08-19 second strike hasn't been addressed yet). Running in SKIP_UPLOAD test mode regardless of date."
