@@ -1,4 +1,4 @@
-name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
+name: Generate and Upload Shorts (self-chained, ~3 hour gap after each run)
 
 # Repo is public, so Actions minutes are unlimited (public repos don't
 # consume the free-tier minutes quota that private repos do).
@@ -14,6 +14,23 @@ name: Generate and Upload Shorts (self-chained, ~30 min gap after each run)
 # per-image vision-model moderation call - see generate_short.py's
 # _check_image_vision_model). That call fires immediately when made,
 # skipping the flaky schedule-evaluation queue entirely.
+#
+# Gap widened again, 30 min -> 3 hours, on 2026-09-08. Groq's
+# qwen/qwen3.6-27b (the vision-model check) has a hard 200,000 tokens/day
+# quota PER ACCOUNT, and _groq_api_keys() already fails over between two
+# separate Groq accounts (GROQ_API_KEY, GROQ_API_KEY_2), so the real
+# combined ceiling is ~400,000 tokens/day. Real nsfw_test_log.json data
+# (runs 3837-3842) shows ~20-22 vision calls/run; at ~2,048 fixed image
+# tokens + ~330 prompt tokens + ~50 completion tokens per call (~2,400
+# tokens/call, prompt length measured directly from the source, token
+# count approximated at ~4 chars/token since this repo's sandbox can't
+# reach a real tokenizer), that's ~50,000 tokens/run - only ~8 runs/day
+# sustainable combined before hitting the daily cap and fail-closed
+# flagging everything for the rest of the day (exactly what happened
+# during the 2026-09-08 1h43m run that burned the whole daily quota in
+# one video). A 30 min gap was producing far more than 8 runs/day. 3
+# hours keeps it comfortably under that ceiling (~7 runs/day) with margin
+# for the token-per-call estimate being approximate.
 #
 # A low-frequency schedule is kept as a safety net only, in case the
 # self-chain ever breaks (e.g. a run gets killed before its last step, or a
@@ -324,7 +341,8 @@ jobs:
         #
         # Wait length depends on whether "Run pipeline" specifically
         # succeeded:
-        #   - success -> full 30 min gap (normal posting cadence)
+        #   - success -> full 3 hour gap (normal posting cadence - sized to
+        #     the Groq vision-check daily quota, see top-of-file comment)
         #   - failure -> short 60s wait, then retry right away. Most
         #     failures we've seen there are transient (a flaky Groq/
         #     YouTube API call, a bad TTS voice on one specific country/
@@ -351,10 +369,10 @@ jobs:
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
         run: |
           if [ "${{ steps.run_pipeline.outcome }}" = "failure" ]; then
-            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 30 min gap."
+            echo "Pipeline step failed - short 60s wait before retrying, instead of the full 3 hour gap."
             sleep 60
           else
-            sleep 1800   # 30 min gap (widened from 15 on 2026-08-23 for the added per-image vision-model check) - normal posting cadence, and also how long a failed-but-discarded catch-up upload waits before the next queue item gets a turn
+            sleep 10800   # 3 hour gap (widened from 30 min on 2026-09-08 - sized to the Groq vision-check daily token quota, see top-of-file comment) - normal posting cadence, and also how long a failed-but-discarded catch-up upload waits before the next queue item gets a turn
           fi
           curl -sf -X POST \
             -H "Authorization: Bearer $DISPATCH_TOKEN" \
