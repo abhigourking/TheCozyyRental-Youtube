@@ -34079,5 +34079,90 @@
         "flagged_at": 1789016980.1888027
       }
     ]
+  },
+  "sunset over rocks": {
+    "prompt": "sunset over rocks",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.707,
+        "flagged_at": 1789040991.2380965
+      }
+    ]
+  },
+  "hand pouring tea": {
+    "prompt": "hand pouring tea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.672,
+        "flagged_at": 1789040991.2727048
+      }
+    ]
+  },
+  "viewer perspective shot": {
+    "prompt": "viewer perspective shot",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 1.0,
+        "flagged_at": 1789040991.3073666
+      }
+    ]
+  },
+  "highlight reel of greece": {
+    "prompt": "highlight reel of Greece",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.825,
+        "flagged_at": 1789040991.3414226
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.805,
+        "flagged_at": 1789040991.3755972
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.757,
+        "flagged_at": 1789040991.409724
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.861,
+        "flagged_at": 1789040991.462578
+      }
+    ]
   }
 }

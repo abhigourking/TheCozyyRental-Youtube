@@ -34600,6 +34600,59 @@
         }
       ],
       "ran_at": 1789016980.014327
+    },
+    {
+      "run_number": "3849",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34471631484",
+      "topic": "The most breathtaking place to visit in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 25,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.707,
+          "prompt": "sunset over rocks"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.672,
+          "prompt": "hand pouring tea"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude woman with exposed breasts and nipples, which violates the policy against nudity.",
+          "prompt": "viewer perspective shot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.825,
+          "prompt": "highlight reel of Greece"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.805,
+          "prompt": "highlight reel of Greece"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "highlight reel of Greece"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.861,
+          "prompt": "highlight reel of Greece"
+        }
+      ],
+      "ran_at": 1789040991.2005715
     }
   ]
 }
