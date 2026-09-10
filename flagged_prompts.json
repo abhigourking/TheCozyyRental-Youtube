@@ -491,19 +491,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 931,
+    "times_flagged": 932,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.335,
-        "flagged_at": 1788823189.3323188
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -531,6 +524,13 @@
         "country": "Argentina",
         "confidence": 1.0,
         "flagged_at": 1788911061.773291
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 1.0,
+        "flagged_at": 1789016980.1659205
       }
     ]
   },
@@ -34031,6 +34031,52 @@
         "country": "Greece",
         "confidence": 0.78,
         "flagged_at": 1789000606.0494118
+      }
+    ]
+  },
+  "cliffside road amalfi": {
+    "prompt": "cliffside road Amalfi",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.82,
+        "flagged_at": 1789016980.0393393
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.771,
+        "flagged_at": 1789016980.0627599
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.838,
+        "flagged_at": 1789016980.1426308
+      }
+    ]
+  },
+  "sunset over sea": {
+    "prompt": "sunset over sea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.505,
+        "flagged_at": 1789016980.1888027
       }
     ]
   }

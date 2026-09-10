@@ -34559,6 +34559,47 @@
         }
       ],
       "ran_at": 1789000605.7260864
+    },
+    {
+      "run_number": "3848",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34438928548",
+      "topic": "The most breathtaking place to visit in Italy",
+      "category": "travel",
+      "country": "Italy",
+      "images_checked": 20,
+      "images_flagged": 5,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "cliffside road Amalfi"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "cliffside road Amalfi"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "cliffside road Amalfi"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a sexually suggestive pose with the subject's hand placed on the zipper of her pants, which violates policies regarding content meant to be sexually gratifying.",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.505,
+          "prompt": "sunset over sea"
+        }
+      ],
+      "ran_at": 1789016980.014327
     }
   ]
 }
