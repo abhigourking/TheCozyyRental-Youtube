@@ -34492,6 +34492,73 @@
         }
       ],
       "ran_at": 1788988485.8213248
+    },
+    {
+      "run_number": "3847",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34416457290",
+      "topic": "A surprising fact about a famous tourist attraction in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.739,
+          "prompt": "guided tour group"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts women wearing bras as outerwear, which falls under the policy of underwear worn as outerwear in a suggestive way.",
+          "prompt": "guided tour group"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman walking in public wearing only underwear, which violates policies regarding sexually suggestive content and public nudity.",
+          "prompt": "guided tour group"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing underwear as outerwear, which violates the policy against underwear worn as outerwear in a suggestive way.",
+          "prompt": "guided tour group"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a topless outfit using a bag strap to cover her breasts, which constitutes sexually suggestive content and partial nudity.",
+          "prompt": "tourist listening"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "tourist listening"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "tourist listening"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The woman's top features a plunging neckline that prominently exposes cleavage in a manner that falls under the policy's definition of sexualized clothing.",
+          "prompt": "excited tourist reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.78,
+          "prompt": "excited tourist reaction"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.828,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1789000605.7260864
     }
   ]
 }
