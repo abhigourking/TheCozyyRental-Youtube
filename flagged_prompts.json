@@ -26344,7 +26344,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 60,
+    "times_flagged": 68,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26353,39 +26353,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Greece",
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.828,
-        "flagged_at": 1789000606.0824916
+        "country": "Philippines",
+        "confidence": 0.716,
+        "flagged_at": 1789076106.2096543
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
         "category": "travel",
-        "country": "Peru",
-        "confidence": 0.691,
-        "flagged_at": 1789059858.066021
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Peru",
-        "category": "travel",
-        "country": "Peru",
+        "country": "Philippines",
         "confidence": 1.0,
-        "flagged_at": 1789059858.1001189
+        "flagged_at": 1789076106.2289088
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
         "category": "travel",
-        "country": "Peru",
-        "confidence": 0.697,
-        "flagged_at": 1789059858.1342049
+        "country": "Philippines",
+        "confidence": 0.795,
+        "flagged_at": 1789076106.2608778
       },
       {
-        "topic": "A bucket-list experience you can only have in Peru",
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
         "category": "travel",
-        "country": "Peru",
-        "confidence": 0.702,
-        "flagged_at": 1789059858.167595
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076106.28079
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.839,
+        "flagged_at": 1789076106.3000362
       }
     ]
   },
@@ -34357,6 +34357,156 @@
         "country": "Peru",
         "confidence": 0.866,
         "flagged_at": 1789059858.235596
+      }
+    ]
+  },
+  "vibrant city skyline sunset": {
+    "prompt": "vibrant city skyline sunset",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED",
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076105.7989123
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.785,
+        "flagged_at": 1789076105.818714
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.651,
+        "flagged_at": 1789076105.8384316
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.357,
+        "flagged_at": 1789076105.950369
+      }
+    ]
+  },
+  "people taking selfies": {
+    "prompt": "people taking selfies",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076105.970052
+      }
+    ]
+  },
+  "close-up of neon reflections": {
+    "prompt": "close-up of neon reflections",
+    "times_flagged": 3,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076106.027833
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076106.047028
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.348,
+        "flagged_at": 1789076106.0663114
+      }
+    ]
+  },
+  "halo\u2011halo bowl being mixed": {
+    "prompt": "halo\u2011halo bowl being mixed",
+    "times_flagged": 2,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.388,
+        "flagged_at": 1789076106.0855649
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.331,
+        "flagged_at": 1789076106.104725
+      }
+    ]
+  },
+  "happy eater taking a bite": {
+    "prompt": "happy eater taking a bite",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.764,
+        "flagged_at": 1789076106.1238878
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076106.1430333
+      }
+    ]
+  },
+  "panoramic sunset over ocean": {
+    "prompt": "panoramic sunset over ocean",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 1.0,
+        "flagged_at": 1789076106.162338
       }
     ]
   }
