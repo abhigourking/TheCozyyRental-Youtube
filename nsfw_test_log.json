@@ -34653,6 +34653,142 @@
         }
       ],
       "ran_at": 1789040991.2005715
+    },
+    {
+      "run_number": "3850",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34502613317",
+      "topic": "A bucket-list experience you can only have in Peru",
+      "category": "travel",
+      "country": "Peru",
+      "images_checked": 40,
+      "images_flagged": 22,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image contains a figure with distorted, elongated legs that appear to be bare skin, which violates the policy against exposed skin.",
+          "prompt": "misty mountain trail"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.668,
+          "prompt": "misty mountain trail"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage, which falls under the policy regarding clothing meant to be sexually gratifying.",
+          "prompt": "hand holding coca tea cup"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.764,
+          "prompt": "mist over ruins"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a fully nude figure with exposed buttocks.",
+          "prompt": "mist over ruins"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.755,
+          "prompt": "coca leaf tea pouring"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "coca leaf tea pouring"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes the breasts and cleavage in a sexualized manner.",
+          "prompt": "coca leaf tea pouring"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.789,
+          "prompt": "Sacred Valley twilight"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a short, tight-fitting white dress that resembles lingerie or sleepwear, which is considered sexually suggestive and inappropriate for a family-friendly context.",
+          "prompt": "Sacred Valley twilight"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "Sacred Valley twilight"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.585,
+          "prompt": "Sacred Valley twilight"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.646,
+          "prompt": "river reflections stars"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude female figure with exposed breasts and genitals.",
+          "prompt": "river reflections stars"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "river reflections stars"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "river reflections stars"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.691,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a figure wearing underwear as outerwear, which falls under the policy regarding underwear worn as outerwear in a suggestive way.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.697,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.702,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "quick montage of Peru highlights"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.866,
+          "prompt": "quick montage of Peru highlights"
+        }
+      ],
+      "ran_at": 1789059857.4721925
     }
   ]
 }

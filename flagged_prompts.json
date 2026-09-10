@@ -26344,7 +26344,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 56,
+    "times_flagged": 60,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26353,39 +26353,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.867,
-        "flagged_at": 1788823189.4985225
-      },
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.839,
-        "flagged_at": 1788823189.6303406
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Egypt",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 1.0,
-        "flagged_at": 1788868556.771266
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Egypt",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.572,
-        "flagged_at": 1788868556.8046868
-      },
-      {
         "topic": "A surprising fact about a famous tourist attraction in Greece",
         "category": "travel",
         "country": "Greece",
         "confidence": 0.828,
         "flagged_at": 1789000606.0824916
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.691,
+        "flagged_at": 1789059858.066021
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059858.1001189
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.697,
+        "flagged_at": 1789059858.1342049
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.702,
+        "flagged_at": 1789059858.167595
       }
     ]
   },
@@ -34162,6 +34162,201 @@
         "country": "Greece",
         "confidence": 0.861,
         "flagged_at": 1789040991.462578
+      }
+    ]
+  },
+  "misty mountain trail": {
+    "prompt": "misty mountain trail",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.5081384
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.668,
+        "flagged_at": 1789059857.5423956
+      }
+    ]
+  },
+  "hand holding coca tea cup": {
+    "prompt": "hand holding coca tea cup",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.576452
+      }
+    ]
+  },
+  "mist over ruins": {
+    "prompt": "mist over ruins",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.764,
+        "flagged_at": 1789059857.6099415
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.6435597
+      }
+    ]
+  },
+  "coca leaf tea pouring": {
+    "prompt": "coca leaf tea pouring",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.755,
+        "flagged_at": 1789059857.6772053
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.7110965
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.745037
+      }
+    ]
+  },
+  "sacred valley twilight": {
+    "prompt": "Sacred Valley twilight",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.789,
+        "flagged_at": 1789059857.7788134
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.827868
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.813,
+        "flagged_at": 1789059857.862105
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.585,
+        "flagged_at": 1789059857.8960018
+      }
+    ]
+  },
+  "river reflections stars": {
+    "prompt": "river reflections stars",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.646,
+        "flagged_at": 1789059857.9301105
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789059857.9639153
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.701,
+        "flagged_at": 1789059857.997881
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.839,
+        "flagged_at": 1789059858.0316322
+      }
+    ]
+  },
+  "quick montage of peru highlights": {
+    "prompt": "quick montage of Peru highlights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.826,
+        "flagged_at": 1789059858.2013402
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.866,
+        "flagged_at": 1789059858.235596
       }
     ]
   }
