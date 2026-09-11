@@ -35010,5 +35010,53 @@
         "flagged_at": 1789146198.6321905
       }
     ]
+  },
+  "sand dunes close up": {
+    "prompt": "sand dunes close up",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1789161589.9517198
+      }
+    ]
+  },
+  "emerald water reflection": {
+    "prompt": "emerald water reflection",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1789161589.9787214
+      }
+    ]
+  },
+  "rose water pour": {
+    "prompt": "rose water pour",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.435,
+        "flagged_at": 1789161590.0055454
+      }
+    ]
   }
 }

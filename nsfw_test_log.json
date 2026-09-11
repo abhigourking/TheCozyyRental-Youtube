@@ -35261,6 +35261,34 @@
         }
       ],
       "ran_at": 1789146198.0650253
+    },
+    {
+      "run_number": "3856",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34647413090",
+      "topic": "A hidden gem destination in Egypt most tourists don't know about",
+      "category": "travel",
+      "country": "Egypt",
+      "images_checked": 21,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a young girl with her clothing slipping off her shoulders, exposing her chest and torso in a manner that violates safety policies regarding the sexualization of minors.",
+          "prompt": "sand dunes close up"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a person in a swimsuit with a pose and framing that emphasizes the buttocks and body shape in a sexually suggestive manner.",
+          "prompt": "emerald water reflection"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.435,
+          "prompt": "rose water pour"
+        }
+      ],
+      "ran_at": 1789161589.9226327
     }
   ]
 }
