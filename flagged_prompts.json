@@ -34850,5 +34850,165 @@
         "flagged_at": 1789127196.7947378
       }
     ]
+  },
+  "map pin reveal": {
+    "prompt": "map pin reveal",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.815,
+        "flagged_at": 1789146198.1012905
+      }
+    ]
+  },
+  "hidden village italy": {
+    "prompt": "hidden village Italy",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.816,
+        "flagged_at": 1789146198.1362858
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.8,
+        "flagged_at": 1789146198.171155
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.429,
+        "flagged_at": 1789146198.2050364
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.676,
+        "flagged_at": 1789146198.2390664
+      }
+    ]
+  },
+  "truffle on toast": {
+    "prompt": "truffle on toast",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.813,
+        "flagged_at": 1789146198.272852
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 1.0,
+        "flagged_at": 1789146198.3224003
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.526,
+        "flagged_at": 1789146198.3568277
+      }
+    ]
+  },
+  "handcrafted pottery": {
+    "prompt": "handcrafted pottery",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.834,
+        "flagged_at": 1789146198.390539
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.83,
+        "flagged_at": 1789146198.4237955
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.851,
+        "flagged_at": 1789146198.4579177
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.804,
+        "flagged_at": 1789146198.4924366
+      }
+    ]
+  },
+  "hand clicking subscribe": {
+    "prompt": "hand clicking subscribe",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 1.0,
+        "flagged_at": 1789146198.5271325
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.818,
+        "flagged_at": 1789146198.562334
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 1.0,
+        "flagged_at": 1789146198.5979207
+      },
+      {
+        "topic": "A hidden gem destination in Italy most tourists don't know about",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 1.0,
+        "flagged_at": 1789146198.6321905
+      }
+    ]
   }
 }

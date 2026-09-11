@@ -35157,6 +35157,110 @@
         }
       ],
       "ran_at": 1789127196.7346828
+    },
+    {
+      "run_number": "3855",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34622902015",
+      "topic": "A hidden gem destination in Italy most tourists don't know about",
+      "category": "travel",
+      "country": "Italy",
+      "images_checked": 34,
+      "images_flagged": 16,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.815,
+          "prompt": "map pin reveal"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "hidden village Italy"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "hidden village Italy"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.429,
+          "prompt": "hidden village Italy"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.676,
+          "prompt": "hidden village Italy"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "truffle on toast"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a topless woman using a food item to cover her breasts, which constitutes sexually suggestive content.",
+          "prompt": "truffle on toast"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.526,
+          "prompt": "truffle on toast"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "handcrafted pottery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "handcrafted pottery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.851,
+          "prompt": "handcrafted pottery"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.804,
+          "prompt": "handcrafted pottery"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexually suggestive manner.",
+          "prompt": "hand clicking subscribe"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.818,
+          "prompt": "hand clicking subscribe"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexually suggestive manner.",
+          "prompt": "hand clicking subscribe"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately unbuttoned shirt that prominently exposes breasts and nipples, which violates the policy against sexually suggestive content.",
+          "prompt": "hand clicking subscribe"
+        }
+      ],
+      "ran_at": 1789146198.0650253
     }
   ]
 }
