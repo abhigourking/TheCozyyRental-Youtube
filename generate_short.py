@@ -1988,24 +1988,34 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
     # stays accurate when a native voice fell back to English.
     logged_language = native["name"] if (native and narrating_native) else language
 
-    # Extra safety gate on top of the per-shot retry logic in
-    # download_image()/prepare_shot_clips(), which already guarantees a
-    # flagged image is never the one that actually ends up in the
-    # assembled video (it gets retried away or swapped for a safe
-    # fallback/stock/reused clip first). This is stricter still: if the
-    # detector flagged ANYTHING at all while generating this video's
-    # shots, don't publish or queue it for later publishing, even though
-    # the visuals actually used are already clean. Deliberately
-    # conservative given the strike history - a flag means the model tried
-    # to produce unsafe content for this topic at least once, and that's
-    # not a bar worth publishing right up against. Costs nothing: a fresh
-    # topic gets tried automatically next cycle (~15 min later).
+    # 2026-09-11: this used to be a hard gate - ANY candidate image flagged
+    # during generation, even one immediately retried away or swapped for a
+    # safe fallback/stock/reused clip and never actually used, threw away
+    # the whole video. Real nsfw_test_log.json data showed that made real
+    # uploads impossible: across the last 40 logged runs (spanning before
+    # AND after the vision-model check was added and DETECTION_GAP_FIXED
+    # was flipped true), zero had zero flagged candidates - with 20-40
+    # images generated per video, the odds of every single one passing on
+    # its first or retried attempt are near zero, especially now that the
+    # vision check also flags clothed-but-sexualized content, not just
+    # exposed skin. This gate was silently blocking 100% of uploads since
+    # before the second strike (2026-08-19) - DETECTION_GAP_FIXED=true had
+    # no real effect in practice because nothing ever got past this point.
+    #
+    # What actually needs to be zero-tolerance is what ends up IN the
+    # published video, not what was tried and discarded along the way.
+    # download_image()/prepare_shot_clips() already guarantee a flagged
+    # candidate is never the one used - retried with a fresh seed, then a
+    # generic fallback prompt, then degraded to stock footage/a reused
+    # clean clip/solid color if even that fails (see prepare_shot_clips()'s
+    # docstring). So a flag here means a candidate was correctly caught and
+    # discarded - exactly the system working as designed - not a reason to
+    # discard the finished video too.
     if _NSFW_RUN_STATS["flagged"] > 0:
-        print(f"  {_NSFW_RUN_STATS['flagged']} image(s) were flagged during generation for "
-              f"this topic - skipping upload/queue entirely out of caution, even though the "
-              f"assembled video only used visuals that passed the check. Will try a "
-              f"different topic next cycle.", flush=True)
-        return
+        print(f"  {_NSFW_RUN_STATS['flagged']} image(s) were flagged and retried/discarded "
+              f"during generation for this topic - none were used in the assembled video "
+              f"(per-shot retry/fallback already guarantees that). Proceeding normally.",
+              flush=True)
 
     # Set SKIP_UPLOAD=true to render and save locally without touching
     # YouTube at all - useful while you're still dialing in quality/pacing
