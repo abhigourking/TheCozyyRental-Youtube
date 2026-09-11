@@ -35128,6 +35128,35 @@
         }
       ],
       "ran_at": 1789103730.6442268
+    },
+    {
+      "run_number": "3854",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34594499456",
+      "topic": "A hidden gem destination in Japan most tourists don't know about",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 18,
+      "images_flagged": 3,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.706,
+          "prompt": "zipline over gorge"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with an unbuttoned jacket that prominently exposes her breasts and nipples.",
+          "prompt": "adrenaline rush POV"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.793,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1789127196.7346828
     }
   ]
 }
