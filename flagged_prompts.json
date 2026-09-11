@@ -26344,7 +26344,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 68,
+    "times_flagged": 71,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26352,27 +26352,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Philippines that's all over social media right now",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.716,
-        "flagged_at": 1789076106.2096543
-      },
-      {
-        "topic": "A viral travel spot in Philippines that's all over social media right now",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 1.0,
-        "flagged_at": 1789076106.2289088
-      },
-      {
-        "topic": "A viral travel spot in Philippines that's all over social media right now",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.795,
-        "flagged_at": 1789076106.2608778
-      },
       {
         "topic": "A viral travel spot in Philippines that's all over social media right now",
         "category": "travel",
@@ -26386,6 +26365,27 @@
         "country": "Philippines",
         "confidence": 0.839,
         "flagged_at": 1789076106.3000362
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.348,
+        "flagged_at": 1789088596.5637796
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.821,
+        "flagged_at": 1789088596.5933867
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 1.0,
+        "flagged_at": 1789088596.6229596
       }
     ]
   },
@@ -34507,6 +34507,168 @@
         "country": "Philippines",
         "confidence": 1.0,
         "flagged_at": 1789076106.162338
+      }
+    ]
+  },
+  "close up tagine pot": {
+    "prompt": "close up tagine pot",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.739,
+        "flagged_at": 1789088596.2202663
+      }
+    ]
+  },
+  "steam rising food": {
+    "prompt": "steam rising food",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.725,
+        "flagged_at": 1789088596.2508743
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.836,
+        "flagged_at": 1789088596.2806346
+      }
+    ]
+  },
+  "moroccan market spices": {
+    "prompt": "moroccan market spices",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.538,
+        "flagged_at": 1789088596.3105583
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.443,
+        "flagged_at": 1789088596.339902
+      }
+    ]
+  },
+  "spices being sprinkled": {
+    "prompt": "spices being sprinkled",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.464,
+        "flagged_at": 1789088596.3693774
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.499,
+        "flagged_at": 1789088596.4150925
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.709,
+        "flagged_at": 1789088596.4449782
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 1.0,
+        "flagged_at": 1789088596.4744678
+      }
+    ]
+  },
+  "broth bubbling": {
+    "prompt": "broth bubbling",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 1.0,
+        "flagged_at": 1789088596.5043843
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.794,
+        "flagged_at": 1789088596.534118
+      }
+    ]
+  },
+  "people laughing around table": {
+    "prompt": "people laughing around table",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 1.0,
+        "flagged_at": 1789088596.6527362
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.713,
+        "flagged_at": 1789088596.6824024
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 0.845,
+        "flagged_at": 1789088596.7117987
+      },
+      {
+        "topic": "A must-try traditional dish from Morocco and the story behind it",
+        "category": "food",
+        "country": "Morocco",
+        "confidence": 1.0,
+        "flagged_at": 1789088596.741437
       }
     ]
   }

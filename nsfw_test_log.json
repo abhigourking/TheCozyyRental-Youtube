@@ -34919,6 +34919,121 @@
         }
       ],
       "ran_at": 1789076105.7772124
+    },
+    {
+      "run_number": "3852",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34541235025",
+      "topic": "A must-try traditional dish from Morocco and the story behind it",
+      "category": "food",
+      "country": "Morocco",
+      "images_checked": 36,
+      "images_flagged": 18,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.739,
+          "prompt": "close up tagine pot"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.725,
+          "prompt": "steam rising food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.836,
+          "prompt": "steam rising food"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.538,
+          "prompt": "moroccan market spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.443,
+          "prompt": "moroccan market spices"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.464,
+          "prompt": "spices being sprinkled"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.499,
+          "prompt": "spices being sprinkled"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.709,
+          "prompt": "spices being sprinkled"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "spices being sprinkled"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image prominently exposes breasts and nipples, which violates the policy against nudity.",
+          "prompt": "broth bubbling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "broth bubbling"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.348,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.821,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a backless outfit that prominently exposes her bare back and shoulders, which falls under the policy of clothing that emphasizes the body in a sexualized manner.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with an unbuttoned shirt that prominently exposes her breasts and nipples.",
+          "prompt": "people laughing around table"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.713,
+          "prompt": "people laughing around table"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.845,
+          "prompt": "people laughing around table"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman with exposed breasts, which violates the policy against nudity.",
+          "prompt": "people laughing around table"
+        }
+      ],
+      "ran_at": 1789088596.1883547
     }
   ]
 }
