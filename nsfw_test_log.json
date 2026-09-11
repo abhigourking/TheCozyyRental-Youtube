@@ -35034,6 +35034,100 @@
         }
       ],
       "ran_at": 1789088596.1883547
+    },
+    {
+      "run_number": "3853",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34563710709",
+      "topic": "A popular food market or food street worth visiting in France",
+      "category": "food",
+      "country": "France",
+      "images_checked": 32,
+      "images_flagged": 14,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.615,
+          "prompt": "Paris street market entrance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.816,
+          "prompt": "Paris street market entrance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.748,
+          "prompt": "Paris street market entrance"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberate cutout in the clothing that prominently exposes breasts, which violates policies against sexually suggestive content and partial nudity.",
+          "prompt": "Paris street market entrance"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.742,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.587,
+          "prompt": "falafel being fried"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with a deliberately unbuttoned top that prominently exposes her breasts and nipples.",
+          "prompt": "tourist tasting bites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.624,
+          "prompt": "tourist tasting bites"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.757,
+          "prompt": "quick bite montage"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "busy Sunday market"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "people laughing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "people laughing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.369,
+          "prompt": "people laughing"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.85,
+          "prompt": "people laughing"
+        }
+      ],
+      "ran_at": 1789103730.6442268
     }
   ]
 }

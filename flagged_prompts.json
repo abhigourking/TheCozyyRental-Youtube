@@ -491,19 +491,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 932,
+    "times_flagged": 933,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.798,
-        "flagged_at": 1788823189.3973937
-      },
       {
         "topic": "A popular food market or food street worth visiting in Turkey",
         "category": "food",
@@ -531,6 +524,13 @@
         "country": "Italy",
         "confidence": 1.0,
         "flagged_at": 1789016980.1659205
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.742,
+        "flagged_at": 1789103730.8131082
       }
     ]
   },
@@ -34669,6 +34669,153 @@
         "country": "Morocco",
         "confidence": 1.0,
         "flagged_at": 1789088596.741437
+      }
+    ]
+  },
+  "paris street market entrance": {
+    "prompt": "Paris street market entrance",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.615,
+        "flagged_at": 1789103730.679812
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.816,
+        "flagged_at": 1789103730.7135525
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.748,
+        "flagged_at": 1789103730.7469044
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789103730.779961
+      }
+    ]
+  },
+  "falafel being fried": {
+    "prompt": "falafel being fried",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.587,
+        "flagged_at": 1789103730.861439
+      }
+    ]
+  },
+  "tourist tasting bites": {
+    "prompt": "tourist tasting bites",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789103730.8952549
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.624,
+        "flagged_at": 1789103730.928476
+      }
+    ]
+  },
+  "quick bite montage": {
+    "prompt": "quick bite montage",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.757,
+        "flagged_at": 1789103730.9614077
+      }
+    ]
+  },
+  "busy sunday market": {
+    "prompt": "busy Sunday market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.826,
+        "flagged_at": 1789103730.9943564
+      }
+    ]
+  },
+  "people laughing": {
+    "prompt": "people laughing",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.822,
+        "flagged_at": 1789103731.0275204
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.838,
+        "flagged_at": 1789103731.0604312
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.369,
+        "flagged_at": 1789103731.0941339
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in France",
+        "category": "food",
+        "country": "France",
+        "confidence": 0.85,
+        "flagged_at": 1789103731.1276221
       }
     ]
   }
