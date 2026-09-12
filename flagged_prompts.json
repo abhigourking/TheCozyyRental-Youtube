@@ -26344,7 +26344,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 71,
+    "times_flagged": 73,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26352,20 +26352,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A viral travel spot in Philippines that's all over social media right now",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 1.0,
-        "flagged_at": 1789076106.28079
-      },
-      {
-        "topic": "A viral travel spot in Philippines that's all over social media right now",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.839,
-        "flagged_at": 1789076106.3000362
-      },
       {
         "topic": "A must-try traditional dish from Morocco and the story behind it",
         "category": "food",
@@ -26386,6 +26372,20 @@
         "country": "Morocco",
         "confidence": 1.0,
         "flagged_at": 1789088596.6229596
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.753,
+        "flagged_at": 1789173883.0769875
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1789173883.110228
       }
     ]
   },
@@ -35056,6 +35056,120 @@
         "country": "Egypt",
         "confidence": 0.435,
         "flagged_at": 1789161590.0055454
+      }
+    ]
+  },
+  "wide aerial sweep": {
+    "prompt": "wide aerial sweep",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1789173883.0430954
+      }
+    ]
+  },
+  "meditative visitor": {
+    "prompt": "meditative visitor",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.822,
+        "flagged_at": 1789173883.1429892
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.74,
+        "flagged_at": 1789173883.176228
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.856,
+        "flagged_at": 1789173883.2097945
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.754,
+        "flagged_at": 1789173883.24351
+      }
+    ]
+  },
+  "person snapping phone": {
+    "prompt": "person snapping phone",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.627,
+        "flagged_at": 1789173883.2769408
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.331,
+        "flagged_at": 1789173883.310726
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 1.0,
+        "flagged_at": 1789173883.3594441
+      }
+    ]
+  },
+  "share icon spreading": {
+    "prompt": "share icon spreading",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.645,
+        "flagged_at": 1789173883.3933146
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.782,
+        "flagged_at": 1789173883.4265764
+      },
+      {
+        "topic": "The most breathtaking place to visit in South Korea",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.741,
+        "flagged_at": 1789173883.460144
       }
     ]
   }

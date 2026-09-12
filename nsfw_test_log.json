@@ -35289,6 +35289,93 @@
         }
       ],
       "ran_at": 1789161589.9226327
+    },
+    {
+      "run_number": "3857",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34657743050",
+      "topic": "The most breathtaking place to visit in South Korea",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 31,
+      "images_flagged": 13,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a sexually suggestive pose and framing that emphasizes the subject's cleavage and thighs.",
+          "prompt": "wide aerial sweep"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.753,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a backless outfit that prominently exposes her bare back and buttocks, which falls under the policy regarding sexualized clothing and emphasis on body parts.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "meditative visitor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.74,
+          "prompt": "meditative visitor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.856,
+          "prompt": "meditative visitor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.754,
+          "prompt": "meditative visitor"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.627,
+          "prompt": "person snapping phone"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.331,
+          "prompt": "person snapping phone"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "person snapping phone"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.645,
+          "prompt": "share icon spreading"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.782,
+          "prompt": "share icon spreading"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.741,
+          "prompt": "share icon spreading"
+        }
+      ],
+      "ran_at": 1789173883.0074804
     }
   ]
 }
