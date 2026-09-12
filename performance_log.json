@@ -5746,6 +5746,16 @@
       "groq_tokens": 23290,
       "groq_calls": 20,
       "posted_at": 1789228729.4186192
+    },
+    {
+      "video_id": "Bhvt7fE7Zp4",
+      "category": "food",
+      "language": "Egyptian Arabic",
+      "topic": "The most viral street food trend in Egypt right now",
+      "country": "Egypt",
+      "groq_tokens": 24850,
+      "groq_calls": 21,
+      "posted_at": 1789246919.4403064
     }
   ]
 }

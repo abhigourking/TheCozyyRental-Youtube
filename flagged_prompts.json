@@ -75,20 +75,14 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1132,
+    "times_flagged": 1133,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
-      "BUTTOCKS_EXPOSED"
+      "BUTTOCKS_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.779,
-        "flagged_at": 1787059273.336172
-      },
       {
         "topic": "A unique regional specialty from Italy most outsiders have never heard of",
         "category": "food",
@@ -116,6 +110,13 @@
         "country": "South Korea",
         "confidence": 0.819,
         "flagged_at": 1788844367.1134746
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1789246917.443101
       }
     ]
   },
@@ -26344,7 +26345,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 77,
+    "times_flagged": 78,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26352,13 +26353,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 1.0,
-        "flagged_at": 1789173883.110228
-      },
       {
         "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
@@ -26386,6 +26380,13 @@
         "country": "France",
         "confidence": 1.0,
         "flagged_at": 1789212128.4048045
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.59,
+        "flagged_at": 1789246917.0286677
       }
     ]
   },
@@ -35597,6 +35598,78 @@
         "country": "Mexico",
         "confidence": 1.0,
         "flagged_at": 1789228727.5515895
+      }
+    ]
+  },
+  "nuts sprinkling": {
+    "prompt": "nuts sprinkling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.821,
+        "flagged_at": 1789246917.0522134
+      }
+    ]
+  },
+  "bottle drink on table": {
+    "prompt": "bottle drink on table",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 1.0,
+        "flagged_at": 1789246917.0745912
+      },
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.729,
+        "flagged_at": 1789246917.0967064
+      }
+    ]
+  },
+  "phone filming food": {
+    "prompt": "phone filming food",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.323,
+        "flagged_at": 1789246917.3751657
+      }
+    ]
+  },
+  "red sauce close up": {
+    "prompt": "red sauce close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Egypt right now",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.429,
+        "flagged_at": 1789246917.4048607
       }
     ]
   }
