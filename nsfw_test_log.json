@@ -35571,6 +35571,86 @@
         }
       ],
       "ran_at": 1789212127.866934
+    },
+    {
+      "run_number": "3860",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34702792948",
+      "topic": "A surprising fact about a famous tourist attraction in Mexico",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 27,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a dress with a plunging neckline that prominently exposes her breasts and nipples.",
+          "prompt": "sound wave animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "sound wave animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.815,
+          "prompt": "sound wave animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.768,
+          "prompt": "sound wave animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.723,
+          "prompt": "top of pyramid view"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a massive crowd of nude figures, which violates policies regarding exposed skin and nudity.",
+          "prompt": "festival crowd near pyramid"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman with a deliberately open shirt exposing her breasts and nipples, which violates the policy against nudity and sexually suggestive content.",
+          "prompt": "person shouting"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "person shouting"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.462,
+          "prompt": "echo visual effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.778,
+          "prompt": "echo visual effect"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a revealing outfit with a plunging neckline that prominently exposes cleavage, which violates the policy against sexually suggestive content.",
+          "prompt": "echo visual effect"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.739,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1789228727.1716413
     }
   ]
 }

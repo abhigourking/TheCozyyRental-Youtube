@@ -491,19 +491,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 934,
+    "times_flagged": 935,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 1.0,
-        "flagged_at": 1788887479.695486
-      },
       {
         "topic": "A popular food market or food street worth visiting in Argentina",
         "category": "food",
@@ -531,6 +524,13 @@
         "country": "Japan",
         "confidence": 0.793,
         "flagged_at": 1789127196.8242652
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.739,
+        "flagged_at": 1789228727.58475
       }
     ]
   },
@@ -35472,6 +35472,131 @@
         "country": "France",
         "confidence": 1.0,
         "flagged_at": 1789212128.2654302
+      }
+    ]
+  },
+  "sound wave animation": {
+    "prompt": "sound wave animation",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 1.0,
+        "flagged_at": 1789228727.2061825
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.761,
+        "flagged_at": 1789228727.2393937
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.815,
+        "flagged_at": 1789228727.2722542
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.768,
+        "flagged_at": 1789228727.3052127
+      }
+    ]
+  },
+  "top of pyramid view": {
+    "prompt": "top of pyramid view",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.723,
+        "flagged_at": 1789228727.3377311
+      }
+    ]
+  },
+  "festival crowd near pyramid": {
+    "prompt": "festival crowd near pyramid",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 1.0,
+        "flagged_at": 1789228727.3702538
+      }
+    ]
+  },
+  "person shouting": {
+    "prompt": "person shouting",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 1.0,
+        "flagged_at": 1789228727.4030046
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1789228727.4354277
+      }
+    ]
+  },
+  "echo visual effect": {
+    "prompt": "echo visual effect",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.462,
+        "flagged_at": 1789228727.4850206
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.778,
+        "flagged_at": 1789228727.518092
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 1.0,
+        "flagged_at": 1789228727.5515895
       }
     ]
   }
