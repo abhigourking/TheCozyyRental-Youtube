@@ -27902,7 +27902,7 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 3,
+    "times_flagged": 4,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED"
@@ -27928,6 +27928,13 @@
         "country": "Greece",
         "confidence": 0.41,
         "flagged_at": 1788823189.0217807
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.327,
+        "flagged_at": 1789190160.9746737
       }
     ]
   },
@@ -35170,6 +35177,168 @@
         "country": "South Korea",
         "confidence": 0.741,
         "flagged_at": 1789173883.460144
+      }
+    ]
+  },
+  "iceland street food market": {
+    "prompt": "Iceland street food market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.833,
+        "flagged_at": 1789190160.4529262
+      }
+    ]
+  },
+  "crowded reykjavik night": {
+    "prompt": "crowded Reykjavik night",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.487486
+      }
+    ]
+  },
+  "hot dog being wrapped": {
+    "prompt": "hot dog being wrapped",
+    "times_flagged": 3,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.382,
+        "flagged_at": 1789190160.5215755
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.555068
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.5887578
+      }
+    ]
+  },
+  "cream sauce drizzle": {
+    "prompt": "cream sauce drizzle",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.803,
+        "flagged_at": 1789190160.62294
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.6566958
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.690106
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.788,
+        "flagged_at": 1789190160.737654
+      }
+    ]
+  },
+  "fried onions falling": {
+    "prompt": "fried onions falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.777,
+        "flagged_at": 1789190160.771973
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.831,
+        "flagged_at": 1789190160.805529
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.842,
+        "flagged_at": 1789190160.839265
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.822,
+        "flagged_at": 1789190160.8730688
+      }
+    ]
+  },
+  "rye mustard drizzle": {
+    "prompt": "rye mustard drizzle",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 1.0,
+        "flagged_at": 1789190160.9070349
+      },
+      {
+        "topic": "The most viral street food trend in Iceland right now",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.81,
+        "flagged_at": 1789190160.940937
       }
     ]
   }

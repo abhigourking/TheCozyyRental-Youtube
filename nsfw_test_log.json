@@ -35376,6 +35376,108 @@
         }
       ],
       "ran_at": 1789173883.0074804
+    },
+    {
+      "run_number": "3858",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34673755111",
+      "topic": "The most viral street food trend in Iceland right now",
+      "category": "food",
+      "country": "Iceland",
+      "images_checked": 31,
+      "images_flagged": 16,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.833,
+          "prompt": "Iceland street food market"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "crowded Reykjavik night"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.382,
+          "prompt": "hot dog being wrapped"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman in a suggestive pose touching a large, phallic-shaped object, which is sexually suggestive content.",
+          "prompt": "hot dog being wrapped"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a highly suggestive and sexualized close-up of a body part that resembles genitalia.",
+          "prompt": "hot dog being wrapped"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.803,
+          "prompt": "cream sauce drizzle"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image contains visible nipple exposure through the clothing.",
+          "prompt": "cream sauce drizzle"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a wet, sheer t-shirt that prominently exposes her nipples, which violates the policy against exposed breasts.",
+          "prompt": "cream sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.788,
+          "prompt": "cream sauce drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.777,
+          "prompt": "fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.831,
+          "prompt": "fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.842,
+          "prompt": "fried onions falling"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "fried onions falling"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing a shirt as a dress with no visible undergarments, which falls under the category of underwear worn as outerwear or sexually suggestive styling.",
+          "prompt": "rye mustard drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "rye mustard drizzle"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.327,
+          "prompt": "colorful abstract background"
+        }
+      ],
+      "ran_at": 1789190160.4172487
     }
   ]
 }
