@@ -35478,6 +35478,99 @@
         }
       ],
       "ran_at": 1789190160.4172487
+    },
+    {
+      "run_number": "3859",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34689742859",
+      "topic": "A hidden gem destination in France most tourists don't know about",
+      "category": "travel",
+      "country": "France",
+      "images_checked": 33,
+      "images_flagged": 15,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.822,
+          "prompt": "red stone houses street"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.82,
+          "prompt": "red stone houses street"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman lifting her shirt to expose her breasts, which violates the policy against nudity and sexually suggestive content.",
+          "prompt": "artisan pottery hands"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude woman with visible breasts and buttocks, which violates the policy against exposed nudity.",
+          "prompt": "bakery window pastries"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.767,
+          "prompt": "steam rising from oven"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing a sheer top that prominently exposes her breasts and nipples.",
+          "prompt": "steam rising from oven"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image prominently features exposed breasts and nipples, which violates the policy against nudity.",
+          "prompt": "steam rising from oven"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a sexually suggestive pose and framing that emphasizes the subject's body in a provocative manner.",
+          "prompt": "steam rising from oven"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing a short skirt with a high slit that exposes her buttocks and upper thighs, which violates the policy against exposed buttocks.",
+          "prompt": "panoramic hill view"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.727,
+          "prompt": "hand clicking subscribe button"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a person deliberately unbuttoning their shirt to expose their breast, which constitutes sexualized content.",
+          "prompt": "hand clicking subscribe button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a deliberately unbuttoned jacket that prominently exposes her breasts and cleavage in a sexualized manner.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.407,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1789212127.866934
     }
   ]
 }

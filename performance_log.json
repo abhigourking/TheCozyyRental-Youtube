@@ -5726,6 +5726,16 @@
       "groq_tokens": 25430,
       "groq_calls": 22,
       "posted_at": 1789190163.3428614
+    },
+    {
+      "video_id": "0E_Lz_b9dwk",
+      "category": "travel",
+      "language": "French",
+      "topic": "A hidden gem destination in France most tourists don't know about",
+      "country": "France",
+      "groq_tokens": 32306,
+      "groq_calls": 28,
+      "posted_at": 1789212130.4740872
     }
   ]
 }

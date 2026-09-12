@@ -26344,7 +26344,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 73,
+    "times_flagged": 77,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26353,39 +26353,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.348,
-        "flagged_at": 1789088596.5637796
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 0.821,
-        "flagged_at": 1789088596.5933867
-      },
-      {
-        "topic": "A must-try traditional dish from Morocco and the story behind it",
-        "category": "food",
-        "country": "Morocco",
-        "confidence": 1.0,
-        "flagged_at": 1789088596.6229596
-      },
-      {
-        "topic": "The most breathtaking place to visit in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.753,
-        "flagged_at": 1789173883.0769875
-      },
-      {
         "topic": "The most breathtaking place to visit in South Korea",
         "category": "travel",
         "country": "South Korea",
         "confidence": 1.0,
         "flagged_at": 1789173883.110228
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.794,
+        "flagged_at": 1789212128.300379
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.33521
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.407,
+        "flagged_at": 1789212128.3699195
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.4048045
       }
     ]
   },
@@ -35339,6 +35339,139 @@
         "country": "Iceland",
         "confidence": 0.81,
         "flagged_at": 1789190160.940937
+      }
+    ]
+  },
+  "red stone houses street": {
+    "prompt": "red stone houses street",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.822,
+        "flagged_at": 1789212127.9028754
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.82,
+        "flagged_at": 1789212127.938182
+      }
+    ]
+  },
+  "artisan pottery hands": {
+    "prompt": "artisan pottery hands",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212127.9728427
+      }
+    ]
+  },
+  "bakery window pastries": {
+    "prompt": "bakery window pastries",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.007567
+      }
+    ]
+  },
+  "steam rising from oven": {
+    "prompt": "steam rising from oven",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.767,
+        "flagged_at": 1789212128.0422087
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.090538
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.1258235
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.1606538
+      }
+    ]
+  },
+  "panoramic hill view": {
+    "prompt": "panoramic hill view",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.1954916
+      }
+    ]
+  },
+  "hand clicking subscribe button": {
+    "prompt": "hand clicking subscribe button",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.727,
+        "flagged_at": 1789212128.2303567
+      },
+      {
+        "topic": "A hidden gem destination in France most tourists don't know about",
+        "category": "travel",
+        "country": "France",
+        "confidence": 1.0,
+        "flagged_at": 1789212128.2654302
       }
     ]
   }
