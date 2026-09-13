@@ -35842,6 +35842,60 @@
         }
       ],
       "ran_at": 1789276694.4769511
+    },
+    {
+      "run_number": "3864",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34755999615",
+      "topic": "A popular food market or food street worth visiting in Thailand",
+      "category": "food",
+      "country": "Thailand",
+      "images_checked": 19,
+      "images_flagged": 7,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.382,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.809,
+          "prompt": "banana leaf serving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.812,
+          "prompt": "banana leaf serving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "banana leaf serving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "banana leaf serving"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.815,
+          "prompt": "thumbs up comment"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.701,
+          "prompt": "thumbs up comment"
+        }
+      ],
+      "ran_at": 1789301894.9096339
     }
   ]
 }

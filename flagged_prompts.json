@@ -26345,7 +26345,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 78,
+    "times_flagged": 79,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26353,13 +26353,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.794,
-        "flagged_at": 1789212128.300379
-      },
       {
         "topic": "A hidden gem destination in France most tourists don't know about",
         "category": "travel",
@@ -26387,6 +26380,13 @@
         "country": "Egypt",
         "confidence": 0.59,
         "flagged_at": 1789246917.0286677
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.382,
+        "flagged_at": 1789301894.9473166
       }
     ]
   },
@@ -35897,6 +35897,66 @@
         "country": "Japan",
         "confidence": 0.807,
         "flagged_at": 1789276694.770882
+      }
+    ]
+  },
+  "banana leaf serving": {
+    "prompt": "banana leaf serving",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.809,
+        "flagged_at": 1789301894.9833043
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.812,
+        "flagged_at": 1789301895.0186357
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.765,
+        "flagged_at": 1789301895.0532846
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.774,
+        "flagged_at": 1789301895.0881662
+      }
+    ]
+  },
+  "thumbs up comment": {
+    "prompt": "thumbs up comment",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.815,
+        "flagged_at": 1789301895.1229625
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Thailand",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.701,
+        "flagged_at": 1789301895.1578615
       }
     ]
   }
