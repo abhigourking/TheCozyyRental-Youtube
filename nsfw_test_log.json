@@ -35896,6 +35896,78 @@
         }
       ],
       "ran_at": 1789301894.9096339
+    },
+    {
+      "run_number": "3865",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34768594976",
+      "topic": "A comfort food from Japan that's become an internet obsession",
+      "category": "food",
+      "country": "Japan",
+      "images_checked": 29,
+      "images_flagged": 11,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "Tokyo street night market"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing an unbuttoned shirt that prominently exposes her breasts and cleavage in a sexualized manner.",
+          "prompt": "Tokyo street night market"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a young girl with bare shoulders and upper chest, which violates safety policies regarding the depiction of minors in a state of undress.",
+          "prompt": "pork bone broth simmering"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a large, phallic-shaped object in a pot that strongly resembles a human penis, which violates policies regarding sexually suggestive content.",
+          "prompt": "pork bone broth simmering"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.739,
+          "prompt": "green onions being sliced"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman with exposed breasts and nipples, which violates the policy against nudity.",
+          "prompt": "hand holding chopsticks slurping"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image displays a woman on a phone screen with exposed breasts and nipples.",
+          "prompt": "delivery app phone screen"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a woman with an open garment exposing her breasts and torso, which violates policies against nudity and sexually suggestive content.",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.797,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.584,
+          "prompt": "comment bubble with food emojis"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "comment bubble with food emojis"
+        }
+      ],
+      "ran_at": 1789318197.2814434
     }
   ]
 }
