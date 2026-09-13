@@ -35786,6 +35786,62 @@
         }
       ],
       "ran_at": 1789259025.4983153
+    },
+    {
+      "run_number": "3863",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34739109475",
+      "topic": "A hidden gem destination in Japan most tourists don't know about",
+      "category": "travel",
+      "country": "Japan",
+      "images_checked": 26,
+      "images_flagged": 8,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude figure standing in a public setting, which violates policies regarding nudity and sexual content.",
+          "prompt": "train station sign"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.774,
+          "prompt": "sauce being poured"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in the background with her shirt pulled down to expose her breasts and nipples.",
+          "prompt": "matcha ice cream scoop"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.322,
+          "prompt": "illuminated thatched roofs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.756,
+          "prompt": "pan over glowing village"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a couple in a sexually suggestive pose in bed with a hand placed on the buttocks.",
+          "prompt": "comment icon animation"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a sexually suggestive pose with intimate physical contact and exposed skin that violates policies regarding sexually gratifying content.",
+          "prompt": "comment icon animation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.807,
+          "prompt": "follow button graphic"
+        }
+      ],
+      "ran_at": 1789276694.4769511
     }
   ]
 }

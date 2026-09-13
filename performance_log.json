@@ -5766,6 +5766,16 @@
       "groq_tokens": 26680,
       "groq_calls": 23,
       "posted_at": 1789259027.3198218
+    },
+    {
+      "video_id": "WnKe-qBNdC4",
+      "category": "travel",
+      "language": "Japanese",
+      "topic": "A hidden gem destination in Japan most tourists don't know about",
+      "country": "Japan",
+      "groq_tokens": 27137,
+      "groq_calls": 23,
+      "posted_at": 1789276696.3705702
     }
   ]
 }

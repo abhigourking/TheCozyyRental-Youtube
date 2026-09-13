@@ -35780,5 +35780,124 @@
         "flagged_at": 1789259025.893537
       }
     ]
+  },
+  "train station sign": {
+    "prompt": "train station sign",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789276694.5148659
+      }
+    ]
+  },
+  "sauce being poured": {
+    "prompt": "sauce being poured",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.774,
+        "flagged_at": 1789276694.5516117
+      }
+    ]
+  },
+  "matcha ice cream scoop": {
+    "prompt": "matcha ice cream scoop",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789276694.588363
+      }
+    ]
+  },
+  "illuminated thatched roofs": {
+    "prompt": "illuminated thatched roofs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.322,
+        "flagged_at": 1789276694.6249754
+      }
+    ]
+  },
+  "pan over glowing village": {
+    "prompt": "pan over glowing village",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.756,
+        "flagged_at": 1789276694.6611795
+      }
+    ]
+  },
+  "comment icon animation": {
+    "prompt": "comment icon animation",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789276694.6976037
+      },
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789276694.7343056
+      }
+    ]
+  },
+  "follow button graphic": {
+    "prompt": "follow button graphic",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Japan most tourists don't know about",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.807,
+        "flagged_at": 1789276694.770882
+      }
+    ]
   }
 }
