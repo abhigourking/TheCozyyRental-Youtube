@@ -35968,6 +35968,99 @@
         }
       ],
       "ran_at": 1789318197.2814434
+    },
+    {
+      "run_number": "3866",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34782270650",
+      "topic": "A hidden gem destination in Portugal most tourists don't know about",
+      "category": "travel",
+      "country": "Portugal",
+      "images_checked": 29,
+      "images_flagged": 14,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.83,
+          "prompt": "local fishermen nets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.771,
+          "prompt": "local fishermen nets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.826,
+          "prompt": "local fishermen nets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "local fishermen nets"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.501,
+          "prompt": "citrus fruits closeup"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "hand clicking follow button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.829,
+          "prompt": "hand clicking follow button"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "hand clicking follow button"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "hand clicking follow button"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a suggestive pose with a short robe that prominently exposes the upper thighs and buttocks, which violates policies regarding sexually suggestive content.",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.674,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.73,
+          "prompt": "map pin Portugal"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.799,
+          "prompt": "map pin Portugal"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.793,
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1789334309.4169605
     }
   ]
 }

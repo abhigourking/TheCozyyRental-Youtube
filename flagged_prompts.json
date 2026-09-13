@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1133,
+    "times_flagged": 1134,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Italy most outsiders have never heard of",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.733,
-        "flagged_at": 1787059273.3744416
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Egypt",
         "confidence": 1.0,
         "flagged_at": 1789246917.443101
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.793,
+        "flagged_at": 1789334309.934423
       }
     ]
   },
@@ -492,26 +492,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 937,
+    "times_flagged": 939,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in France",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.742,
-        "flagged_at": 1789103730.8131082
-      },
-      {
-        "topic": "A hidden gem destination in Japan most tourists don't know about",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.793,
-        "flagged_at": 1789127196.8242652
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Mexico",
         "category": "travel",
@@ -532,6 +518,20 @@
         "country": "Japan",
         "confidence": 0.797,
         "flagged_at": 1789318197.6111145
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 1.0,
+        "flagged_at": 1789334309.7753856
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.674,
+        "flagged_at": 1789334309.8110309
       }
     ]
   },
@@ -36075,6 +36075,120 @@
         "country": "Japan",
         "confidence": 0.794,
         "flagged_at": 1789318197.6690688
+      }
+    ]
+  },
+  "local fishermen nets": {
+    "prompt": "local fishermen nets",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.83,
+        "flagged_at": 1789334309.4553342
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.771,
+        "flagged_at": 1789334309.491746
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.826,
+        "flagged_at": 1789334309.5270793
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.792,
+        "flagged_at": 1789334309.5624454
+      }
+    ]
+  },
+  "citrus fruits closeup": {
+    "prompt": "citrus fruits closeup",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.501,
+        "flagged_at": 1789334309.5983586
+      }
+    ]
+  },
+  "hand clicking follow button": {
+    "prompt": "hand clicking follow button",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 1.0,
+        "flagged_at": 1789334309.6336026
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.829,
+        "flagged_at": 1789334309.6691065
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.81,
+        "flagged_at": 1789334309.7045097
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 1.0,
+        "flagged_at": 1789334309.7399821
+      }
+    ]
+  },
+  "map pin portugal": {
+    "prompt": "map pin Portugal",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.73,
+        "flagged_at": 1789334309.846847
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.799,
+        "flagged_at": 1789334309.898439
       }
     ]
   }
