@@ -35672,5 +35672,113 @@
         "flagged_at": 1789246917.4048607
       }
     ]
+  },
+  "sacred valley mist": {
+    "prompt": "Sacred Valley mist",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.788,
+        "flagged_at": 1789259025.5364301
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789259025.5733747
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.81,
+        "flagged_at": 1789259025.609503
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789259025.6459067
+      }
+    ]
+  },
+  "andean mountain range": {
+    "prompt": "Andean mountain range",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1789259025.7106378
+      }
+    ]
+  },
+  "ceviche preparation": {
+    "prompt": "ceviche preparation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.733,
+        "flagged_at": 1789259025.74796
+      }
+    ]
+  },
+  "travel montage end": {
+    "prompt": "travel montage end",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.76,
+        "flagged_at": 1789259025.7847288
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789259025.8211877
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 0.706,
+        "flagged_at": 1789259025.8576655
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Peru",
+        "category": "travel",
+        "country": "Peru",
+        "confidence": 1.0,
+        "flagged_at": 1789259025.893537
+      }
+    ]
   }
 }

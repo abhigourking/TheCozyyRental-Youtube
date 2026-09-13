@@ -35718,6 +35718,74 @@
         }
       ],
       "ran_at": 1789246917.004127
+    },
+    {
+      "run_number": "3862",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34724457421",
+      "topic": "A bucket-list experience you can only have in Peru",
+      "category": "travel",
+      "country": "Peru",
+      "images_checked": 28,
+      "images_flagged": 10,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.788,
+          "prompt": "Sacred Valley mist"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes the chest and cleavage in a sexualized manner.",
+          "prompt": "Sacred Valley mist"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.81,
+          "prompt": "Sacred Valley mist"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a dress with a high slit that prominently exposes the subject's inner thigh and crotch area in a suggestive manner.",
+          "prompt": "Sacred Valley mist"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.802,
+          "prompt": "Andean mountain range"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.733,
+          "prompt": "ceviche preparation"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.76,
+          "prompt": "travel montage end"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a backless top with tight jeans that prominently emphasize her buttocks, which falls under sexualized styling.",
+          "prompt": "travel montage end"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.706,
+          "prompt": "travel montage end"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image contains a panel showing a man with an open jacket exposing his chest and wearing underwear as outerwear, which violates the policy against sexually suggestive styling.",
+          "prompt": "travel montage end"
+        }
+      ],
+      "ran_at": 1789259025.4983153
     }
   ]
 }
