@@ -31,7 +31,7 @@
     }
   ],
   "next_language": "en",
-  "next_country_index": 1,
-  "next_use_native": true,
+  "next_country_index": 2,
+  "next_use_native": false,
   "country_cycle_complete": true
 }

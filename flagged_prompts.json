@@ -492,33 +492,12 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 939,
+    "times_flagged": 942,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.739,
-        "flagged_at": 1789228727.58475
-      },
-      {
-        "topic": "A comfort food from Japan that's become an internet obsession",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 1.0,
-        "flagged_at": 1789318197.581681
-      },
-      {
-        "topic": "A comfort food from Japan that's become an internet obsession",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.797,
-        "flagged_at": 1789318197.6111145
-      },
       {
         "topic": "A hidden gem destination in Portugal most tourists don't know about",
         "category": "travel",
@@ -532,6 +511,27 @@
         "country": "Portugal",
         "confidence": 0.674,
         "flagged_at": 1789334309.8110309
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.71,
+        "flagged_at": 1789346751.0395105
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.774,
+        "flagged_at": 1789346751.076115
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789346751.111962
       }
     ]
   },
@@ -36189,6 +36189,170 @@
         "country": "Portugal",
         "confidence": 0.799,
         "flagged_at": 1789334309.898439
+      }
+    ]
+  },
+  "hand holding onigiri": {
+    "prompt": "hand holding onigiri",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.819,
+        "flagged_at": 1789346750.739569
+      }
+    ]
+  },
+  "tuna mayo filling": {
+    "prompt": "tuna mayo filling",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789346750.7763767
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.816,
+        "flagged_at": 1789346750.8122962
+      }
+    ]
+  },
+  "nori sheet unrolling": {
+    "prompt": "nori sheet unrolling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.649,
+        "flagged_at": 1789346750.8475416
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.814,
+        "flagged_at": 1789346750.8955994
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.594,
+        "flagged_at": 1789346750.932304
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.769,
+        "flagged_at": 1789346750.9682481
+      }
+    ]
+  },
+  "hand placing nori": {
+    "prompt": "hand placing nori",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.818,
+        "flagged_at": 1789346751.0039015
+      }
+    ]
+  },
+  "closing onigiri shape": {
+    "prompt": "closing onigiri shape",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.827,
+        "flagged_at": 1789346751.1529388
+      }
+    ]
+  },
+  "soy sauce drizzle": {
+    "prompt": "soy sauce drizzle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.779,
+        "flagged_at": 1789346751.1890233
+      }
+    ]
+  },
+  "user posting on instagram": {
+    "prompt": "user posting on Instagram",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789346751.224597
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.81,
+        "flagged_at": 1789346751.2638395
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 1.0,
+        "flagged_at": 1789346751.306108
+      },
+      {
+        "topic": "A comfort food from Japan that's become an internet obsession",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.813,
+        "flagged_at": 1789346751.343192
       }
     ]
   }
