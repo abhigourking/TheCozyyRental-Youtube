@@ -36259,6 +36259,67 @@
         }
       ],
       "ran_at": 1789363851.6106668
+    },
+    {
+      "run_number": "3869",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34846660456",
+      "topic": "A popular food market or food street worth visiting in Vietnam",
+      "category": "food",
+      "country": "Vietnam",
+      "images_checked": 27,
+      "images_flagged": 9,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.74,
+          "prompt": "Vietnam street market entrance"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image contains a severe AI generation error where a disembodied limb is fused into the subject's torso, creating a grotesque and disturbing visual anomaly.",
+          "prompt": "hand wrapping banh xeo"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman deliberately pulling open her clothing to prominently expose her breasts and nipples.",
+          "prompt": "sauce dipping action"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.8,
+          "prompt": "hand picking souvenirs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.769,
+          "prompt": "hand picking souvenirs"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.74,
+          "prompt": "hand picking souvenirs"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately unbuttoned shirt exposing significant cleavage, which falls under the policy regarding clothing meant to be sexually gratifying.",
+          "prompt": "hand picking souvenirs"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman wearing a bra as an outer top, which falls under the category of underwear worn as outerwear.",
+          "prompt": "street vendors selling crafts"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a deliberately plunging neckline that prominently exposes the breasts and nipples.",
+          "prompt": "street vendors selling crafts"
+        }
+      ],
+      "ran_at": 1789392173.6442828
     }
   ]
 }

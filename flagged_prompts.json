@@ -36449,5 +36449,114 @@
         "flagged_at": 1789363851.9142137
       }
     ]
+  },
+  "vietnam street market entrance": {
+    "prompt": "Vietnam street market entrance",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.74,
+        "flagged_at": 1789392173.6819232
+      }
+    ]
+  },
+  "hand wrapping banh xeo": {
+    "prompt": "hand wrapping banh xeo",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 1.0,
+        "flagged_at": 1789392173.7178483
+      }
+    ]
+  },
+  "sauce dipping action": {
+    "prompt": "sauce dipping action",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 1.0,
+        "flagged_at": 1789392173.7534242
+      }
+    ]
+  },
+  "hand picking souvenirs": {
+    "prompt": "hand picking souvenirs",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.8,
+        "flagged_at": 1789392173.803388
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.769,
+        "flagged_at": 1789392173.838943
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.74,
+        "flagged_at": 1789392173.874332
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 1.0,
+        "flagged_at": 1789392173.9097733
+      }
+    ]
+  },
+  "street vendors selling crafts": {
+    "prompt": "street vendors selling crafts",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 1.0,
+        "flagged_at": 1789392173.945136
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 1.0,
+        "flagged_at": 1789392173.980645
+      }
+    ]
   }
 }

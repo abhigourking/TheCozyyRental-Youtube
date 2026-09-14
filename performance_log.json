@@ -5826,6 +5826,16 @@
       "groq_tokens": 24418,
       "groq_calls": 21,
       "posted_at": 1789363854.833697
+    },
+    {
+      "video_id": "Rbo3tW8offY",
+      "category": "food",
+      "language": "Vietnamese",
+      "topic": "A popular food market or food street worth visiting in Vietnam",
+      "country": "Vietnam",
+      "groq_tokens": 28223,
+      "groq_calls": 24,
+      "posted_at": 1789392176.2208695
     }
   ]
 }
