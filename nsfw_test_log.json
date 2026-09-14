@@ -36171,6 +36171,94 @@
         }
       ],
       "ran_at": 1789346750.7015204
+    },
+    {
+      "run_number": "3868",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34808423276",
+      "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+      "category": "travel",
+      "country": "Indonesia",
+      "images_checked": 31,
+      "images_flagged": 13,
+      "flag_details": [
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.766,
+          "prompt": "UNESCO plaque"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.696,
+          "prompt": "time lapse water movement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.811,
+          "prompt": "time lapse water movement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.765,
+          "prompt": "time lapse water movement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.839,
+          "prompt": "time lapse water movement"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.436,
+          "prompt": "farmer measuring water"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a dress with a plunging neckline that prominently exposes cleavage, which violates the policy against sexualized clothing.",
+          "prompt": "seasonal harvest celebration"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.852,
+          "prompt": "seasonal harvest celebration"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.586,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a tight, revealing outfit with a pose that emphasizes her body in a sexually suggestive manner.",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.862,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.768,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.572,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1789363851.6106668
     }
   ]
 }

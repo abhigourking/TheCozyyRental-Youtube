@@ -5816,6 +5816,16 @@
       "groq_tokens": 27108,
       "groq_calls": 23,
       "posted_at": 1789346753.5433726
+    },
+    {
+      "video_id": "qc8SKvD5_8A",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+      "country": "Indonesia",
+      "groq_tokens": 24418,
+      "groq_calls": 21,
+      "posted_at": 1789363854.833697
     }
   ]
 }

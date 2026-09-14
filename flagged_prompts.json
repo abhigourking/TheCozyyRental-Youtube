@@ -492,19 +492,13 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 942,
+    "times_flagged": 943,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
-      "VISION_SEXUALIZED_CONTENT"
+      "VISION_SEXUALIZED_CONTENT",
+      "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 1.0,
-        "flagged_at": 1789334309.7753856
-      },
       {
         "topic": "A hidden gem destination in Portugal most tourists don't know about",
         "category": "travel",
@@ -532,6 +526,13 @@
         "country": "Japan",
         "confidence": 1.0,
         "flagged_at": 1789346751.111962
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.572,
+        "flagged_at": 1789363852.0546005
       }
     ]
   },
@@ -26345,7 +26346,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 79,
+    "times_flagged": 83,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26354,39 +26355,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 1.0,
-        "flagged_at": 1789212128.33521
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.407,
-        "flagged_at": 1789212128.3699195
-      },
-      {
-        "topic": "A hidden gem destination in France most tourists don't know about",
-        "category": "travel",
-        "country": "France",
-        "confidence": 1.0,
-        "flagged_at": 1789212128.4048045
-      },
-      {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.59,
-        "flagged_at": 1789246917.0286677
-      },
-      {
         "topic": "A popular food market or food street worth visiting in Thailand",
         "category": "food",
         "country": "Thailand",
         "confidence": 0.382,
         "flagged_at": 1789301894.9473166
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.586,
+        "flagged_at": 1789363851.9419935
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 1.0,
+        "flagged_at": 1789363851.9698694
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.862,
+        "flagged_at": 1789363851.997902
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.768,
+        "flagged_at": 1789363852.0261416
       }
     ]
   },
@@ -36353,6 +36354,99 @@
         "country": "Japan",
         "confidence": 0.813,
         "flagged_at": 1789346751.343192
+      }
+    ]
+  },
+  "unesco plaque": {
+    "prompt": "UNESCO plaque",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1789363851.640114
+      }
+    ]
+  },
+  "time lapse water movement": {
+    "prompt": "time lapse water movement",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.696,
+        "flagged_at": 1789363851.668682
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.811,
+        "flagged_at": 1789363851.759899
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.765,
+        "flagged_at": 1789363851.7878604
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.839,
+        "flagged_at": 1789363851.830368
+      }
+    ]
+  },
+  "farmer measuring water": {
+    "prompt": "farmer measuring water",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.436,
+        "flagged_at": 1789363851.85888
+      }
+    ]
+  },
+  "seasonal harvest celebration": {
+    "prompt": "seasonal harvest celebration",
+    "times_flagged": 2,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 1.0,
+        "flagged_at": 1789363851.8864846
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.852,
+        "flagged_at": 1789363851.9142137
       }
     ]
   }
