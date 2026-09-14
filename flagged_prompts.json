@@ -492,20 +492,13 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 943,
+    "times_flagged": 944,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
       "BUTTOCKS_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.674,
-        "flagged_at": 1789334309.8110309
-      },
       {
         "topic": "A comfort food from Japan that's become an internet obsession",
         "category": "food",
@@ -533,6 +526,13 @@
         "country": "Indonesia",
         "confidence": 0.572,
         "flagged_at": 1789363852.0546005
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.761,
+        "flagged_at": 1789416503.2852798
       }
     ]
   },
@@ -36556,6 +36556,60 @@
         "country": "Vietnam",
         "confidence": 1.0,
         "flagged_at": 1789392173.980645
+      }
+    ]
+  },
+  "sunset over dunes": {
+    "prompt": "sunset over dunes",
+    "times_flagged": 1,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 1.0,
+        "flagged_at": 1789416503.1122599
+      }
+    ]
+  },
+  "neon reflection on water": {
+    "prompt": "neon reflection on water",
+    "times_flagged": 4,
+    "classes": [
+      "VISION_SEXUALIZED_CONTENT",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 1.0,
+        "flagged_at": 1789416503.147431
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.801,
+        "flagged_at": 1789416503.1820667
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 1.0,
+        "flagged_at": 1789416503.21626
+      },
+      {
+        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "category": "travel",
+        "country": "Spain",
+        "confidence": 0.792,
+        "flagged_at": 1789416503.2508109
       }
     ]
   }

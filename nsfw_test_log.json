@@ -36320,6 +36320,51 @@
         }
       ],
       "ran_at": 1789392173.6442828
+    },
+    {
+      "run_number": "3870",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34889459059",
+      "topic": "A viral travel spot in Spain that's all over social media right now",
+      "category": "travel",
+      "country": "Spain",
+      "images_checked": 21,
+      "images_flagged": 6,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a woman in a dress with a plunging neckline that prominently exposes cleavage, which violates the policy against sexualized clothing.",
+          "prompt": "sunset over dunes"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude figure with visible buttocks and genital area, which violates the policy against exposed skin.",
+          "prompt": "neon reflection on water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.801,
+          "prompt": "neon reflection on water"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image depicts a nude figure with visible buttocks and breasts, which violates the policy against exposed nudity.",
+          "prompt": "neon reflection on water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.792,
+          "prompt": "neon reflection on water"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.761,
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1789416503.075869
     }
   ]
 }

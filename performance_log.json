@@ -5836,6 +5836,16 @@
       "groq_tokens": 28223,
       "groq_calls": 24,
       "posted_at": 1789392176.2208695
+    },
+    {
+      "video_id": "5K1sVRJHzUc",
+      "category": "travel",
+      "language": "en",
+      "topic": "A viral travel spot in Spain that's all over social media right now",
+      "country": "Spain",
+      "groq_tokens": 22044,
+      "groq_calls": 19,
+      "posted_at": 1789416504.9599175
     }
   ]
 }
