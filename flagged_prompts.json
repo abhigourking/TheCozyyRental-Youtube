@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1134,
+    "times_flagged": 1137,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,27 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.814,
-        "flagged_at": 1788823189.2669022
-      },
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.752,
-        "flagged_at": 1788823189.744607
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in South Korea",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.819,
-        "flagged_at": 1788844367.1134746
-      },
       {
         "topic": "The most viral street food trend in Egypt right now",
         "category": "food",
@@ -117,6 +96,27 @@
         "country": "Portugal",
         "confidence": 0.793,
         "flagged_at": 1789334309.934423
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.839,
+        "flagged_at": 1789498542.2923033
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.722,
+        "flagged_at": 1789498542.3286192
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.75,
+        "flagged_at": 1789498542.5669081
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 955,
+    "times_flagged": 957,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.684,
-        "flagged_at": 1789479693.766074
-      },
-      {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.526,
-        "flagged_at": 1789479693.801099
-      },
       {
         "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "Japan",
         "confidence": 0.816,
         "flagged_at": 1789479694.3798563
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.431,
+        "flagged_at": 1789498541.8210783
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.773,
+        "flagged_at": 1789498542.6405523
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 99,
+    "times_flagged": 109,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.826,
-        "flagged_at": 1789479694.084063
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.837,
+        "flagged_at": 1789498542.2561054
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.499,
-        "flagged_at": 1789479694.1190252
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.785,
+        "flagged_at": 1789498542.456952
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.754,
-        "flagged_at": 1789479694.1534526
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.352,
+        "flagged_at": 1789498542.4931402
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.438,
-        "flagged_at": 1789479694.2381136
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.302,
+        "flagged_at": 1789498542.5296967
       },
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.566,
-        "flagged_at": 1789479694.2739534
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.811,
+        "flagged_at": 1789498542.6038196
       }
     ]
   },
@@ -27905,10 +27905,11 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 4,
+    "times_flagged": 5,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
-      "BUTTOCKS_EXPOSED"
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
       {
@@ -27938,6 +27939,13 @@
         "country": "Iceland",
         "confidence": 0.327,
         "flagged_at": 1789190160.9746737
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.354,
+        "flagged_at": 1789498542.0015583
       }
     ]
   },
@@ -36913,6 +36921,176 @@
         "country": "Japan",
         "confidence": 0.823,
         "flagged_at": 1789479694.3447573
+      }
+    ]
+  },
+  "tourist tasting food": {
+    "prompt": "tourist tasting food",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.465,
+        "flagged_at": 1789498541.5479429
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.611,
+        "flagged_at": 1789498541.586097
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.587,
+        "flagged_at": 1789498541.6229978
+      }
+    ]
+  },
+  "1930s bangkok illustration": {
+    "prompt": "1930s Bangkok illustration",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.857,
+        "flagged_at": 1789498541.6594772
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.79,
+        "flagged_at": 1789498541.6954563
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.844,
+        "flagged_at": 1789498541.7313921
+      }
+    ]
+  },
+  "old market rice sacks": {
+    "prompt": "old market rice sacks",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.584,
+        "flagged_at": 1789498541.7842274
+      }
+    ]
+  },
+  "tamarind sauce drizzle": {
+    "prompt": "tamarind sauce drizzle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.802,
+        "flagged_at": 1789498542.037691
+      }
+    ]
+  },
+  "shrimp being added to wok": {
+    "prompt": "shrimp being added to wok",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.42,
+        "flagged_at": 1789498542.0743961
+      }
+    ]
+  },
+  "wok with high flames": {
+    "prompt": "wok with high flames",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.79,
+        "flagged_at": 1789498542.110756
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.813,
+        "flagged_at": 1789498542.1470344
+      },
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.85,
+        "flagged_at": 1789498542.1832516
+      }
+    ]
+  },
+  "vendor flipping noodles": {
+    "prompt": "vendor flipping noodles",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.698,
+        "flagged_at": 1789498542.3824315
+      }
+    ]
+  },
+  "night market lanterns": {
+    "prompt": "night market lanterns",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "category": "food",
+        "country": "Thailand",
+        "confidence": 0.748,
+        "flagged_at": 1789498542.420047
       }
     ]
   }
