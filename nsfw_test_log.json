@@ -36365,6 +36365,111 @@
         }
       ],
       "ran_at": 1789416503.075869
+    },
+    {
+      "run_number": "3871",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/34910872840",
+      "topic": "A viral travel spot in Spain that's all over social media right now",
+      "category": "travel",
+      "country": "Spain",
+      "images_checked": 34,
+      "images_flagged": 16,
+      "flag_details": [
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image shows a deliberately plunging neckline that prominently exposes cleavage in a sexualized manner.",
+          "prompt": "smartphone scrolling Instagram"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image shows a person with exposed breasts and nipples, which is explicit nudity.",
+          "prompt": "smartphone scrolling Instagram"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.393,
+          "prompt": "city skyline sunset"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.791,
+          "prompt": "city skyline sunset"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.724,
+          "prompt": "city skyline sunset"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.799,
+          "prompt": "city skyline sunset"
+        },
+        {
+          "reason": "detected",
+          "class": "MALE_GENITALIA_EXPOSED",
+          "confidence": 0.534,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.832,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.548,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_flagged",
+          "vision_reason": "The image features a figure in sheer, see-through clothing that prominently exposes the torso and emphasizes the chest area in a sexualized manner.",
+          "prompt": "sunlight on steel"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.834,
+          "prompt": "sunlight on steel"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.813,
+          "prompt": "sunlight on steel"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.794,
+          "prompt": "sunlight on steel"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.779,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.375,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_GENITALIA_EXPOSED",
+          "confidence": 0.521,
+          "prompt": "modern city skyline"
+        }
+      ],
+      "ran_at": 1789431612.0406725
     }
   ]
 }
