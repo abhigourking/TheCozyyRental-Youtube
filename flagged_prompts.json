@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1137,
+    "times_flagged": 1140,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,27 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Egypt right now",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 1.0,
-        "flagged_at": 1789246917.443101
-      },
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.793,
-        "flagged_at": 1789334309.934423
-      },
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.839,
-        "flagged_at": 1789498542.2923033
-      },
       {
         "topic": "A must-try traditional dish from Thailand and the story behind it",
         "category": "food",
@@ -117,6 +96,27 @@
         "country": "Thailand",
         "confidence": 0.75,
         "flagged_at": 1789498542.5669081
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.538,
+        "flagged_at": 1789515858.6525297
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.363,
+        "flagged_at": 1789515858.7031136
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1789515858.739091
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 957,
+    "times_flagged": 963,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.363,
-        "flagged_at": 1789479693.8362107
-      },
-      {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.794,
-        "flagged_at": 1789479693.8722231
-      },
-      {
-        "topic": "The most breathtaking place to visit in Japan",
-        "category": "travel",
-        "country": "Japan",
-        "confidence": 0.816,
-        "flagged_at": 1789479694.3798563
-      },
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.431,
-        "flagged_at": 1789498541.8210783
+        "country": "India",
+        "confidence": 0.355,
+        "flagged_at": 1789515858.8092573
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.773,
-        "flagged_at": 1789498542.6405523
+        "country": "India",
+        "confidence": 0.731,
+        "flagged_at": 1789515858.9505394
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.77,
+        "flagged_at": 1789515858.9855576
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.735,
+        "flagged_at": 1789515859.162901
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.808,
+        "flagged_at": 1789515859.2121694
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 109,
+    "times_flagged": 115,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.837,
-        "flagged_at": 1789498542.2561054
+        "country": "India",
+        "confidence": 0.702,
+        "flagged_at": 1789515859.282912
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.785,
-        "flagged_at": 1789498542.456952
+        "country": "India",
+        "confidence": 0.79,
+        "flagged_at": 1789515859.3182886
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.352,
-        "flagged_at": 1789498542.4931402
+        "country": "India",
+        "confidence": 0.795,
+        "flagged_at": 1789515859.3536053
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.302,
-        "flagged_at": 1789498542.5296967
+        "country": "India",
+        "confidence": 0.804,
+        "flagged_at": 1789515859.5300765
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.811,
-        "flagged_at": 1789498542.6038196
+        "country": "India",
+        "confidence": 0.78,
+        "flagged_at": 1789515859.5652094
       }
     ]
   },
@@ -37091,6 +37091,155 @@
         "country": "Thailand",
         "confidence": 0.748,
         "flagged_at": 1789498542.420047
+      }
+    ]
+  },
+  "besan laddoo dough": {
+    "prompt": "besan laddoo dough",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.799,
+        "flagged_at": 1789515858.6149626
+      }
+    ]
+  },
+  "golden baked pakoras": {
+    "prompt": "golden baked pakoras",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.336,
+        "flagged_at": 1789515858.8443987
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.517,
+        "flagged_at": 1789515858.8799794
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.395,
+        "flagged_at": 1789515858.9154353
+      }
+    ]
+  },
+  "pakora served on plate": {
+    "prompt": "pakora served on plate",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.351,
+        "flagged_at": 1789515859.020716
+      }
+    ]
+  },
+  "cinnamon sticks falling": {
+    "prompt": "cinnamon sticks falling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.603,
+        "flagged_at": 1789515859.056808
+      }
+    ]
+  },
+  "group of friends tasting": {
+    "prompt": "group of friends tasting",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.582,
+        "flagged_at": 1789515859.0922115
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.54,
+        "flagged_at": 1789515859.12784
+      }
+    ]
+  },
+  "comment icon pop": {
+    "prompt": "comment icon pop",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.373,
+        "flagged_at": 1789515859.3886845
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.553,
+        "flagged_at": 1789515859.4238255
+      }
+    ]
+  },
+  "subscribe button graphic": {
+    "prompt": "subscribe button graphic",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.8,
+        "flagged_at": 1789515859.4592981
+      },
+      {
+        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.797,
+        "flagged_at": 1789515859.494622
       }
     ]
   }
