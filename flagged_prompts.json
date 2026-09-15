@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 950,
+    "times_flagged": 955,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Spain",
-        "confidence": 0.832,
-        "flagged_at": 1789431612.2626219
+        "country": "Japan",
+        "confidence": 0.684,
+        "flagged_at": 1789479693.766074
       },
       {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Spain",
-        "confidence": 0.548,
-        "flagged_at": 1789431612.284036
+        "country": "Japan",
+        "confidence": 0.526,
+        "flagged_at": 1789479693.801099
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.503,
-        "flagged_at": 1789455022.362381
+        "country": "Japan",
+        "confidence": 0.363,
+        "flagged_at": 1789479693.8362107
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.835,
-        "flagged_at": 1789455022.5848444
+        "country": "Japan",
+        "confidence": 0.794,
+        "flagged_at": 1789479693.8722231
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.746,
-        "flagged_at": 1789455022.6411042
+        "country": "Japan",
+        "confidence": 0.816,
+        "flagged_at": 1789479694.3798563
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 92,
+    "times_flagged": 99,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.77,
-        "flagged_at": 1789455022.3214738
+        "country": "Japan",
+        "confidence": 0.826,
+        "flagged_at": 1789479694.084063
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.804,
-        "flagged_at": 1789455022.3901656
+        "country": "Japan",
+        "confidence": 0.499,
+        "flagged_at": 1789479694.1190252
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.824,
-        "flagged_at": 1789455022.4452918
+        "country": "Japan",
+        "confidence": 0.754,
+        "flagged_at": 1789479694.1534526
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.602,
-        "flagged_at": 1789455022.4728937
+        "country": "Japan",
+        "confidence": 0.438,
+        "flagged_at": 1789479694.2381136
       },
       {
-        "topic": "The most breathtaking place to visit in Greece",
+        "topic": "The most breathtaking place to visit in Japan",
         "category": "travel",
-        "country": "Greece",
-        "confidence": 0.512,
-        "flagged_at": 1789455022.6129699
+        "country": "Japan",
+        "confidence": 0.566,
+        "flagged_at": 1789479694.2739534
       }
     ]
   },
@@ -36781,6 +36781,138 @@
         "country": "Greece",
         "confidence": 0.724,
         "flagged_at": 1789455022.5566945
+      }
+    ]
+  },
+  "sunrise over ocean": {
+    "prompt": "sunrise over ocean",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.592,
+        "flagged_at": 1789479693.574785
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.61,
+        "flagged_at": 1789479693.61097
+      }
+    ]
+  },
+  "map zooming to yakushima": {
+    "prompt": "map zooming to Yakushima",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.806,
+        "flagged_at": 1789479693.6465054
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.753,
+        "flagged_at": 1789479693.6818697
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.847,
+        "flagged_at": 1789479693.7302654
+      }
+    ]
+  },
+  "waves crashing on rocks": {
+    "prompt": "waves crashing on rocks",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.701,
+        "flagged_at": 1789479693.907768
+      }
+    ]
+  },
+  "crystal clear water closeup": {
+    "prompt": "crystal clear water closeup",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.81,
+        "flagged_at": 1789479693.9428036
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.616,
+        "flagged_at": 1789479693.977574
+      }
+    ]
+  },
+  "sunset pink cliffs": {
+    "prompt": "sunset pink cliffs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.708,
+        "flagged_at": 1789479694.1888976
+      }
+    ]
+  },
+  "comment bubble icons": {
+    "prompt": "comment bubble icons",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.812,
+        "flagged_at": 1789479694.3094177
+      },
+      {
+        "topic": "The most breathtaking place to visit in Japan",
+        "category": "travel",
+        "country": "Japan",
+        "confidence": 0.823,
+        "flagged_at": 1789479694.3447573
       }
     ]
   }
