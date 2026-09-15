@@ -5856,6 +5856,16 @@
       "groq_tokens": 25077,
       "groq_calls": 22,
       "posted_at": 1789431614.6335633
+    },
+    {
+      "video_id": "sw53eLDginI",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in Greece",
+      "country": "Greece",
+      "groq_tokens": 2110,
+      "groq_calls": 1,
+      "posted_at": 1789455024.5228941
     }
   ]
 }

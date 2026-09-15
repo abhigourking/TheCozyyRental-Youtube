@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 947,
+    "times_flagged": 950,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.572,
-        "flagged_at": 1789363852.0546005
-      },
-      {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.761,
-        "flagged_at": 1789416503.2852798
-      },
-      {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
-        "category": "travel",
-        "country": "Spain",
-        "confidence": 0.534,
-        "flagged_at": 1789431612.2381954
-      },
       {
         "topic": "A viral travel spot in Spain that's all over social media right now",
         "category": "travel",
@@ -534,6 +513,27 @@
         "country": "Spain",
         "confidence": 0.548,
         "flagged_at": 1789431612.284036
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.503,
+        "flagged_at": 1789455022.362381
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.835,
+        "flagged_at": 1789455022.5848444
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.746,
+        "flagged_at": 1789455022.6411042
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 86,
+    "times_flagged": 92,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.862,
-        "flagged_at": 1789363851.997902
+        "country": "Greece",
+        "confidence": 0.77,
+        "flagged_at": 1789455022.3214738
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Indonesia",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.768,
-        "flagged_at": 1789363852.0261416
+        "country": "Greece",
+        "confidence": 0.804,
+        "flagged_at": 1789455022.3901656
       },
       {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Spain",
-        "confidence": 0.779,
-        "flagged_at": 1789431612.4314377
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1789455022.4452918
       },
       {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Spain",
-        "confidence": 0.375,
-        "flagged_at": 1789431612.457487
+        "country": "Greece",
+        "confidence": 0.602,
+        "flagged_at": 1789455022.4728937
       },
       {
-        "topic": "A viral travel spot in Spain that's all over social media right now",
+        "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
-        "country": "Spain",
-        "confidence": 0.521,
-        "flagged_at": 1789431612.5541892
+        "country": "Greece",
+        "confidence": 0.512,
+        "flagged_at": 1789455022.6129699
       }
     ]
   },
@@ -36710,6 +36710,77 @@
         "country": "Spain",
         "confidence": 0.794,
         "flagged_at": 1789431612.3707333
+      }
+    ]
+  },
+  "sunrise over greek islands": {
+    "prompt": "sunrise over greek islands",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.825,
+        "flagged_at": 1789455022.2643468
+      }
+    ]
+  },
+  "travel photographer handheld": {
+    "prompt": "travel photographer handheld",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.69,
+        "flagged_at": 1789455022.417706
+      }
+    ]
+  },
+  "pink sky over sea": {
+    "prompt": "pink sky over sea",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.793,
+        "flagged_at": 1789455022.5005598
+      }
+    ]
+  },
+  "crystal clear water swim": {
+    "prompt": "crystal clear water swim",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.71,
+        "flagged_at": 1789455022.52856
+      },
+      {
+        "topic": "The most breathtaking place to visit in Greece",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.724,
+        "flagged_at": 1789455022.5566945
       }
     ]
   }
