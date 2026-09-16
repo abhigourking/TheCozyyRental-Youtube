@@ -5916,6 +5916,16 @@
       "groq_tokens": 2420,
       "groq_calls": 1,
       "posted_at": 1789565803.4800692
+    },
+    {
+      "video_id": "jXI-nLeTKf8",
+      "category": "travel",
+      "language": "en",
+      "topic": "The most breathtaking place to visit in France",
+      "country": "France",
+      "groq_tokens": 1922,
+      "groq_calls": 1,
+      "posted_at": 1789583873.5158207
     }
   ]
 }

@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1141,
+    "times_flagged": 1142,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.75,
-        "flagged_at": 1789498542.5669081
-      },
       {
         "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Argentina",
         "confidence": 0.787,
         "flagged_at": 1789540066.6547558
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1789583871.5612376
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 976,
+    "times_flagged": 978,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.791,
-        "flagged_at": 1789565801.2458537
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.593,
-        "flagged_at": 1789565801.2832112
-      },
       {
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
@@ -534,6 +520,20 @@
         "country": "Iceland",
         "confidence": 0.749,
         "flagged_at": 1789565801.8689265
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.838,
+        "flagged_at": 1789583871.2947235
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.847,
+        "flagged_at": 1789583871.3448148
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 129,
+    "times_flagged": 133,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26359,36 +26359,36 @@
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
         "country": "Iceland",
-        "confidence": 0.519,
-        "flagged_at": 1789565801.3206298
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.79,
-        "flagged_at": 1789565801.357679
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.836,
-        "flagged_at": 1789565801.6425364
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.75,
-        "flagged_at": 1789565801.6803346
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
         "confidence": 0.858,
         "flagged_at": 1789565801.7933378
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.704,
+        "flagged_at": 1789583871.1873496
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.846,
+        "flagged_at": 1789583871.2235932
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.802,
+        "flagged_at": 1789583871.488764
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.846,
+        "flagged_at": 1789583871.5247731
       }
     ]
   },
@@ -37546,6 +37546,68 @@
         "country": "Iceland",
         "confidence": 0.803,
         "flagged_at": 1789565801.7555642
+      }
+    ]
+  },
+  "drone over turquoise water": {
+    "prompt": "drone over turquoise water",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.751,
+        "flagged_at": 1789583871.1507463
+      }
+    ]
+  },
+  "turquoise mediterranean waves": {
+    "prompt": "turquoise Mediterranean waves",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.738,
+        "flagged_at": 1789583871.2590363
+      }
+    ]
+  },
+  "glass of ros\u00e9": {
+    "prompt": "glass of ros\u00e9",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.797,
+        "flagged_at": 1789583871.3814635
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.783,
+        "flagged_at": 1789583871.4170477
+      },
+      {
+        "topic": "The most breathtaking place to visit in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.796,
+        "flagged_at": 1789583871.452974
       }
     ]
   }
