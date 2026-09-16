@@ -5896,6 +5896,16 @@
       "groq_tokens": 2637,
       "groq_calls": 1,
       "posted_at": 1789515861.2048426
+    },
+    {
+      "video_id": "LaK0dce2Lj0",
+      "category": "food",
+      "language": "en",
+      "topic": "A must-try traditional dish from Argentina and the story behind it",
+      "country": "Argentina",
+      "groq_tokens": 2404,
+      "groq_calls": 1,
+      "posted_at": 1789540068.36419
     }
   ]
 }

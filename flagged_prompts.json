@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1140,
+    "times_flagged": 1141,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.722,
-        "flagged_at": 1789498542.3286192
-      },
       {
         "topic": "A must-try traditional dish from Thailand and the story behind it",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "India",
         "confidence": 0.715,
         "flagged_at": 1789515858.739091
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.787,
+        "flagged_at": 1789540066.6547558
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 963,
+    "times_flagged": 970,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.355,
-        "flagged_at": 1789515858.8092573
+        "country": "Argentina",
+        "confidence": 0.683,
+        "flagged_at": 1789540066.3445039
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.731,
-        "flagged_at": 1789515858.9505394
+        "country": "Argentina",
+        "confidence": 0.756,
+        "flagged_at": 1789540066.3814876
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.77,
-        "flagged_at": 1789515858.9855576
+        "country": "Argentina",
+        "confidence": 0.344,
+        "flagged_at": 1789540066.4180055
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.735,
-        "flagged_at": 1789515859.162901
+        "country": "Argentina",
+        "confidence": 0.817,
+        "flagged_at": 1789540066.4708917
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.808,
-        "flagged_at": 1789515859.2121694
+        "country": "Argentina",
+        "confidence": 0.515,
+        "flagged_at": 1789540066.6185048
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 115,
+    "times_flagged": 124,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.702,
-        "flagged_at": 1789515859.282912
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.79,
-        "flagged_at": 1789515859.3182886
-      },
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
+        "country": "Argentina",
         "confidence": 0.795,
-        "flagged_at": 1789515859.3536053
+        "flagged_at": 1789540066.2717109
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.804,
-        "flagged_at": 1789515859.5300765
+        "country": "Argentina",
+        "confidence": 0.72,
+        "flagged_at": 1789540066.5453334
       },
       {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "India",
-        "confidence": 0.78,
-        "flagged_at": 1789515859.5652094
+        "country": "Argentina",
+        "confidence": 0.613,
+        "flagged_at": 1789540066.58189
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.874,
+        "flagged_at": 1789540066.6911862
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.786,
+        "flagged_at": 1789540066.7276018
       }
     ]
   },
@@ -37240,6 +37240,140 @@
         "country": "India",
         "confidence": 0.797,
         "flagged_at": 1789515859.494622
+      }
+    ]
+  },
+  "argentinian market stalls": {
+    "prompt": "Argentinian market stalls",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.74,
+        "flagged_at": 1789540065.7064536
+      }
+    ]
+  },
+  "surprised reaction face": {
+    "prompt": "surprised reaction face",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.81,
+        "flagged_at": 1789540065.7439756
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.731,
+        "flagged_at": 1789540065.7808747
+      }
+    ]
+  },
+  "large beef slab on fire": {
+    "prompt": "large beef slab on fire",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "MALE_GENITALIA_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.527,
+        "flagged_at": 1789540065.817554
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.851,
+        "flagged_at": 1789540065.8538067
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.397,
+        "flagged_at": 1789540065.8900657
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.566,
+        "flagged_at": 1789540065.943636
+      }
+    ]
+  },
+  "group around open fire": {
+    "prompt": "group around open fire",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.307,
+        "flagged_at": 1789540066.0530202
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.639,
+        "flagged_at": 1789540066.0892358
+      }
+    ]
+  },
+  "buenos aires street panorama": {
+    "prompt": "Buenos Aires street panorama",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.766,
+        "flagged_at": 1789540066.308197
+      }
+    ]
+  },
+  "thumbs up reaction": {
+    "prompt": "thumbs up reaction",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.883,
+        "flagged_at": 1789540066.5083144
       }
     ]
   }
