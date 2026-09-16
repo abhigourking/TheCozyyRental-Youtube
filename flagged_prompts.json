@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1142,
+    "times_flagged": 1143,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.538,
-        "flagged_at": 1789515858.6525297
-      },
       {
         "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "France",
         "confidence": 0.797,
         "flagged_at": 1789583871.5612376
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.774,
+        "flagged_at": 1789600095.826046
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 978,
+    "times_flagged": 982,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.748,
-        "flagged_at": 1789565801.6049619
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.474,
-        "flagged_at": 1789565801.8308225
-      },
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.749,
-        "flagged_at": 1789565801.8689265
-      },
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.838,
-        "flagged_at": 1789583871.2947235
-      },
-      {
         "topic": "The most breathtaking place to visit in France",
         "category": "travel",
         "country": "France",
         "confidence": 0.847,
         "flagged_at": 1789583871.3448148
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.606,
+        "flagged_at": 1789600096.1684294
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.769,
+        "flagged_at": 1789600096.2050512
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.745,
+        "flagged_at": 1789600096.2417042
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.772,
+        "flagged_at": 1789600096.512951
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 133,
+    "times_flagged": 134,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.858,
-        "flagged_at": 1789565801.7933378
-      },
       {
         "topic": "The most breathtaking place to visit in France",
         "category": "travel",
@@ -26389,6 +26382,13 @@
         "country": "France",
         "confidence": 0.846,
         "flagged_at": 1789583871.5247731
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.493,
+        "flagged_at": 1789600095.7898238
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 6,
+    "times_flagged": 7,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Brazil and the story behind it",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.333,
-        "flagged_at": 1786970792.5145068
-      },
       {
         "topic": "The most breathtaking place to visit in Greece",
         "category": "travel",
@@ -27946,6 +27939,13 @@
         "country": "Iceland",
         "confidence": 0.333,
         "flagged_at": 1789565800.9284015
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.304,
+        "flagged_at": 1789600096.5491498
       }
     ]
   },
@@ -37608,6 +37608,214 @@
         "country": "France",
         "confidence": 0.796,
         "flagged_at": 1789583871.452974
+      }
+    ]
+  },
+  "hand holding corn husk": {
+    "prompt": "hand holding corn husk",
+    "times_flagged": 2,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.321,
+        "flagged_at": 1789600095.6426046
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.399,
+        "flagged_at": 1789600095.6800566
+      }
+    ]
+  },
+  "farmers harvesting corn": {
+    "prompt": "farmers harvesting corn",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.634,
+        "flagged_at": 1789600095.71697
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.685,
+        "flagged_at": 1789600095.7536457
+      }
+    ]
+  },
+  "steaming pot close up": {
+    "prompt": "steaming pot close up",
+    "times_flagged": 2,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.579,
+        "flagged_at": 1789600095.877753
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.319,
+        "flagged_at": 1789600095.9143846
+      }
+    ]
+  },
+  "sweet pamonha with coconut": {
+    "prompt": "sweet pamonha with coconut",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.845,
+        "flagged_at": 1789600095.9505854
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.679,
+        "flagged_at": 1789600095.9870052
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.837,
+        "flagged_at": 1789600096.023443
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.839,
+        "flagged_at": 1789600096.0595372
+      }
+    ]
+  },
+  "savory pamonha with cheese": {
+    "prompt": "savory pamonha with cheese",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.32,
+        "flagged_at": 1789600096.0956833
+      }
+    ]
+  },
+  "regional map brazil food": {
+    "prompt": "regional map Brazil food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.749,
+        "flagged_at": 1789600096.1322236
+      }
+    ]
+  },
+  "steam rising from food stand": {
+    "prompt": "steam rising from food stand",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.395,
+        "flagged_at": 1789600096.278209
+      }
+    ]
+  },
+  "southern brazil landscape": {
+    "prompt": "southern Brazil landscape",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.827,
+        "flagged_at": 1789600096.314359
+      }
+    ]
+  },
+  "tourist tasting pamonha": {
+    "prompt": "tourist tasting pamonha",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.782,
+        "flagged_at": 1789600096.3508646
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.804,
+        "flagged_at": 1789600096.4027846
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.839,
+        "flagged_at": 1789600096.4399765
+      },
+      {
+        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
+        "category": "food",
+        "country": "Brazil",
+        "confidence": 0.779,
+        "flagged_at": 1789600096.476671
       }
     ]
   }
