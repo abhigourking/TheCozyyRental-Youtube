@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1143,
+    "times_flagged": 1144,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from India most outsiders have never heard of",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.363,
-        "flagged_at": 1789515858.7031136
-      },
       {
         "topic": "A unique regional specialty from India most outsiders have never heard of",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Brazil",
         "confidence": 0.774,
         "flagged_at": 1789600095.826046
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.607,
+        "flagged_at": 1789626635.897042
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 982,
+    "times_flagged": 998,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
-        "country": "France",
-        "confidence": 0.847,
-        "flagged_at": 1789583871.3448148
+        "country": "Indonesia",
+        "confidence": 0.813,
+        "flagged_at": 1789626636.6737063
       },
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.606,
-        "flagged_at": 1789600096.1684294
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.809,
+        "flagged_at": 1789626636.710538
       },
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.769,
-        "flagged_at": 1789600096.2050512
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.318,
+        "flagged_at": 1789626636.7842221
       },
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.745,
-        "flagged_at": 1789600096.2417042
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.748,
+        "flagged_at": 1789626636.8210523
       },
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.772,
-        "flagged_at": 1789600096.512951
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.798,
+        "flagged_at": 1789626636.9321635
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 134,
+    "times_flagged": 140,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
-        "country": "France",
-        "confidence": 0.704,
-        "flagged_at": 1789583871.1873496
+        "country": "Indonesia",
+        "confidence": 0.656,
+        "flagged_at": 1789626636.4308572
       },
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
-        "country": "France",
-        "confidence": 0.846,
-        "flagged_at": 1789583871.2235932
+        "country": "Indonesia",
+        "confidence": 0.786,
+        "flagged_at": 1789626636.4677913
       },
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
-        "country": "France",
-        "confidence": 0.802,
-        "flagged_at": 1789583871.488764
+        "country": "Indonesia",
+        "confidence": 0.847,
+        "flagged_at": 1789626636.5429714
       },
       {
-        "topic": "The most breathtaking place to visit in France",
+        "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
-        "country": "France",
-        "confidence": 0.846,
-        "flagged_at": 1789583871.5247731
+        "country": "Indonesia",
+        "confidence": 0.852,
+        "flagged_at": 1789626636.8580892
       },
       {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.493,
-        "flagged_at": 1789600095.7898238
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.763,
+        "flagged_at": 1789626636.8951437
       }
     ]
   },
@@ -37816,6 +37816,116 @@
         "country": "Brazil",
         "confidence": 0.779,
         "flagged_at": 1789600096.476671
+      }
+    ]
+  },
+  "volcanic island sunrise": {
+    "prompt": "volcanic island sunrise",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.328,
+        "flagged_at": 1789626635.7851772
+      }
+    ]
+  },
+  "mangrove kayak": {
+    "prompt": "mangrove kayak",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.63,
+        "flagged_at": 1789626635.8229423
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.535,
+        "flagged_at": 1789626635.860185
+      }
+    ]
+  },
+  "bamboo raft sunset": {
+    "prompt": "bamboo raft sunset",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.711,
+        "flagged_at": 1789626636.0619113
+      }
+    ]
+  },
+  "yogyakarta night market": {
+    "prompt": "Yogyakarta night market",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1789626636.1726065
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.846,
+        "flagged_at": 1789626636.2095788
+      }
+    ]
+  },
+  "satay grill flames": {
+    "prompt": "satay grill flames",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.583,
+        "flagged_at": 1789626636.5995998
+      }
+    ]
+  },
+  "indonesia map highlight": {
+    "prompt": "Indonesia map highlight",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.852,
+        "flagged_at": 1789626636.7473083
       }
     ]
   }
