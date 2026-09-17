@@ -5966,6 +5966,16 @@
       "groq_tokens": 1855,
       "groq_calls": 1,
       "posted_at": 1789670318.4874754
+    },
+    {
+      "video_id": "wrxYt0LU0Gk",
+      "category": "travel",
+      "language": "Thai",
+      "topic": "A hidden gem destination in Thailand most tourists don't know about",
+      "country": "Thailand",
+      "groq_tokens": 2285,
+      "groq_calls": 1,
+      "posted_at": 1789687648.7789056
     }
   ]
 }

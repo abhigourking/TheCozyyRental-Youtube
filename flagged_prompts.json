@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1010,
+    "times_flagged": 1015,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.385,
-        "flagged_at": 1789670315.7926733
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.434,
+        "flagged_at": 1789687646.0149145
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.814,
-        "flagged_at": 1789670316.0842028
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.335,
+        "flagged_at": 1789687646.3471086
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.839,
-        "flagged_at": 1789670316.1229289
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.647,
+        "flagged_at": 1789687646.3847058
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.705,
-        "flagged_at": 1789670316.434086
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.5,
+        "flagged_at": 1789687646.4398897
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.43,
-        "flagged_at": 1789670316.4984837
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.784,
+        "flagged_at": 1789687647.0053632
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 157,
+    "times_flagged": 167,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.463,
-        "flagged_at": 1789670316.1618044
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.749,
+        "flagged_at": 1789687646.760129
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.822,
-        "flagged_at": 1789670316.200373
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.768,
+        "flagged_at": 1789687646.7975907
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.42,
-        "flagged_at": 1789670316.2392437
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1789687646.8348746
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.811,
-        "flagged_at": 1789670316.2779517
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.874,
+        "flagged_at": 1789687646.8723886
       },
       {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.718,
-        "flagged_at": 1789670316.316942
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.781,
+        "flagged_at": 1789687646.9481108
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 7,
+    "times_flagged": 8,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Greece",
-        "category": "travel",
-        "country": "Greece",
-        "confidence": 0.41,
-        "flagged_at": 1788823189.0217807
-      },
       {
         "topic": "The most viral street food trend in Iceland right now",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "Brazil",
         "confidence": 0.304,
         "flagged_at": 1789600096.5491498
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.406,
+        "flagged_at": 1789687646.0514724
       }
     ]
   },
@@ -38152,6 +38152,219 @@
         "country": "France",
         "confidence": 0.839,
         "flagged_at": 1789670316.5375402
+      }
+    ]
+  },
+  "map pin thailand hidden": {
+    "prompt": "map pin Thailand hidden",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.652,
+        "flagged_at": 1789687645.808847
+      }
+    ]
+  },
+  "aerial view jungle island": {
+    "prompt": "aerial view jungle island",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.43,
+        "flagged_at": 1789687645.8464496
+      }
+    ]
+  },
+  "mekong river turquoise water": {
+    "prompt": "Mekong river turquoise water",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.766,
+        "flagged_at": 1789687645.9032695
+      }
+    ]
+  },
+  "dense tropical forest canopy": {
+    "prompt": "dense tropical forest canopy",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.788,
+        "flagged_at": 1789687645.9415135
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.83,
+        "flagged_at": 1789687645.9781911
+      }
+    ]
+  },
+  "close up river ripple": {
+    "prompt": "close up river ripple",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1789687646.161912
+      }
+    ]
+  },
+  "bamboo kayak paddling": {
+    "prompt": "bamboo kayak paddling",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.344,
+        "flagged_at": 1789687646.1985018
+      }
+    ]
+  },
+  "villagers cooking outdoor": {
+    "prompt": "villagers cooking outdoor",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.821,
+        "flagged_at": 1789687646.235076
+      }
+    ]
+  },
+  "handshake with local": {
+    "prompt": "handshake with local",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.709,
+        "flagged_at": 1789687646.2723055
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.821,
+        "flagged_at": 1789687646.309771
+      }
+    ]
+  },
+  "hand picking mango": {
+    "prompt": "hand picking mango",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.676,
+        "flagged_at": 1789687646.4772708
+      },
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.815,
+        "flagged_at": 1789687646.5159447
+      }
+    ]
+  },
+  "steaming rice bowl": {
+    "prompt": "steaming rice bowl",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.352,
+        "flagged_at": 1789687646.5533156
+      }
+    ]
+  },
+  "sunset time\u2011lapse": {
+    "prompt": "sunset time\u2011lapse",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.806,
+        "flagged_at": 1789687646.5911002
+      }
+    ]
+  },
+  "travel roadmap icons": {
+    "prompt": "travel roadmap icons",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Thailand most tourists don't know about",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.333,
+        "flagged_at": 1789687646.9098258
       }
     ]
   }
