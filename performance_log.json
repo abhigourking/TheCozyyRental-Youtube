@@ -5956,6 +5956,16 @@
       "groq_tokens": 2038,
       "groq_calls": 1,
       "posted_at": 1789651306.6868498
+    },
+    {
+      "video_id": "kpd7AG_qdp0",
+      "category": "food",
+      "language": "en",
+      "topic": "A must-try traditional dish from France and the story behind it",
+      "country": "France",
+      "groq_tokens": 1855,
+      "groq_calls": 1,
+      "posted_at": 1789670318.4874754
     }
   ]
 }

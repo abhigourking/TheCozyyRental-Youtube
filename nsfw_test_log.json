@@ -37886,6 +37886,146 @@
         }
       ],
       "ran_at": 1789651303.511273
+    },
+    {
+      "run_number": "3882",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/35250856588",
+      "topic": "A must-try traditional dish from France and the story behind it",
+      "category": "food",
+      "country": "France",
+      "images_checked": 111,
+      "images_flagged": 111,
+      "flag_details": [
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "French countryside kitchen"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "French countryside kitchen"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "French countryside kitchen"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "French countryside kitchen"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up rooster"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up rooster"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up rooster"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up rooster"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Burgundy vineyards"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Burgundy vineyards"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Burgundy vineyards"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "old parchment love letter"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.692,
+          "prompt": "old parchment love letter"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "old parchment love letter"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "peasants cooking fire"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "peasants cooking fire"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "peasants cooking fire"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "peasants cooking fire"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.838,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.385,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        }
+      ],
+      "ran_at": 1789670315.6732342
     }
   ]
 }
