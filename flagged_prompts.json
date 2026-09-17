@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 998,
+    "times_flagged": 1004,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.813,
-        "flagged_at": 1789626636.6737063
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.496,
+        "flagged_at": 1789651304.4001644
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.809,
-        "flagged_at": 1789626636.710538
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.361,
+        "flagged_at": 1789651304.439006
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.318,
-        "flagged_at": 1789626636.7842221
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.516,
+        "flagged_at": 1789651304.478009
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.748,
-        "flagged_at": 1789626636.8210523
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.819,
+        "flagged_at": 1789651304.516893
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.798,
-        "flagged_at": 1789626636.9321635
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.762,
+        "flagged_at": 1789651304.5552568
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 140,
+    "times_flagged": 149,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.656,
-        "flagged_at": 1789626636.4308572
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.819,
+        "flagged_at": 1789651303.9956803
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.784,
+        "flagged_at": 1789651304.034403
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.716,
+        "flagged_at": 1789651304.0727003
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
         "confidence": 0.786,
-        "flagged_at": 1789626636.4677913
+        "flagged_at": 1789651304.3033423
       },
       {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.847,
-        "flagged_at": 1789626636.5429714
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.852,
-        "flagged_at": 1789626636.8580892
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.763,
-        "flagged_at": 1789626636.8951437
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.855,
+        "flagged_at": 1789651304.3615394
       }
     ]
   },
@@ -37926,6 +37926,129 @@
         "country": "Indonesia",
         "confidence": 0.852,
         "flagged_at": 1789626636.7473083
+      }
+    ]
+  },
+  "close up tomato sauce simmering": {
+    "prompt": "close up tomato sauce simmering",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.441,
+        "flagged_at": 1789651303.5516224
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.398,
+        "flagged_at": 1789651303.5899487
+      }
+    ]
+  },
+  "san marzano tomatoes on table": {
+    "prompt": "San Marzano tomatoes on table",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.389,
+        "flagged_at": 1789651303.6280627
+      }
+    ]
+  },
+  "close up sauce garnish": {
+    "prompt": "close up sauce garnish",
+    "times_flagged": 3,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.418,
+        "flagged_at": 1789651303.8428252
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.505,
+        "flagged_at": 1789651303.8809283
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.311,
+        "flagged_at": 1789651303.9193213
+      }
+    ]
+  },
+  "steam rising from pasta": {
+    "prompt": "steam rising from pasta",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.797,
+        "flagged_at": 1789651304.1109822
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.814,
+        "flagged_at": 1789651304.1494548
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.775,
+        "flagged_at": 1789651304.1877465
+      }
+    ]
+  },
+  "person tasting pasta": {
+    "prompt": "person tasting pasta",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.824,
+        "flagged_at": 1789651304.2265399
+      },
+      {
+        "topic": "A must-try traditional dish from Italy and the story behind it",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.762,
+        "flagged_at": 1789651304.2653415
       }
     ]
   }
