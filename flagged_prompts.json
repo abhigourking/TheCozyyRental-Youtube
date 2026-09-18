@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1021,
+    "times_flagged": 1026,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.829,
-        "flagged_at": 1789713673.385483
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.815,
+        "flagged_at": 1789737320.720881
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.762,
-        "flagged_at": 1789713673.4236603
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.74,
+        "flagged_at": 1789737321.292387
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.77,
-        "flagged_at": 1789713673.8351624
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.783,
+        "flagged_at": 1789737321.3296537
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.719,
-        "flagged_at": 1789713673.8722684
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.733,
+        "flagged_at": 1789737321.3669324
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.804,
-        "flagged_at": 1789713674.115154
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.816,
+        "flagged_at": 1789737321.4041026
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 178,
+    "times_flagged": 186,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.791,
-        "flagged_at": 1789713673.6855578
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.814,
+        "flagged_at": 1789737320.869773
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.625,
-        "flagged_at": 1789713673.7236533
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.682,
+        "flagged_at": 1789737320.9069653
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.83,
-        "flagged_at": 1789713673.9254978
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.834,
+        "flagged_at": 1789737321.1440637
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.69,
-        "flagged_at": 1789713673.9641984
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.655,
+        "flagged_at": 1789737321.1812313
       },
       {
-        "topic": "A comfort food from Peru that's become an internet obsession",
-        "category": "food",
-        "country": "Peru",
-        "confidence": 0.409,
-        "flagged_at": 1789713674.078002
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.322,
+        "flagged_at": 1789737321.2181292
       }
     ]
   },
@@ -38588,6 +38588,137 @@
         "country": "Peru",
         "confidence": 0.76,
         "flagged_at": 1789713674.040436
+      }
+    ]
+  },
+  "map zooming into island": {
+    "prompt": "map zooming into island",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.421,
+        "flagged_at": 1789737320.5195198
+      }
+    ]
+  },
+  "sunrise over sea": {
+    "prompt": "sunrise over sea",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.814,
+        "flagged_at": 1789737320.5575192
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.777,
+        "flagged_at": 1789737320.6084287
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.784,
+        "flagged_at": 1789737320.6465816
+      }
+    ]
+  },
+  "drone over rolling hills": {
+    "prompt": "drone over rolling hills",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.682,
+        "flagged_at": 1789737320.6839306
+      }
+    ]
+  },
+  "glass of tuba drink": {
+    "prompt": "glass of tuba drink",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.813,
+        "flagged_at": 1789737320.9440813
+      }
+    ]
+  },
+  "mango orchard": {
+    "prompt": "mango orchard",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.844,
+        "flagged_at": 1789737320.9810746
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.724,
+        "flagged_at": 1789737321.01834
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.761,
+        "flagged_at": 1789737321.0555522
+      },
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.836,
+        "flagged_at": 1789737321.1061358
+      }
+    ]
+  },
+  "hand holding phone taking photo": {
+    "prompt": "hand holding phone taking photo",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Philippines most tourists don't know about",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.329,
+        "flagged_at": 1789737321.2552972
       }
     ]
   }
