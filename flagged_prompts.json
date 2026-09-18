@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1146,
+    "times_flagged": 1147,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.797,
-        "flagged_at": 1789583871.5612376
-      },
       {
         "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Iceland",
         "confidence": 0.774,
         "flagged_at": 1789755654.0674706
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.781,
+        "flagged_at": 1789772967.8158357
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1027,
+    "times_flagged": 1031,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.74,
-        "flagged_at": 1789737321.292387
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.783,
-        "flagged_at": 1789737321.3296537
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.733,
-        "flagged_at": 1789737321.3669324
-      },
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.816,
-        "flagged_at": 1789737321.4041026
-      },
-      {
         "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
         "category": "food",
         "country": "Iceland",
         "confidence": 0.831,
         "flagged_at": 1789755653.359713
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.357,
+        "flagged_at": 1789772967.8555455
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.848,
+        "flagged_at": 1789772967.8949454
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.528,
+        "flagged_at": 1789772968.0532131
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.724,
+        "flagged_at": 1789772968.0934682
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 192,
+    "times_flagged": 195,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,27 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.771,
-        "flagged_at": 1789755653.551446
-      },
-      {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.667,
-        "flagged_at": 1789755653.5897298
-      },
-      {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.671,
-        "flagged_at": 1789755653.9522948
-      },
       {
         "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
         "category": "food",
@@ -26389,6 +26368,27 @@
         "country": "Iceland",
         "confidence": 0.467,
         "flagged_at": 1789755654.0289552
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.834,
+        "flagged_at": 1789772968.5011477
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.826,
+        "flagged_at": 1789772968.5399003
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.642,
+        "flagged_at": 1789772968.57858
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 8,
+    "times_flagged": 9,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most viral street food trend in Iceland right now",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.327,
-        "flagged_at": 1789190160.9746737
-      },
       {
         "topic": "A must-try traditional dish from Thailand and the story behind it",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "Thailand",
         "confidence": 0.406,
         "flagged_at": 1789687646.0514724
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.302,
+        "flagged_at": 1789772968.6171644
       }
     ]
   },
@@ -38912,6 +38912,213 @@
         "country": "Iceland",
         "confidence": 0.809,
         "flagged_at": 1789755653.9128847
+      }
+    ]
+  },
+  "colorful market signs": {
+    "prompt": "colorful market signs",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.826,
+        "flagged_at": 1789772967.6386664
+      }
+    ]
+  },
+  "tokyo street alley": {
+    "prompt": "Tokyo street alley",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.84,
+        "flagged_at": 1789772967.678847
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.831,
+        "flagged_at": 1789772967.7355802
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.78,
+        "flagged_at": 1789772967.7758002
+      }
+    ]
+  },
+  "egg being placed": {
+    "prompt": "egg being placed",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.363,
+        "flagged_at": 1789772967.9343746
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.451,
+        "flagged_at": 1789772967.9736197
+      }
+    ]
+  },
+  "hand sprinkling nori": {
+    "prompt": "hand sprinkling nori",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.784,
+        "flagged_at": 1789772968.0132532
+      }
+    ]
+  },
+  "red bean spread": {
+    "prompt": "red bean spread",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.838,
+        "flagged_at": 1789772968.132969
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.705,
+        "flagged_at": 1789772968.1719708
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.386,
+        "flagged_at": 1789772968.210778
+      }
+    ]
+  },
+  "whipped cream dollop": {
+    "prompt": "whipped cream dollop",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.758,
+        "flagged_at": 1789772968.2670112
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.662,
+        "flagged_at": 1789772968.3071344
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.75,
+        "flagged_at": 1789772968.3463557
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.805,
+        "flagged_at": 1789772968.3850784
+      }
+    ]
+  },
+  "early morning market": {
+    "prompt": "early morning market",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.782,
+        "flagged_at": 1789772968.4237423
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.811,
+        "flagged_at": 1789772968.462373
+      }
+    ]
+  },
+  "quick montage of market foods": {
+    "prompt": "quick montage of market foods",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.85,
+        "flagged_at": 1789772968.6559267
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.809,
+        "flagged_at": 1789772968.694626
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.75,
+        "flagged_at": 1789772968.7334194
       }
     ]
   }
