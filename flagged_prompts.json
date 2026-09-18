@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1015,
+    "times_flagged": 1021,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.434,
-        "flagged_at": 1789687646.0149145
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.829,
+        "flagged_at": 1789713673.385483
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.335,
-        "flagged_at": 1789687646.3471086
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.762,
+        "flagged_at": 1789713673.4236603
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.647,
-        "flagged_at": 1789687646.3847058
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.77,
+        "flagged_at": 1789713673.8351624
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.5,
-        "flagged_at": 1789687646.4398897
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.719,
+        "flagged_at": 1789713673.8722684
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.784,
-        "flagged_at": 1789687647.0053632
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.804,
+        "flagged_at": 1789713674.115154
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 167,
+    "times_flagged": 178,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.749,
-        "flagged_at": 1789687646.760129
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.791,
+        "flagged_at": 1789713673.6855578
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.768,
-        "flagged_at": 1789687646.7975907
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.625,
+        "flagged_at": 1789713673.7236533
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.804,
-        "flagged_at": 1789687646.8348746
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.83,
+        "flagged_at": 1789713673.9254978
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.874,
-        "flagged_at": 1789687646.8723886
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.69,
+        "flagged_at": 1789713673.9641984
       },
       {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.781,
-        "flagged_at": 1789687646.9481108
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.409,
+        "flagged_at": 1789713674.078002
       }
     ]
   },
@@ -38365,6 +38365,229 @@
         "country": "Thailand",
         "confidence": 0.333,
         "flagged_at": 1789687646.9098258
+      }
+    ]
+  },
+  "peruvian street vendor": {
+    "prompt": "Peruvian street vendor",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.79,
+        "flagged_at": 1789713672.7498364
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.776,
+        "flagged_at": 1789713672.7875116
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1789713672.8404143
+      }
+    ]
+  },
+  "tiktok phone scrolling": {
+    "prompt": "TikTok phone scrolling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.639,
+        "flagged_at": 1789713672.877955
+      }
+    ]
+  },
+  "tuna topping": {
+    "prompt": "tuna topping",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.665,
+        "flagged_at": 1789713672.9518855
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.671,
+        "flagged_at": 1789713672.9897666
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.805,
+        "flagged_at": 1789713673.0278838
+      }
+    ]
+  },
+  "yellow potatoes": {
+    "prompt": "yellow potatoes",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.37,
+        "flagged_at": 1789713673.0653083
+      }
+    ]
+  },
+  "buttery mash spoon": {
+    "prompt": "buttery mash spoon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.82,
+        "flagged_at": 1789713673.1031332
+      }
+    ]
+  },
+  "colorful food plating": {
+    "prompt": "colorful food plating",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.742,
+        "flagged_at": 1789713673.1408165
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.669,
+        "flagged_at": 1789713673.1779704
+      }
+    ]
+  },
+  "avocado slices": {
+    "prompt": "avocado slices",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.838,
+        "flagged_at": 1789713673.2152617
+      }
+    ]
+  },
+  "hard boiled egg cut": {
+    "prompt": "hard boiled egg cut",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.821,
+        "flagged_at": 1789713673.5367208
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.786,
+        "flagged_at": 1789713673.5742748
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.815,
+        "flagged_at": 1789713673.611552
+      }
+    ]
+  },
+  "hand serving dish": {
+    "prompt": "hand serving dish",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.736,
+        "flagged_at": 1789713673.7607539
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.543,
+        "flagged_at": 1789713673.7981622
+      }
+    ]
+  },
+  "travel montage clips": {
+    "prompt": "travel montage clips",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.721,
+        "flagged_at": 1789713674.0025225
+      },
+      {
+        "topic": "A comfort food from Peru that's become an internet obsession",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.76,
+        "flagged_at": 1789713674.040436
       }
     ]
   }
