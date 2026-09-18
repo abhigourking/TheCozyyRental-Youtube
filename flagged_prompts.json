@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1145,
+    "times_flagged": 1146,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Argentina and the story behind it",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.787,
-        "flagged_at": 1789540066.6547558
-      },
       {
         "topic": "The most breathtaking place to visit in France",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "France",
         "confidence": 0.802,
         "flagged_at": 1789670316.5769029
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.774,
+        "flagged_at": 1789755654.0674706
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1026,
+    "times_flagged": 1027,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.815,
-        "flagged_at": 1789737320.720881
-      },
       {
         "topic": "A hidden gem destination in Philippines most tourists don't know about",
         "category": "travel",
@@ -534,6 +527,13 @@
         "country": "Philippines",
         "confidence": 0.816,
         "flagged_at": 1789737321.4041026
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.831,
+        "flagged_at": 1789755653.359713
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 186,
+    "times_flagged": 192,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.814,
-        "flagged_at": 1789737320.869773
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.771,
+        "flagged_at": 1789755653.551446
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.682,
-        "flagged_at": 1789737320.9069653
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.667,
+        "flagged_at": 1789755653.5897298
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.834,
-        "flagged_at": 1789737321.1440637
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.671,
+        "flagged_at": 1789755653.9522948
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.655,
-        "flagged_at": 1789737321.1812313
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.75,
+        "flagged_at": 1789755653.99127
       },
       {
-        "topic": "A hidden gem destination in Philippines most tourists don't know about",
-        "category": "travel",
-        "country": "Philippines",
-        "confidence": 0.322,
-        "flagged_at": 1789737321.2181292
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.467,
+        "flagged_at": 1789755654.0289552
       }
     ]
   },
@@ -38719,6 +38719,199 @@
         "country": "Philippines",
         "confidence": 0.329,
         "flagged_at": 1789737321.2552972
+      }
+    ]
+  },
+  "fermented shark barrels": {
+    "prompt": "fermented shark barrels",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.852,
+        "flagged_at": 1789755653.1541624
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.751,
+        "flagged_at": 1789755653.1923625
+      }
+    ]
+  },
+  "fish market close up": {
+    "prompt": "fish market close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.829,
+        "flagged_at": 1789755653.2456594
+      }
+    ]
+  },
+  "sand burial iceland": {
+    "prompt": "sand burial Iceland",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.33,
+        "flagged_at": 1789755653.284237
+      }
+    ]
+  },
+  "greenland shark": {
+    "prompt": "greenland shark",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.839,
+        "flagged_at": 1789755653.3981752
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.796,
+        "flagged_at": 1789755653.436438
+      }
+    ]
+  },
+  "hands slicing delicacy": {
+    "prompt": "hands slicing delicacy",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.589,
+        "flagged_at": 1789755653.4747689
+      }
+    ]
+  },
+  "tiny glass serving": {
+    "prompt": "tiny glass serving",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.63,
+        "flagged_at": 1789755653.512911
+      }
+    ]
+  },
+  "brenniv\u00edn shot": {
+    "prompt": "Brenniv\u00edn shot",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.846,
+        "flagged_at": 1789755653.6273508
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.838,
+        "flagged_at": 1789755653.6653657
+      }
+    ]
+  },
+  "salty splash effect": {
+    "prompt": "salty splash effect",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.818,
+        "flagged_at": 1789755653.703108
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.803,
+        "flagged_at": 1789755653.7570758
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.801,
+        "flagged_at": 1789755653.7962801
+      }
+    ]
+  },
+  "nutty flavor overlay": {
+    "prompt": "nutty flavor overlay",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.782,
+        "flagged_at": 1789755653.8354087
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.825,
+        "flagged_at": 1789755653.8737211
+      },
+      {
+        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.809,
+        "flagged_at": 1789755653.9128847
       }
     ]
   }
