@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1148,
+    "times_flagged": 1151,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,27 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.607,
-        "flagged_at": 1789626635.897042
-      },
-      {
-        "topic": "A must-try traditional dish from France and the story behind it",
-        "category": "food",
-        "country": "France",
-        "confidence": 0.802,
-        "flagged_at": 1789670316.5769029
-      },
-      {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.774,
-        "flagged_at": 1789755654.0674706
-      },
       {
         "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
@@ -117,6 +96,27 @@
         "country": "India",
         "confidence": 0.824,
         "flagged_at": 1789790052.6982946
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.829,
+        "flagged_at": 1789806689.0256014
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.817,
+        "flagged_at": 1789806689.057351
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.858,
+        "flagged_at": 1789806689.1531804
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1036,
+    "times_flagged": 1038,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.782,
-        "flagged_at": 1789790052.8779616
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.755,
-        "flagged_at": 1789790052.913678
-      },
       {
         "topic": "The most breathtaking place to visit in India",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "India",
         "confidence": 0.775,
         "flagged_at": 1789790053.0414884
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.835,
+        "flagged_at": 1789806688.8984354
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.765,
+        "flagged_at": 1789806689.2970386
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 201,
+    "times_flagged": 203,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,20 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.829,
-        "flagged_at": 1789790052.518996
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.818,
-        "flagged_at": 1789790052.554557
-      },
       {
         "topic": "The most breathtaking place to visit in India",
         "category": "travel",
@@ -26389,6 +26375,20 @@
         "country": "India",
         "confidence": 0.433,
         "flagged_at": 1789790052.8422267
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.861,
+        "flagged_at": 1789806688.8661904
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.742,
+        "flagged_at": 1789806689.0892308
       }
     ]
   },
@@ -39199,6 +39199,121 @@
         "country": "India",
         "confidence": 0.83,
         "flagged_at": 1789790052.8062413
+      }
+    ]
+  },
+  "dramatic sunrise horizon": {
+    "prompt": "dramatic sunrise horizon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.706,
+        "flagged_at": 1789806688.753633
+      }
+    ]
+  },
+  "clouds merging with ocean": {
+    "prompt": "clouds merging with ocean",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.857,
+        "flagged_at": 1789806688.7869737
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.812,
+        "flagged_at": 1789806688.8187487
+      }
+    ]
+  },
+  "gentle waves shoreline": {
+    "prompt": "gentle waves shoreline",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.793,
+        "flagged_at": 1789806688.9302082
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.689,
+        "flagged_at": 1789806688.9621654
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.779,
+        "flagged_at": 1789806688.9939518
+      }
+    ]
+  },
+  "people walking barefoot": {
+    "prompt": "people walking barefoot",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.642,
+        "flagged_at": 1789806689.1213207
+      }
+    ]
+  },
+  "sunrise mountain viewpoint": {
+    "prompt": "sunrise mountain viewpoint",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.804,
+        "flagged_at": 1789806689.1854055
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.674,
+        "flagged_at": 1789806689.2177444
+      },
+      {
+        "topic": "The most breathtaking place to visit in Thailand",
+        "category": "travel",
+        "country": "Thailand",
+        "confidence": 0.77,
+        "flagged_at": 1789806689.2494774
       }
     ]
   }
