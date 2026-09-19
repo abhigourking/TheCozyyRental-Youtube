@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1038,
+    "times_flagged": 1040,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.757,
-        "flagged_at": 1789790052.949431
-      },
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.767,
-        "flagged_at": 1789790053.0050397
-      },
       {
         "topic": "The most breathtaking place to visit in India",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "Thailand",
         "confidence": 0.765,
         "flagged_at": 1789806689.2970386
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.709,
+        "flagged_at": 1789824007.2560804
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.495,
+        "flagged_at": 1789824007.3205202
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 203,
+    "times_flagged": 210,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.431,
-        "flagged_at": 1789790052.6624029
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.796,
+        "flagged_at": 1789824006.974915
       },
       {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.832,
-        "flagged_at": 1789790052.7699592
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.405,
+        "flagged_at": 1789824007.1761203
       },
       {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.433,
-        "flagged_at": 1789790052.8422267
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.825,
+        "flagged_at": 1789824007.2160997
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.861,
-        "flagged_at": 1789806688.8661904
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.871,
+        "flagged_at": 1789824007.3616168
       },
       {
-        "topic": "The most breathtaking place to visit in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.742,
-        "flagged_at": 1789806689.0892308
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.856,
+        "flagged_at": 1789824007.4016387
       }
     ]
   },
@@ -39314,6 +39314,114 @@
         "country": "Thailand",
         "confidence": 0.77,
         "flagged_at": 1789806689.2494774
+      }
+    ]
+  },
+  "colorful food platter": {
+    "prompt": "colorful food platter",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.456,
+        "flagged_at": 1789824006.671647
+      }
+    ]
+  },
+  "herbs being added": {
+    "prompt": "herbs being added",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.765,
+        "flagged_at": 1789824006.8144953
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.813,
+        "flagged_at": 1789824006.854517
+      }
+    ]
+  },
+  "hands tossing ceviche": {
+    "prompt": "hands tossing ceviche",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.781,
+        "flagged_at": 1789824006.8946543
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.802,
+        "flagged_at": 1789824006.9349246
+      }
+    ]
+  },
+  "aji pepper powder falling": {
+    "prompt": "aji pepper powder falling",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.34,
+        "flagged_at": 1789824007.015091
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.402,
+        "flagged_at": 1789824007.0554
+      }
+    ]
+  },
+  "lima market crowd": {
+    "prompt": "Lima market crowd",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.869,
+        "flagged_at": 1789824007.0954256
+      },
+      {
+        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "category": "food",
+        "country": "Peru",
+        "confidence": 0.46,
+        "flagged_at": 1789824007.1356606
       }
     ]
   }
