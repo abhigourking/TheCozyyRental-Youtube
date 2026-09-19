@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1151,
+    "times_flagged": 1152,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.781,
-        "flagged_at": 1789772967.8158357
-      },
       {
         "topic": "The most breathtaking place to visit in India",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Thailand",
         "confidence": 0.858,
         "flagged_at": 1789806689.1531804
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.784,
+        "flagged_at": 1789841334.735135
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1040,
+    "times_flagged": 1041,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.775,
-        "flagged_at": 1789790053.0414884
-      },
       {
         "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
@@ -534,6 +527,13 @@
         "country": "Peru",
         "confidence": 0.495,
         "flagged_at": 1789824007.3205202
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.838,
+        "flagged_at": 1789841334.7580647
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 210,
+    "times_flagged": 215,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
-        "country": "Peru",
-        "confidence": 0.796,
-        "flagged_at": 1789824006.974915
+        "country": "Mexico",
+        "confidence": 0.739,
+        "flagged_at": 1789841334.6714017
       },
       {
-        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
-        "country": "Peru",
-        "confidence": 0.405,
-        "flagged_at": 1789824007.1761203
+        "country": "Mexico",
+        "confidence": 0.646,
+        "flagged_at": 1789841334.7117393
       },
       {
-        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
-        "country": "Peru",
-        "confidence": 0.825,
-        "flagged_at": 1789824007.2160997
+        "country": "Mexico",
+        "confidence": 0.681,
+        "flagged_at": 1789841334.780709
       },
       {
-        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
-        "country": "Peru",
-        "confidence": 0.871,
-        "flagged_at": 1789824007.3616168
+        "country": "Mexico",
+        "confidence": 0.729,
+        "flagged_at": 1789841334.8045797
       },
       {
-        "topic": "A must-try traditional dish from Peru and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Mexico",
         "category": "food",
-        "country": "Peru",
-        "confidence": 0.856,
-        "flagged_at": 1789824007.4016387
+        "country": "Mexico",
+        "confidence": 0.848,
+        "flagged_at": 1789841334.8720105
       }
     ]
   },
@@ -39422,6 +39422,54 @@
         "country": "Peru",
         "confidence": 0.46,
         "flagged_at": 1789824007.1356606
+      }
+    ]
+  },
+  "taco being assembled": {
+    "prompt": "taco being assembled",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.799,
+        "flagged_at": 1789841334.6480412
+      }
+    ]
+  },
+  "happy eater biting taco": {
+    "prompt": "happy eater biting taco",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.684,
+        "flagged_at": 1789841334.8270507
+      }
+    ]
+  },
+  "mezcal bottle pouring": {
+    "prompt": "mezcal bottle pouring",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Mexico",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.808,
+        "flagged_at": 1789841334.8495328
       }
     ]
   }

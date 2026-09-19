@@ -6046,6 +6046,16 @@
       "groq_tokens": 1915,
       "groq_calls": 1,
       "posted_at": 1789824008.6834462
+    },
+    {
+      "video_id": "NtYuR752sBw",
+      "category": "food",
+      "language": "Mexican Spanish",
+      "topic": "A popular food market or food street worth visiting in Mexico",
+      "country": "Mexico",
+      "groq_tokens": 1664,
+      "groq_calls": 1,
+      "posted_at": 1789841337.1904988
     }
   ]
 }
