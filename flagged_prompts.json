@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1147,
+    "times_flagged": 1148,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.774,
-        "flagged_at": 1789600095.826046
-      },
       {
         "topic": "A bucket-list experience you can only have in Indonesia",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Japan",
         "confidence": 0.781,
         "flagged_at": 1789772967.8158357
+      },
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.824,
+        "flagged_at": 1789790052.6982946
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1031,
+    "times_flagged": 1036,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.831,
-        "flagged_at": 1789755653.359713
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.782,
+        "flagged_at": 1789790052.8779616
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.357,
-        "flagged_at": 1789772967.8555455
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.755,
+        "flagged_at": 1789790052.913678
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.848,
-        "flagged_at": 1789772967.8949454
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.757,
+        "flagged_at": 1789790052.949431
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.528,
-        "flagged_at": 1789772968.0532131
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.767,
+        "flagged_at": 1789790053.0050397
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.724,
-        "flagged_at": 1789772968.0934682
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.775,
+        "flagged_at": 1789790053.0414884
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 195,
+    "times_flagged": 201,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.75,
-        "flagged_at": 1789755653.99127
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.829,
+        "flagged_at": 1789790052.518996
       },
       {
-        "topic": "A unique regional specialty from Iceland most outsiders have never heard of",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.467,
-        "flagged_at": 1789755654.0289552
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.818,
+        "flagged_at": 1789790052.554557
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.834,
-        "flagged_at": 1789772968.5011477
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.431,
+        "flagged_at": 1789790052.6624029
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.826,
-        "flagged_at": 1789772968.5399003
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.832,
+        "flagged_at": 1789790052.7699592
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.642,
-        "flagged_at": 1789772968.57858
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.433,
+        "flagged_at": 1789790052.8422267
       }
     ]
   },
@@ -39119,6 +39119,86 @@
         "country": "Japan",
         "confidence": 0.75,
         "flagged_at": 1789772968.7334194
+      }
+    ]
+  },
+  "steep cliffside": {
+    "prompt": "steep cliffside",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.308,
+        "flagged_at": 1789790052.428407
+      }
+    ]
+  },
+  "aerial himalayas": {
+    "prompt": "aerial Himalayas",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.771,
+        "flagged_at": 1789790052.5899768
+      }
+    ]
+  },
+  "colorful prayer flags": {
+    "prompt": "colorful prayer flags",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.766,
+        "flagged_at": 1789790052.626223
+      }
+    ]
+  },
+  "close-up flag movement": {
+    "prompt": "close-up flag movement",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.813,
+        "flagged_at": 1789790052.7341216
+      }
+    ]
+  },
+  "yak cheese momo": {
+    "prompt": "yak cheese momo",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.83,
+        "flagged_at": 1789790052.8062413
       }
     ]
   }
