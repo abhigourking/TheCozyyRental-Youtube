@@ -39330,6 +39330,17 @@
       "images_flagged": 0,
       "flag_details": [],
       "ran_at": 1789875940.2932386
+    },
+    {
+      "run_number": "3894",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/35490593103",
+      "topic": "A bucket-list experience you can only have in Argentina",
+      "category": "travel",
+      "country": "Argentina",
+      "images_checked": 0,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1789892158.3255014
     }
   ]
 }
