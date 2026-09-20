@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1152,
+    "times_flagged": 1153,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.824,
-        "flagged_at": 1789790052.6982946
-      },
       {
         "topic": "The most breathtaking place to visit in Thailand",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Mexico",
         "confidence": 0.784,
         "flagged_at": 1789841334.735135
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.829,
+        "flagged_at": 1789927962.021723
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1046,
+    "times_flagged": 1051,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.754,
-        "flagged_at": 1789910636.3599806
+        "country": "Argentina",
+        "confidence": 0.765,
+        "flagged_at": 1789927961.9690082
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.364,
-        "flagged_at": 1789910636.3991406
+        "country": "Argentina",
+        "confidence": 0.341,
+        "flagged_at": 1789927962.0917315
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.34,
-        "flagged_at": 1789910636.8821518
+        "country": "Argentina",
+        "confidence": 0.797,
+        "flagged_at": 1789927962.126259
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.804,
-        "flagged_at": 1789910636.9204817
+        "country": "Argentina",
+        "confidence": 0.413,
+        "flagged_at": 1789927962.3685603
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.837,
-        "flagged_at": 1789910636.997467
+        "country": "Argentina",
+        "confidence": 0.637,
+        "flagged_at": 1789927962.4034564
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 224,
+    "times_flagged": 226,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,20 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.809,
-        "flagged_at": 1789910636.2814343
-      },
-      {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.394,
-        "flagged_at": 1789910636.4376028
-      },
       {
         "topic": "A must-try traditional dish from Greece and the story behind it",
         "category": "food",
@@ -26389,6 +26375,20 @@
         "country": "Greece",
         "confidence": 0.808,
         "flagged_at": 1789910636.8437638
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.849,
+        "flagged_at": 1789927962.1607141
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.811,
+        "flagged_at": 1789927962.1951113
       }
     ]
   },
@@ -39587,6 +39587,77 @@
         "country": "Greece",
         "confidence": 0.787,
         "flagged_at": 1789910636.9590583
+      }
+    ]
+  },
+  "steam rising from baked pastries": {
+    "prompt": "steam rising from baked pastries",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.799,
+        "flagged_at": 1789927962.0568228
+      }
+    ]
+  },
+  "group of friends sharing food": {
+    "prompt": "group of friends sharing food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.784,
+        "flagged_at": 1789927962.2295432
+      }
+    ]
+  },
+  "phone screen with comment": {
+    "prompt": "phone screen with comment",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.325,
+        "flagged_at": 1789927962.264261
+      }
+    ]
+  },
+  "steam from hot empanada": {
+    "prompt": "steam from hot empanada",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.508,
+        "flagged_at": 1789927962.299224
+      },
+      {
+        "topic": "A must-try traditional dish from Argentina and the story behind it",
+        "category": "food",
+        "country": "Argentina",
+        "confidence": 0.748,
+        "flagged_at": 1789927962.3339798
       }
     ]
   }
