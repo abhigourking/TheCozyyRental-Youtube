@@ -6146,6 +6146,16 @@
       "groq_tokens": 2008,
       "groq_calls": 1,
       "posted_at": 1790002088.033722
+    },
+    {
+      "video_id": "SxyKoBSPd4w",
+      "category": "travel",
+      "language": "European Portuguese",
+      "topic": "A bucket-list experience you can only have in Portugal",
+      "country": "Portugal",
+      "groq_tokens": 1753,
+      "groq_calls": 1,
+      "posted_at": 1790028453.0886269
     }
   ]
 }

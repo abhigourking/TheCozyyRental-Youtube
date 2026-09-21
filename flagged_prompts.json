@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1158,
+    "times_flagged": 1162,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -84,39 +84,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.738,
-        "flagged_at": 1789944187.935605
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.783,
-        "flagged_at": 1789944188.3602517
-      },
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.767,
-        "flagged_at": 1789960410.7435644
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.552,
-        "flagged_at": 1789978800.7748415
-      },
-      {
         "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
         "country": "Indonesia",
         "confidence": 0.486,
         "flagged_at": 1789978800.9120097
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.785,
+        "flagged_at": 1790028450.5060656
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.345,
+        "flagged_at": 1790028450.7219453
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.686,
+        "flagged_at": 1790028450.8418705
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.789,
+        "flagged_at": 1790028451.1228611
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1068,
+    "times_flagged": 1073,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.803,
-        "flagged_at": 1789978800.7342906
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.774,
-        "flagged_at": 1789978800.8145378
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.676,
-        "flagged_at": 1790002085.6883686
+        "country": "Portugal",
+        "confidence": 0.743,
+        "flagged_at": 1790028450.546374
       },
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.79,
-        "flagged_at": 1790002085.8784869
+        "country": "Portugal",
+        "confidence": 0.323,
+        "flagged_at": 1790028450.5863295
       },
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.668,
-        "flagged_at": 1790002086.1571605
+        "country": "Portugal",
+        "confidence": 0.617,
+        "flagged_at": 1790028450.6263344
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.778,
+        "flagged_at": 1790028450.6812892
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.845,
+        "flagged_at": 1790028450.761898
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 248,
+    "times_flagged": 256,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.612,
-        "flagged_at": 1790002085.728634
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Vietnam",
-        "category": "travel",
-        "country": "Vietnam",
+        "country": "Portugal",
         "confidence": 0.788,
-        "flagged_at": 1790002085.768854
+        "flagged_at": 1790028450.801911
       },
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.529,
-        "flagged_at": 1790002085.8088465
+        "country": "Portugal",
+        "confidence": 0.777,
+        "flagged_at": 1790028450.9220595
       },
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.704,
-        "flagged_at": 1790002085.9982953
+        "country": "Portugal",
+        "confidence": 0.835,
+        "flagged_at": 1790028450.9626567
       },
       {
-        "topic": "A bucket-list experience you can only have in Vietnam",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.796,
-        "flagged_at": 1790002086.0378273
+        "country": "Portugal",
+        "confidence": 0.399,
+        "flagged_at": 1790028451.0829096
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.821,
+        "flagged_at": 1790028451.1782255
       }
     ]
   },
@@ -40023,6 +40023,84 @@
         "country": "Vietnam",
         "confidence": 0.469,
         "flagged_at": 1790002086.1169536
+      }
+    ]
+  },
+  "pastry shop window": {
+    "prompt": "pastry shop window",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.488,
+        "flagged_at": 1790028450.3057752
+      }
+    ]
+  },
+  "steam rising from pastry": {
+    "prompt": "steam rising from pastry",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.823,
+        "flagged_at": 1790028450.345593
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.533,
+        "flagged_at": 1790028450.3852944
+      }
+    ]
+  },
+  "boat on tagus river": {
+    "prompt": "boat on Tagus river",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.681,
+        "flagged_at": 1790028450.882147
+      }
+    ]
+  },
+  "glasses of green wine": {
+    "prompt": "glasses of green wine",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.819,
+        "flagged_at": 1790028451.0027106
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.565,
+        "flagged_at": 1790028451.0427752
       }
     ]
   }
