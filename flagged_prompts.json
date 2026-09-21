@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1065,
+    "times_flagged": 1068,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.802,
-        "flagged_at": 1789978800.537937
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.775,
-        "flagged_at": 1789978800.5773854
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.765,
-        "flagged_at": 1789978800.6164238
-      },
       {
         "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
@@ -534,6 +513,27 @@
         "country": "Indonesia",
         "confidence": 0.774,
         "flagged_at": 1789978800.8145378
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.676,
+        "flagged_at": 1790002085.6883686
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.79,
+        "flagged_at": 1790002085.8784869
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.668,
+        "flagged_at": 1790002086.1571605
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 243,
+    "times_flagged": 248,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.775,
-        "flagged_at": 1789978800.0894108
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.612,
+        "flagged_at": 1790002085.728634
       },
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.84,
-        "flagged_at": 1789978800.3671405
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.788,
+        "flagged_at": 1790002085.768854
       },
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.777,
-        "flagged_at": 1789978800.460645
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.529,
+        "flagged_at": 1790002085.8088465
       },
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.807,
-        "flagged_at": 1789978800.4995217
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.704,
+        "flagged_at": 1790002085.9982953
       },
       {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.694,
-        "flagged_at": 1789978800.8537405
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.796,
+        "flagged_at": 1790002086.0378273
       }
     ]
   },
@@ -39952,6 +39952,77 @@
         "country": "Indonesia",
         "confidence": 0.805,
         "flagged_at": 1789978800.69413
+      }
+    ]
+  },
+  "drone over vietnam fields": {
+    "prompt": "drone over Vietnam fields",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.737,
+        "flagged_at": 1790002085.6463277
+      }
+    ]
+  },
+  "lantern lights street": {
+    "prompt": "lantern lights street",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.849,
+        "flagged_at": 1790002085.9185958
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.804,
+        "flagged_at": 1790002085.9589512
+      }
+    ]
+  },
+  "thumbs up subscribe animation": {
+    "prompt": "thumbs up subscribe animation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.832,
+        "flagged_at": 1790002086.0772672
+      }
+    ]
+  },
+  "vietnam map highlight": {
+    "prompt": "Vietnam map highlight",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Vietnam",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.469,
+        "flagged_at": 1790002086.1169536
       }
     ]
   }
