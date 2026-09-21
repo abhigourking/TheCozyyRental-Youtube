@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1156,
+    "times_flagged": 1158,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,20 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Mexico",
-        "category": "food",
-        "country": "Mexico",
-        "confidence": 0.784,
-        "flagged_at": 1789841334.735135
-      },
-      {
-        "topic": "A must-try traditional dish from Argentina and the story behind it",
-        "category": "food",
-        "country": "Argentina",
-        "confidence": 0.829,
-        "flagged_at": 1789927962.021723
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Thailand",
         "category": "travel",
@@ -117,6 +103,20 @@
         "country": "Thailand",
         "confidence": 0.767,
         "flagged_at": 1789960410.7435644
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.552,
+        "flagged_at": 1789978800.7748415
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.486,
+        "flagged_at": 1789978800.9120097
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1058,
+    "times_flagged": 1065,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.805,
-        "flagged_at": 1789944188.1501582
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Thailand",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.632,
-        "flagged_at": 1789944188.2648594
-      },
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.579,
-        "flagged_at": 1789960410.7951422
+        "country": "Indonesia",
+        "confidence": 0.802,
+        "flagged_at": 1789978800.537937
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.786,
-        "flagged_at": 1789960411.025631
+        "country": "Indonesia",
+        "confidence": 0.775,
+        "flagged_at": 1789978800.5773854
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.783,
-        "flagged_at": 1789960411.0643206
+        "country": "Indonesia",
+        "confidence": 0.765,
+        "flagged_at": 1789978800.6164238
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.803,
+        "flagged_at": 1789978800.7342906
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.774,
+        "flagged_at": 1789978800.8145378
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 237,
+    "times_flagged": 243,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.834,
-        "flagged_at": 1789960411.1406965
+        "country": "Indonesia",
+        "confidence": 0.775,
+        "flagged_at": 1789978800.0894108
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.689,
-        "flagged_at": 1789960411.1788602
+        "country": "Indonesia",
+        "confidence": 0.84,
+        "flagged_at": 1789978800.3671405
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.633,
-        "flagged_at": 1789960411.2166529
+        "country": "Indonesia",
+        "confidence": 0.777,
+        "flagged_at": 1789978800.460645
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.706,
-        "flagged_at": 1789960411.2696035
+        "country": "Indonesia",
+        "confidence": 0.807,
+        "flagged_at": 1789978800.4995217
       },
       {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Indonesia",
         "category": "food",
-        "country": "Thailand",
-        "confidence": 0.829,
-        "flagged_at": 1789960411.3089345
+        "country": "Indonesia",
+        "confidence": 0.694,
+        "flagged_at": 1789978800.8537405
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 9,
+    "times_flagged": 10,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Thailand and the story behind it",
-        "category": "food",
-        "country": "Thailand",
-        "confidence": 0.354,
-        "flagged_at": 1789498542.0015583
-      },
       {
         "topic": "A comfort food from Iceland that's become an internet obsession",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "Japan",
         "confidence": 0.302,
         "flagged_at": 1789772968.6171644
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.317,
+        "flagged_at": 1789978800.4212704
       }
     ]
   },
@@ -39858,6 +39858,100 @@
         "country": "Thailand",
         "confidence": 0.305,
         "flagged_at": 1789960411.1026573
+      }
+    ]
+  },
+  "tourist walking through market": {
+    "prompt": "tourist walking through market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.768,
+        "flagged_at": 1789978800.00963
+      }
+    ]
+  },
+  "close up traditional dishes": {
+    "prompt": "close up traditional dishes",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.393,
+        "flagged_at": 1789978800.206991
+      }
+    ]
+  },
+  "steam rising from satay": {
+    "prompt": "steam rising from satay",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.836,
+        "flagged_at": 1789978800.2463882
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.777,
+        "flagged_at": 1789978800.2847605
+      }
+    ]
+  },
+  "hand turning satay": {
+    "prompt": "hand turning satay",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.399,
+        "flagged_at": 1789978800.3241377
+      }
+    ]
+  },
+  "various street foods montage": {
+    "prompt": "various street foods montage",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.821,
+        "flagged_at": 1789978800.6550589
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Indonesia",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.805,
+        "flagged_at": 1789978800.69413
       }
     ]
   }
