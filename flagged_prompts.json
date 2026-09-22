@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1080,
+    "times_flagged": 1083,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.558,
-        "flagged_at": 1790061982.5290377
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.543,
-        "flagged_at": 1790084284.3028636
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.803,
-        "flagged_at": 1790084284.7937737
-      },
       {
         "topic": "A hidden gem destination in Portugal most tourists don't know about",
         "category": "travel",
@@ -534,6 +513,27 @@
         "country": "Portugal",
         "confidence": 0.785,
         "flagged_at": 1790102001.717845
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.829,
+        "flagged_at": 1790118229.886755
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.75,
+        "flagged_at": 1790118229.9165905
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.679,
+        "flagged_at": 1790118230.0781145
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 290,
+    "times_flagged": 301,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Italy",
+        "topic": "A comfort food from Egypt that's become an internet obsession",
         "category": "food",
-        "country": "Italy",
-        "confidence": 0.757,
-        "flagged_at": 1790084284.9134028
+        "country": "Egypt",
+        "confidence": 0.467,
+        "flagged_at": 1790118230.2250094
       },
       {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.834,
-        "flagged_at": 1790102001.4236917
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.715,
+        "flagged_at": 1790118230.3138692
       },
       {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.721,
-        "flagged_at": 1790102001.543498
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.473,
+        "flagged_at": 1790118230.3548734
       },
       {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.779,
-        "flagged_at": 1790102001.5986981
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.728,
+        "flagged_at": 1790118230.384141
       },
       {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.466,
-        "flagged_at": 1790102001.6388147
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.8,
+        "flagged_at": 1790118230.4428694
       }
     ]
   },
@@ -40471,6 +40471,84 @@
         "country": "Portugal",
         "confidence": 0.729,
         "flagged_at": 1790102001.8367577
+      }
+    ]
+  },
+  "cheesy pastry reveal": {
+    "prompt": "cheesy pastry reveal",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.782,
+        "flagged_at": 1790118229.8559828
+      }
+    ]
+  },
+  "aroma steam visual": {
+    "prompt": "aroma steam visual",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.841,
+        "flagged_at": 1790118230.1074479
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.782,
+        "flagged_at": 1790118230.1367323
+      }
+    ]
+  },
+  "person biting pastry": {
+    "prompt": "person biting pastry",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.495,
+        "flagged_at": 1790118230.2548916
+      },
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.601,
+        "flagged_at": 1790118230.2842984
+      }
+    ]
+  },
+  "social media tag overlay": {
+    "prompt": "social media tag overlay",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "category": "food",
+        "country": "Egypt",
+        "confidence": 0.654,
+        "flagged_at": 1790118230.4135036
       }
     ]
   }
