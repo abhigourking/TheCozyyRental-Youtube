@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1162,
+    "times_flagged": 1164,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,20 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.486,
-        "flagged_at": 1789978800.9120097
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.785,
-        "flagged_at": 1790028450.5060656
-      },
       {
         "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
@@ -117,6 +103,20 @@
         "country": "Portugal",
         "confidence": 0.789,
         "flagged_at": 1790028451.1228611
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.82,
+        "flagged_at": 1790045758.6588404
+      },
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.853,
+        "flagged_at": 1790045758.758794
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 256,
+    "times_flagged": 271,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.788,
-        "flagged_at": 1790028450.801911
+        "country": "Italy",
+        "confidence": 0.725,
+        "flagged_at": 1790045759.221442
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.777,
-        "flagged_at": 1790028450.9220595
+        "country": "Italy",
+        "confidence": 0.756,
+        "flagged_at": 1790045759.2627108
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.835,
-        "flagged_at": 1790028450.9626567
+        "country": "Italy",
+        "confidence": 0.809,
+        "flagged_at": 1790045759.3033752
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.399,
-        "flagged_at": 1790028451.0829096
+        "country": "Italy",
+        "confidence": 0.655,
+        "flagged_at": 1790045759.343968
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.821,
-        "flagged_at": 1790028451.1782255
+        "country": "Italy",
+        "confidence": 0.697,
+        "flagged_at": 1790045759.3858137
       }
     ]
   },
@@ -40101,6 +40101,22 @@
         "country": "Portugal",
         "confidence": 0.565,
         "flagged_at": 1790028451.0427752
+      }
+    ]
+  },
+  "turquoise water horizon": {
+    "prompt": "turquoise water horizon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Italy",
+        "category": "travel",
+        "country": "Italy",
+        "confidence": 0.774,
+        "flagged_at": 1790045758.9218807
       }
     ]
   }
