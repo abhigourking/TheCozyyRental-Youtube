@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1165,
+    "times_flagged": 1167,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,20 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.686,
-        "flagged_at": 1790028450.8418705
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.789,
-        "flagged_at": 1790028451.1228611
-      },
       {
         "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
@@ -117,6 +103,20 @@
         "country": "Vietnam",
         "confidence": 0.45,
         "flagged_at": 1790061982.4887757
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.791,
+        "flagged_at": 1790084284.714178
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.782,
+        "flagged_at": 1790084285.0872524
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1076,
+    "times_flagged": 1078,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.778,
-        "flagged_at": 1790028450.6812892
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.845,
-        "flagged_at": 1790028450.761898
-      },
       {
         "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "Vietnam",
         "confidence": 0.558,
         "flagged_at": 1790061982.5290377
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.543,
+        "flagged_at": 1790084284.3028636
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.803,
+        "flagged_at": 1790084284.7937737
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 277,
+    "times_flagged": 286,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.759,
-        "flagged_at": 1790061982.2383075
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.333,
+        "flagged_at": 1790084284.6745043
       },
       {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.828,
-        "flagged_at": 1790061982.2775648
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.754,
+        "flagged_at": 1790084284.7538583
       },
       {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.706,
-        "flagged_at": 1790061982.3167071
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.826,
+        "flagged_at": 1790084284.8335187
       },
       {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.533,
-        "flagged_at": 1790061982.3949652
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.757,
+        "flagged_at": 1790084284.873578
       },
       {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.817,
-        "flagged_at": 1790061982.433887
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.757,
+        "flagged_at": 1790084284.9134028
       }
     ]
   },
@@ -40227,6 +40227,188 @@
         "country": "Vietnam",
         "confidence": 0.802,
         "flagged_at": 1790061982.19943
+      }
+    ]
+  },
+  "italian market street view": {
+    "prompt": "Italian market street view",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.83,
+        "flagged_at": 1790084284.0498135
+      }
+    ]
+  },
+  "pizza being sliced": {
+    "prompt": "pizza being sliced",
+    "times_flagged": 3,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.549,
+        "flagged_at": 1790084284.105073
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.667,
+        "flagged_at": 1790084284.1448753
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.768,
+        "flagged_at": 1790084284.1843064
+      }
+    ]
+  },
+  "crowd tasting pizza": {
+    "prompt": "crowd tasting pizza",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.686,
+        "flagged_at": 1790084284.2239773
+      }
+    ]
+  },
+  "hand picking arancini": {
+    "prompt": "hand picking arancini",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.801,
+        "flagged_at": 1790084284.2633605
+      }
+    ]
+  },
+  "gelato cone closeup": {
+    "prompt": "gelato cone closeup",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.344,
+        "flagged_at": 1790084284.4222648
+      }
+    ]
+  },
+  "pistachio gelato scoop": {
+    "prompt": "pistachio gelato scoop",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.811,
+        "flagged_at": 1790084284.4623685
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.769,
+        "flagged_at": 1790084284.5017846
+      }
+    ]
+  },
+  "lampredotto sandwich being assembled": {
+    "prompt": "lampredotto sandwich being assembled",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.709,
+        "flagged_at": 1790084284.5411963
+      }
+    ]
+  },
+  "thumbs up icon animation": {
+    "prompt": "thumbs up icon animation",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.652,
+        "flagged_at": 1790084284.952566
+      }
+    ]
+  },
+  "comment box pop-up": {
+    "prompt": "comment box pop-up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.7,
+        "flagged_at": 1790084284.991947
+      }
+    ]
+  },
+  "italian street food montage": {
+    "prompt": "Italian street food montage",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Italy",
+        "category": "food",
+        "country": "Italy",
+        "confidence": 0.676,
+        "flagged_at": 1790084285.0314457
       }
     ]
   }

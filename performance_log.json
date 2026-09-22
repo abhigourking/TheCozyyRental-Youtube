@@ -6176,6 +6176,16 @@
       "groq_tokens": 1629,
       "groq_calls": 1,
       "posted_at": 1790061983.9753048
+    },
+    {
+      "video_id": "t9bA-uT1-MQ",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Italy",
+      "country": "Italy",
+      "groq_tokens": 1887,
+      "groq_calls": 1,
+      "posted_at": 1790084286.413178
     }
   ]
 }
