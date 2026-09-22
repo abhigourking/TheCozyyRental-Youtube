@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1078,
+    "times_flagged": 1080,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.779,
-        "flagged_at": 1790061982.1216125
-      },
-      {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.678,
-        "flagged_at": 1790061982.3557553
-      },
       {
         "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "Italy",
         "confidence": 0.803,
         "flagged_at": 1790084284.7937737
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.414,
+        "flagged_at": 1790102001.678401
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.785,
+        "flagged_at": 1790102001.717845
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 286,
+    "times_flagged": 290,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26359,36 +26359,36 @@
         "topic": "A popular food market or food street worth visiting in Italy",
         "category": "food",
         "country": "Italy",
-        "confidence": 0.333,
-        "flagged_at": 1790084284.6745043
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.754,
-        "flagged_at": 1790084284.7538583
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.826,
-        "flagged_at": 1790084284.8335187
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.757,
-        "flagged_at": 1790084284.873578
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
         "confidence": 0.757,
         "flagged_at": 1790084284.9134028
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.834,
+        "flagged_at": 1790102001.4236917
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.721,
+        "flagged_at": 1790102001.543498
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.779,
+        "flagged_at": 1790102001.5986981
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.466,
+        "flagged_at": 1790102001.6388147
       }
     ]
   },
@@ -40409,6 +40409,68 @@
         "country": "Italy",
         "confidence": 0.676,
         "flagged_at": 1790084285.0314457
+      }
+    ]
+  },
+  "golden horizon": {
+    "prompt": "golden horizon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.798,
+        "flagged_at": 1790102001.464079
+      }
+    ]
+  },
+  "close up of chouri\u00e7o filling": {
+    "prompt": "close up of chouri\u00e7o filling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.438,
+        "flagged_at": 1790102001.5037477
+      }
+    ]
+  },
+  "map pin animation": {
+    "prompt": "map pin animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1790102001.75746
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.813,
+        "flagged_at": 1790102001.7970786
+      },
+      {
+        "topic": "A hidden gem destination in Portugal most tourists don't know about",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.729,
+        "flagged_at": 1790102001.8367577
       }
     ]
   }

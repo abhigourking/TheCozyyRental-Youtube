@@ -6186,6 +6186,16 @@
       "groq_tokens": 1887,
       "groq_calls": 1,
       "posted_at": 1790084286.413178
+    },
+    {
+      "video_id": "hQOCW0GmpoU",
+      "category": "travel",
+      "language": "European Portuguese",
+      "topic": "A hidden gem destination in Portugal most tourists don't know about",
+      "country": "Portugal",
+      "groq_tokens": 2069,
+      "groq_calls": 1,
+      "posted_at": 1790102003.8982143
     }
   ]
 }
