@@ -6166,6 +6166,16 @@
       "groq_tokens": 1954,
       "groq_calls": 1,
       "posted_at": 1790045761.1874757
+    },
+    {
+      "video_id": "u7_ffKF6sSQ",
+      "category": "travel",
+      "language": "Vietnamese",
+      "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+      "country": "Vietnam",
+      "groq_tokens": 1629,
+      "groq_calls": 1,
+      "posted_at": 1790061983.9753048
     }
   ]
 }

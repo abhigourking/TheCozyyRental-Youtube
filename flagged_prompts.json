@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1164,
+    "times_flagged": 1165,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.345,
-        "flagged_at": 1790028450.7219453
-      },
       {
         "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Italy",
         "confidence": 0.853,
         "flagged_at": 1790045758.758794
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.45,
+        "flagged_at": 1790061982.4887757
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1073,
+    "times_flagged": 1076,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.743,
-        "flagged_at": 1790028450.546374
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.323,
-        "flagged_at": 1790028450.5863295
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.617,
-        "flagged_at": 1790028450.6263344
-      },
       {
         "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
@@ -534,6 +513,27 @@
         "country": "Portugal",
         "confidence": 0.845,
         "flagged_at": 1790028450.761898
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.779,
+        "flagged_at": 1790061982.1216125
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.678,
+        "flagged_at": 1790061982.3557553
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.558,
+        "flagged_at": 1790061982.5290377
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 271,
+    "times_flagged": 277,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Italy",
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
-        "country": "Italy",
-        "confidence": 0.725,
-        "flagged_at": 1790045759.221442
+        "country": "Vietnam",
+        "confidence": 0.759,
+        "flagged_at": 1790061982.2383075
       },
       {
-        "topic": "The most breathtaking place to visit in Italy",
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
-        "country": "Italy",
-        "confidence": 0.756,
-        "flagged_at": 1790045759.2627108
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1790061982.2775648
       },
       {
-        "topic": "The most breathtaking place to visit in Italy",
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
-        "country": "Italy",
-        "confidence": 0.809,
-        "flagged_at": 1790045759.3033752
+        "country": "Vietnam",
+        "confidence": 0.706,
+        "flagged_at": 1790061982.3167071
       },
       {
-        "topic": "The most breathtaking place to visit in Italy",
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
-        "country": "Italy",
-        "confidence": 0.655,
-        "flagged_at": 1790045759.343968
+        "country": "Vietnam",
+        "confidence": 0.533,
+        "flagged_at": 1790061982.3949652
       },
       {
-        "topic": "The most breathtaking place to visit in Italy",
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
-        "country": "Italy",
-        "confidence": 0.697,
-        "flagged_at": 1790045759.3858137
+        "country": "Vietnam",
+        "confidence": 0.817,
+        "flagged_at": 1790061982.433887
       }
     ]
   },
@@ -40117,6 +40117,116 @@
         "country": "Italy",
         "confidence": 0.774,
         "flagged_at": 1790045758.9218807
+      }
+    ]
+  },
+  "hand holding map": {
+    "prompt": "hand holding map",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.698,
+        "flagged_at": 1790061981.8300705
+      }
+    ]
+  },
+  "mountain village aerial": {
+    "prompt": "mountain village aerial",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.801,
+        "flagged_at": 1790061981.8704665
+      }
+    ]
+  },
+  "terraced rice fields": {
+    "prompt": "terraced rice fields",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.752,
+        "flagged_at": 1790061981.909991
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.627,
+        "flagged_at": 1790061981.9649842
+      },
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.825,
+        "flagged_at": 1790061982.0044403
+      }
+    ]
+  },
+  "drone over hills": {
+    "prompt": "drone over hills",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.818,
+        "flagged_at": 1790061982.043451
+      }
+    ]
+  },
+  "street food stall": {
+    "prompt": "street food stall",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.872,
+        "flagged_at": 1790061982.1603627
+      }
+    ]
+  },
+  "steam rising from pot": {
+    "prompt": "steam rising from pot",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
+        "category": "travel",
+        "country": "Vietnam",
+        "confidence": 0.802,
+        "flagged_at": 1790061982.19943
       }
     ]
   }
