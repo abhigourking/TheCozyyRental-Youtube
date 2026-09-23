@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1168,
+    "times_flagged": 1169,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.853,
-        "flagged_at": 1790045758.758794
-      },
       {
         "topic": "A hidden gem destination in Vietnam most tourists don't know about",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Indonesia",
         "confidence": 0.304,
         "flagged_at": 1790146789.062692
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.479,
+        "flagged_at": 1790190121.4425519
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1092,
+    "times_flagged": 1097,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.308,
-        "flagged_at": 1790169594.6160626
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.6,
+        "flagged_at": 1790190121.487192
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.511,
-        "flagged_at": 1790169594.670221
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.763,
+        "flagged_at": 1790190121.5322876
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.605,
-        "flagged_at": 1790169594.79343
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.68,
+        "flagged_at": 1790190121.57704
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.382,
-        "flagged_at": 1790169594.8347347
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.812,
+        "flagged_at": 1790190121.861554
       },
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.796,
-        "flagged_at": 1790169594.9987514
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.783,
+        "flagged_at": 1790190121.90654
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 316,
+    "times_flagged": 320,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.619,
-        "flagged_at": 1790146788.7612019
-      },
-      {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.64,
-        "flagged_at": 1790146788.8050616
-      },
-      {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.841,
-        "flagged_at": 1790146788.893068
-      },
-      {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.836,
-        "flagged_at": 1790169594.7524273
-      },
-      {
         "topic": "A hidden gem destination in South Korea most tourists don't know about",
         "category": "travel",
         "country": "South Korea",
         "confidence": 0.682,
         "flagged_at": 1790169594.8756979
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.795,
+        "flagged_at": 1790190121.3980546
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.876,
+        "flagged_at": 1790190122.1759822
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.589,
+        "flagged_at": 1790190122.2209127
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.329,
+        "flagged_at": 1790190122.3723407
       }
     ]
   },
@@ -40760,6 +40760,193 @@
         "country": "South Korea",
         "confidence": 0.765,
         "flagged_at": 1790169594.9575148
+      }
+    ]
+  },
+  "close up baguette slice": {
+    "prompt": "close up baguette slice",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.44,
+        "flagged_at": 1790190121.2630203
+      }
+    ]
+  },
+  "bright market lights": {
+    "prompt": "bright market lights",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.739,
+        "flagged_at": 1790190121.3087587
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.775,
+        "flagged_at": 1790190121.353827
+      }
+    ]
+  },
+  "pho bowl steaming": {
+    "prompt": "pho bowl steaming",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.325,
+        "flagged_at": 1790190121.6217437
+      }
+    ]
+  },
+  "close up beef slices": {
+    "prompt": "close up beef slices",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.311,
+        "flagged_at": 1790190121.66647
+      }
+    ]
+  },
+  "crystal clear broth": {
+    "prompt": "crystal clear broth",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.821,
+        "flagged_at": 1790190121.7114487
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.81,
+        "flagged_at": 1790190121.7565598
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.828,
+        "flagged_at": 1790190121.8158846
+      }
+    ]
+  },
+  "vibrant dessert colors": {
+    "prompt": "vibrant dessert colors",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.695,
+        "flagged_at": 1790190121.9513538
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.473,
+        "flagged_at": 1790190121.9962468
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.823,
+        "flagged_at": 1790190122.0410535
+      }
+    ]
+  },
+  "smoothie being blended": {
+    "prompt": "smoothie being blended",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.504,
+        "flagged_at": 1790190122.0861738
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.54,
+        "flagged_at": 1790190122.1309943
+      }
+    ]
+  },
+  "map of vietnam pins": {
+    "prompt": "map of Vietnam pins",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.775,
+        "flagged_at": 1790190122.2666917
+      }
+    ]
+  },
+  "happy foodie thumbs up": {
+    "prompt": "happy foodie thumbs up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.732,
+        "flagged_at": 1790190122.312106
       }
     ]
   }
