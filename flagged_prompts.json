@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1167,
+    "times_flagged": 1168,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "The most breathtaking place to visit in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.82,
-        "flagged_at": 1790045758.6588404
-      },
       {
         "topic": "The most breathtaking place to visit in Italy",
         "category": "travel",
@@ -117,6 +110,13 @@
         "country": "Italy",
         "confidence": 0.782,
         "flagged_at": 1790084285.0872524
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.304,
+        "flagged_at": 1790146789.062692
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1083,
+    "times_flagged": 1087,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.414,
-        "flagged_at": 1790102001.678401
-      },
-      {
-        "topic": "A hidden gem destination in Portugal most tourists don't know about",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.785,
-        "flagged_at": 1790102001.717845
-      },
-      {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.829,
-        "flagged_at": 1790118229.886755
-      },
-      {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.75,
-        "flagged_at": 1790118229.9165905
-      },
-      {
         "topic": "A comfort food from Egypt that's become an internet obsession",
         "category": "food",
         "country": "Egypt",
         "confidence": 0.679,
         "flagged_at": 1790118230.0781145
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.544,
+        "flagged_at": 1790146788.1627164
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.817,
+        "flagged_at": 1790146788.5873516
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.822,
+        "flagged_at": 1790146788.8335783
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.785,
+        "flagged_at": 1790146788.863404
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 301,
+    "times_flagged": 314,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
-        "country": "Egypt",
-        "confidence": 0.467,
-        "flagged_at": 1790118230.2250094
+        "country": "Indonesia",
+        "confidence": 0.428,
+        "flagged_at": 1790146788.6791692
       },
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
-        "country": "Egypt",
-        "confidence": 0.715,
-        "flagged_at": 1790118230.3138692
+        "country": "Indonesia",
+        "confidence": 0.801,
+        "flagged_at": 1790146788.7344677
       },
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
-        "country": "Egypt",
-        "confidence": 0.473,
-        "flagged_at": 1790118230.3548734
+        "country": "Indonesia",
+        "confidence": 0.619,
+        "flagged_at": 1790146788.7612019
       },
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
-        "country": "Egypt",
-        "confidence": 0.728,
-        "flagged_at": 1790118230.384141
+        "country": "Indonesia",
+        "confidence": 0.64,
+        "flagged_at": 1790146788.8050616
       },
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
-        "country": "Egypt",
-        "confidence": 0.8,
-        "flagged_at": 1790118230.4428694
+        "country": "Indonesia",
+        "confidence": 0.841,
+        "flagged_at": 1790146788.893068
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 10,
+    "times_flagged": 11,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A comfort food from Iceland that's become an internet obsession",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.333,
-        "flagged_at": 1789565800.9284015
-      },
       {
         "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "Indonesia",
         "confidence": 0.317,
         "flagged_at": 1789978800.4212704
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.334,
+        "flagged_at": 1790146788.1352873
       }
     ]
   },
@@ -40549,6 +40549,130 @@
         "country": "Egypt",
         "confidence": 0.654,
         "flagged_at": 1790118230.4135036
+      }
+    ]
+  },
+  "steam rising rice": {
+    "prompt": "steam rising rice",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.872,
+        "flagged_at": 1790146788.078768
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.714,
+        "flagged_at": 1790146788.1078851
+      }
+    ]
+  },
+  "close up peanut sauce": {
+    "prompt": "close up peanut sauce",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.62,
+        "flagged_at": 1790146788.3127222
+      }
+    ]
+  },
+  "slicing beef": {
+    "prompt": "slicing beef",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.804,
+        "flagged_at": 1790146788.3415618
+      }
+    ]
+  },
+  "crackers being added": {
+    "prompt": "crackers being added",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.849,
+        "flagged_at": 1790146788.499829
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.69,
+        "flagged_at": 1790146788.528673
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.54,
+        "flagged_at": 1790146788.558433
+      }
+    ]
+  },
+  "hand tapping like button": {
+    "prompt": "hand tapping like button",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.703,
+        "flagged_at": 1790146788.7077608
+      }
+    ]
+  },
+  "tropical street vendor": {
+    "prompt": "tropical street vendor",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.869,
+        "flagged_at": 1790146788.9222326
+      },
+      {
+        "topic": "A must-try traditional dish from Indonesia and the story behind it",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.849,
+        "flagged_at": 1790146788.98453
       }
     ]
   }
