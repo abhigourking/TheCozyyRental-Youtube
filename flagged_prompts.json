@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1097,
+    "times_flagged": 1102,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.6,
-        "flagged_at": 1790190121.487192
+        "country": "India",
+        "confidence": 0.447,
+        "flagged_at": 1790206369.6840286
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.763,
-        "flagged_at": 1790190121.5322876
+        "country": "India",
+        "confidence": 0.799,
+        "flagged_at": 1790206369.7237039
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.68,
-        "flagged_at": 1790190121.57704
+        "country": "India",
+        "confidence": 0.824,
+        "flagged_at": 1790206370.129764
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.812,
-        "flagged_at": 1790190121.861554
+        "country": "India",
+        "confidence": 0.511,
+        "flagged_at": 1790206370.1682308
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.783,
-        "flagged_at": 1790190121.90654
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1790206370.2073314
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 320,
+    "times_flagged": 328,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in South Korea most tourists don't know about",
-        "category": "travel",
-        "country": "South Korea",
-        "confidence": 0.682,
-        "flagged_at": 1790169594.8756979
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.788,
+        "flagged_at": 1790206369.762656
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.795,
-        "flagged_at": 1790190121.3980546
+        "country": "India",
+        "confidence": 0.543,
+        "flagged_at": 1790206369.8021078
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.876,
-        "flagged_at": 1790190122.1759822
+        "country": "India",
+        "confidence": 0.874,
+        "flagged_at": 1790206369.8417625
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.589,
-        "flagged_at": 1790190122.2209127
+        "country": "India",
+        "confidence": 0.693,
+        "flagged_at": 1790206370.014335
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "topic": "A popular food market or food street worth visiting in India",
         "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.329,
-        "flagged_at": 1790190122.3723407
+        "country": "India",
+        "confidence": 0.715,
+        "flagged_at": 1790206370.0529747
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 11,
+    "times_flagged": 12,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Brazil most outsiders have never heard of",
-        "category": "food",
-        "country": "Brazil",
-        "confidence": 0.304,
-        "flagged_at": 1789600096.5491498
-      },
       {
         "topic": "A hidden gem destination in Thailand most tourists don't know about",
         "category": "travel",
@@ -27946,6 +27939,13 @@
         "country": "Indonesia",
         "confidence": 0.334,
         "flagged_at": 1790146788.1352873
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.408,
+        "flagged_at": 1790206369.5703647
       }
     ]
   },
@@ -40947,6 +40947,98 @@
         "country": "Vietnam",
         "confidence": 0.732,
         "flagged_at": 1790190122.312106
+      }
+    ]
+  },
+  "golgappa being filled": {
+    "prompt": "golgappa being filled",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.789,
+        "flagged_at": 1790206369.3592193
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.802,
+        "flagged_at": 1790206369.3984091
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.801,
+        "flagged_at": 1790206369.4372718
+      }
+    ]
+  },
+  "delhi market street": {
+    "prompt": "Delhi market street",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.805,
+        "flagged_at": 1790206369.6084123
+      }
+    ]
+  },
+  "jalebi being fried": {
+    "prompt": "jalebi being fried",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.611,
+        "flagged_at": 1790206369.8815181
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.552,
+        "flagged_at": 1790206369.921033
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.737,
+        "flagged_at": 1790206369.9592195
+      }
+    ]
+  },
+  "stacked jalebi plate": {
+    "prompt": "stacked jalebi plate",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in India",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.399,
+        "flagged_at": 1790206370.0915692
       }
     ]
   }
