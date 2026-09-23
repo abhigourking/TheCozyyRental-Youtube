@@ -41174,6 +41174,148 @@
         }
       ],
       "ran_at": 1790146788.0468624
+    },
+    {
+      "run_number": "3908",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/35856768392",
+      "topic": "A hidden gem destination in South Korea most tourists don't know about",
+      "category": "travel",
+      "country": "South Korea",
+      "images_checked": 80,
+      "images_flagged": 80,
+      "flag_details": [
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "pastel houses island"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "pastel houses island"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "pastel houses island"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "pastel houses island"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Suncheon Bay aerial view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Suncheon Bay aerial view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Suncheon Bay aerial view"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Suncheon Bay aerial view"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.84,
+          "prompt": "map pin South Korea"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "map pin South Korea"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.717,
+          "prompt": "map pin South Korea"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "electric bike countryside"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "electric bike countryside"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "emerald rice paddies"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.452,
+          "prompt": "emerald rice paddies"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "emerald rice paddies"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.308,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.511,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "scenic nature landscape"
+        }
+      ],
+      "ran_at": 1790169594.4492033
     }
   ]
 }

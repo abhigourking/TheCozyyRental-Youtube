@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1087,
+    "times_flagged": 1092,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A comfort food from Egypt that's become an internet obsession",
-        "category": "food",
-        "country": "Egypt",
-        "confidence": 0.679,
-        "flagged_at": 1790118230.0781145
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.308,
+        "flagged_at": 1790169594.6160626
       },
       {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.544,
-        "flagged_at": 1790146788.1627164
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.511,
+        "flagged_at": 1790169594.670221
       },
       {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.817,
-        "flagged_at": 1790146788.5873516
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.605,
+        "flagged_at": 1790169594.79343
       },
       {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.822,
-        "flagged_at": 1790146788.8335783
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.382,
+        "flagged_at": 1790169594.8347347
       },
       {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.785,
-        "flagged_at": 1790146788.863404
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.796,
+        "flagged_at": 1790169594.9987514
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 314,
+    "times_flagged": 316,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,20 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.428,
-        "flagged_at": 1790146788.6791692
-      },
-      {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.801,
-        "flagged_at": 1790146788.7344677
-      },
       {
         "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
@@ -26389,6 +26375,20 @@
         "country": "Indonesia",
         "confidence": 0.841,
         "flagged_at": 1790146788.893068
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.836,
+        "flagged_at": 1790169594.7524273
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.682,
+        "flagged_at": 1790169594.8756979
       }
     ]
   },
@@ -40673,6 +40673,93 @@
         "country": "Indonesia",
         "confidence": 0.849,
         "flagged_at": 1790146788.98453
+      }
+    ]
+  },
+  "map pin south korea": {
+    "prompt": "map pin South Korea",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.84,
+        "flagged_at": 1790169594.4932215
+      },
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.717,
+        "flagged_at": 1790169594.5341802
+      }
+    ]
+  },
+  "emerald rice paddies": {
+    "prompt": "emerald rice paddies",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.452,
+        "flagged_at": 1790169594.575405
+      }
+    ]
+  },
+  "tidal flats shallow water": {
+    "prompt": "tidal flats shallow water",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.62,
+        "flagged_at": 1790169594.711628
+      }
+    ]
+  },
+  "hand holding food": {
+    "prompt": "hand holding food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.797,
+        "flagged_at": 1790169594.9164655
+      }
+    ]
+  },
+  "sunrise over island": {
+    "prompt": "sunrise over island",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in South Korea most tourists don't know about",
+        "category": "travel",
+        "country": "South Korea",
+        "confidence": 0.765,
+        "flagged_at": 1790169594.9575148
       }
     ]
   }
