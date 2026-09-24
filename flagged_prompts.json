@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1169,
+    "times_flagged": 1170,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Vietnam most tourists don't know about",
-        "category": "travel",
-        "country": "Vietnam",
-        "confidence": 0.45,
-        "flagged_at": 1790061982.4887757
-      },
       {
         "topic": "A popular food market or food street worth visiting in Italy",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Vietnam",
         "confidence": 0.479,
         "flagged_at": 1790190121.4425519
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.844,
+        "flagged_at": 1790257570.8266146
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1113,
+    "times_flagged": 1120,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.777,
-        "flagged_at": 1790232645.3885288
+        "country": "Greece",
+        "confidence": 0.817,
+        "flagged_at": 1790257570.4897165
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.69,
-        "flagged_at": 1790232645.4234369
+        "country": "Greece",
+        "confidence": 0.816,
+        "flagged_at": 1790257570.5297654
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.646,
-        "flagged_at": 1790232645.458126
+        "country": "Greece",
+        "confidence": 0.692,
+        "flagged_at": 1790257570.8672888
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.522,
-        "flagged_at": 1790232645.4931076
+        "country": "Greece",
+        "confidence": 0.82,
+        "flagged_at": 1790257570.908056
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.796,
-        "flagged_at": 1790232645.5976696
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1790257571.110979
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 337,
+    "times_flagged": 346,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.604,
-        "flagged_at": 1790232645.1969206
+        "country": "Greece",
+        "confidence": 0.686,
+        "flagged_at": 1790257571.2761803
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.733,
-        "flagged_at": 1790232645.247789
+        "country": "Greece",
+        "confidence": 0.752,
+        "flagged_at": 1790257571.3330874
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.794,
-        "flagged_at": 1790232645.28277
+        "country": "Greece",
+        "confidence": 0.464,
+        "flagged_at": 1790257571.5770783
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.691,
-        "flagged_at": 1790232645.5280547
+        "country": "Greece",
+        "confidence": 0.769,
+        "flagged_at": 1790257571.6172342
       },
       {
-        "topic": "A must-try traditional dish from Turkey and the story behind it",
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
-        "country": "Turkey",
-        "confidence": 0.856,
-        "flagged_at": 1790232645.5628426
+        "country": "Greece",
+        "confidence": 0.805,
+        "flagged_at": 1790257571.6577034
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 12,
+    "times_flagged": 13,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A hidden gem destination in Thailand most tourists don't know about",
-        "category": "travel",
-        "country": "Thailand",
-        "confidence": 0.406,
-        "flagged_at": 1789687646.0514724
-      },
       {
         "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "India",
         "confidence": 0.408,
         "flagged_at": 1790206369.5703647
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.444,
+        "flagged_at": 1790257571.6986628
       }
     ]
   },
@@ -41214,6 +41214,199 @@
         "country": "Turkey",
         "confidence": 0.827,
         "flagged_at": 1790232645.3532984
+      }
+    ]
+  },
+  "close up cheese spread": {
+    "prompt": "close up cheese spread",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.506,
+        "flagged_at": 1790257570.3283505
+      }
+    ]
+  },
+  "goat milk pouring": {
+    "prompt": "goat milk pouring",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.809,
+        "flagged_at": 1790257570.5696871
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.707,
+        "flagged_at": 1790257570.6095479
+      }
+    ]
+  },
+  "clay jar aging": {
+    "prompt": "clay jar aging",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.505,
+        "flagged_at": 1790257570.6499386
+      }
+    ]
+  },
+  "bread being topped": {
+    "prompt": "bread being topped",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.815,
+        "flagged_at": 1790257570.6903923
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.747,
+        "flagged_at": 1790257570.7305965
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1790257570.771058
+      }
+    ]
+  },
+  "flavor fireworks animation": {
+    "prompt": "flavor fireworks animation",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.821,
+        "flagged_at": 1790257571.0286336
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.773,
+        "flagged_at": 1790257571.0700648
+      }
+    ]
+  },
+  "figs on plate": {
+    "prompt": "figs on plate",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.789,
+        "flagged_at": 1790257571.1517835
+      }
+    ]
+  },
+  "grilled octopus sizzling": {
+    "prompt": "grilled octopus sizzling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.689,
+        "flagged_at": 1790257571.1924863
+      }
+    ]
+  },
+  "comment icons": {
+    "prompt": "comment icons",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.589,
+        "flagged_at": 1790257571.3742065
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.809,
+        "flagged_at": 1790257571.4150083
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.819,
+        "flagged_at": 1790257571.4557588
+      }
+    ]
+  },
+  "travel food montage": {
+    "prompt": "travel food montage",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.836,
+        "flagged_at": 1790257571.4962766
+      },
+      {
+        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.538,
+        "flagged_at": 1790257571.5364993
       }
     ]
   }
