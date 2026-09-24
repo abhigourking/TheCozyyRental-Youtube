@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1170,
+    "times_flagged": 1171,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.791,
-        "flagged_at": 1790084284.714178
-      },
       {
         "topic": "A popular food market or food street worth visiting in Italy",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Greece",
         "confidence": 0.844,
         "flagged_at": 1790257570.8266146
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.822,
+        "flagged_at": 1790276872.2542117
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1120,
+    "times_flagged": 1125,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.817,
-        "flagged_at": 1790257570.4897165
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.806,
+        "flagged_at": 1790276871.8252296
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.816,
-        "flagged_at": 1790257570.5297654
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.328,
+        "flagged_at": 1790276871.9965048
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.692,
-        "flagged_at": 1790257570.8672888
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.502,
+        "flagged_at": 1790276872.0241728
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.82,
-        "flagged_at": 1790257570.908056
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.726,
+        "flagged_at": 1790276872.2242234
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.824,
-        "flagged_at": 1790257571.110979
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.593,
+        "flagged_at": 1790276872.28176
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 346,
+    "times_flagged": 356,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.686,
-        "flagged_at": 1790257571.2761803
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.528,
+        "flagged_at": 1790276872.5947874
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.752,
-        "flagged_at": 1790257571.3330874
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.685,
+        "flagged_at": 1790276872.623667
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.464,
-        "flagged_at": 1790257571.5770783
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.715,
+        "flagged_at": 1790276872.652215
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.769,
-        "flagged_at": 1790257571.6172342
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.73,
+        "flagged_at": 1790276872.6802607
       },
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.805,
-        "flagged_at": 1790257571.6577034
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.837,
+        "flagged_at": 1790276872.708511
       }
     ]
   },
@@ -41407,6 +41407,150 @@
         "country": "Greece",
         "confidence": 0.538,
         "flagged_at": 1790257571.5364993
+      }
+    ]
+  },
+  "aerial forest canopy": {
+    "prompt": "aerial forest canopy",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.836,
+        "flagged_at": 1790276871.854799
+      }
+    ]
+  },
+  "drone over flores": {
+    "prompt": "drone over Flores",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.7,
+        "flagged_at": 1790276871.8848736
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.421,
+        "flagged_at": 1790276871.9123213
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.747,
+        "flagged_at": 1790276871.940495
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.568,
+        "flagged_at": 1790276871.9686842
+      }
+    ]
+  },
+  "time-lapse color change": {
+    "prompt": "time-lapse color change",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.796,
+        "flagged_at": 1790276872.1093981
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.859,
+        "flagged_at": 1790276872.1381238
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.813,
+        "flagged_at": 1790276872.194836
+      }
+    ]
+  },
+  "green water reflection": {
+    "prompt": "green water reflection",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.774,
+        "flagged_at": 1790276872.3093817
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.785,
+        "flagged_at": 1790276872.3371646
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.826,
+        "flagged_at": 1790276872.3647184
+      }
+    ]
+  },
+  "photographer framing lake": {
+    "prompt": "photographer framing lake",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED",
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.78,
+        "flagged_at": 1790276872.3926709
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.766,
+        "flagged_at": 1790276872.421004
+      },
+      {
+        "topic": "The most breathtaking place to visit in Indonesia",
+        "category": "travel",
+        "country": "Indonesia",
+        "confidence": 0.368,
+        "flagged_at": 1790276872.4492464
       }
     ]
   }
