@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1126,
+    "times_flagged": 1132,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.328,
-        "flagged_at": 1790276871.9965048
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.515,
+        "flagged_at": 1790344020.9356687
       },
       {
-        "topic": "The most breathtaking place to visit in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.502,
-        "flagged_at": 1790276872.0241728
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.52,
+        "flagged_at": 1790344020.976848
       },
       {
-        "topic": "The most breathtaking place to visit in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.726,
-        "flagged_at": 1790276872.2242234
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.536,
+        "flagged_at": 1790344021.0588226
       },
       {
-        "topic": "The most breathtaking place to visit in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.593,
-        "flagged_at": 1790276872.28176
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.758,
+        "flagged_at": 1790344021.6115472
       },
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.585,
-        "flagged_at": 1790293098.3765793
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.311,
+        "flagged_at": 1790344021.6531072
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 361,
+    "times_flagged": 366,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.878,
-        "flagged_at": 1790293097.9044662
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.824,
+        "flagged_at": 1790344021.0177677
       },
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.543,
-        "flagged_at": 1790293097.9456506
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.62,
+        "flagged_at": 1790344021.405435
       },
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.716,
-        "flagged_at": 1790293098.0284238
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.739,
+        "flagged_at": 1790344021.446427
       },
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.553,
-        "flagged_at": 1790293098.0703354
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.628,
+        "flagged_at": 1790344021.6950927
       },
       {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.744,
-        "flagged_at": 1790293098.1117857
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.72,
+        "flagged_at": 1790344021.7385743
       }
     ]
   },
@@ -41676,6 +41676,144 @@
         "country": "India",
         "confidence": 0.794,
         "flagged_at": 1790293098.3197095
+      }
+    ]
+  },
+  "happy diners tasting": {
+    "prompt": "happy diners tasting",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.422,
+        "flagged_at": 1790344020.8105445
+      }
+    ]
+  },
+  "potato slices frying": {
+    "prompt": "potato slices frying",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.618,
+        "flagged_at": 1790344020.8534403
+      }
+    ]
+  },
+  "glass of retsina wine": {
+    "prompt": "glass of retsina wine",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.786,
+        "flagged_at": 1790344021.0997653
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.831,
+        "flagged_at": 1790344021.141302
+      }
+    ]
+  },
+  "ancient battlefield painting": {
+    "prompt": "ancient battlefield painting",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.827,
+        "flagged_at": 1790344021.182233
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.393,
+        "flagged_at": 1790344021.2233255
+      }
+    ]
+  },
+  "mediterranean sea waves": {
+    "prompt": "Mediterranean sea waves",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1790344021.2641459
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.332,
+        "flagged_at": 1790344021.3220148
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.768,
+        "flagged_at": 1790344021.3641589
+      }
+    ]
+  },
+  "smartphone tagging food": {
+    "prompt": "smartphone tagging food",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.808,
+        "flagged_at": 1790344021.4877539
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.696,
+        "flagged_at": 1790344021.5288832
+      },
+      {
+        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.755,
+        "flagged_at": 1790344021.5702193
       }
     ]
   }
