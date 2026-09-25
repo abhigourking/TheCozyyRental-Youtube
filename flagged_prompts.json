@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1171,
+    "times_flagged": 1174,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,27 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Italy",
-        "category": "food",
-        "country": "Italy",
-        "confidence": 0.782,
-        "flagged_at": 1790084285.0872524
-      },
-      {
-        "topic": "A must-try traditional dish from Indonesia and the story behind it",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.304,
-        "flagged_at": 1790146789.062692
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.479,
-        "flagged_at": 1790190121.4425519
-      },
       {
         "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
@@ -117,6 +96,27 @@
         "country": "Indonesia",
         "confidence": 0.822,
         "flagged_at": 1790276872.2542117
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.805,
+        "flagged_at": 1790364337.6852753
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.769,
+        "flagged_at": 1790364338.1279895
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.789,
+        "flagged_at": 1790364338.4887624
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1132,
+    "times_flagged": 1135,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.515,
-        "flagged_at": 1790344020.9356687
-      },
-      {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.52,
-        "flagged_at": 1790344020.976848
-      },
-      {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.536,
-        "flagged_at": 1790344021.0588226
-      },
       {
         "topic": "A must-try traditional dish from Greece and the story behind it",
         "category": "food",
@@ -534,6 +513,27 @@
         "country": "Greece",
         "confidence": 0.311,
         "flagged_at": 1790344021.6531072
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.838,
+        "flagged_at": 1790364338.1702485
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.819,
+        "flagged_at": 1790364338.212581
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.791,
+        "flagged_at": 1790364338.2553966
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 366,
+    "times_flagged": 375,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.824,
-        "flagged_at": 1790344021.0177677
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.598,
+        "flagged_at": 1790364337.8338346
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.62,
-        "flagged_at": 1790344021.405435
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.791,
+        "flagged_at": 1790364338.001842
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.739,
-        "flagged_at": 1790344021.446427
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.705,
+        "flagged_at": 1790364338.0439577
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.628,
-        "flagged_at": 1790344021.6950927
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.829,
+        "flagged_at": 1790364338.0860722
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.72,
-        "flagged_at": 1790344021.7385743
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.775,
+        "flagged_at": 1790364338.4035952
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 14,
+    "times_flagged": 15,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Indonesia",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.317,
-        "flagged_at": 1789978800.4212704
-      },
       {
         "topic": "A must-try traditional dish from Indonesia and the story behind it",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "India",
         "confidence": 0.33,
         "flagged_at": 1790293098.4194279
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.457,
+        "flagged_at": 1790364337.7274113
       }
     ]
   },
@@ -41814,6 +41814,139 @@
         "country": "Greece",
         "confidence": 0.755,
         "flagged_at": 1790344021.5702193
+      }
+    ]
+  },
+  "palm grove close up": {
+    "prompt": "palm grove close up",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.321,
+        "flagged_at": 1790364337.392571
+      }
+    ]
+  },
+  "traditional egyptian dish": {
+    "prompt": "traditional Egyptian dish",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.582,
+        "flagged_at": 1790364337.560044
+      }
+    ]
+  },
+  "drizzling honey": {
+    "prompt": "drizzling honey",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.806,
+        "flagged_at": 1790364337.601729
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.807,
+        "flagged_at": 1790364337.643133
+      }
+    ]
+  },
+  "latte art coffee": {
+    "prompt": "latte art coffee",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.8,
+        "flagged_at": 1790364337.8756714
+      }
+    ]
+  },
+  "dunes background": {
+    "prompt": "dunes background",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.705,
+        "flagged_at": 1790364337.9175997
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.708,
+        "flagged_at": 1790364337.9598198
+      }
+    ]
+  },
+  "travel montage fast cut": {
+    "prompt": "travel montage fast cut",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.698,
+        "flagged_at": 1790364338.3186102
+      },
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.48,
+        "flagged_at": 1790364338.3611643
+      }
+    ]
+  },
+  "sunset quiet landscape": {
+    "prompt": "sunset quiet landscape",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Egypt most tourists don't know about",
+        "category": "travel",
+        "country": "Egypt",
+        "confidence": 0.765,
+        "flagged_at": 1790364338.4464676
       }
     ]
   }
