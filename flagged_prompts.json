@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1174,
+    "times_flagged": 1180,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -84,39 +84,39 @@
     ],
     "examples": [
       {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
+        "topic": "A must-try traditional dish from Japan and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.844,
-        "flagged_at": 1790257570.8266146
+        "country": "Japan",
+        "confidence": 0.782,
+        "flagged_at": 1790381659.5753994
       },
       {
-        "topic": "The most breathtaking place to visit in Indonesia",
-        "category": "travel",
-        "country": "Indonesia",
-        "confidence": 0.822,
-        "flagged_at": 1790276872.2542117
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.781,
+        "flagged_at": 1790381659.6076174
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.805,
-        "flagged_at": 1790364337.6852753
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.848,
+        "flagged_at": 1790381659.8652797
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.769,
-        "flagged_at": 1790364338.1279895
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.741,
+        "flagged_at": 1790381660.0746331
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.789,
-        "flagged_at": 1790364338.4887624
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.809,
+        "flagged_at": 1790381661.0209568
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1135,
+    "times_flagged": 1141,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Japan and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.758,
-        "flagged_at": 1790344021.6115472
+        "country": "Japan",
+        "confidence": 0.775,
+        "flagged_at": 1790381660.3013005
       },
       {
-        "topic": "A must-try traditional dish from Greece and the story behind it",
+        "topic": "A must-try traditional dish from Japan and the story behind it",
         "category": "food",
-        "country": "Greece",
-        "confidence": 0.311,
-        "flagged_at": 1790344021.6531072
+        "country": "Japan",
+        "confidence": 0.783,
+        "flagged_at": 1790381660.334013
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.838,
-        "flagged_at": 1790364338.1702485
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.41,
+        "flagged_at": 1790381660.4469233
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.819,
-        "flagged_at": 1790364338.212581
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.306,
+        "flagged_at": 1790381660.4793544
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.791,
-        "flagged_at": 1790364338.2553966
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.601,
+        "flagged_at": 1790381660.5118794
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 375,
+    "times_flagged": 387,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.598,
-        "flagged_at": 1790364337.8338346
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.747,
+        "flagged_at": 1790381660.4143748
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.791,
-        "flagged_at": 1790364338.001842
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.824,
+        "flagged_at": 1790381660.576759
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.705,
-        "flagged_at": 1790364338.0439577
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.749,
+        "flagged_at": 1790381660.9876606
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.829,
-        "flagged_at": 1790364338.0860722
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.827,
+        "flagged_at": 1790381661.0533311
       },
       {
-        "topic": "A hidden gem destination in Egypt most tourists don't know about",
-        "category": "travel",
-        "country": "Egypt",
-        "confidence": 0.775,
-        "flagged_at": 1790364338.4035952
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.75,
+        "flagged_at": 1790381661.0860364
       }
     ]
   },
@@ -41947,6 +41947,137 @@
         "country": "Egypt",
         "confidence": 0.765,
         "flagged_at": 1790364338.4464676
+      }
+    ]
+  },
+  "japanese street market": {
+    "prompt": "Japanese street market",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.819,
+        "flagged_at": 1790381659.414041
+      }
+    ]
+  },
+  "pancake being flipped": {
+    "prompt": "pancake being flipped",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.813,
+        "flagged_at": 1790381659.6399305
+      }
+    ]
+  },
+  "old osaka street": {
+    "prompt": "old Osaka street",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.809,
+        "flagged_at": 1790381659.6723385
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.855,
+        "flagged_at": 1790381659.7999737
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.847,
+        "flagged_at": 1790381659.8329444
+      }
+    ]
+  },
+  "close up sauce swirl": {
+    "prompt": "close up sauce swirl",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.358,
+        "flagged_at": 1790381660.1069527
+      }
+    ]
+  },
+  "bonito flakes falling": {
+    "prompt": "bonito flakes falling",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.795,
+        "flagged_at": 1790381660.1390276
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.831,
+        "flagged_at": 1790381660.1716497
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.815,
+        "flagged_at": 1790381660.2039554
+      },
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.816,
+        "flagged_at": 1790381660.2364464
+      }
+    ]
+  },
+  "phone camera selfie": {
+    "prompt": "phone camera selfie",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.31,
+        "flagged_at": 1790381660.5442455
       }
     ]
   }

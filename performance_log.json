@@ -6316,6 +6316,16 @@
       "groq_tokens": 2310,
       "groq_calls": 1,
       "posted_at": 1790364340.2552493
+    },
+    {
+      "video_id": "VaCvl_IHqHE",
+      "category": "food",
+      "language": "en",
+      "topic": "A must-try traditional dish from Japan and the story behind it",
+      "country": "Japan",
+      "groq_tokens": 2034,
+      "groq_calls": 1,
+      "posted_at": 1790381663.1945415
     }
   ]
 }
