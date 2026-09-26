@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1147,
+    "times_flagged": 1152,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.816,
-        "flagged_at": 1790406905.5678542
+        "country": "Greece",
+        "confidence": 0.42,
+        "flagged_at": 1790427860.0388358
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.726,
-        "flagged_at": 1790406905.9543476
+        "country": "Greece",
+        "confidence": 0.792,
+        "flagged_at": 1790427860.2529428
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.819,
-        "flagged_at": 1790406905.9954107
+        "country": "Greece",
+        "confidence": 0.794,
+        "flagged_at": 1790427860.2959402
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.377,
-        "flagged_at": 1790406906.0367012
+        "country": "Greece",
+        "confidence": 0.631,
+        "flagged_at": 1790427860.610248
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.776,
-        "flagged_at": 1790406906.0780766
+        "country": "Greece",
+        "confidence": 0.81,
+        "flagged_at": 1790427860.6527283
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 392,
+    "times_flagged": 397,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.831,
-        "flagged_at": 1790406905.6507523
+        "country": "Greece",
+        "confidence": 0.71,
+        "flagged_at": 1790427859.9952128
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.568,
-        "flagged_at": 1790406905.6921644
+        "country": "Greece",
+        "confidence": 0.8,
+        "flagged_at": 1790427860.2099464
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.577,
-        "flagged_at": 1790406905.7331164
+        "country": "Greece",
+        "confidence": 0.682,
+        "flagged_at": 1790427860.566863
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.737,
-        "flagged_at": 1790406905.7740831
+        "country": "Greece",
+        "confidence": 0.807,
+        "flagged_at": 1790427860.6952834
       },
       {
-        "topic": "A popular food market or food street worth visiting in Japan",
+        "topic": "A comfort food from Greece that's become an internet obsession",
         "category": "food",
-        "country": "Japan",
-        "confidence": 0.819,
-        "flagged_at": 1790406906.1605577
+        "country": "Greece",
+        "confidence": 0.709,
+        "flagged_at": 1790427860.7380707
       }
     ]
   },
@@ -42149,6 +42149,155 @@
         "country": "Japan",
         "confidence": 0.757,
         "flagged_at": 1790406905.9130723
+      }
+    ]
+  },
+  "close up pastry steam": {
+    "prompt": "close up pastry steam",
+    "times_flagged": 3,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.492,
+        "flagged_at": 1790427859.8517487
+      },
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.534,
+        "flagged_at": 1790427859.895473
+      },
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.31,
+        "flagged_at": 1790427859.9386497
+      }
+    ]
+  },
+  "butter glaze pan": {
+    "prompt": "butter glaze pan",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.319,
+        "flagged_at": 1790427860.0816386
+      }
+    ]
+  },
+  "layers rising oven": {
+    "prompt": "layers rising oven",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.814,
+        "flagged_at": 1790427860.1243317
+      }
+    ]
+  },
+  "street vendor stall": {
+    "prompt": "street vendor stall",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.443,
+        "flagged_at": 1790427860.1672957
+      }
+    ]
+  },
+  "sprinkling powdered sugar": {
+    "prompt": "sprinkling powdered sugar",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.752,
+        "flagged_at": 1790427860.3383644
+      },
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.816,
+        "flagged_at": 1790427860.381202
+      }
+    ]
+  },
+  "cinnamon shaker": {
+    "prompt": "cinnamon shaker",
+    "times_flagged": 1,
+    "classes": [
+      "MALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.631,
+        "flagged_at": 1790427860.423748
+      }
+    ]
+  },
+  "person tasting pastry": {
+    "prompt": "person tasting pastry",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.715,
+        "flagged_at": 1790427860.46643
+      }
+    ]
+  },
+  "text overlay comment": {
+    "prompt": "text overlay comment",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Greece that's become an internet obsession",
+        "category": "food",
+        "country": "Greece",
+        "confidence": 0.833,
+        "flagged_at": 1790427860.5231566
       }
     ]
   }
