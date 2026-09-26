@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1182,
+    "times_flagged": 1184,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,20 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.848,
-        "flagged_at": 1790381659.8652797
-      },
-      {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.741,
-        "flagged_at": 1790381660.0746331
-      },
       {
         "topic": "A must-try traditional dish from Japan and the story behind it",
         "category": "food",
@@ -117,6 +103,20 @@
         "country": "Peru",
         "confidence": 0.486,
         "flagged_at": 1790446746.5056167
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.403,
+        "flagged_at": 1790463809.1503854
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.805,
+        "flagged_at": 1790463809.1753836
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1160,
+    "times_flagged": 1164,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -504,36 +504,36 @@
         "topic": "The most breathtaking place to visit in Peru",
         "category": "travel",
         "country": "Peru",
-        "confidence": 0.332,
-        "flagged_at": 1790446746.0397747
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.741,
-        "flagged_at": 1790446746.0802305
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.727,
-        "flagged_at": 1790446746.201473
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.799,
-        "flagged_at": 1790446746.2591567
-      },
-      {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
         "confidence": 0.807,
         "flagged_at": 1790446746.300264
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.736,
+        "flagged_at": 1790463809.4511733
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.795,
+        "flagged_at": 1790463809.4769285
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.816,
+        "flagged_at": 1790463809.5025525
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.447,
+        "flagged_at": 1790463809.9835312
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 405,
+    "times_flagged": 426,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.794,
-        "flagged_at": 1790446746.3815012
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.589,
+        "flagged_at": 1790463809.8533542
       },
       {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.827,
-        "flagged_at": 1790446746.588273
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.721,
+        "flagged_at": 1790463809.8798337
       },
       {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.671,
-        "flagged_at": 1790446746.629003
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.428,
+        "flagged_at": 1790463809.9058104
       },
       {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.777,
-        "flagged_at": 1790446746.6706116
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.825,
+        "flagged_at": 1790463809.9320703
       },
       {
-        "topic": "The most breathtaking place to visit in Peru",
-        "category": "travel",
-        "country": "Peru",
-        "confidence": 0.545,
-        "flagged_at": 1790446746.711746
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.655,
+        "flagged_at": 1790463809.9580116
       }
     ]
   },
@@ -42394,6 +42394,116 @@
         "country": "Peru",
         "confidence": 0.708,
         "flagged_at": 1790446746.4643235
+      }
+    ]
+  },
+  "crowded vietnamese market street": {
+    "prompt": "crowded Vietnamese market street",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.777,
+        "flagged_at": 1790463809.073075
+      }
+    ]
+  },
+  "fresh mango shake being poured": {
+    "prompt": "fresh mango shake being poured",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.754,
+        "flagged_at": 1790463809.2759423
+      }
+    ]
+  },
+  "pork belly being sliced": {
+    "prompt": "pork belly being sliced",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.825,
+        "flagged_at": 1790463809.300861
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.502,
+        "flagged_at": 1790463809.3260188
+      }
+    ]
+  },
+  "bowl of bun rieu soup": {
+    "prompt": "bowl of bun rieu soup",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.321,
+        "flagged_at": 1790463809.353224
+      }
+    ]
+  },
+  "crab tomato soup close up": {
+    "prompt": "crab tomato soup close up",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.464,
+        "flagged_at": 1790463809.5790052
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.393,
+        "flagged_at": 1790463809.604078
+      }
+    ]
+  },
+  "steam rising from soup": {
+    "prompt": "steam rising from soup",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Vietnam",
+        "category": "food",
+        "country": "Vietnam",
+        "confidence": 0.852,
+        "flagged_at": 1790463809.6297123
       }
     ]
   }
