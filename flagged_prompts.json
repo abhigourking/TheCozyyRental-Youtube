@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1180,
+    "times_flagged": 1181,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.782,
-        "flagged_at": 1790381659.5753994
-      },
       {
         "topic": "A must-try traditional dish from Japan and the story behind it",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Japan",
         "confidence": 0.809,
         "flagged_at": 1790381661.0209568
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.702,
+        "flagged_at": 1790406906.1194992
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1141,
+    "times_flagged": 1147,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.775,
-        "flagged_at": 1790381660.3013005
+        "confidence": 0.816,
+        "flagged_at": 1790406905.5678542
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.783,
-        "flagged_at": 1790381660.334013
+        "confidence": 0.726,
+        "flagged_at": 1790406905.9543476
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.41,
-        "flagged_at": 1790381660.4469233
+        "confidence": 0.819,
+        "flagged_at": 1790406905.9954107
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.306,
-        "flagged_at": 1790381660.4793544
+        "confidence": 0.377,
+        "flagged_at": 1790406906.0367012
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.601,
-        "flagged_at": 1790381660.5118794
+        "confidence": 0.776,
+        "flagged_at": 1790406906.0780766
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 387,
+    "times_flagged": 392,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.747,
-        "flagged_at": 1790381660.4143748
+        "confidence": 0.831,
+        "flagged_at": 1790406905.6507523
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.824,
-        "flagged_at": 1790381660.576759
+        "confidence": 0.568,
+        "flagged_at": 1790406905.6921644
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.749,
-        "flagged_at": 1790381660.9876606
+        "confidence": 0.577,
+        "flagged_at": 1790406905.7331164
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.827,
-        "flagged_at": 1790381661.0533311
+        "confidence": 0.737,
+        "flagged_at": 1790406905.7740831
       },
       {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
+        "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
         "country": "Japan",
-        "confidence": 0.75,
-        "flagged_at": 1790381661.0860364
+        "confidence": 0.819,
+        "flagged_at": 1790406906.1605577
       }
     ]
   },
@@ -42078,6 +42078,77 @@
         "country": "Japan",
         "confidence": 0.31,
         "flagged_at": 1790381660.5442455
+      }
+    ]
+  },
+  "tokyo street view": {
+    "prompt": "Tokyo street view",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.331,
+        "flagged_at": 1790406905.4841597
+      }
+    ]
+  },
+  "taiyaki being flipped": {
+    "prompt": "taiyaki being flipped",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.511,
+        "flagged_at": 1790406905.6094935
+      }
+    ]
+  },
+  "matcha crepe rolling": {
+    "prompt": "matcha crepe rolling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.78,
+        "flagged_at": 1790406905.8154259
+      }
+    ]
+  },
+  "strawberries being placed": {
+    "prompt": "strawberries being placed",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.582,
+        "flagged_at": 1790406905.8715851
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Japan",
+        "category": "food",
+        "country": "Japan",
+        "confidence": 0.757,
+        "flagged_at": 1790406905.9130723
       }
     ]
   }
