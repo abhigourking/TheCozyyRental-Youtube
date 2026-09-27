@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1164,
+    "times_flagged": 1175,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "The most breathtaking place to visit in Peru",
+        "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
-        "country": "Peru",
-        "confidence": 0.807,
-        "flagged_at": 1790446746.300264
+        "country": "Portugal",
+        "confidence": 0.83,
+        "flagged_at": 1790481129.0163586
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.736,
-        "flagged_at": 1790463809.4511733
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.638,
+        "flagged_at": 1790481129.0806134
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.795,
-        "flagged_at": 1790463809.4769285
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.771,
+        "flagged_at": 1790481129.1129832
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.816,
-        "flagged_at": 1790463809.5025525
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.775,
+        "flagged_at": 1790481129.1454608
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.447,
-        "flagged_at": 1790463809.9835312
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.739,
+        "flagged_at": 1790481129.192835
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 426,
+    "times_flagged": 434,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.589,
-        "flagged_at": 1790463809.8533542
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.414,
+        "flagged_at": 1790481128.6783733
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.721,
-        "flagged_at": 1790463809.8798337
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.499,
+        "flagged_at": 1790481128.7108462
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.428,
-        "flagged_at": 1790463809.9058104
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.767,
+        "flagged_at": 1790481128.7430477
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.825,
-        "flagged_at": 1790463809.9320703
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.832,
+        "flagged_at": 1790481128.775127
       },
       {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.655,
-        "flagged_at": 1790463809.9580116
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.567,
+        "flagged_at": 1790481128.9841006
       }
     ]
   },
@@ -42504,6 +42504,139 @@
         "country": "Vietnam",
         "confidence": 0.852,
         "flagged_at": 1790463809.6297123
+      }
+    ]
+  },
+  "viewpoint city panorama": {
+    "prompt": "viewpoint city panorama",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.833,
+        "flagged_at": 1790481128.41891
+      }
+    ]
+  },
+  "cobblestone streets lisbon": {
+    "prompt": "cobblestone streets Lisbon",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.803,
+        "flagged_at": 1790481128.549422
+      }
+    ]
+  },
+  "alfama narrow alley": {
+    "prompt": "Alfama narrow alley",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.486,
+        "flagged_at": 1790481128.9197824
+      }
+    ]
+  },
+  "cable car ride": {
+    "prompt": "cable car ride",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.541,
+        "flagged_at": 1790481128.9520977
+      }
+    ]
+  },
+  "glass of wine close up": {
+    "prompt": "glass of wine close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.313,
+        "flagged_at": 1790481129.0484776
+      }
+    ]
+  },
+  "heart icon animation": {
+    "prompt": "heart icon animation",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.816,
+        "flagged_at": 1790481129.2256236
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.844,
+        "flagged_at": 1790481129.2580934
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.808,
+        "flagged_at": 1790481129.2904665
+      }
+    ]
+  },
+  "comment section overlay": {
+    "prompt": "comment section overlay",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.852,
+        "flagged_at": 1790481129.3227518
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Portugal",
+        "category": "travel",
+        "country": "Portugal",
+        "confidence": 0.824,
+        "flagged_at": 1790481129.3550327
       }
     ]
   }
