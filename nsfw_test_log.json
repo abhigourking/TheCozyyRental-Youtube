@@ -43745,6 +43745,145 @@
         }
       ],
       "ran_at": 1790534047.3540661
+    },
+    {
+      "run_number": "3927",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/36351748484",
+      "topic": "A surprising fact about a famous tourist attraction in Italy",
+      "category": "travel",
+      "country": "Italy",
+      "images_checked": 96,
+      "images_flagged": 96,
+      "flag_details": [
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up ancient stone texture"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up ancient stone texture"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up ancient stone texture"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "close up ancient stone texture"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "dark underground tunnel"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "dark underground tunnel"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "dark underground tunnel"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "dark underground tunnel"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "historic animal cages"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "historic animal cages"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "historic animal cages"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "historic animal cages"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colosseum exterior sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colosseum exterior sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colosseum exterior sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colosseum exterior sunrise"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "roman forum ruins"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "roman forum ruins"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "roman forum ruins"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "roman forum ruins"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.823,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.845,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        }
+      ],
+      "ran_at": 1790549198.7955143
     }
   ]
 }
