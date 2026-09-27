@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1183,
+    "times_flagged": 1186,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,27 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.733,
-        "flagged_at": 1790517640.6288552
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.715,
-        "flagged_at": 1790517640.7693317
-      },
-      {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
-        "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.701,
-        "flagged_at": 1790517640.8666866
-      },
       {
         "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
         "category": "food",
@@ -534,6 +513,27 @@
         "country": "Indonesia",
         "confidence": 0.646,
         "flagged_at": 1790517640.9389362
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.714,
+        "flagged_at": 1790534047.4011323
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.728,
+        "flagged_at": 1790534047.445442
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.678,
+        "flagged_at": 1790534047.4893312
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 443,
+    "times_flagged": 450,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A hidden gem destination in Iceland most tourists don't know about",
-        "category": "travel",
-        "country": "Iceland",
-        "confidence": 0.816,
-        "flagged_at": 1790498435.5423594
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.805,
+        "flagged_at": 1790534047.751454
       },
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "topic": "The most viral street food trend in Mexico right now",
         "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.78,
-        "flagged_at": 1790517640.5795803
+        "country": "Mexico",
+        "confidence": 0.698,
+        "flagged_at": 1790534047.9862816
       },
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "topic": "The most viral street food trend in Mexico right now",
         "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.804,
-        "flagged_at": 1790517640.6783078
+        "country": "Mexico",
+        "confidence": 0.844,
+        "flagged_at": 1790534048.0291543
       },
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "topic": "The most viral street food trend in Mexico right now",
         "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.81,
-        "flagged_at": 1790517640.7187552
+        "country": "Mexico",
+        "confidence": 0.89,
+        "flagged_at": 1790534048.1615639
       },
       {
-        "topic": "A unique regional specialty from Indonesia most outsiders have never heard of",
+        "topic": "The most viral street food trend in Mexico right now",
         "category": "food",
-        "country": "Indonesia",
-        "confidence": 0.792,
-        "flagged_at": 1790517640.74487
+        "country": "Mexico",
+        "confidence": 0.593,
+        "flagged_at": 1790534048.2055266
       }
     ]
   },
@@ -42908,6 +42908,132 @@
         "country": "Indonesia",
         "confidence": 0.787,
         "flagged_at": 1790517640.9650078
+      }
+    ]
+  },
+  "mexico street market": {
+    "prompt": "Mexico street market",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.783,
+        "flagged_at": 1790534047.5334167
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.835,
+        "flagged_at": 1790534047.5769796
+      }
+    ]
+  },
+  "oaxaca cheese melting": {
+    "prompt": "Oaxaca cheese melting",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.31,
+        "flagged_at": 1790534047.6205757
+      }
+    ]
+  },
+  "chorizo sizzling": {
+    "prompt": "chorizo sizzling",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.813,
+        "flagged_at": 1790534047.795136
+      }
+    ]
+  },
+  "street vendor grill": {
+    "prompt": "street vendor grill",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.815,
+        "flagged_at": 1790534047.8538494
+      },
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.791,
+        "flagged_at": 1790534047.8986151
+      }
+    ]
+  },
+  "cilantro garnish": {
+    "prompt": "cilantro garnish",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.786,
+        "flagged_at": 1790534047.9425018
+      }
+    ]
+  },
+  "lime squeeze": {
+    "prompt": "lime squeeze",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.823,
+        "flagged_at": 1790534048.073148
+      }
+    ]
+  },
+  "chipotle mayo drizzle": {
+    "prompt": "chipotle mayo drizzle",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in Mexico right now",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.736,
+        "flagged_at": 1790534048.1172566
       }
     ]
   }
