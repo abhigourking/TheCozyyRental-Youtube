@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1184,
+    "times_flagged": 1185,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Japan and the story behind it",
-        "category": "food",
-        "country": "Japan",
-        "confidence": 0.809,
-        "flagged_at": 1790381661.0209568
-      },
       {
         "topic": "A popular food market or food street worth visiting in Japan",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Vietnam",
         "confidence": 0.805,
         "flagged_at": 1790463809.1753836
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.692,
+        "flagged_at": 1790498434.987478
       }
     ]
   },
@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1175,
+    "times_flagged": 1177,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,20 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.83,
-        "flagged_at": 1790481129.0163586
-      },
-      {
-        "topic": "A bucket-list experience you can only have in Portugal",
-        "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.638,
-        "flagged_at": 1790481129.0806134
-      },
       {
         "topic": "A bucket-list experience you can only have in Portugal",
         "category": "travel",
@@ -534,6 +520,20 @@
         "country": "Portugal",
         "confidence": 0.739,
         "flagged_at": 1790481129.192835
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.649,
+        "flagged_at": 1790498435.1159914
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.776,
+        "flagged_at": 1790498435.4576502
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 434,
+    "times_flagged": 439,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.414,
-        "flagged_at": 1790481128.6783733
+        "country": "Iceland",
+        "confidence": 0.781,
+        "flagged_at": 1790498435.1584423
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.499,
-        "flagged_at": 1790481128.7108462
+        "country": "Iceland",
+        "confidence": 0.78,
+        "flagged_at": 1790498435.2009006
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.767,
-        "flagged_at": 1790481128.7430477
+        "country": "Iceland",
+        "confidence": 0.634,
+        "flagged_at": 1790498435.2433736
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.832,
-        "flagged_at": 1790481128.775127
+        "country": "Iceland",
+        "confidence": 0.726,
+        "flagged_at": 1790498435.5001092
       },
       {
-        "topic": "A bucket-list experience you can only have in Portugal",
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
         "category": "travel",
-        "country": "Portugal",
-        "confidence": 0.567,
-        "flagged_at": 1790481128.9841006
+        "country": "Iceland",
+        "confidence": 0.816,
+        "flagged_at": 1790498435.5423594
       }
     ]
   },
@@ -27905,20 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 16,
+    "times_flagged": 17,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in India",
-        "category": "food",
-        "country": "India",
-        "confidence": 0.408,
-        "flagged_at": 1790206369.5703647
-      },
       {
         "topic": "A unique regional specialty from Greece most outsiders have never heard of",
         "category": "food",
@@ -27946,6 +27939,13 @@
         "country": "Peru",
         "confidence": 0.333,
         "flagged_at": 1790446746.546958
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.327,
+        "flagged_at": 1790498434.9440541
       }
     ]
   },
@@ -42637,6 +42637,114 @@
         "country": "Portugal",
         "confidence": 0.824,
         "flagged_at": 1790481129.3550327
+      }
+    ]
+  },
+  "gj\u00e1in gorge sign": {
+    "prompt": "Gj\u00e1in gorge sign",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.761,
+        "flagged_at": 1790498434.8843687
+      }
+    ]
+  },
+  "road sign reykjavik 30 minutes": {
+    "prompt": "road sign Reykjavik 30 minutes",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.423,
+        "flagged_at": 1790498435.0298579
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.834,
+        "flagged_at": 1790498435.072914
+      }
+    ]
+  },
+  "person dipping in water": {
+    "prompt": "person dipping in water",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.792,
+        "flagged_at": 1790498435.2865164
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.617,
+        "flagged_at": 1790498435.329309
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.751,
+        "flagged_at": 1790498435.3719175
+      }
+    ]
+  },
+  "midnight sun sky": {
+    "prompt": "midnight sun sky",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.825,
+        "flagged_at": 1790498435.4149616
+      }
+    ]
+  },
+  "comment icons overlay": {
+    "prompt": "comment icons overlay",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.752,
+        "flagged_at": 1790498435.5857859
+      },
+      {
+        "topic": "A hidden gem destination in Iceland most tourists don't know about",
+        "category": "travel",
+        "country": "Iceland",
+        "confidence": 0.798,
+        "flagged_at": 1790498435.6305103
       }
     ]
   }
