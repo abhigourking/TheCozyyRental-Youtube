@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 476,
+    "times_flagged": 477,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.776,
-        "flagged_at": 1790611072.2167165
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -26389,6 +26382,13 @@
         "country": "Vietnam",
         "confidence": 0.865,
         "flagged_at": 1790611072.924828
+      },
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.583,
+        "flagged_at": 1790630958.6492789
       }
     ]
   },
@@ -43360,6 +43360,22 @@
         "country": "Vietnam",
         "confidence": 0.784,
         "flagged_at": 1790611072.7339418
+      }
+    ]
+  },
+  "rye bread close up": {
+    "prompt": "rye bread close up",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A popular food market or food street worth visiting in Iceland",
+        "category": "food",
+        "country": "Iceland",
+        "confidence": 0.554,
+        "flagged_at": 1790630958.6744187
       }
     ]
   }

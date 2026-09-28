@@ -6436,6 +6436,16 @@
       "groq_tokens": 1757,
       "groq_calls": 1,
       "posted_at": 1790611074.759767
+    },
+    {
+      "video_id": "Pdfrqy3-3MI",
+      "category": "food",
+      "language": "en",
+      "topic": "A popular food market or food street worth visiting in Iceland",
+      "country": "Iceland",
+      "groq_tokens": 1953,
+      "groq_calls": 1,
+      "posted_at": 1790630960.061999
     }
   ]
 }
