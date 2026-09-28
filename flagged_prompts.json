@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1191,
+    "times_flagged": 1197,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -501,39 +501,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.725,
-        "flagged_at": 1790549198.9231668
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.672,
+        "flagged_at": 1790580160.2710485
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.753,
-        "flagged_at": 1790549198.964004
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.802,
+        "flagged_at": 1790580160.30579
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.493,
-        "flagged_at": 1790549199.0049822
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.824,
+        "flagged_at": 1790580160.340596
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.823,
-        "flagged_at": 1790549199.3923585
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.396,
+        "flagged_at": 1790580160.815545
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.777,
-        "flagged_at": 1790549199.4339335
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.79,
+        "flagged_at": 1790580160.8508477
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 458,
+    "times_flagged": 470,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26356,39 +26356,39 @@
     ],
     "examples": [
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.722,
-        "flagged_at": 1790549199.1688612
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.725,
+        "flagged_at": 1790580160.9749098
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.764,
-        "flagged_at": 1790549199.2263086
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.759,
+        "flagged_at": 1790580161.010021
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.705,
-        "flagged_at": 1790549199.268133
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.606,
+        "flagged_at": 1790580161.0448527
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.822,
-        "flagged_at": 1790549199.309472
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.701,
+        "flagged_at": 1790580161.0798774
       },
       {
-        "topic": "A surprising fact about a famous tourist attraction in Italy",
-        "category": "travel",
-        "country": "Italy",
-        "confidence": 0.619,
-        "flagged_at": 1790549199.3510482
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.771,
+        "flagged_at": 1790580161.1148038
       }
     ]
   },
@@ -27905,27 +27905,13 @@
   },
   "colorful abstract background": {
     "prompt": "colorful abstract background",
-    "times_flagged": 17,
+    "times_flagged": 19,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from Greece most outsiders have never heard of",
-        "category": "food",
-        "country": "Greece",
-        "confidence": 0.444,
-        "flagged_at": 1790257571.6986628
-      },
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.33,
-        "flagged_at": 1790293098.4194279
-      },
       {
         "topic": "A hidden gem destination in Egypt most tourists don't know about",
         "category": "travel",
@@ -27946,6 +27932,20 @@
         "country": "Iceland",
         "confidence": 0.327,
         "flagged_at": 1790498434.9440541
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.307,
+        "flagged_at": 1790580160.0466228
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.436,
+        "flagged_at": 1790580161.1496968
       }
     ]
   },
@@ -43057,6 +43057,185 @@
         "country": "Italy",
         "confidence": 0.546,
         "flagged_at": 1790549199.0869236
+      }
+    ]
+  },
+  "oaxaca street vendor": {
+    "prompt": "Oaxaca street vendor",
+    "times_flagged": 3,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.763,
+        "flagged_at": 1790580159.9088848
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.737,
+        "flagged_at": 1790580159.9435651
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.814,
+        "flagged_at": 1790580159.977836
+      }
+    ]
+  },
+  "crispy taco close up": {
+    "prompt": "crispy taco close up",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.435,
+        "flagged_at": 1790580160.1332746
+      }
+    ]
+  },
+  "grilling meat on grill": {
+    "prompt": "grilling meat on grill",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.477,
+        "flagged_at": 1790580160.1676788
+      }
+    ]
+  },
+  "sprinkling sesame seeds": {
+    "prompt": "sprinkling sesame seeds",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.765,
+        "flagged_at": 1790580160.2023866
+      }
+    ]
+  },
+  "close up bite reaction": {
+    "prompt": "close up bite reaction",
+    "times_flagged": 1,
+    "classes": [
+      "BUTTOCKS_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.421,
+        "flagged_at": 1790580160.2366638
+      }
+    ]
+  },
+  "colorful fiesta decorations": {
+    "prompt": "colorful fiesta decorations",
+    "times_flagged": 2,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.82,
+        "flagged_at": 1790580160.5334945
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.825,
+        "flagged_at": 1790580160.5702398
+      }
+    ]
+  },
+  "mercado 20 de noviembre entrance": {
+    "prompt": "Mercado 20 de Noviembre entrance",
+    "times_flagged": 2,
+    "classes": [
+      "BUTTOCKS_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.347,
+        "flagged_at": 1790580160.6052792
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.84,
+        "flagged_at": 1790580160.640278
+      }
+    ]
+  },
+  "line of locals": {
+    "prompt": "line of locals",
+    "times_flagged": 4,
+    "classes": [
+      "FEMALE_GENITALIA_EXPOSED",
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.775,
+        "flagged_at": 1790580160.675009
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.854,
+        "flagged_at": 1790580160.7098198
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.859,
+        "flagged_at": 1790580160.744719
+      },
+      {
+        "topic": "A unique regional specialty from Mexico most outsiders have never heard of",
+        "category": "food",
+        "country": "Mexico",
+        "confidence": 0.764,
+        "flagged_at": 1790580160.780439
       }
     ]
   }
