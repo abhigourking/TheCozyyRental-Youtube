@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1206,
+    "times_flagged": 1207,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.782,
-        "flagged_at": 1790611072.4340415
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -534,6 +527,13 @@
         "country": "Argentina",
         "confidence": 0.772,
         "flagged_at": 1790644432.043435
+      },
+      {
+        "topic": "A bucket-list experience you can only have in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.769,
+        "flagged_at": 1790721434.0431194
       }
     ]
   },
