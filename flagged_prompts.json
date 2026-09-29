@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1205,
+    "times_flagged": 1206,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.675,
-        "flagged_at": 1790611072.3907244
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -534,6 +527,13 @@
         "country": "Vietnam",
         "confidence": 0.8,
         "flagged_at": 1790611072.8365078
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.772,
+        "flagged_at": 1790644432.043435
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 477,
+    "times_flagged": 478,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.385,
-        "flagged_at": 1790611072.5202858
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -26389,6 +26382,13 @@
         "country": "Iceland",
         "confidence": 0.583,
         "flagged_at": 1790630958.6492789
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Argentina",
+        "category": "travel",
+        "country": "Argentina",
+        "confidence": 0.844,
+        "flagged_at": 1790644432.087234
       }
     ]
   },

@@ -44252,6 +44252,80 @@
         }
       ],
       "ran_at": 1790630958.6206262
+    },
+    {
+      "run_number": "3931",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/36506023491",
+      "topic": "A surprising fact about a famous tourist attraction in Argentina",
+      "category": "travel",
+      "country": "Argentina",
+      "images_checked": 12,
+      "images_flagged": 12,
+      "flag_details": [
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "construction timelapse"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "city skyline sunrise"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.772,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "colorful abstract background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "map of Argentina provinces"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "teatro colon exterior"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.844,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "hand turning old key"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "scenic nature landscape"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1790644431.9965057
     }
   ]
 }

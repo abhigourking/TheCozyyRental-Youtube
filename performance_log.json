@@ -6446,6 +6446,16 @@
       "groq_tokens": 1953,
       "groq_calls": 1,
       "posted_at": 1790630960.061999
+    },
+    {
+      "video_id": "jd--1qoS-Y8",
+      "category": "travel",
+      "language": "Argentinian Spanish",
+      "topic": "A surprising fact about a famous tourist attraction in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 2007,
+      "groq_calls": 1,
+      "posted_at": 1790644433.4830399
     }
   ]
 }
