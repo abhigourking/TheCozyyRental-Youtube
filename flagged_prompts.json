@@ -75,7 +75,7 @@
   },
   "scenic nature landscape": {
     "prompt": "scenic nature landscape",
-    "times_flagged": 1187,
+    "times_flagged": 1188,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "FEMALE_GENITALIA_EXPOSED",
@@ -83,13 +83,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A popular food market or food street worth visiting in Vietnam",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.403,
-        "flagged_at": 1790463809.1503854
-      },
       {
         "topic": "A popular food market or food street worth visiting in Vietnam",
         "category": "food",
@@ -117,6 +110,13 @@
         "country": "Italy",
         "confidence": 0.832,
         "flagged_at": 1790549199.475169
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.302,
+        "flagged_at": 1790676679.0893407
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 478,
+    "times_flagged": 479,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.867,
-        "flagged_at": 1790611072.5629983
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -26389,6 +26382,13 @@
         "country": "Argentina",
         "confidence": 0.844,
         "flagged_at": 1790644432.087234
+      },
+      {
+        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
+        "category": "food",
+        "country": "South Korea",
+        "confidence": 0.82,
+        "flagged_at": 1790676679.1311653
       }
     ]
   },
