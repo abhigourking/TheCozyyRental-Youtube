@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 479,
+    "times_flagged": 480,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.45,
-        "flagged_at": 1790611072.8808043
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -26389,6 +26382,13 @@
         "country": "South Korea",
         "confidence": 0.82,
         "flagged_at": 1790676679.1311653
+      },
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.664,
+        "flagged_at": 1790747709.4463212
       }
     ]
   },
@@ -43376,6 +43376,38 @@
         "country": "Iceland",
         "confidence": 0.554,
         "flagged_at": 1790630958.6744187
+      }
+    ]
+  },
+  "sunset glass ros\u00e9": {
+    "prompt": "sunset glass ros\u00e9",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.489,
+        "flagged_at": 1790747709.3675747
+      }
+    ]
+  },
+  "friends sharing video": {
+    "prompt": "friends sharing video",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in France",
+        "category": "travel",
+        "country": "France",
+        "confidence": 0.708,
+        "flagged_at": 1790747709.407253
       }
     ]
   }
