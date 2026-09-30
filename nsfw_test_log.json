@@ -44717,6 +44717,17 @@
         }
       ],
       "ran_at": 1790773193.7731237
+    },
+    {
+      "run_number": "3937",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/36770385861",
+      "topic": "The most breathtaking place to visit in Greece",
+      "category": "travel",
+      "country": "Greece",
+      "images_checked": 0,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1790799861.7592394
     }
   ]
 }
