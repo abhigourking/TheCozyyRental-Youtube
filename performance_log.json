@@ -6496,6 +6496,16 @@
       "groq_tokens": 2585,
       "groq_calls": 1,
       "posted_at": 1790747710.975395
+    },
+    {
+      "video_id": "KUo0nExb61c",
+      "category": "food",
+      "language": "en",
+      "topic": "The most viral street food trend in Japan right now",
+      "country": "Japan",
+      "groq_tokens": 1902,
+      "groq_calls": 1,
+      "posted_at": 1790773195.7211683
     }
   ]
 }
