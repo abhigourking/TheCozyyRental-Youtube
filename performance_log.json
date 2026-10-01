@@ -6536,6 +6536,16 @@
       "groq_tokens": 2209,
       "groq_calls": 1,
       "posted_at": 1790850578.330984
+    },
+    {
+      "video_id": "oC7OVBUrHD8",
+      "category": "travel",
+      "language": "en",
+      "topic": "A hidden gem destination in Mexico most tourists don't know about",
+      "country": "Mexico",
+      "groq_tokens": 2069,
+      "groq_calls": 1,
+      "posted_at": 1790879897.2420678
     }
   ]
 }

@@ -44877,6 +44877,17 @@
         }
       ],
       "ran_at": 1790850576.8452575
+    },
+    {
+      "run_number": "3940",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/36907008059",
+      "topic": "A hidden gem destination in Mexico most tourists don't know about",
+      "category": "travel",
+      "country": "Mexico",
+      "images_checked": 0,
+      "images_flagged": 0,
+      "flag_details": [],
+      "ran_at": 1790879895.5072317
     }
   ]
 }
