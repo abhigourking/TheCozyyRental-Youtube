@@ -6516,6 +6516,16 @@
       "groq_tokens": 2413,
       "groq_calls": 1,
       "posted_at": 1790799863.5922139
+    },
+    {
+      "video_id": "RcWZ7ZGf0SM",
+      "category": "travel",
+      "language": "en",
+      "topic": "A surprising fact about a famous tourist attraction in Mexico",
+      "country": "Mexico",
+      "groq_tokens": 1939,
+      "groq_calls": 1,
+      "posted_at": 1790815690.850668
     }
   ]
 }

@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 480,
+    "times_flagged": 483,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,27 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.865,
-        "flagged_at": 1790611072.924828
-      },
-      {
-        "topic": "A popular food market or food street worth visiting in Iceland",
-        "category": "food",
-        "country": "Iceland",
-        "confidence": 0.583,
-        "flagged_at": 1790630958.6492789
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Argentina",
-        "category": "travel",
-        "country": "Argentina",
-        "confidence": 0.844,
-        "flagged_at": 1790644432.087234
-      },
       {
         "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
         "category": "food",
@@ -26389,6 +26368,27 @@
         "country": "France",
         "confidence": 0.664,
         "flagged_at": 1790747709.4463212
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.721,
+        "flagged_at": 1790815686.7660537
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.772,
+        "flagged_at": 1790815686.845634
+      },
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.768,
+        "flagged_at": 1790815686.884839
       }
     ]
   },
@@ -43408,6 +43408,22 @@
         "country": "France",
         "confidence": 0.708,
         "flagged_at": 1790747709.407253
+      }
+    ]
+  },
+  "cool stone surface": {
+    "prompt": "cool stone surface",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A surprising fact about a famous tourist attraction in Mexico",
+        "category": "travel",
+        "country": "Mexico",
+        "confidence": 0.747,
+        "flagged_at": 1790815686.8061533
       }
     ]
   }
