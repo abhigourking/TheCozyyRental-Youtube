@@ -45154,6 +45154,103 @@
         }
       ],
       "ran_at": 1790964412.7448583
+    },
+    {
+      "run_number": "3944",
+      "run_url": "https://github.com/abhigourking/TheCozyyRental-Youtube/actions/runs/37071972253",
+      "topic": "A bucket-list experience you can only have in India",
+      "category": "travel",
+      "country": "India",
+      "images_checked": 16,
+      "images_flagged": 16,
+      "flag_details": [
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Jaipur cityscape morning"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Taj Mahal sunrise aerial"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.712,
+          "prompt": "marble dome closeup"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.423,
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "sun rays over monument"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.814,
+          "prompt": "vibrant spice piles"
+        },
+        {
+          "reason": "detected",
+          "class": "BUTTOCKS_EXPOSED",
+          "confidence": 0.405,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "hand squeezing lemon"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "Kerala houseboat sunset"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "palm trees reflection"
+        },
+        {
+          "reason": "detected",
+          "class": "FEMALE_BREAST_EXPOSED",
+          "confidence": 0.367,
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "modern city skyline"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        },
+        {
+          "reason": "vision_error",
+          "error": "HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions",
+          "prompt": "cozy lifestyle background"
+        }
+      ],
+      "ran_at": 1790980458.4444985
     }
   ]
 }

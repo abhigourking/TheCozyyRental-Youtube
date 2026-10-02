@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1208,
+    "times_flagged": 1209,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.8,
-        "flagged_at": 1790611072.776669
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -534,6 +527,13 @@
         "country": "Spain",
         "confidence": 0.32,
         "flagged_at": 1790935633.340534
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.423,
+        "flagged_at": 1790980458.5392146
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 485,
+    "times_flagged": 487,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,20 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.721,
-        "flagged_at": 1790815686.7660537
-      },
-      {
-        "topic": "A surprising fact about a famous tourist attraction in Mexico",
-        "category": "travel",
-        "country": "Mexico",
-        "confidence": 0.772,
-        "flagged_at": 1790815686.845634
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Mexico",
         "category": "travel",
@@ -26389,6 +26375,20 @@
         "country": "Spain",
         "confidence": 0.504,
         "flagged_at": 1790935633.298719
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.405,
+        "flagged_at": 1790980458.629942
+      },
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.367,
+        "flagged_at": 1790980458.6749783
       }
     ]
   },
@@ -43456,6 +43456,38 @@
         "country": "Philippines",
         "confidence": 0.343,
         "flagged_at": 1790964412.7943006
+      }
+    ]
+  },
+  "marble dome closeup": {
+    "prompt": "marble dome closeup",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.712,
+        "flagged_at": 1790980458.4945686
+      }
+    ]
+  },
+  "vibrant spice piles": {
+    "prompt": "vibrant spice piles",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A bucket-list experience you can only have in India",
+        "category": "travel",
+        "country": "India",
+        "confidence": 0.814,
+        "flagged_at": 1790980458.584449
       }
     ]
   }
