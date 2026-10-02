@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1207,
+    "times_flagged": 1208,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.547,
-        "flagged_at": 1790611072.477548
-      },
       {
         "topic": "A must-try traditional dish from Vietnam and the story behind it",
         "category": "food",
@@ -534,6 +527,13 @@
         "country": "Mexico",
         "confidence": 0.769,
         "flagged_at": 1790721434.0431194
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.32,
+        "flagged_at": 1790935633.340534
       }
     ]
   },
@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 483,
+    "times_flagged": 485,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,20 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A unique regional specialty from South Korea most outsiders have never heard of",
-        "category": "food",
-        "country": "South Korea",
-        "confidence": 0.82,
-        "flagged_at": 1790676679.1311653
-      },
-      {
-        "topic": "A bucket-list experience you can only have in France",
-        "category": "travel",
-        "country": "France",
-        "confidence": 0.664,
-        "flagged_at": 1790747709.4463212
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Mexico",
         "category": "travel",
@@ -26389,6 +26375,20 @@
         "country": "Mexico",
         "confidence": 0.768,
         "flagged_at": 1790815686.884839
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.823,
+        "flagged_at": 1790935633.2128017
+      },
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.504,
+        "flagged_at": 1790935633.298719
       }
     ]
   },
@@ -43424,6 +43424,22 @@
         "country": "Mexico",
         "confidence": 0.747,
         "flagged_at": 1790815686.8061533
+      }
+    ]
+  },
+  "laughter around food": {
+    "prompt": "laughter around food",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A must-try traditional dish from Spain and the story behind it",
+        "category": "food",
+        "country": "Spain",
+        "confidence": 0.778,
+        "flagged_at": 1790935633.2561011
       }
     ]
   }
