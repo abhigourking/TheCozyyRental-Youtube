@@ -6546,6 +6546,16 @@
       "groq_tokens": 2069,
       "groq_calls": 1,
       "posted_at": 1790879897.2420678
+    },
+    {
+      "video_id": "q0wJry5VT9c",
+      "category": "travel",
+      "language": "European Spanish",
+      "topic": "A hidden gem destination in Spain most tourists don't know about",
+      "country": "Spain",
+      "groq_tokens": 2365,
+      "groq_calls": 1,
+      "posted_at": 1790903259.2491586
     }
   ]
 }
