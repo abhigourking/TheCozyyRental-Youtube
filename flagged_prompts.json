@@ -43506,5 +43506,21 @@
         "flagged_at": 1791005992.5278459
       }
     ]
+  },
+  "map pin greece": {
+    "prompt": "map pin Greece",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A hidden gem destination in Greece most tourists don't know about",
+        "category": "travel",
+        "country": "Greece",
+        "confidence": 0.544,
+        "flagged_at": 1791063470.830866
+      }
+    ]
   }
 }
