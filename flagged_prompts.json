@@ -43490,5 +43490,21 @@
         "flagged_at": 1790980458.584449
       }
     ]
+  },
+  "timer counting 5 minutes": {
+    "prompt": "timer counting 5 minutes",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "The most viral street food trend in India right now",
+        "category": "food",
+        "country": "India",
+        "confidence": 0.805,
+        "flagged_at": 1791005992.5278459
+      }
+    ]
   }
 }
