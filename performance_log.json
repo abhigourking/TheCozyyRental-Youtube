@@ -6606,6 +6606,16 @@
       "groq_tokens": 1933,
       "groq_calls": 1,
       "posted_at": 1791028818.3344288
+    },
+    {
+      "video_id": "zYbnlO5EnAU",
+      "category": "travel",
+      "language": "Filipino",
+      "topic": "A viral travel spot in Philippines that's all over social media right now",
+      "country": "Philippines",
+      "groq_tokens": 2211,
+      "groq_calls": 1,
+      "posted_at": 1791045803.562966
     }
   ]
 }

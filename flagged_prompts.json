@@ -26347,7 +26347,7 @@
   },
   "modern city skyline": {
     "prompt": "modern city skyline",
-    "times_flagged": 491,
+    "times_flagged": 492,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "BUTTOCKS_EXPOSED",
@@ -26355,13 +26355,6 @@
       "VISION_SEXUALIZED_CONTENT"
     ],
     "examples": [
-      {
-        "topic": "A bucket-list experience you can only have in India",
-        "category": "travel",
-        "country": "India",
-        "confidence": 0.367,
-        "flagged_at": 1790980458.6749783
-      },
       {
         "topic": "A popular food market or food street worth visiting in Greece",
         "category": "food",
@@ -26389,6 +26382,13 @@
         "country": "Greece",
         "confidence": 0.779,
         "flagged_at": 1791028816.792599
+      },
+      {
+        "topic": "A viral travel spot in Philippines that's all over social media right now",
+        "category": "travel",
+        "country": "Philippines",
+        "confidence": 0.567,
+        "flagged_at": 1791045801.2815723
       }
     ]
   },
