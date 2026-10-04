@@ -6626,6 +6626,16 @@
       "groq_tokens": 1914,
       "groq_calls": 1,
       "posted_at": 1791063472.271131
+    },
+    {
+      "video_id": "ikqyflxf9Fk",
+      "category": "travel",
+      "language": "Argentinian Spanish",
+      "topic": "A bucket-list experience you can only have in Argentina",
+      "country": "Argentina",
+      "groq_tokens": 1679,
+      "groq_calls": 1,
+      "posted_at": 1791094523.314341
     }
   ]
 }
