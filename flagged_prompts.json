@@ -492,7 +492,7 @@
   },
   "cozy lifestyle background": {
     "prompt": "cozy lifestyle background",
-    "times_flagged": 1209,
+    "times_flagged": 1210,
     "classes": [
       "FEMALE_BREAST_EXPOSED",
       "VISION_SEXUALIZED_CONTENT",
@@ -500,13 +500,6 @@
       "MALE_GENITALIA_EXPOSED"
     ],
     "examples": [
-      {
-        "topic": "A must-try traditional dish from Vietnam and the story behind it",
-        "category": "food",
-        "country": "Vietnam",
-        "confidence": 0.8,
-        "flagged_at": 1790611072.8365078
-      },
       {
         "topic": "A surprising fact about a famous tourist attraction in Argentina",
         "category": "travel",
@@ -534,6 +527,13 @@
         "country": "India",
         "confidence": 0.423,
         "flagged_at": 1790980458.5392146
+      },
+      {
+        "topic": "A comfort food from Indonesia that's become an internet obsession",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.507,
+        "flagged_at": 1791117748.2741618
       }
     ]
   },
@@ -43520,6 +43520,22 @@
         "country": "Greece",
         "confidence": 0.544,
         "flagged_at": 1791063470.830866
+      }
+    ]
+  },
+  "pickled carrots": {
+    "prompt": "pickled carrots",
+    "times_flagged": 1,
+    "classes": [
+      "FEMALE_BREAST_EXPOSED"
+    ],
+    "examples": [
+      {
+        "topic": "A comfort food from Indonesia that's become an internet obsession",
+        "category": "food",
+        "country": "Indonesia",
+        "confidence": 0.764,
+        "flagged_at": 1791117748.2319021
       }
     ]
   }
