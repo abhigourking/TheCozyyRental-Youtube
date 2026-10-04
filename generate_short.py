@@ -793,7 +793,7 @@ def record_flagged_prompt(prompt, cls, confidence, topic, category, country):
 # instead of narrow body-part classes, can catch what a pure detector
 # cannot. This runs as an ADDITIONAL check, not a replacement - NudeNet
 # still runs first and independently below.
-_VISION_MODERATION_MODEL = "qwen/qwen3.6-27b"  # Groq's only vision-capable
+_VISION_MODERATION_MODEL = "qwen/qwen3.8-27b"  # Groq's only vision-capable
 # model as of 2026-08 (see console.groq.com/docs/vision) - reuses the same
 # GROQ_API_KEY(/_2) already configured for script generation, no new
 # secret needed.
@@ -1968,6 +1968,15 @@ def run_once(topic, niche, language="en", category=None, native=None, country=No
         all_clip_paths.extend(clips)
     print(f"All visuals ready ({stock_count} stock footage, {ai_count} AI image, "
           f"{degraded_count} degraded fallback).", flush=True)
+
+    # Guard (2026-10-04): when the vision check's model got shut down by Groq
+    # (404 -> fail-closed -> every candidate "flagged"), nearly every shot
+    # degraded to a placeholder and audio-only videos got published. Never
+    # publish a video where most shots are degraded fallbacks.
+    if shots and degraded_count / len(shots) > 0.4:
+        raise RuntimeError(
+            f"{degraded_count}/{len(shots)} shots degraded to fallback visuals - "
+            f"refusing to publish a mostly-placeholder video.")
 
     print(f"Assembling video: {len(all_clip_paths)} quick cuts, {total_dur:.1f}s total "
           f"(ffmpeg encoding - this takes a bit)...", flush=True)

@@ -16,7 +16,7 @@ name: Generate and Upload Shorts (self-chained, ~3 hour gap after each run)
 # skipping the flaky schedule-evaluation queue entirely.
 #
 # Gap widened again, 30 min -> 3 hours, on 2026-09-08. Groq's
-# qwen/qwen3.6-27b (the vision-model check) has a hard 200,000 tokens/day
+# qwen/qwen3.8-27b (the vision-model check; swapped from 3.6 after its 2026-09-14 shutdown) has a hard 200,000 tokens/day
 # quota PER ACCOUNT, and _groq_api_keys() already fails over between two
 # separate Groq accounts (GROQ_API_KEY, GROQ_API_KEY_2), so the real
 # combined ceiling is ~400,000 tokens/day. Real nsfw_test_log.json data
@@ -108,7 +108,7 @@ jobs:
         # generation keeps getting exercised and logged.
         #
         # DETECTION_GAP_FIXED flipped to "true" on 2026-09-08 after a
-        # vision-model second check (Groq qwen/qwen3.6-27b, see
+        # vision-model second check (Groq qwen/qwen3.8-27b, see
         # _check_image_vision_model in generate_short.py) was added,
         # tested, and verified against real production data - 6 runs
         # post-fix, 0 API errors, and real correctly-reasoned catches of
