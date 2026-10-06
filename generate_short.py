@@ -1015,6 +1015,47 @@ NSFW_SAFETY_SUFFIX = (
 )
 
 
+_POLLINATIONS_DEAD = False
+
+
+def download_pexels_photo(query, out_path):
+    """Stock-photo fallback now that Pollinations' free image API is gone
+    (HTTP 402). Searches Pexels photos (same PEXELS_API_KEY as the video
+    search), downloads the first portrait result that decodes and passes the
+    full NSFW check (NudeNet + vision model). Returns True on success."""
+    api_key = os.environ.get("PEXELS_API_KEY")
+    if not api_key:
+        return False
+    try:
+        r = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": api_key},
+            params={"query": query, "orientation": "portrait", "per_page": 8},
+            timeout=20,
+        )
+        if r.status_code != 200:
+            return False
+        photos = r.json().get("photos", [])
+        random.shuffle(photos)
+        for p in photos[:3]:
+            src = p.get("src", {})
+            url = src.get("portrait") or src.get("large2x") or src.get("large")
+            if not url:
+                continue
+            img = requests.get(url, timeout=60)
+            if img.status_code != 200:
+                continue
+            out_path.write_bytes(img.content)
+            if not _is_decodable_image(out_path):
+                continue
+            if _is_flagged_nsfw(out_path, prompt=query):
+                continue
+            return True
+    except requests.exceptions.RequestException:
+        return False
+    return False
+
+
 def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # Requesting above final 1080x1920 output resolution gives the zoompan
     # (Ken Burns) effect in build_video room to zoom in without softening.
@@ -1054,6 +1095,14 @@ def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
                     wait = (2 ** attempt) * 3 + random.uniform(0, 2)
                     time.sleep(wait)
                     continue
+                if r.status_code == 402:
+                    # Payment Required: Pollinations' free image API now
+                    # needs a paid account (confirmed 2026-10-05, every
+                    # request 402'd). Retrying is pointless and slow - mark
+                    # it dead for the rest of this run and fail fast.
+                    global _POLLINATIONS_DEAD
+                    _POLLINATIONS_DEAD = True
+                    raise RuntimeError("Pollinations returned HTTP 402 (payment required)")
                 if r.status_code >= 400:
                     # This is also what safe=true triggers when Pollinations'
                     # own filter flags the prompt/output - a rejection here
@@ -1346,19 +1395,30 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None
 
     img_path = work_dir / f"img_{index}.jpg"
     ai_prompt = _get_safe_ai_image_prompt(prompt)
-    try:
-        download_image(ai_prompt, img_path)
-    except Exception as e:
-        print(f"    AI image failed for {prompt!r}: {e}", flush=True)
+    got_image = False
+    if not _POLLINATIONS_DEAD:
+        try:
+            download_image(ai_prompt, img_path)
+            got_image = True
+        except Exception as e:
+            print(f"    AI image failed for {prompt!r}: {e}", flush=True)
+    if not got_image:
+        print(f"    Trying Pexels stock photo for {prompt!r}", flush=True)
+        got_image = download_pexels_photo(prompt, img_path)
+    if not got_image and not _POLLINATIONS_DEAD:
         fallback_prompt = random.choice(GENERIC_FALLBACK_PROMPTS)
         print(f"    Retrying with generic fallback prompt: {fallback_prompt!r}", flush=True)
         try:
             download_image(fallback_prompt, img_path)
+            got_image = True
         except Exception as e2:
             print(f"    Generic fallback also failed: {e2}", flush=True)
-            clips, source = _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip)
-            print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
-            return clips, source
+    if not got_image:
+        got_image = download_pexels_photo(random.choice(GENERIC_FALLBACK_PROMPTS), img_path)
+    if not got_image:
+        clips, source = _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip)
+        print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
+        return clips, source
 
     # download_image() now validates it got a real, decodable image before
     # returning (see _is_decodable_image) - but ffmpeg's zoompan/Ken Burns

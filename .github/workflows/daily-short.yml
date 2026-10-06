@@ -243,6 +243,7 @@ jobs:
           # of this file. generate_short.py's _get_nude_detector() already
           # falls back cleanly to the bundled default model whenever this
           # isn't a real file path.
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # stock video + photo (Pollinations now 402s)
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           # Optional fallback key from a SEPARATE Groq account (its own
           # independent daily token quota - Groq rate-limits per
