@@ -1056,6 +1056,47 @@ def download_pexels_photo(query, out_path):
     return False
 
 
+def download_pixabay_photo(query, out_path):
+    """Second stock-photo source (Pexels paused new key issuance). Needs
+    PIXABAY_API_KEY (free, instant signup at pixabay.com/api/docs). Same
+    safety path as the Pexels photo fallback: decodable + NudeNet + vision."""
+    api_key = os.environ.get("PIXABAY_API_KEY")
+    if not api_key:
+        return False
+    try:
+        r = requests.get(
+            "https://pixabay.com/api/",
+            params={"key": api_key, "q": query[:100], "image_type": "photo",
+                    "orientation": "vertical", "safesearch": "true",
+                    "min_width": 720, "per_page": 20},
+            timeout=20,
+        )
+        if r.status_code != 200:
+            return False
+        hits = r.json().get("hits", [])
+        random.shuffle(hits)
+        for h in hits[:3]:
+            url = h.get("largeImageURL") or h.get("webformatURL")
+            if not url:
+                continue
+            img = requests.get(url, timeout=60)
+            if img.status_code != 200:
+                continue
+            out_path.write_bytes(img.content)
+            if not _is_decodable_image(out_path):
+                continue
+            if _is_flagged_nsfw(out_path, prompt=query):
+                continue
+            return True
+    except requests.exceptions.RequestException:
+        return False
+    return False
+
+
+def download_stock_photo(query, out_path):
+    return download_pexels_photo(query, out_path) or download_pixabay_photo(query, out_path)
+
+
 def download_image(prompt, out_path, width=1440, height=2560, max_retries=4):
     # Requesting above final 1080x1920 output resolution gives the zoompan
     # (Ken Burns) effect in build_video room to zoom in without softening.
@@ -1403,8 +1444,8 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None
         except Exception as e:
             print(f"    AI image failed for {prompt!r}: {e}", flush=True)
     if not got_image:
-        print(f"    Trying Pexels stock photo for {prompt!r}", flush=True)
-        got_image = download_pexels_photo(prompt, img_path)
+        print(f"    Trying stock photo for {prompt!r}", flush=True)
+        got_image = download_stock_photo(prompt, img_path)
     if not got_image and not _POLLINATIONS_DEAD:
         fallback_prompt = random.choice(GENERIC_FALLBACK_PROMPTS)
         print(f"    Retrying with generic fallback prompt: {fallback_prompt!r}", flush=True)
@@ -1414,7 +1455,7 @@ def prepare_shot_clips(prompt, shot_dur, work_dir, index, get_fallback_clip=None
         except Exception as e2:
             print(f"    Generic fallback also failed: {e2}", flush=True)
     if not got_image:
-        got_image = download_pexels_photo(random.choice(GENERIC_FALLBACK_PROMPTS), img_path)
+        got_image = download_stock_photo(random.choice(GENERIC_FALLBACK_PROMPTS), img_path)
     if not got_image:
         clips, source = _degraded_clips(n_splits, sub_dur, work_dir, index, get_fallback_clip)
         print(f"    Shot {index} degraded to fallback source: {source}", flush=True)
